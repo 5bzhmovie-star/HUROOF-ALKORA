@@ -27,13 +27,31 @@ function questionFilter(config, letter) { const params = [...config.tournaments]
     params.push(letter);
 } return { sql, params }; }
 export function questionCoverage(config) { const collect = candidate => { const filter = questionFilter(candidate), coverage = {}; for (const row of many(`SELECT q.letter,count(*) AS count FROM questions q JOIN tournaments t ON t.id=q.tournament_id WHERE ${filter.sql} GROUP BY q.letter`, ...filter.params)) coverage[row.letter] = Number(row.count); return coverage; }; const preferred = collect(config); return Object.values(preferred).reduce((sum, count) => sum + count, 0) >= config.size * config.size || config.difficulty === 'all' ? preferred : collect({ ...config, difficulty: 'all' }); }
-export function pickQuestion(config, letter, used = []) { const pick = candidate => { const filter = questionFilter(candidate, letter); return one(`SELECT q.*,t.name AS tournament FROM questions q JOIN tournaments t ON t.id=q.tournament_id WHERE ${filter.sql} AND q.id NOT IN (SELECT value FROM json_each(?)) ORDER BY random() LIMIT 1`, ...filter.params, JSON.stringify(used)) || null; }; return pick(config) || (config.difficulty !== 'all' ? pick({ ...config, difficulty: 'all' }) : null); }
-export function freshState(config, round = 1, results = [], matchKey = round) { const coverage = questionCoverage(config); return { round, matchKey, results, matchWinner: 0, board: makeBoard(config.size, coverage), current: null, cell: null, revealed: false, used: [], history: [], winner: 0, path: [], buzz: { open: false, winner: null, deadline: null, key: token(12) }, questionKey: token(12) }; }
+export function pickQuestion(config, letter, used = []) {
+  const pick = candidate => {
+    const filter = questionFilter(candidate, letter);
+    // Visual drafts are never drawn, and old text questions remain fully compatible.
+    const row = one(`SELECT q.*,t.name AS tournament,v.kind AS visual_kind,v.payload AS visual_payload
+      FROM questions q JOIN tournaments t ON t.id=q.tournament_id
+      LEFT JOIN visual_questions v ON v.question_id=q.id
+      WHERE ${filter.sql} AND q.id NOT IN (SELECT value FROM json_each(?))
+      ORDER BY random() LIMIT 1`, ...filter.params, JSON.stringify(used)) || null;
+    if(!row)return null;
+    if(row.visual_payload) {
+      try {row.visual=JSON.parse(row.visual_payload);} catch {return null;}
+      delete row.visual_payload;
+    }
+    return row;
+  };
+  return pick(config) || (config.difficulty !== 'all' ? pick({...config,difficulty:'all'}) : null);
+}
+export function freshState(config, round = 1, results = [], matchKey = round) { const coverage = questionCoverage(config); return { round, matchKey, results, matchWinner: 0, board: makeBoard(config.size, coverage), current: null, cell: null, revealed: false, used: [], history: [], winner: 0, path: [], buzz: { open: false, winner: null, deadline: null, key: token(12) }, questionKey: token(12), visualReveal:null }; }
 export function createRoom(user, body) { const config = roomConfig(body), state = freshState(config), id = token(9), now = Date.now(); run('INSERT INTO rooms(id,owner_id,config,state,created_at,updated_at,expires_at) VALUES(?,?,?,?,?,?,?)', id, user.id, JSON.stringify(config), JSON.stringify(state), now, now, now + ROOM_TTL); event(id, 'بدأت الغرفة'); return getRoom(id); }
 export function event(id, message) { run('INSERT INTO events(room_id,message,created_at) VALUES(?,?,?)', id, message, Date.now()); }
 export function projection(room, view, user) { if (view === 'host')
     owner(room, user); if (view === 'buzzer')
-    member(room, user); const { state: s, config } = room, controller = user?.id === room.owner_id; const online = new Set([...(subscribers.get(room.id) || [])].map(x => x.userId).filter(Boolean)); const players = many('SELECT user_id AS id,name,team,kicked FROM members WHERE room_id=? AND kicked=0 ORDER BY joined_at', room.id); return { id: room.id, version: room.version, config, serverTime: Date.now(), round: s.round, results: s.results || [], matchWinner: s.matchWinner || 0, board: s.board, cell: s.cell, question: publicQuestion(s.current, s.revealed || (view === 'host' && config.mode === 'human')), revealed: s.revealed, winner: s.winner, path: s.path, buzz: s.buzz, questionKey: s.questionKey, playersCount: players.length, canControl: config.mode === 'auto' && controller, me: user ? players.find(p => p.id === user.id) || null : null, ...(view === 'host' ? { players: players.map(p => ({ ...p, online: online.has(p.id) })), events: many('SELECT id,message,created_at FROM events WHERE room_id=? ORDER BY id DESC LIMIT 40', room.id), canUndo: s.history.length > 0, links: { display: `/room/${room.id}/display`, buzzer: `/room/${room.id}/buzzer` } } : {}) }; }
+    member(room, user); const { state: s, config } = room, controller = user?.id === room.owner_id; const online = new Set([...(subscribers.get(room.id) || [])].map(x => x.userId).filter(Boolean)); const players = many('SELECT user_id AS id,name,team,kicked FROM members WHERE room_id=? AND kicked=0 ORDER BY joined_at', room.id); const projected = s.current ? {...s.current,revealedSlots:s.visualReveal?.slots || []} : null;
+ return { id: room.id, version: room.version, config, serverTime: Date.now(), round: s.round, results: s.results || [], matchWinner: s.matchWinner || 0, board: s.board, cell: s.cell, question: publicQuestion(projected, s.revealed || (view === 'host' && config.mode === 'human')), visualReveal: s.visualReveal ? {mode:s.visualReveal.mode,slots:s.visualReveal.slots,startedAt:s.visualReveal.startedAt} : null, revealed: s.revealed, winner: s.winner, path: s.path, buzz: s.buzz, questionKey: s.questionKey, playersCount: players.length, canControl: config.mode === 'auto' && controller, me: user ? players.find(p => p.id === user.id) || null : null, ...(view === 'host' ? { players: players.map(p => ({ ...p, online: online.has(p.id) })), events: many('SELECT id,message,created_at FROM events WHERE room_id=? ORDER BY id DESC LIMIT 40', room.id), canUndo: s.history.length > 0, links: { display: `/room/${room.id}/display`, buzzer: `/room/${room.id}/buzzer` } } : {}) }; }
 export function broadcast(id) { const clients = subscribers.get(id); if (!clients)
     return; for (const c of clients) {
     try {
@@ -96,6 +114,7 @@ export function act(id, user, body) {
                 s.used.push(s.current.id);
                 s.cell = index;
                 s.revealed = false;
+                s.visualReveal = s.current?.visual ? {mode:'manual',slots:[],startedAt:null} : null;
                 s.questionKey = token(12);
                 closeBuzz(s);
                 if (room.config.mode === 'auto')
@@ -118,6 +137,26 @@ export function act(id, user, body) {
                 if (room.config.mode === 'auto')
                     s.buzz.open = true;
                 message = 'تم تغيير السؤال';
+                break;
+            }
+            case 'visual-reveal-slot': {
+                if(!s.current?.visual || s.revealed || !s.visualReveal)fail(409,'لا يوجد سؤال تشكيلات متاح للكشف.');
+                if(s.current.visual.type === 'career')fail(422,'هذا النوع لا يحتوي على تشكيلات.');
+                const slot = Number(body.slot);
+                if(!Number.isInteger(slot)||slot<0||slot>10)fail(422,'اختر لاعبًا من التشكيلة.');
+                s.visualReveal.slots = [...new Set([...s.visualReveal.slots,slot])].sort((a,b)=>a-b);
+                s.visualReveal.mode = 'manual';
+                s.visualReveal.startedAt = Date.now();
+                message = 'كُشفت بطاقة لاعب';
+                break;
+            }
+            case 'visual-reveal-all':
+            case 'visual-reveal-auto': {
+                if(!s.current?.visual || s.revealed)fail(409,'لا يوجد سؤال بصري للكشف.');
+                s.revealed = true;
+                s.visualReveal = {mode:body.action==='visual-reveal-auto'?'auto':'all',slots:[0,1,2,3,4,5,6,7,8,9,10],startedAt:Date.now()};
+                closeBuzz(s);
+                message='اكتمل الكشف البصري';
                 break;
             }
             case 'reveal':
