@@ -1,5 +1,5 @@
 // Curated source-linked identity starter. Safe to rerun; NOT licensed photo content.
-import {seedDatabase} from '../server/database.mjs';
+import {seedDatabase,one} from '../server/database.mjs';
 import {addEntity,addRelation} from '../server/football-library.mjs';
 const date='2026-10-09';
 const madrid='https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/once-inicial-del-real-madrid-para-la-final-de-la-champions';
@@ -31,6 +31,9 @@ const argentinaNames=[
  ['alvarez','خوليان ألفاريز','Julián Álvarez']
 ];
 const add=(type,externalKey,nameAr,nameEn,source)=>{
+ // Reuse central records first (including Mini Games entities), never duplicate Messi/Courtois/Benzema.
+ const existing=one('SELECT id FROM football_entities WHERE entity_type=? AND name_ar=?',type,nameAr);
+ if(existing)return existing.id;
  try{return addEntity({type,externalKey,nameAr,nameEn,source,verifiedAt:date,verification:'pending'}).id}
  catch(err){if(err.status===409 || /مسجل/.test(String(err.message)))return type+':'+externalKey;throw err}
 };
@@ -48,4 +51,4 @@ for(const [tag,ar,en] of argentinaNames){
  const id=add('player','player:arg22:'+tag,ar,en,argentina);
  try{addRelation({type:'appeared_in',from:id,to:fixtureArgentina,fromDate:'2022-12-18',source:argentina,verifiedAt:date,verification:'pending'});created++}catch(e){if(!/مسجلة/.test(e.message))throw e}
 }
-console.log(JSON.stringify({importedOrAlreadyExisting:26,relationsAdded:created,sourceDates:['2022-05-28','2022-12-18'],publishableVisualQuestions:0,note:'Identity starter only: images, player nationality and historical club affiliation require independent validation before publishing'},null,2));
+console.log(JSON.stringify({sourceLinkedEntities:26,relationsAdded:created,sourceDates:['2022-05-28','2022-12-18'],publishableVisualQuestions:0,note:'Identity starter only: images, player nationality and historical club affiliation require independent validation before publishing'},null,2));
