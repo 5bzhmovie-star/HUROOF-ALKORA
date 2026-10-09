@@ -72,3 +72,21 @@ export function fixtureDraft(fixtureId) {
  requiresReview:true})),
  publishable:false,missing:['المراكز التاريخية','الصور المرخّصة','الأعلام/الشعارات','الأندية بتاريخ المباراة']};
 }
+
+/** Non-publishable chronological career draft from one canonical player record. */
+export function careerDraft(playerId) {
+ const player=one("SELECT * FROM football_entities WHERE id=? AND entity_type='player'",playerId);
+ if(!player)fail(404,'اللاعب غير موجود في المكتبة.');
+ const stops=many("SELECT c.name_ar club,c.image_key clubLogo,r.starts_at,r.ends_at,r.relation_type,r.source FROM football_relations r JOIN football_entities c ON c.id=r.to_entity_id WHERE r.from_entity_id=? AND r.relation_type IN ('played_for','loaned_to') AND c.entity_type='club' ORDER BY r.starts_at",playerId);
+ if(stops.length<3||stops.length>8)fail(409,'المسيرة تحتاج بين 3 و8 محطات موثقة في المكتبة.');
+ const mediaUrl=x=>typeof x==='string'&&x.startsWith('/api/visual-media/')?x:'';
+ const stations=stops.map(r=>({club:r.club,clubLogo:mediaUrl(r.clubLogo),from:Number(r.starts_at.slice(0,4)),
+ to:r.ends_at?Number(r.ends_at.slice(0,4)):new Date().getUTCFullYear(),loan:r.relation_type==='loaned_to',
+ source:r.source}));
+ return {playerName:player.name_ar,playerId,
+ playerPhoto:mediaUrl(player.image_key),stations,
+ publishable:false,missing:[
+ ...(!mediaUrl(player.image_key)?['صورة اللاعب المرخصة']:[]),
+ ...stations.filter(s=>!s.clubLogo).map(s=>'شعار النادي: '+s.club)
+ ]};
+}
