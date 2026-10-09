@@ -5,6 +5,9 @@ using System.IO;
 using System.Net;
 using System.Net.Http;
 using System.Net.Sockets;
+using System.Net.NetworkInformation;
+using System.Linq;
+using System.Text.Json;
 using System.Security.Cryptography;
 using System.Threading;
 using System.Threading.Tasks;
@@ -17,17 +20,22 @@ namespace HuroofAlKora;
 /// <summary>Desktop shell has no administrative privileges or privileged JavaScript bridge.</summary>
 internal sealed class GameWindow : Form
 {
-    private const string PublicGameOrigin = "https://huroof-alkora.yaznabdulaziz1.chatgpt.site";
+    // No dependency on any hosted website. Remote play targets only a server the user configures.
     private readonly WebView2 browser;
     private readonly SplashView splash;
     private readonly Panel toolbar;
     private readonly Button localButton;
     private readonly Button onlineButton;
+    private readonly Button lanButton;
+    private readonly Button adminButton;
     private readonly SemaphoreSlim initializeGate = new(1, 1);
     private Process? backend;
     private string localUrl = "";
     private string gameUrl = "";
     private bool onlineMode;
+    private bool lanMode;
+    private string? lanIp;
+    private Uri? remoteOrigin;
     private bool webviewReady;
     private bool shuttingDown;
     private bool fullScreen;
@@ -56,16 +64,20 @@ internal sealed class GameWindow : Form
         var caption = new Label { Text = "حروف الكورة  ·  WINDOWS EDITION", AutoSize = false,
             TextAlign = ContentAlignment.MiddleLeft, ForeColor = Color.FromArgb(237, 243, 234),
             Font = new Font("Segoe UI", 10f, FontStyle.Bold), Location = new Point(62, 5), Size = new Size(260, 40) };
-        onlineButton = ToolbarButton("أونلاين", new Point(338, 9));
+        onlineButton = ToolbarButton("خادم جماعي", new Point(338, 9));
         localButton = ToolbarButton("محلي سريع", new Point(454, 9));
+        lanButton = ToolbarButton("شبكة LAN", new Point(570, 9));
+        adminButton = ToolbarButton("لوحة الإدارة", new Point(686, 9));
         onlineButton.Click += async (_, _) => await SetModeAsync(true);
         localButton.Click += async (_, _) => await SetModeAsync(false);
+        lanButton.Click += async (_, _) => await SetLanModeAsync();
+        adminButton.Click += async (_, _) => await OpenAdminAsync();
         var hint = new Label { Text = "F11  ملء الشاشة   ·   F5  تحديث   ·   F1  معلومات",
             Anchor = AnchorStyles.Top | AnchorStyles.Right, ForeColor = Color.FromArgb(175, 193, 181),
             Font = new Font("Segoe UI", 8.5f), TextAlign = ContentAlignment.MiddleRight,
-            Location = new Point(970, 9), Size = new Size(330, 29) };
-        toolbar.Resize += (_, _) => hint.Left = Math.Max(540, toolbar.Width - hint.Width - 20);
-        toolbar.Controls.AddRange(new Control[] { brandIcon, caption, onlineButton, localButton, hint, bottomBorder });
+            Location = new Point(1010, 9), Size = new Size(320, 29) };
+        toolbar.Resize += (_, _) => hint.Left = Math.Max(815, toolbar.Width - hint.Width - 20);
+        toolbar.Controls.AddRange(new Control[] { brandIcon, caption, onlineButton, localButton, lanButton, adminButton, hint, bottomBorder });
 
         splash = new SplashView();
         splash.RetryRequested += async (_, _) => await InitializeModeAsync();
@@ -99,10 +111,14 @@ internal sealed class GameWindow : Form
 
     private void RefreshModeButtons()
     {
-        localButton.BackColor = !onlineMode ? Color.FromArgb(194, 241, 124) : Color.FromArgb(35, 66, 58);
-        localButton.ForeColor = !onlineMode ? Color.FromArgb(22, 51, 41) : Color.FromArgb(237, 243, 234);
-        onlineButton.BackColor = onlineMode ? Color.FromArgb(194, 241, 124) : Color.FromArgb(35, 66, 58);
-        onlineButton.ForeColor = onlineMode ? Color.FromArgb(22, 51, 41) : Color.FromArgb(237, 243, 234);
+        var lime = Color.FromArgb(194,241,124); var ink = Color.FromArgb(22,51,41);
+        var inactive = Color.FromArgb(35,66,58); var normal = Color.FromArgb(237,243,234);
+        localButton.BackColor = !onlineMode && !lanMode ? lime : inactive;
+        localButton.ForeColor = !onlineMode && !lanMode ? ink : normal;
+        onlineButton.BackColor = onlineMode ? lime : inactive;
+        onlineButton.ForeColor = onlineMode ? ink : normal;
+        lanButton.BackColor = lanMode && !onlineMode ? lime : inactive;
+        lanButton.ForeColor = lanMode && !onlineMode ? ink : normal;
     }
 
     private static int FreeLoopbackPort()
@@ -143,7 +159,9 @@ internal sealed class GameWindow : Form
         start.ArgumentList.Add("--allow-fs-write=" + dataDir);
         start.ArgumentList.Add(serverEntry);
         start.Environment["PORT"] = port.ToString();
-        start.Environment["HOST"] = "127.0.0.1"; // never expose local server to the LAN
+        start.Environment["HOST"] = lanMode ? "0.0.0.0" : "127.0.0.1"; // LAN requires explicit user action.
+        if (lanMode && lanIp != null) start.Environment["HK_DESKTOP_LAN_IP"] = lanIp;
+        else start.Environment.Remove("HK_DESKTOP_LAN_IP");
         start.Environment["APP_ORIGIN"] = localUrl;
         start.Environment["DATA_DIR"] = dataDir;
         start.Environment["NODE_ENV"] = "desktop";
@@ -170,13 +188,115 @@ internal sealed class GameWindow : Form
         throw new TimeoutException("تعذّر بدء خادم اللعبة. تأكد من اكتمال ملفات الإصدار.");
     }
 
+    private static string? DiscoverPrivateIPv4()
+    {
+        foreach(var adapter in NetworkInterface.GetAllNetworkInterfaces()
+            .Where(n => n.OperationalStatus == OperationalStatus.Up
+                 && n.NetworkInterfaceType != NetworkInterfaceType.Loopback
+                 && n.NetworkInterfaceType != NetworkInterfaceType.Tunnel))
+        {
+            foreach(var entry in adapter.GetIPProperties().UnicastAddresses)
+            {
+                if(entry.Address.AddressFamily != AddressFamily.InterNetwork) continue;
+                var b=entry.Address.GetAddressBytes();
+                if(b[0]==10 || b[0]==192&&b[1]==168 || b[0]==172&&b[1]>=16&&b[1]<=31)
+                    return entry.Address.ToString();
+            }
+        }
+        return null;
+    }
+
+    private async Task SetLanModeAsync()
+    {
+        if (initializeGate.CurrentCount == 0) return;
+        var ip = DiscoverPrivateIPv4();
+        if(ip == null)
+        {
+            MessageBox.Show("لم أجد عنوان شبكة محلية خاصة. اتصل بشبكة Wi-Fi أو Ethernet أولًا.",
+                "الشبكة المحلية", MessageBoxButtons.OK, MessageBoxIcon.Warning); return;
+        }
+        if (lanMode && !onlineMode) return;
+        var result = MessageBox.Show(
+            "سيصبح خادم اللعبة متاحًا لأجهزة شبكتك المحلية عند سماح جدار حماية Windows بالاتصال.\n" +
+            "هذا لا يفتح اللعبة عبر الإنترنت، ولا يطلب التطبيق التشغيل كمسؤول.\n" +
+            "قد تتوقف روابط الجرس السابقة عند تغيير وضع الخادم.\n\n" +
+            $"العنوان المحلي الذي سيظهر في روابط اللاعبين: {ip}\n\nهل تود التفعيل؟",
+            "تفعيل الشبكة المحلية", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+        if(result != DialogResult.Yes) return;
+        lanIp = ip; lanMode = true; onlineMode = false; StopBackend();
+        RefreshModeButtons();
+        await InitializeModeAsync();
+    }
+
+    private static Uri? AskRemoteServer(IWin32Window owner, Uri? last)
+    {
+        using var dialog=new Form { Text="اتصال بالخادم الجماعي", Size=new Size(570,255),
+            StartPosition=FormStartPosition.CenterParent, FormBorderStyle=FormBorderStyle.FixedDialog,
+            MaximizeBox=false, MinimizeBox=false, BackColor=Color.FromArgb(16,32,31),
+            ForeColor=Color.White, RightToLeft=RightToLeft.Yes, RightToLeftLayout=true };
+        var label=new Label { Text="أدخل عنوان خادم حروف الكورة المستقل (HTTPS)\nلا يستخدم هذا الوضع موقع ChatGPT Sites القديم.",
+            Location=new Point(20,20),Size=new Size(515,54) };
+        var input=new TextBox { Text=last?.Origin ?? "https://", Location=new Point(20,93),
+            Size=new Size(515,31),RightToLeft=RightToLeft.No };
+        var ok=new Button { Text="اتصال", Location=new Point(370,145),Size=new Size(164,36),
+            DialogResult=DialogResult.OK,BackColor=Color.FromArgb(194,241,124),ForeColor=Color.FromArgb(22,51,41) };
+        var cancel=new Button { Text="إلغاء",Location=new Point(190,145),Size=new Size(164,36),
+            DialogResult=DialogResult.Cancel };
+        dialog.Controls.AddRange(new Control[]{label,input,ok,cancel});dialog.AcceptButton=ok;dialog.CancelButton=cancel;
+        if(dialog.ShowDialog(owner)!=DialogResult.OK) return null;
+        if(!Uri.TryCreate(input.Text.Trim(),UriKind.Absolute,out var url)
+             || url.Scheme != Uri.UriSchemeHttps || !string.IsNullOrEmpty(url.UserInfo)
+             || !string.IsNullOrEmpty(url.Query) || !string.IsNullOrEmpty(url.Fragment))
+        {
+            MessageBox.Show("يلزم عنوان HTTPS صحيح من خادم موثوق، دون بيانات دخول داخل الرابط.",
+                "عنوان الخادم غير صالح",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+            return null;
+        }
+        return new Uri(url.GetLeftPart(UriPartial.Authority)+"/");
+    }
+
     private async Task SetModeAsync(bool online)
     {
         if (shuttingDown || IsDisposed || initializeGate.CurrentCount == 0) return;
-        if (online == onlineMode && browser.CoreWebView2 is not null && !splash.Visible) return;
-        onlineMode = online;
+        if (online)
+        {
+            var next=AskRemoteServer(this,remoteOrigin);
+            if (next == null) return;
+            remoteOrigin=next; onlineMode=true;
+        }
+        else
+        {
+            if(!onlineMode && !lanMode && browser.CoreWebView2 is not null && !splash.Visible) return;
+            onlineMode=false;lanMode=false;lanIp=null;StopBackend();
+        }
         RefreshModeButtons();
         await InitializeModeAsync();
+    }
+
+    private async Task OpenAdminAsync()
+    {
+        if(shuttingDown || IsDisposed || initializeGate.CurrentCount == 0) return;
+        if (!onlineMode)
+        {
+            if(backend is not {HasExited:false}) await StartLocalBackendAsync();
+            var root=Path.Combine(AppContext.BaseDirectory,"game");
+            var data=Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
+                "HuroofAlKora","data");
+            try
+            {
+                if(!await AdminEnrollment.HasOwnerAsync(root,data) && !AdminEnrollment.ShowDialog(this,root,data))
+                    return;
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("تعذر إعداد الإدارة: "+ex.Message,"لوحة الإدارة",
+                    MessageBoxButtons.OK,MessageBoxIcon.Error);return;
+            }
+        }
+        if (browser.CoreWebView2 == null) await PrepareBrowserAsync();
+        if (browser.CoreWebView2 == null) return;
+        gameUrl = onlineMode ? remoteOrigin!.AbsoluteUri : localUrl;
+        browser.CoreWebView2.Navigate(gameUrl + "admin");
     }
 
     private async Task InitializeModeAsync()
@@ -185,8 +305,8 @@ internal sealed class GameWindow : Form
         try {
             if (shuttingDown || IsDisposed) return;
             splash.Show(); splash.BringToFront();
-            splash.UpdateStatus(onlineMode ? "جارٍ الاتصال بالموقع الرسمي..." : "جارٍ تشغيل المحرك المحلي...", working: true);
-            if (onlineMode) gameUrl = PublicGameOrigin + "/";
+            splash.UpdateStatus(onlineMode ? "جارٍ الاتصال بالخادم المحدد..." : lanMode ? "جارٍ بدء استضافة الشبكة المحلية..." : "جارٍ تشغيل المحرك المحلي...", working: true);
+            if (onlineMode) gameUrl = remoteOrigin?.AbsoluteUri ?? throw new InvalidOperationException("عنوان الخادم الجماعي غير محدد.");
             else {
                 await StartLocalBackendAsync();
                 gameUrl = localUrl;
@@ -246,9 +366,14 @@ internal sealed class GameWindow : Form
             args.Handled = true;
             if (args.IsUserInitiated) OpenOutside(args.Uri); // user gesture only, HTTPS only
         };
-        core.NavigationCompleted += (_, args) => {
+        core.NavigationCompleted += async (_, args) => {
             if (shuttingDown || IsDisposed) return;
             if (args.IsSuccess) {
+                // Only the invitation link is public; the host UI stays on loopback for admin safety.
+                var shareOrigin = lanMode && !onlineMode && lanIp != null
+                    ? $"http://{lanIp}:{new Uri(localUrl).Port}" : "";
+                await core.ExecuteScriptAsync("window.__HK_LAN_SHARE_ORIGIN = "
+                    + JsonSerializer.Serialize(shareOrigin) + ";");
                 splash.Hide();
                 browser.Focus();
             } else splash.UpdateStatus("تعذّر عرض اللعبة. تحقق من الاتصال، ثم حاول مرة أخرى.", error: true);
@@ -259,7 +384,8 @@ internal sealed class GameWindow : Form
     private bool AllowedInGame(string? candidate)
     {
         if (!Uri.TryCreate(candidate, UriKind.Absolute, out var uri)) return false;
-        if (onlineMode) return uri.Scheme == Uri.UriSchemeHttps && uri.Host.Equals("huroof-alkora.yaznabdulaziz1.chatgpt.site", StringComparison.OrdinalIgnoreCase) && uri.IsDefaultPort;
+        if (onlineMode) return remoteOrigin != null && uri.Scheme == Uri.UriSchemeHttps
+            && uri.GetLeftPart(UriPartial.Authority).Equals(remoteOrigin.GetLeftPart(UriPartial.Authority),StringComparison.OrdinalIgnoreCase);
         return Uri.TryCreate(localUrl, UriKind.Absolute, out var local)
             && uri.Scheme == Uri.UriSchemeHttp && uri.Host == "127.0.0.1" && uri.Port == local.Port;
     }
@@ -276,9 +402,10 @@ internal sealed class GameWindow : Form
     }
 
     private static void ShowAbout() => MessageBox.Show(
-        "حروف الكورة | Windows Edition v1.2.1\n\n" +
+        "حروف الكورة | Windows Edition v1.3.0\n\n" +
         "محلي: لعبة وخادم داخل جهازك دون صلاحيات المسؤول.\n" +
-        "أونلاين: الغرف والجرس عبر الموقع الرسمي، وتتطلب الإنترنت.\n\n" +
+        "خادم جماعي: اتصال مباشر بخادم حروف الكورة مستقل يحدده المستخدم.\n" +
+        "شبكة LAN: غرف مباشرة لأجهزة الشبكة نفسها.\n\n" +
         "F11: ملء الشاشة  ·  F5: تحديث\n\n" +
         "حماية: دون ملفات إدارية أو وصول للنظام من صفحة اللعبة.\n" +
         "المباريات المحلية غير معتمدة كإحصاءات مركزية.\n\n" +
