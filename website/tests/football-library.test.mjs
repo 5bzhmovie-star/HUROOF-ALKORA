@@ -10,7 +10,7 @@ test('shared football entity identity, historical relations, reporting and dedup
  const script=[
  "import assert from 'node:assert/strict';",
  "import {db,seedDatabase,one} from './server/database.mjs';",
- "import {addEntity,addRelation,searchEntities,getHistory,libraryStats} from './server/football-library.mjs';",
+ "import {addEntity,addRelation,searchEntities,getHistory,libraryStats,reviewEntity} from './server/football-library.mjs';",
  "seedDatabase();",
  "const first=addEntity({type:'player',externalKey:'fifa:athlete123',nameAr:'لاعب اختبار',nameEn:'Fixture Athlete',source:'https://example.org/players/123',verifiedAt:'2026-10-09',verification:'pending'});",
  "const club=addEntity({type:'club',externalKey:'fifa:club123',nameAr:'نادي اختبار',nameEn:'Fixture Club',source:'https://example.org/clubs/123',verifiedAt:'2026-10-09',verification:'pending'});",
@@ -20,6 +20,9 @@ test('shared football entity identity, historical relations, reporting and dedup
  "assert.throws(()=>addRelation(relation),/مسجلة/);",
  "assert.throws(()=>addRelation({...relation,fromDate:'2024-02-20',toDate:'2023-02-20'}),/تاريخية/);",
  "assert.equal(searchEntities({type:'player',search:'Fixture'}).length,1);",
+ "assert.throws(()=>addEntity({type:'player',externalKey:'dup-review',nameAr:'هوية غير مدققة',nameEn:'Unreviewed',source:'https://example.org/id',verifiedAt:'2026-10-09',verification:'reviewed'}),/المراجعة/);",
+ "assert.throws(()=>reviewEntity(first.id,'http://bad.org','owner-test'),/مصدر/);",
+ "assert.equal(reviewEntity(first.id,'https://example.org/evidence','owner-test').verification,'reviewed');",
  "assert.equal(getHistory(first.id).length,1);",
  "const stats=libraryStats();assert.ok(stats.entities.some(e=>e.type==='player'));assert.ok(stats.pendingReview>=2);",
  "assert.ok(one('SELECT count(*) n FROM mini_game_rounds').n>0);",
