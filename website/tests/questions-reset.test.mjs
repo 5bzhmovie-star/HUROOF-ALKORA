@@ -13,6 +13,7 @@ test('owner reset saves full JSON backup, preserves mini games and prevents rese
     import {adminGet,adminWrite} from './server/admin.mjs';
     import {readdirSync,readFileSync} from 'node:fs';
     import {resolve} from 'node:path';
+    import {createHash} from 'node:crypto';
     import assert from 'node:assert/strict';
     const owner={id:'owner-test',username:'owner-test',role:'owner',active:1};
     seedDatabase();
