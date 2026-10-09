@@ -39,7 +39,12 @@ export default function VisualEditor({tournaments,onSaved}:{tournaments:Competit
  <button type="button" onClick={()=>setLibraryOpen(v=>!v)}>{libraryOpen?'إخفاء المكتبة الكروية':'البحث عن لاعب أو فريق من المكتبة'}</button>
  {libraryOpen&&<FootballLibrary onSelect={entry=>{
   setSelectedLibrary(entry);
-  if(entry.entity_type==='player'&&kind==='career'){
+  if(entry.entity_type==='fixture'&&kind!=='career'){
+    api<any>('/admin/football-fixture-draft?id='+encodeURIComponent(entry.id)).then(draft=>{
+      setVisual((old:any)=>({...old,players:draft.players,competition:draft.fixture.name,eventDate:draft.players[0]?.date||old.eventDate}));
+      setStatus('استوردت أسماء 11 لاعبًا. يلزم استكمال المراكز والصور المرخصة والأندية بتاريخ المباراة قبل النشر.');
+    }).catch(e=>setError(e.message));
+  }else if(entry.entity_type==='player'&&kind==='career'){
    setInput(old=>({...old,answer:entry.name_ar}));
    setVisual((old:any)=>({...old,playerName:entry.name_ar,playerPhoto:entry.image_key?.startsWith('/api/visual-media/')?entry.image_key:old.playerPhoto}));
   }else if(['club','national_team'].includes(entry.entity_type)&&kind!=='career'){
