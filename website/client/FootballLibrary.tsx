@@ -74,7 +74,7 @@ export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x
       <p>اللاعبون والأندية والمنتخبات والتاريخ الكروي في مكان واحد. سجل مستقل لكل هوية، ومصادر ومراجعات تحفظ تاريخ كل معلومة.</p>
       <div className="atlas-page-meta">بيانات جهازك · آخر مراجعة لكل سجل ظاهرة في تفاصيله · عرض 100 نتيجة كحد أقصى لكل بحث</div>
     </div>
-    <div className="atlas-actions"><button className="atlas-btn" type="button" onClick={()=>void reload()}><RefreshCw size={16}/> تحديث العرض</button>
+    <div className="atlas-actions"><button className="atlas-btn" type="button" disabled={working} onClick={()=>{if(window.confirm("إضافة البطولات الإحدى عشرة إلى المكتبة كسجلات أولية قابلة للتدقيق؟"))void mutate("football-import-competitions",{},"أُضيف كتالوج البطولات الرسمي. يحتاج كل موسم وفرق وصور إلى مراجعة منفصلة.")}}><Trophy size={16}/> استيراد البطولات الـ11</button><button className="atlas-btn" type="button" onClick={()=>void reload()}><RefreshCw size={16}/> تحديث العرض</button>
      <button className="atlas-btn main" type="button" disabled={working} onClick={()=>{if(window.confirm('استيراد هويات أولية موثّقة المصدر من نهائيَي 2022 ومسيرة محمد صلاح؟ لا تُنشر أسئلة أو صور تلقائيًا.'))void mutate('football-import-starter',{},'تم استيراد السجلات المرجعية. راجع المصادر والصور قبل النشر.')}}><CloudDownload size={16}/> استيراد البيانات المرجعية</button>
     </div>
    </header>
@@ -83,7 +83,7 @@ export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x
        {n:stats?.relations||0,text:'العلاقات التاريخية',I:Layers},{n:reviewCount,text:'تحتاج مراجعة',I:AlertTriangle},{n:stats?.publishedVisual||0,text:'أسئلة بصرية منشورة',I:BookOpen},{n:11,text:'بطولات مستهدفة',I:Trophy}].map(o=><div className="atlas-metric" key={o.text}><o.I size={25} color="#c2f17c"/><div><div className="figure">{loading&&!stats?'—':o.n.toLocaleString('ar-SA')}</div><small>{o.text}</small></div></div>)}
    </div>
    <section className="atlas-collections"><h3>البطولات المعتمدة <span className="atlas-page-meta">11 مسابقة · التغطية الفعلية تعتمد على السجلات المستوردة والمعتمدة</span></h3>
-     <div className="atlas-league-grid">{LEAGUES.map(l=><button type="button" key={l.key} className={'atlas-league-card '+(league===l.key?'active':'')} onClick={()=>{setLeague(league===l.key?'':l.key);setFilter('competition');setSearch('')}}>
+     <div className="atlas-league-grid">{LEAGUES.map(l=><button type="button" key={l.key} className={'atlas-league-card '+(league===l.key?'active':'')} onClick={()=>{setLeague(league===l.key?'':l.key);setFilter('competition');setSearch(league===l.key?'':l.name)}}>
        <span className="atlas-crest"><Trophy size={23}/></span><span><strong>{l.name}</strong><small>{l.region} · {l.country}</small></span></button>)}</div>
      {league&&<p className="atlas-notice">تم اختيار {LEAGUES.find(x=>x.key===league)?.name}. هذه مسابقة ضمن خطة التغطية؛ لا يعني عرضها أن قوائم فرقها الحالية اكتملت. ابحث عن اسم البطولة في سجلات المكتبة أو استورد بياناتها المرخصة بعد مراجعتها.</p>}
    </section>
