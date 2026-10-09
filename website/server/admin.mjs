@@ -7,6 +7,7 @@ import { validateVisualQuestion } from './visual-questions.mjs';
 import {searchEntities,getHistory,libraryStats,addEntity,addRelation,fixtureDraft,careerDraft,reviewEntity} from './football-library.mjs';
 import {importOfficialStarter} from './football-starter.mjs';
 import {importCompetitionCatalog} from './football-competitions.mjs';
+import {importCatalogBatch,importHistory} from './football-import.mjs';
 import { saveMedia, referencedMediaExists } from './visual-media.mjs';
 import { mkdirSync, openSync, closeSync, writeFileSync, readFileSync, unlinkSync } from 'node:fs';
 import { resolve } from 'node:path';
@@ -56,6 +57,7 @@ export function adminGet(path, url, admin) {
         }
         case 'football-library': return searchEntities({search:url.searchParams.get('search'),type:url.searchParams.get('type')});
         case 'football-library-stats': return libraryStats();
+        case 'football-import-history': {requireAdmin(admin,['owner']);return importHistory();}
         case 'football-library-history': return getHistory(url.searchParams.get('id'));
         case 'football-fixture-draft': return fixtureDraft(url.searchParams.get('id'));
         case 'football-career-draft': return careerDraft(url.searchParams.get('id'));
@@ -98,6 +100,12 @@ export function adminGet(path, url, admin) {
 export function adminWrite(path, body, admin) {
     requireAdmin(admin);
     switch (path) {
+        case 'football-import-batch': {
+            requireAdmin(admin,['owner']);
+            const result=importCatalogBatch(body.batch,{dryRun:body.dryRun!==false});
+            if(!result.dryRun)audit(admin.username,'football.catalog-import',result.id);
+            return result;
+        }
         case 'football-import-competitions': {
             requireAdmin(admin,['owner']);
             const result=transaction(()=>importCompetitionCatalog({addEntity,one}));

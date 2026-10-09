@@ -41,6 +41,8 @@ export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x
  const [league,setLeague]=useState('');
  const [offset,setOffset]=useState(0);
  const [overview,setOverview]=useState<any[]>([]);
+ const [file,setFile]=useState<File|null>(null),[preview,setPreview]=useState<any>(null);
+ const [history,setHistory]=useState<any[]>([]);
  useEffect(()=>{const timer=setTimeout(()=>setDebounced(search),220);return ()=>clearTimeout(timer)},[search]);
  const reload=useCallback(async()=>{
   setLoading(true);setError('');
@@ -119,6 +121,24 @@ export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x
      </>:<div className="atlas-empty" style={{padding:16}}><BookOpen size={30}/><h4>بطاقة المعلومات</h4><p>اختر لاعبًا أو ناديًا أو منتخبًا لعرض بياناته ومصادره وسجله التاريخي في هذا المكان.</p></div>}
     </aside></div>
    </section>
+   <details className="atlas-create"><summary><Database size={16} style={{display:'inline'}}/> استيراد قاعدة بيانات موسم موثقة من JSON</summary>
+    <p className="atlas-page-meta">يدعم كيانات مترابطة وصورًا مخزنة في مكتبتك المحلية فقط. لا يقبل صور Base64 أو روابط عشوائية. افحص الدفعة قبل اعتمادها.</p>
+    <input type="file" accept=".json,application/json" onChange={e=>{setFile(e.target.files?.[0]||null);setPreview(null)}} />
+    <div className="atlas-actions" style={{marginTop:12}}>
+      <button type="button" className="atlas-btn" disabled={!file||working} onClick={async()=>{
+       if(!file)return;setWorking(true);setError('');
+       try{if(file.size>1800000)throw new Error('الحد الأقصى 1.8 ميجابايت');const batch=JSON.parse(await file.text());
+        const result=await api('/admin/football-import-batch',{batch,dryRun:true});setPreview({batch,result});}
+       catch(e:any){setError(e.message)}finally{setWorking(false)}
+      }}>فحص الدفعة دون تعديل البيانات</button>
+      {preview&&<button className="atlas-btn main" type="button" disabled={working} onClick={async()=>{
+       if(!window.confirm('تأكيد إضافة السجلات والعلاقات بعد الفحص؟'))return;setWorking(true);
+       try{const result=await api('/admin/football-import-batch',{batch:preview.batch,dryRun:false});setMessage('تمت إضافة '+result.added+' سجلات و'+result.linked+' علاقات؛ الصور الناقصة: '+result.missingImages);setPreview(null);await reload();}
+       catch(e:any){setError(e.message)}finally{setWorking(false)}
+      }}>اعتماد الاستيراد</button>}
+    </div>
+    {preview&&<p className="atlas-notice">المعاينة: {preview.result.entities} كيانًا، {preview.result.relations} علاقة، صور ناقصة: {preview.result.missingImages}</p>}
+   </details>
    <details className="atlas-create"><summary><Plus size={15} style={{display:'inline'}}/> إضافة كيان جديد إلى المكتبة</summary>
     <p className="atlas-page-meta">السجلات الجديدة لا تُعد موثقة تلقائيًا، ولا تُنشأ صور من أسماء العناصر.</p>
     <div className="atlas-create-grid">

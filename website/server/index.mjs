@@ -12,6 +12,9 @@ import { qrSvg } from './qr.mjs';
 import { normalizeSupportUrl } from './support-url.mjs';
 import { miniMedia } from './mini-media.mjs';
 import { getMedia } from './visual-media.mjs';
+import { importCompetitionCatalog } from './football-competitions.mjs';
+import { addEntity } from './football-library.mjs';
+import { importOfficialStarter } from './football-starter.mjs';
 import * as miniRooms from './mini-rooms.mjs';
 import { MINI_GAMES } from './mini-content.mjs';
 import { cleanupExpired } from './cleanup.mjs';
@@ -32,6 +35,15 @@ export function createApplication(options = {}) {
     if (Boolean(config.turnstileSecret) !== Boolean(config.turnstileSite))
         throw new Error('Both Turnstile keys are required.');
     seedDatabase();
+    // Preload the source-linked reference catalog in desktop builds. This only creates
+    // pending-review records; it never publishes questions or claims licensed images.
+    if (process.env.NODE_ENV === 'desktop' && !one("SELECT value FROM settings WHERE key='football_atlas_first_run_v1'")) {
+        transaction(() => {
+            importCompetitionCatalog({addEntity,one});
+            importOfficialStarter();
+            run("INSERT OR IGNORE INTO settings(key,value) VALUES('football_atlas_first_run_v1',?)",new Date().toISOString());
+        });
+    }
     const clientDir = resolve(root, 'dist/client'), assetCache = new Map(), remoteMediaCache = new Map();
     let passwordChecks = 0;
     function requireUser(session) { const user = session?.user_id ? one('SELECT * FROM users WHERE id=? AND blocked=0', session.user_id) : null; if (!user)

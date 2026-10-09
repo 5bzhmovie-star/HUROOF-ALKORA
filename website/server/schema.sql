@@ -35,3 +35,6 @@ CREATE INDEX IF NOT EXISTS idx_mini_game_events_room ON mini_game_events(room_id
 
 CREATE TABLE IF NOT EXISTS visual_questions(question_id TEXT PRIMARY KEY REFERENCES questions(id) ON DELETE CASCADE,kind TEXT NOT NULL CHECK(kind IN ('career','guess_club_nationalities','guess_nation_clubs')),payload TEXT NOT NULL CHECK(json_valid(payload)),verified_at TEXT NOT NULL,created_at INTEGER NOT NULL);
 CREATE TABLE IF NOT EXISTS visual_assets(id TEXT PRIMARY KEY,content_type TEXT NOT NULL,relative_path TEXT NOT NULL UNIQUE,sha256 TEXT NOT NULL UNIQUE,license TEXT NOT NULL,source TEXT NOT NULL,created_at INTEGER NOT NULL);
+
+CREATE TABLE IF NOT EXISTS football_import_batches(id TEXT PRIMARY KEY,source TEXT NOT NULL,snapshot_date TEXT NOT NULL,sha256 TEXT NOT NULL,entities_added INTEGER NOT NULL,relations_added INTEGER NOT NULL,images_missing INTEGER NOT NULL,created_at INTEGER NOT NULL);
+CREATE INDEX IF NOT EXISTS idx_football_import_batches_date ON football_import_batches(created_at DESC);
