@@ -1,7 +1,7 @@
 name: Windows portable build
 on:
   push:
-    branches: [development/source-import, development/native-v1.3, development/questions-reset-v1.3.1, development/visual-questions-v1.4]
+    branches: [development/source-import, development/native-v1.3, development/questions-reset-v1.4.0, development/visual-questions-v1.4]
     paths:
       - 'website/**'
       - 'desktop/**'
@@ -31,6 +31,6 @@ jobs:
         with:
           name: Huroof-AlKora-Windows-x64
           path: |
-            desktop/dist/Huroof-AlKora-Windows-v1.3.1-x64.zip
-            desktop/dist/Huroof-AlKora-Windows-v1.3.1-x64.zip.sha256.txt
+            desktop/dist/Huroof-AlKora-Windows-v1.4.0-x64.zip
+            desktop/dist/Huroof-AlKora-Windows-v1.4.0-x64.zip.sha256.txt
           if-no-files-found: error
