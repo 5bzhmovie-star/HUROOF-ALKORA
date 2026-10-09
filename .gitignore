@@ -1,0 +1,37 @@
+# Dependencies & build outputs
+**/node_modules/
+**/.next/
+**/dist/
+**/build/
+**/bin/
+**/obj/
+*.msix
+*.msixbundle
+*.msixupload
+*.appx
+*.appxupload
+*.exe
+*.pdb
+*.zip
+*.7z
+
+# Local data and secrets
+.env
+.env.*
+!.env.example
+**/*.db
+**/*.db-shm
+**/*.db-wal
+**/*.sqlite
+**/*.sqlite3
+**/data/
+**/logs/
+*.pem
+*.pfx
+*.p12
+*.key
+*.cer
+*.cert
+**/secrets/
+.DS_Store
+Thumbs.db
