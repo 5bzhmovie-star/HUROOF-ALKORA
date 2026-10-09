@@ -63,14 +63,19 @@ test('LAN HTTP accepts only the configured IP and blocks administrator endpoints
   const app=createApplication({port:0,origin:'http://127.0.0.1:0'});
   await new Promise(r=>app.server.listen(0,'127.0.0.1',r));
   const port=app.server.address().port;
-  const base='http://127.0.0.1:'+port;
+  // Node fetch/undici replaces Host with the actual transport port. Use an explicit
+  // HTTP request here to simulate the public Host header without spoofing a socket.
+  const {request}=await import('node:http');
+  const send=(path,host)=>new Promise((resolve,reject)=>{
+    const client=request({hostname:'127.0.0.1',port,path,headers:{Host:host}},response=>{
+      response.resume();response.on('end',()=>resolve(response.statusCode));
+    });
+    client.on('error',reject);client.end();
+  });
   try{
-    const allowed=await fetch(base+'/api/session',{headers:{Host:'192.168.21.42:0'}});
-    assert.equal(allowed.status,200);
-    const denied=await fetch(base+'/api/admin/overview',{headers:{Host:'192.168.21.42:0'}});
-    assert.equal(denied.status,403);
-    const wrong=await fetch(base+'/api/session',{headers:{Host:'192.168.21.43:0'}});
-    assert.equal(wrong.status,400);
+    assert.equal(await send('/api/session','192.168.21.42:0'),200);
+    assert.equal(await send('/api/admin/overview','192.168.21.42:0'),403);
+    assert.equal(await send('/api/session','192.168.21.43:0'),400);
   } finally {
     app.server.closeAllConnections();
     await new Promise(r=>app.server.close(r));
