@@ -236,7 +236,7 @@ internal sealed class GameWindow : Form
             ForeColor=Color.White, RightToLeft=RightToLeft.Yes, RightToLeftLayout=true };
         var label=new Label { Text="أدخل عنوان خادم حروف الكورة المستقل (HTTPS)\nلا يستخدم هذا الوضع موقع ChatGPT Sites القديم.",
             Location=new Point(20,20),Size=new Size(515,54) };
-        var input=new TextBox { Text=last?.Origin ?? "https://", Location=new Point(20,93),
+        var input=new TextBox { Text=last?.GetLeftPart(UriPartial.Authority) ?? "https://", Location=new Point(20,93),
             Size=new Size(515,31),RightToLeft=RightToLeft.No };
         var ok=new Button { Text="اتصال", Location=new Point(370,145),Size=new Size(164,36),
             DialogResult=DialogResult.OK,BackColor=Color.FromArgb(194,241,124),ForeColor=Color.FromArgb(22,51,41) };
