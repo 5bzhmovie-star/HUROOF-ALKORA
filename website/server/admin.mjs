@@ -4,7 +4,7 @@ import { answerLetter, LETTERS } from './game.mjs';
 import { validName, broadcast } from './rooms.mjs';
 import { normalizeSupportUrl } from './support-url.mjs';
 import { validateVisualQuestion } from './visual-questions.mjs';
-import {searchEntities,getHistory,libraryStats,addEntity,addRelation,fixtureDraft} from './football-library.mjs';
+import {searchEntities,getHistory,libraryStats,addEntity,addRelation,fixtureDraft,careerDraft} from './football-library.mjs';
 import {importOfficialStarter} from './football-starter.mjs';
 import { saveMedia, referencedMediaExists } from './visual-media.mjs';
 import { mkdirSync, openSync, closeSync, writeFileSync, readFileSync, unlinkSync } from 'node:fs';
@@ -57,6 +57,7 @@ export function adminGet(path, url, admin) {
         case 'football-library-stats': return libraryStats();
         case 'football-library-history': return getHistory(url.searchParams.get('id'));
         case 'football-fixture-draft': return fixtureDraft(url.searchParams.get('id'));
+        case 'football-career-draft': return careerDraft(url.searchParams.get('id'));
         case 'visual-media': return many('SELECT id,content_type,license,source,created_at FROM visual_assets ORDER BY created_at DESC LIMIT 500')
             .map(item=>({...item,url:'/api/visual-media/'+item.id}));
         case 'visual-questions': return many('SELECT q.id,q.text,q.answer,q.letter,q.tournament_id,q.difficulty,q.status,v.kind,v.payload,v.verified_at FROM visual_questions v JOIN questions q ON q.id=v.question_id ORDER BY q.updated_at DESC LIMIT 500')
