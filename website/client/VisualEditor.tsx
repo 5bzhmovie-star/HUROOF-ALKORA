@@ -3,6 +3,7 @@ import React,{useEffect,useState} from 'react';
 import {api,Competition} from './api';
 import {VisualQuestion} from './VisualQuestion';
 import FootballLibrary from './FootballLibrary';
+import VisualMediaPicker from './VisualMediaPicker';
 type Media={id:string;url:string;license:string;source:string;content_type:string};
 const empty=(slot:number)=>({slot,x:15+(slot%4)*23,y:15+Math.floor(slot/4)*35,name:'',position:'',nationality:'',clubAtDate:'',photo:'',flag:'',clubLogo:'',number:null as number|null});
 const careerStop=()=>({club:'',clubLogo:'',from:2020,to:2021,loan:false});
@@ -19,7 +20,7 @@ export default function VisualEditor({tournaments,onSaved}:{tournaments:Competit
  const [visual,setVisual]=useState<any>({type:'career',eventDate:'',verifiedAt:'',source:'',competition:'',playerPhoto:'',playerName:'',stations:[careerStop(),careerStop(),careerStop()],teamName:'',teamImage:'',formation:'4-3-3',coach:'',players:Array.from({length:11},(_,slot)=>empty(slot))});
  const update=(key:string,value:any)=>setVisual((s:any)=>({...s,[key]:value}));
  useEffect(()=>{api<Media[]>('/admin/visual-media').then(setAssets).catch(e=>setError(e.message));},[]);
- const mediaPicker=(value:string,changed:(value:string)=>void,label:string)=><label className="visual-input-media">{label}<select value={value||''} onChange={e=>changed(e.target.value)}><option value="">اختر صورة موثقة</option>{assets.map(m=><option key={m.id} value={m.url}>{m.id.slice(0,10)} · {m.license}</option>)}</select>{value&&<img src={value} loading="lazy" width={64} height={64} alt="معاينة الصورة"/>}</label>;
+ const mediaPicker=(value:string,changed:(value:string)=>void,label:string)=><VisualMediaPicker label={label} value={value||''} onChange={changed} assets={assets}/>;
  const updateEntry=(key:'stations'|'players',i:number,field:string,value:any)=>setVisual((prev:any)=>({...prev,[key]:prev[key].map((entry:any,j:number)=>j===i?{...entry,[field]:value}:entry)}));
  async function uploadMedia(file:File,license:string,source:string){
   if(file.size>1_350_000)throw Error('الصورة أكبر من 1.35MB، ضغطها إلى WebP أو PNG.');
