@@ -12,12 +12,12 @@ test('official source starter loads 22 distinct player identities and is idempot
    const result=spawnSync(process.execPath,['scripts/import-football-starter.mjs'],{cwd:resolve('.'),env,encoding:'utf8',timeout:60000});
    assert.equal(result.status,0,result.stderr||result.stdout);
    const count=JSON.parse(result.stdout);
-   assert.equal(count.importedOrAlreadyExisting,26);
+   assert.equal(count.sourceLinkedEntities,26);
    if(attempt===0)assert.equal(count.relationsAdded,22);
    else assert.equal(count.relationsAdded,0);
   }
   const verify=spawnSync(process.execPath,['--input-type=module','-e',
-    "import {one,db} from './server/database.mjs';console.log(JSON.stringify({players:one(\"SELECT count(*) n FROM football_entities WHERE entity_type='player' AND (id LIKE 'player:player:rm22:%' OR id LIKE 'player:player:arg22:%')\").n,relations:one(\"SELECT count(*) n FROM football_relations WHERE relation_type='appeared_in'\").n,mini:one('SELECT count(*) n FROM mini_game_rounds').n}));db.close();"
+    "import {one,db} from './server/database.mjs';console.log(JSON.stringify({players:one(\"SELECT count(DISTINCT from_entity_id) n FROM football_relations WHERE relation_type='appeared_in'\").n,relations:one(\"SELECT count(*) n FROM football_relations WHERE relation_type='appeared_in'\").n,mini:one('SELECT count(*) n FROM mini_game_rounds').n}));db.close();"
   ],{cwd:resolve('.'),env,encoding:'utf8',timeout:30000});
   assert.equal(verify.status,0,verify.stderr);
   const result=JSON.parse(verify.stdout);
