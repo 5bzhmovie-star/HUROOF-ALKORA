@@ -141,7 +141,7 @@ export function act(id, user, body) {
                 s.used.push(s.current.id);
                 s.cell = index;
                 s.revealed = false;
-                s.visualReveal = s.current?.visual ? {mode:'manual',slots:[],startedAt:null} : null;
+                s.visualReveal = s.current?.visual ? {mode:room.config.visual?.revealMode || 'manual',slots:[],startedAt:null} : null;
                 s.questionKey = token(12);
                 closeBuzz(s);
                 if (room.config.mode === 'auto')
