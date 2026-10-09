@@ -354,7 +354,7 @@ export function createApplication(options = {}) {
                     if (method === 'GET')
                         return json(res, adminGet(route, url, admin));
                     if (method === 'POST')
-                        return json(res, adminWrite(route, await bodyJson(req, 2097152), admin));
+                        return json(res, await adminWrite(route, await bodyJson(req, 2097152), admin));
                 }
                 fail(404, 'الطلب غير موجود.');
             }
