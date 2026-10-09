@@ -1,0 +1,221 @@
+Saudi Super Cup - Wikipedia (https://en.wikipedia.org/wiki/Saudi_Super_Cup)
+citeturn18view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://en.wikipedia.org/wiki/Saudi_Super_Cup","lineno":170}); Total lines: 314
+L0: Jump to content L1: 
+L2: [Input] Main menu
+L3: 
+L4: Main menu
+L5: 
+L6: [Button: move to sidebar] [Button: hide]
+L7: 
+L8: Navigation
+L9: 
+L10:   * Main page L11:   * Contents L12:   * Current events L13:   * Random article L14:   * About Wikipedia L15:   * Contact us L16: 
+L17: Contribute
+L18: 
+L19:   * Help L20:   * Learn to edit L21:   * Community portal L22:   * Recent changes L23:   * Upload file L24:   * Special pages L25: 
+L26: Search L27: 
+L28: [Input: Search Wikipedia]
+L29: 
+L30: [Input]
+L31: 
+L32: [Button: Search]
+L33: 
+L34: [Input] Appearance
+L35:   * Donate†donate.wikimedia.org L36:   * Create account L37:   * Log in L38: 
+L39: [Input] Personal tools
+L40: 
+L41:   * Donate†donate.wikimedia.org L42:   * Create account L43:   * Log in L44: ## Contents
+L45: 
+L46: [Button: move to sidebar] [Button: hide]
+L47: 
+L48:   * (Top) L49:   * 1 History L50:   * 2 Sponsorship L51:   * 3 Competition rules L52:   * 4 Editions Toggle Editions subsection
+L53:     * 4.1 Finals L54:   * 5 Statistics Toggle Statistics subsection
+L55:     * 5.1 Performance by club L56:     * 5.2 Performance by representative L57:   * 6 Top goalscorers L58:   * 7 See also L59:   * 8 References L60:   * 9 External links L61: 
+L62: [Input] Toggle the table of contents
+L63: # Saudi Super Cup
+L64: 
+L65: [Input] 15 languages
+L66:   * العربية†ar.wikipedia.org L67:   * Deutsch†de.wikipedia.org L68:   * Español†es.wikipedia.org L69:   * فارسی†fa.wikipedia.org L70:   * Français†fr.wikipedia.org L71:   * Magyar†hu.wikipedia.org L72:   * Bahasa Indonesia†id.wikipedia.org L73:   * Italiano†it.wikipedia.org L74:   * 日本語†ja.wikipedia.org L75:   * Polski†pl.wikipedia.org L76:   * Português†pt.wikipedia.org L77:   * Русский†ru.wikipedia.org L78:   * Türkçe†tr.wikipedia.org L79:   * Українська†uk.wikipedia.org L80:   * 中文†zh.wikipedia.org L81: Edit links†www.wikidata.org L82: 
+L83:   * Article L84:   * Talk L85: 
+L86: [Input] English
+L87: 
+L88:   * Read L89:   * Edit L90:   * View history L91: 
+L92: [Input] Tools
+L93: 
+L94: Tools
+L95: 
+L96: [Button: move to sidebar] [Button: hide]
+L97: 
+L98: Actions
+L99: 
+L100:   * Read L101:   * Edit L102:   * View history L103: 
+L104: General
+L105: 
+L106:   * What links here L107:   * Related changes L108:   * Upload file L109:   * Permanent link L110:   * Page information L111:   * Cite this page L112:   * Get shortened URL L113:   * Switch to legacy parser L114: 
+L115: Print/export
+L116:   * Download as PDF L117:   * Printable version L118: 
+L119: In other projects
+L120: 
+L121:   * Wikidata item†www.wikidata.org L122: 
+L123: Appearance
+L124: 
+L125: [Button: move to sidebar] [Button: hide]
+L126: 
+L127: This article is about the men's competition. For the women's competition, see Saudi Women's Super Cup .
+L128: Saudi Super Cup
+L129: كأس السوبر السعودي
+L130: Organiser(s)  | Saudi Arabian Football Federation L131: Founded  | 2013 (2013)
+L132: Region  | Saudi Arabia L133: Teams  | 4
+L134: Current champions  | Al-Ahli (2nd title)
+L135: Most championships  | Al-Hilal (5 titles)
+L136: Broadcaster  | Thmanyah L137: Website  | saff.com†www.saff.com.sa L138: Image†thumb.wikimedia.org 2026 Saudi Super Cup L139: The Saudi Super Cup is an annual super cup competition in Saudi Arabian football . Established in 2013 as a match between two teams, the format was expanded in 2022 to include four teams: the winners and runners-up of both the Saudi Pro League and the King's Cup .
+L140: ## History
+L141: 
+L142: [edit ]
+L143: The idea of having a super cup tournament in Saudi Arabia dates back to 1979 when a two-legged match was held between the 1978–79 Saudi Premier League winners, Al-Hilal , and the 1979 King Cup winners, Al-Ahli .
+L144: The first leg, which was played in Jeddah, ended in 2–2 draw and the second leg, held in Riyadh, ended in a 4–1 win for Al-Hilal.^{[1] } 20 years later, another super cup match between Al-Hilal, the 1997–98 Saudi Premier League winners, and Al-Ahli, the 1997–98 Saudi Crown Prince Cup winners, was held. It was the opening match for the inaugural Saudi Founder's Cup and ended in a 5–2 win for Al-Hilal.^{[2] }
+L145: In 2012, Saudi Arabian Football Federation officially decided to launch the tournament following the conclusion of the 2011–12 season.
+L146: The planned super cup match was set to be held between the 2011–12 Saudi Pro League winners, Al-Shabab and the 2012 King Cup of Champions winners, Al-Ahli.^{[3] } However, the 2012 Super Cup was canceled due to scheduling issues as no appropriate date for the match was found.^{[4] } The tournament was officially inaugurated in 2013 and was played by the 2012–13 Saudi Pro League winners, Al-Fateh , and 2013 King Cup of Champions winners, Al-Ittihad .^{[5] } Al-Fateh won the first official edition of the Saudi Super Cup after beating Al-Ittihad 3–2 after extra time.^{[6] } The 2014 Saudi Super Cup was the first edition to be held in Riyadh .
+L147: Al-Shabab defeated Al-Nassr 4–3 on penalties in the King Fahd International Stadium .^{[7] } In 2015, the Super Cup was played outside of Saudi Arabia for the first time. The match was between 2014–15 Saudi Pro League winners, Al-Nassr , and 2015 King Cup winners, Al-Hilal.
+L148: The match was held in Loftus Road in London and ended in 1–0 win for Al-Hilal.^{[8] } The next two editions were also held in London, with the 2016 edition held in Craven Cottage and the 2018 edition held once again in Loftus Road. In 2016, Al-Ahli defeated Al-Hilal 4–3 on penalties.^{[9] } The 2017 edition which was supposed to be contested between Al-Hilal and Al-Ittihad was the first edition to be canceled.
+L149: The decision was based on the request of then-Saudi national team manager, Edgardo Bauza , who expressed his desire to change the calendar of the season to help him set the ideal preparation program for the 2018 FIFA World Cup .^{[10] } In 2018, the tournament returned following a years absence. Al-Hilal defeated Al-Ittihad 2–1 to become the first team to win the trophy twice.^{[11] } In 2019 , the Saudi Super Cup was held in Jeddah for the first time.
+L150: Al-Nassr defeated Al-Taawoun 5–4 on penalties in the King Abdullah Stadium to win their first title.^{[12] }
+L151: On 12 January 2021, the Saudi Arabian Football Federation (SAFF) and Saudi water company "Berain" signed a sponsorship deal for the 2020 edition . The match would officially be referred to as "The Berain Saudi Super Cup".^{[13] } On 30 January 2021, Al-Nassr defeated Al-Hilal 3–0 to win their second title.^{[14] } They became the first team to win two consecutive titles and also set the record for the biggest goal margin.
+L152: On 6 January 2022, Al-Hilal defeated Al-Faisaly , who were making their debut in the competition, 4–3 on penalties to become the most successful team in the competition with three titles.^{[15] }
+L153: On 19 February 2022, the SAFF announced that the Saudi Super Cup would expand to four teams with the winners and runners-up of the Saudi Pro League and the King's Cup taking part.^{[16] }
+L154: ## Sponsorship
+L155: 
+L156: [edit ]
+L157: 
+L158:   * No Sponsorship (2013 –2019 )
+L159:   * Berain Super cup (2020 –2022 )
+L160:   * Diriyah Super cup (2023 –2024 )
+L161: 
+L162: ## Competition rules
+L163: 
+L164: [edit ]
+L165: 
+L166:   * League champions and runners up versus King's Cup winners and runners up.^{[17] }
+L167:   * The match consists of two periods of 45 minutes each, known as halves. If the scores are level at the end of 90 minutes, a penalty shoot-out determines the winner.^{[17] }
+L168: ## Editions
+L169: 
+L170: [edit ]
+L171: ### Finals
+L172: 
+L173: [edit ]
+L174: Year  | Winners  | Runners-up  | Result  | Date  | Venue  | Attendance
+L175: --- | --- | --- | --- | --- | --- | ---
+L176: 2013 | Al-Fateh | Al-Ittihad | 3–2 (a.e.t. )  | 17/08/2013  | King Abdulaziz Stadium , Mecca | 29,376
+L177: 2014 | Al-Shabab | Al-Nassr | 1–1 (4–3 p )  | 07/08/2014  | King Fahd International Stadium , Riyadh | 31,000
+L178: 2015 | Al-Hilal | Al-Nassr | 1–0  | 12/08/2015  | Loftus Road , London | 8,439
+L179: 2016 | Al-Ahli | Al-Hilal | 1–1 (4–3 p )  | 08/08/2016  | Craven Cottage , London  | 16,365
+L180: 2017  | Not played
+L181: 2018 | Al-Hilal | Al-Ittihad | 2–1  | 18/08/2018  | Loftus Road , London | 16,300
+L182: 2019 | Al-Nassr | Al-Taawoun | 1–1 (5–4 p )  | 04/01/2020  | King Abdullah Stadium , Jeddah | 40,514
+L183: 2020 | Al-Nassr | Al-Hilal | 3–0  | 30/01/2021  | King Fahd International Stadium , Riyadh | 0^{[a] }
+L184: 2021 | Al-Hilal | Al-Faisaly | 2–2 (4–3 p )  | 06/01/2022  | Prince Faisal bin Fahd Stadium , Riyadh | 6,164
+L185: Format changed to 4-team competition from 2022 onwards
+L186: 2022 | Al-Ittihad | Al-Fayha | 2–0  | 29/01/2023  | King Fahd International Stadium , Riyadh | 47,518
+L187: 2023 | Al-Hilal | Al-Ittihad | 4–1  | 11/04/2023  | Mohammed bin Zayed Stadium , Abu Dhabi | 27,250
+L188: 2024 | Al-Hilal | Al-Nassr | 4–1  | 17/08/2024  | Prince Sultan bin Abdulaziz Sports City Stadium , Abha | 14,357
+L189: 2025 | Al-Ahli | Al-Nassr | 2–2 (5–3 p )  | 23/08/2025  | Hong Kong Stadium , Hong Kong | 30,240
+L190:   1. ↑ Match held behind closed doors due to the COVID-19 pandemic.
+L191: ## Statistics
+L192: 
+L193: [edit ]
+L194: ### Performance by club
+L195: 
+L196: [edit ]
+L197: Club  | Winners  | Runners-up  | Semi-finalists  | Years won  | Years runner-up  | Years semi-finalist
+L198: --- | --- | --- | --- | --- | --- | ---
+L199: Al-Hilal | 5  | 2  | 1  | 2015, 2018, 2021, 2023, 2024  | 2016, 2020  | 2022
+L200: Al-Nassr | 2  | 4  | 2  | 2019, 2020  | 2014, 2015, 2024, 2025  | 2022, 2023
+L201: Al-Ahli | 2  | –  | 1  | 2016, 2025  |  | 2024
+L202: Al-Ittihad | 1  | 3  | 1  | 2022  | 2013, 2018, 2023  | 2025
+L203: Al-Fateh | 1  | –  | –  | 2013  |  |
+L204: Al-Shabab | 1  | –  | –  | 2014  |  |
+L205: Al-Taawoun | –  | 1  | 1  |  | 2019  | 2024
+L206: Al-Faisaly | –  | 1  | –  |  | 2021  |
+L207: Al-Fayha | –  | 1  | –  |  | 2022  |
+L208: Al-Wehda | –  | –  | 1  |  |  | 2023
+L209: Al-Qadsiah | –  | –  | 1  |  |  | 2025
+L210: ### Performance by representative
+L211: 
+L212: [edit ]
+L213: 
+L214:  | Winners  | Runners-up  | Semi-finalists
+L215: --- | --- | --- | ---
+L216: Pro League champions  | 6  | 4  | 2
+L217: King's Cup champions  | 3  | 5  | –
+L218: Pro League runners-up  | 2  | 1  | 1
+L219: Pro League fifth place  | 1  | –  | –
+L220: Pro League third place  | –  | 1  | 2
+L221: Crown Prince's Cup champions  | –  | 1  | –
+L222: King's Cup runners-up  | –  | –  | 2
+L223: Pro League fourth place  | –  | –  | 1
+L224: ## Top goalscorers
+L225: 
+L226: [edit ]
+L227: 
+L228:     As of the 2025 edition L229: 
+L230:   * Bold indicates active players in Saudi football.
+L231: Player  | Club(s)  | Goals  | Apps
+L232: --- | --- | --- | ---
+L233: Abderrazak Hamdallah | Al-Nassr , Al-Ittihad | 7  | 6
+L234: Malcom | Al-Hilal | 4  | 3
+L235: Aleksandar Mitrović | Al-Hilal | 3  | 2
+L236: Franck Kessié | Al-Ahli | 3  | 3
+L237: Cristiano Ronaldo | Al-Nassr | 3  | 6
+L238: Salem Al-Dawsari | Al-Hilal | 3  | 9
+L239: ## See also
+L240: 
+L241: [edit ]
+L242: 
+L243:   * Saudi Arabian Football Federation L244:   * Saudi Pro League L245:   * King's Cup L246: ## References
+L247: 
+L248: [edit ]
+L249:   1. ↑ "السوبر السعودي.. فكرة بدأت قبل 39 عاما"†arriyadiyah.com . Archived†web.archive.org from the original on 11 January 2020. Retrieved 11 January 2020.
+L250:   2. ↑ "الهلال والأهلي خاضا أول بطولة"†www.alwatan.com.sa . 8 August 2015.
+L251:   3. ↑ "للمرة الأولى في عهد (اتحاد عيد).. كأس سوبر في السعودية"†www.alriyadh.com . Archived†web.archive.org from the original on 5 September 2023. Retrieved 11 January 2020.
+L252:   4. ↑ "صحيفة: إلغاء مباراة "كأس السوبر" بين الشباب والأهلي"†akhbaar24.argaam.com . 2 July 2012. Archived†web.archive.org from the original on 12 January 2023. Retrieved 11 January 2020.
+L253:   5. ↑ "كأس السوبر.. افتتاحية رائعة في شتى بقاع العالم"†www.alriyadh.com . Archived†web.archive.org from the original on 8 March 2017. Retrieved 11 January 2020.
+L254:   6. ↑ "الفتح يطيح بالاتحاد ويتوج بلقب «السوبر السعودي»"†www.alriyadh.com . Archived†web.archive.org from the original on 11 January 2020. Retrieved 11 January 2020.
+L255:   7. ↑ "شمس الشباب تشرق من جديد بالـ (سوبر)"†arriyadiyah.com . Archived†web.archive.org from the original on 12 January 2023. Retrieved 12 January 2021.
+L256:   8. ↑ "الهلال يخطف السوبر السعودي بفوزه على النصر في لندن"†www.alarabiya.net . Archived†web.archive.org from the original on 4 December 2020. Retrieved 11 January 2020.
+L257:   9. ↑ "الأهلي بطلا للسوبر السعودي للمرة الأولى في تاريخه"†arabic.cnn.com . 8 August 2016. Archived†web.archive.org from the original on 10 April 2018. Retrieved 12 January 2021.
+L258:   10. ↑ "الاتحاد السعودي يوضح أسباب إلغاء مباراة الهلال والاتحاد"†www.dawriplus.com . Archived†web.archive.org from the original on 24 August 2018. Retrieved 11 January 2020.
+L259:   11. ↑ "الهلال يتوج بلقب السوبر السعودي"†www.skynewsarabia.com . Archived†web.archive.org from the original on 6 April 2019. Retrieved 12 January 2021.
+L260:   12. ↑ "بالترجيح .. النصر يهزم التعاون ويُتوَّج بكأس السوبر"†sabq.org . 4 January 2020. Archived†web.archive.org from the original on 6 January 2020. Retrieved 12 January 2021.
+L261:   13. ↑ "الاتحاد السعودي يوقع مع مياه بيرين عقد رعاية كأس السوبر السعودي"†web.archive.org . Archived from the original†www.saff.com.sa on 5 September 2023. Retrieved 12 January 2021.
+L262:   14. ↑ "النصر بطل لكأس السوبر السعودي للمرة الثانية على التوالي"†www.spa.gov.sa . Archived†web.archive.org from the original on 4 February 2021. Retrieved 30 January 2021.
+L263:   15. ↑ "ركلات الترجيح تمنح الهلال لقب السوبر السعودي"†www.alarabiya.net .
+L264:   16. ↑ "السوبر السعودي 2022 - 2023.. 4 فرق و3 مباريات"†arriyadiyah.com . Archived†web.archive.org from the original on 25 December 2022. Retrieved 19 February 2022.
+L265:   17. 1 2 "لائحة المسابقات والبطولات بالإتحاد العربي السعودي لكرة القدم"†web.archive.org [Regulations of Saudi Arabian Football Federation Competitions] (PDF) (in Arabic). Saudi Arabian Football Federation. Archived from the original†adm.thesaff.com.sa (PDF) on 20 August 2018. Retrieved 30 May 2016.
+L266: ## External links
+L267: 
+L268: [edit ]
+L269: 
+L270:   * Saudi Super Cup†www.saff.com.sa SAFF
+L271:   * Saudi Super Cup on RSSSF†www.rsssf.org L272: 
+L273: Image L274: 
+L275: Retrieved from "https://en.wikipedia.org/w/index.php?title=Saudi_Super_Cup&oldid=1367048365 "
+L276: 
+L277: Categories :
+L278: 
+L279:   * Saudi Super Cup L280:   * Men's football cup competitions in Saudi Arabia L281:   * Domestic association football super cups L282:   * Association football super cups in Asia L283: 
+L284: Hidden categories:
+L285:   * Use dmy dates from October 2023 L286:   * Articles with short description L287:   * Short description matches Wikidata L288:   * Official website not in Wikidata L289:   * CS1 Arabic-language sources (ar) L290:   * This page was last edited on 31 July 2026, at 16:57 (UTC).
+L291:   * Page was rendered with Parsoid†www.mediawiki.org .
+L292:   * Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ; additional terms may apply. By using this site, you agree to the Terms of Use†foundation.wikimedia.org and Privacy Policy†foundation.wikimedia.org . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.†wikimediafoundation.org , a non-profit organization.
+L293:   * Privacy policy†foundation.wikimedia.org L294:   * About Wikipedia L295:   * Disclaimers L296:   * Contact Wikipedia L297:   * Legal & safety contacts†foundation.wikimedia.org L298:   * Code of Conduct†foundation.wikimedia.org L299:   * Developers†developer.wikimedia.org L300:   * Statistics†stats.wikimedia.org L301:   * Cookie statement†foundation.wikimedia.org L302:   * Search
+L303: 
+L304: [Input: Search Wikipedia]
+L305: 
+L306: [Input]
+L307: 
+L308: [Button: Search]
+L309: 
+L310: [Input] Toggle the table of contents
+L311: 
+L312: Saudi Super Cup
+L313: 15 languages Add topic 

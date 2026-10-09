@@ -1,0 +1,4 @@
+# Install in the crontab of the dedicated application user after editing paths.
+# Direct Node deployment; for Docker invoke backup.mjs through compose exec -T.
+# Keep logs, backups, and the application directory private.
+15 3 * * * cd /srv/huroof-alkora && /usr/bin/node --env-file-if-exists=.env scripts/backup.mjs >> /srv/huroof-backup.log 2>&1

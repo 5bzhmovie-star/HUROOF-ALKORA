@@ -1,0 +1,1186 @@
+[
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 1930؟",
+    "answer": "أوروغواي",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 1930؟",
+    "answer": "الأرجنتين",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 1930؟",
+    "answer": "أوروغواي",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 1934؟",
+    "answer": "إيطاليا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 1934؟",
+    "answer": "تشيكوسلوفاكيا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 1934؟",
+    "answer": "إيطاليا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 1938؟",
+    "answer": "إيطاليا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 1938؟",
+    "answer": "المجر",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 1938؟",
+    "answer": "فرنسا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 1950؟",
+    "answer": "أوروغواي",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 1950؟",
+    "answer": "البرازيل",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 1950؟",
+    "answer": "البرازيل",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 1954؟",
+    "answer": "ألمانيا الغربية",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 1954؟",
+    "answer": "المجر",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 1954؟",
+    "answer": "سويسرا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 1958؟",
+    "answer": "البرازيل",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 1958؟",
+    "answer": "السويد",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 1958؟",
+    "answer": "السويد",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 1962؟",
+    "answer": "البرازيل",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 1962؟",
+    "answer": "تشيكوسلوفاكيا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 1962؟",
+    "answer": "تشيلي",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 1966؟",
+    "answer": "إنجلترا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 1966؟",
+    "answer": "ألمانيا الغربية",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 1966؟",
+    "answer": "إنجلترا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 1970؟",
+    "answer": "البرازيل",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 1970؟",
+    "answer": "إيطاليا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 1970؟",
+    "answer": "المكسيك",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 1974؟",
+    "answer": "ألمانيا الغربية",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 1974؟",
+    "answer": "هولندا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 1974؟",
+    "answer": "ألمانيا الغربية",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 1978؟",
+    "answer": "الأرجنتين",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 1978؟",
+    "answer": "هولندا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 1978؟",
+    "answer": "الأرجنتين",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 1982؟",
+    "answer": "إيطاليا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 1982؟",
+    "answer": "ألمانيا الغربية",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 1982؟",
+    "answer": "إسبانيا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 1986؟",
+    "answer": "الأرجنتين",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 1986؟",
+    "answer": "ألمانيا الغربية",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 1986؟",
+    "answer": "المكسيك",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 1990؟",
+    "answer": "ألمانيا الغربية",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 1990؟",
+    "answer": "الأرجنتين",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 1990؟",
+    "answer": "إيطاليا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 1994؟",
+    "answer": "البرازيل",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 1994؟",
+    "answer": "إيطاليا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 1994؟",
+    "answer": "الولايات المتحدة",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 1998؟",
+    "answer": "فرنسا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 1998؟",
+    "answer": "البرازيل",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 1998؟",
+    "answer": "فرنسا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 2002؟",
+    "answer": "البرازيل",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 2002؟",
+    "answer": "ألمانيا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 2006؟",
+    "answer": "إيطاليا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 2006؟",
+    "answer": "فرنسا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 2006؟",
+    "answer": "ألمانيا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 2010؟",
+    "answer": "إسبانيا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 2010؟",
+    "answer": "هولندا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 2010؟",
+    "answer": "جنوب أفريقيا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 2014؟",
+    "answer": "ألمانيا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 2014؟",
+    "answer": "الأرجنتين",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 2014؟",
+    "answer": "البرازيل",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 2018؟",
+    "answer": "فرنسا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 2018؟",
+    "answer": "كرواتيا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 2018؟",
+    "answer": "روسيا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب تُوّج بكأس العالم 2022؟",
+    "answer": "الأرجنتين",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي منتخب احتل المركز الثاني في كأس العالم 2022؟",
+    "answer": "فرنسا",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "worldcup",
+    "text": "أي دولة استضافت كأس العالم 2022؟",
+    "answer": "قطر",
+    "source": "https://en.wikipedia.org/wiki/FIFA_World_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2002–03؟",
+    "answer": "ثيردساك تشايمان",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2004؟",
+    "answer": "رضا تكر",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2005؟",
+    "answer": "محمد نور",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2006؟",
+    "answer": "تشوي جين تشول",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2007؟",
+    "answer": "يويتشيرو ناغاي",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2008؟",
+    "answer": "ياسوهيتو إندو",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2009؟",
+    "answer": "نو بيونغ جون",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2010؟",
+    "answer": "ساشا أوغنينوفسكي",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2011؟",
+    "answer": "لي دونغ غوك",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2012؟",
+    "answer": "لي كيون هو",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2013؟",
+    "answer": "موريكي",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2014؟",
+    "answer": "أنتي تشوفيتش",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2015؟",
+    "answer": "ريكاردو غولارت",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2016؟",
+    "answer": "عمر عبدالرحمن",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2017؟",
+    "answer": "يوسوكي كاشيواغي",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2018؟",
+    "answer": "يوما سوزوكي",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2019؟",
+    "answer": "بافيتيمبي غوميز",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2020؟",
+    "answer": "يون بيت غارام",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2021؟",
+    "answer": "سالم الدوسري",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2022؟",
+    "answer": "هيروكي ساكاي",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من اختير أفضل لاعب في دوري أبطال آسيا في نسخة 2023–24؟",
+    "answer": "سفيان رحيمي",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2002–03 برصيد 9 أهداف؟",
+    "answer": "هاو هايدونغ",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2004 برصيد 9 أهداف؟",
+    "answer": "كيم دو هون",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2005 برصيد 6 أهداف؟",
+    "answer": "محمد كالون",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2006 برصيد 8 أهداف؟",
+    "answer": "ماغنو ألفيس",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2007 برصيد 7 أهداف؟",
+    "answer": "موتا",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2008 برصيد 9 أهداف؟",
+    "answer": "نانتاوات تانسوبا",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2009 برصيد 10 أهداف؟",
+    "answer": "لياندرو",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2010 برصيد 9 أهداف؟",
+    "answer": "خوسيه موتا",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2011 برصيد 9 أهداف؟",
+    "answer": "لي دونغ غوك",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2012 برصيد 12 أهداف؟",
+    "answer": "ريكاردو أوليفيرا",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2013 برصيد 13 أهداف؟",
+    "answer": "موريكي",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2014 برصيد 12 أهداف؟",
+    "answer": "أسامواه جيان",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2015 برصيد 8 أهداف؟",
+    "answer": "ريكاردو غولارت",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2016 برصيد 13 أهداف؟",
+    "answer": "أدريانو",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2017 برصيد 10 أهداف؟",
+    "answer": "عمر خربين",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2018 برصيد 13 أهداف؟",
+    "answer": "بغداد بونجاح",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2019 برصيد 11 أهداف؟",
+    "answer": "بافيتيمبي غوميز",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2020 برصيد 7 أهداف؟",
+    "answer": "عبدالرزاق حمدالله",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2021 برصيد 9 أهداف؟",
+    "answer": "مايكل أولونغا",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2022 برصيد 8 أهداف؟",
+    "answer": "إدميلسون جونيور",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "afc",
+    "text": "من تصدّر هدافي دوري أبطال آسيا في نسخة 2023–24 برصيد 13 أهداف؟",
+    "answer": "سفيان رحيمي",
+    "source": "https://en.wikipedia.org/wiki/AFC_Champions_League_Elite",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "في أي مدينة أُقيم نهائي كأس السوبر السعودي لنسخة 2013؟",
+    "answer": "مكة",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "medium",
+    "note": "اسم النسخة قد يختلف عن سنة إقامة النهائي."
+  },
+  {
+    "tournament_id": "super",
+    "text": "ما اسم ملعب نهائي السوبر السعودي لنسخة 2013؟",
+    "answer": "مدينة الملك عبدالعزيز الرياضية",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "hard",
+    "note": "تُقبل المسميات السابقة للملعب، والاسم بدون كلمة ملعب أو مدينة إن وافق عليها المقدم."
+  },
+  {
+    "tournament_id": "super",
+    "text": "في أي مدينة أُقيم نهائي كأس السوبر السعودي لنسخة 2014؟",
+    "answer": "الرياض",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "medium",
+    "note": "اسم النسخة قد يختلف عن سنة إقامة النهائي."
+  },
+  {
+    "tournament_id": "super",
+    "text": "ما اسم ملعب نهائي السوبر السعودي لنسخة 2014؟",
+    "answer": "مدينة الملك فهد الرياضية",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "hard",
+    "note": "تُقبل المسميات السابقة للملعب، والاسم بدون كلمة ملعب أو مدينة إن وافق عليها المقدم."
+  },
+  {
+    "tournament_id": "super",
+    "text": "في أي مدينة أُقيم نهائي كأس السوبر السعودي لنسخة 2015؟",
+    "answer": "لندن",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "medium",
+    "note": "اسم النسخة قد يختلف عن سنة إقامة النهائي."
+  },
+  {
+    "tournament_id": "super",
+    "text": "ما اسم ملعب نهائي السوبر السعودي لنسخة 2015؟",
+    "answer": "لوفتس رود",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "hard",
+    "note": "تُقبل المسميات السابقة للملعب، والاسم بدون كلمة ملعب أو مدينة إن وافق عليها المقدم."
+  },
+  {
+    "tournament_id": "super",
+    "text": "في أي مدينة أُقيم نهائي كأس السوبر السعودي لنسخة 2016؟",
+    "answer": "لندن",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "medium",
+    "note": "اسم النسخة قد يختلف عن سنة إقامة النهائي."
+  },
+  {
+    "tournament_id": "super",
+    "text": "ما اسم ملعب نهائي السوبر السعودي لنسخة 2016؟",
+    "answer": "كرافن كوتيج",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "hard",
+    "note": "تُقبل المسميات السابقة للملعب، والاسم بدون كلمة ملعب أو مدينة إن وافق عليها المقدم."
+  },
+  {
+    "tournament_id": "super",
+    "text": "في أي مدينة أُقيم نهائي كأس السوبر السعودي لنسخة 2018؟",
+    "answer": "لندن",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "medium",
+    "note": "اسم النسخة قد يختلف عن سنة إقامة النهائي."
+  },
+  {
+    "tournament_id": "super",
+    "text": "ما اسم ملعب نهائي السوبر السعودي لنسخة 2018؟",
+    "answer": "لوفتس رود",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "hard",
+    "note": "تُقبل المسميات السابقة للملعب، والاسم بدون كلمة ملعب أو مدينة إن وافق عليها المقدم."
+  },
+  {
+    "tournament_id": "super",
+    "text": "في أي مدينة أُقيم نهائي كأس السوبر السعودي لنسخة 2019؟",
+    "answer": "جدة",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "medium",
+    "note": "اسم النسخة قد يختلف عن سنة إقامة النهائي."
+  },
+  {
+    "tournament_id": "super",
+    "text": "ما اسم ملعب نهائي السوبر السعودي لنسخة 2019؟",
+    "answer": "مدينة الملك عبدالله الرياضية",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "hard",
+    "note": "تُقبل المسميات السابقة للملعب، والاسم بدون كلمة ملعب أو مدينة إن وافق عليها المقدم."
+  },
+  {
+    "tournament_id": "super",
+    "text": "في أي مدينة أُقيم نهائي كأس السوبر السعودي لنسخة 2020؟",
+    "answer": "الرياض",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "medium",
+    "note": "اسم النسخة قد يختلف عن سنة إقامة النهائي."
+  },
+  {
+    "tournament_id": "super",
+    "text": "ما اسم ملعب نهائي السوبر السعودي لنسخة 2020؟",
+    "answer": "مدينة الملك فهد الرياضية",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "hard",
+    "note": "تُقبل المسميات السابقة للملعب، والاسم بدون كلمة ملعب أو مدينة إن وافق عليها المقدم."
+  },
+  {
+    "tournament_id": "super",
+    "text": "في أي مدينة أُقيم نهائي كأس السوبر السعودي لنسخة 2021؟",
+    "answer": "الرياض",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "medium",
+    "note": "اسم النسخة قد يختلف عن سنة إقامة النهائي."
+  },
+  {
+    "tournament_id": "super",
+    "text": "ما اسم ملعب نهائي السوبر السعودي لنسخة 2021؟",
+    "answer": "ملعب الأمير فيصل بن فهد",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "hard",
+    "note": "تُقبل المسميات السابقة للملعب، والاسم بدون كلمة ملعب أو مدينة إن وافق عليها المقدم."
+  },
+  {
+    "tournament_id": "super",
+    "text": "في أي مدينة أُقيم نهائي كأس السوبر السعودي لنسخة 2022؟",
+    "answer": "الرياض",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "medium",
+    "note": "اسم النسخة قد يختلف عن سنة إقامة النهائي."
+  },
+  {
+    "tournament_id": "super",
+    "text": "ما اسم ملعب نهائي السوبر السعودي لنسخة 2022؟",
+    "answer": "مدينة الملك فهد الرياضية",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "hard",
+    "note": "تُقبل المسميات السابقة للملعب، والاسم بدون كلمة ملعب أو مدينة إن وافق عليها المقدم."
+  },
+  {
+    "tournament_id": "super",
+    "text": "في أي مدينة أُقيم نهائي كأس السوبر السعودي لنسخة 2023؟",
+    "answer": "أبوظبي",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "medium",
+    "note": "اسم النسخة قد يختلف عن سنة إقامة النهائي."
+  },
+  {
+    "tournament_id": "super",
+    "text": "ما اسم ملعب نهائي السوبر السعودي لنسخة 2023؟",
+    "answer": "ملعب محمد بن زايد",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "hard",
+    "note": "تُقبل المسميات السابقة للملعب، والاسم بدون كلمة ملعب أو مدينة إن وافق عليها المقدم."
+  },
+  {
+    "tournament_id": "super",
+    "text": "في أي مدينة أُقيم نهائي كأس السوبر السعودي لنسخة 2024؟",
+    "answer": "أبها",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "medium",
+    "note": "اسم النسخة قد يختلف عن سنة إقامة النهائي."
+  },
+  {
+    "tournament_id": "super",
+    "text": "ما اسم ملعب نهائي السوبر السعودي لنسخة 2024؟",
+    "answer": "مدينة الأمير سلطان بن عبدالعزيز الرياضية",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "hard",
+    "note": "تُقبل المسميات السابقة للملعب، والاسم بدون كلمة ملعب أو مدينة إن وافق عليها المقدم."
+  },
+  {
+    "tournament_id": "super",
+    "text": "من سجّل هدف الهلال الوحيد أمام النصر في نهائي السوبر السعودي 2015؟",
+    "answer": "كارلوس إدواردو",
+    "source": "https://en.wikipedia.org/wiki/2015_Saudi_Super_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "من كان هداف كأس السوبر السعودي في نسخة أغسطس 2024 بثلاثة أهداف؟",
+    "answer": "ألكسندر ميتروفيتش",
+    "source": "https://en.wikipedia.org/wiki/2024_Saudi_Super_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "من نال جائزة أفضل لاعب في السوبر السعودي بأغسطس 2024؟",
+    "answer": "ألكسندر ميتروفيتش",
+    "source": "https://en.wikipedia.org/wiki/2024_Saudi_Super_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "من حصد جائزة أفضل حارس في كأس السوبر السعودي بأغسطس 2024؟",
+    "answer": "ياسين بونو",
+    "source": "https://en.wikipedia.org/wiki/2024_Saudi_Super_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "من كان هداف نسخة السوبر السعودي التي أُقيمت في أبوظبي بأبريل 2024؟",
+    "answer": "مالكوم",
+    "source": "https://en.wikipedia.org/wiki/2023_Saudi_Super_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "من اختير أفضل لاعب في نسخة السوبر السعودي بأبوظبي في أبريل 2024؟",
+    "answer": "مالكوم",
+    "source": "https://en.wikipedia.org/wiki/2023_Saudi_Super_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "أي فريق تجاوز الوحدة في نصف نهائي السوبر السعودي بأبوظبي في 8 أبريل 2024؟",
+    "answer": "الاتحاد",
+    "source": "https://www.spa.gov.sa/N2081783",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "أي فريق تجاوز النصر في نصف نهائي السوبر السعودي بأبوظبي في 8 أبريل 2024؟",
+    "answer": "الهلال",
+    "source": "https://www.spa.gov.sa/N2081783",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "أي فريق واجه الهلال في نصف نهائي السوبر السعودي بأبوظبي في 8 أبريل 2024؟",
+    "answer": "النصر",
+    "source": "https://www.spa.gov.sa/N2081783",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "أي فريق واجه الاتحاد في نصف نهائي السوبر السعودي بأبوظبي في 8 أبريل 2024؟",
+    "answer": "الوحدة",
+    "source": "https://www.spa.gov.sa/N2081783",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "في أي دولة أُقيمت أول نسخة من السوبر السعودي خارج السعودية عام 2015؟",
+    "answer": "إنجلترا",
+    "source": "https://en.wikipedia.org/wiki/2015_Saudi_Super_Cup",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "في أي دولة أُقيم كأس السوبر السعودي بأبوظبي في أبريل 2024؟",
+    "answer": "الإمارات",
+    "source": "https://www.spa.gov.sa/N2081783",
+    "difficulty": "medium",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "ما أول نادٍ أحرز السوبر السعودي مرتين متتاليتين، في نسختي 2019 و2020؟",
+    "answer": "النصر",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "ما أول نادٍ حقق السوبر السعودي مرتين، بعد نسختي 2015 و2018؟",
+    "answer": "الهلال",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "من لعب ضد الفتح في أول مباراة للسوبر السعودي عام 2013؟",
+    "answer": "الاتحاد",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "أي نادٍ شارك في نسخة السوبر السعودي 2013 بصفته بطل الدوري؟",
+    "answer": "الفتح",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "أي نادٍ شارك في نسخة السوبر السعودي 2013 بصفته بطل كأس الملك؟",
+    "answer": "الاتحاد",
+    "source": "https://en.wikipedia.org/wiki/Saudi_Super_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "أي نادٍ شارك في السوبر السعودي 2015 بصفته بطل الدوري؟",
+    "answer": "النصر",
+    "source": "https://en.wikipedia.org/wiki/2015_Saudi_Super_Cup",
+    "difficulty": "easy",
+    "note": ""
+  },
+  {
+    "tournament_id": "super",
+    "text": "أي نادٍ شارك في السوبر السعودي 2015 بصفته بطل كأس الملك؟",
+    "answer": "الهلال",
+    "source": "https://en.wikipedia.org/wiki/2015_Saudi_Super_Cup",
+    "difficulty": "easy",
+    "note": ""
+  }
+]

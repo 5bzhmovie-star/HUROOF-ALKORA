@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>HuroofAlKora</AssemblyName>
+    <RootNamespace>HuroofAlKora</RootNamespace>
+    <ApplicationIcon>Assets\HuroofAlKora.ico</ApplicationIcon>
+    <Version>1.2.0</Version>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
+    <Product>Huroof AlKora | حروف الكورة</Product>
+    <Company>Yazn Abdulaziz</Company>
+    <Description>Huroof AlKora - Secure desktop edition with native launch experience.</Description>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\HuroofAlKora-master.png" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.4258.31" />
+  </ItemGroup>
+</Project>

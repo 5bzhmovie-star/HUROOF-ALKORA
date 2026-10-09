@@ -1,0 +1,885 @@
+ (https://raw.githubusercontent.com/openfootball/football.json/master/2019-20/fr.1.json)
+citeturn15view0 [wordlim: 200] Crawled: yesterday; Content type: text/plain; Source: open({"ref_id":"https://raw.githubusercontent.com/openfootball/football.json/master/2019-20/fr.1.json","lineno":0}); Total lines: 5573
+L0: {
+L1:   "name": "French Ligue 1 2019/20",
+L2:   "matches": [
+L3:     {
+L4:       "round": "Matchday 1",
+L5:       "date": "2019-08-09",
+L6:       "time": "20:45",
+L7:       "team1": "AS Monaco",
+L8:       "team2": "Olympique Lyonnais",
+L9:       "score": {
+L10:         "ht": [
+L11:           0,
+L12:           2
+L13:         ],
+L14:         "ft": [
+L15:           0,
+L16:           3
+L17:         ]
+L18:       }
+L19:     },
+L20:     {
+L21:       "round": "Matchday 1",
+L22:       "date": "2019-08-10",
+L23:       "time": "17:30",
+L24:       "team1": "Olympique Marseille",
+L25:       "team2": "Stade de Reims",
+L26:       "score": {
+L27:         "ht": [
+L28:           0,
+L29:           0
+L30:         ],
+L31:         "ft": [
+L32:           0,
+L33:           2
+L34:         ]
+L35:       }
+L36:     },
+L37:     {
+L38:       "round": "Matchday 1",
+L39:       "date": "2019-08-10",
+L40:       "time": "20:00",
+L41:       "team1": "Angers SCO",
+L42:       "team2": "Girondins Bordeaux",
+L43:       "score": {
+L44:         "ht": [
+L45:           3,
+L46:           1
+L47:         ],
+L48:         "ft": [
+L49:           3,
+L50:           1
+L51:         ]
+L52:       }
+L53:     },
+L54:     {
+L55:       "round": "Matchday 1",
+L56:       "date": "2019-08-10",
+L57:       "time": "20:00",
+L58:       "team1": "Dijon FCO",
+L59:       "team2": "AS Saint-Étienne",
+L60:       "score": {
+L61:         "ht": [
+L62:           1,
+L63:           2
+L64:         ],
+L65:         "ft": [
+L66:           1,
+L67:           2
+L68:         ]
+L69:       }
+L70:     },
+L71:     {
+L72:       "round": "Matchday 1",
+L73:       "date": "2019-08-10",
+L74:       "time": "20:00",
+L75:       "team1": "Montpellier HSC",
+L76:       "team2": "Stade Rennais",
+L77:       "score": {
+L78:         "ht": [
+L79:           0,
+L80:           1
+L81:         ],
+L82:         "ft": [
+L83:           0,
+L84:           1
+L85:         ]
+L86:       }
+L87:     },
+L88:     {
+L89:       "round": "Matchday 1",
+L90:       "date": "2019-08-10",
+L91:       "time": "20:00",
+L92:       "team1": "OGC Nice",
+L93:       "team2": "Amiens SC",
+L94:       "score": {
+L95:         "ht": [
+L96:           1,
+L97:           0
+L98:         ],
+L99:         "ft": [
+L100:           2,
+L101:           1
+L102:         ]
+L103:       }
+L104:     },
+L105:     {
+L106:       "round": "Matchday 1",
+L107:       "date": "2019-08-10",
+L108:       "time": "20:00",
+L109:       "team1": "Stade Brestois 29",
+L110:       "team2": "Toulouse FC",
+L111:       "score": {
+L112:         "ht": [
+L113:           1,
+L114:           0
+L115:         ],
+L116:         "ft": [
+L117:           1,
+L118:           1
+L119:         ]
+L120:       }
+L121:     },
+L122:     {
+L123:       "round": "Matchday 1",
+L124:       "date": "2019-08-11",
+L125:       "time": "15:00",
+L126:       "team1": "Lille OSC",
+L127:       "team2": "FC Nantes",
+L128:       "score": {
+L129:         "ht": [
+L130:           1,
+L131:           0
+L132:         ],
+L133:         "ft": [
+L134:           2,
+L135:           1
+L136:         ]
+L137:       }
+L138:     },
+L139:     {
+L140:       "round": "Matchday 1",
+L141:       "date": "2019-08-11",
+L142:       "time": "17:00",
+L143:       "team1": "RC Strasbourg",
+L144:       "team2": "FC Metz",
+L145:       "score": {
+L146:         "ht": [
+L147:           1,
+L148:           0
+L149:         ],
+L150:         "ft": [
+L151:           1,
+L152:           1
+L153:         ]
+L154:       }
+L155:     },
+L156:     {
+L157:       "round": "Matchday 1",
+L158:       "date": "2019-08-11",
+L159:       "time": "21:00",
+L160:       "team1": "Paris Saint-Germain",
+L161:       "team2": "Nîmes Olympique",
+L162:       "score": {
+L163:         "ht": [
+L164:           1,
+L165:           0
+L166:         ],
+L167:         "ft": [
+L168:           3,
+L169:           0
+L170:         ]
+L171:       }
+L172:     },
+L173:     {
+L174:       "round": "Matchday 2",
+L175:       "date": "2019-08-16",
+L176:       "time": "20:45",
+L177:       "team1": "Olympique Lyonnais",
+L178:       "team2": "Angers SCO",
+L179:       "score": {
+L180:         "ht": [
+L181:           3,
+L182:           0
+L183:         ],
+L184:         "ft": [
+L185:           6,
+L186:           0
+L187:         ]
+L188:       }
+L189:     },
+L190:     {
+L191:       "round": "Matchday 2",
+L192:       "date": "2019-08-17",
+L193:       "time": "17:30",
+L194:       "team1": "FC Nantes",
+L195:       "team2": "Olympique Marseille",
+L196:       "score": {
+L197:         "ft": [
+L198:           0,
+L199:           0
+L200:         ]
+L201:       }
+L202:     },
+L203:     {
+L204:       "round": "Matchday 2",
+L205:       "date": "2019-08-17",
+L206:       "time": "20:00",
+L207:       "team1": "FC Metz",
+L208:       "team2": "AS Monaco",
+L209:       "score": {
+L210:         "ht": [
+L211:           1,
+L212:           0
+L213:         ],
+L214:         "ft": [
+L215:           3,
+L216:           0
+L217:         ]
+L218:       }
+L219:     },
+L220:     {
+L221:       "round": "Matchday 2",
+L222:       "date": "2019-08-17",
+L223:       "time": "20:00",
+L224:       "team1": "Toulouse FC",
+L225:       "team2": "Dijon FCO",
+L226:       "score": {
+L227:         "ht": [
+L228:           0,
+L229:           0
+L230:         ],
+L231:         "ft": [
+L232:           1,
+L233:           0
+L234:         ]
+L235:       }
+L236:     },
+L237:     {
+L238:       "round": "Matchday 2",
+L239:       "date": "2019-08-17",
+L240:       "time": "20:00",
+L241:       "team1": "Girondins Bordeaux",
+L242:       "team2": "Montpellier HSC",
+L243:       "score": {
+L244:         "ht": [
+L245:           0,
+L246:           1
+L247:         ],
+--------------------------------------------------------------------------------
+ (https://raw.githubusercontent.com/openfootball/football.json/master/2019-20/fr.1.json)
+citeturn15view1 [wordlim: 200] Crawled: yesterday; Content type: text/plain; Source: open({"ref_id":"https://raw.githubusercontent.com/openfootball/football.json/master/2019-20/fr.1.json","lineno":800}); Total lines: 5573
+L701:           2
+L702:         ],
+L703:         "ft": [
+L704:           2,
+L705:           2
+L706:         ]
+L707:       }
+L708:     },
+L709:     {
+L710:       "round": "Matchday 5",
+L711:       "date": "2019-09-14",
+L712:       "time": "17:30",
+L713:       "team1": "Paris Saint-Germain",
+L714:       "team2": "RC Strasbourg",
+L715:       "score": {
+L716:         "ht": [
+L717:           0,
+L718:           0
+L719:         ],
+L720:         "ft": [
+L721:           1,
+L722:           0
+L723:         ]
+L724:       }
+L725:     },
+L726:     {
+L727:       "round": "Matchday 5",
+L728:       "date": "2019-09-14",
+L729:       "time": "20:00",
+L730:       "team1": "Dijon FCO",
+L731:       "team2": "Nîmes Olympique",
+L732:       "score": {
+L733:         "ft": [
+L734:           0,
+L735:           0
+L736:         ]
+L737:       }
+L738:     },
+L739:     {
+L740:       "round": "Matchday 5",
+L741:       "date": "2019-09-14",
+L742:       "time": "20:00",
+L743:       "team1": "Girondins Bordeaux",
+L744:       "team2": "FC Metz",
+L745:       "score": {
+L746:         "ht": [
+L747:           2,
+L748:           0
+L749:         ],
+L750:         "ft": [
+L751:           2,
+L752:           0
+L753:         ]
+L754:       }
+L755:     },
+L756:     {
+L757:       "round": "Matchday 5",
+L758:       "date": "2019-09-14",
+L759:       "time": "20:00",
+L760:       "team1": "Montpellier HSC",
+L761:       "team2": "OGC Nice",
+L762:       "score": {
+L763:         "ht": [
+L764:           1,
+L765:           1
+L766:         ],
+L767:         "ft": [
+L768:           2,
+L769:           1
+L770:         ]
+L771:       }
+L772:     },
+L773:     {
+L774:       "round": "Matchday 5",
+L775:       "date": "2019-09-14",
+L776:       "time": "20:00",
+L777:       "team1": "Stade Brestois 29",
+L778:       "team2": "Stade Rennais",
+L779:       "score": {
+L780:         "ft": [
+L781:           0,
+L782:           0
+L783:         ]
+L784:       }
+L785:     },
+L786:     {
+L787:       "round": "Matchday 5",
+L788:       "date": "2019-09-15",
+L789:       "time": "15:00",
+L790:       "team1": "FC Nantes",
+L791:       "team2": "Stade de Reims",
+L792:       "score": {
+L793:         "ht": [
+L794:           0,
+L795:           0
+L796:         ],
+L797:         "ft": [
+L798:           1,
+L799:           0
+L800:         ]
+L801:       }
+L802:     },
+L803:     {
+L804:       "round": "Matchday 5",
+L805:       "date": "2019-09-15",
+L806:       "time": "17:00",
+L807:       "team1": "AS Saint-Étienne",
+L808:       "team2": "Toulouse FC",
+L809:       "score": {
+L810:         "ht": [
+L811:           1,
+L812:           2
+L813:         ],
+L814:         "ft": [
+L815:           2,
+L816:           2
+L817:         ]
+L818:       }
+L819:     },
+L820:     {
+L821:       "round": "Matchday 5",
+L822:       "date": "2019-09-15",
+L823:       "time": "21:00",
+L824:       "team1": "AS Monaco",
+L825:       "team2": "Olympique Marseille",
+L826:       "score": {
+L827:         "ht": [
+L828:           2,
+L829:           2
+L830:         ],
+L831:         "ft": [
+L832:           3,
+L833:           4
+L834:         ]
+L835:       }
+L836:     },
+L837:     {
+L838:       "round": "Matchday 6",
+L839:       "date": "2019-09-20",
+L840:       "time": "20:45",
+L841:       "team1": "RC Strasbourg",
+L842:       "team2": "FC Nantes",
+L843:       "score": {
+L844:         "ht": [
+L845:           0,
+L846:           1
+L847:         ],
+L848:         "ft": [
+L849:           2,
+L850:           1
+L851:         ]
+L852:       }
+L853:     },
+L854:     {
+L855:       "round": "Matchday 6",
+L856:       "date": "2019-09-21",
+L857:       "time": "17:30",
+L858:       "team1": "Olympique Marseille",
+L859:       "team2": "Montpellier HSC",
+L860:       "score": {
+L861:         "ht": [
+L862:           0,
+L863:           1
+L864:         ],
+L865:         "ft": [
+L866:           1,
+L867:           1
+L868:         ]
+L869:       }
+L870:     },
+L871:     {
+L872:       "round": "Matchday 6",
+L873:       "date": "2019-09-21",
+L874:       "time": "20:00",
+L875:       "team1": "FC Metz",
+L876:       "team2": "Amiens SC",
+L877:       "score": {
+L878:         "ht": [
+L879:           0,
+L880:           1
+L881:         ],
+L882:         "ft": [
+L883:           1,
+L884:           2
+L885:         ]
+L886:       }
+L887:     },
+L888:     {
+L889:       "round": "Matchday 6",
+L890:       "date": "2019-09-21",
+L891:       "time": "20:00",
+L892:       "team1": "Girondins Bordeaux",
+L893:       "team2": "Stade Brestois 29",
+L894:       "score": {
+L895:         "ht": [
+L896:           1,
+L897:           2
+L898:         ],
+L899:         "ft": [
+L900:           2,
+L901:           2
+L902:         ]
+L903:       }
+L904:     },
+L905:     {
+L906:       "round": "Matchday 6",
+L907:       "date": "2019-09-21",
+L908:       "time": "20:00",
+L909:       "team1": "OGC Nice",
+L910:       "team2": "Dijon FCO",
+L911:       "score": {
+L912:         "ht": [
+L913:           1,
+L914:           1
+L915:         ],
+L916:         "ft": [
+L917:           2,
+L918:           1
+L919:         ]
+L920:       }
+L921:     },
+L922:     {
+L923:       "round": "Matchday 6",
+L924:       "date": "2019-09-21",
+L925:       "time": "20:00",
+L926:       "team1": "Nîmes Olympique",
+L927:       "team2": "Toulouse FC",
+L928:       "score": {
+L929:         "ht": [
+L930:           1,
+L931:           0
+L932:         ],
+L933:         "ft": [
+L934:           1,
+L935:           0
+L936:         ]
+L937:       }
+L938:     },
+L939:     {
+L940:       "round": "Matchday 6",
+L941:       "date": "2019-09-21",
+L942:       "time": "20:00",
+L943:       "team1": "Stade de Reims",
+L944:       "team2": "AS Monaco",
+L945:       "score": {
+L946:         "ft": [
+L947:           0,
+L948:           0
+L949:         ]
+L950:       }
+L951:     },
+L952:     {
+L953:       "round": "Matchday 6",
+L954:       "date": "2019-09-22",
+L955:       "time": "15:00",
+L956:       "team1": "Stade Rennais",
+L957:       "team2": "Lille OSC",
+L958:       "score": {
+L959:         "ht": [
+L960:           0,
+L961:           0
+L962:         ],
+L963:         "ft": [
+L964:           1,
+L965:           1
+L966:         ]
+L967:       }
+L968:     },
+L969:     {
+L970:       "round": "Matchday 6",
+L971:       "date": "2019-09-22",
+L972:       "time": "17:00",
+L973:       "team1": "Angers SCO",
+L974:       "team2": "AS Saint-Étienne",
+L975:       "score": {
+L976:         "ht": [
+L977:           0,
+L978:           1
+L979:         ],
+L980:         "ft": [
+L981:           4,
+L982:           1
+L983:         ]
+L984:       }
+L985:     },
+L986:     {
+L987:       "round": "Matchday 6",
+L988:       "date": "2019-09-22",
+L989:       "time": "21:00",
+L990:       "team1": "Olympique Lyonnais",
+L991:       "team2": "Paris Saint-Germain",
+L992:       "score": {
+L993:         "ht": [
+L994:           0,
+L995:           0
+L996:         ],
+L997:         "ft": [
+L998:           0,
+L999:           1
+L1000:         ]
+L1001:       }
+L1002:     },
+L1003:     {
+L1004:       "round": "Matchday 7",
+L1005:       "date": "2019-09-24",
+L1006:       "time": "19:00",
+L1007:       "team1": "Dijon FCO",
+L1008:       "team2": "Olympique Marseille",
+L1009:       "score": {
+L1010:         "ft": [
+L1011:           0,
+L1012:           0
+L1013:         ]
+L1014:       }
+L1015:     },
+L1016:     {
+L1017:       "round": "Matchday 7",
+L1018:       "date": "2019-09-24",
+L1019:       "time": "21:00",
+L1020:       "team1": "AS Monaco",
+--------------------------------------------------------------------------------
+ (https://raw.githubusercontent.com/openfootball/football.json/master/2019-20/fr.1.json)
+citeturn15view2 [wordlim: 200] Crawled: yesterday; Content type: text/plain; Source: open({"ref_id":"https://raw.githubusercontent.com/openfootball/football.json/master/2019-20/fr.1.json","lineno":1600}); Total lines: 5573
+L1491:     },
+L1492:     {
+L1493:       "round": "Matchday 9",
+L1494:       "date": "2019-10-06",
+L1495:       "time": "21:00",
+L1496:       "team1": "AS Saint-Étienne",
+L1497:       "team2": "Olympique Lyonnais",
+L1498:       "score": {
+L1499:         "ht": [
+L1500:           0,
+L1501:           0
+L1502:         ],
+L1503:         "ft": [
+L1504:           1,
+L1505:           0
+L1506:         ]
+L1507:       }
+L1508:     },
+L1509:     {
+L1510:       "round": "Matchday 10",
+L1511:       "date": "2019-10-18",
+L1512:       "time": "20:45",
+L1513:       "team1": "OGC Nice",
+L1514:       "team2": "Paris Saint-Germain",
+L1515:       "score": {
+L1516:         "ht": [
+L1517:           0,
+L1518:           2
+L1519:         ],
+L1520:         "ft": [
+L1521:           1,
+L1522:           4
+L1523:         ]
+L1524:       }
+L1525:     },
+L1526:     {
+L1527:       "round": "Matchday 10",
+L1528:       "date": "2019-10-19",
+L1529:       "time": "17:30",
+L1530:       "team1": "Olympique Lyonnais",
+L1531:       "team2": "Dijon FCO",
+L1532:       "score": {
+L1533:         "ft": [
+L1534:           0,
+L1535:           0
+L1536:         ]
+L1537:       }
+L1538:     },
+L1539:     {
+L1540:       "round": "Matchday 10",
+L1541:       "date": "2019-10-19",
+L1542:       "time": "20:00",
+L1543:       "team1": "FC Metz",
+L1544:       "team2": "FC Nantes",
+L1545:       "score": {
+L1546:         "ht": [
+L1547:           0,
+L1548:           0
+L1549:         ],
+L1550:         "ft": [
+L1551:           1,
+L1552:           0
+L1553:         ]
+L1554:       }
+L1555:     },
+L1556:     {
+L1557:       "round": "Matchday 10",
+L1558:       "date": "2019-10-19",
+L1559:       "time": "20:00",
+L1560:       "team1": "Toulouse FC",
+L1561:       "team2": "Lille OSC",
+L1562:       "score": {
+L1563:         "ht": [
+L1564:           0,
+L1565:           0
+L1566:         ],
+L1567:         "ft": [
+L1568:           2,
+L1569:           1
+L1570:         ]
+L1571:       }
+L1572:     },
+L1573:     {
+L1574:       "round": "Matchday 10",
+L1575:       "date": "2019-10-19",
+L1576:       "time": "20:00",
+L1577:       "team1": "Nîmes Olympique",
+L1578:       "team2": "Amiens SC",
+L1579:       "score": {
+L1580:         "ht": [
+L1581:           1,
+L1582:           0
+L1583:         ],
+L1584:         "ft": [
+L1585:           1,
+L1586:           1
+L1587:         ]
+L1588:       }
+L1589:     },
+L1590:     {
+L1591:       "round": "Matchday 10",
+L1592:       "date": "2019-10-19",
+L1593:       "time": "20:00",
+L1594:       "team1": "Angers SCO",
+L1595:       "team2": "Stade Brestois 29",
+L1596:       "score": {
+L1597:         "ht": [
+L1598:           0,
+L1599:           0
+L1600:         ],
+L1601:         "ft": [
+L1602:           0,
+L1603:           1
+L1604:         ]
+L1605:       }
+L1606:     },
+L1607:     {
+L1608:       "round": "Matchday 10",
+L1609:       "date": "2019-10-19",
+L1610:       "time": "20:00",
+L1611:       "team1": "Stade de Reims",
+L1612:       "team2": "Montpellier HSC",
+L1613:       "score": {
+L1614:         "ht": [
+L1615:           1,
+L1616:           0
+L1617:         ],
+L1618:         "ft": [
+L1619:           1,
+L1620:           0
+L1621:         ]
+L1622:       }
+L1623:     },
+L1624:     {
+L1625:       "round": "Matchday 10",
+L1626:       "date": "2019-10-20",
+L1627:       "time": "15:00",
+L1628:       "team1": "Girondins Bordeaux",
+L1629:       "team2": "AS Saint-Étienne",
+L1630:       "score": {
+L1631:         "ht": [
+L1632:           0,
+L1633:           0
+L1634:         ],
+L1635:         "ft": [
+L1636:           0,
+L1637:           1
+L1638:         ]
+L1639:       }
+L1640:     },
+L1641:     {
+L1642:       "round": "Matchday 10",
+L1643:       "date": "2019-10-20",
+L1644:       "time": "17:00",
+L1645:       "team1": "AS Monaco",
+L1646:       "team2": "Stade Rennais",
+L1647:       "score": {
+L1648:         "ht": [
+L1649:           1,
+L1650:           1
+L1651:         ],
+L1652:         "ft": [
+L1653:           3,
+L1654:           2
+L1655:         ]
+L1656:       }
+L1657:     },
+L1658:     {
+L1659:       "round": "Matchday 10",
+L1660:       "date": "2019-10-20",
+L1661:       "time": "21:00",
+L1662:       "team1": "Olympique Marseille",
+L1663:       "team2": "RC Strasbourg",
+L1664:       "score": {
+L1665:         "ht": [
+L1666:           1,
+L1667:           0
+L1668:         ],
+L1669:         "ft": [
+L1670:           2,
+L1671:           0
+L1672:         ]
+L1673:       }
+L1674:     },
+L1675:     {
+L1676:       "round": "Matchday 11",
+L1677:       "date": "2019-10-25",
+L1678:       "time": "20:45",
+L1679:       "team1": "FC Nantes",
+L1680:       "team2": "AS Monaco",
+L1681:       "score": {
+L1682:         "ht": [
+L1683:           0,
+L1684:           1
+L1685:         ],
+L1686:         "ft": [
+L1687:           0,
+L1688:           1
+L1689:         ]
+L1690:       }
+L1691:     },
+L1692:     {
+L1693:       "round": "Matchday 11",
+L1694:       "date": "2019-10-26",
+L1695:       "time": "17:30",
+L1696:       "team1": "Lille OSC",
+L1697:       "team2": "Girondins Bordeaux",
+L1698:       "score": {
+L1699:         "ht": [
+L1700:           1,
+L1701:           0
+L1702:         ],
+L1703:         "ft": [
+L1704:           3,
+L1705:           0
+L1706:         ]
+L1707:       }
+L1708:     },
+L1709:     {
+L1710:       "round": "Matchday 11",
+L1711:       "date": "2019-10-26",
+L1712:       "time": "20:00",
+L1713:       "team1": "Montpellier HSC",
+L1714:       "team2": "Angers SCO",
+L1715:       "score": {
+L1716:         "ft": [
+L1717:           0,
+L1718:           0
+L1719:         ]
+L1720:       }
+L1721:     },
+L1722:     {
+L1723:       "round": "Matchday 11",
+L1724:       "date": "2019-10-26",
+L1725:       "time": "20:00",
+L1726:       "team1": "Olympique Lyonnais",
+L1727:       "team2": "FC Metz",
+L1728:       "score": {
+L1729:         "ht": [
+L1730:           2,
+L1731:           0
+L1732:         ],
+L1733:         "ft": [
+L1734:           2,
+L1735:           0
+L1736:         ]
+L1737:       }
+L1738:     },
+L1739:     {
+L1740:       "round": "Matchday 11",
+L1741:       "date": "2019-10-26",
+L1742:       "time": "20:00",
+L1743:       "team1": "RC Strasbourg",
+L1744:       "team2": "OGC Nice",
+L1745:       "score": {
+L1746:         "ht": [
+L1747:           1,
+L1748:           0
+L1749:         ],
+L1750:         "ft": [
+L1751:           1,
+L1752:           0
+L1753:         ]
+L1754:       }
+L1755:     },
+L1756:     {
+L1757:       "round": "Matchday 11",
+L1758:       "date": "2019-10-26",
+L1759:       "time": "20:00",
+L1760:       "team1": "Stade Brestois 29",
+L1761:       "team2": "Dijon FCO",
+L1762:       "score": {
+L1763:         "ht": [
+L1764:           0,
+L1765:           0
+L1766:         ],
+L1767:         "ft": [
+L1768:           2,
+L1769:           0
+L1770:         ]
+L1771:       }
+L1772:     },
+L1773:     {
+L1774:       "round": "Matchday 11",
+L1775:       "date": "2019-10-26",
+L1776:       "time": "20:00",
+L1777:       "team1": "Stade de Reims",
+L1778:       "team2": "Nîmes Olympique",
+L1779:       "score": {
+L1780:         "ft": [
+L1781:           0,
+L1782:           0
+L1783:         ]
+L1784:       }
+L1785:     },
+L1786:     {
+L1787:       "round": "Matchday 11",
+L1788:       "date": "2019-10-27",
+L1789:       "time": "15:00",
+L1790:       "team1": "Stade Rennais",
+L1791:       "team2": "Toulouse FC",
+L1792:       "score": {
+L1793:         "ht": [
+L1794:           2,
+L1795:           1
+L1796:         ],
+L1797:         "ft": [
+L1798:           3,
+

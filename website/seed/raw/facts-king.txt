@@ -1,0 +1,233 @@
+King's Cup (Saudi Arabia) - Wikipedia (https://en.wikipedia.org/wiki/King_Cup)
+citeturn19view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://en.wikipedia.org/wiki/King_Cup","lineno":175}); Total lines: 435
+L0: Jump to content L1: 
+L2: [Input] Main menu
+L3: 
+L4: Main menu
+L5: 
+L6: [Button: move to sidebar] [Button: hide]
+L7: 
+L8: Navigation
+L9: 
+L10:   * Main page L11:   * Contents L12:   * Current events L13:   * Random article L14:   * About Wikipedia L15:   * Contact us L16: 
+L17: Contribute
+L18: 
+L19:   * Help L20:   * Learn to edit L21:   * Community portal L22:   * Recent changes L23:   * Upload file L24:   * Special pages L25: 
+L26: Search L27: 
+L28: [Input: Search Wikipedia]
+L29: 
+L30: [Input]
+L31: 
+L32: [Button: Search]
+L33: 
+L34: [Input] Appearance
+L35:   * Donate†donate.wikimedia.org L36:   * Create account L37:   * Log in L38: 
+L39: [Input] Personal tools
+L40: 
+L41:   * Donate†donate.wikimedia.org L42:   * Create account L43:   * Log in L44: ## Contents
+L45: 
+L46: [Button: move to sidebar] [Button: hide]
+L47: 
+L48:   * (Top) L49:   * 1 History L50:   * 2 Trophy L51:   * 3 Champions Toggle Champions subsection
+L52:     * 3.1 List of champions L53:   * 4 Performance by club Toggle Performance by club subsection
+L54:     * 4.1 Trophies L55:   * 5 Topscorers Toggle Topscorers subsection
+L56:     * 5.1 All-time top scorers L57:     * 5.2 Per season L58:   * 6 Hat-tricks L59:   * 7 See also L60:   * 8 References L61:   * 9 External links L62: [Input] Toggle the table of contents
+L63: # King's Cup (Saudi Arabia)
+L64: 
+L65: [Input] 24 languages
+L66:   * العربية†ar.wikipedia.org L67:   * مصرى†arz.wikipedia.org L68:   * تۆرکجه†azb.wikipedia.org L69:   * Català†ca.wikipedia.org L70:   * Deutsch†de.wikipedia.org L71:   * Español†es.wikipedia.org L72:   * فارسی†fa.wikipedia.org L73:   * Français†fr.wikipedia.org L74:   * Magyar†hu.wikipedia.org L75:   * Bahasa Indonesia†id.wikipedia.org L76:   * Italiano†it.wikipedia.org L77:   * 日本語†ja.wikipedia.org L78:   * 한국어†ko.wikipedia.org L79:   * Lietuvių†lt.wikipedia.org L80:   * Bahasa Melayu†ms.wikipedia.org L81:   * Polski†pl.wikipedia.org L82:   * Português†pt.wikipedia.org L83:   * Română†ro.wikipedia.org L84:   * Русский†ru.wikipedia.org L85:   * Simple English†simple.wikipedia.org L86:   * Türkçe†tr.wikipedia.org L87:   * Українська†uk.wikipedia.org L88:   * اردو†ur.wikipedia.org L89:   * 中文†zh.wikipedia.org L90: Edit links†www.wikidata.org L91: 
+L92:   * Article L93:   * Talk L94: 
+L95: [Input] English
+L96: 
+L97:   * Read L98:   * Edit L99:   * View history L100: 
+L101: [Input] Tools
+L102: 
+L103: Tools
+L104: 
+L105: [Button: move to sidebar] [Button: hide]
+L106: 
+L107: Actions
+L108: 
+L109:   * Read L110:   * Edit L111:   * View history L112: 
+L113: General
+L114: 
+L115:   * What links here L116:   * Related changes L117:   * Upload file L118:   * Permanent link L119:   * Page information L120:   * Cite this page L121:   * Get shortened URL L122:   * Switch to legacy parser L123: 
+L124: Print/export
+L125:   * Download as PDF L126:   * Printable version L127: 
+L128: In other projects
+L129: 
+L130:   * Wikidata item†www.wikidata.org L131: 
+L132: Appearance
+L133: 
+L134: [Button: move to sidebar] [Button: hide]
+L135: 
+L136: (Redirected from King Cup )
+L137: King's Cup
+L138: كأس الملك
+L139: The Custodian of the Two Holy Mosques' Cup
+L140: كأس خادم الحرمين الشريفين
+L141: Organiser(s)  | Saudi Arabian Football Federation (SAFF)
+L142: Founded  | 1966 (1966)
+L143: 2008 (2008) (Re-established)
+L144: Region  | Saudi Arabia L145: Teams  | 32
+L146: Qualifier for  | AFC Champions League Two L147: Domestic cup  | Saudi Super Cup L148: Current champions  | Al Hilal (10th title)
+L149: Most championships  | Al-Hilal (10 titles)
+L150: Broadcaster  | Thmanyah L151: Image†upload.wikimedia.org 2026–27 King's Cup L152: The King's Cup, officially titled The Custodian of the Two Holy Mosques' Cup , is the Saudi Arabian football knockout cup competition.^{[1] }
+L153: 
+L154: The King's Cup is the second-oldest knockout competition in Saudi Arabian football , following the now-defunct Crown Prince Cup .
+L155: ## History
+L156: 
+L157: [edit ]
+L158: 
+L159: The competition was originally established in 1957 as the His Majesty's Cup (commonly known as the King Cup) and was held annually until 1990 . After a hiatus, the tournament was reintroduced in 2008 under the new name King Cup of Champions, featuring the top six finishers of the Saudi Premier League , along with the winners of the Saudi Crown Prince Cup and the Saudi Federation Cup .
+L160: In 2014 , the tournament was officially renamed the Custodian of the Two Holy Mosques' Cup and returned to a broader knockout format, more closely resembling the original structure.^{[2] }
+L161: In 2025, the Saudi Arabian Football Federation revised the historical records of the King Cup following a comprehensive review and official documentation. As part of this revision, the Federation reclassified certain titles that were previously counted as King Cup wins as league championships , in order to align with their original competitive formats.
+L162: This adjustment led to significant changes in the official title counts of various clubs—some teams saw an increase in their league championship totals, while their number of cup titles decreased accordingly.
+L163: Additionally, the establishment date of the King Cup was officially revised from 1957 to 1966, further aligning the competition’s historical framework with official documentation and structural changes.^{[3] }
+L164: ## Trophy
+L165: 
+L166: [edit ]
+L167: 
+L168: In 2024, SAFF (Saudi Arabian Football Federation) revealed a newly redesigned trophy of the Custodian of the Two Holy Mosques Cup during a ceremony held in Riyadh. A new trophy was required because under the competition's regulations, a team that wins the cup three consecutive times or four times in total has the right to keep the original trophy.^{[4] }
+L169: Made by British silversmiths, Thomas Lyte , the trophy is made of sterling silver coated with 24-carat gold plate. It weighs 9.32 kg, and is 54 cm high, 18 cm wide, has a base diameter of 17 cm and is made of marble and malachite.^{[5] }
+L170: ## Champions
+L171: 
+L172: [edit ]
+L173: 
+L174: ### List of champions
+L175: 
+L176: [edit ]
+L177: #  | Year  | Champions  | Runners-up
+L178: --- | --- | --- | ---
+L179: King Cup
+L180: ---
+L181: 1  | 1966 | Al-Wehda | Al-Ettifaq L182: 2  | 1967 | Al-Ittihad | Al-Nassr L183: 3  | 1968 | Al-Ettifaq | Al-Hilal L184: 4  | 1969 | Al-Ahli | Al-Shabab L185: –  | 1970–1975  | Not held
+L186: 5  | 1976 | Al-Nassr | Al-Ahli L187: 6  | 1977 | Al-Ahli | Al-Hilal L188: 7  | 1978 | Al-Ahli | Al-Riyadh L189: 8  | 1979 | Al-Ahli | Al-Ittihad L190: 9  | 1980 | Al-Hilal | Al-Shabab L191: 10  | 1981 | Al-Nassr | Al-Hilal L192: 11  | 1982 | Al-Hilal | Al-Ittihad L193: 12  | 1983 | Al-Ahli | Al-Ettifaq L194: 13  | 1984 | Al-Hilal | Al-Ahli L195: 14  | 1985 | Al-Ettifaq | Al-Hilal L196: 15  | 1986 | Al-Nassr | Al-Ittihad L197: 16  | 1987 | Al-Nassr | Al-Hilal L198: 17  | 1988 | Al-Ittihad | Al-Ettifaq L199: 18  | 1989 | Al-Hilal | Al-Nassr L200: 19  | 1990 | Al-Nassr | Al-Taawoun L201: –  | 1991–2007  | Not held
+L202: King Cup of Champions
+L203: ---
+L204: 20  | 2008 | Al-Shabab | Al-Ittihad L205: 21  | 2009 | Al-Shabab | Al-Ittihad L206: 22  | 2010 | Al-Ittihad | Al-Hilal L207: 23  | 2011 | Al-Ahli | Al-Ittihad L208: 24  | 2012 | Al-Ahli | Al-Nassr L209: 25  | 2013 | Al-Ittihad | Al-Shabab L210: The Custodian of the Two Holy Mosques' Cup
+L211: ---
+L212: 26  | 2014 | Al-Shabab | Al-Ahli L213: 27  | 2015 | Al-Hilal | Al-Nassr L214: 28  | 2016 | Al-Ahli | Al-Nassr L215: 29  | 2017 | Al-Hilal | Al-Ahli L216: 30  | 2018 | Al-Ittihad | Al-Faisaly L217: 31  | 2019 | Al-Taawoun | Al-Ittihad L218: 32  | 2020 | Al-Hilal | Al-Nassr L219: 33  | 2021 | Al-Faisaly | Al Taawoun L220: 34  | 2022 | Al-Fayha | Al-Hilal L221: 35  | 2023 | Al-Hilal | Al-Wehda L222: 36  | 2024 | Al-Hilal | Al-Nassr L223: 37  | 2025 | Al-Ittihad | Al-Qadsiah L224: 38  | 2026 | Al-Hilal | Al-Kholood L225: ## Performance by club
+L226: 
+L227: [edit ]
+L228: ### Trophies
+L229: 
+L230: [edit ]
+L231: 
+L232: ^{[6] }^{[7] }^{[8] }
+L233: Club  | Titles  | Winning years
+L234: --- | --- | ---
+L235: Al-Hilal | 10  | 1980 , 1982 , 1984 , 1989 , 2015 , 2017 , 2020 , 2023 , 2024 , 2026 L236: Al-Ahli | 8  | 1969 , 1977 , 1978 , 1979 , 1983 , 2011 , 2012 , 2016 L237: Al-Ittihad | 6  | 1967 , 1988 , 2010 , 2013 , 2018 , 2025 L238: Al-Nassr | 5  | 1976 , 1981 , 1986 , 1987 , 1990 L239: Al-Shabab | 3  | 2008 , 2009 , 2014 L240: Al-Ettifaq | 2  | 1968 , 1985 L241: Al-Wehda | 1  | 1966 L242: Al-Taawoun | 1  | 2019 L243: Al-Faisaly | 1  | 2021 L244: Al-Fayha | 1  | 2022 L245: Total  | 37  |
+L246: ## Topscorers
+L247: 
+L248: [edit ]
+L249: ### All-time top scorers
+L250: 
+L251: [edit ]
+L252: 
+L253:     As of 19 August 2026
+L254:  | Player  | Nationality  | Club(s)  | Goals
+L255: --- | --- | --- | --- | ---
+L256: 1  | Majed Abdullah | Saudi Arabia  | Al-Nassr | 39
+L257: 2  | Abderrazak Hamdallah | Image†upload.wikimedia.org Morocco  | Al-Nassr (20)
+L258: 
+L259: * * *
+L260: 
+L261: Al-Ittihad (6)
+L262: 
+L263: * * *
+L264: 
+L265: Al-Shabab (4)
+L266: 
+L267: * * *
+L268: 
+L269: Al-Taawoun (1)  | 31
+L270: 3  | Amin Dabou  | Saudi Arabia  | Al-Ahli | 28
+L271: 4  | Nasser Al-Shamrani L272: 
+L273: * * *
+L274: Ahmed Al-Sogaier  | Saudi Arabia
+L275: 
+L276: * * *
+L277: 
+L278: Saudi Arabia  | Al-Hilal (4)
+L279: Al-Shabab (16)
+L280: 
+L281: * * *
+L282: 
+L283: Al-Ahli (20)  | 20
+L284: 5  | Mukhtar Fallatah | Saudi Arabia  | Al-Ittihad (11)
+L285: 
+L286: * * *
+L287: 
+L288: Al-Wehda (7)  | 18
+L289: 6  | Léandre Tawamba | Image†upload.wikimedia.org Cameroon  | Al-Taawoun (12), Al-Tai (2)  | 14
+L290: 7  | Hussam Abu Dawood
+L291: 
+L292: * * *
+L293: 
+L294: Omar Al-Somah | Saudi Arabia
+L295: 
+L296: * * *
+L297: 
+L298: Syria  | Al-Ahli (12)
+L299: 
+L300: * * *
+L301: 
+L302: Al-Ahli (12)  | 12
+L303: ### Per season
+L304: 
+L305: [edit ]
+L306: Year  | Player  | Goals  | Club
+L307: --- | --- | --- | ---
+L308: 2008 | Nasser Al-Shamrani | 7  | Al Shabab Club L309: 2009 | Nasser Al-Shamrani L310: Waleed Al-Gizani | 3  | Al Shabab Club L311: Al-Hazem FC L312: 2010 | Saad Al-Harthi | 5  | Al-Nassr L313: 2011 | Mukhtar Fallatah | 6  | Al Shabab Club L314: 2012 | Élton Arábia | 5  | Al Fateh SC L315: 2013 | Mukhtar Fallatah L316: Muhannad Assiri | 4  | Al Shabab Club L317: Al Wehda FC L318: 2014 | Papa Waigo | 4  | Al-Ettifaq Club L319: 2015 | Thiago Neves | 5  | Al Hilal SFC L320: 2016 | Omar Al Somah | 5  | Al-Ahli Saudi FC L321: 2017 | Omar Kharbin | 5  | Al Dhafra FC L322: 2018 | Carlos Villanueva | 4  | Al-Ittihad L323: 2019 | Abderrazak Hamdallah | 14  | Al-Nassr L324: 2020 | Carolus Andriamatsinoro | 8  | Al Adalah Club L325: 2021 | Léandre Tawamba L326: Júlio Tavares | 4  | Al Taawoun FC L327: Al Faisaly FC L328: 2022 | Carlos Silva Júnior | 4  | Al Shabab Club L329: 2023 | Abdulfattah Adam | 3  | Al-Nassr L330: 2024 | Sadio Mané L331: Aleksandar Mitrović L332: Abderrazak Hamdallah L333: Yannick Carrasco | 4  | Al-Nassr L334: Al Hilal SFC L335: Al-Ittihad L336: Al Shabab Club L337: 2025 | Julián Quiñones | 5  | Al Qadsiah FC L338: 2026 | Ivan Toney | 6  | Al-Ahli L339: ## Hat-tricks
+L340: 
+L341: [edit ]
+L342: Player  | For  | Against  | Score  | Date
+L343: --- | --- | --- | --- | ---
+L344: Youssef Anbar | Ohod | Al-Nahda | 4–1  | 11 May 1989 L345: Saad Al-Harthi | Al-Nassr | Al-Ahli | 3–0  | 5 April 2010 L346: Victor Simões | Al-Ahli | Al-Nassr | 3–1  | 9 April 2010 L347: Mukhtar Fallatah | Al-Wehda | Al-Ettifaq | 4–3  | 11 January 2011 L348: Nasser Al-Shamrani | Al-Hilal | Al-Faisaly | 3–1  | 1 May 2015 L349: Adrian Mierzejewski | Al-Nassr | Diriyah | 7–0  | 20 January 2016 L350: Patrick Friday Eze | Al-Qadsiah | Al-Safa | 4–0  | 20 January 2017 L351: Ismaël Bangoura | Al-Raed | Al-Jabalain | 3–0  | 21 January 2017 L352: Omar Khribin | Al-Hilal | Al-Taawoun | 4–3  | 13 May 2017 L353: Mohammed Al-Saiari | Al-Ettifaq | Al-Tai | 6–0  | 3 January 2018 L354: Abderrazak Hamdallah | Al-Nassr | Al-Jandal | 6–0  | 3 January 2019 L355: Ahmed Abdu Jaber ^{4}  | Al-Wehda | Al-Nairyah | 6–1  | 3 January 2019 L356: Gelmin Rivas | Al-Hilal | Al-Dera'a | 9–0  | 5 January 2019 L357: Bafétimbi Gomis ^{4}
+L358: Abderrazak Hamdallah ^{4}  | Al-Nassr | Al-Ansar | 5–0  | 18 January 2019 L359: Hazaa Al-Hazaa | Al-Ettifaq | Al-Amjad | 9–1  | 18 January 2019 L360: Abderrazak Hamdallah | Al-Nassr | Al-Fayha | 6–0  | 21 January 2019 L361: Carolus Andriamatsinoro ^{5}  | Al-Adalah | Al-Rawdah | 8–0  | 5 December 2019 L362: Abderrazak Hamdallah | Al-Nassr | Damac | 4–2  | 24 December 2019 L363: Mohammed Al-Kuwaykibi | Al-Ettifaq | Ohod | 7–1  | 3 January 2020 L364: Júlio Tavares | Al-Faisaly | Al-Taawoun | 3–2  | 29 May 2021 L365: ## See also
+L366: 
+L367: [edit ]
+L368: 
+L369:   * Saudi Arabian Football Federation L370:   * Saudi Pro League L371:   * Saudi Super Cup L372:   * Saudi Crown Prince Cup L373:   * Prince Faisal bin Fahd Cup L374: ## References
+L375: 
+L376: [edit ]
+L377:   1. ↑ "Official SAFF site in English"†www.saff.com.sa . Archived†web.archive.org from the original on 18 September 2021. Retrieved 23 September 2021.
+L378:   2. ↑ "بيان: موافقة على تغيير نظامي كأس الملك وولي العهد"†web.archive.org . TheSAFF.com.sa. 18 September 2013. Archived from the original†thesaff.com.sa on 6 March 2016. Retrieved 17 May 2015.
+L379:   3. ↑ "الهلال "يكسر" تفوق الأهلي.. سجل الأبطال التاريخيين لكأس خادم الحرمين الشريفين"†www.so3ody.com . سعودي. 31 August 2025. Retrieved 16 September 2025.
+L380:   4. ↑ "Saudi Football Federation Unveils Redesigned King's Cup"†spa.gov.sa . spa.gov.sa. Retrieved 2025-08-15.
+L381:   5. ↑ "New King's Cup trophy unveiled in Riyadh"†arab.news . Arab News. 2024-03-14. Retrieved 2025-08-15.
+L382:   6. ↑ "Storied history of football in Saudi Arabia celebrated through landmark collaboration project"†inside.fifa.com . FIFA. 31 August 2025. Retrieved 2025-09-17.
+L383:   7. ↑ "Saudi Arabia officially documents 123 years of football history"†saudigazette.com.sa . Saudi Gazette. 1 September 2025. Retrieved 2025-09-17.
+L384:   8. ↑ "AFC President congratulates SAFF on completion of historic football heritage project"†www.the-afc.com . Asian Football Confederation. 26 August 2025. Retrieved 2025-09-17.
+L385: ## External links
+L386: 
+L387: [edit ]
+L388: 
+L389:   * King Cup†www.saff.com.sa – SAFF
+L390:   * Saudi Arabia – List of Cup Winners†www.rsssf.org , RSSSF.com
+L391:   * Champions Cup current season results and dates – Soccerway†int.soccerway.com L392:   * Saudi Champions Cup – Hailoosport.com^{[link removed ]} (Arabic)
+L393:   * Saudi Champions Cup – Hailoosport.com^{[link removed ]}
+L394: 
+L395: Image L396: 
+L397: Retrieved from "https://en.wikipedia.org/w/index.php?title=King%27s_Cup_(Saudi_Arabia)&oldid=1372548701 "
+L398: Categories :
+L399: 
+L400:   * King's Cup (Saudi Arabia) L401:   * Men's football cup competitions in Saudi Arabia L402:   * Men's national association football cups in Asia L403:   * 1966 establishments in Saudi Arabia L404:   * Recurring sporting events established in 1966 L405: 
+L406: Hidden categories:
+L407: 
+L408:   * Articles with short description L409:   * Short description is different from Wikidata L410:   * Deprecated archive template links L411:   * This page was last edited on 1 September 2026, at 05:22 (UTC).
+L412:   * Page was rendered with Parsoid†www.mediawiki.org .
+L413:   * Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ; additional terms may apply. By using this site, you agree to the Terms of Use†foundation.wikimedia.org and Privacy Policy†foundation.wikimedia.org . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.†wikimediafoundation.org , a non-profit organization.
+L414:   * Privacy policy†foundation.wikimedia.org L415:   * About Wikipedia L416:   * Disclaimers L417:   * Contact Wikipedia L418:   * Legal & safety contacts†foundation.wikimedia.org L419:   * Code of Conduct†foundation.wikimedia.org L420:   * Developers†developer.wikimedia.org L421:   * Statistics†stats.wikimedia.org L422:   * Cookie statement†foundation.wikimedia.org L423:   * Search
+L424: 
+L425: [Input: Search Wikipedia]
+L426: 
+L427: [Input]
+L428: 
+L429: [Button: Search]
+L430: 
+L431: [Input] Toggle the table of contents
+L432: 
+L433: King's Cup (Saudi Arabia)
+L434: 24 languages Add topic 

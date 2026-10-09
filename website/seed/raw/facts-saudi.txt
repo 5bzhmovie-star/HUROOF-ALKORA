@@ -1,0 +1,236 @@
+Saudi Pro League - Wikipedia (https://en.wikipedia.org/wiki/Saudi_Pro_League)
+citeturn20view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://en.wikipedia.org/wiki/Saudi_Pro_League","lineno":472}); Total lines: 881
+L356:   *     * Front: Saudi Investment Recycling Company , Neoleap
+L357:     * Back: Kayanee , Cenomi
+L358:     * Sleeves: None
+L359:     * Shorts: None
+L360: Al-Diriyah  | Bruno Lage | Waleed Abdullah | Macron | Yelo, Rassin  |
+L361: Al-Ettifaq  | Arthur Papas | TBA  | Jako | Kammelna  | List
+L362:   *     * Front: Aldyar Alarabiya, Tameeni Insurance
+L363:     * Back: Mouwasat Hospital, Xplere, Enterprise Rent-A-Car L364:     * Sleeves: Saudi Qaid Transport Company
+L365:     * Shorts: None
+L366: Al-Fateh  | Khaled Al-Atwi | Mohammed Al-Fuhaid | Offside  | None  | List
+L367:   *     * Front: Fuchsia Bakery, Tameeni Insurance
+L368:     * Back: Tamweel Aloula, Dallah Hospitals
+L369:     * Sleeves: Orinex, Freshly Kitchen
+L370:     * Shorts: None
+L371: Al-Faisaly  | Giovanni Solinas | Yassin Barnawi | Adidas  | Aldrees , Yelo  |
+L372: Al-Fayha  | Fábio Carille | Sami Al-Khaibari | HH Sports  | Basic Electronics Company  | List
+L373:   *     * Front: Tameeni Insurance
+L374:     * Back: Al Romaih Investment
+L375:     * Sleeves: Morabaha Marina Financing Company
+L376:     * Shorts: None
+L377: Al-Hazem  | Jalel Kadri | Abdulrahman Al-Dakheel | Hattrick  | Yelo  |
+L378: Al-Hilal  | Simone Inzaghi | Salem Al-Dawsari | Puma | NHC Innovation  | List
+L379:   *     * Front: Flynas L380:     * Back: Riyad Bank L381:     * Sleeves: Tree Digital Insurance Agency
+L382:     * Shorts: None
+L383: Al-Ittihad  | Jens Wissing | Danilo Pereira | Nike | None  | List
+L384: 
+L385:   *     * Front: Flow Progressive Logistics
+L386:     * Back: None
+L387:     * Sleeves: TCL L388:     * Shorts: None
+L389: Al-Khaleej  | José Gomes | Mohammed Al-Khabrani | Laser  | Yelo Rent a Car  | List
+L390:   *     * Front: Fisher Electronics , Tameeni Insurance, Almana Hospital
+L391:     * Back: Shemagh Al Bassam, Florina Shoes, Candy L392:     * Sleeves: Locate Food Delivery App, Saudi Qaid Transport Company
+L393:     * Shorts: Sayyar
+L394: Al-Kholood  | Des Buckingham | Shaquille Pinas | Kappa | Yelo Rent a Car  | List
+L395:   *     * Front: Tameeni Insurance
+L396:     * Back: Mezaj Maghribhi, Florina Shoes, Elba Cookers
+L397:     * Sleeves: Saudi Qaid Transport Company
+L398:     * Shorts: None
+L399: Al-Nassr  | Ange Postecoglou | Cristiano Ronaldo | Adidas  | Humain | List
+L400: 
+L401:   *     * Front: Gathern
+L402:     * Back: None
+L403:     * Sleeves: AROYA Cruises L404:     * Shorts: None
+L405: Al-Qadsiah  | Brendan Rodgers | Nacho | Adidas  | Aloula Aviation | List
+L406:   *     * Front: BesteBit
+L407:     * Back: iz , Zoho Corporation , Sixt L408:     * Sleeves: Dar wa Emaar
+L409:     * Shorts: Batook Nova
+L410: Al-Riyadh  | Maurício Dulac | Milan Borjan | Black Panther  | Science Technology  | List
+L411: 
+L412:   *     * Front: Tameeni Insurance
+L413:     * Back: Stars Smile
+L414:     * Sleeves: None
+L415:     * Shorts: None
+L416: Al-Shabab  | Thomas Letsch | Yannick Carrasco | Offside  | Jetour | List
+L417:   *     * Front: Theeb Rent A Car, Tameeni Insurance
+L418:     * Back: Mezaj Maghribi
+L419:     * Sleeves: Direct for Travel & Tourism
+L420:     * Shorts: None
+L421: Al-Taawoun  | Žarko Lazetić | Aschraf El Mahdioui | Macron | Aldyar Alarabiya  | List
+L422:   *     * Front: Gree Electric , Dr Tooth Clinics
+L423:     * Back: Al Dahayan Aluminum Panel Factory, Al Saif Trading Agencies
+L424:     * Sleeves: Direct KSA, Duvet Mattresses
+L425:     * Shorts: None
+L426: Neom  | Christophe Galtier | TBA  | Adidas  | Oxagon | List
+L427: 
+L428:   *     * Front: SHG
+L429:     * Back: None
+L430:     * Sleeves: None
+L431:     * Shorts: None
+L432: ## Champions
+L433: 
+L434: [edit ]
+L435: ### List of champions
+L436: 
+L437: [edit ]
+L438: 
+L439: Sources:^{[18] }^{[19] }^{[20] }
+L440: No  | Season  | Champion  | Runners-up
+L441: --- | --- | --- | ---
+L442: His Majesty's League
+L443: 1957–1974
+L444: ---
+L445: 1  | 1957–58  | Al-Wehda | Al-Ittihad L446: 2  | 1958–59  | Al-Ittihad | Al-Wehda L447: 3  | 1959–60  | Al-Ittihad | Al-Wehda L448: 4  | 1960–61  | Al-Ittihad | Al-Wehda L449: 5  | 1961–62  | Al-Hilal | Al-Wehda L450: 6  | 1962–63  | Al-Ahli | Al-Riyadh L451: 7  | 1963–64  | Al-Ittihad | Al-Hilal L452: 8  | 1964–65  | Al-Hilal | Al-Ittihad L453: 9  | 1965–66  | Al-Ahli | Al-Ettifaq L454: 10  | 1966–67  | Not completed
+L455: 11  | 1967–68  | Not held
+L456: 12  | 1968–69  | Al-Ahli | Al-Ettifaq L457: 13  | 1969–70  | Cancelled
+L458: 14  | 1970–71  | Al-Ahli | Al-Wehda L459: 15  | 1971–72  | Al-Ahli | Al-Nassr L460: 16  | 1972–73  | Al-Ahli | Al-Nassr L461: 17  | 1973–74  | Al-Nassr | Al-Ahli L462: Saudi Categorization League
+L463: 1974–1975
+L464: ---
+L465: 18  | 1974–75 | Al-Nassr | Al-Hilal L466: Saudi Premier League
+L467: 1975–2007
+L468: ---
+L469: 19  | 1975–76 | Cancelled
+L470: 20  | 1976–77 | Al-Hilal | Al-Nassr L471: 21  | 1977–78 | Al-Ahli | Al-Nassr L472: 22  | 1978–79 | Al-Hilal | Al-Nassr L473: 23  | 1979–80 | Al-Nassr | Al-Hilal L474: 24  | 1980–81 | Al-Nassr | Al-Hilal L475: 25  | 1981–82 | Al-Ittihad | Al-Shabab L476: 26  | 1982–83 | Al-Ettifaq | Al-Hilal L477: 27  | 1983–84 | Al-Ahli | Al-Ittihad L478: 28  | 1984–85 | Al-Hilal | Al-Shabab L479: 29  | 1985–86 | Al-Hilal | Al-Ittihad L480: 30  | 1986–87 | Al-Ettifaq | Al-Hilal L481: 31  | 1987–88 | Al-Hilal | Al-Ettifaq L482: 32  | 1988–89 | Al-Nassr | Al-Shabab L483: 33  | 1989–90 | Al-Hilal | Al-Ahli L484: 34  | 1990–91 | Al-Shabab | Al-Nassr L485: 35  | 1991–92 | Al-Shabab | Al-Ettifaq L486: 36  | 1992–93 | Al-Shabab | Al-Hilal L487: 37  | 1993–94 | Al-Nassr | Al-Riyadh L488: 38  | 1994–95 | Al-Nassr | Al-Hilal L489: 39  | 1995–96 | Al-Hilal | Al-Ahli L490: 40  | 1996–97 | Al-Ittihad | Al-Hilal L491: 41  | 1997–98 | Al-Hilal | Al-Shabab L492: 42  | 1998–99 | Al-Ittihad | Al-Ahli L493: 43  | 1999–2000 | Al-Ittihad | Al-Ahli L494: 44  | 2000–01 | Al-Ittihad | Al-Nassr L495: 45  | 2001–02 | Al-Hilal | Al-Ittihad L496: 46  | 2002–03 | Al-Ittihad | Al-Ahli L497: 47  | 2003–04 | Al-Shabab | Al-Ittihad L498: 48  | 2004–05 | Al-Hilal | Al-Shabab L499: 49  | 2005–06 | Al-Shabab | Al-Hilal L500: 50  | 2006–07 | Al-Ittihad | Al-Hilal L501: Saudi Pro League
+L502: 2008–present
+L503: ---
+L504: 51  | 2007–08 | Al-Hilal | Al-Ittihad L505: 52  | 2008–09 | Al-Ittihad | Al-Hilal L506: 53  | 2009–10 | Al-Hilal | Al-Ittihad L507: 54  | 2010–11 | Al-Hilal | Al-Ittihad L508: 55  | 2011–12 | Al-Shabab | Al-Ahli L509: 56  | 2012–13 | Al-Fateh | Al-Hilal L510: 57  | 2013–14 | Al-Nassr | Al-Hilal L511: 58  | 2014–15 | Al-Nassr | Al-Ahli L512: 59  | 2015–16 | Al-Ahli | Al-Hilal L513: 60  | 2016–17 | Al-Hilal | Al-Ahli L514: 61  | 2017–18 | Al-Hilal | Al-Ahli L515: 62  | 2018–19 | Al-Nassr | Al-Hilal L516: 63  | 2019–20 | Al-Hilal | Al-Nassr L517: 64  | 2020–21 | Al-Hilal | Al-Shabab L518: 65  | 2021–22 | Al-Hilal | Al-Ittihad L519: 66  | 2022–23 | Al-Ittihad | Al-Nassr L520: 67  | 2023–24 | Al-Hilal | Al-Nassr L521: 68  | 2024–25 | Al-Ittihad | Al-Hilal L522: 69  | 2025–26 | Al-Nassr | Al-Hilal L523: ## League championship records
+L524: 
+L525: [edit ]
+L526: 
+L527: ### Titles by club
+L528: 
+L529: [edit ]
+L530: 
+L531: #  | Club  | Titles  | Runners-up
+L532: --- | --- | --- | ---
+L533: 1  | Al-Hilal | 21  | 18
+L534: 2  | Al-Ittihad | 14  | 10
+L535: 3  | Al-Nassr | 11  | 10
+L536: 4  | Al-Ahli | 9  | 10
+L537: 5  | Al-Shabab | 6  | 6
+L538: 6  | Al-Ettifaq | 2  | 4
+L539: 7  | Al-Wehda | 1  | 5
+L540: 8  | Al-Fateh | 1  | 0
+L541: 9  | Al-Riyadh | 0  | 2
+L542: ### Titles by city
+L543: 
+L544: [edit ]
+L545: 
+L546: Province  | City  | Titles  | Clubs
+L547: --- | --- | --- | ---
+L548: Riyadh Province | Riyadh | 38  | Al-Hilal (21),
+L549: Al-Nassr (11),
+L550: Al-Shabab (6)
+L551: Mecca Province | Jeddah | 23  | Al-Ittihad (14),
+L552: Al-Ahli (9)
+L553: Eastern Province | Dammam | 2  | Al-Ettifaq (2)
+L554: Eastern Province | Al-Mubarraz | 1  | Al-Fateh (1)
+L555: Mecca Province | Mecca | 1  | Al-Wehda (1)
+L556: ### Titles by competition era
+L557: 
+L558: [edit ]
+L559: Competition  | Champions
+L560: --- | ---
+L561: Pro League | Al-Hilal (8),
+L562: Al-Nassr (4),
+L563: Al-Ittihad (3),
+L564: Al-Fateh (1),
+L565: Al-Ahli (1),
+L566: Al-Shabab (1)
+L567: Premier League  | Al-Hilal (11),
+L568: Al-Ittihad (7),
+L569: Al-Nassr (5),
+L570: Al-Shabab (5),
+L571: Al-Ettifaq (2),
+L572: Al-Ahli (2)
+L573: Categorization League  | Al-Nassr (1)
+L574: His Majesty's League  | Al-Ahli (6),
+L575: Al-Ittihad (4),
+L576: Al-Hilal (2),
+L577: Al-Wehda (1),
+L578: Al-Nassr (1)
+L579: ## Saudi clubs in Asia
+L580: 
+L581: [edit ]
+L582: 
+L583: Saudi Arabian clubs have won 17 continental titles in AFC competitions. The table below lists their achievements.
+L584: Club  | AFC Champions League Elite | Asian Cup Winners' Cup | Asian Super Cup | Total
+L585: --- | --- | --- | --- | ---
+L586: Al-Hilal | 4 (1991 , 2000 , 2019 , 2021 )  | 2 (1997 , 2002 )  | 2 (1997 , 2000 )  | 8
+L587: Al-Ittihad | 2 (2004 , 2005 )  | 1 (1999 )  | —  | 3
+L588: Al-Ahli | 2 (2025 , 2026 )  | —  | —  | 2
+L589: Al-Nassr | —  | 1 (1998 )  | 1 (1998 )  | 2
+L590: Al-Shabab | —  | 1 (2001 )  | —  | 1
+L591: Al-Qadsiah | —  | 1 (1994 )  | —  | 1
+L592: Total  | 8  | 6  | 3  | 17
+L593: ## Top scorers
+L594: 
+L595: [edit ]
+L596: ### All-time top scorers
+L597: 
+L598: [edit ]
+L599: 
+L600:     As of the 2026–27 Saudi Pro League ^{[21] }^{[22] }
+L601:   * Bold indicates a player still active in the Pro League.
+L602:   * Note: This count includes only seasons from the inception of the Saudi Categorization League to the present day.
+L603: Rank  | Player  | Goals  | Apps  | Ratio  | First (First Pro League appearance)  | Last (Last Pro League appearance)  | Club(s)
+L604: --- | --- | --- | --- | --- | --- | --- | ---
+L605: 1  | Majed Abdullah | 189  | 194  | 0.97  | 1977  | 1997  | Al-Nassr L606: 2  | Nasser Al-Shamrani | 166  | 301  | 0.55  | 2003  | 2019  | Al-Wehda , Al-Shabab , Al-Hilal , Al-Ittihad L607: 3  | Omar Al Somah | 161  | 222  | 0.73  | 2014  | 2026  | Al-Ahli , Al-Orobah , Al-Hazem L608: 4  | Abderrazak Hamdallah | 158  | 179  | 0.88  | 2018  | 2026  | Al-Nassr , Al-Ittihad , Al-Shabab , Al-Taawoun L609: 5  | Fahd Al-Hamdan | 120  | 252  | 0.48  | 1984  | 2000  | Al-Riyadh L610: 6  | Yasser Al-Qahtani | 112  | 206  | 0.54  | 2000  | 2018  | Al-Qadsiah , Al-Hilal L611: 7  | Mohammad Al-Sahlawi | 111  | 257  | 0.43  | 2005  | 2022  | Al-Qadsiah , Al-Nassr , Al-Shabab , Al-Taawoun L612: 8  | Cristiano Ronaldo | 105  | 112  | 0.95  | 2023  | 2026  | Al-Nassr L613: 9  | Sami Al-Jaber | 101  | 268  | 0.38  | 1988  | 2007  | Al-Hilal L614: 10  | Hamzah Idris | 96  | –  | –  | 1992  | 2007  | Ohod , Al-Ittihad L615: ### Top scorers by season
+L616: 
+L617: [edit ]
+L618: Saudi Pro League Golden Boot in the Museu CR7 .
+L619: Season  | Nat.  | Top scorer(s)  | Club(s)  | Goals
+L620: 1974–75 |  | Mohammad S. Abdeli | Al-Nassr | 13
+L621: 1976–77 |  | Nasser Eid | Al-Qadsiah | 7
+L622: 1977–78 |  | Motamad Khojali | Al-Ahli | 14
+L623: 1978–79 |  | Majed Abdullah | Al-Nassr | 18
+L624: 1979–80 |  | Majed Abdullah | Al-Nassr | 17
+L625: 1980–81 |  | Majed Abdullah | Al-Nassr | 21
+L626: 1981–82 |  | Khalid Al-Ma'ajil | Al-Shabab | 22
+L627: 1982–83 |  | Majed Abdullah | Al-Nassr | 14
+L628: 1983–84 |  | Hussam Abu Dawood | Al-Ahli | 14
+L629: 1984–85 |  | Hathal Al-Dosari | Al-Hilal | 15
+L630: 1985–86 |  | Majed Abdullah | Al-Nassr | 15
+L631: 1986–87 |  | Mohammad Suwaidi | Al-Ittihad | 17
+L632: 1987–88 |  | Khalid Al-Ma'ajil | Al-Shabab | 12
+L633: 1988–89 |  | Majed Abdullah | Al-Nassr | 19
+L634: 1989–90 |  | Sami Al-Jaber | Al-Hilal | 16
+L635: 1990–91 |  | Fahd Al-Mehallel | Al-Shabab | 20
+L636: 1991–92 |  | Saeed Al-Owairan | Al-Shabab | 16
+L637: 1992–93 |  | Sami Al-Jaber | Al-Hilal | 18
+L638: 1993–94 |  | Moussa N'Daw | Al-Hilal | 15
+L639: 1994–95 |  | Fahd Al-Hamdan | Al-Riyadh | 15
+L640: 1995–96 |  | Ohene Kennedy | Al-Nassr | 14
+L641: 1996–97 |  | Ahmed Bahja | Al-Ittihad | 21
+L642: 1997–98 |  | Sulaiman Al-Hadaithy | Al-Najma | 15
+L643: 1998–99 |  | Obeid Al-Dosari | Al-Wehda | 20
+L644: 1999–00 |  | Hamzah Idris | Al-Ittihad | 33
+L645: 2000–01 |  | Paulo Silva | Al-Ettifaq | 13
+L646: 2001–02 |  | Sérgio Ricardo | Al-Ittihad | 16
+L647: 2002–03 |  | Carlos Tenorio | Al-Nassr | 15
+L648: 2003–04 |
+L649:  | Godwin Attram L650: Kandia Traoré | Al-Shabab L651: Al-Hilal | 15
+L652: 2004–05 |  | Mohammed Manga | Al-Shabab | 15
+L653: 2005–06 |  | Essa Al-Mehyani | Al-Wehda | 16
+L654: 2006–07 |  | Godwin Attram | Al-Shabab | 13
+L655: 2007–08 |  | Nasser Al-Shamrani | Al-Shabab | 18
+L656: 2008–09 |
+L657:  | Hicham Aboucherouane L658: Nasser Al-Shamrani | Al-Ittihad L659: Al-Shabab | 12
+L660: 2009–10 |  | Mohammad Al-Shalhoub | Al-Hilal | 12
+L661: 2010–11 |  | Nasser Al-Shamrani | Al-Shabab | 17
+L662: 2011–12 |
+L663:  | Victor Simões L664: Nasser Al-Shamrani | Al-Ahli L665: Al-Shabab | 21
+L666: 2012–13 |  | Sebastián Tagliabúe | Al-Shabab | 19
+L667: 2013–14 |  | Nasser Al-Shamrani | Al-Hilal | 21
+L668: 2014–15 |  | Omar Al Somah | Al-Ahli | 22
+L669: 2015–16 |  | Omar Al Somah | Al-Ahli | 27
+L670: 2016–17 |  | Omar Al Somah | Al-Ahli | 24
+L671: 2017–18 |  | Ronnie Fernández | Al-Fayha | 13
+L672: 2018–19 |  | Abderrazak Hamdallah | Al-Nassr | 34
+L673: 2019–20 |  | Abderrazak Hamdallah | Al-Nassr | 29
+L674: 2020–21 |  | Bafétimbi Gomis | Al-Hilal | 24
+L675: 2021–22 |  | Odion Ighalo | Al-Hilal | 24
+L676: 2022–23 |  | Abderrazak Hamdallah | Al-Ittihad | 21
+

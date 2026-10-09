@@ -1,0 +1,102 @@
+{
+  "total": 6733,
+  "unique_texts": 6733,
+  "competitions": {
+    "england": 1475,
+    "germany": 1400,
+    "spain": 1530,
+    "italy": 995,
+    "ucl": 415,
+    "france": 255,
+    "saudi": 192,
+    "king": 128,
+    "super": 107,
+    "afc": 102,
+    "worldcup": 134
+  },
+  "letters": {
+    "ل": 361,
+    "م": 329,
+    "ب": 624,
+    "ش": 143,
+    "ا": 932,
+    "ت": 162,
+    "و": 135,
+    "ن": 214,
+    "س": 206,
+    "ك": 139,
+    "ه": 1651,
+    "ف": 340,
+    "ي": 109,
+    "ر": 263,
+    "غ": 55,
+    "د": 51,
+    "خ": 90,
+    "ج": 35,
+    "ع": 10,
+    "ص": 635,
+    "ق": 1,
+    "ث": 247,
+    "ذ": 1
+  },
+  "difficulties": {
+    "medium": 3341,
+    "hard": 874,
+    "easy": 2518
+  },
+  "historical_matches": {
+    "england": 295,
+    "germany": 280,
+    "spain": 306,
+    "italy": 199,
+    "ucl": 83,
+    "france": 51
+  },
+  "coverage": {
+    "saudi": {
+      "letters": 6,
+      "minimum_per_letter": 2
+    },
+    "england": {
+      "letters": 14,
+      "minimum_per_letter": 6
+    },
+    "spain": {
+      "letters": 13,
+      "minimum_per_letter": 39
+    },
+    "france": {
+      "letters": 12,
+      "minimum_per_letter": 7
+    },
+    "germany": {
+      "letters": 13,
+      "minimum_per_letter": 4
+    },
+    "italy": {
+      "letters": 16,
+      "minimum_per_letter": 5
+    },
+    "worldcup": {
+      "letters": 15,
+      "minimum_per_letter": 1
+    },
+    "ucl": {
+      "letters": 17,
+      "minimum_per_letter": 2
+    },
+    "afc": {
+      "letters": 17,
+      "minimum_per_letter": 1
+    },
+    "king": {
+      "letters": 8,
+      "minimum_per_letter": 2
+    },
+    "super": {
+      "letters": 13,
+      "minimum_per_letter": 1
+    }
+  },
+  "sources": 18
+}
