@@ -32,7 +32,14 @@ export default function RoomPage({ id, role, session, onSession }: {
     onSession: (s: Session) => void;
 }) {
     const [room, setRoom] = useState<RoomData | null>(null), [entered, setEntered] = useState(false), [connection, setConnection] = useState(false), [loading, setLoading] = useState(true), [error, setError] = useState(''), [fatal, setFatal] = useState(''), [busy, setBusy] = useState(false), [team, setTeam] = useState('1'), [share, setShare] = useState(false), [copied, setCopied] = useState(''), [showCode, setShowCode] = useState(false), [restart, setRestart] = useState(false), [kick, setKick] = useState<string | null>(null), [correction, setCorrection] = useState(false), [correctionCell, setCorrectionCell] = useState('0'), [correctionTeam, setCorrectionTeam] = useState('0'), offset = useRef(0), last = useRef<RoomData | null>(null);
-    const accept = (data: RoomData) => { if (last.current && data.version < last.current.version)
+    // Ignore acknowledgement-only and stale polling payloads: never render a partial room.
+    const accept = (incoming: RoomData) => {
+        if (!incoming || !incoming.config || !Array.isArray(incoming.board) || typeof incoming.version !== 'number') return;
+        const data: RoomData = { ...incoming, buzz: {
+            open: false, winner: null, deadline: null, key: '',
+            ...(incoming.buzz || {}), winner: incoming.buzz?.winner ?? null
+        } };
+        if (last.current && data.version < last.current.version)
         return; if (last.current && data.buzz.winner && data.buzz.key !== last.current.buzz.key)
         playSound('buzz');
     else if (last.current && data.buzz.winner && !last.current.buzz.winner)

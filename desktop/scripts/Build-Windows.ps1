@@ -28,6 +28,8 @@ try {
 $index = Join-Path $site 'dist\client\index.html'
 if (!(Test-Path $index)) { throw "Compiled frontend missing: $index" }
 New-Item -ItemType Directory -Force -Path $output | Out-Null
+& (Join-Path $PSScriptRoot 'Generate-BrandAssets.ps1')
+if ($LASTEXITCODE -ne 0) { throw 'Brand asset generation failed' }
 & dotnet publish $project --configuration Release --runtime win-x64 --self-contained true `
     -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true `
     -p:DebugType=None -p:DebugSymbols=false --output $output

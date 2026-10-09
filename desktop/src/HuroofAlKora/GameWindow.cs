@@ -2,6 +2,7 @@ using System;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
+using System.Reflection;
 using System.Net;
 using System.Net.Http;
 using System.Net.Sockets;
@@ -41,25 +42,31 @@ internal sealed class GameWindow : Form
         StartPosition = FormStartPosition.CenterScreen;
         MinimumSize = new Size(850, 560);
         Size = new Size(1350, 855);
-        BackColor = Color.FromArgb(9, 17, 33);
+        BackColor = Color.FromArgb(16, 32, 31);
         KeyPreview = true;
         try { Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath); } catch { /* optional icon */ }
 
-        browser = new WebView2 { Dock = DockStyle.Fill, DefaultBackgroundColor = Color.FromArgb(9, 17, 33) };
-        toolbar = new Panel { Dock = DockStyle.Top, Height = 48, BackColor = Color.FromArgb(9, 20, 38) };
-        var caption = new Label { Text = "حروف الكورة  ·  WINDOWS", AutoSize = false,
-            TextAlign = ContentAlignment.MiddleLeft, ForeColor = Color.FromArgb(235, 249, 246),
-            Font = new Font("Segoe UI", 10f, FontStyle.Bold), Location = new Point(20, 4), Size = new Size(300, 40) };
-        onlineButton = ToolbarButton("أونلاين", new Point(310, 7));
-        localButton = ToolbarButton("محلي سريع", new Point(426, 7));
+        browser = new WebView2 { Dock = DockStyle.Fill, DefaultBackgroundColor = Color.FromArgb(16, 32, 31) };
+        toolbar = new Panel { Dock = DockStyle.Top, Height = 53, BackColor = Color.FromArgb(16, 32, 31) };
+        var brandIcon = new PictureBox { Location = new Point(15, 7), Size = new Size(38, 38), SizeMode = PictureBoxSizeMode.Zoom, BackColor = Color.Transparent };
+        using (var brandResource = Assembly.GetExecutingAssembly().GetManifestResourceStream("HuroofAlKora.Assets.HuroofAlKora-master.png"))
+        {
+            if (brandResource != null) { using var img = Image.FromStream(brandResource); brandIcon.Image = new Bitmap(img); }
+        }
+        var bottomBorder = new Panel { Dock = DockStyle.Bottom, Height = 1, BackColor = Color.FromArgb(43, 69, 64) };
+        var caption = new Label { Text = "حروف الكورة  ·  WINDOWS EDITION", AutoSize = false,
+            TextAlign = ContentAlignment.MiddleLeft, ForeColor = Color.FromArgb(237, 243, 234),
+            Font = new Font("Segoe UI", 10f, FontStyle.Bold), Location = new Point(62, 5), Size = new Size(260, 40) };
+        onlineButton = ToolbarButton("أونلاين", new Point(338, 9));
+        localButton = ToolbarButton("محلي سريع", new Point(454, 9));
         onlineButton.Click += async (_, _) => await SetModeAsync(true);
         localButton.Click += async (_, _) => await SetModeAsync(false);
         var hint = new Label { Text = "F11  ملء الشاشة   ·   F5  تحديث   ·   F1  معلومات",
-            Anchor = AnchorStyles.Top | AnchorStyles.Right, ForeColor = Color.FromArgb(139, 166, 181),
+            Anchor = AnchorStyles.Top | AnchorStyles.Right, ForeColor = Color.FromArgb(175, 193, 181),
             Font = new Font("Segoe UI", 8.5f), TextAlign = ContentAlignment.MiddleRight,
             Location = new Point(970, 9), Size = new Size(330, 29) };
         toolbar.Resize += (_, _) => hint.Left = Math.Max(540, toolbar.Width - hint.Width - 20);
-        toolbar.Controls.AddRange(new Control[] { caption, onlineButton, localButton, hint });
+        toolbar.Controls.AddRange(new Control[] { brandIcon, caption, onlineButton, localButton, hint, bottomBorder });
 
         splash = new SplashView();
         splash.RetryRequested += async (_, _) => await InitializeModeAsync();
@@ -83,16 +90,20 @@ internal sealed class GameWindow : Form
     private static Button ToolbarButton(string title, Point location)
     {
         var button = new Button { Text = title, Location = location, Size = new Size(108, 34),
-            BackColor = Color.FromArgb(20, 37, 59), ForeColor = Color.White,
+            BackColor = Color.FromArgb(35, 66, 58), ForeColor = Color.FromArgb(237, 243, 234),
             FlatStyle = FlatStyle.Flat, Cursor = Cursors.Hand, Font = new Font("Segoe UI", 9f, FontStyle.Bold) };
-        button.FlatAppearance.BorderSize = 0;
+        button.FlatAppearance.BorderSize = 1;
+        button.FlatAppearance.BorderColor = Color.FromArgb(43, 69, 64);
+        button.FlatAppearance.MouseOverBackColor = Color.FromArgb(43, 82, 67);
         return button;
     }
 
     private void RefreshModeButtons()
     {
-        localButton.BackColor = !onlineMode ? Color.FromArgb(21, 133, 101) : Color.FromArgb(20, 37, 59);
-        onlineButton.BackColor = onlineMode ? Color.FromArgb(25, 97, 160) : Color.FromArgb(20, 37, 59);
+        localButton.BackColor = !onlineMode ? Color.FromArgb(194, 241, 124) : Color.FromArgb(35, 66, 58);
+        localButton.ForeColor = !onlineMode ? Color.FromArgb(22, 51, 41) : Color.FromArgb(237, 243, 234);
+        onlineButton.BackColor = onlineMode ? Color.FromArgb(194, 241, 124) : Color.FromArgb(35, 66, 58);
+        onlineButton.ForeColor = onlineMode ? Color.FromArgb(22, 51, 41) : Color.FromArgb(237, 243, 234);
     }
 
     private static int FreeLoopbackPort()
@@ -266,7 +277,7 @@ internal sealed class GameWindow : Form
     }
 
     private static void ShowAbout() => MessageBox.Show(
-        "حروف الكورة | Windows Edition v1.2\n\n" +
+        "حروف الكورة | Windows Edition v1.2.1\n\n" +
         "محلي: لعبة وخادم داخل جهازك دون صلاحيات المسؤول.\n" +
         "أونلاين: الغرف والجرس عبر الموقع الرسمي، وتتطلب الإنترنت.\n\n" +
         "F11: ملء الشاشة  ·  F5: تحديث\n\n" +
