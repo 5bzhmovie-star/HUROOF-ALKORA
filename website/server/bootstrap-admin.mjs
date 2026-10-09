@@ -7,7 +7,7 @@ import { base32, sealSecret, verifyTotp, passwordHash, token } from './security.
 
 seedDatabase();
 if (process.argv.includes('--status')) {
-  process.stdout.write(JSON.stringify({configured: Number(one('SELECT count(*) n FROM admins')?.n || 0) > 0}) + '\\n');
+  process.stdout.write(JSON.stringify({configured: Number(one('SELECT count(*) n FROM admins')?.n || 0) > 0}) + '\n');
   db.close();
   process.exit(0);
 }
