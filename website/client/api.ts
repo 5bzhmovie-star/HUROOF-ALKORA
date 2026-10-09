@@ -114,3 +114,7 @@ catch {
 export const ar = (value: number) => value.toLocaleString('ar-SA');
 export const difficulties = { easy: 'سهل', medium: 'متوسط', hard: 'صعب' };
 export const navigate = (path: string) => { history.pushState({}, '', path); window.dispatchEvent(new PopStateEvent('popstate')); window.scrollTo({ top: 0 }); };
+
+/** The Windows host may advertise a LAN URL for invite links while staying on loopback itself. */
+export const inviteOrigin = (): string => typeof window === 'undefined' ? '' :
+    ((window as any).__HK_LAN_SHARE_ORIGIN || window.location.origin);
