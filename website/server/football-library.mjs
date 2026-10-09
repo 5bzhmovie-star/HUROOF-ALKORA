@@ -11,12 +11,12 @@ export function addEntity(input){
  if(!iso(input.verifiedAt))fail(422,'تاريخ التحقق مطلوب.');
  const key=String(input.externalKey||'').trim();
  if(!/^[a-z0-9:_-]{5,128}$/.test(key))fail(422,'مفتاح مرجعي ثابت مطلوب لمنع التكرار.');
- if(!['reviewed','pending'].includes(input.verification))fail(422,'حالة التدقيق غير صالحة.');
+ if(input.verification && input.verification!=='pending')fail(422,'يُحفظ الكيان الجديد بانتظار المراجعة، ثم يُعتمد عبر إجراء تدقيق مستقل.');
  const id=input.type+':'+key;
  if(one('SELECT id FROM football_entities WHERE id=?',id))fail(409,'هذا الكيان مسجل مسبقًا.');
  run('INSERT INTO football_entities(id,entity_type,name_ar,name_en,image_key,image_source,image_license,fallback,metadata,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?)',
  id,input.type,input.nameAr.trim(),input.nameEn.trim(),input.imageUrl||null,input.imageSource||null,input.imageLicense||null,input.nameAr.trim(),
- JSON.stringify({source:input.source,verifiedAt:input.verifiedAt,verification:input.verification,externalKey:key,identity:'central-v1.5'}),Date.now());
+ JSON.stringify({source:input.source,verifiedAt:input.verifiedAt,verification:'pending',externalKey:key,identity:'central-v1.5'}),Date.now());
  return {id};
 }
 export function addRelation(input){
@@ -89,4 +89,16 @@ export function careerDraft(playerId) {
  ...(!mediaUrl(player.image_key)?['صورة اللاعب المرخصة']:[]),
  ...stations.filter(s=>!s.clubLogo).map(s=>'شعار النادي: '+s.club)
  ]};
+}
+
+/** Owner-reviewed identity facts only; media licenses must be reviewed separately. */
+export function reviewEntity(id,evidenceUrl,reviewer) {
+ if(!web(evidenceUrl)||!plain(reviewer))fail(422,'مصدر إثبات مراجعة مستقل ورابط HTTPS مطلوب.');
+ const row=one('SELECT metadata FROM football_entities WHERE id=?',id);
+ if(!row)fail(404,'الكيان غير موجود.');
+ const old=JSON.parse(row.metadata||'{}');
+ const stamp=new Date().toISOString().slice(0,10);
+ run('UPDATE football_entities SET metadata=?,updated_at=? WHERE id=?',
+ JSON.stringify({...old,verification:'reviewed',verifiedAt:stamp,reviewEvidence:evidenceUrl,reviewer,reviewedAt:new Date().toISOString()}),Date.now(),id);
+ return {id,verification:'reviewed',verifiedAt:stamp};
 }
