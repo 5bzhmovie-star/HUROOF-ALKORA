@@ -2,6 +2,8 @@
 import React,{useEffect,useState} from 'react';
 import {api,Competition} from './api';
 import {VisualQuestion} from './VisualQuestion';
+import FootballLibrary from './FootballLibrary';
+import VisualMediaPicker from './VisualMediaPicker';
 type Media={id:string;url:string;license:string;source:string;content_type:string};
 const empty=(slot:number)=>({slot,x:15+(slot%4)*23,y:15+Math.floor(slot/4)*35,name:'',position:'',nationality:'',clubAtDate:'',photo:'',flag:'',clubLogo:'',number:null as number|null});
 const careerStop=()=>({club:'',clubLogo:'',from:2020,to:2021,loan:false});
@@ -9,6 +11,8 @@ const types=[['career','خمن اللاعب من مسيرته'],['guess_club_nat
 export default function VisualEditor({tournaments,onSaved}:{tournaments:Competition[];onSaved:()=>void}){
  const [assets,setAssets]=useState<Media[]>([]);
  const [kind,setKind]=useState('career');
+ const [libraryOpen,setLibraryOpen]=useState(false);
+ const [selectedLibrary,setSelectedLibrary]=useState<{id:string;name_ar:string;image_key:string|null}|null>(null);
  const [busy,setBusy]=useState(false);
  const [status,setStatus]=useState('');
  const [error,setError]=useState('');
@@ -16,7 +20,7 @@ export default function VisualEditor({tournaments,onSaved}:{tournaments:Competit
  const [visual,setVisual]=useState<any>({type:'career',eventDate:'',verifiedAt:'',source:'',competition:'',playerPhoto:'',playerName:'',stations:[careerStop(),careerStop(),careerStop()],teamName:'',teamImage:'',formation:'4-3-3',coach:'',players:Array.from({length:11},(_,slot)=>empty(slot))});
  const update=(key:string,value:any)=>setVisual((s:any)=>({...s,[key]:value}));
  useEffect(()=>{api<Media[]>('/admin/visual-media').then(setAssets).catch(e=>setError(e.message));},[]);
- const mediaPicker=(value:string,changed:(value:string)=>void,label:string)=><label className="visual-input-media">{label}<select value={value||''} onChange={e=>changed(e.target.value)}><option value="">اختر صورة موثقة</option>{assets.map(m=><option key={m.id} value={m.url}>{m.id.slice(0,10)} · {m.license}</option>)}</select>{value&&<img src={value} loading="lazy" width={64} height={64} alt="معاينة الصورة"/>}</label>;
+ const mediaPicker=(value:string,changed:(value:string)=>void,label:string)=><VisualMediaPicker label={label} value={value||''} onChange={changed} assets={assets}/>;
  const updateEntry=(key:'stations'|'players',i:number,field:string,value:any)=>setVisual((prev:any)=>({...prev,[key]:prev[key].map((entry:any,j:number)=>j===i?{...entry,[field]:value}:entry)}));
  async function uploadMedia(file:File,license:string,source:string){
   if(file.size>1_350_000)throw Error('الصورة أكبر من 1.35MB، ضغطها إلى WebP أو PNG.');
@@ -33,6 +37,27 @@ export default function VisualEditor({tournaments,onSaved}:{tournaments:Competit
  const picker=(key:string,label:string)=>mediaPicker(visual[key],value=>update(key,value),label);
  return <section className="panel visual-editor" dir="rtl"><h2>محرر الأسئلة البصرية</h2>
  <p className="hint">لا يمكن نشر سؤال ناقص الصور أو المصدر. جميع الأسئلة الجديدة تُحفظ مخفية افتراضيًا حتى تراجع المعلومات.</p>
+ <button type="button" onClick={()=>setLibraryOpen(v=>!v)}>{libraryOpen?'إخفاء المكتبة الكروية':'البحث عن لاعب أو فريق من المكتبة'}</button>
+ {libraryOpen&&<FootballLibrary onSelect={entry=>{
+  setSelectedLibrary(entry);
+  if(entry.entity_type==='fixture'&&kind!=='career'){
+    api<any>('/admin/football-fixture-draft?id='+encodeURIComponent(entry.id)).then(draft=>{
+      setVisual((old:any)=>({...old,players:draft.players,competition:draft.fixture.name,eventDate:draft.players[0]?.date||old.eventDate}));
+      setStatus('استوردت أسماء 11 لاعبًا. يلزم استكمال المراكز والصور المرخصة والأندية بتاريخ المباراة قبل النشر.');
+    }).catch(e=>setError(e.message));
+  }else if(entry.entity_type==='player'&&kind==='career'){
+   setInput(old=>({...old,answer:entry.name_ar}));
+   setVisual((old:any)=>({...old,playerName:entry.name_ar,playerPhoto:entry.image_key?.startsWith('/api/visual-media/')?entry.image_key:old.playerPhoto}));
+   api<any>('/admin/football-career-draft?id='+encodeURIComponent(entry.id)).then(draft=>{
+     setVisual((old:any)=>({...old,stations:draft.stations,playerPhoto:draft.playerPhoto||old.playerPhoto}));
+     setStatus('تم جلب المسيرة المرتبطة بالمكتبة. أكمل الصور الناقصة: '+(draft.missing?.join('، ')||''));
+   }).catch(e=>setError('تعذّر استيراد المسيرة: '+e.message));
+  }else if(['club','national_team'].includes(entry.entity_type)&&kind!=='career'){
+   setVisual((old:any)=>({...old,teamName:entry.name_ar,teamImage:entry.image_key?.startsWith('/api/visual-media/')?entry.image_key:old.teamImage}));
+   setInput(old=>({...old,answer:entry.name_ar}));
+  }
+ }}/>}
+ {selectedLibrary&&<p role="status">تم اختيار {selectedLibrary.name_ar} من السجل المركزي. أكمل عناصر السؤال التي لم تُوثَّق بعد.</p>}
  <div className="settings-row"><label>النوع<select value={kind} onChange={e=>setKind(e.target.value)}>{types.map(([v,label])=><option value={v} key={v}>{label}</option>)}</select></label><label>البطولة<select value={input.tournament_id} onChange={e=>setInput(s=>({...s,tournament_id:e.target.value}))}>{tournaments.map(t=><option value={t.id} key={t.id}>{t.name}</option>)}</select></label><label>الحرف<input value={input.letter} maxLength={1} onChange={e=>setInput(s=>({...s,letter:e.target.value}))}/></label></div>
  <label>السؤال<input value={input.text} onChange={e=>setInput(s=>({...s,text:e.target.value}))}/></label>
  <label>الإجابة<input value={input.answer} onChange={e=>setInput(s=>({...s,answer:e.target.value}))}/></label>
@@ -62,7 +87,7 @@ export default function VisualEditor({tournaments,onSaved}:{tournaments:Competit
  {mediaPicker(p.flag,value=>updateEntry('players',i,'flag',value),'علم الجنسية')}
  {mediaPicker(p.clubLogo,value=>updateEntry('players',i,'clubLogo',value),'شعار النادي بتاريخ المباراة')}
  </div></details>)}</div>}
- <h3>معاينة السؤال قبل النشر</h3><VisualQuestion data={{...visual,type:kind} as any} revealed={false} canControl={false}/>
+ <h3>معاينة السؤال قبل النشر</h3><p className="hint">يمكنك سحب بطاقات اللاعبين لتغيير مراكزهم داخل الملعب الأفقي. هذه معاينة خاصة بالإدارة.</p><VisualQuestion data={{...visual,type:kind} as any} revealed={false} canControl={false} editable={kind!=='career'} onMovePlayer={(slot,x,y)=>setVisual((state:any)=>({...state,players:state.players.map((p:any)=>p.slot===slot?{...p,x,y}:p)}))}/>
  {error&&<p role="alert" style={{color:'#fa9e9e'}}>{error}</p>}{status&&<p role="status">{status}</p>}
  <button type="button" disabled={busy} onClick={save}>{busy?'جارٍ حفظ السؤال…':'تحقق من المعلومات واحفظ السؤال'}</button>
  </section>;

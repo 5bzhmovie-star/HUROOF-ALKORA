@@ -1,5 +1,6 @@
 "use client";
 import VisualEditor from './VisualEditor';
+import FootballLibrary from './FootballLibrary';
 import React, { useEffect, useState } from 'react';
 import { ShieldCheck, BookOpen, Trophy, Users, Radio, ScrollText, Settings2, Search, Plus, Download, Upload, Save, Trash2, LogOut, ChevronRight, ChevronLeft, Gamepad2 } from 'lucide-react';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
@@ -50,7 +51,7 @@ export default function Admin({ session, onSession, tournaments }: {
         return; let live = true; setData(null); setError(''); const params = new URLSearchParams(); if (tab === 'questions') {
         Object.entries(filter).forEach(([key, value]) => { if (value !== 'all' && value !== '')
             params.set(key, String(value)); });
-    } api('/admin/' + (tab==='visual-questions-editor'?'visual-questions':tab) + '?' + params).then(v => { if (live) {
+    } api('/admin/' + (tab==='visual-questions-editor'?'visual-questions':tab==='football-library'?'football-library':tab) + '?' + params).then(v => { if (live) {
         setData(v); setDataTab(tab); } }).catch(e => { if (live)
         setError(e.message); }); return () => { live = false; }; }, [tab, session.admin, refresh, filter]);
     useEffect(() => { if (session.admin)
@@ -73,10 +74,11 @@ export default function Admin({ session, onSession, tournaments }: {
         <p className="hint">إذا لم تنشئ حسابًا بعد، اضغط «لوحة الإدارة» في شريط تطبيق Windows لإعداده أول مرة.</p>
         </form></main>;
     const owner = session.admin.role === 'owner', operational = session.admin.role !== 'questions';
-    const sections = [['overview', 'نظرة عامة', ShieldCheck], ['questions', 'الأسئلة', BookOpen], ['visual-questions-editor', 'صناعة الأسئلة المصورة', Gamepad2], ['mini-games', 'محتوى Mini Games', Gamepad2], ['tournaments', 'البطولات', Trophy], ...(operational ? [['rooms', 'غرف الحروف', Radio], ['mini-rooms', 'غرف Mini Games', Gamepad2], ['users', 'اللاعبون', Users], ['audit', 'سجل العمليات', ScrollText]] : []), ...(owner ? [['settings', 'الإعدادات', Settings2], ['admins', 'حسابات الإدارة', ShieldCheck]] : [])];
+    const sections = [['overview', 'نظرة عامة', ShieldCheck], ['questions', 'الأسئلة', BookOpen], ['football-library', 'المكتبة الكروية', BookOpen], ['visual-questions-editor', 'صناعة الأسئلة المصورة', Gamepad2], ['mini-games', 'محتوى Mini Games', Gamepad2], ['tournaments', 'البطولات', Trophy], ...(operational ? [['rooms', 'غرف الحروف', Radio], ['mini-rooms', 'غرف Mini Games', Gamepad2], ['users', 'اللاعبون', Users], ['audit', 'سجل العمليات', ScrollText]] : []), ...(owner ? [['settings', 'الإعدادات', Settings2], ['admins', 'حسابات الإدارة', ShieldCheck]] : [])];
     const newQuestion = () => setQuestion({ tournament_id: allTournaments[0]?.id || '', letter: 'ا', text: '', answer: '', difficulty: 'medium', status: 'published', source: '', note: '' });
     return <main className="container admin-page"><div className="page-heading inline"><div><span className="eyebrow">حروف الكورة</span><h1>إدارة الملعب</h1><p>{session.admin.username} · {roleNames[session.admin.role]}</p></div><Button variant="outline" onClick={async () => { try { await api('/admin/logout',{}); onSession(await api<Session>('/session')); } catch (err:any) { setError(err.message); } }}><LogOut /> خروج الإدارة</Button></div>{error && <Notice>{error}</Notice>}{success && <Notice success>{success}</Notice>}<Tabs value={tab} onValueChange={setTab} dir="rtl" className="admin-tabs"><TabsList className="admin-nav">{sections.map(([key, label, Icon]: any) => <TabsTrigger key={key} value={key}><Icon size={18}/>{label}</TabsTrigger>)}</TabsList>{sections.filter(([key]) => key === tab).map(([key]: any) => <TabsContent key={key} value={key}>{!data || dataTab !== tab ? (error ? <Button variant="outline" onClick={bump}>إعادة تحميل القسم</Button> : <Loading />) : <>
-            {key === 'visual-questions-editor' && <VisualEditor tournaments={allTournaments} onSaved={bump}/>}
+            {key === 'football-library' && <FootballLibrary canReview={owner}/>}
+             {key === 'visual-questions-editor' && <VisualEditor tournaments={allTournaments} onSaved={bump}/>}
              {key === 'overview' && <><div className="stat-grid">{[['الأسئلة المنشورة', data.published], ['الغرف النشطة', data.rooms], ['الجولات المكتملة', data.matches], ['اللاعبون', data.users]].map(([label, value]) => <div className="panel stat" key={label}><span>{label}</span><strong>{ar(Number(value))}</strong></div>)}</div><div className="admin-overview-grid"><section className="panel"><h2>أسئلة كل بطولة</h2>{data.competitions.map((t: any) => <div className="stat-row" key={t.id}><span>{t.name}</span><b>{ar(t.questions)}</b></div>)}</section><section className="panel"><h2>أكثر البطولات لعبًا</h2>{data.popular.length ? data.popular.map((t: any) => <div className="stat-row" key={t.name}><span>{t.name}</span><b>{ar(t.rooms)} غرفة</b></div>) : <p className="hint">تظهر هنا بعد إنشاء أول غرفة.</p>}</section></div></>}
             {key === 'questions' && <section className="panel question-management"><div className="admin-actions"><h2>{ar(data.total)} سؤال</h2><Button className="primary" onClick={newQuestion}><Plus /> إضافة سؤال</Button><Button variant="outline" onClick={() => setImporting(true)}><Upload /> استيراد</Button>{owner&&<Button variant="outline" onClick={async()=>{try{const info=await api('/admin/questions-reset-info');setResetInfo(info);setResetPhrase('');setResetOpen(true);}catch(e:any){setError(e.message);}}}><Trash2/> تفريغ بنك الأسئلة</Button>}<Button variant="outline" onClick={async () => { try {
                 const qs = await api('/admin/export'), blob = new Blob([JSON.stringify(qs, null, 2)], { type: 'application/json' }), url = URL.createObjectURL(blob), a = document.createElement('a');
