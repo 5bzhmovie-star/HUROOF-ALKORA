@@ -1,0 +1,33 @@
+
+/* Football Atlas — isolated styles, no global select or admin overrides */
+.football-atlas{--atlas-green:#c2f17c;--atlas-line:rgba(185,225,203,.13);color:#ecf6ed;display:grid;gap:24px;direction:rtl}
+.football-atlas *{box-sizing:border-box}.football-atlas button,.football-atlas input,.football-atlas select{font:inherit}
+.atlas-hero{border:1px solid var(--atlas-line);border-radius:24px;padding:28px;background:radial-gradient(ellipse at 9% 7%,#244f3b 0,transparent 50%),linear-gradient(125deg,#163d30,#102824 70%);display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.atlas-eyebrow{font-size:12px;font-weight:800;letter-spacing:.5px;color:#c2f17c}.atlas-hero h2{font-size:clamp(23px,3vw,36px);line-height:1.35;margin:8px 0}.atlas-hero p{color:#b5cbbf;max-width:730px;line-height:1.8}.atlas-actions{display:flex;gap:10px;flex-wrap:wrap}
+.atlas-btn{border:1px solid #436052;background:#21433a;border-radius:12px;color:#f0f9f1;padding:11px 16px;display:inline-flex;align-items:center;gap:9px;font-weight:700;cursor:pointer}
+.atlas-btn.main{background:#c2f17c;color:#142d22;border-color:#c2f17c}.atlas-btn:disabled{opacity:.55;cursor:wait}
+.atlas-dashboard{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.atlas-metric{padding:20px;border:1px solid var(--atlas-line);background:#17332e;border-radius:16px;display:flex;align-items:center;gap:14px}
+.atlas-metric .figure{font-size:27px;font-weight:900;line-height:1.3}.atlas-metric small{display:block;color:#a4bfb0;margin-top:4px}
+.atlas-collections h3,.atlas-library-main h3{font-size:21px;margin:0 0 16px}.atlas-league-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.atlas-league-card{border:1px solid #345046;border-radius:16px;background:linear-gradient(145deg,#1b3932,#132d27);padding:18px;text-align:right;display:flex;align-items:center;gap:12px;min-height:100px;cursor:pointer;color:inherit;transition:border-color .18s,transform .18s}
+.atlas-league-card:hover,.atlas-entity-card:hover{border-color:#c2f17c;transform:translateY(-2px)}.atlas-league-card.active{border-color:#c2f17c;background:#284a37}
+.atlas-crest{width:55px;height:55px;flex-shrink:0;display:grid;place-items:center;background:#315544;border:1px solid #416a54;border-radius:15px;color:#c2f17c}.atlas-crest img{max-width:85%;max-height:85%;object-fit:contain}
+.atlas-league-card strong{font-size:14px;display:block}.atlas-league-card small{font-size:11px;color:#a9bdae;display:block;margin-top:6px}
+.atlas-toolbar{display:flex;align-items:flex-end;gap:12px;flex-wrap:wrap;margin-bottom:16px}.atlas-search{flex:1;min-width:200px}
+.atlas-toolbar label{font-size:12px;color:#b9ccbf;font-weight:700;display:grid;gap:8px}
+.atlas-toolbar input,.atlas-toolbar select,.atlas-review input,.atlas-create input,.atlas-create select{color:#f1f6ef!important;background:#102720!important;border:1px solid #49655b!important;min-height:43px;border-radius:10px;padding:9px 12px;outline:none;width:100%}
+.atlas-toolbar option,.atlas-create option{background:#152e28;color:#f2f7ed}
+.atlas-toolbar input:focus,.atlas-toolbar select:focus{border-color:#c2f17c!important}
+.atlas-split{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:17px;align-items:start}
+.atlas-results{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.atlas-entity-card{display:flex;align-items:center;gap:12px;text-align:right;border:1px solid #365348;border-radius:16px;padding:13px;background:#19342e;cursor:pointer;min-width:0;color:#edf6ed;transition:transform .18s,border-color .18s}
+.atlas-entity-card.active{border-color:#c2f17c}.atlas-entity-card .atlas-crest{height:52px;width:52px}.atlas-entity-card strong{font-size:14px;display:block}.atlas-entity-card span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.atlas-entity-card small{display:block;font-size:11px;color:#abc4b5;margin-top:6px}
+.atlas-detail{border:1px solid #365648;background:linear-gradient(175deg,#234b3c,#142f29);border-radius:18px;padding:22px;position:sticky;top:12px}
+.atlas-detail-top{display:flex;gap:13px;align-items:center;margin-bottom:16px}.atlas-detail h4{font-size:22px;margin:0}.atlas-detail small{color:#b5cdbd}.atlas-detail p{color:#bacdbf;line-height:1.7}
+.atlas-status{font-size:11px;color:#f8dba3;background:#68512947;border:1px solid #87734455;border-radius:20px;padding:4px 9px;display:inline-flex;margin-top:8px}
+.atlas-timeline{border-right:2px solid #4d7657;padding-right:16px;margin:18px 0}.atlas-timeline-item{position:relative;margin:0 0 16px}.atlas-timeline-item::before{content:"";position:absolute;right:-22px;top:7px;width:9px;height:9px;background:#c2f17c;border-radius:100%}.atlas-timeline-item strong{font-size:13px}.atlas-timeline-item small{display:block;margin-top:4px}
+.atlas-notice{border:1px solid #456a52;border-radius:12px;padding:13px 16px;background:#1b3a2d;font-size:13px;color:#d8efdc}
+.atlas-create{border:1px solid var(--atlas-line);border-radius:16px;background:#172d28;padding:18px}.atlas-create summary{cursor:pointer;font-weight:800}.atlas-create-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0}.atlas-create-grid label,.atlas-review label{font-size:12px;display:grid;gap:7px;font-weight:700}.atlas-empty{border:1px dashed #496457;border-radius:16px;padding:34px;text-align:center;color:#afc7b5;grid-column:1/-1}.atlas-page-meta{color:#a4baae;font-size:12px}.atlas-review{display:grid;gap:10px;margin:20px 0 0}
+@media(max-width:1180px){.atlas-league-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.atlas-results{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:850px){.atlas-dashboard{grid-template-columns:repeat(2,minmax(0,1fr))}.atlas-league-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.atlas-split{grid-template-columns:1fr}.atlas-detail{position:static}.atlas-create-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:550px){.atlas-hero{padding:18px}.atlas-league-grid{grid-template-columns:1fr 1fr;gap:8px}.atlas-league-card{min-height:85px;padding:10px}.atlas-league-card .atlas-crest{width:39px;height:39px}.atlas-league-card strong{font-size:12px}.atlas-dashboard{gap:8px}.atlas-metric{padding:12px}.atlas-metric .figure{font-size:21px}.atlas-results{grid-template-columns:1fr}.atlas-create-grid{grid-template-columns:1fr}}

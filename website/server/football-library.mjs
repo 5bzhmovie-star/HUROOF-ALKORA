@@ -1,6 +1,6 @@
 import {one,many,run} from './database.mjs';
 import {fail} from './security.mjs';
-const TYPES=new Set(['player','club','national_team','competition','season','fixture','coach']);
+const TYPES=new Set(['player','club','national_team','competition','season','fixture','coach','stadium','country','flag']);
 const RELATIONS=new Set(['played_for','loaned_to','selected_for','participated_in','belongs_to','managed_by','appeared_in']);
 const iso=x=>typeof x==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(x)&&!Number.isNaN(Date.parse(x+'T00:00:00Z'));
 const web=x=>typeof x==='string'&&/^https:\/\/[^/]+/.test(x)&&x.length<1800;
