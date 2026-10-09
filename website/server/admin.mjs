@@ -8,6 +8,7 @@ import {searchEntities,getHistory,libraryStats,addEntity,addRelation,fixtureDraf
 import {importOfficialStarter} from './football-starter.mjs';
 import {importCompetitionCatalog} from './football-competitions.mjs';
 import {importCatalogBatch,importHistory} from './football-import.mjs';
+import {discoverImageForEntity,enrichMissingImages} from './football-online-media.mjs';
 import { saveMedia, referencedMediaExists } from './visual-media.mjs';
 import { mkdirSync, openSync, closeSync, writeFileSync, readFileSync, unlinkSync } from 'node:fs';
 import { resolve } from 'node:path';
@@ -100,6 +101,14 @@ export function adminGet(path, url, admin) {
 export function adminWrite(path, body, admin) {
     requireAdmin(admin);
     switch (path) {
+        case 'football-image-discover': {
+            requireAdmin(admin,['owner','manager']);
+            return discoverImageForEntity(String(body.id||''));
+        }
+        case 'football-images-enrich': {
+            requireAdmin(admin,['owner']);
+            return enrichMissingImages({limit:body.limit});
+        }
         case 'football-import-batch': {
             requireAdmin(admin,['owner']);
             const result=importCatalogBatch(body.batch,{dryRun:body.dryRun!==false});
