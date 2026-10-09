@@ -340,7 +340,19 @@ internal sealed class GameWindow : Form
         core.Settings.AreHostObjectsAllowed = false; // no arbitrary COM/native APIs exposed to site code
         core.Settings.IsWebMessageEnabled = true; // restricted to three non-privileged UI shortcuts
         core.PermissionRequested += (_, args) => { args.State = CoreWebView2PermissionState.Deny; };
-        core.DownloadStarting += (_, args) => { args.Cancel = true; };
+        core.DownloadStarting += (_, args) => {
+            // The native app never downloads silently. Admin export requires an explicit Save dialog.
+            if (!AllowedInGame(core.Source) || !Uri.TryCreate(core.Source, UriKind.Absolute, out var page)
+                || page.AbsolutePath != "/admin") { args.Cancel = true; return; }
+            using var save = new SaveFileDialog {
+                Title = "حفظ تصدير حروف الكورة",
+                Filter = "ملفات JSON (*.json)|*.json|كل الملفات (*.*)|*.*",
+                FileName = "huroof-questions.json",
+                OverwritePrompt = true
+            };
+            if (save.ShowDialog(this) == DialogResult.OK) args.ResultFilePath = save.FileName;
+            else args.Cancel = true;
+        };
         core.WebMessageReceived += (_, args) => {
             if (!AllowedInGame(args.Source)) return;
             string action;
