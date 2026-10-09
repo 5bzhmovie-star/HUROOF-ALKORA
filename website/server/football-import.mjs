@@ -9,7 +9,11 @@ const date=s=>typeof s==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(s)&&!Number.isNaN(
 function checkEntity(e){
  if(!e||!allowedTypes.has(e.type)||!/^[-a-z0-9:_]{5,128}$/.test(String(e.externalKey||'')))fail(422,'معرف كروي أو تصنيف غير صالح.');
  if(!e.nameAr?.trim()||!e.nameEn?.trim()||!https(e.source)||!date(e.verifiedAt))fail(422,'اسم أو مصدر أو تاريخ تحقق ناقص.');
- if(e.imageUrl&&!/^\/api\/visual-media\/[a-zA-Z0-9_-]{8,64}$/.test(e.imageUrl))fail(422,'تُقبل الصور المحلية المرخصة فقط.');
+ if(e.imageUrl){
+   const m=/^\/api\/visual-media\/([a-zA-Z0-9_-]{8,64})$/.exec(e.imageUrl);
+   if(!m)fail(422,'تُقبل الصور المحلية فقط.');
+   if(!one('SELECT id FROM visual_assets WHERE id=?',m[1]))fail(422,'الصورة غير موجودة بالمكتبة المحلية.');
+ }
 }
 export function validateCatalogBatch(batch){
  if(batch?.format!=='huroof-football-catalog-v1'||!https(batch.source)||!date(batch.snapshotDate))fail(422,'صيغة أو مصدر دفعة غير صالح.');
