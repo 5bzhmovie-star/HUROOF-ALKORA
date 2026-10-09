@@ -1,58 +1,69 @@
-# Generate the official Huroof AlKora Windows icon from the website's lime/dark identity.
-# No image downloads or external packages. System.Drawing runs on the Windows build runner.
+# Build assets from the EXACT Lucide "goal" geometry supplied for the official website.
+# Uses only Windows WPF and System.Drawing; no network downloads or external packages.
 $ErrorActionPreference = 'Stop'
+Add-Type -AssemblyName PresentationCore
+Add-Type -AssemblyName WindowsBase
 Add-Type -AssemblyName System.Drawing
+
 $assets = Join-Path $PSScriptRoot '..\src\HuroofAlKora\Assets'
 New-Item -ItemType Directory -Force -Path $assets | Out-Null
-$sz = 512
-$bitmap = [System.Drawing.Bitmap]::new($sz, $sz, [System.Drawing.Imaging.PixelFormat]::Format32bppArgb)
-$g = [System.Drawing.Graphics]::FromImage($bitmap)
-$g.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::AntiAlias
-$g.Clear([System.Drawing.Color]::Transparent)
-$lime = [System.Drawing.Color]::FromArgb(194,241,124)
-$ink = [System.Drawing.Color]::FromArgb(18,52,42)
-$g.TranslateTransform(256,256)
-$g.RotateTransform(-8)
-$bg = [System.Drawing.Drawing2D.GraphicsPath]::new()
-$side=404; $x=-202; $y=-202; $radius=90; $d=2*$radius
-$bg.AddArc($x,$y,$d,$d,180,90)
-$bg.AddArc($x+$side-$d,$y,$d,$d,270,90)
-$bg.AddArc($x+$side-$d,$y+$side-$d,$d,$d,0,90)
-$bg.AddArc($x,$y+$side-$d,$d,$d,90,90)
-$bg.CloseFigure()
-$fill = [System.Drawing.SolidBrush]::new($lime)
-$g.FillPath($fill,$bg)
-$bg.Dispose()
-$fill.Dispose()
-$g.ResetTransform()
-$pen = [System.Drawing.Pen]::new($ink,22)
-$pen.StartCap=[System.Drawing.Drawing2D.LineCap]::Round
-$pen.EndCap=[System.Drawing.Drawing2D.LineCap]::Round
-# Recreate the site's goal / play emblem in dark green.
-$g.DrawArc($pen,142,153,228,224,32,295)
-$g.DrawArc($pen,174,190,164,161,30,278)
-$g.DrawLine($pen,257,130,257,224)
-$pts=[System.Drawing.Point[]]@(
-    [System.Drawing.Point]::new(257,142),
-    [System.Drawing.Point]::new(350,196),
-    [System.Drawing.Point]::new(257,249)
+$lime = [System.Windows.Media.Color]::FromRgb(194,241,124)
+$ink = [System.Windows.Media.Color]::FromRgb(22,51,41)
+$limeBrush = [System.Windows.Media.SolidColorBrush]::new($lime)
+$inkBrush = [System.Windows.Media.SolidColorBrush]::new($ink)
+$limeBrush.Freeze()
+$inkBrush.Freeze()
+$visual = [System.Windows.Media.DrawingVisual]::new()
+$dc = $visual.RenderOpen()
+
+# Matching <span class="brand-mark">: lime rounded square tilted -8 degrees.
+$dc.PushTransform([System.Windows.Media.RotateTransform]::new(-8,256,256))
+$dc.DrawRoundedRectangle($limeBrush,$null,[System.Windows.Rect]::new(54,54,404,404),85,85)
+$dc.Pop()
+
+# Exact <Goal /> lucide stroke paths in 24x24 SVG viewBox; no invented ball or different icon.
+$dc.PushTransform([System.Windows.Media.TranslateTransform]::new(82,82))
+$dc.PushTransform([System.Windows.Media.ScaleTransform]::new(14.5,14.5))
+$pen = [System.Windows.Media.Pen]::new($inkBrush,2)
+$pen.StartLineCap = [System.Windows.Media.PenLineCap]::Round
+$pen.EndLineCap = [System.Windows.Media.PenLineCap]::Round
+$pen.LineJoin = [System.Windows.Media.PenLineJoin]::Round
+$geometryPaths = @(
+  'M12 13 V2 L20 6 L12 10',
+  'M20.561 10.222 a9 9 0 1 1 -12.55 -5.29',
+  'M8.002 9.997 a5 5 0 1 0 8.9 2.02'
 )
-$g.DrawPolygon($pen,$pts)
-$ball=[System.Drawing.SolidBrush]::new($ink)
-$g.FillEllipse($ball,299,328,32,32)
-$ball.Dispose(); $pen.Dispose(); $g.Dispose()
-$master=Join-Path $assets 'HuroofAlKora-master.png'
-$bitmap.Save($master,[System.Drawing.Imaging.ImageFormat]::Png)
+foreach($path in $geometryPaths) {
+    $geometry = [System.Windows.Media.Geometry]::Parse($path)
+    $dc.DrawGeometry($null,$pen,$geometry)
+}
+$dc.Pop()
+$dc.Pop()
+$dc.Close()
+
+$render = [System.Windows.Media.Imaging.RenderTargetBitmap]::new(512,512,96,96,[System.Windows.Media.PixelFormats]::Pbgra32)
+$render.Render($visual)
+$encoder = [System.Windows.Media.Imaging.PngBitmapEncoder]::new()
+$encoder.Frames.Add([System.Windows.Media.Imaging.BitmapFrame]::Create($render))
+$master = Join-Path $assets 'HuroofAlKora-master.png'
+$file = [System.IO.File]::Create($master)
+try { $encoder.Save($file) } finally { $file.Dispose() }
+
+$bitmap = [System.Drawing.Bitmap]::new($master)
 function Save-Scaled([int]$width,[int]$height,[string]$name) {
-  $img=[System.Drawing.Bitmap]::new($width,$height)
-  $graphics=[System.Drawing.Graphics]::FromImage($img)
+  $result = [System.Drawing.Bitmap]::new($width,$height,[System.Drawing.Imaging.PixelFormat]::Format32bppArgb)
+  $graphics = [System.Drawing.Graphics]::FromImage($result)
   $graphics.SmoothingMode=[System.Drawing.Drawing2D.SmoothingMode]::HighQuality
   $graphics.InterpolationMode=[System.Drawing.Drawing2D.InterpolationMode]::HighQualityBicubic
   $graphics.Clear([System.Drawing.Color]::Transparent)
-  $graphics.DrawImage($bitmap,0,0,$width,$height)
+  # Don't stretch square icon on wide banners.
+  $size = [Math]::Min($width,$height)
+  $left = [int](($width-$size)/2)
+  $top = [int](($height-$size)/2)
+  $graphics.DrawImage($bitmap,$left,$top,$size,$size)
   $graphics.Dispose()
-  $img.Save((Join-Path $assets $name),[System.Drawing.Imaging.ImageFormat]::Png)
-  $img.Dispose()
+  $result.Save((Join-Path $assets $name),[System.Drawing.Imaging.ImageFormat]::Png)
+  $result.Dispose()
 }
 Save-Scaled 44 44 'Square44x44Logo.png'
 Save-Scaled 150 150 'Square150x150Logo.png'
@@ -77,4 +88,4 @@ $writer.Write([uint32]$png.Length);$writer.Write([uint32]22)
 $writer.Write($png)
 $writer.Flush();$writer.Dispose()
 $bitmap.Dispose()
-Write-Host 'Generated matching site-brand PNG and ICO assets locally.'
+Write-Host "Generated official Lucide Goal assets (exact paths, matching CSS colors)."
