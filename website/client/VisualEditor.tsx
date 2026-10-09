@@ -48,6 +48,10 @@ export default function VisualEditor({tournaments,onSaved}:{tournaments:Competit
   }else if(entry.entity_type==='player'&&kind==='career'){
    setInput(old=>({...old,answer:entry.name_ar}));
    setVisual((old:any)=>({...old,playerName:entry.name_ar,playerPhoto:entry.image_key?.startsWith('/api/visual-media/')?entry.image_key:old.playerPhoto}));
+   api<any>('/admin/football-career-draft?id='+encodeURIComponent(entry.id)).then(draft=>{
+     setVisual((old:any)=>({...old,stations:draft.stations,playerPhoto:draft.playerPhoto||old.playerPhoto}));
+     setStatus('تم جلب المسيرة المرتبطة بالمكتبة. أكمل الصور الناقصة: '+(draft.missing?.join('، ')||''));
+   }).catch(e=>setError('تعذّر استيراد المسيرة: '+e.message));
   }else if(['club','national_team'].includes(entry.entity_type)&&kind!=='career'){
    setVisual((old:any)=>({...old,teamName:entry.name_ar,teamImage:entry.image_key?.startsWith('/api/visual-media/')?entry.image_key:old.teamImage}));
    setInput(old=>({...old,answer:entry.name_ar}));
