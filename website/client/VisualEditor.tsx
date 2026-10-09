@@ -66,3 +66,4 @@ export default function VisualEditor({tournaments,onSaved}:{tournaments:Competit
  {error&&<p role="alert" style={{color:'#fa9e9e'}}>{error}</p>}{status&&<p role="status">{status}</p>}
  <button type="button" disabled={busy} onClick={save}>{busy?'جارٍ حفظ السؤال…':'تحقق من المعلومات واحفظ السؤال'}</button>
  </section>;
+}
