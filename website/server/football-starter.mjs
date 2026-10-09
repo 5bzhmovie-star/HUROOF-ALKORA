@@ -58,7 +58,8 @@ const careerClubs=[
   ['basel','بازل','FC Basel','2012-07-01','2014-01-27',false],
   ['chelsea','تشيلسي','Chelsea','2014-01-27','2015-02-02',false],
   ['fiorentina','فيورنتينا','Fiorentina','2015-02-02','2015-06-01',true],
-  ['roma','روما','AS Roma','2015-08-06','2017-07-01',true],
+  ['roma','روما','AS Roma','2015-08-06','2016-08-03',true],
+  ['roma','روما','AS Roma','2016-08-03','2017-07-01',false],
   ['liverpool','ليفربول','Liverpool','2017-07-01',null,false]
 ];
 let careerRelationsAdded=0;
