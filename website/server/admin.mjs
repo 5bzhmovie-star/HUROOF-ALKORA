@@ -4,6 +4,7 @@ import { answerLetter, LETTERS } from './game.mjs';
 import { validName, broadcast } from './rooms.mjs';
 import { normalizeSupportUrl } from './support-url.mjs';
 import { validateVisualQuestion } from './visual-questions.mjs';
+import {searchEntities,getHistory,libraryStats,addEntity,addRelation} from './football-library.mjs';
 import { saveMedia, referencedMediaExists } from './visual-media.mjs';
 import { mkdirSync, openSync, closeSync, writeFileSync, readFileSync, unlinkSync } from 'node:fs';
 import { resolve } from 'node:path';
@@ -51,6 +52,9 @@ export function adminGet(path, url, admin) {
             const where = terms.join(' AND '), page = Math.max(1, Math.min(10000, Number(url.searchParams.get('page')) || 1));
             return { items: many(`SELECT q.*,t.name AS tournament FROM questions q JOIN tournaments t ON t.id=q.tournament_id WHERE ${where} ORDER BY q.updated_at DESC,q.id LIMIT 25 OFFSET ?`, ...p, (page - 1) * 25), total: one(`SELECT count(*) AS n FROM questions q WHERE ${where}`, ...p).n, page };
         }
+        case 'football-library': return searchEntities({search:url.searchParams.get('search'),type:url.searchParams.get('type')});
+        case 'football-library-stats': return libraryStats();
+        case 'football-library-history': return getHistory(url.searchParams.get('id'));
         case 'visual-media': return many('SELECT id,content_type,license,source,created_at FROM visual_assets ORDER BY created_at DESC LIMIT 500')
             .map(item=>({...item,url:'/api/visual-media/'+item.id}));
         case 'visual-questions': return many('SELECT q.id,q.text,q.answer,q.letter,q.tournament_id,q.difficulty,q.status,v.kind,v.payload,v.verified_at FROM visual_questions v JOIN questions q ON q.id=v.question_id ORDER BY q.updated_at DESC LIMIT 500')
@@ -90,6 +94,14 @@ export function adminGet(path, url, admin) {
 export function adminWrite(path, body, admin) {
     requireAdmin(admin);
     switch (path) {
+        case 'football-entity-create': {
+            requireAdmin(admin,['owner','manager','questions']);
+            const result=addEntity(body);audit(admin.username,'football.entity',result.id);return result;
+        }
+        case 'football-relation-create': {
+            requireAdmin(admin,['owner','manager','questions']);
+            const result=addRelation(body);audit(admin.username,'football.relation',result.id);return result;
+        }
         case 'visual-media-upload': {
             requireAdmin(admin,['owner','manager','questions']);
             const result=saveMedia(body);
