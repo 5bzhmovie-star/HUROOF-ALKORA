@@ -1,6 +1,11 @@
 name: Import verified game source
 on:
   workflow_dispatch:
+  push:
+    branches: [development/source-import]
+    paths:
+      - '.github/workflows/import-source.yml'
+      - 'Huroof-AlKora-Windows-v1.2.0-PRO-Source.zip'
 permissions:
   contents: write
 jobs:
