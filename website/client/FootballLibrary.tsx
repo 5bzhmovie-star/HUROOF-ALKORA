@@ -18,7 +18,14 @@ export default function FootballLibrary({onSelect}:{onSelect?:(entity:Entity)=>v
   await api('/admin/football-entity-create',form);setMessage('أُضيف السجل للمكتبة، في انتظار التدقيق أو الربط التاريخي.');setForm(f=>({...f,externalKey:'',nameAr:'',nameEn:''}));await reload();
  }catch(e:any){setError(e.message)}finally{setBusy(false)}};
  return <section className="panel football-library" dir="rtl">
- <h2>المكتبة الكروية المركزية</h2>
+ <h2>المكتبة الكروية المركزية</h2><button type="button" disabled={busy} onClick={async()=>{
+  if(!window.confirm('استيراد بيانات أولية من مباراتين تاريخيتين؟ ستُضاف كسجلات مراجعة، دون نشر أسئلة أو صور.'))return;
+  setBusy(true);setError('');
+  try{const result=await api<{relationsAdded:number}>('/admin/football-import-starter',{});
+    setMessage('تم ربط التشكيلات التاريخية. علاقات جديدة: '+result.relationsAdded+'. بيانات الصور والمراكز ما زالت تحتاج مراجعة.');
+    await reload();
+  }catch(e:any){setError(e.message)}finally{setBusy(false)}
+ }}>استيراد تشكيلتَي نهائي 2022 من المصادر الرسمية</button>
  <p className="hint">اللاعب يُحفظ مرة واحدة، وترتبط انتقالاته ومبارياته بسجله الأصلي. هذه المكتبة لا تنشر أسئلة دون تدقيق المصادر والوسائط.</p>
  {stats&&<div className="settings-row">{stats.entities.map(x=><div className="panel" key={x.type}><strong>{kinds.find(k=>k[0]===x.type)?.[1]||x.type}: {x.total}</strong></div>)}<div className="panel">العلاقات: {stats.relations}</div><div className="panel">بحاجة إلى مراجعة: {stats.pendingReview}</div><div className="panel">صور مخزنة: {stats.media}</div></div>}
  <div className="settings-row"><label>بحث عربي/إنجليزي<input value={search} onChange={e=>setSearch(e.target.value)} placeholder="اسم لاعب أو فريق"/></label>
