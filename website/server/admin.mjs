@@ -4,7 +4,7 @@ import { answerLetter, LETTERS } from './game.mjs';
 import { validName, broadcast } from './rooms.mjs';
 import { normalizeSupportUrl } from './support-url.mjs';
 import { validateVisualQuestion } from './visual-questions.mjs';
-import {searchEntities,getHistory,libraryStats,addEntity,addRelation,fixtureDraft,careerDraft} from './football-library.mjs';
+import {searchEntities,getHistory,libraryStats,addEntity,addRelation,fixtureDraft,careerDraft,reviewEntity} from './football-library.mjs';
 import {importOfficialStarter} from './football-starter.mjs';
 import { saveMedia, referencedMediaExists } from './visual-media.mjs';
 import { mkdirSync, openSync, closeSync, writeFileSync, readFileSync, unlinkSync } from 'node:fs';
@@ -106,6 +106,12 @@ export function adminWrite(path, body, admin) {
         case 'football-entity-create': {
             requireAdmin(admin,['owner','manager','questions']);
             const result=addEntity(body);audit(admin.username,'football.entity',result.id);return result;
+        }
+        case 'football-entity-review': {
+            requireAdmin(admin,['owner']);
+            const result=reviewEntity(String(body.id||''),String(body.evidenceUrl||''),admin.username);
+            audit(admin.username,'football.entity-review',result.id);
+            return result;
         }
         case 'football-relation-create': {
             requireAdmin(admin,['owner','manager','questions']);
