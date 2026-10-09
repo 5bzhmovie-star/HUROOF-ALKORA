@@ -6,6 +6,7 @@ import { normalizeSupportUrl } from './support-url.mjs';
 import { validateVisualQuestion } from './visual-questions.mjs';
 import {searchEntities,getHistory,libraryStats,addEntity,addRelation,fixtureDraft,careerDraft,reviewEntity} from './football-library.mjs';
 import {importOfficialStarter} from './football-starter.mjs';
+import {importCompetitionCatalog} from './football-competitions.mjs';
 import { saveMedia, referencedMediaExists } from './visual-media.mjs';
 import { mkdirSync, openSync, closeSync, writeFileSync, readFileSync, unlinkSync } from 'node:fs';
 import { resolve } from 'node:path';
@@ -97,6 +98,12 @@ export function adminGet(path, url, admin) {
 export function adminWrite(path, body, admin) {
     requireAdmin(admin);
     switch (path) {
+        case 'football-import-competitions': {
+            requireAdmin(admin,['owner']);
+            const result=transaction(()=>importCompetitionCatalog({addEntity,one}));
+            audit(admin.username,'football.competitions-import','11');
+            return result;
+        }
         case 'football-import-starter': {
             requireAdmin(admin,['owner']);
             const result=transaction(()=>importOfficialStarter());
