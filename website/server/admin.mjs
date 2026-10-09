@@ -5,6 +5,7 @@ import { validName, broadcast } from './rooms.mjs';
 import { normalizeSupportUrl } from './support-url.mjs';
 import { validateVisualQuestion } from './visual-questions.mjs';
 import {searchEntities,getHistory,libraryStats,addEntity,addRelation,fixtureDraft} from './football-library.mjs';
+import {importOfficialStarter} from './football-starter.mjs';
 import { saveMedia, referencedMediaExists } from './visual-media.mjs';
 import { mkdirSync, openSync, closeSync, writeFileSync, readFileSync, unlinkSync } from 'node:fs';
 import { resolve } from 'node:path';
@@ -95,6 +96,12 @@ export function adminGet(path, url, admin) {
 export function adminWrite(path, body, admin) {
     requireAdmin(admin);
     switch (path) {
+        case 'football-import-starter': {
+            requireAdmin(admin,['owner']);
+            const result=transaction(()=>importOfficialStarter());
+            audit(admin.username,'football.starter-import','2022-finals');
+            return result;
+        }
         case 'football-entity-create': {
             requireAdmin(admin,['owner','manager','questions']);
             const result=addEntity(body);audit(admin.username,'football.entity',result.id);return result;
