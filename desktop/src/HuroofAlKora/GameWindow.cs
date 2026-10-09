@@ -48,7 +48,7 @@ internal sealed class GameWindow : Form
         browser = new WebView2 { Dock = DockStyle.Fill, DefaultBackgroundColor = Color.FromArgb(16, 32, 31) };
         toolbar = new Panel { Dock = DockStyle.Top, Height = 53, BackColor = Color.FromArgb(16, 32, 31) };
         var brandIcon = new PictureBox { Location = new Point(15, 7), Size = new Size(38, 38), SizeMode = PictureBoxSizeMode.Zoom, BackColor = Color.Transparent };
-        using (var brandResource = Assembly.GetExecutingAssembly().GetManifestResourceStream("HuroofAlKora.Assets.HuroofAlKora-master.png"))
+        using (var brandResource = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("HuroofAlKora.Assets.HuroofAlKora-master.png"))
         {
             if (brandResource != null) { using var img = Image.FromStream(brandResource); brandIcon.Image = new Bitmap(img); }
         }
