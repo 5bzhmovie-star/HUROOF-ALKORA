@@ -82,7 +82,7 @@ export default function VisualEditor({tournaments,onSaved}:{tournaments:Competit
  {mediaPicker(p.flag,value=>updateEntry('players',i,'flag',value),'علم الجنسية')}
  {mediaPicker(p.clubLogo,value=>updateEntry('players',i,'clubLogo',value),'شعار النادي بتاريخ المباراة')}
  </div></details>)}</div>}
- <h3>معاينة السؤال قبل النشر</h3><VisualQuestion data={{...visual,type:kind} as any} revealed={false} canControl={false}/>
+ <h3>معاينة السؤال قبل النشر</h3><p className="hint">يمكنك سحب بطاقات اللاعبين لتغيير مراكزهم داخل الملعب الأفقي. هذه معاينة خاصة بالإدارة.</p><VisualQuestion data={{...visual,type:kind} as any} revealed={false} canControl={false} editable={kind!=='career'} onMovePlayer={(slot,x,y)=>setVisual((state:any)=>({...state,players:state.players.map((p:any)=>p.slot===slot?{...p,x,y}:p)}))}/>
  {error&&<p role="alert" style={{color:'#fa9e9e'}}>{error}</p>}{status&&<p role="status">{status}</p>}
  <button type="button" disabled={busy} onClick={save}>{busy?'جارٍ حفظ السؤال…':'تحقق من المعلومات واحفظ السؤال'}</button>
  </section>;
