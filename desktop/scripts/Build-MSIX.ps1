@@ -5,7 +5,7 @@ param(
   [Parameter(Mandatory=$true)][string]$IdentityName,
   [Parameter(Mandatory=$true)][string]$Publisher,
   [Parameter(Mandatory=$true)][string]$PublisherDisplayName,
-  [string]$Version = '1.2.1.0'
+  [string]$Version = '1.3.0.0'
 )
 $ErrorActionPreference = 'Stop'
 $root = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path

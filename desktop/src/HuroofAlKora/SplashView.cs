@@ -39,7 +39,7 @@ internal sealed class SplashView : UserControl
             Font = new Font("Segoe UI", 11f), Height = 72
         };
         local = MakeButton("اللعب المحلي السريع", Color.FromArgb(194, 241, 124));
-        online = MakeButton("اللعب الجماعي أونلاين", Color.FromArgb(35, 66, 58));
+        online = MakeButton("الاتصال بخادم مستقل", Color.FromArgb(35, 66, 58));
         retry = MakeButton("إعادة المحاولة", Color.FromArgb(194, 241, 124));
         retry.Visible = false;
         local.Click += (_, _) => LocalRequested?.Invoke(this, EventArgs.Empty);
@@ -148,7 +148,7 @@ internal sealed class SplashView : UserControl
             var x2 = Math.Min(lineW, offset + 90);
             if (x2 > x1) g.FillRectangle(progress, lineX + x1, lineY, x2 - x1, 4);
         }
-        g.DrawString("تجربة كروية عربية  •  بدون صلاحيات مسؤول  •  بياناتك على جهازك", footerFont, mutedBrush,
+        g.DrawString("لعبة مستقلة  •  بدون صلاحيات مسؤول  •  محرك سريع على جهازك", footerFont, mutedBrush,
             new RectangleF(10, Height - 66, Math.Max(50, Width - 20), 40), centered);
     }
 
