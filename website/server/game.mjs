@@ -44,6 +44,6 @@ export function makeBoard(size, coverage) {
         return { index, letter, owner: 0 };
     });
 }
-export function publicQuestion(q, showAnswer) { if (!q)
-    return null; const result = { letter: q.letter, text: q.text, difficulty: q.difficulty, tournament: q.tournament }; if (q.visual) result.visual = publicVisual(q.visual,showAnswer, q.revealedSlots || []); if (showAnswer)
+export function publicQuestion(q, showAnswer, revealVisual = showAnswer) { if (!q)
+    return null; const result = { letter: q.letter, text: q.text, difficulty: q.difficulty, tournament: q.tournament }; if (q.visual) result.visual = publicVisual(q.visual,revealVisual, q.revealedSlots || []); if (showAnswer)
     Object.assign(result, { answer: q.answer, source: q.source, note: q.note }); return result; }
