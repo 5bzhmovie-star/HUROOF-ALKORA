@@ -1,4 +1,5 @@
 import { randomInt } from 'node:crypto';
+import { publicVisual } from './visual-questions.mjs';
 export const LETTERS = 'ابتثجحخدذرزسشصضطظعغفقكلمنهوي'.split('');
 export const PALETTE = ['#15803d', '#2563eb', '#b45309', '#be185d', '#7c3aed', '#0e7490'];
 export function normalizeAnswer(value) { return String(value).normalize('NFKC').replace(/[\u064B-\u065F\u0670ـ]/g, '').replace(/[أإآٱ]/g, 'ا').trim(); }
@@ -43,6 +44,6 @@ export function makeBoard(size, coverage) {
         return { index, letter, owner: 0 };
     });
 }
-export function publicQuestion(q, showAnswer) { if (!q)
-    return null; const result = { letter: q.letter, text: q.text, difficulty: q.difficulty, tournament: q.tournament }; if (showAnswer)
+export function publicQuestion(q, showAnswer, revealVisual = showAnswer) { if (!q)
+    return null; const result = { letter: q.letter, text: q.text, difficulty: q.difficulty, tournament: q.tournament }; if (q.visual) result.visual = publicVisual(q.visual,revealVisual, q.revealedSlots || []); if (showAnswer)
     Object.assign(result, { answer: q.answer, source: q.source, note: q.note }); return result; }

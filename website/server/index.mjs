@@ -11,6 +11,7 @@ import { adminGet, adminWrite, audit, requireAdmin } from './admin.mjs';
 import { qrSvg } from './qr.mjs';
 import { normalizeSupportUrl } from './support-url.mjs';
 import { miniMedia } from './mini-media.mjs';
+import { getMedia } from './visual-media.mjs';
 import * as miniRooms from './mini-rooms.mjs';
 import { MINI_GAMES } from './mini-content.mjs';
 import { cleanupExpired } from './cleanup.mjs';
@@ -70,6 +71,13 @@ export function createApplication(options = {}) {
             // Trust only a specifically configured upstream address; never arbitrary forwarded headers.
             if (process.env.TRUSTED_PROXY_IP && ip === process.env.TRUSTED_PROXY_IP)
                 ip = String(req.headers['x-forwarded-for'] || ip).split(',').at(-1).trim();
+            const visualMediaMatch = method === 'GET' && path.match(/^\/api\/visual-media\/([a-zA-Z0-9_-]{8,64})$/);
+            if(visualMediaMatch) {
+                limit(`visual-media:${ip}`,200,60000);
+                const media=getMedia(visualMediaMatch[1]);
+                res.writeHead(200, {'Content-Type':media.contentType,'Cache-Control':'private,max-age=3600','X-Content-Type-Options':'nosniff','Cross-Origin-Resource-Policy':'same-origin'});
+                return res.end(media.bytes);
+            }
             const mediaMatch = method === 'GET' && path.match(/^\/api\/media\/([a-z0-9-]{1,40})$/);
             if (mediaMatch) {
                 limit(`media:${ip}`, 120, 60000);

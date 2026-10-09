@@ -3,6 +3,8 @@ import { fail, token } from './security.mjs';
 import { answerLetter, LETTERS } from './game.mjs';
 import { validName, broadcast } from './rooms.mjs';
 import { normalizeSupportUrl } from './support-url.mjs';
+import { validateVisualQuestion } from './visual-questions.mjs';
+import { saveMedia, referencedMediaExists } from './visual-media.mjs';
 import { mkdirSync, openSync, closeSync, writeFileSync, readFileSync, unlinkSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { randomUUID, createHash } from 'node:crypto';
@@ -49,6 +51,10 @@ export function adminGet(path, url, admin) {
             const where = terms.join(' AND '), page = Math.max(1, Math.min(10000, Number(url.searchParams.get('page')) || 1));
             return { items: many(`SELECT q.*,t.name AS tournament FROM questions q JOIN tournaments t ON t.id=q.tournament_id WHERE ${where} ORDER BY q.updated_at DESC,q.id LIMIT 25 OFFSET ?`, ...p, (page - 1) * 25), total: one(`SELECT count(*) AS n FROM questions q WHERE ${where}`, ...p).n, page };
         }
+        case 'visual-media': return many('SELECT id,content_type,license,source,created_at FROM visual_assets ORDER BY created_at DESC LIMIT 500')
+            .map(item=>({...item,url:'/api/visual-media/'+item.id}));
+        case 'visual-questions': return many('SELECT q.id,q.text,q.answer,q.letter,q.tournament_id,q.difficulty,q.status,v.kind,v.payload,v.verified_at FROM visual_questions v JOIN questions q ON q.id=v.question_id ORDER BY q.updated_at DESC LIMIT 500')
+            .map(item=>({...item,visual:JSON.parse(item.payload),payload:undefined}));
         case 'tournaments': return many("SELECT t.*,count(q.id) AS questions FROM tournaments t LEFT JOIN questions q ON q.tournament_id=t.id GROUP BY t.id ORDER BY t.position,t.name");
         case 'questions-reset-info': {
             requireAdmin(admin,['owner']);
@@ -84,6 +90,38 @@ export function adminGet(path, url, admin) {
 export function adminWrite(path, body, admin) {
     requireAdmin(admin);
     switch (path) {
+        case 'visual-media-upload': {
+            requireAdmin(admin,['owner','manager','questions']);
+            const result=saveMedia(body);
+            audit(admin.username,'visual.media-upload',result.id);
+            return result;
+        }
+        case 'visual-question': {
+            requireAdmin(admin,['owner','manager','questions']);
+            const base=questionInput(body), visual=validateVisualQuestion(body.visual);
+            const refs=new Set();
+            const collect=(object)=>{
+                if(!object||typeof object!=='object')return;
+                for(const [key,val] of Object.entries(object)){
+                    if(['photo','flag','clubLogo','teamImage','playerPhoto'].includes(key)&&typeof val==='string')refs.add(val);
+                    else if(Array.isArray(val))val.forEach(collect);
+                    else if(val&&typeof val==='object')collect(val);
+                }
+            };
+            collect(visual);
+            for(const ref of refs)if(!referencedMediaExists(ref))fail(422,'الصورة غير موجودة في مكتبة الوسائط: '+ref);
+            // Prevent publishing non-reviewed questions and reject mismatched type/answer.
+            if(base.status==='published'&&(!visual.source||!visual.verifiedAt))fail(422,'التحقق التاريخي مطلوب للنشر.');
+            const id=body.id?String(body.id):token(18);
+            if(body.id&&!one('SELECT id FROM questions WHERE id=?',id))fail(404,'السؤال غير موجود.');
+            transaction(()=>{
+                writeQuestion(base,id);
+                run('INSERT INTO visual_questions(question_id,kind,payload,verified_at,created_at) VALUES(?,?,?,?,?) ON CONFLICT(question_id) DO UPDATE SET kind=excluded.kind,payload=excluded.payload,verified_at=excluded.verified_at',
+                    id,visual.type,JSON.stringify(visual),visual.verifiedAt,Date.now());
+                audit(admin.username,'visual.question-save',id);
+            });
+            return {id,kind:visual.type};
+        }
         case 'question': {
             const q = questionInput(body), id = body.id ? String(body.id) : token(18);
             if (body.id && !one('SELECT id FROM questions WHERE id=?', id))

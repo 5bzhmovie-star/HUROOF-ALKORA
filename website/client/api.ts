@@ -57,12 +57,14 @@ export type Room = {
         letter: string;
         text: string;
         answer?: string;
+        visual?: import('./VisualQuestion').VisualLineup;
         source?: string;
         note?: string;
         difficulty: string;
         tournament: string;
     } | null;
     revealed: boolean;
+    visualReveal?: {mode:string;slots:number[];startedAt:number|null}|null;
     winner: number;
     path: number[];
     buzz: {

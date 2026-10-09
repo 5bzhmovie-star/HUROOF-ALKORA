@@ -1,6 +1,7 @@
 import { one, many, run, transaction } from './database.mjs';
 import { token, fail } from './security.mjs';
 import { makeBoard, findPath, publicQuestion, checkColors } from './game.mjs';
+import { publicVisual } from './visual-questions.mjs';
 export const subscribers = new Map();
 const ROOM_TTL = 10 * 60 * 1000;
 export function getRoom(id) { const row = one('SELECT * FROM rooms WHERE id=?', id); if (!row)
@@ -13,7 +14,18 @@ export function member(room, user) { if (!user)
     fail(403, 'لست ضمن لاعبي هذه الغرفة.'); return row; }
 export function validName(value) { const n = String(value || '').normalize('NFKC').trim(); if (n.length < 2 || n.length > 24 || /[\p{Cc}\p{Cf}<>]/u.test(n))
     fail(422, 'اكتب اسمًا من حرفين إلى ٢٤ حرفًا بدون رموز تحكم.'); return n; }
-export function roomConfig(body) { const config = { teams: [{ name: validName(body.teams?.[0]?.name), color: String(body.teams?.[0]?.color || '') }, { name: validName(body.teams?.[1]?.name), color: String(body.teams?.[1]?.color || '') }], size: Number(body.size), rounds: body.rounds === undefined ? 2 : body.rounds, mode: body.mode, seconds: Number(body.seconds), tournaments: [...new Set(Array.isArray(body.tournaments) ? body.tournaments : [])], difficulty: body.difficulty || 'all', autoReopen: body.autoReopen === true }; if (![4, 5, 6, 7].includes(config.size) || ![2,3,4,5,6].includes(config.rounds) || !['human', 'auto'].includes(config.mode) || ![5, 10, 15, 20].includes(config.seconds) || !['all', 'easy', 'medium', 'hard'].includes(config.difficulty))
+export function roomConfig(body) { const config = { teams: [{ name: validName(body.teams?.[0]?.name), color: String(body.teams?.[0]?.color || '') }, { name: validName(body.teams?.[1]?.name), color: String(body.teams?.[1]?.color || '') }], size: Number(body.size), rounds: body.rounds === undefined ? 2 : body.rounds, mode: body.mode, seconds: Number(body.seconds), tournaments: [...new Set(Array.isArray(body.tournaments) ? body.tournaments : [])], difficulty: body.difficulty || 'all', autoReopen: body.autoReopen === true,
+  visual: {
+    percent:Number(body.visual?.percent??0),
+    types:Array.isArray(body.visual?.types)?[...new Set(body.visual.types)]:['career','guess_club_nationalities','guess_nation_clubs'],
+    revealMode:body.visual?.revealMode || 'auto',
+    animation:body.visual?.animation!==false
+  }
+ }; if (![0,25,50,75,100].includes(config.visual.percent) ||
+     !config.visual.types.every(t=>['career','guess_club_nationalities','guess_nation_clubs'].includes(t)) ||
+     (config.visual.percent>0 && config.visual.types.length===0) ||
+     !['auto','all','manual'].includes(config.visual.revealMode))
+    fail(422,'راجع إعدادات الأسئلة المصورة.'); if (![4, 5, 6, 7].includes(config.size) || ![2,3,4,5,6].includes(config.rounds) || !['human', 'auto'].includes(config.mode) || ![5, 10, 15, 20].includes(config.seconds) || !['all', 'easy', 'medium', 'hard'].includes(config.difficulty))
     fail(422, 'راجع إعدادات المباراة.'); if (!checkColors(config.teams[0].color, config.teams[1].color))
     fail(422, 'اختر لونين داكنين ومختلفين بوضوح حتى تبقى الحروف مقروءة.'); if (config.teams[0].name === config.teams[1].name)
     fail(422, 'اختر اسمًا مختلفًا لكل فريق.'); if (!config.tournaments.length || config.tournaments.length > 50 || config.tournaments.some(id => typeof id !== 'string' || !one('SELECT id FROM tournaments WHERE id=? AND active=1', id)))
@@ -21,18 +33,52 @@ export function roomConfig(body) { const config = { teams: [{ name: validName(bo
 function questionFilter(config, letter) { const params = [...config.tournaments]; let sql = `q.status='published' AND t.active=1 AND q.tournament_id IN (${params.map(() => '?').join(',')})`; if (config.difficulty !== 'all') {
     sql += ' AND q.difficulty=?';
     params.push(config.difficulty);
-} if (letter) {
+} const percent=config.visual?.percent??0;
+ if(percent===0) sql += ' AND NOT EXISTS (SELECT 1 FROM visual_questions vx WHERE vx.question_id=q.id)';
+ else if(percent===100) sql += ' AND EXISTS (SELECT 1 FROM visual_questions vx WHERE vx.question_id=q.id)';
+ if(percent>0 && Array.isArray(config.visual?.types)) {
+    const types=config.visual.types;
+    // In mixed mode, text questions always remain eligible.
+    const kinds=types.length?types.map(()=>'?').join(','):"''";
+    sql += percent===100
+        ? ` AND EXISTS (SELECT 1 FROM visual_questions vx WHERE vx.question_id=q.id AND vx.kind IN (${kinds}))`
+        : ` AND (NOT EXISTS (SELECT 1 FROM visual_questions vx WHERE vx.question_id=q.id) OR EXISTS (SELECT 1 FROM visual_questions vx WHERE vx.question_id=q.id AND vx.kind IN (${kinds})))`;
+    params.push(...types);
+ } if (letter) {
     sql += ' AND q.letter=?';
     params.push(letter);
 } return { sql, params }; }
 export function questionCoverage(config) { const collect = candidate => { const filter = questionFilter(candidate), coverage = {}; for (const row of many(`SELECT q.letter,count(*) AS count FROM questions q JOIN tournaments t ON t.id=q.tournament_id WHERE ${filter.sql} GROUP BY q.letter`, ...filter.params)) coverage[row.letter] = Number(row.count); return coverage; }; const preferred = collect(config); return Object.values(preferred).reduce((sum, count) => sum + count, 0) >= config.size * config.size || config.difficulty === 'all' ? preferred : collect({ ...config, difficulty: 'all' }); }
-export function pickQuestion(config, letter, used = []) { const pick = candidate => { const filter = questionFilter(candidate, letter); return one(`SELECT q.*,t.name AS tournament FROM questions q JOIN tournaments t ON t.id=q.tournament_id WHERE ${filter.sql} AND q.id NOT IN (SELECT value FROM json_each(?)) ORDER BY random() LIMIT 1`, ...filter.params, JSON.stringify(used)) || null; }; return pick(config) || (config.difficulty !== 'all' ? pick({ ...config, difficulty: 'all' }) : null); }
-export function freshState(config, round = 1, results = [], matchKey = round) { const coverage = questionCoverage(config); return { round, matchKey, results, matchWinner: 0, board: makeBoard(config.size, coverage), current: null, cell: null, revealed: false, used: [], history: [], winner: 0, path: [], buzz: { open: false, winner: null, deadline: null, key: token(12) }, questionKey: token(12) }; }
+export function pickQuestion(config, letter, used = []) {
+  const pick = candidate => {
+    const filter = questionFilter(candidate, letter);
+    // Visual drafts are never drawn, and old text questions remain fully compatible.
+    const percent=candidate.visual?.percent??0;
+    const typeFilter=percent>0&&percent<100
+      ? (Math.random()*100<percent?' AND v.question_id IS NOT NULL':' AND v.question_id IS NULL'):'';
+    const query=(filterExtra)=>one(`SELECT q.*,t.name AS tournament,v.kind AS visual_kind,v.payload AS visual_payload
+      FROM questions q JOIN tournaments t ON t.id=q.tournament_id
+      LEFT JOIN visual_questions v ON v.question_id=q.id
+      WHERE ${filter.sql} ${filterExtra}
+      AND q.id NOT IN (SELECT value FROM json_each(?))
+      ORDER BY random() LIMIT 1`, ...filter.params, JSON.stringify(used)) || null;
+    const row=query(typeFilter) || query('');
+    if(!row)return null;
+    if(row.visual_payload) {
+      try {row.visual=JSON.parse(row.visual_payload);} catch {return null;}
+      delete row.visual_payload;
+    }
+    return row;
+  };
+  return pick(config) || (config.difficulty !== 'all' ? pick({...config,difficulty:'all'}) : null);
+}
+export function freshState(config, round = 1, results = [], matchKey = round) { const coverage = questionCoverage(config); return { round, matchKey, results, matchWinner: 0, board: makeBoard(config.size, coverage), current: null, cell: null, revealed: false, used: [], history: [], winner: 0, path: [], buzz: { open: false, winner: null, deadline: null, key: token(12) }, questionKey: token(12), visualReveal:null }; }
 export function createRoom(user, body) { const config = roomConfig(body), state = freshState(config), id = token(9), now = Date.now(); run('INSERT INTO rooms(id,owner_id,config,state,created_at,updated_at,expires_at) VALUES(?,?,?,?,?,?,?)', id, user.id, JSON.stringify(config), JSON.stringify(state), now, now, now + ROOM_TTL); event(id, 'بدأت الغرفة'); return getRoom(id); }
 export function event(id, message) { run('INSERT INTO events(room_id,message,created_at) VALUES(?,?,?)', id, message, Date.now()); }
 export function projection(room, view, user) { if (view === 'host')
     owner(room, user); if (view === 'buzzer')
-    member(room, user); const { state: s, config } = room, controller = user?.id === room.owner_id; const online = new Set([...(subscribers.get(room.id) || [])].map(x => x.userId).filter(Boolean)); const players = many('SELECT user_id AS id,name,team,kicked FROM members WHERE room_id=? AND kicked=0 ORDER BY joined_at', room.id); return { id: room.id, version: room.version, config, serverTime: Date.now(), round: s.round, results: s.results || [], matchWinner: s.matchWinner || 0, board: s.board, cell: s.cell, question: publicQuestion(s.current, s.revealed || (view === 'host' && config.mode === 'human')), revealed: s.revealed, winner: s.winner, path: s.path, buzz: s.buzz, questionKey: s.questionKey, playersCount: players.length, canControl: config.mode === 'auto' && controller, me: user ? players.find(p => p.id === user.id) || null : null, ...(view === 'host' ? { players: players.map(p => ({ ...p, online: online.has(p.id) })), events: many('SELECT id,message,created_at FROM events WHERE room_id=? ORDER BY id DESC LIMIT 40', room.id), canUndo: s.history.length > 0, links: { display: `/room/${room.id}/display`, buzzer: `/room/${room.id}/buzzer` } } : {}) }; }
+    member(room, user); const { state: s, config } = room, controller = user?.id === room.owner_id; const online = new Set([...(subscribers.get(room.id) || [])].map(x => x.userId).filter(Boolean)); const players = many('SELECT user_id AS id,name,team,kicked FROM members WHERE room_id=? AND kicked=0 ORDER BY joined_at', room.id); const projected = s.current ? {...s.current,revealedSlots:s.visualReveal?.slots || []} : null;
+ return { id: room.id, version: room.version, config, serverTime: Date.now(), round: s.round, results: s.results || [], matchWinner: s.matchWinner || 0, board: s.board, cell: s.cell, question: publicQuestion(projected, s.revealed || (view === 'host' && config.mode === 'human'), s.revealed), visualReveal: s.visualReveal ? {mode:s.visualReveal.mode,slots:s.visualReveal.slots,startedAt:s.visualReveal.startedAt} : null, revealed: s.revealed, winner: s.winner, path: s.path, buzz: s.buzz, questionKey: s.questionKey, playersCount: players.length, canControl: config.mode === 'auto' && controller, me: user ? players.find(p => p.id === user.id) || null : null, ...(view === 'host' ? { players: players.map(p => ({ ...p, online: online.has(p.id) })), events: many('SELECT id,message,created_at FROM events WHERE room_id=? ORDER BY id DESC LIMIT 40', room.id), canUndo: s.history.length > 0, links: { display: `/room/${room.id}/display`, buzzer: `/room/${room.id}/buzzer` } } : {}) }; }
 export function broadcast(id) { const clients = subscribers.get(id); if (!clients)
     return; for (const c of clients) {
     try {
@@ -95,6 +141,7 @@ export function act(id, user, body) {
                 s.used.push(s.current.id);
                 s.cell = index;
                 s.revealed = false;
+                s.visualReveal = s.current?.visual ? {mode:room.config.visual?.revealMode || 'manual',slots:[],startedAt:null} : null;
                 s.questionKey = token(12);
                 closeBuzz(s);
                 if (room.config.mode === 'auto')
@@ -117,6 +164,26 @@ export function act(id, user, body) {
                 if (room.config.mode === 'auto')
                     s.buzz.open = true;
                 message = 'تم تغيير السؤال';
+                break;
+            }
+            case 'visual-reveal-slot': {
+                if(!s.current?.visual || s.revealed || !s.visualReveal)fail(409,'لا يوجد سؤال تشكيلات متاح للكشف.');
+                if(s.current.visual.type === 'career')fail(422,'هذا النوع لا يحتوي على تشكيلات.');
+                const slot = Number(body.slot);
+                if(!Number.isInteger(slot)||slot<0||slot>10)fail(422,'اختر لاعبًا من التشكيلة.');
+                s.visualReveal.slots = [...new Set([...s.visualReveal.slots,slot])].sort((a,b)=>a-b);
+                s.visualReveal.mode = 'manual';
+                s.visualReveal.startedAt = Date.now();
+                message = 'كُشفت بطاقة لاعب';
+                break;
+            }
+            case 'visual-reveal-all':
+            case 'visual-reveal-auto': {
+                if(!s.current?.visual || s.revealed)fail(409,'لا يوجد سؤال بصري للكشف.');
+                s.revealed = true;
+                s.visualReveal = {mode:body.action==='visual-reveal-auto'?'auto':'all',slots:[0,1,2,3,4,5,6,7,8,9,10],startedAt:Date.now()};
+                closeBuzz(s);
+                message='اكتمل الكشف البصري';
                 break;
             }
             case 'reveal':
