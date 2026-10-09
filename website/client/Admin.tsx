@@ -7,7 +7,7 @@ import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from '@
 import { Checkbox } from '@/components/ui/checkbox';
 import { Session, Competition, api, ar, difficulties } from './api';
 import { Button, Choice, Notice, Loading, Confirm } from './ui';
-const roleNames: Record<string, string> = { owner: 'مالك الموقع', manager: 'مدير', questions: 'مشرف أسئلة' };
+const roleNames: Record<string, string> = { owner: 'مالك البرنامج', manager: 'مدير', questions: 'مشرف أسئلة' };
 type Question = {
     id?: string;
     tournament_id: string;
@@ -24,6 +24,9 @@ export default function Admin({ session, onSession, tournaments }: {
     onSession: (s: Session) => void;
     tournaments: Competition[];
 }) {
+    const [credentials, setCredentials] = useState({ username: '', password: '', code: '' });
+    const [loginBusy, setLoginBusy] = useState(false);
+    const [loginError, setLoginError] = useState('');
     const [tab, setTab] = useState('overview'), [data, setData] = useState<any>(null), [dataTab, setDataTab] = useState(''), [busy, setBusy] = useState(false), [error, setError] = useState(''), [success, setSuccess] = useState(''), [refresh, setRefresh] = useState(0), [filter, setFilter] = useState({ tournament: 'all', difficulty: 'all', status: 'all', letter: 'all', search: '', page: 1 }), [search, setSearch] = useState(''), [question, setQuestion] = useState<Question | null>(null), [miniRound, setMiniRound] = useState<any>(null), [competition, setCompetition] = useState<any>(null), [deleting, setDeleting] = useState<string | null>(null), [allTournaments, setAllTournaments] = useState<Competition[]>(tournaments), [importing, setImporting] = useState(false), [importText, setImportText] = useState(''), [invite, setInvite] = useState(false), [newAdmin, setNewAdmin] = useState({ username: '', password: '', role: 'questions' }), [enrollment, setEnrollment] = useState<any>(null), [activation, setActivation] = useState('');
     const bump = () => setRefresh(v => v + 1);
     async function save(path: string, body: any) { setBusy(true); setError(''); setSuccess(''); try {
@@ -52,11 +55,26 @@ export default function Admin({ session, onSession, tournaments }: {
     useEffect(() => { if (session.admin)
         api<Competition[]>('/admin/tournaments').then(setAllTournaments).catch(() => { }); }, [session.admin, refresh]);
     if (!session.admin)
-        return <main className="container admin-login"><div className="panel"><div className="admin-lock"><ShieldCheck size={32}/></div><h1>دخول الإدارة</h1><p>لوحة الإدارة متاحة لحساب مالك الموقع المسجّل في الاستضافة.</p><Button className="primary wide" onClick={() => location.reload()}>تحديث الصفحة</Button></div></main>;
+        return <main className="container admin-login"><form className="panel" onSubmit={async event => {
+            event.preventDefault(); if (loginBusy) return; setLoginBusy(true); setLoginError('');
+            try {
+                const result = await api<Session>('/admin/login', credentials);
+                setCredentials({username:'',password:'',code:''}); onSession(result);
+            } catch (err: any) { setLoginError(err.message || 'تعذّر تسجيل الدخول.'); }
+            finally { setLoginBusy(false); }
+        }}><div className="admin-lock"><ShieldCheck size={32}/></div><h1>دخول إدارة حروف الكورة</h1>
+        <p>سجّل بحساب إدارة البرنامج وكلمة المرور ورمز المصادقة.</p>
+        <label>اسم المستخدم<input required autoComplete="username" dir="ltr" value={credentials.username} onChange={e=>setCredentials(c=>({...c,username:e.target.value}))}/></label>
+        <label>كلمة المرور<input required type="password" autoComplete="current-password" value={credentials.password} onChange={e=>setCredentials(c=>({...c,password:e.target.value}))}/></label>
+        <label>رمز التحقق (٦ أرقام)<input required inputMode="numeric" autoComplete="one-time-code" maxLength={6} dir="ltr" pattern="[0-9]{6}" value={credentials.code} onChange={e=>setCredentials(c=>({...c,code:e.target.value}))}/></label>
+        {loginError&&<Notice>{loginError}</Notice>}
+        <Button className="primary wide" type="submit" disabled={loginBusy}>{loginBusy?'جارٍ التحقق…':'دخول لوحة الإدارة'}</Button>
+        <p className="hint">إذا لم تنشئ حسابًا بعد، اضغط «لوحة الإدارة» في شريط تطبيق Windows لإعداده أول مرة.</p>
+        </form></main>;
     const owner = session.admin.role === 'owner', operational = session.admin.role !== 'questions';
     const sections = [['overview', 'نظرة عامة', ShieldCheck], ['questions', 'الأسئلة', BookOpen], ['mini-games', 'محتوى Mini Games', Gamepad2], ['tournaments', 'البطولات', Trophy], ...(operational ? [['rooms', 'غرف الحروف', Radio], ['mini-rooms', 'غرف Mini Games', Gamepad2], ['users', 'اللاعبون', Users], ['audit', 'سجل العمليات', ScrollText]] : []), ...(owner ? [['settings', 'الإعدادات', Settings2]] : [])];
     const newQuestion = () => setQuestion({ tournament_id: allTournaments[0]?.id || '', letter: 'ا', text: '', answer: '', difficulty: 'medium', status: 'published', source: '', note: '' });
-    return <main className="container admin-page"><div className="page-heading inline"><div><span className="eyebrow">حروف الكورة</span><h1>إدارة الملعب</h1><p>{session.admin.username} · {roleNames[session.admin.role]}</p></div><Button variant="outline" onClick={() => { location.href = '/signout-with-chatgpt?return_to=/'; }}><LogOut /> خروج الإدارة</Button></div>{error && <Notice>{error}</Notice>}{success && <Notice success>{success}</Notice>}<Tabs value={tab} onValueChange={setTab} dir="rtl" className="admin-tabs"><TabsList className="admin-nav">{sections.map(([key, label, Icon]: any) => <TabsTrigger key={key} value={key}><Icon size={18}/>{label}</TabsTrigger>)}</TabsList>{sections.filter(([key]) => key === tab).map(([key]: any) => <TabsContent key={key} value={key}>{!data || dataTab !== tab ? (error ? <Button variant="outline" onClick={bump}>إعادة تحميل القسم</Button> : <Loading />) : <>
+    return <main className="container admin-page"><div className="page-heading inline"><div><span className="eyebrow">حروف الكورة</span><h1>إدارة الملعب</h1><p>{session.admin.username} · {roleNames[session.admin.role]}</p></div><Button variant="outline" onClick={async () => { try { await api('/admin/logout',{}); onSession(await api<Session>('/session')); } catch (err:any) { setError(err.message); } }}><LogOut /> خروج الإدارة</Button></div>{error && <Notice>{error}</Notice>}{success && <Notice success>{success}</Notice>}<Tabs value={tab} onValueChange={setTab} dir="rtl" className="admin-tabs"><TabsList className="admin-nav">{sections.map(([key, label, Icon]: any) => <TabsTrigger key={key} value={key}><Icon size={18}/>{label}</TabsTrigger>)}</TabsList>{sections.filter(([key]) => key === tab).map(([key]: any) => <TabsContent key={key} value={key}>{!data || dataTab !== tab ? (error ? <Button variant="outline" onClick={bump}>إعادة تحميل القسم</Button> : <Loading />) : <>
             {key === 'overview' && <><div className="stat-grid">{[['الأسئلة المنشورة', data.published], ['الغرف النشطة', data.rooms], ['الجولات المكتملة', data.matches], ['اللاعبون', data.users]].map(([label, value]) => <div className="panel stat" key={label}><span>{label}</span><strong>{ar(Number(value))}</strong></div>)}</div><div className="admin-overview-grid"><section className="panel"><h2>أسئلة كل بطولة</h2>{data.competitions.map((t: any) => <div className="stat-row" key={t.id}><span>{t.name}</span><b>{ar(t.questions)}</b></div>)}</section><section className="panel"><h2>أكثر البطولات لعبًا</h2>{data.popular.length ? data.popular.map((t: any) => <div className="stat-row" key={t.name}><span>{t.name}</span><b>{ar(t.rooms)} غرفة</b></div>) : <p className="hint">تظهر هنا بعد إنشاء أول غرفة.</p>}</section></div></>}
             {key === 'questions' && <section className="panel question-management"><div className="admin-actions"><h2>{ar(data.total)} سؤال</h2><Button className="primary" onClick={newQuestion}><Plus /> إضافة سؤال</Button><Button variant="outline" onClick={() => setImporting(true)}><Upload /> استيراد</Button><Button variant="outline" onClick={async () => { try {
                 const qs = await api('/admin/export'), blob = new Blob([JSON.stringify(qs, null, 2)], { type: 'application/json' }), url = URL.createObjectURL(blob), a = document.createElement('a');
