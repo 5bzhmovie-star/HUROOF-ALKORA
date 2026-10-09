@@ -51,7 +51,7 @@ export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x
       api<AtlasEntity[]>('/admin/football-library?'+new URLSearchParams({type:filter,search:debounced})),
       api<Summary>('/admin/football-library-stats')
     ]);
-    setItems(entities);setStats(summary);
+    setItems(entities);setStats(summary);setSelected(previous=>previous ? entities.find(item=>item.id===previous.id)||previous : null);
   }catch(e:any){setError(e.message||'تعذر تحميل المكتبة')}
   finally{setLoading(false)}
  },[filter,debounced]);
