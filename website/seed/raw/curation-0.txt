@@ -1,0 +1,210 @@
+Most titles | History | UEFA Champions League | UEFA.com (https://www.uefa.com/uefachampionsleague/history/winners/)
+citeturn22view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.uefa.com/uefachampionsleague/history/winners/","lineno":null}); Total lines: 271
+--------------------------------------------------------------------------------
+FIFA World Cup - Wikipedia (https://en.wikipedia.org/wiki/FIFA_World_Cup)
+citeturn22view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://en.wikipedia.org/wiki/FIFA_World_Cup","lineno":750}); Total lines: 1072
+L738: ## Records and statistics
+L739: 
+L740: Main articles: FIFA World Cup records and statistics and National team appearances in the FIFA World Cup L741: 
+L742: See also: List of players who have appeared in the most FIFA World Cups , List of FIFA World Cup winning players , and List of FIFA World Cup winning managers L743: 
+L744: Pelé being held aloft after winning the 1970 World Cup final . He is the only player to win three World Cups.
+L745: Two players share the record for playing in the most World Cups ; Lionel Messi (2006–2026) and Cristiano Ronaldo (2006–2026) have played the most World Cup tournaments overall with six each.^{[122] }^{[n 3] } Mexico 's Antonio Carbajal (1950–1966), Rafael Márquez (2002–2018), and Andrés Guardado (2006–2022), Croatia 's Luka Modrić (2006, 2014–2026), and Germany 's Lothar Matthäus (1982–1998) and Manuel Neuer (2010–2026) all played in five tournaments.^{[123] }^{[124] } Brazil 's Djalma Santos (1954–1962), West Germany's Franz Beckenbauer (1966–1974), and Germany's Philipp Lahm (2006–2014) are the only players to be named to three World Cup All-Star Teams .^{[125] }
+L746: Kylian Mbappé of France (2018–2026) is the all-time top scorer with 22 goals, surpassing Lionel Messi of Argentina (2006–2026) and Miroslav Klose of Germany (2002–2014).
+L747: Klose broke Ronaldo of Brazil's record of 15 goals (1998–2006) during the 2014 semi-final match against Brazil , while Messi equalled Klose's total with a hat-trick in Argentina's opening match of the 2026 tournament, and later broke Klose's record with two goals against Austria in the following group stage game.^{[126] } West Germany's Gerd Müller (1970–1974) is fifth, with 14 goals, just behind Ronaldo's 15 goals.^{[127] }^{[128] } The seventh-placed goalscorer, France 's Just Fontaine , holds the record for the most goals scored in a single World Cup; all his 13 goals were scored in the 1958 tournament.^{[129] }
+L748: Vittorio Pozzo is the only person to win two World Cups as a coach.
+L749: In November 2007, FIFA announced that all members of World Cup-winning squads between 1930 and 1974 were to be retroactively awarded winners' medals.^{[65] } This made Brazil's Pelé the only player to have won three World Cup winners' medals (1958, 1962, and 1970, although he did not play in the 1962 final due to injury),^{[130] } with 20 other players who have won two winners' medals .
+L750: Seven players have collected all three types of World Cup medals (winners', runners-up, and third-place); five players were from West Germany's squad of 1966–1974: Franz Beckenbauer, Jürgen Grabowski , Horst-Dieter Höttges , Sepp Maier , and Wolfgang Overath (1966–1974), Italy's Franco Baresi (1982, 1990, 1994) and the most recent has been Miroslav Klose of Germany (2002–2014) with four consecutive medals.^{[131] }
+L751: Brazil's Mário Zagallo , West Germany's Franz Beckenbauer and France's Didier Deschamps are the only people to date to win the World Cup as both player and head coach.
+L752: Zagallo won in 1958 and 1962 as a player and in 1970 as head coach.^{[132] } Beckenbauer won in 1974 as captain and in 1990 as head coach,^{[133] } and Deschamps repeated the feat in 2018, after having won in 1998 as captain.^{[134] } Italy 's Vittorio Pozzo is the only head coach to ever win two World Cups (1934 and 1938).^{[135] } All World Cup-winning head coaches were natives of the country they coached to victory.^{[136] }
+L753: Among the national teams, Brazil has played the most World Cup matches (119), appeared in the most World Cups (23), and has the most wins (79) and goals scored (247). Germany has appeared in the most finals (8), semi-finals (13) and quarter-finals (16).^{[137] }^{[138] } The two teams have played each other twice in the World Cup, in the 2002 final and in the 2014 semi-final .^{[139] }
+L754: ### Top goalscorers
+L755: 
+L756: Main article: List of FIFA World Cup top goalscorers L757: 
+L758: Individual
+L759: 
+L760: Players in bold are still active in international football.
+L761: Kylian Mbappé is the top goalscorer in FIFA World Cup tournament history. Cristiano Ronaldo is the only player to score in six different FIFA World Cup tournaments.
+L762: Rank  | Player  | Goals  | Matches  | Goals per game
+L763: --- | --- | --- | --- | ---
+L764: 1  | Kylian Mbappé | 22  | 22  | 1.00
+L765: 2  | Lionel Messi | 21  | 34  | 0.62
+L766: 3  | Miroslav Klose | 16  | 24  | 0.67
+L767: 4  | Ronaldo | 15  | 19  | 0.84
+L768: 5  | Gerd Müller | 14  | 13  | 1.08
+L769: Harry Kane | 18  | 0.78
+L770: 7  | Just Fontaine | 13  | 6  | 2.17
+L771: 8  | Pelé | 12  | 14  | 0.86
+L772: 9  | Sándor Kocsis | 11  | 5  | 2.20
+L773: Jürgen Klinsmann | 17  | 0.65
+L774: Cristiano Ronaldo | 27  | 0.41
+L775: Country
+L776: Lionel Messi played the most games in FIFA World Cup tournament history.
+L777: Rank  | National team  | Goals scored
+L778: --- | --- | ---
+L779: 1  | Image†thumb.wikimedia.org Brazil | 247
+L780: 2  | Image†thumb.wikimedia.org Germany | 243
+L781: 3  | Image†thumb.wikimedia.org Argentina | 171
+L782: 4  | Image†thumb.wikimedia.org France | 156
+L783: 5  | Image†thumb.wikimedia.org Italy | 128
+L784: 6  | Image†thumb.wikimedia.org England | 124
+L785: 7  | Image†thumb.wikimedia.org Spain | 122
+L786: 8  | Image†thumb.wikimedia.org Netherlands | 107
+L787: 9  | Image†thumb.wikimedia.org Uruguay | 92
+L788: 10  | Image†thumb.wikimedia.org Hungary | 87
+L789: Image†thumb.wikimedia.org Sweden L790: ## Awards
+L791: 
+L792: Main article: FIFA World Cup awards L793: 
+L794: Left: The "Golden Boot" (named for its sponsor "Adidas Golden Boot", formerly known as the "adidas Golden Shoe" from 1982 to 2006) for top goalscorer, first awarded in 1982;
+L795: Right: "FIFA Fair Play Trophy" for the team that advanced to the second round with the best record of fair play, first awarded in 1970
+L796: At the end of each World Cup, awards are presented to the players and teams for accomplishments other than their final team positions in the tournament.
+L797:   * There are five post-tournament awards from the FIFA Technical Study Group:^{[140] }^{[141] }
+L798:     * the Golden Ball (commercially termed "adidas Golden Ball") for best player, first awarded in 1982 .
+L799:     * the Golden Boot (commercially termed "adidas Golden Boot", formerly known as the "adidas Golden Shoe" from 1982 to 2006) for top goalscorer, first awarded in 1982;
+L800:     * the Golden Glove (commercially termed "adidas Golden Glove", formerly known as the "Lev Yashin Award" from 1994 to 2006) for best goalkeeper, first awarded in 1994 ;
+L801:     * the FIFA Young Player Award (formerly known as the "Best Young Player Award" from 2006 to 2010) for best player under 21 years of age at the start of the calendar year, first awarded in 2006 ;
+L802:     * the FIFA Fair Play Trophy for the team that advanced to the second round with the best record of fair play, first awarded in 1970 .
+L803:   * There is currently one award voted on by fans during the tournament:
+L804:     * the Player of the Match (commercially termed "Michelob Ultra Superior Player of the Match"^{[142] }, formerly known as the "Budweiser Man of the Match" from 2002 to 2018 and "Budweiser Player of the Match" in 2022) for outstanding performance during each match of the tournament, first awarded in 2002 .
+L805:   * There are two awards voted on by fans after the conclusion of the tournament:
+L806:     * the Goal of the Tournament (currently commercially termed "Hyundai Goal of the Tournament") for the fans' best goal scored during the tournament, first awarded in 2006 ;
+L807:     * the Most Entertaining Team during the World Cup final tournament, as determined by a poll of the general public.
+L808:   * One other award was given between 1994 and 2006:^{[143] }
+L809:     * an All-Star Team comprising the best players of the tournament chosen by the FIFA Technical Study Group. From 2010 onwards, all Dream Teams or Statistical Teams are unofficial, as reported by FIFA itself.
+L810: World Cup  | Golden Ball  | Golden Boot  | Goals  | Golden Glove  | Clean sheets  | FIFA Young Player Award  | FIFA Fair Play Trophy
+L811: --- | --- | --- | --- | --- | --- | --- | ---
+L812: 1930 Uruguay | Not Awarded  | Guillermo Stábile | 8  | Not Awarded  | N/A  | Not Awarded  | Not Awarded
+L813: 1934 Italy | Oldřich Nejedlý | 5
+L814: 1938 France | Leônidas | 7
+L815: 1950 Brazil | Ademir | 9
+L816: 1954 Switzerland | Sándor Kocsis | 11
+L817: 1958 Sweden | Just Fontaine | 13  | Pelé L818: 1962 Chile | Flórián Albert L819: Garrincha L820: Vavá --------------------------------------------------------------------------------
+AFC Champions League Elite - Wikipedia (https://en.wikipedia.org/wiki/AFC_Champions_League_Elite)
+citeturn22view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://en.wikipedia.org/wiki/AFC_Champions_League_Elite","lineno":540}); Total lines: 740
+L467: Hapoel Tel Aviv | 1  | 1  | 1967 | 1970 L468: Liaoning | 1  | 1  | 1989–90 | 1990–91 L469: Busan IPark | 1  | 0  | 1985–86 | —
+L470: JEF United Chiba | 1  | 0  | 1986 | —
+L471: Tokyo Verdy | 1  | 0  | 1987 | —
+L472: PAS Tehran | 1  | 0  | 1992–93 | —
+L473: Gamba Osaka | 1  | 0  | 2008 | —
+L474: Western Sydney Wanderers | 1  | 0  | 2014 | —
+L475: Kashima Antlers | 1  | 0  | 2018 | —
+L476: Yokohama F. Marinos | 0  | 2  | —  | 1989–90 , 2023–24 L477: FC Seoul | 0  | 2  | —  | 2001–02 , 2013 L478: Persepolis | 0  | 2  | —  | 2018 , 2020 L479: Selangor | 0  | 1  | —  | 1967 L480: Yangzee | 0  | 1  | —  | 1969 L481: Aliyat Al-Shorta | 0  | 1  | —  | 1971 L482: Al-Rasheed | 0  | 1  | —  | 1988–89 L483: Al-Shabab | 0  | 1  | —  | 1992–93 L484: Oman Club | 0  | 1  | —  | 1993–94 L485: Al-Arabi | 0  | 1  | —  | 1994–95 L486: Al-Nassr | 0  | 1  | —  | 1995 L487: Dalian Shide | 0  | 1  | —  | 1997–98 L488: Police Tero | 0  | 1  | —  | 2002–03 L489: Al-Karamah | 0  | 1  | —  | 2006 L490: Sepahan | 0  | 1  | —  | 2007 L491: Adelaide United | 0  | 1  | —  | 2008 L492: Zob Ahan | 0  | 1  | —  | 2010 L493: Shabab Al-Ahli | 0  | 1  | —  | 2015 L494: Kawasaki Frontale | 0  | 1  | —  | 2024–25 L495: Machida Zelvia | 0  | 1  | —  | 2025–26 L496: ### Performance by nation
+L497: 
+L498: [edit ]
+L499: Performances in finals by nation
+L500: Nation  | Titles  | Runners-up  | Total
+L501: --- | --- | --- | ---
+L502: Image†thumb.wikimedia.org South Korea | 12  | 7  | 19
+L503: Image†thumb.wikimedia.org Saudi Arabia | 8  | 10  | 18
+L504: Image†thumb.wikimedia.org Japan | 8  | 7  | 15
+L505: Image†thumb.wikimedia.org Iran | 3  | 6  | 9
+L506: Image†thumb.wikimedia.org China | 3  | 2  | 5
+L507: Image†thumb.wikimedia.org Israel | 3  | 1  | 4
+L508: Image†thumb.wikimedia.org United Arab Emirates | 2  | 3  | 5
+L509: Image†thumb.wikimedia.org Qatar | 2  | 1  | 3
+L510: Image†thumb.wikimedia.org Thailand | 2  | 1  | 3
+L511: Image†thumb.wikimedia.org Australia | 1  | 1  | 2
+L512: Image†thumb.wikimedia.org Iraq | 0  | 2  | 2
+L513: Image†thumb.wikimedia.org Malaysia | 0  | 1  | 1
+L514: Image†thumb.wikimedia.org Oman | 0  | 1  | 1
+L515: Image†thumb.wikimedia.org Syria | 0  | 1  | 1
+L516: ### Performance by region
+L517: 
+L518: [edit ]
+L519: 
+L520: Zone  | Federation (region)  | Titles  | Total
+L521: --- | --- | --- | ---
+L522: East Zone  | EAFF (East Asia)  | 23  | 26
+L523: AFF (Southeast Asia)  | 3
+L524: West Zone  | WAFF (West Asia)  | 12  | 15
+L525: CAFA (Central Asia)  | 3
+L526: SAFF (South Asia)  | 0
+L527: 
+L528: Note: Israeli clubs, winners of the 1967 , 1969 and 1971 editions, are not included.
+L529: 
+L530: ## Awards
+L531: 
+L532: [edit ]
+L533: ### Most Valuable Player
+L534: 
+L535: [edit ]
+L536: Year  | Player  | Club  | Ref.
+L537: --- | --- | --- | ---
+L538: 1996–97 | An Ik-soo | Pohang Steelers | ^{[37] }
+L539: 1997–98 | Ahmed Al-Dokhi | Al-Hilal | ^{[38] }
+L540: 1998–99 | Seydou Traoré | Al Ain | ^{[39] }
+L541: 1999–2000 | Sérgio Ricardo | Al-Hilal | ^{[40] }
+L542: 2000–01 | Zoltan Sabo | Suwon Samsung Bluewings | ^{[41] }
+L543: 2001–02 | —N/a
+L544: 2002–03 | Therdsak Chaiman | BEC Tero Sasana | ^{[42] }
+L545: 2004 | Redha Tukar | Al-Ittihad | ^{[43] }
+L546: 2005 | Mohammed Noor | Al-Ittihad | ^{[44] }
+L547: 2006 | Choi Jin-cheul | Jeonbuk Hyundai Motors | ^{[45] }
+L548: 2007 | Yuichiro Nagai | Urawa Red Diamonds |
+L549: 2008 | Yasuhito Endō | Gamba Osaka |
+L550: 2009 | No Byung-jun | Pohang Steelers | ^{[46] }
+L551: 2010 | Sasa Ognenovski | Seongnam Ilhwa Chunma | ^{[47] }
+L552: 2011 | Lee Dong-gook | Jeonbuk Hyundai Motors | ^{[48] }
+L553: 2012 | Lee Keun-ho | Ulsan Hyundai | ^{[49] }
+L554: 2013 | Muriqui | Guangzhou Evergrande | ^{[50] }
+L555: 2014 | Ante Covic | Western Sydney Wanderers | ^{[51] }
+L556: 2015 | Ricardo Goulart | Guangzhou Evergrande | ^{[52] }
+L557: 2016 | Omar Abdulrahman | Al Ain | ^{[53] }
+L558: 2017 | Yōsuke Kashiwagi | Urawa Red Diamonds | ^{[54] }
+L559: 2018 | Yuma Suzuki | Kashima Antlers | ^{[55] }
+L560: 2019 | Bafétimbi Gomis | Al-Hilal | ^{[56] }
+L561: 2020 | Yoon Bit-garam | Ulsan Hyundai | ^{[57] }
+L562: 2021 | Salem Al-Dawsari | Al-Hilal | ^{[58] }
+L563: 2022 | Hiroki Sakai | Urawa Red Diamonds | ^{[59] }
+L564: 2023–24 | Soufiane Rahimi | Al Ain | ^{[60] }
+L565: 2024–25 | Roberto Firmino | Al-Ahli | ^{[61] }
+L566: 2025–26 | Franck Kessié | Al-Ahli | ^{[62] }
+L567: ### Top scorers
+L568: 
+L569: [edit ]
+L570: Year  | Player  | Club  | Goals  | Ref.
+L571: --- | --- | --- | --- | ---
+L572: 1996–97 | Park Tae-ha | Pohang Steelers | 3^{[a] }  | ^{[37] }
+L573: 2002–03 | Hao Haidong | Dalian Shide | 9  |
+L574: 2004 | Kim Do-hoon | Seongnam Ilhwa Chunma | 9  | ^{[63] }
+L575: 2005 | Mohamed Kallon | Al-Ittihad | 6  |
+L576: 2006 | Magno Alves | Gamba Osaka | 8  |
+L577: 2007 | Mota | Seongnam Ilhwa Chunma | 7  |
+L578: 2008 | Nantawat Tansopa | Krung Thai Bank | 9  |
+L579: 2009 | Leandro | Gamba Osaka | 10  |
+L580: 2010 | Jose Mota | Suwon Samsung Bluewings | 9  |
+L581: 2011 | Lee Dong-gook | Jeonbuk Hyundai Motors | 9  |
+L582: 2012 | Ricardo Oliveira | Al-Jazira | 12  |
+L583: 2013 | Muriqui | Guangzhou Evergrande | 13  |
+L584: 2014 | Asamoah Gyan | Al Ain | 12  |
+L585: 2015 | Ricardo Goulart | Guangzhou Evergrande | 8  |
+L586: 2016 | Adriano | FC Seoul | 13  | ^{[64] }
+L587: 2017 | Omar Kharbin | Al-Hilal | 10  |
+L588: 2018 | Baghdad Bounedjah | Al-Sadd | 13  |
+L589: 2019 | Bafétimbi Gomis | Al-Hilal | 11  |
+L590: 2020 | Abderrazak Hamdallah | Al-Nassr | 7  | ^{[65] }
+L591: 2021 | Michael Olunga | Al-Duhail | 9  | ^{[66] }
+L592: 2022 | Edmilson Junior | Al-Duhail | 8  | ^{[67] }
+L593: 2023–24 | Soufiane Rahimi | Al Ain | 13  | ^{[60] }
+L594: 2024–25 | Salem Al-Dawsari | Al-Hilal | 10  | ^{[68] }
+L595: 2025–26 | Rafa Mújica | Al-Sadd | 8  | ^{[69] }
+L596: Notes
+L597: 
+L598:   1. ↑ Final tournament goals only.
+L599: ## See also
+L600: 
+L601: [edit ]
+L602: 
+L603:   * AFC Champions League Two L604:   * AFC Challenge League L605:   * Continental football championships L606:   * List of association football competitions L607: ## References
+L608: 
+L609: [edit ]
+L610:   1. ↑ "AFC Champions League: The drama, the glory..."†www.the-afc.com the-AFC.com. 17 February 2015. Archived†web.archive.org from the original on 9 June 2021. Retrieved 12 July 2021.
+L611:   2. ↑ "Asian nations soccer contest"†gpa.eastview.com . The Iraq Times. 18 April 1963. Archived†web.archive.org from the original on 7 June 2024. Retrieved 11 November 2023.
+L612:   3. ↑ Amitsur, D. (22 August 1971). "The Arabs' leg up to Israel in Asian football"†www.jpress.nli.org.il (in Hebrew). Davar . Archived†web.archive.org from the original on 25 July 2020. Retrieved 25 May 2020.
+L613:   4. ↑ "Asian Club Competitions 1971"†www.rsssf.org . RSSSF . Archived†web.archive.org from the original on 22 July 2022. Retrieved 15 January 2024.
+L614:   5. ↑ "Al-Mal'ab Newspaper – April 1971 – Champions of Asia Return to Baghdad"†web.archive.org . Kooora (in Arabic). April 1971. Archived from the original†www.9ory.com on 25 July 2020. Retrieved 20 December 2017.
+L615:   6. ↑ "History of the Asian Club Championship"†www.asian-football.com . Asian Football. 9 April 1997. Archived†web.archive.org from the original on 9 April 1997. Retrieved 5 November 2021.
+L616:   7. ↑ "Asian Football Confederation"†web.archive.org (PDF). Archived from the original†www.the-afc.com (PDF) on 5 February 2009. Retrieved 26 May 2008.
+L617:   8. ↑ "Criteria for Participation in AFC Club Competitions"†web.archive.org (PDF). Archived from the original†www.the-afc.com (PDF) on 18 August 2012. Retrieved 5 January 2010.
+L618:   9. ↑ "ACL base widened from 2014"†www.the-afc.com . AFC. Retrieved 26 January 2022.`{{cite web }}`: CS1 maint: deprecated archival service (link )
+L619:   10. ↑ "AFC Slots"†web.archive.org . Archived from the original†www.the-afc.com on 3 December 2013. Retrieved 4 July 2014.
+

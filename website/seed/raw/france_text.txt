@@ -1,0 +1,1 @@
+Failed to fetch https://raw.githubusercontent.com/openfootball/france/master/2019-20/1-ligue1.txt: (404) Not Found

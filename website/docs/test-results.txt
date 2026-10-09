@@ -1,0 +1,30 @@
+✔ question bank: at least 1000 unique sourced Arabic questions; all requested competitions (4.405959ms)
+✔ all 11 competitions individually support a 7×7 board without unanswerable initial cells (6.482614ms)
+✔ hex geometry: reciprocal six-edge adjacency and exclusive, complete winner on all 3×3 colorings (5.160721ms)
+✔ team colors reject lookalikes and unreadable light colors (0.44014ms)
+✔ Arabic answer normalization is consistent with the public rules (0.134582ms)
+✔ guest sessions rotate on identity and use HttpOnly, SameSite cookies; challenge is one-use raster (68.449501ms)
+✔ create real persisted room, enter teams and retrieve distinct role views (22.365417ms)
+✔ IDOR, role spoofing, missing CSRF, hostile Origin and CORS are rejected on actual endpoints (16.54732ms)
+✔ answer remains server-only in all display/buzzer snapshots until reveal, even for room owner (10.434261ms)
+✔ SSE publishes projected state, with no hidden answer in initial or subsequent events (10.401451ms)
+✔ simultaneous buzzer requests choose exactly one winner and reject replay (12.869343ms)
+✔ expired timer is handled from persisted deadline and auto-opens with a fresh buzzer generation (2.957056ms)
+✔ stale host moves are refused; answer reveal then award changes only one cell (16.10072ms)
+✔ complete connected win saves result; undo removes it; replay does not double-count; restart preserves completed match (89.473134ms)
+✔ question changes never reuse previously used question IDs and persisted state survives server recreation (19.518302ms)
+✔ automatic mode hides the answer from its controller until reveal and still enforces owner authority (25.754941ms)
+✔ kicked player cannot buzz or rejoin with the same session (8.004657ms)
+✔ admin login requires password + one-time TOTP; secrets are encrypted; guest sessions cannot access admin (715.140907ms)
+✔ admin views, bounded import, unique question check, Arabic letter validation and SQL injection handling (36.278767ms)
+✔ rate limit prevents buzzer spam; security headers and no source/database disclosure (31.563288ms)
+✔ live SQLite backup and restore pass integrity, preserve results and revoke old sessions (138.008405ms)
+✔ production cookies are Secure and HSTS is present when HTTPS origin is configured (5.079624ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1358.645345

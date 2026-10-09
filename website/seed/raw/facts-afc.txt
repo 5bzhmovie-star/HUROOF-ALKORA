@@ -1,0 +1,184 @@
+AFC Champions League Elite - Wikipedia (https://en.wikipedia.org/wiki/AFC_Champions_League_Elite)
+citeturn21view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://en.wikipedia.org/wiki/AFC_Champions_League_Elite","lineno":240}); Total lines: 740
+L47:   * (Top) L48:   * 1 History Toggle History subsection
+L49:     * 1.1 1967–1972: Asian Champion Club Tournament L50:     * 1.2 1985–2002: Return as the Asian Club Championship L51:     * 1.3 2002–2024: AFC Champions League L52:       * 1.3.1 Expansion L53:       * 1.3.2 Women's rights in Iranian football L54:     * 1.4 2024–25 onwards: AFC Champions League Elite L55:   * 2 Format Toggle Format subsection
+L56:     * 2.1 Qualification L57:     * 2.2 Tournament L58:     * 2.3 Allocation L59:   * 3 Prize money L60:   * 4 Trophy L61:   * 5 Marketing Toggle Marketing subsection
+L62:     * 5.1 Sponsorship L63:     * 5.2 Video game L64:   * 6 Records and statistics Toggle Records and statistics subsection
+L65:     * 6.1 Performance by club L66:     * 6.2 Performance by nation L67:     * 6.3 Performance by region L68:   * 7 Awards Toggle Awards subsection
+L69:     * 7.1 Most Valuable Player L70:     * 7.2 Top scorers L71:   * 8 See also L72:   * 9 References L73:   * 10 External links L74: [Input] Toggle the table of contents
+L75: # AFC Champions League Elite
+L76: 
+L77: [Input] 60 languages
+L78:   * العربية†ar.wikipedia.org L79:   * مصرى†arz.wikipedia.org L80:   * Asturianu†ast.wikipedia.org L81:   * Azərbaycanca†az.wikipedia.org L82:   * تۆرکجه†azb.wikipedia.org L83:   * Basa Bali†ban.wikipedia.org L84:   * বাংলা†bn.wikipedia.org L85:   * Bosanski†bs.wikipedia.org L86:   * Català†ca.wikipedia.org L87:   * کوردی†ckb.wikipedia.org L88:   * Čeština†cs.wikipedia.org L89:   * Cymraeg†cy.wikipedia.org L90:   * Dansk†da.wikipedia.org L91:   * Deutsch†de.wikipedia.org L92:   * Ελληνικά†el.wikipedia.org L93:   * Español†es.wikipedia.org L94:   * Eesti†et.wikipedia.org L95:   * Euskara†eu.wikipedia.org L96:   * فارسی†fa.wikipedia.org L97:   * Suomi†fi.wikipedia.org L98:   * Føroyskt†fo.wikipedia.org L99:   * Français†fr.wikipedia.org L100:   * Galego†gl.wikipedia.org L101:   * עברית†he.wikipedia.org L102:   * हिन्दी†hi.wikipedia.org L103:   * Hrvatski†hr.wikipedia.org L104:   * Magyar†hu.wikipedia.org L105:   * Bahasa Indonesia†id.wikipedia.org L106:   * Italiano†it.wikipedia.org L107:   * 日本語†ja.wikipedia.org L108:   * Jawa†jv.wikipedia.org L109:   * ქართული†ka.wikipedia.org L110:   * Қазақша†kk.wikipedia.org L111:   * ភាសាខ្មែរ†km.wikipedia.org L112:   * 한국어†ko.wikipedia.org L113:   * Lietuvių†lt.wikipedia.org L114:   * Latviešu†lv.wikipedia.org L115:   * Bahasa Melayu†ms.wikipedia.org L116:   * Malti†mt.wikipedia.org L117:   * Nederlands†nl.wikipedia.org L118:   * Norsk bokmål†no.wikipedia.org L119:   * Polski†pl.wikipedia.org L120:   * Português†pt.wikipedia.org L121:   * Română†ro.wikipedia.org L122:   * Русский†ru.wikipedia.org L123:   * Scots†sco.wikipedia.org L124:   * Srpskohrvatski / српскохрватски†sh.wikipedia.org L125:   * Simple English†simple.wikipedia.org L126:   * Slovenčina†sk.wikipedia.org L127:   * Shqip†sq.wikipedia.org L128:   * Српски / srpski†sr.wikipedia.org L129:   * Svenska†sv.wikipedia.org L130:   * ไทย†th.wikipedia.org L131:   * Türkmençe†tk.wikipedia.org L132:   * Türkçe†tr.wikipedia.org L133:   * Українська†uk.wikipedia.org L134:   * Oʻzbekcha / ўзбекча†uz.wikipedia.org L135:   * Tiếng Việt†vi.wikipedia.org L136:   * 粵語†zh-yue.wikipedia.org L137:   * 中文†zh.wikipedia.org L138: Edit links†www.wikidata.org L139: 
+L140:   * Article L141:   * Talk L142: 
+L143: [Input] English
+L144: 
+L145:   * Read L146:   * Edit L147:   * View history L148: 
+L149: [Input] Tools
+L150: 
+L151: Tools
+L152: 
+L153: [Button: move to sidebar] [Button: hide]
+L154: 
+L155: Actions
+L156: 
+L157:   * Read L158:   * Edit L159:   * View history L160: 
+L161: General
+L162: 
+L163:   * What links here L164:   * Related changes L165:   * Upload file L166:   * Permanent link L167:   * Page information L168:   * Cite this page L169:   * Get shortened URL L170:   * Switch to legacy parser L171: 
+L172: Print/export
+L173:   * Download as PDF L174:   * Printable version L175: 
+L176: In other projects
+L177: 
+L178:   * Wikimedia Commons†commons.wikimedia.org L179:   * Wikidata item†www.wikidata.org L180: 
+L181: Appearance
+L182: 
+L183: [Button: move to sidebar] [Button: hide]
+L184: 
+L185: "Asian Champions League" redirects here. For other uses, see Champions League (disambiguation) .
+L186: 
+L187: This article is about the men's competition. For the women's competition, see AFC Women's Champions League .
+L188: Not to be confused with AFC Asian Cup or AFC Championship Game .
+L189: AFC Champions League Elite
+L190: Organiser(s)  | AFC L191: Founded  | 1967 (1967) (as Asian Champion Club Tournament)
+L192: Region  | Asia
+L193: Teams  | 32 (league stage)
+L194: Qualifier for  | FIFA Club World Cup L195: FIFA Intercontinental Cup L196: Related competitions  | AFC Champions League Two L197: (2nd tier)
+L198: AFC Challenge League L199: (3rd tier)
+L200: Current champions  | Al-Ahli (2nd title)
+L201: Most championships  | Al-Hilal (4 titles)
+L202: Website  | www.the-afc.com†www.the-afc.com L203: Image†thumb.wikimedia.org 2026–27 AFC Champions League Elite L204: The AFC Champions League Elite (abbreviated as the ACL Elite) is an annual continental club football competition organised by the Asian Football Confederation , and contested by Asia's top-division football clubs . It is the most prestigious club competition in Asian football, played by the national league champions (and, for some nations, one or more runners-up) of their national associations.^{[1] }
+L205: Introduced in 1967 as the Asian Champion Club Tournament, the competition rebranded as AFC Champions League in 2002 following the merger of the Asian Club Championship, the Asian Cup Winners' Cup and the Asian Super Cup . It was rebranded again in 2024 to its current name.
+L206: A total of 32 clubs compete in the league stage of the competition, divided into East and West regions (16 teams each). The winner of the AFC Champions League Elite qualifies for the FIFA Intercontinental Cup and the FIFA Club World Cup , and also for the next edition of the AFC Champions League Elite league stage if they have not already qualified through their domestic performance.
+L207: The most successful club in the competition is Al-Hilal with a total of four titles. Al-Ahli are the current champions, having beaten Machida Zelvia 1–0 in the 2026 final for their second consecutive title.
+L208: ## History
+L209: 
+L210: [edit ]
+L211: List of winners
+L212: Season  | Winners
+L213: --- | ---
+L214: Asian Champion Club Tournament
+L215: ---
+L216: 1967 | Hapoel Tel Aviv L217: 1969 | Maccabi Tel Aviv L218: 1970 | Taj Tehran L219: 1971 | Maccabi Tel Aviv (2)
+L220: 1972 | Cancelled
+L221: 1973–1984: Not held
+L222: ---
+L223: Asian Club Championship
+L224: ---
+L225: 1985–86 | Daewoo Royals L226: 1986 | Furukawa Electric L227: 1987 | Yomiuri FC L228: 1988–89 | Al-Sadd L229: 1989–90 | Liaoning L230: 1990–91 | Esteghlal (2)
+L231: 1991 | Al-Hilal L232: 1992–93 | PAS Tehran L233: 1993–94 | Thai Farmers Bank L234: 1994–95 | Thai Farmers Bank (2)
+L235: 1995 | Ilhwa Chunma L236: 1996–97 | Pohang Steelers L237: 1997–98 | Pohang Steelers (2)
+L238: 1998–99 | Júbilo Iwata L239: 1999–2000 | Al-Hilal (2)
+L240: 2000–01 | Suwon Samsung Bluewings L241: 2001–02 | Suwon Samsung Bluewings (2)
+L242: AFC Champions League
+L243: ---
+L244: 2002–03 | Al Ain L245: 2004 | Al-Ittihad L246: 2005 | Al-Ittihad (2)
+L247: 2006 | Jeonbuk Hyundai Motors L248: 2007 | Urawa Red Diamonds L249: 2008 | Gamba Osaka L250: 2009 | Pohang Steelers (3)
+L251: 2010 | Seongnam Ilhwa Chunma (2)
+L252: 2011 | Al-Sadd (2)
+L253: 2012 | Ulsan Hyundai L254: 2013 | Guangzhou Evergrande L255: 2014 | Western Sydney Wanderers L256: 2015 | Guangzhou Evergrande (2)
+L257: 2016 | Jeonbuk Hyundai Motors (2)
+L258: 2017 | Urawa Red Diamonds (2)
+L259: 2018 | Kashima Antlers L260: 2019 | Al-Hilal (3)
+L261: 2020 | Ulsan Hyundai (2)
+L262: 2021 | Al-Hilal (4)
+L263: 2022 | Urawa Red Diamonds (3)
+L264: 2023–24 | Al Ain (2)
+L265: AFC Champions League Elite
+L266: ---
+L267: 2024–25 | Al-Ahli L268: 2025–26 | Al-Ahli (2)
+L269: ### 1967–1972: Asian Champion Club Tournament
+L270: 
+L271: [edit ]
+L272: The Asian Football Confederation (AFC) first discussed launching a tournament for the champions of AFC nations in a meeting held on 21 April 1963, with its Secretary Lee Wai Tong announcing the AFC's intention to hold a competition similar to the European Cup .^{[2] } The competition started in 1967 as the Asian Champion Club Tournament and had a variety of different formats in its first few years, with the inaugural tournament staged as a straight knock-out format, and the following three editions consisting of a group stage.
+L273: While Israeli clubs dominated the first four editions of the competition, this was partly due to the refusal of Arab clubs to play them :
+L274:   * In 1970 , Lebanese club Homenetmen refused to play Hapoel Tel Aviv in the semi-final, which was scratched with Hapoel advancing to the final.
+L275:   * In 1971 , Aliyat Al-Shorta of Iraq refused to play Maccabi Tel Aviv on three occasions: in the preliminary round (which was redrawn), in the group stage, and then in the final, which was scratched with Maccabi being awarded the championship.^{[3] } During the award ceremony for Maccabi, Aliyat Al-Shorta players waved the Palestinian flag around the field, with a match being arranged by the AFC and the Thai FA between Maccabi and a Combined Bangkok team in lieu of the final.^{[4] } The Iraqi media considered Aliyat Al-Shorta as the tournament's winners, with the team holding an open top bus parade in Baghdad.^{[5] }
+L276: After the 1972 edition had to be cancelled by the AFC for various reasons, including two Arab clubs being excluded for refusing to commit to playing against Israeli club Maccabi Netanya , the AFC suspended the competition for 14 years, while Israel would be expelled from the AFC in 1974.
+L277: ### 1985–2002: Return as the Asian Club Championship
+L278: 
+L279: [edit ]
+L280: 
+L281: Asia's premier club tournament made its return in 1985 as the Asian Club Championship.^{[6] }
+L282: 
+L283: In 1990, the Asian Football Confederation introduced the Asian Cup Winners' Cup , a tournament for the cup winners of each AFC nation, while the 1995 season saw the introduction of the Asian Super Cup , with the winners of the Asian Club Championship and Asian Cup Winners' Cup playing against each other.
+L284: ### 2002–2024: AFC Champions League
+L285: 
+L286: [edit ]
+L287: 
+L288: Japan's Kashima Antlers and Singapore's Warriors FC during a group stage game during the 2009 season at the Jalan Besar Stadium .
+L289: The 2002–03 season saw the Asian Club Championship, Asian Cup Winners' Cup and Asian Super Cup combine to become the AFC Champions League. League champions and cup winners would qualify for the qualifying playoffs with the best eight clubs from East Asia and the eight best clubs from West Asia progressing to the group stage. The first winners under the AFC Champions League name were Al-Ain , defeating BEC Tero Sasana 2–1 on aggregate.
+L290: In 2004 , 29 clubs from fourteen countries participated and the tournament schedule was changed to March–November.
+L291: In the group stage, the 28 clubs were divided into seven groups of four on a regional basis, separating East Asian and West Asian clubs to reduce travel costs, and the groups were played on a home and away basis. The seven group winners along with the defending champions qualified to the quarter-finals. The quarter-finals, semi-finals, and finals were played as a two-legged format, with away goals , extra time , and penalties used as tie-breakers.
+L292: #### Expansion
+L293: 
+L294: [edit ]
+L295: 
+L296: The 2005 season saw Syrian clubs join the competition, thus increasing the number of participating countries to 15, and two years later, following their transfer into the AFC in 2006, Australian clubs were also included in the tournament. However, many blamed the low prize money at that time and expensive travel cost as some of the reasons.
+L297: The Champions League was expanded to 32 clubs in 2009 with direct entry to the top ten Asian leagues.
+L298: Each country received up to 4 slots, though no more than one-third of the number of teams in that country's top division, rounded downwards, depending on the strength of their league, professional league structure, marketability, financial status, as well as other criteria set by the AFC Pro-League Committee.^{[7] } The assessment criteria and ranking for participating associations are revised by AFC every two years.^{[8] }
+L299: FIFA president Gianni Infantino and around 100,000 others watching the 2018 AFC Champions League Final at Azadi Stadium .
+L300: The old format saw the eight group winners and eight runners-up qualify to the round of 16, in which group winners played host to the runners-up in two-legged series, matched regionally, with away goals, extra time, and penalties used as tie-breakers. The regional restriction continues all the way until the final, although clubs from the same country couldn't face each other in the quarterfinals unless that country has three or more representatives in the quarterfinals.
+L301: Since 2013, the final has also been held as a two-legged series, on a home and away basis.^{[9] }^{[10] }
+L302: In 2021, the group stage was expanded from 32 to 40 teams, with both the West and East Regions having five groups of four teams. The slot allocation for the top six member associations in each region remained unchanged. The 10 group winners and top 3 runners-up per region are now seeded based on a combination table for the round of 16, with the games still matched regionally until the final.^{[11] }
+L303: In February 2022, it was announced that the AFC Champions League would go back to an inter-year (autumn to spring) schedule starting with the 2023–24 season . In addition, the existing "3+1" rule for foreign players during matches (3 foreign players and 1 Asian foreigner) was expanded to "5+1" (5 foreign players and 1 Asian foreigner).^{[12] }
+L304: #### Women's rights in Iranian football
+L305: 
+L306: [edit ]
+L307: 
+L308: By 2021, the various problems with the Iranian sides were attracting media attention; international Arabic and English-language media reported the violation of women's rights in the stadiums of Iranian sides.
+L309: On top of that, Iranian women were banned from football stadiums for about 40 years, by the Iranian government .^{[13] }^{[14] } In 2019, Iranian women were first allowed to watch football at stadiums, but not during ACL games.^{[14] }^{[15] } Before that, FIFA had pressured Iran to let women into the stadiums; Iran relented, but capped the number of women to watch the 2018 final .^{[14] }^{[16] } In 2021, the AFC investigated the matter, in the hope of allowing unrestricted attendance whenever Iranian clubs are involved.^{[17] }
+L310: ### 2024–25 onwards: AFC Champions League Elite
+L311: 
+L312: [edit ]
+L313: In December 2022, the AFC announced that their club football structure would undergo an overhaul, with the top club competition shrinking from 40 teams in the main stage to 24 teams, divided into East and West regions (12 teams each), with each team in the East and West regions playing eight other teams from their region (four teams at home and four teams away).
+L314: The top eight teams from each region would advance to the knockout stage, where only the round of 16 would be played over two legs, with all matches from the quarter-finals onward being played in a single-leg format at a centralised venue.^{[18] } In August 2023, it was confirmed that the new format would come into effect from the 2024–25 season, with the name of the competition changing to AFC Champions League Elite.^{[19] } The AFC has also confirmed that AFC Champions League records and statistics would be carried forward to the ACL Elite.^{[20] } Saudi Arabia were awarded hosting duties for the final stage for the first two seasons and provisionally for the following three seasons, subject to an AFC review.^{[21] }
+L315: Starting with the 2026–27 edition, the league stage expanded from 24 to 32 clubs (16 for each region).^{[22] }
+L316: ## Format
+L317: 
+L318: [edit ]
+L319: ### Qualification
+L320: 
+L321: [edit ]
+L322: 
+L323: Map of AFC countries whose teams reached the group/league stage of the AFC Champions League Elite
+L324: 
+L325:   AFC member country that has been represented in the group/league stage
+L326: 
+L327:   AFC member country that has not been represented in the group/league stage
+L328: As of the 2026–27 edition of the tournament, the AFC Champions League Elite uses a league stage format of 32 teams, which is preceded by qualifying matches for teams that do not receive direct entry to the competition proper. Teams are also split into East and West zones.
+L329: The number of teams that each association enters into the AFC Champions League Elite is determined annually through criteria as set by the AFC Competitions Committee.^{[23] } The criteria, which is a modified version of the UEFA coefficient , measures such thing as marketability and stadia to determine the specific number of berths that an association receives. The higher an association's ranking as determined by the criteria, the more teams represent the association in the competition.
+L330: ### Tournament
+L331: 
+L332: [edit ]
+L333: 
+L334: The tournament proper begins with a league stage of 32 teams, which are split into two leagues (East and West), with each team playing against eight opponents from their league (four at home and four away).^{[24] }
+L335: The top eight teams from each league advance to the round of 16. In this phase, each club face another club from its region in a two-legged, home-and-away tie to decide which eight clubs progress to a centralised Finals tournament.^{[24] } If the aggregate score of the two games is tied after 180 minutes, the clubs play extra time . If still tied after extra time, the tie is decided by a penalty shoot-out .
+L336: The quarter-finals, semi-finals and final matches all feature cross-regional pairings, and are played in a single-leg format at centralised venue.^{[24] }
+L337: ### Allocation
+L338: 
+L339: [edit ]
+L340: 
+L341: Further information: AFC club competitions ranking L342: 
+L343: Teams from 24 AFC countries have reached the group stage of the AFC Champions League Elite. The allocation of teams by member countries is listed below; asterisks represent occasions where at least one team was eliminated in qualification prior to the group stage. 32 AFC countries have had teams participate in qualification, and countries that have never had teams reach the group stage are not shown.
+L344: Associations  | Entrants
+L345: --- | ---
+L346: 2002–03 | 2004 | 2005 | 2006 | 2007 | 2008 | 2009 | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023–24 | 2024–25 | 2025–26 L347: --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
+L348: East Asia
+L349: ---
+L350: Australia | Part of OFC | 2  | 2  | 2  | 2  | 2  | 3  | 1*  | 3  | 2*  | 2*  | 3  | 2*  | 2*  | 3  | 0  | 2*  | 1  | 1  | 1
+L351: China PR | 2  | 2  | 2  | 2  | 2  | 2  | 4  | 4  | 4  | 3  | 4  | 4  | 4  | 4  | 3*  | 4  | 4  | 4  | 2*  | 2  | 3*  | 3  | 3
+L352: Hong Kong | 0*  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0*  | 0*  | 0*  | 1*  | 1*  | 0*  | 0*  | 1  | 1  | 1*  | 0  | 0
+L353: Indonesia | 0*  | 2  | 2  | 0  | 2  | 0  | 1*  | 1*  | 1*  | 0*  | 0  | 0  | 0*  | 0  | 0  | 0*  | 0*  | 0*  | 0  | 0  | 0*  | 0  | 0
+L354: Japan | 2  | 2  | 2  | 2  | 2  | 3  | 4  | 4  | 4  | 4  | 4  | 4  | 4  | 4  | 4  | 4  | 4  | 3*  | 4  | 4  | 4  | 3  | 3
+L355: South Korea | 2  | 2  | 2  | 2  | 3  | 2  | 4  | 4  | 4  | 4  | 4  | 4  | 4  | 4  | 4  | 4  | 4  | 4  | 4  | 4  | 4  | 3  | 3
+L356: Malaysia | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0*  | 0*  | 0*  | 0*  | 1*  | 1*  | 1  | 1  | 1  | 1  | 1
+L357: Philippines | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0*  | 0*  | 0*  | 0*  | 2  | 1*  | 1  | 0  | 0
+L358: Singapore | 0*  | 0  | 0  | 0  | 0  | 0  | 1  | 1  | 0  | 0  | 0  | 0*  | 0*  | 0*  | 0*  | 0*  | 0*  | 0*  | 1  | 1  | 1  | 0  | 0
+L359: Thailand | 2  | 2  | 2  | 0  | 1  | 2  | 0*  | 0*  | 0*  | 1*  | 2  | 1*  | 1*  | 1*  | 1*  | 1*  | 1*  | 1*  | 4  | 2*  | 3*  | 1*  | 1*
+L360: Vietnam | 0*  | 2  | 2  | 2  | 1  | 2  | 0  | 0*  | 0  | 0  | 0  | 0*  | 1*  | 1*  | 0*  | 0*  | 0*  | 0*  | 1  | 1  | 1*  | 0  | 0
+L361: Total  | 8  | 12  | 12  | 8  | 13  | 13  | 16  | 16  | 15  | 15  | 15  | 16  | 16  | 16  | 16  | 16  | 16  | 16  | 20  | 19  | 20  | 12  | 12
+L362: West Asia
+L363: ---
+L364: Bahrain | 0*  | 2  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0*  | 0*  | 0  | 0  | 0*  | 0  | 0*  | 0*  | 0  | 0  | 0  | 0
+

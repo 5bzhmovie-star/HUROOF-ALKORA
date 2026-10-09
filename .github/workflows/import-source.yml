@@ -1,0 +1,55 @@
+name: Import verified game source
+on:
+  workflow_dispatch:
+  push:
+    branches: [development/source-import]
+    paths:
+      - '.github/workflows/import-source.yml'
+      - 'Huroof-AlKora-Windows-v1.2.0-PRO-Source.zip'
+permissions:
+  contents: write
+jobs:
+  import:
+    if: github.ref_name == 'development/source-import'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Validate and extract uploaded archive safely
+        env:
+          ARCHIVE: Huroof-AlKora-Windows-v1.2.0-PRO-Source.zip
+        shell: python
+        run: |
+          import os,sys,zipfile,stat,pathlib
+          p=pathlib.Path(os.environ['ARCHIVE'])
+          if not p.is_file(): sys.exit('Uploaded archive is missing')
+          with zipfile.ZipFile(p) as z:
+            files=z.infolist()
+            if not 100 <= len(files) <= 1500: sys.exit('Unexpected archive entry count')
+            if sum(x.file_size for x in files)>30_000_000:sys.exit('Archive uncompressed size exceeds limit')
+            for info in files:
+              n=info.filename
+              parts=pathlib.PurePosixPath(n).parts
+              if n.startswith('/') or '\\' in n or '..' in parts or not parts: sys.exit('Invalid archive entry: '+n)
+              if stat.S_ISLNK((info.external_attr>>16)&0xffff):sys.exit('Symlink in archive: '+n)
+              if any(x in ('.git','node_modules','.env','.next','dist','bin','obj') for x in parts):sys.exit('Forbidden entry: '+n)
+              if pathlib.Path(n).suffix.lower() in {'.pem','.pfx','.p12','.key','.db','.sqlite','.sqlite3','.exe','.dll'}:sys.exit('Forbidden binary or secret: '+n)
+            names=set(z.namelist())
+            required={'website/package.json','website/pnpm-lock.yaml','website/seed/questions.json','desktop/src/HuroofAlKora/HuroofAlKora.csproj','desktop/scripts/Build-Release.ps1','.github/workflows/windows-build.yml'}
+            if not required.issubset(names):sys.exit('Missing required files: '+str(required-names))
+            z.extractall('.')
+          print('Imported validated project files:',len(files))
+      - name: Commit unpacked source to branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- . ':!Huroof-AlKora-Windows-v1.2.0-PRO-Source.zip' ':!.github/workflows/**'
+          if git diff --cached --quiet; then
+            echo 'No changes to commit'
+          else
+            git commit -m "build: import validated Huroof AlKora v1.2 source"
+            git push origin HEAD:development/source-import
+          fi
