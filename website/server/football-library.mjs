@@ -55,3 +55,20 @@ export function libraryStats(){
  return {entities:counts,pendingReview:review.pending,media:assets.total,publishedVisual:published.total,
  relations:one('SELECT count(*) total FROM football_relations').total};
 }
+
+/** Draft from already-linked fixture participants; no fabricated roles, photos or positions.
+ * A fixture with fewer than exactly 11 attributed starters is NOT publishable.
+ */
+export function fixtureDraft(fixtureId) {
+ const fixture=one("SELECT * FROM football_entities WHERE id=? AND entity_type='fixture'",fixtureId);
+ if(!fixture)fail(404,'المباراة غير موجودة في المكتبة.');
+ const lineup=many("SELECT p.id,p.name_ar,p.image_key,p.metadata,r.starts_at,r.source FROM football_relations r JOIN football_entities p ON p.id=r.from_entity_id WHERE r.to_entity_id=? AND r.relation_type='appeared_in' AND p.entity_type='player' ORDER BY p.name_ar",fixtureId);
+ if(lineup.length!==11)fail(409,'التشكيلة غير مكتملة أو تحتوي تكرارًا؛ راجع 11 لاعبًا أساسيًا أولًا.');
+ return {fixture:{id:fixture.id,name:fixture.name_ar},source:JSON.parse(fixture.metadata||'{}').source||'',
+ players:lineup.map((p,slot)=>({slot,entityId:p.id,name:p.name_ar,
+ photo:p.image_key?.startsWith('/api/visual-media/')?p.image_key:'',
+ position:'',nationality:'',clubAtDate:'',flag:'',clubLogo:'',number:null,
+ x:10+(slot%4)*24,y:15+Math.floor(slot/4)*32,
+ requiresReview:true})),
+ publishable:false,missing:['المراكز التاريخية','الصور المرخّصة','الأعلام/الشعارات','الأندية بتاريخ المباراة']};
+}
