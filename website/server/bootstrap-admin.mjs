@@ -6,6 +6,11 @@ import { db, one, run, seedDatabase } from './database.mjs';
 import { base32, sealSecret, verifyTotp, passwordHash, token } from './security.mjs';
 
 seedDatabase();
+if (process.argv.includes('--status')) {
+  process.stdout.write(JSON.stringify({configured: Number(one('SELECT count(*) n FROM admins')?.n || 0) > 0}) + '\\n');
+  db.close();
+  process.exit(0);
+}
 const rl = createInterface({input: process.stdin, crlfDelay: Infinity, terminal: false});
 let pending = null, attempts = 0;
 const reply = data => process.stdout.write(JSON.stringify(data) + '\n');
