@@ -1,0 +1,37 @@
+name: Validate source completeness
+on:
+  push:
+    branches: [main, "development/**"]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate required project files
+        shell: bash
+        run: |
+          set -euo pipefail
+          required=(
+            website/package.json
+            website/pnpm-lock.yaml
+            website/seed/questions.json
+            desktop/src/HuroofAlKora/HuroofAlKora.csproj
+            desktop/scripts/Build-Release.ps1
+            .github/workflows/windows-build.yml
+          )
+          missing=0
+          for file in "${required[@]}"; do
+            if [[ ! -f "$file" ]]; then
+              echo "::error file=$file::Required application source is missing"
+              missing=1
+            fi
+          done
+          if [[ "$missing" != 0 ]]; then
+            echo 'Source import is not complete. Do not distribute an EXE from this revision.'
+            exit 1
+          fi
+          echo 'Required source files are present. Windows compilation is checked in windows-build workflow.'
