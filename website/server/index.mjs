@@ -19,6 +19,11 @@ export function createApplication(options = {}) {
     const port = Number(options.port ?? process.env.PORT ?? 3000);
     const config = { origin: options.origin || process.env.APP_ORIGIN || `http://localhost:${port}`, turnstileSecret: process.env.TURNSTILE_SECRET_KEY || '', turnstileSite: process.env.TURNSTILE_SITE_KEY || '' };
     const originURL = new URL(config.origin);
+    // LAN is an explicit desktop-only opt-in. Never wildcard-match arbitrary Host headers.
+    const lanIp = process.env.NODE_ENV === 'desktop' ? String(process.env.HK_DESKTOP_LAN_IP || '') : '';
+    const isLanIp = /^(?:10\.\d{1,3}|192\.168|172\.(?:1[6-9]|2\d|3[01]))(?:\.\d{1,3}){2}$/.test(lanIp)
+      && lanIp.split('.').every(octet=>Number(octet)>=0&&Number(octet)<=255);
+    const lanOrigin = isLanIp ? `http://${lanIp}:${port}` : null;
     config.origin = originURL.origin;
     const production = process.env.NODE_ENV === 'production', secure = originURL.protocol === 'https:';
     if (production && !secure)
@@ -51,11 +56,16 @@ export function createApplication(options = {}) {
         const requestId = randomUUID();
         res.setHeader('X-Request-Id', requestId);
         try {
-            if (req.headers.host !== originURL.host)
-                fail(400, 'عنوان الموقع غير صحيح.');
+            const lanRequest = !!lanOrigin && req.headers.host === new URL(lanOrigin).host;
+            if (req.headers.host !== originURL.host && !lanRequest)
+                fail(400, 'عنوان الخادم غير صحيح.');
             if (String(req.headers['sec-fetch-site'] || '') === 'cross-site' && String(req.url).startsWith('/api/'))
                 fail(403, 'الطلب غير مسموح.');
-            const url = new URL(req.url, config.origin), path = url.pathname, method = req.method || 'GET';
+            const requestOrigin = lanRequest ? lanOrigin : config.origin;
+            const url = new URL(req.url, requestOrigin), path = url.pathname, method = req.method || 'GET';
+            // Admin passwords and TOTP must never pass over plaintext LAN HTTP.
+            if (lanRequest && path.startsWith('/api/admin'))
+                fail(403, 'إدارة البرنامج متاحة على الكمبيوتر المضيف فقط.');
             let ip = req.socket.remoteAddress || 'unknown';
             // Trust only a specifically configured upstream address; never arbitrary forwarded headers.
             if (process.env.TRUSTED_PROXY_IP && ip === process.env.TRUSTED_PROXY_IP)
@@ -105,7 +115,7 @@ export function createApplication(options = {}) {
                     return json(res, sessionPayload(s, admin));
                 }
                 if (method !== 'GET')
-                    security.checkWrite(req, config.origin, s?.token_hash);
+                    security.checkWrite(req, requestOrigin, s?.token_hash);
                 if (one("SELECT value FROM settings WHERE key='maintenance'")?.value === 'true' && !admin && !path.startsWith('/api/admin') && !['/api/session', '/api/challenge', '/api/logout'].includes(path))
                     fail(503, 'الموقع في صيانة قصيرة. جرّب بعد قليل.');
                 if (method === 'GET' && path === '/api/challenge') {
@@ -181,7 +191,7 @@ export function createApplication(options = {}) {
                     if (method === 'GET' && operation === 'qr') {
                         miniRooms.getMiniRoom(id);
                         res.writeHead(200, { 'Content-Type': 'image/svg+xml', 'Cache-Control': 'private, max-age=3600' });
-                        return res.end(qrSvg(`${config.origin}/mini-room/${id}/buzzer`));
+                        return res.end(qrSvg(`${requestOrigin}/mini-room/${id}/buzzer`));
                     }
                     if (method === 'POST') {
                         const u = requireUser(s), body = await bodyJson(req, 8192);
@@ -208,7 +218,7 @@ export function createApplication(options = {}) {
                     if (method === 'GET' && operation === 'qr') {
                         rooms.getRoom(id);
                         res.writeHead(200, { 'Content-Type': 'image/svg+xml', 'Cache-Control': 'private, max-age=3600' });
-                        return res.end(qrSvg(`${config.origin}/room/${id}/buzzer`));
+                        return res.end(qrSvg(`${requestOrigin}/room/${id}/buzzer`));
                     }
                     if (method === 'GET' && operation === 'events') {
                         if (!s)
