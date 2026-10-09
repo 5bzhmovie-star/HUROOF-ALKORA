@@ -51,6 +51,26 @@ for(const [tag,ar,en] of argentinaNames){
  const id=add('player','player:arg22:'+tag,ar,en,argentina);
  try{addRelation({type:'appeared_in',from:id,to:fixtureArgentina,fromDate:'2022-12-18',source:argentina,verifiedAt:date,verification:'pending'});created++}catch(e){if(!/مسجلة/.test(e.message))throw e}
 }
-return {sourceLinkedEntities:26,relationsAdded:created,sourceDates:['2022-05-28','2022-12-18'],publishableVisualQuestions:0,note:'Identity starter only: images, historical club affiliation and positions must be licensed/verified'};
+// Salah's chronological European career sourced from Liverpool's historical fact file.
+const salahSource='https://www.liverpoolfc.com/news/first-team/266614-fact-file-mohamed-salah-s-career-so-far-in-numbers';
+const salah=add('player','player:salah:career','محمد صلاح','Mohamed Salah',salahSource);
+const careerClubs=[
+  ['basel','بازل','FC Basel','2012-07-01','2014-01-27',false],
+  ['chelsea','تشيلسي','Chelsea','2014-01-27','2015-02-02',false],
+  ['fiorentina','فيورنتينا','Fiorentina','2015-02-02','2015-06-01',true],
+  ['roma','روما','AS Roma','2015-08-06','2017-07-01',true],
+  ['liverpool','ليفربول','Liverpool','2017-07-01',null,false]
+];
+let careerRelationsAdded=0;
+for(const [key,ar,en,from,to,loan] of careerClubs){
+ const clubId=add('club','club:career:'+key,ar,en,salahSource);
+ try{
+   addRelation({type:loan?'loaned_to':'played_for',from:salah,to:clubId,fromDate:from,toDate:to,source:salahSource,verifiedAt:date,verification:'pending'});
+   careerRelationsAdded++;
+ }catch(e){if(!/مسجلة/.test(e.message))throw e}
+}
+return {sourceLinkedEntities:32,relationsAdded:created,careerRelationsAdded,
+ sourceDates:['2022-05-28','2022-12-18','2017-07-01'],publishableVisualQuestions:0,
+ note:'Official-source-linked identity and career drafts; images and positions require review'};
 }
 
