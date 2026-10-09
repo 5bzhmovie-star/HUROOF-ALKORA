@@ -14,7 +14,18 @@ export function member(room, user) { if (!user)
     fail(403, 'لست ضمن لاعبي هذه الغرفة.'); return row; }
 export function validName(value) { const n = String(value || '').normalize('NFKC').trim(); if (n.length < 2 || n.length > 24 || /[\p{Cc}\p{Cf}<>]/u.test(n))
     fail(422, 'اكتب اسمًا من حرفين إلى ٢٤ حرفًا بدون رموز تحكم.'); return n; }
-export function roomConfig(body) { const config = { teams: [{ name: validName(body.teams?.[0]?.name), color: String(body.teams?.[0]?.color || '') }, { name: validName(body.teams?.[1]?.name), color: String(body.teams?.[1]?.color || '') }], size: Number(body.size), rounds: body.rounds === undefined ? 2 : body.rounds, mode: body.mode, seconds: Number(body.seconds), tournaments: [...new Set(Array.isArray(body.tournaments) ? body.tournaments : [])], difficulty: body.difficulty || 'all', autoReopen: body.autoReopen === true }; if (![4, 5, 6, 7].includes(config.size) || ![2,3,4,5,6].includes(config.rounds) || !['human', 'auto'].includes(config.mode) || ![5, 10, 15, 20].includes(config.seconds) || !['all', 'easy', 'medium', 'hard'].includes(config.difficulty))
+export function roomConfig(body) { const config = { teams: [{ name: validName(body.teams?.[0]?.name), color: String(body.teams?.[0]?.color || '') }, { name: validName(body.teams?.[1]?.name), color: String(body.teams?.[1]?.color || '') }], size: Number(body.size), rounds: body.rounds === undefined ? 2 : body.rounds, mode: body.mode, seconds: Number(body.seconds), tournaments: [...new Set(Array.isArray(body.tournaments) ? body.tournaments : [])], difficulty: body.difficulty || 'all', autoReopen: body.autoReopen === true,
+  visual: {
+    percent:Number(body.visual?.percent??0),
+    types:Array.isArray(body.visual?.types)?[...new Set(body.visual.types)]:['career','guess_club_nationalities','guess_nation_clubs'],
+    revealMode:body.visual?.revealMode || 'auto',
+    animation:body.visual?.animation!==false
+  }
+ }; if (![0,25,50,75,100].includes(config.visual.percent) ||
+     !config.visual.types.every(t=>['career','guess_club_nationalities','guess_nation_clubs'].includes(t)) ||
+     (config.visual.percent>0 && config.visual.types.length===0) ||
+     !['auto','all','manual'].includes(config.visual.revealMode))
+    fail(422,'راجع إعدادات الأسئلة المصورة.'); if (![4, 5, 6, 7].includes(config.size) || ![2,3,4,5,6].includes(config.rounds) || !['human', 'auto'].includes(config.mode) || ![5, 10, 15, 20].includes(config.seconds) || !['all', 'easy', 'medium', 'hard'].includes(config.difficulty))
     fail(422, 'راجع إعدادات المباراة.'); if (!checkColors(config.teams[0].color, config.teams[1].color))
     fail(422, 'اختر لونين داكنين ومختلفين بوضوح حتى تبقى الحروف مقروءة.'); if (config.teams[0].name === config.teams[1].name)
     fail(422, 'اختر اسمًا مختلفًا لكل فريق.'); if (!config.tournaments.length || config.tournaments.length > 50 || config.tournaments.some(id => typeof id !== 'string' || !one('SELECT id FROM tournaments WHERE id=? AND active=1', id)))
@@ -22,7 +33,18 @@ export function roomConfig(body) { const config = { teams: [{ name: validName(bo
 function questionFilter(config, letter) { const params = [...config.tournaments]; let sql = `q.status='published' AND t.active=1 AND q.tournament_id IN (${params.map(() => '?').join(',')})`; if (config.difficulty !== 'all') {
     sql += ' AND q.difficulty=?';
     params.push(config.difficulty);
-} if (letter) {
+} const percent=config.visual?.percent??0;
+ if(percent===0) sql += ' AND NOT EXISTS (SELECT 1 FROM visual_questions vx WHERE vx.question_id=q.id)';
+ else if(percent===100) sql += ' AND EXISTS (SELECT 1 FROM visual_questions vx WHERE vx.question_id=q.id)';
+ if(percent>0 && Array.isArray(config.visual?.types)) {
+    const types=config.visual.types;
+    // In mixed mode, text questions always remain eligible.
+    const kinds=types.length?types.map(()=>'?').join(','):"''";
+    sql += percent===100
+        ? ` AND EXISTS (SELECT 1 FROM visual_questions vx WHERE vx.question_id=q.id AND vx.kind IN (${kinds}))`
+        : ` AND (NOT EXISTS (SELECT 1 FROM visual_questions vx WHERE vx.question_id=q.id) OR EXISTS (SELECT 1 FROM visual_questions vx WHERE vx.question_id=q.id AND vx.kind IN (${kinds})))`;
+    params.push(...types);
+ } if (letter) {
     sql += ' AND q.letter=?';
     params.push(letter);
 } return { sql, params }; }
@@ -31,11 +53,16 @@ export function pickQuestion(config, letter, used = []) {
   const pick = candidate => {
     const filter = questionFilter(candidate, letter);
     // Visual drafts are never drawn, and old text questions remain fully compatible.
-    const row = one(`SELECT q.*,t.name AS tournament,v.kind AS visual_kind,v.payload AS visual_payload
+    const percent=candidate.visual?.percent??0;
+    const typeFilter=percent>0&&percent<100
+      ? (Math.random()*100<percent?' AND v.question_id IS NOT NULL':' AND v.question_id IS NULL'):'';
+    const query=(filterExtra)=>one(`SELECT q.*,t.name AS tournament,v.kind AS visual_kind,v.payload AS visual_payload
       FROM questions q JOIN tournaments t ON t.id=q.tournament_id
       LEFT JOIN visual_questions v ON v.question_id=q.id
-      WHERE ${filter.sql} AND q.id NOT IN (SELECT value FROM json_each(?))
+      WHERE ${filter.sql} ${filterExtra}
+      AND q.id NOT IN (SELECT value FROM json_each(?))
       ORDER BY random() LIMIT 1`, ...filter.params, JSON.stringify(used)) || null;
+    const row=query(typeFilter) || query('');
     if(!row)return null;
     if(row.visual_payload) {
       try {row.visual=JSON.parse(row.visual_payload);} catch {return null;}
