@@ -41,10 +41,10 @@ export function VisualQuestion({data,revealed,canControl,onAction,mode='auto'}:{
     const shown=!!p.name;
     return <button key={p.slot} type="button"
       className={'visual-player '+(shown?'is-revealed':'is-hidden')}
-      style={{left:clamp(p.x)+'%',top:clamp(p.y)+'%',animationDelay:reduceMotion?'0ms':(mode==='auto'?p.slot*100:0)+'ms'}}
+      style={{left:clamp(p.x)+'%',top:clamp(p.y)+'%'}}
       onClick={()=>shown?setInspected(p.slot):canControl&&onAction?.('visual-reveal-slot',{slot:p.slot})}
       disabled={!shown&&!canControl} aria-label={shown?p.name:'لاعب مخفي'}>
-      <span className="visual-flip">
+      <span className="visual-flip" style={{transitionDelay:reduceMotion?'0ms':(mode==='auto'?p.slot*110:0)+'ms'}}>
        <span className="visual-front"><img src={p.marker} alt="دليل السؤال"/></span>
        {shown&&<span className="visual-back"><img src={p.photo} alt={p.name}/></span>}
       </span>
@@ -62,7 +62,7 @@ export function VisualQuestion({data,revealed,canControl,onAction,mode='auto'}:{
     <small>للكشف تدريجيًا اضغط على أي بطاقة في الملعب</small>
   </div>}
   {inspected!==null&&data.players?.[inspected]?.name&&(()=>{
-    const p=data.players[inspected];return <div className="visual-player-detail" role="dialog" aria-modal="false" aria-label="بطاقة اللاعب">
+    const p=data.players.find(player=>player.slot===inspected)!;return <div className="visual-player-detail" role="dialog" aria-modal="false" aria-label="بطاقة اللاعب">
       <button type="button" onClick={()=>setInspected(null)}>إغلاق</button>
       <img src={p.photo} alt={p.name}/><strong>{p.name}</strong>
       <p>{p.position} · {p.nationality} · {p.clubAtDate}{p.number!==null&&p.number!==undefined?' · #'+p.number:''}</p>
