@@ -12,9 +12,9 @@ test('official source starter loads 22 distinct player identities and is idempot
    const result=spawnSync(process.execPath,['scripts/import-football-starter.mjs'],{cwd:resolve('.'),env,encoding:'utf8',timeout:60000});
    assert.equal(result.status,0,result.stderr||result.stdout);
    const count=JSON.parse(result.stdout);
-   assert.equal(count.sourceLinkedEntities,26);
-   if(attempt===0)assert.equal(count.relationsAdded,22);
-   else assert.equal(count.relationsAdded,0);
+   assert.equal(count.sourceLinkedEntities,32);
+   if(attempt===0){assert.equal(count.relationsAdded,22);assert.equal(count.careerRelationsAdded,6);}
+   else {assert.equal(count.relationsAdded,0);assert.equal(count.careerRelationsAdded,0);}
   }
   const verify=spawnSync(process.execPath,['--input-type=module','-e',
     "import {one,db} from './server/database.mjs';console.log(JSON.stringify({players:one(\"SELECT count(DISTINCT from_entity_id) n FROM football_relations WHERE relation_type='appeared_in'\").n,relations:one(\"SELECT count(*) n FROM football_relations WHERE relation_type='appeared_in'\").n,mini:one('SELECT count(*) n FROM mini_game_rounds').n}));db.close();"
