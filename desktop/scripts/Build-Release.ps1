@@ -5,7 +5,7 @@ $ErrorActionPreference = 'Stop'
 $desktop = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $dist = Join-Path $desktop 'dist'
 $folder = Join-Path $dist 'windows-x64'
-$archive = Join-Path $dist 'Huroof-AlKora-Windows-v1.4.0-x64.zip'
+$archive = Join-Path $dist 'Huroof-AlKora-Windows-v1.5.0-x64.zip'
 if (!$SkipBuild) {
     & (Join-Path $PSScriptRoot 'Build-Windows.ps1')
     if ($LASTEXITCODE -ne 0) { throw 'Build-Windows.ps1 failed.' }
