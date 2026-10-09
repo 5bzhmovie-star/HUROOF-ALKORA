@@ -10,7 +10,7 @@ namespace HuroofAlKora;
 /// <summary>Native, offline-first launch experience. No remote pictures, fonts or scripts.</summary>
 internal sealed class SplashView : UserControl
 {
-    private readonly Timer pulse;
+    private readonly System.Windows.Forms.Timer pulse;
     private readonly Button retry;
     private readonly Button online;
     private readonly Button local;
@@ -51,7 +51,7 @@ internal sealed class SplashView : UserControl
         Controls.Add(online);
         Controls.Add(retry);
         Resize += (_, _) => Reflow();
-        pulse = new Timer { Interval = 32 };
+        pulse = new System.Windows.Forms.Timer { Interval = 32 };
         pulse.Tick += (_, _) => { frame++; Invalidate(new Rectangle(0, Math.Max(0, Height / 2 - 240), Width, Math.Min(510, Height))); };
         pulse.Start();
         Reflow();
