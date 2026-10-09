@@ -12,13 +12,15 @@ export type VisualLineup = {
 };
 
 const clamp=(v:number,low=8,high=92)=>Math.max(low,Math.min(high,Number.isFinite(v)?v:50));
-export function VisualQuestion({data,revealed,canControl,onAction,mode='auto'}:{
+export function VisualQuestion({data,revealed,canControl,onAction,mode='auto',editable=false,onMovePlayer}:{
  data:VisualLineup;revealed:boolean;canControl:boolean;
  mode?:'auto'|'all'|'manual';
- onAction?:(action:string,details?:Record<string,unknown>)=>void
+ onAction?:(action:string,details?:Record<string,unknown>)=>void;
+ editable?:boolean;onMovePlayer?:(slot:number,x:number,y:number)=>void
 }) {
  const [inspected,setInspected]=useState<number|null>(null);
  const [reduceMotion,setReduceMotion]=useState(false);
+ const [dragSlot,setDragSlot]=useState<number|null>(null);
  if(data.type==='career')return <section className="visual-career" dir="rtl">
   <div className="visual-description">المسيرة الاحترافية · {data.eventDate}</div>
   <div className="visual-career-row">{data.stations?.map((s,i)=><div className="visual-career-stop" key={i}>
@@ -42,8 +44,13 @@ export function VisualQuestion({data,revealed,canControl,onAction,mode='auto'}:{
     return <button key={p.slot} type="button"
       className={'visual-player '+(shown?'is-revealed':'is-hidden')}
       style={{left:clamp(p.x)+'%',top:clamp(p.y)+'%'}}
-      onClick={()=>shown?setInspected(p.slot):canControl&&onAction?.('visual-reveal-slot',{slot:p.slot})}
-      disabled={!shown&&!canControl} aria-label={shown?p.name:'لاعب مخفي'}>
+      onClick={()=>!editable&&(shown?setInspected(p.slot):canControl&&onAction?.('visual-reveal-slot',{slot:p.slot}))}
+      onPointerDown={e=>{if(!editable)return;e.preventDefault();e.currentTarget.setPointerCapture(e.pointerId);setDragSlot(p.slot)}}
+      onPointerUp={e=>{if(!editable||dragSlot!==p.slot)return;const pitch=e.currentTarget.closest('.visual-pitch') as HTMLElement | null;
+        if(pitch){const r=pitch.getBoundingClientRect();onMovePlayer?.(p.slot,clamp((e.clientX-r.left)/r.width*100),clamp((e.clientY-r.top)/r.height*100));}
+        setDragSlot(null)}}
+      onPointerCancel={()=>setDragSlot(null)}
+      disabled={!editable&&!shown&&!canControl} aria-label={shown?p.name:'لاعب مخفي'}>
       <span className="visual-flip" style={{transitionDelay:reduceMotion?'0ms':(mode==='auto'?p.slot*110:0)+'ms'}}>
        <span className="visual-front"><img src={p.marker} alt="دليل السؤال"/></span>
        {shown&&<span className="visual-back"><img src={p.photo} alt={p.name}/></span>}
