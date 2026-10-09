@@ -1,6 +1,7 @@
 import { one, many, run, transaction } from './database.mjs';
 import { token, fail } from './security.mjs';
 import { makeBoard, findPath, publicQuestion, checkColors } from './game.mjs';
+import { publicVisual } from './visual-questions.mjs';
 export const subscribers = new Map();
 const ROOM_TTL = 10 * 60 * 1000;
 export function getRoom(id) { const row = one('SELECT * FROM rooms WHERE id=?', id); if (!row)

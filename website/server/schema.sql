@@ -32,3 +32,6 @@ CREATE TABLE IF NOT EXISTS mini_game_members(room_id TEXT NOT NULL REFERENCES mi
 CREATE INDEX IF NOT EXISTS idx_mini_game_members_seen ON mini_game_members(room_id,last_seen);
 CREATE TABLE IF NOT EXISTS mini_game_events(id INTEGER PRIMARY KEY AUTOINCREMENT,room_id TEXT NOT NULL REFERENCES mini_game_rooms(id) ON DELETE CASCADE,message TEXT NOT NULL,created_at INTEGER NOT NULL);
 CREATE INDEX IF NOT EXISTS idx_mini_game_events_room ON mini_game_events(room_id,id);
+
+CREATE TABLE IF NOT EXISTS visual_questions(question_id TEXT PRIMARY KEY REFERENCES questions(id) ON DELETE CASCADE,kind TEXT NOT NULL CHECK(kind IN ('career','guess_club_nationalities','guess_nation_clubs')),payload TEXT NOT NULL CHECK(json_valid(payload)),verified_at TEXT NOT NULL,created_at INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS visual_assets(id TEXT PRIMARY KEY,content_type TEXT NOT NULL,relative_path TEXT NOT NULL UNIQUE,sha256 TEXT NOT NULL UNIQUE,license TEXT NOT NULL,source TEXT NOT NULL,created_at INTEGER NOT NULL);
