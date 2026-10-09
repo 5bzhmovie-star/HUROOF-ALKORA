@@ -4,10 +4,10 @@ import {api} from './api';
 type Entity={id:string;entity_type:string;name_ar:string;name_en:string;image_key:string|null;image_license:string|null;metadata:{source?:string;verifiedAt?:string;verification?:string}};
 type Stats={entities:{type:string;total:number}[];pendingReview:number;media:number;publishedVisual:number;relations:number};
 const kinds=[['player','لاعب'],['club','نادي'],['national_team','منتخب'],['competition','بطولة'],['season','موسم'],['fixture','مباراة'],['coach','مدرب']];
-export default function FootballLibrary({onSelect}:{onSelect?:(entity:Entity)=>void}){
+export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(entity:Entity)=>void;canReview?:boolean}){
  const [items,setItems]=useState<Entity[]>([]),[stats,setStats]=useState<Stats|null>(null),[search,setSearch]=useState(''),[type,setType]=useState(''),[busy,setBusy]=useState(false),[message,setMessage]=useState(''),[error,setError]=useState('');
  const [form,setForm]=useState({type:'player',externalKey:'',nameAr:'',nameEn:'',source:'',verifiedAt:'',verification:'pending'});
- const [selected,setSelected]=useState<Entity|null>(null),[history,setHistory]=useState<any[]>([]);
+ const [selected,setSelected]=useState<Entity|null>(null),[history,setHistory]=useState<any[]>([]),[reviewEvidence,setReviewEvidence]=useState('');
  const reload=async()=>{setBusy(true);setError('');try{
   const [list,totals]=await Promise.all([api<Entity[]>('/admin/football-library?'+new URLSearchParams({search,type})),api<Stats>('/admin/football-library-stats')]);
   setItems(list);setStats(totals);
@@ -33,12 +33,13 @@ export default function FootballLibrary({onSelect}:{onSelect?:(entity:Entity)=>v
  <div className="football-library-results">{items.map(item=><button key={item.id} type="button" onClick={()=>select(item)} className="panel" style={{textAlign:'right',cursor:'pointer',display:'flex',alignItems:'center',gap:12}}>
  {item.image_key?.startsWith('/api/visual-media/')&&<img src={item.image_key} alt="" width={56} height={56} style={{objectFit:'contain'}}/>}
  <span><strong>{item.name_ar}</strong><small style={{display:'block'}}>{item.name_en} · {item.entity_type} · {item.metadata.verification||'غير مدقق'}</small></span></button>)}</div>
- {selected&&<div className="panel"><strong>السجل التاريخي: {selected.name_ar}</strong>{history.length===0?<p>لا توجد علاقات مؤرخة بعد.</p>:history.map(x=><p key={x.id}>{x.relation_type} · {x.to_name} · {x.starts_at} – {x.ends_at||'مستمر'} <a href={x.source} target="_blank" rel="noreferrer">المصدر</a></p>)}</div>}
+ {selected&&<div className="panel"><strong>السجل التاريخي: {selected.name_ar}</strong>
+ {canReview&&selected.metadata.verification!=='reviewed'&&<div className="settings-row"><label>رابط إثبات مستقل للمراجعة<input dir="ltr" type="url" value={reviewEvidence} onChange={e=>setReviewEvidence(e.target.value)} placeholder="https://…"/></label><button type="button" disabled={busy||!reviewEvidence.startsWith('https://')} onClick={async()=>{setBusy(true);setError('');try{await api('/admin/football-entity-review',{id:selected.id,evidenceUrl:reviewEvidence});setMessage('تم توثيق مراجعة هوية الكيان فقط؛ تراخيص الصور تُراجع بصورة منفصلة.');setReviewEvidence('');await reload();}catch(e:any){setError(e.message)}finally{setBusy(false)}}}>اعتماد مراجعة الهوية</button></div>}{history.length===0?<p>لا توجد علاقات مؤرخة بعد.</p>:history.map(x=><p key={x.id}>{x.relation_type} · {x.to_name} · {x.starts_at} – {x.ends_at||'مستمر'} <a href={x.source} target="_blank" rel="noreferrer">المصدر</a></p>)}</div>}
  <details><summary>إضافة كيان موثّق المصدر</summary><div className="settings-row">
  <label>النوع<select value={form.type} onChange={e=>setForm(f=>({...f,type:e.target.value}))}>{kinds.map(([key,title])=><option value={key} key={key}>{title}</option>)}</select></label>
  {([['externalKey','معرف مرجعي ثابت'],['nameAr','الاسم العربي'],['nameEn','الاسم الإنجليزي'],['source','رابط المصدر الرسمي HTTPS']] as const).map(([key,label])=><label key={key}>{label}<input value={form[key]} dir={key==='nameAr'?'rtl':'ltr'} onChange={e=>setForm(f=>({...f,[key]:e.target.value}))}/></label>)}
  <label>تاريخ آخر تحقق<input type="date" value={form.verifiedAt} onChange={e=>setForm(f=>({...f,verifiedAt:e.target.value}))}/></label>
- <label>حالة التدقيق<select value={form.verification} onChange={e=>setForm(f=>({...f,verification:e.target.value}))}><option value="pending">بانتظار المراجعة</option><option value="reviewed">تمت المراجعة</option></select></label></div>
+ <label>حالة التدقيق<select value={form.verification} onChange={e=>setForm(f=>({...f,verification:e.target.value}))}><option value="pending">بانتظار المراجعة</option></select></label></div>
  <button type="button" disabled={busy} onClick={save}>حفظ الكيان</button></details>
  {message&&<p role="status">{message}</p>}{error&&<p role="alert" style={{color:'#f7b0b0'}}>{error}</p>}
  </section>;
