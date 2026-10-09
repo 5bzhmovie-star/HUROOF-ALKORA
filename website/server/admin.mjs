@@ -3,6 +3,15 @@ import { fail, token } from './security.mjs';
 import { answerLetter, LETTERS } from './game.mjs';
 import { validName, broadcast } from './rooms.mjs';
 import { normalizeSupportUrl } from './support-url.mjs';
+import { mkdirSync, openSync, closeSync, writeFileSync, readFileSync, unlinkSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { randomUUID, createHash } from 'node:crypto';
+import { dataDir } from './database.mjs';
+const RESET_PHRASE = 'حذف جميع الأسئلة';
+function exportBasicQuestions() {
+  return many('SELECT tournament_id,letter,text,answer,difficulty,status,source,note FROM questions ORDER BY tournament_id,id');
+}
+
 export function audit(actor, action, target = '') { run('INSERT INTO audit(actor,action,target,created_at) VALUES(?,?,?,?)', actor, action, String(target).slice(0, 180), Date.now()); }
 export function requireAdmin(admin, roles = ['owner', 'manager', 'questions']) { if (!admin || !admin.active)
     fail(401, 'سجّل دخول الإدارة أولًا.'); if (!roles.includes(admin.role))
@@ -41,9 +50,14 @@ export function adminGet(path, url, admin) {
             return { items: many(`SELECT q.*,t.name AS tournament FROM questions q JOIN tournaments t ON t.id=q.tournament_id WHERE ${where} ORDER BY q.updated_at DESC,q.id LIMIT 25 OFFSET ?`, ...p, (page - 1) * 25), total: one(`SELECT count(*) AS n FROM questions q WHERE ${where}`, ...p).n, page };
         }
         case 'tournaments': return many("SELECT t.*,count(q.id) AS questions FROM tournaments t LEFT JOIN questions q ON q.tournament_id=t.id GROUP BY t.id ORDER BY t.position,t.name");
+        case 'questions-reset-info': {
+            requireAdmin(admin,['owner']);
+            const count = one('SELECT count(*) n FROM questions').n;
+            return {count,phrase:RESET_PHRASE,miniCount:one('SELECT count(*) n FROM mini_game_rounds').n};
+        }
         case 'export':
             audit(admin.username, 'questions.export');
-            return many('SELECT tournament_id,letter,text,answer,difficulty,status,source,note FROM questions ORDER BY tournament_id,id');
+            return exportBasicQuestions();
         case 'rooms':
             requireAdmin(admin, ['owner', 'manager']);
             return many('SELECT id,owner_id,config,status,created_at,expires_at FROM rooms ORDER BY created_at DESC LIMIT 200').map(r => ({ ...r, config: JSON.parse(r.config) }));
@@ -76,6 +90,41 @@ export function adminWrite(path, body, admin) {
                 fail(404, 'السؤال غير موجود.');
             transaction(() => { writeQuestion(q, id); audit(admin.username, body.id ? 'question.update' : 'question.create', id); });
             return { id };
+        }
+        case 'questions-reset': {
+            requireAdmin(admin,['owner']);
+            const current = one('SELECT count(*) n FROM questions').n;
+            if (body.confirm !== RESET_PHRASE || !Number.isSafeInteger(body.expectedCount) || body.expectedCount !== current)
+                fail(409,'العدد تغيّر أو عبارة التأكيد غير صحيحة. حدّث الصفحة ثم أعد المحاولة.');
+            if (!current) fail(409,'بنك الأسئلة فارغ بالفعل.');
+            if (one("SELECT 1 FROM rooms WHERE status='open' AND expires_at>? LIMIT 1",Date.now()))
+                fail(409,'أغلق غرف حروف الكورة النشطة قبل تفريغ الأسئلة.');
+            const questions = exportBasicQuestions();
+            if (questions.length !== current) fail(500,'تعذّر تأكيد اكتمال النسخة الاحتياطية.');
+            const stamp = new Date().toISOString().replace(/[:.]/g,'-');
+            const id = randomUUID();
+            const filename = `questions-before-reset-${stamp}-${id}.json`;
+            const directory = resolve(dataDir,'backups');
+            mkdirSync(directory,{recursive:true,mode:0o700});
+            const file = resolve(directory,filename);
+            const json = JSON.stringify({format:'huroof-basic-questions-backup-v1',savedAt:new Date().toISOString(),count:current,questions},null,2);
+            let fd;
+            try {
+                fd = openSync(file,'wx',0o600);
+                writeFileSync(fd,json,'utf8');
+                const verified=JSON.parse(readFileSync(file,'utf8'));
+                if(verified.count!==current || verified.questions.length!==current)throw Error('invalid backup');
+            } catch {
+                if (fd !== undefined) {try{closeSync(fd);}catch{} fd=undefined;}
+                try{unlinkSync(file);}catch{}
+                fail(500,'تعذّر حفظ نسخة احتياطية مؤكدة. لم تُحذف أي أسئلة.');
+            } finally {if(fd!==undefined)closeSync(fd);}
+            transaction(()=>{
+                run("INSERT INTO settings(key,value) VALUES('basic_questions_customized','true') ON CONFLICT(key) DO UPDATE SET value='true'");
+                run('DELETE FROM questions');
+                audit(admin.username,'questions.reset',String(current));
+            });
+            return {ok:true,deleted:current,backupFile:filename,sha256:createHash('sha256').update(json).digest('hex'),remaining:one('SELECT count(*) n FROM questions').n};
         }
         case 'question-delete': {
             const id = String(body.id || '');

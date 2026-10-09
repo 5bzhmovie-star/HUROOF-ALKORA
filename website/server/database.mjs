@@ -42,7 +42,7 @@ export function seedDatabase() {
             run("DELETE FROM questions WHERE note='قاعدة كروية عامة تنطبق على مباريات هذه البطولة.'");
         for (const t of current ? [] : bank.tournaments)
             run('INSERT OR IGNORE INTO tournaments(id,name,active,position) VALUES(?,?,1,?)', t.id, t.name, t.position);
-        for (const q of bank.questions.filter(q => !current || (q.pack || 1) > current))
+        for (const q of (one("SELECT value FROM settings WHERE key='basic_questions_customized'")?.value === 'true' ? [] : bank.questions.filter(q => !current || (q.pack || 1) > current)))
             run('INSERT OR IGNORE INTO questions(id,tournament_id,letter,text,answer,difficulty,status,source,note,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?,?)', q.id, q.tournament_id, q.letter, q.text, q.answer, q.difficulty, 'published', q.source, q.note || '', Date.now(), Date.now());
         run("INSERT INTO settings(key,value) VALUES('seed_version',?) ON CONFLICT(key) DO UPDATE SET value=excluded.value",String(bank.version));
         run("INSERT OR IGNORE INTO settings(key,value) VALUES('maintenance','false'),('default_theme','dark'),('max_players','64')");
