@@ -1,7 +1,7 @@
 name: Windows portable build
 on:
   push:
-    branches: [development/source-import, development/native-v1.3, development/questions-reset-v1.3.1]
+    branches: [development/source-import, development/native-v1.3, development/questions-reset-v1.3.1, development/visual-questions-v1.4]
     paths:
       - 'website/**'
       - 'desktop/**'
