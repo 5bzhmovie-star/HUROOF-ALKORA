@@ -1,7 +1,7 @@
 name: Windows portable build
 on:
   push:
-    branches: [development/source-import, development/native-v1.3, development/questions-reset-v1.5.0, development/visual-questions-v1.4, development/football-library-v1.5, development/library-redesign-v1.5.1, development/atlas-catalog-v1.6, development/atlas-online-images-v1.6.1, development/visual-editor-portrait-pitch-v1.6.2]
+    branches: [development/source-import, development/native-v1.3, development/questions-reset-v1.5.0, development/visual-questions-v1.4, development/football-library-v1.5, development/library-redesign-v1.5.1, development/atlas-catalog-v1.6, development/atlas-online-images-v1.6.1, development/visual-editor-portrait-pitch-v1.6.2, development/football-atlas-viewer-v1.7]
     paths:
       - 'website/**'
       - 'desktop/**'
