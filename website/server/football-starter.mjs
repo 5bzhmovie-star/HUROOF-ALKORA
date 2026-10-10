@@ -1,5 +1,5 @@
 // Curated source-linked identity starter. Safe to rerun; NOT licensed photo content.
-import {one} from './database.mjs';
+import {one,run} from './database.mjs';
 import {addEntity,addRelation} from './football-library.mjs';
 const date='2026-10-09';
 const madrid='https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/once-inicial-del-real-madrid-para-la-final-de-la-champions';
@@ -32,8 +32,15 @@ const argentinaNames=[
 ];
 const add=(type,externalKey,nameAr,nameEn,source)=>{
  // Reuse central records first (including Mini Games entities), never duplicate Messi/Courtois/Benzema.
- const existing=one('SELECT id FROM football_entities WHERE entity_type=? AND name_ar=?',type,nameAr);
- if(existing)return existing.id;
+ const existing=one('SELECT id,name_en,metadata FROM football_entities WHERE entity_type=? AND name_ar=?',type,nameAr);
+ if(existing){
+   const metadata=JSON.parse(existing.metadata||'{}');
+   const aliases=Array.isArray(metadata.aliases)?metadata.aliases.filter(x=>typeof x==='string'):[];
+   if(!aliases.includes(nameEn))aliases.push(nameEn);
+   run('UPDATE football_entities SET metadata=?,name_en=? WHERE id=?',JSON.stringify({...metadata,aliases}),
+      existing.name_en&&/[A-Za-z]/.test(existing.name_en)?existing.name_en:nameEn,existing.id);
+   return existing.id;
+ }
  try{return addEntity({type,externalKey,nameAr,nameEn,source,verifiedAt:date,verification:'pending'}).id}
  catch(err){if(err.status===409 || /مسجل/.test(String(err.message)))return type+':'+externalKey;throw err}
 };

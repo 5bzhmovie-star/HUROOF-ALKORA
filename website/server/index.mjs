@@ -13,6 +13,8 @@ import { normalizeSupportUrl } from './support-url.mjs';
 import { miniMedia } from './mini-media.mjs';
 import { getMedia } from './visual-media.mjs';
 import {atlasExplore,atlasDetail} from './football-viewer.mjs';
+import {playerSearch,playerAutofill} from './football-autofill.mjs';
+import {cacheImages} from './football-media-cache.mjs';
 import { importCompetitionCatalog } from './football-competitions.mjs';
 import { addEntity } from './football-library.mjs';
 import { importOfficialStarter } from './football-starter.mjs';
@@ -44,6 +46,13 @@ export function createApplication(options = {}) {
             importOfficialStarter();
             run("INSERT OR IGNORE INTO settings(key,value) VALUES('football_atlas_first_run_v1',?)",new Date().toISOString());
         });
+    }
+    // Non-blocking first-run media enrichment on desktop; never delays game startup.
+    // Local records are retained if the network is offline or an image is unavailable.
+    if(process.env.NODE_ENV==='desktop' && process.env.ATLAS_AUTO_IMAGES!=='0' &&
+       !one("SELECT value FROM settings WHERE key='atlas_media_attempt_v171'")){
+        run("INSERT OR IGNORE INTO settings(key,value) VALUES('atlas_media_attempt_v171',?)",new Date().toISOString());
+        Promise.resolve().then(()=>cacheImages({type:'competition',limit:11})).catch(()=>{});
     }
     const clientDir = resolve(root, 'dist/client'), assetCache = new Map(), remoteMediaCache = new Map();
     let passwordChecks = 0;
@@ -165,6 +174,8 @@ export function createApplication(options = {}) {
                     security.cookie(res, 'hk_sid', '', 0, secure);
                     return json(res, { ok: true });
                 }
+                if (method === 'GET' && path === '/api/atlas/player-search')return json(res,playerSearch(url.searchParams.get('q')||''));
+                if (method === 'GET' && path === '/api/atlas/player-autofill')return json(res,playerAutofill(String(url.searchParams.get('id')||'')));
                 if (method === 'GET' && path === '/api/atlas/explore')return json(res,atlasExplore({type:url.searchParams.get('type')||'',q:url.searchParams.get('q')||'',page:url.searchParams.get('page')||1}));
                 if (method === 'GET' && path === '/api/atlas/detail')return json(res,atlasDetail(String(url.searchParams.get('id')||'')));
                 if (method === 'GET' && path === '/api/tournaments')

@@ -4,6 +4,10 @@ import {one,run,many} from './database.mjs';
 import {fail} from './security.mjs';
 const searchEndpoint='https://www.wikidata.org/w/api.php';
 const commonsEndpoint='https://commons.wikimedia.org/w/api.php';
+// Stable Wikidata IDs independently checked for these competitions, avoiding fuzzy name matches.
+const competitionIds={'competition:en-premier-league':'Q9448','competition:es-la-liga':'Q324867',
+ 'competition:de-bundesliga':'Q82595','competition:it-serie-a':'Q15804',
+ 'competition:uefa-champions-league':'Q18756','competition:sa-pro-league':'Q255633'};
 const types={player:['Q5'],coach:['Q5'],club:['Q476028','Q847017','Q6979593'],national_team:['Q6979593'],country:['Q6256'],flag:['Q6256'],stadium:['Q483110'],competition:['Q15991303','Q18536594']};
 async function json(url,timeout=8500) {
  const ctrl=new AbortController();const timeoutId=setTimeout(()=>ctrl.abort(),timeout);
@@ -21,14 +25,15 @@ export async function discoverImageForEntity(entityId){
  if(entity.image_key?.startsWith('/api/visual-media/'))return {status:'local',url:entity.image_key};
  if(!Object.hasOwn(types,entity.entity_type))return {status:'unsupported'};
  const url=new URL(searchEndpoint);url.search=new URLSearchParams({action:'wbsearchentities',search:entity.name_en,language:'en',type:'item',format:'json',limit:'7'});
- const search=await json(url);
- const exact=(search.search||[]).filter(x=>x.label?.toLocaleLowerCase('en')===entity.name_en.toLocaleLowerCase('en'));
- if(exact.length!==1)return {status:'ambiguous',matches:exact.length};
- const qid=exact[0].id;
+ const curated=entity.entity_type==='competition'?competitionIds[entity.id]:null;
+ const search=curated?null:await json(url);
+ const exact=(search?.search||[]).filter(x=>x.label?.toLocaleLowerCase('en')===entity.name_en.toLocaleLowerCase('en'));
+ if(!curated&&exact.length!==1)return {status:'ambiguous',matches:exact.length};
+ const qid=curated||exact[0].id;
  const details=new URL(searchEndpoint);details.search=new URLSearchParams({action:'wbgetentities',ids:qid,props:'claims|labels|descriptions',format:'json'});
  const claims=(await json(details)).entities?.[qid]?.claims||{};
  const qIds=(claims.P31||[]).map(c=>c.mainsnak?.datavalue?.value?.id).filter(Boolean);
- const description=String(exact[0].description||'').toLowerCase();
+ const description=String(exact[0]?.description||'').toLowerCase();
  const matched=entity.entity_type==='player'||entity.entity_type==='coach'
   ? qIds.includes('Q5') && /(football|soccer)/.test(description)
   : entity.entity_type==='country'||entity.entity_type==='flag'
@@ -38,7 +43,7 @@ export async function discoverImageForEntity(entityId){
    (entity.entity_type==='national_team'&&/national football team/.test(description)) ||
    (entity.entity_type==='stadium'&&/(stadium|football ground)/.test(description)) ||
    (entity.entity_type==='competition'&&/(football competition|football league|football tournament)/.test(description));
- if(!matched)return {status:'type-mismatch',qid};
+ if(!curated&&!matched)return {status:'type-mismatch',qid};
  const prop=entity.entity_type==='club'||entity.entity_type==='national_team'||entity.entity_type==='competition'?'P154':entity.entity_type==='country'||entity.entity_type==='flag'?'P41':'P18';
  const file=claims[prop]?.find(c=>c.mainsnak?.datavalue?.value)?.mainsnak?.datavalue?.value;
  if(!safeFile(file))return {status:'no-image',qid};
