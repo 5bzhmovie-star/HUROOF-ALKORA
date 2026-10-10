@@ -10,9 +10,12 @@ export function atlasCoverage(){
  });
  const kinds=many("SELECT entity_type kind,count(*) total,sum(CASE WHEN image_key LIKE '/api/visual-media/%' THEN 1 ELSE 0 END) images FROM football_entities GROUP BY entity_type");
  const players=kinds.find(x=>x.kind==='player');
+ const dated=one("SELECT count(*) n FROM football_entities WHERE entity_type='player' AND json_extract(metadata,'$.statsVerified') = 1")?.n||0;
+ const seasonEntries=one("SELECT count(*) n FROM football_entities WHERE entity_type='season' AND json_extract(metadata,'$.verification')='reviewed'")?.n||0;
  return {competitions,logosCached:competitions.filter(x=>x.logoCached).length,logosRequired:11,
  playerPhotosCached:players?.images||0,playersIndexed:players?.total||0,
  missingLogos:competitions.filter(x=>!x.logoCached).map(x=>x.nameAr),
- releaseReady:competitions.every(x=>x.ready)&&players?.total>0&&players?.images===players?.total,
+ verifiedPlayerStatistics:dated,verifiedSeasons:seasonEntries,
+ releaseReady:competitions.every(x=>x.ready)&&players?.total>0&&players?.images===players?.total&&dated===players?.total&&seasonEntries>=11,
  warning:'This is a media/relations gate, not certification of 2026-27 roster, lineup or statistics accuracy'};
 }
