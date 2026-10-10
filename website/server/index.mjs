@@ -14,7 +14,9 @@ import { miniMedia } from './mini-media.mjs';
 import { getMedia } from './visual-media.mjs';
 import {atlasExplore,atlasDetail} from './football-viewer.mjs';
 import {playerSearch,playerAutofill} from './football-autofill.mjs';
+import {atlasCoverage} from './football-coverage.mjs';
 import {cacheImages} from './football-media-cache.mjs';
+import {installBundledAtlasMedia} from './football-bundled-media.mjs';
 import { importCompetitionCatalog } from './football-competitions.mjs';
 import { addEntity } from './football-library.mjs';
 import { importOfficialStarter } from './football-starter.mjs';
@@ -46,6 +48,9 @@ export function createApplication(options = {}) {
             importOfficialStarter();
             run("INSERT OR IGNORE INTO settings(key,value) VALUES('football_atlas_first_run_v1',?)",new Date().toISOString());
         });
+    }
+    if(process.env.NODE_ENV==='desktop'){
+       try{console.log('Bundled atlas media:',installBundledAtlasMedia());}catch(e){console.warn('Bundled atlas media import:',String(e.message||e));}
     }
     // Non-blocking first-run media enrichment on desktop; never delays game startup.
     // Local records are retained if the network is offline or an image is unavailable.
@@ -174,6 +179,7 @@ export function createApplication(options = {}) {
                     security.cookie(res, 'hk_sid', '', 0, secure);
                     return json(res, { ok: true });
                 }
+                if (method === 'GET' && path === '/api/atlas/coverage')return json(res,atlasCoverage());
                 if (method === 'GET' && path === '/api/atlas/player-search')return json(res,playerSearch(url.searchParams.get('q')||''));
                 if (method === 'GET' && path === '/api/atlas/player-autofill')return json(res,playerAutofill(String(url.searchParams.get('id')||'')));
                 if (method === 'GET' && path === '/api/atlas/explore')return json(res,atlasExplore({type:url.searchParams.get('type')||'',q:url.searchParams.get('q')||'',page:url.searchParams.get('page')||1}));
