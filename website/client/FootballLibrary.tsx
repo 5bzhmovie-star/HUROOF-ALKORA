@@ -41,6 +41,7 @@ export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x
  const [league,setLeague]=useState('');
  const [offset,setOffset]=useState(0);
  const [overview,setOverview]=useState<any[]>([]);
+ const [coverage,setCoverage]=useState<any>(null);
  const [file,setFile]=useState<File|null>(null),[preview,setPreview]=useState<any>(null);
  const [history,setHistory]=useState<any[]>([]);
  useEffect(()=>{const timer=setTimeout(()=>setDebounced(search),220);return ()=>clearTimeout(timer)},[search]);
@@ -51,7 +52,8 @@ export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x
       api<AtlasEntity[]>('/admin/football-library?'+new URLSearchParams({type:filter,search:debounced})),
       api<Summary>('/admin/football-library-stats')
     ]);
-    setItems(entities);setStats(summary);setSelected(previous=>previous ? entities.find(item=>item.id===previous.id)||previous : null);
+    setItems(entities);setStats(summary);
+    try{setCoverage(await api('/atlas/coverage'))}catch{setCoverage(null)}setSelected(previous=>previous ? entities.find(item=>item.id===previous.id)||previous : null);
   }catch(e:any){setError(e.message||'تعذر تحميل المكتبة')}
   finally{setLoading(false)}
  },[filter,debounced]);
@@ -86,6 +88,10 @@ export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x
        setWorking(true);setError('');try{const r=await api<any>('/admin/football-image-cache-batch',{type:'competition',limit:11});
        setMessage('تم حفظ '+r.cached+' من '+r.total+' صورة متاحة محليًا.');await reload()}catch(e:any){setError(e.message)}finally{setWorking(false)}
      }}>حفظ شعارات البطولات محليًا</button></div>
+   {coverage&&<section className="atlas-coverage"><h3>فحص جاهزية صور المكتبة</h3><p>الشعارات المحفوظة محليًا: <strong>{coverage.logosCached} / 11</strong> · صور اللاعبين: <strong>{coverage.playerPhotosCached} / {coverage.playersIndexed}</strong></p>
+   <div className="atlas-coverage-grid">{coverage.competitions.map((c:any)=><div key={c.id} className={c.logoCached?'ok':'missing'}>{c.logoCached?'✓':'!'} {c.nameAr} <small>{c.logoCached?'شعار مخزن':'الصورة ناقصة'}</small></div>)}</div>
+   {!coverage.releaseReady&&<p role="status">هذه المكتبة لا تستوفي شروط قبول الإصدار النهائي بعد؛ النواقص هنا محسوبة من الملفات الموجودة فعلًا.</p>}
+   </section>}
    <div className="atlas-dashboard">
     {[{n:count('player'),text:'اللاعبون المسجلون',I:Users},{n:count('club'),text:'الأندية المسجلة',I:Shield},{n:count('national_team'),text:'المنتخبات',I:Flag},{n:stats?.media||0,text:'صور محلية مرخصة',I:ImageIcon},
        {n:stats?.relations||0,text:'العلاقات التاريخية',I:Layers},{n:reviewCount,text:'تحتاج مراجعة',I:AlertTriangle},{n:stats?.publishedVisual||0,text:'أسئلة بصرية منشورة',I:BookOpen},{n:11,text:'بطولات مستهدفة',I:Trophy}].map(o=><div className="atlas-metric" key={o.text}><o.I size={25} color="#c2f17c"/><div><div className="figure">{loading&&!stats?'—':o.n.toLocaleString('ar-SA')}</div><small>{o.text}</small></div></div>)}
