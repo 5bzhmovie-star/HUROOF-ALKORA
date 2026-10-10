@@ -9,6 +9,7 @@ import {importOfficialStarter} from './football-starter.mjs';
 import {importCompetitionCatalog} from './football-competitions.mjs';
 import {importCatalogBatch,importHistory} from './football-import.mjs';
 import {discoverImageForEntity,enrichMissingImages} from './football-online-media.mjs';
+import {cacheCandidateImage,cacheImages} from './football-media-cache.mjs';
 import { saveMedia, referencedMediaExists } from './visual-media.mjs';
 import { mkdirSync, openSync, closeSync, writeFileSync, readFileSync, unlinkSync } from 'node:fs';
 import { resolve } from 'node:path';
@@ -101,6 +102,12 @@ export function adminGet(path, url, admin) {
 export function adminWrite(path, body, admin) {
     requireAdmin(admin);
     switch (path) {
+        case 'football-image-cache': {
+            requireAdmin(admin,['owner','manager']);return cacheCandidateImage(String(body.id||''));
+        }
+        case 'football-image-cache-batch': {
+            requireAdmin(admin,['owner']);return cacheImages({type:body.type||'competition',limit:body.limit||11});
+        }
         case 'football-image-discover': {
             requireAdmin(admin,['owner','manager']);
             return discoverImageForEntity(String(body.id||''));
