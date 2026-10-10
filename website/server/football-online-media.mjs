@@ -8,6 +8,14 @@ const commonsEndpoint='https://commons.wikimedia.org/w/api.php';
 const competitionIds={'competition:en-premier-league':'Q9448','competition:es-la-liga':'Q324867',
  'competition:de-bundesliga':'Q82595','competition:it-serie-a':'Q15804',
  'competition:uefa-champions-league':'Q18756','competition:sa-pro-league':'Q255633'};
+// Resolve additional competition identities through exact encyclopedia sitelinks, not fuzzy name search.
+const competitionSitelinks={
+ 'competition:fr-ligue1':'Ligue 1',
+ 'competition:fifa-world-cup':'FIFA World Cup',
+ 'competition:sa-kings-cup':'King Cup (Saudi Arabia)',
+ 'competition:sa-super-cup':'Saudi Super Cup',
+ 'competition:afc-champions-league-elite':'AFC Champions League Elite'
+};
 const types={player:['Q5'],coach:['Q5'],club:['Q476028','Q847017','Q6979593'],national_team:['Q6979593'],country:['Q6256'],flag:['Q6256'],stadium:['Q483110'],competition:['Q15991303','Q18536594']};
 async function json(url,timeout=8500) {
  const ctrl=new AbortController();const timeoutId=setTimeout(()=>ctrl.abort(),timeout);
@@ -25,7 +33,14 @@ export async function discoverImageForEntity(entityId){
  if(entity.image_key?.startsWith('/api/visual-media/'))return {status:'local',url:entity.image_key};
  if(!Object.hasOwn(types,entity.entity_type))return {status:'unsupported'};
  const url=new URL(searchEndpoint);url.search=new URLSearchParams({action:'wbsearchentities',search:entity.name_en,language:'en',type:'item',format:'json',limit:'7'});
- const curated=entity.entity_type==='competition'?competitionIds[entity.id]:null;
+ let curated=entity.entity_type==='competition'?competitionIds[entity.id]:null;
+ if(!curated&&entity.entity_type==='competition'&&competitionSitelinks[entity.id]){
+  const lookup=new URL(searchEndpoint);
+  lookup.search=new URLSearchParams({action:'wbgetentities',sites:'enwiki',
+   titles:competitionSitelinks[entity.id],props:'info',format:'json'});
+  const response=await json(lookup);
+  curated=Object.entries(response.entities||{}).find(([id,item])=>/^Q[0-9]+$/.test(id)&&!item?.missing)?.[0]||null;
+ }
  const search=curated?null:await json(url);
  const exact=(search?.search||[]).filter(x=>x.label?.toLocaleLowerCase('en')===entity.name_en.toLocaleLowerCase('en'));
  if(!curated&&exact.length!==1)return {status:'ambiguous',matches:exact.length};
