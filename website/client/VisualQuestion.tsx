@@ -21,6 +21,8 @@ export function VisualQuestion({data,revealed,canControl,onAction,mode='auto',ed
  const [inspected,setInspected]=useState<number|null>(null);
  const [reduceMotion,setReduceMotion]=useState(false);
  const [dragSlot,setDragSlot]=useState<number|null>(null);
+ const [fullScreen,setFullScreen]=useState(false);
+ const portraitY=(p:{x:number;y:number})=>clamp(p.y);
  if(data.type==='career')return <section className="visual-career" dir="rtl">
   <div className="visual-description">المسيرة الاحترافية · {data.eventDate}</div>
   <div className="visual-career-row">{data.stations?.map((s,i)=><div className="visual-career-stop" key={i}>
@@ -35,15 +37,15 @@ export function VisualQuestion({data,revealed,canControl,onAction,mode='auto',ed
  const revealedPlayers=(data.players||[]).filter(p=>p.name).length;
  return <section className={'visual-stadium '+(reduceMotion?'visual-reduced-motion':'')} dir="rtl">
   <div className="visual-stadium-header"><strong>{data.competition}</strong><span>{data.eventDate} · {data.formation}</span>
-   <button type="button" onClick={()=>setReduceMotion(v=>!v)} aria-pressed={reduceMotion}>{reduceMotion?'تفعيل الحركة':'تقليل الحركة'}</button></div>
-  <div className="visual-pitch" role="group" aria-label="ملعب السؤال المصور">
+   <button type="button" onClick={e=>{const el=e.currentTarget.closest(".visual-stadium");if(document.fullscreenElement){void document.exitFullscreen();setFullScreen(false)}else if(el?.requestFullscreen){void el.requestFullscreen();setFullScreen(true)}}}>{fullScreen?"تصغير الملعب":"ملء الشاشة"}</button><button type="button" onClick={()=>setReduceMotion(v=>!v)} aria-pressed={reduceMotion}>{reduceMotion?'تفعيل الحركة':'تقليل الحركة'}</button></div>
+  <div className={"visual-pitch "+(editable?"is-editable":"")} role="group" aria-label="ملعب طولي من المرمى العلوي إلى المرمى السفلي">
    <div className="visual-touchline"/><div className="visual-halfline"/><div className="visual-centercircle"/>
-   <div className="visual-box visual-box-top"/><div className="visual-box visual-box-bottom"/>
+   <div className="visual-box visual-box-top"/><div className="visual-box visual-box-bottom"/><div className="visual-goal visual-goal-top"/><div className="visual-goal visual-goal-bottom"/><div className="visual-penalty-spot top"/><div className="visual-penalty-spot bottom"/>
    {data.players?.map(p=>{
     const shown=!!p.name;
     return <button key={p.slot} type="button"
       className={'visual-player '+(shown?'is-revealed':'is-hidden')}
-      style={{left:clamp(p.x)+'%',top:clamp(p.y)+'%'}}
+      style={{left:clamp(p.x)+'%',top:portraitY(p)+'%'}}
       onClick={()=>!editable&&(shown?setInspected(p.slot):canControl&&onAction?.('visual-reveal-slot',{slot:p.slot}))}
       onPointerDown={e=>{if(!editable)return;e.preventDefault();e.currentTarget.setPointerCapture(e.pointerId);setDragSlot(p.slot)}}
       onPointerUp={e=>{if(!editable||dragSlot!==p.slot)return;const pitch=e.currentTarget.closest('.visual-pitch') as HTMLElement | null;
@@ -68,7 +70,7 @@ export function VisualQuestion({data,revealed,canControl,onAction,mode='auto',ed
     <button type="button" onClick={()=>onAction?.('visual-reveal-all')}>كشف الجميع دفعة واحدة</button>
     <small>للكشف تدريجيًا اضغط على أي بطاقة في الملعب</small>
   </div>}
-  {inspected!==null&&data.players?.[inspected]?.name&&(()=>{
+  {inspected!==null&&data.players?.some(player=>player.slot===inspected&&player.name)&&(()=>{
     const p=data.players.find(player=>player.slot===inspected)!;return <div className="visual-player-detail" role="dialog" aria-modal="false" aria-label="بطاقة اللاعب">
       <button type="button" onClick={()=>setInspected(null)}>إغلاق</button>
       <img src={p.photo} alt={p.name}/><strong>{p.name}</strong>

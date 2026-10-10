@@ -4,3 +4,24 @@
 .visual-player{min-width:52px}.visual-front,.visual-back{border-color:#e9f1e6;box-shadow:0 2px 15px #081f1ab8}.visual-player-name{background:#0b2b24e8;padding:4px 6px}
 .visual-stadium:fullscreen{display:grid;place-items:center;background:#0b211b;padding:24px}.visual-stadium:fullscreen .visual-pitch{height:min(85vh,850px);width:auto;max-width:100%}
 @media(max-width:600px){.visual-pitch{min-height:210px}.visual-flip{width:32px;height:32px}.visual-player{min-width:32px}.visual-player-name{font-size:8px;max-width:58px}.visual-team-reveal{flex-wrap:wrap}}
+
+/* v1.6.2 — genuine portrait, goal-to-goal football pitch */
+.visual-stadium{width:100%;max-width:860px;margin-inline:auto}
+.visual-pitch{width:min(100%,620px);height:auto;max-height:none;aspect-ratio:0.69!important;min-height:0!important;margin-inline:auto;overflow:visible;border:0;border-radius:13px;background:linear-gradient(135deg,#ffffff10,transparent 30%,#0b2b2044),repeating-linear-gradient(to bottom,#287c4b 0 10%,#1f6b42 10% 20%)!important;box-shadow:0 16px 38px #001a1380,inset 0 0 70px #031b1260!important}
+.visual-touchline{inset:4% 5%;border:2px solid #e0f5dabb}
+.visual-halfline{top:50%;left:5%;width:90%;border-top:2px solid #e0f5dabb}
+.visual-centercircle{width:23%;left:38.5%;top:50%;aspect-ratio:1;border:2px solid #e0f5dabb}
+.visual-box{left:23%;width:54%;height:16%;border:2px solid #e0f5dabb}
+.visual-box-top{top:4%;border-top:0}.visual-box-bottom{bottom:4%;border-bottom:0}
+.visual-pitch .visual-goal{position:absolute;left:39%;width:22%;height:2.8%;border:2px solid #e3f4de;background:repeating-linear-gradient(90deg,#ffffff1f 0 4px,transparent 4px 9px);pointer-events:none}
+.visual-pitch .visual-goal-top{top:1.2%;border-radius:4px 4px 0 0}
+.visual-pitch .visual-goal-bottom{bottom:1.2%;border-radius:0 0 4px 4px}
+.visual-penalty-spot{position:absolute;width:5px;height:5px;border-radius:50%;left:calc(50% - 2.5px);background:#fff9;pointer-events:none}
+.visual-penalty-spot.top{top:15%}.visual-penalty-spot.bottom{bottom:15%}
+.visual-player{z-index:2;min-width:38px;max-width:82px;touch-action:none}
+.visual-flip{width:clamp(34px,5.3vw,64px);height:clamp(34px,5.3vw,64px)}
+.visual-player-name{font-size:clamp(9px,1vw,12px);max-width:105px}
+.visual-pitch.is-editable .visual-player{cursor:grab;touch-action:none}.visual-pitch.is-editable .visual-player:active{cursor:grabbing}
+.visual-stadium:fullscreen{overflow:auto;align-content:start;display:block}.visual-stadium:fullscreen .visual-pitch{height:auto;width:min(78vh,90vw);max-height:none}
+.visual-stadium .visual-stadium-header{max-width:680px;margin-inline:auto}
+@media(max-width:540px){.visual-pitch{width:100%;aspect-ratio:.69!important}.visual-player{min-width:28px}.visual-flip{width:32px;height:32px}.visual-player-name{font-size:9px;max-width:65px}}

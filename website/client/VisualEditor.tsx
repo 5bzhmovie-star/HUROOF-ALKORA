@@ -4,12 +4,16 @@ import {api,Competition} from './api';
 import {VisualQuestion} from './VisualQuestion';
 import FootballLibrary from './FootballLibrary';
 import VisualMediaPicker from './VisualMediaPicker';
+import './VisualEditor.css';
 type Media={id:string;url:string;license:string;source:string;content_type:string};
-const empty=(slot:number)=>({slot,x:15+(slot%4)*23,y:15+Math.floor(slot/4)*35,name:'',position:'',nationality:'',clubAtDate:'',photo:'',flag:'',clubLogo:'',number:null as number|null});
+const initialSlots=[[50,84],[17,67],[39,67],[61,67],[83,67],[18,47],[50,47],[82,47],[18,26],[50,23],[82,26]];
+const empty=(slot:number)=>({slot,x:initialSlots[slot][0],y:initialSlots[slot][1],name:'',position:'',nationality:'',clubAtDate:'',photo:'',flag:'',clubLogo:'',number:null as number|null});
 const careerStop=()=>({club:'',clubLogo:'',from:2020,to:2021,loan:false});
 const types=[['career','خمن اللاعب من مسيرته'],['guess_club_nationalities','خمن النادي من جنسيات التشكيلة'],['guess_nation_clubs','خمن المنتخب من أندية لاعبيه']];
 export default function VisualEditor({tournaments,onSaved}:{tournaments:Competition[];onSaved:()=>void}){
  const [assets,setAssets]=useState<Media[]>([]);
+ const [stage,setStage]=useState<'identity'|'contents'|'preview'>('identity');
+ const [previewReveal,setPreviewReveal]=useState(false);
  const [kind,setKind]=useState('career');
  const [libraryOpen,setLibraryOpen]=useState(false);
  const [selectedLibrary,setSelectedLibrary]=useState<{id:string;name_ar:string;image_key:string|null}|null>(null);
@@ -35,8 +39,12 @@ export default function VisualEditor({tournaments,onSaved}:{tournaments:Competit
   setStatus('حُفظ السؤال '+result.id+' — '+(input.status==='published'?'منشور':'مسودة مخفية'));onSaved();
  }catch(e:any){setError(e.message)}finally{setBusy(false)}};
  const picker=(key:string,label:string)=>mediaPicker(visual[key],value=>update(key,value),label);
- return <section className="panel visual-editor" dir="rtl"><h2>محرر الأسئلة البصرية</h2>
- <p className="hint">لا يمكن نشر سؤال ناقص الصور أو المصدر. جميع الأسئلة الجديدة تُحفظ مخفية افتراضيًا حتى تراجع المعلومات.</p>
+ return <section className="panel visual-editor visual-editor-v2" dir="rtl"><header className="visual-editor-hero"><span>HUROOF STUDIO · VISUAL QUESTIONS</span><h2>استوديو صناعة الأسئلة المصوّرة</h2><p>اختر نوع التحدي، اربط البيانات الكروية، ثم عاين الملعب والكشف قبل النشر.</p></header>
+ <nav className="visual-editor-tabs" aria-label="مراحل صناعة السؤال">
+ {([['identity','١ · السؤال'],['contents','٢ · الصور والتشكيلة'],['preview','٣ · المعاينة والنشر']] as const).map(([id,label])=><button type="button" key={id} className={stage===id?'active':''} onClick={()=>setStage(id)}>{label}</button>)}
+ </nav>
+ <p className="hint">يُحفظ السؤال كمسودة افتراضيًا حتى تكتمل مصادره وصوره.</p>
+ {stage==='identity'&&<div className="visual-editor-stage">
  <button type="button" onClick={()=>setLibraryOpen(v=>!v)}>{libraryOpen?'إخفاء المكتبة الكروية':'البحث عن لاعب أو فريق من المكتبة'}</button>
  {libraryOpen&&<FootballLibrary onSelect={entry=>{
   setSelectedLibrary(entry);
@@ -64,6 +72,8 @@ export default function VisualEditor({tournaments,onSaved}:{tournaments:Competit
  <div className="settings-row"><label>الصعوبة<select value={input.difficulty} onChange={e=>setInput(s=>({...s,difficulty:e.target.value}))}>{['easy','medium','hard'].map(v=><option key={v}>{v}</option>)}</select></label><label>الحالة<select value={input.status} onChange={e=>setInput(s=>({...s,status:e.target.value}))}><option value="hidden">مسودة مخفية</option><option value="published">منشور بعد التدقيق</option></select></label></div>
  <label>رابط المصدر التاريخي HTTPS<input dir="ltr" value={input.source} onChange={e=>setInput(s=>({...s,source:e.target.value}))}/></label>
  <div className="settings-row"><label>تاريخ الحدث<input type="date" value={visual.eventDate} onChange={e=>update('eventDate',e.target.value)}/></label><label>آخر تحقق<input type="date" value={visual.verifiedAt} onChange={e=>update('verifiedAt',e.target.value)}/></label><label>المسابقة<input value={visual.competition} onChange={e=>update('competition',e.target.value)}/></label></div>
+ <button className="visual-next" type="button" onClick={()=>setStage('contents')}>التالي: الوسائط والتشكيلة ←</button></div>}
+ {stage==='contents'&&<div className="visual-editor-stage">
  <fieldset className="panel"><legend>مكتبة الوسائط المحلية</legend>
  <div className="settings-row"><label>الصورة<input type="file" accept="image/png,image/jpeg,image/webp" onChange={e=>setFile(e.target.files?.[0]||null)}/></label><label>الترخيص / الإذن<input value={license} onChange={e=>setLicense(e.target.value)} placeholder="مثال: CC BY-SA 4.0"/></label><label>رابط مصدر الصورة<input dir="ltr" value={mediaSource} onChange={e=>setMediaSource(e.target.value)}/></label></div>
  <button type="button" disabled={!file||busy} onClick={async()=>{if(!file)return;setBusy(true);setError('');try{await uploadMedia(file,license,mediaSource);setStatus('تم رفع الصورة إلى المكتبة');}catch(e:any){setError(e.message)}finally{setBusy(false)}}}>رفع الصورة إلى المكتبة</button>
@@ -87,8 +97,13 @@ export default function VisualEditor({tournaments,onSaved}:{tournaments:Competit
  {mediaPicker(p.flag,value=>updateEntry('players',i,'flag',value),'علم الجنسية')}
  {mediaPicker(p.clubLogo,value=>updateEntry('players',i,'clubLogo',value),'شعار النادي بتاريخ المباراة')}
  </div></details>)}</div>}
- <h3>معاينة السؤال قبل النشر</h3><p className="hint">يمكنك سحب بطاقات اللاعبين لتغيير مراكزهم داخل الملعب الأفقي. هذه معاينة خاصة بالإدارة.</p><VisualQuestion data={{...visual,type:kind} as any} revealed={false} canControl={false} editable={kind!=='career'} onMovePlayer={(slot,x,y)=>setVisual((state:any)=>({...state,players:state.players.map((p:any)=>p.slot===slot?{...p,x,y}:p)}))}/>
+ <button className="visual-next" type="button" onClick={()=>setStage('preview')}>التالي: المعاينة والنشر ←</button></div>}
+ {stage==='preview'&&<div className="visual-editor-stage">
+ <h3>معاينة السؤال قبل النشر</h3><p className="hint">الملعب طولي من مرمى أعلى إلى مرمى أسفل. يمكنك سحب البطاقات لتحديد المواقع. هذه معاينة خاصة بالإدارة.</p><div className="visual-editor-preview-actions"><button type="button" onClick={()=>setPreviewReveal(v=>!v)}>{previewReveal?'إخفاء الإجابة':'تجربة الكشف السينمائي'}</button><button type="button" onClick={()=>{setVisual((old:any)=>({...old,players:Array.from({length:11},(_,slot)=>({...old.players[slot],x:initialSlots[slot][0],y:initialSlots[slot][1]}))}));setPreviewReveal(false)}}>إعادة توزيع 4-3-3</button></div>
+ <VisualQuestion data={{...visual,type:kind,players:visual.players.map((p:any)=>previewReveal?{...p,marker:kind==='guess_club_nationalities'?p.flag:p.clubLogo}:({...p,name:undefined,photo:undefined,marker:kind==='guess_club_nationalities'?p.flag:p.clubLogo}))} as any} revealed={previewReveal} canControl={false} editable={kind!=='career'} onMovePlayer={(slot,x,y)=>setVisual((state:any)=>({...state,players:state.players.map((p:any)=>p.slot===slot?{...p,x,y}:p)}))}/>
+ <button type="button" className="visual-next" onClick={()=>setStage('identity')}>تعديل بيانات السؤال</button>
  {error&&<p role="alert" style={{color:'#fa9e9e'}}>{error}</p>}{status&&<p role="status">{status}</p>}
  <button type="button" disabled={busy} onClick={save}>{busy?'جارٍ حفظ السؤال…':'تحقق من المعلومات واحفظ السؤال'}</button>
+ </div>}
  </section>;
 }
