@@ -12,6 +12,7 @@ import { qrSvg } from './qr.mjs';
 import { normalizeSupportUrl } from './support-url.mjs';
 import { miniMedia } from './mini-media.mjs';
 import { getMedia } from './visual-media.mjs';
+import {atlasExplore,atlasDetail} from './football-viewer.mjs';
 import { importCompetitionCatalog } from './football-competitions.mjs';
 import { addEntity } from './football-library.mjs';
 import { importOfficialStarter } from './football-starter.mjs';
@@ -164,6 +165,8 @@ export function createApplication(options = {}) {
                     security.cookie(res, 'hk_sid', '', 0, secure);
                     return json(res, { ok: true });
                 }
+                if (method === 'GET' && path === '/api/atlas/explore')return json(res,atlasExplore({type:url.searchParams.get('type')||'',q:url.searchParams.get('q')||'',page:url.searchParams.get('page')||1}));
+                if (method === 'GET' && path === '/api/atlas/detail')return json(res,atlasDetail(String(url.searchParams.get('id')||'')));
                 if (method === 'GET' && path === '/api/tournaments')
                     return json(res, many("SELECT t.id,t.name,t.position,count(q.id) AS questions FROM tournaments t LEFT JOIN questions q ON q.tournament_id=t.id AND q.status='published' WHERE t.active=1 GROUP BY t.id ORDER BY t.position"));
                 if (method === 'GET' && path === '/api/mini-games')
@@ -367,7 +370,7 @@ export function createApplication(options = {}) {
             catch {
                 fail(400, 'الرابط غير صحيح.');
             }
-            const routes = /^\/(?:|create|account|admin|privacy|rules|mini-games(?:\/[a-z0-9-]+)?|mini-room\/[A-Za-z0-9_-]{12}\/(?:host|display|buzzer)|room\/[A-Za-z0-9_-]{12}\/(?:host|display|buzzer))$/;
+            const routes = /^\/(?:|create|account|admin|atlas|privacy|rules|mini-games(?:\/[a-z0-9-]+)?|mini-room\/[A-Za-z0-9_-]{12}\/(?:host|display|buzzer)|room\/[A-Za-z0-9_-]{12}\/(?:host|display|buzzer))$/;
             const route = routes.test(relative);
             let filename = route ? resolve(clientDir, 'index.html') : resolve(clientDir, '.' + relative);
             if (!filename.startsWith(clientDir + sep) || !existsSync(filename) || !statSync(filename).isFile()) {

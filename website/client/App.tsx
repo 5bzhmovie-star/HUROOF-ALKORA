@@ -14,6 +14,7 @@ const MiniGamesCatalog = lazy(() => loadMiniGames().then(module => ({ default: m
 const MiniGamePlay = lazy(() => loadMiniGames().then(module => ({ default: module.MiniGamePlay })));
 const MiniRoomPage = lazy(() => loadMiniGames().then(module => ({ default: module.MiniRoomPage })));
 const Admin = lazy(() => import('./Admin'));
+const FootballAtlasViewer=lazy(()=>import('./FootballAtlasViewer'));
 function Profile({ session, onSession, theme, onTheme }: {
     session: Session;
     onSession: (s: Session) => void;
@@ -66,6 +67,8 @@ export default function GameApp() {
         content=<Suspense fallback={<Loading/>}><MiniGamesCatalog/></Suspense>;
     else if(miniMatch)
         content=<Suspense fallback={<Loading/>}><MiniGamePlay slug={miniMatch[1]} session={session} onSession={setSession}/></Suspense>;
+    else if (path === '/atlas')
+        content=<Suspense fallback={<Loading/>}><FootballAtlasViewer/></Suspense>;
     else if (path === '/create')
         content = <Suspense fallback={<Loading />}><Create key={tournaments.length} session={session} onSession={setSession} tournaments={tournaments}/></Suspense>;
     else if (path === '/account')
@@ -76,6 +79,6 @@ export default function GameApp() {
         content = <InfoPage privacy={path === '/privacy'}/>;
     else
         content = <main className="container small-page"><div className="panel center"><span className="error-number">٤٠٤</span><h1>الرابط طلع تسلل</h1><p>ما لقينا هذه الصفحة. ارجع للملعب وابدأ من جديد.</p><Button asChild className="primary"><Link to="/">العودة للرئيسية</Link></Button></div></main>;
-    return <div className={'app ' + (isDisplay ? 'display-app' : '')} dir="rtl"><a href="#main-content" className="skip-link">تجاوز إلى المحتوى</a><header className={'site-header ' + (isBuzzer ? 'small-header' : '')}><div className="container header-inner"><Link to="/" className="wordmark" aria-label="حروف الكورة — الرئيسية"><span className="brand-mark"><Goal /></span><span>حروف<span>الكورة</span></span></Link>{!isDisplay && !isBuzzer && <nav aria-label="التنقل الرئيسي"><Link to="/" className={path === '/' ? 'current' : ''}>الرئيسية</Link><Link to="/mini-games" className={path.startsWith('/mini-games') ? 'current' : ''}>Mini Games</Link><Link to="/rules" className={path === '/rules' ? 'current' : ''}>طريقة اللعب</Link></nav>}<div className="header-controls"><div className="theme-control"><Choice label="مظهر اللعبة" value={theme} onChange={setMode} options={[["light", "صباحي"], ["dark", "مسائي"]]}/>{theme === 'dark' ? <Moon size={17}/> : theme === 'light' ? <Sun size={17}/> : null}</div><Button variant="ghost" size="icon" aria-label={sound ? 'كتم الصوت' : 'تفعيل الصوت'} aria-pressed={sound} onClick={() => { setSound(!sound); localStorage.setItem('hk-sound', !sound ? 'on' : 'off'); if (!sound)
+    return <div className={'app ' + (isDisplay ? 'display-app' : '')} dir="rtl"><a href="#main-content" className="skip-link">تجاوز إلى المحتوى</a><header className={'site-header ' + (isBuzzer ? 'small-header' : '')}><div className="container header-inner"><Link to="/" className="wordmark" aria-label="حروف الكورة — الرئيسية"><span className="brand-mark"><Goal /></span><span>حروف<span>الكورة</span></span></Link>{!isDisplay && !isBuzzer && <nav aria-label="التنقل الرئيسي"><Link to="/" className={path === '/' ? 'current' : ''}>الرئيسية</Link><Link to="/atlas" className={path==='/atlas'?'current':''}>المكتبة الكروية</Link><Link to="/mini-games" className={path.startsWith('/mini-games') ? 'current' : ''}>Mini Games</Link><Link to="/rules" className={path === '/rules' ? 'current' : ''}>طريقة اللعب</Link></nav>}<div className="header-controls"><div className="theme-control"><Choice label="مظهر اللعبة" value={theme} onChange={setMode} options={[["light", "صباحي"], ["dark", "مسائي"]]}/>{theme === 'dark' ? <Moon size={17}/> : theme === 'light' ? <Sun size={17}/> : null}</div><Button variant="ghost" size="icon" aria-label={sound ? 'كتم الصوت' : 'تفعيل الصوت'} aria-pressed={sound} onClick={() => { setSound(!sound); localStorage.setItem('hk-sound', !sound ? 'on' : 'off'); if (!sound)
         unlockAudio(); }}>{sound ? <Volume2 /> : <VolumeX />}</Button>{!isDisplay && !isBuzzer && <Button variant="outline" asChild className="account-button"><Link to="/account"><UserRound />{session?.user?.name || 'حسابي'}</Link></Button>}</div></div></header><div id="main-content" tabIndex={-1}>{content}</div>{!isDisplay && !isBuzzer && <footer className="site-footer container"><span>حروف الكورة <span className="footer-dot">•</span> يزن عبدالعزيز — Discord: <b dir="ltr">k6a</b></span><div>{session?.supportUrl && <a href={session.supportUrl} target="_blank" rel="noopener noreferrer">الدعم</a>}<Link to="/privacy">الخصوصية</Link><Link to="/admin">الإدارة</Link></div></footer>}</div>;
 }
