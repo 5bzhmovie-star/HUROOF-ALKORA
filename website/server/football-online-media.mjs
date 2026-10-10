@@ -17,13 +17,25 @@ const competitionSitelinks={
  'competition:afc-champions-league-elite':'AFC Champions League Elite'
 };
 const types={player:['Q5'],coach:['Q5'],club:['Q476028','Q847017','Q6979593'],national_team:['Q6979593'],country:['Q6256'],flag:['Q6256'],stadium:['Q483110'],competition:['Q15991303','Q18536594']};
+let lastRemoteCall=0;
 async function json(url,timeout=8500) {
- const ctrl=new AbortController();const timeoutId=setTimeout(()=>ctrl.abort(),timeout);
- try {
-  const res=await fetch(url,{signal:ctrl.signal,headers:{'User-Agent':'HuroofAlKoraFootballAtlas/1.6.1 (football media attribution; desktop)'}});
-  if(!res.ok)throw new Error('Remote media service HTTP '+res.status);
-  return await res.json();
- } finally{clearTimeout(timeoutId)}
+ for(let attempt=0;attempt<4;attempt++){
+  const delay=Math.max(0,1750-(Date.now()-lastRemoteCall));
+  if(delay)await new Promise(r=>setTimeout(r,delay));
+  lastRemoteCall=Date.now();
+  const ctrl=new AbortController();const timeoutId=setTimeout(()=>ctrl.abort(),timeout);
+  try {
+   const res=await fetch(url,{signal:ctrl.signal,headers:{'User-Agent':'HuroofAlKoraFootballAtlas/1.8 (offline media packaging)'}});
+   if((res.status===429||res.status===503)&&attempt<3){
+    const retry=Number(res.headers.get('retry-after'));
+    await new Promise(r=>setTimeout(r,Number.isFinite(retry)&&retry>0?Math.min(retry*1000,20000):2000*(attempt+1)*(attempt+1)));
+    continue;
+   }
+   if(!res.ok)throw new Error('Remote media service HTTP '+res.status);
+   return await res.json();
+  } finally{clearTimeout(timeoutId)}
+ }
+ throw new Error('Remote media service retry limit exceeded');
 }
 const safeFile=f=>typeof f==='string'&&/^[^<>#|{}\u0000-\u001f]{3,260}$/.test(f)&&/\.(?:png|jpg|jpeg|webp|svg)$/i.test(f);
 function commonsPage(filename){return 'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(filename.replace(/^File:/i,''));}
