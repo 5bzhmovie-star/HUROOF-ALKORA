@@ -13,17 +13,17 @@ const CATEGORIES:{id:string;title:string;icon:React.ComponentType<any>}[]=[
 {id:'season',title:'المواسم',icon:CalendarDays},{id:'fixture',title:'المباريات',icon:CalendarDays},
 {id:'coach',title:'المدربون',icon:Users},{id:'stadium',title:'الملاعب',icon:MapPin},{id:'country',title:'الدول',icon:Globe2}];
 const LEAGUES=[
-{key:'la-liga',name:'الدوري الإسباني',region:'إسبانيا',country:'🇪🇸'},
-{key:'premier-league',name:'الدوري الإنجليزي',region:'إنجلترا',country:'🏴'},
-{key:'bundesliga',name:'الدوري الألماني',region:'ألمانيا',country:'🇩🇪'},
-{key:'serie-a',name:'الدوري الإيطالي',region:'إيطاليا',country:'🇮🇹'},
-{key:'ucl',name:'دوري أبطال أوروبا',region:'أوروبا',country:'🏆'},
-{key:'ligue-1',name:'الدوري الفرنسي',region:'فرنسا',country:'🇫🇷'},
-{key:'saudi-league',name:'الدوري السعودي',region:'السعودية',country:'🇸🇦'},
-{key:'world-cup',name:'كأس العالم',region:'عالمي',country:'🌍'},
-{key:'kings-cup',name:'كأس الملك',region:'السعودية',country:'🏆'},
-{key:'saudi-super-cup',name:'السوبر السعودي',region:'السعودية',country:'🇸🇦'},
-{key:'afc-champions-league',name:'دوري أبطال آسيا للنخبة',region:'آسيا',country:'🏆'}
+{key:'es-la-liga',name:'الدوري الإسباني',region:'إسبانيا',country:'🇪🇸'},
+{key:'en-premier-league',name:'الدوري الإنجليزي',region:'إنجلترا',country:'🏴'},
+{key:'de-bundesliga',name:'الدوري الألماني',region:'ألمانيا',country:'🇩🇪'},
+{key:'it-serie-a',name:'الدوري الإيطالي',region:'إيطاليا',country:'🇮🇹'},
+{key:'uefa-champions-league',name:'دوري أبطال أوروبا',region:'أوروبا',country:'🏆'},
+{key:'fr-ligue1',name:'الدوري الفرنسي',region:'فرنسا',country:'🇫🇷'},
+{key:'sa-pro-league',name:'الدوري السعودي',region:'السعودية',country:'🇸🇦'},
+{key:'fifa-world-cup',name:'كأس العالم',region:'عالمي',country:'🌍'},
+{key:'sa-kings-cup',name:'كأس الملك',region:'السعودية',country:'🏆'},
+{key:'sa-super-cup',name:'السوبر السعودي',region:'السعودية',country:'🇸🇦'},
+{key:'afc-champions-league-elite',name:'دوري أبطال آسيا للنخبة',region:'آسيا',country:'🏆'}
 ];
 const labels:Record<string,string>={player:'لاعب',club:'نادي',national_team:'منتخب',competition:'بطولة',season:'موسم',fixture:'مباراة',coach:'مدرب',stadium:'ملعب',country:'دولة',flag:'علم',manager:'مدرب',played_for:'لعب لـ',loaned_to:'إعارة إلى',selected_for:'انضم إلى',appeared_in:'شارك في',participated_in:'شارك في',belongs_to:'يتبع',managed_by:'يدرب'};
 const mimeImage=(url:string|null)=>url?.startsWith('/api/visual-media/')?url:null;
@@ -98,7 +98,9 @@ export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x
    </div>
    <section className="atlas-collections"><h3>البطولات المعتمدة <span className="atlas-page-meta">11 مسابقة · التغطية الفعلية تعتمد على السجلات المستوردة والمعتمدة</span></h3>
      <div className="atlas-league-grid">{LEAGUES.map(l=><button type="button" key={l.key} className={'atlas-league-card '+(league===l.key?'active':'')} onClick={()=>{setLeague(league===l.key?'':l.key);setFilter('competition');setSearch(league===l.key?'':l.name)}}>
-       <span className="atlas-crest"><Trophy size={23}/></span><span><strong>{l.name}</strong><small>{l.region} · {l.country}</small></span></button>)}</div>
+       <span className="atlas-crest">{coverage?.competitions?.find((c:any)=>c.id==='competition:'+l.key)?.logoUrl
+       ?<img src={coverage.competitions.find((c:any)=>c.id==='competition:'+l.key).logoUrl} loading="lazy" alt={'شعار '+l.name}/>
+       :<Trophy size={23} aria-label="الشعار غير متوفر محليًا"/>}</span><span><strong>{l.name}</strong><small>{l.region} · {l.country}</small></span></button>)}</div>
      {league&&<p className="atlas-notice">تم اختيار {LEAGUES.find(x=>x.key===league)?.name}. هذه مسابقة ضمن خطة التغطية؛ لا يعني عرضها أن قوائم فرقها الحالية اكتملت. ابحث عن اسم البطولة في سجلات المكتبة أو استورد بياناتها المرخصة بعد مراجعتها.</p>}
    </section>
    <section className="atlas-library-main"><h3>استكشف المكتبة</h3>
