@@ -14,6 +14,7 @@ import { miniMedia } from './mini-media.mjs';
 import { getMedia } from './visual-media.mjs';
 import {atlasExplore,atlasDetail} from './football-viewer.mjs';
 import {playerSearch,playerAutofill} from './football-autofill.mjs';
+import {atlasCoverage} from './football-coverage.mjs';
 import {cacheImages} from './football-media-cache.mjs';
 import { importCompetitionCatalog } from './football-competitions.mjs';
 import { addEntity } from './football-library.mjs';
@@ -174,6 +175,7 @@ export function createApplication(options = {}) {
                     security.cookie(res, 'hk_sid', '', 0, secure);
                     return json(res, { ok: true });
                 }
+                if (method === 'GET' && path === '/api/atlas/coverage')return json(res,atlasCoverage());
                 if (method === 'GET' && path === '/api/atlas/player-search')return json(res,playerSearch(url.searchParams.get('q')||''));
                 if (method === 'GET' && path === '/api/atlas/player-autofill')return json(res,playerAutofill(String(url.searchParams.get('id')||'')));
                 if (method === 'GET' && path === '/api/atlas/explore')return json(res,atlasExplore({type:url.searchParams.get('type')||'',q:url.searchParams.get('q')||'',page:url.searchParams.get('page')||1}));
