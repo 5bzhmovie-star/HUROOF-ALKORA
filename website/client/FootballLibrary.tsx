@@ -80,6 +80,12 @@ export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x
      <button className="atlas-btn main" type="button" disabled={working} onClick={()=>{if(window.confirm('استيراد هويات أولية موثّقة المصدر من نهائيَي 2022 ومسيرة محمد صلاح؟ لا تُنشر أسئلة أو صور تلقائيًا.'))void mutate('football-import-starter',{},'تم استيراد السجلات المرجعية. راجع المصادر والصور قبل النشر.')}}><CloudDownload size={16}/> استيراد البيانات المرجعية</button>
     </div>
    </header>
+   <div className="atlas-notice" style={{display:'flex',alignItems:'center',justifyContent:'space-between',gap:10,flexWrap:'wrap'}}>
+     <span>تحميل الشعارات تلقائيًا إلى المكتبة المحلية (حتى 11 بطولة في كل دفعة). الصور غير المتاحة تُسجل لإعادة المحاولة.</span>
+     <button className="atlas-btn main" type="button" disabled={working} onClick={async()=>{
+       setWorking(true);setError('');try{const r=await api<any>('/admin/football-image-cache-batch',{type:'competition',limit:11});
+       setMessage('تم حفظ '+r.cached+' من '+r.total+' صورة متاحة محليًا.');await reload()}catch(e:any){setError(e.message)}finally{setWorking(false)}
+     }}>حفظ شعارات البطولات محليًا</button></div>
    <div className="atlas-dashboard">
     {[{n:count('player'),text:'اللاعبون المسجلون',I:Users},{n:count('club'),text:'الأندية المسجلة',I:Shield},{n:count('national_team'),text:'المنتخبات',I:Flag},{n:stats?.media||0,text:'صور محلية مرخصة',I:ImageIcon},
        {n:stats?.relations||0,text:'العلاقات التاريخية',I:Layers},{n:reviewCount,text:'تحتاج مراجعة',I:AlertTriangle},{n:stats?.publishedVisual||0,text:'أسئلة بصرية منشورة',I:BookOpen},{n:11,text:'بطولات مستهدفة',I:Trophy}].map(o=><div className="atlas-metric" key={o.text}><o.I size={25} color="#c2f17c"/><div><div className="figure">{loading&&!stats?'—':o.n.toLocaleString('ar-SA')}</div><small>{o.text}</small></div></div>)}
