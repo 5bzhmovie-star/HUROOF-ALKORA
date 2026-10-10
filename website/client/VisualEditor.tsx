@@ -14,6 +14,12 @@ export default function VisualEditor({tournaments,onSaved}:{tournaments:Competit
  const [assets,setAssets]=useState<Media[]>([]);
  const [stage,setStage]=useState<'identity'|'contents'|'preview'>('identity');
  const [previewReveal,setPreviewReveal]=useState(false);
+ const [playerQuery,setPlayerQuery]=useState('');
+ const [playerMatches,setPlayerMatches]=useState<any[]>([]);
+ const [playerInfo,setPlayerInfo]=useState<any>(null);
+ useEffect(()=>{if(playerQuery.trim().length<2){setPlayerMatches([]);return}const timer=setTimeout(()=>{
+ api<any[]>('/atlas/player-search?q='+encodeURIComponent(playerQuery)).then(setPlayerMatches).catch(()=>setPlayerMatches([]))
+ },220);return()=>clearTimeout(timer)},[playerQuery]);
  const [kind,setKind]=useState('career');
  const [libraryOpen,setLibraryOpen]=useState(false);
  const [selectedLibrary,setSelectedLibrary]=useState<{id:string;name_ar:string;image_key:string|null}|null>(null);
@@ -45,6 +51,22 @@ export default function VisualEditor({tournaments,onSaved}:{tournaments:Competit
  </nav>
  <p className="hint">يُحفظ السؤال كمسودة افتراضيًا حتى تكتمل مصادره وصوره.</p>
  {stage==='identity'&&<div className="visual-editor-stage">
+ <section className="panel visual-smart-search">
+ <h3>اختيار اللاعب والتعبئة الذكية</h3>
+ <p className="hint">اكتب الاسم بالعربي أو الإنجليزي ثم اختر اللاعب لتعبئة بياناته ومسيرته تلقائيًا.</p>
+ <input value={playerQuery} onChange={e=>setPlayerQuery(e.target.value)} placeholder="مثال: محمد صلاح / Mohamed Salah / Salah" aria-label="البحث عن اللاعب"/>
+ {playerMatches.length>0&&<div className="visual-smart-results">{playerMatches.map(player=><button type="button" key={player.id} onClick={async()=>{
+ try{const d=await api<any>('/atlas/player-autofill?id='+encodeURIComponent(player.id));setPlayerInfo(d);setPlayerQuery(d.nameAr);setPlayerMatches([]);setInput(old=>({...old,answer:d.nameAr}));
+ setVisual((old:any)=>({...old,playerName:d.nameAr,playerPhoto:d.photo?.startsWith('/api/visual-media/')?d.photo:old.playerPhoto,
+ stations:d.career.length>=3?d.career.slice(0,8).map((x:any)=>({club:x.club,clubLogo:x.clubImage||'',from:Number((x.from||'').slice(0,4))||2020,to:Number((x.to||'').slice(0,4))||new Date().getFullYear(),loan:x.loan})):old.stations}));
+ setStatus('تم اختيار اللاعب وربط البيانات المسجلة. الحقول الناقصة: '+(d.missing.join('، ')||'لا يوجد في المعلومات الأساسية'));
+ }catch(e:any){setError(e.message)}
+ }}>{player.image_key?.startsWith('/api/visual-media/')&&<img src={player.image_key} width={40} height={40}/>}<span>{player.name_ar}<small>{player.name_en}</small></span></button>)}</div>}
+ {playerInfo&&<div className="visual-player-info">
+ <h4>{playerInfo.nameAr} <small>{playerInfo.nameEn}</small></h4>
+ <div className="visual-player-info-grid">{[['المركز',playerInfo.position],['النادي',playerInfo.currentClub],['الجنسية',playerInfo.nationality],['رقم القميص',playerInfo.shirtNumber],['القدم',playerInfo.preferredFoot],['الطول',playerInfo.heightCm],['العقد',playerInfo.contractUntil],['محطات المسيرة',playerInfo.career.length]].map(([label,val])=><div key={String(label)}><small>{label}</small><strong>{val??'غير مسجل'}</strong></div>)}</div>
+ </div>}
+ </section>
  <button type="button" onClick={()=>setLibraryOpen(v=>!v)}>{libraryOpen?'إخفاء المكتبة الكروية':'البحث عن لاعب أو فريق من المكتبة'}</button>
  {libraryOpen&&<FootballLibrary onSelect={entry=>{
   setSelectedLibrary(entry);
