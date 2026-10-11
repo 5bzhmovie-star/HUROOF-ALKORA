@@ -1,0 +1,35 @@
+{
+  "downloaded": [
+    {
+      "path": "assets/pending_media/hilal-official/5163e33bc5094f9fb5b68efaeb39be58/clubs/ae14a651fb584440979f8c4d02b89428/portrait.webp",
+      "sha256": "48671cf6b1823dc925b70aff721daf52a837e87f55968d5a39eabdd762bca249",
+      "playerSourceId": "5163e33bc5094f9fb5b68efaeb39be58",
+      "clubSourceId": "ae14a651fb584440979f8c4d02b89428",
+      "source": "https://contentfulproxy.stadion.io/eyc25wndlima/7korrUeTCFcw0QxAhIcJMw/9117afe2f3459e60f0506796dcca0fb6/Al-Hilal_player_21_.png24.png?fm=webp&fit=fill&f=top&w=2016&h=3053",
+      "pageSource": "https://alhilal.com/ar/teams/mens-u21?position=all",
+      "pageSourceSha256": "cb6dd39c2d46528346c4f4b906a5267e4803153eb4a39e86ceef81881bea3ca3",
+      "sourceAlt": "TURKI ALGHUMAYL Image",
+      "reviewedAt": "2026-10-11",
+      "visualObservations": "Front-facing real portrait with visible Al Hilal kit; rendered transparency edges show artifacts requiring further quality inspection",
+      "verification": "pending-identity-period-and-visual-quality-review",
+      "rights": "not-cleared-for-redistribution",
+      "approved": false
+    },
+    {
+      "path": "assets/pending_media/hilal-official/f2339086dc184704b01216139297b230/clubs/ae14a651fb584440979f8c4d02b89428/portrait.webp",
+      "sha256": "33aefe273e6c09d0c46949dbb000a3406fadbebdd26beaa4397e6c14f59861c8",
+      "playerSourceId": "f2339086dc184704b01216139297b230",
+      "clubSourceId": "ae14a651fb584440979f8c4d02b89428",
+      "source": "https://contentfulproxy.stadion.io/eyc25wndlima/2HgtoEGLDM1lxNSJUkQqAK/4df481095a9dbeaef2b7cfbb92841549/Al-Hilal_player_21.png1.png?fm=webp&fit=fill&f=top&w=2016&h=3053",
+      "pageSource": "https://alhilal.com/ar/teams/mens-u21?position=all",
+      "pageSourceSha256": "cb6dd39c2d46528346c4f4b906a5267e4803153eb4a39e86ceef81881bea3ca3",
+      "sourceAlt": "THARI SAEED Image",
+      "reviewedAt": "2026-10-11",
+      "visualObservations": "Front-facing real portrait with visible Al Hilal kit; rendered transparency edges show artifacts requiring further quality inspection",
+      "verification": "pending-identity-period-and-visual-quality-review",
+      "rights": "not-cleared-for-redistribution",
+      "approved": false
+    }
+  ],
+  "releaseReady": false
+}
