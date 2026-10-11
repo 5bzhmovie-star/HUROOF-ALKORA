@@ -6,3 +6,5 @@ __pycache__/
 sources/html/
 reports/UEFA_ROSTER_CHECKPOINT.json
 reports/SERIEA_ROSTER_CHECKPOINT.json
+reports/ATHLETIC_PROFILE_CHECKPOINT.json
+reports/*.tmp

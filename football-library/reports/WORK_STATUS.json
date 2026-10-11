@@ -113,5 +113,23 @@
     "preliminaryParticipants": "pending",
     "registrations": "pending",
     "releaseReady": false
+  },
+  "serieAMedia": {
+    "localFiles": 597,
+    "playerPortraits": 577,
+    "clubLogos": 20,
+    "coachPortraits": 0,
+    "sourceDownload403": 56,
+    "playerPortraitSourcesAbsent": 6,
+    "coachPortraitSourcesAbsent": 1,
+    "approval": "pending-visual-identity-period-rights-review",
+    "releaseReady": false
+  },
+  "athletic": {
+    "firstTeamPlayers": 26,
+    "headCoaches": 1,
+    "personalProfilesCollected": 8,
+    "remainingPersonalProfiles": 18,
+    "releaseReady": false
   }
 }
