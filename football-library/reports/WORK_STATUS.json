@@ -53,5 +53,32 @@
     "coaches": 81,
     "failures": [],
     "releaseReady": false
+  },
+  "scopePolicy": {
+    "scope": "club-first-team-only",
+    "nationalTeamScope": "complete-2026-world-cup-squads",
+    "requestedAt": "2026-10-11",
+    "ageIsNotAnExclusionCriterion": true,
+    "exclude": [
+      "standalone youth and academy squads",
+      "standalone under-21 or reserve squads"
+    ],
+    "include": [
+      "official senior registrations",
+      "young players with documented first-team registration or official senior squad inclusion",
+      "UEFA List B registered for the senior competition"
+    ],
+    "pending": [
+      "Premier League first-team under-21 evidence beyond the separate blanket U21 list",
+      "Saudi website squad cards require confirmation of senior registration; website inclusion alone is insufficient"
+    ],
+    "releaseReady": false
+  },
+  "premierLeague": {
+    "clubs": 20,
+    "seniorRegistrations": 461,
+    "standaloneUnder21Excluded": 1115,
+    "firstTeamUnder21Coverage": "pending-official-evidence",
+    "releaseReady": false
   }
 }

@@ -37,9 +37,9 @@ def extract(html):
   if groups!={'senior','under21'} or not records:raise ValueError('Missing submitted registration group')
   if len([r for r in records if r['registrationGroup']=='senior'])>25:raise ValueError('Senior squad exceeds registration limit')
   if len({r['nameAsPublished'] for r in records})!=len(records):raise ValueError('Duplicate submitted name requires review')
-  clubs.append({'sourceClubId':match[2],'sourceIdNamespace':'english-route' if match[1] else 'legacy-route','sourceClubKey':('en:' if match[1] else 'legacy:')+match[2],'nameEn':heading.get_text(' ',strip=True),'profileUrl':anchor['href'],'canonicalClubId':None,'players':records})
+  clubs.append({'sourceClubId':match[2],'sourceIdNamespace':'english-route' if match[1] else 'legacy-route','sourceClubKey':('en:' if match[1] else 'legacy:')+match[2],'nameEn':heading.get_text(' ',strip=True),'profileUrl':anchor['href'],'canonicalClubId':None,'players':[r for r in records if r['registrationGroup']=='senior'],'excludedUnder21Registrations':sum(r['registrationGroup']=='under21' for r in records),'firstTeamEligibleUnder21Status':'not inferred from the separate U21 list; first-team registration evidence required'})
  if len(clubs)!=20 or len({c['sourceClubKey'] for c in clubs})!=20:raise ValueError('Incomplete Premier League participant list')
- return {'season':'2026-2027','source':SOURCE,'verifiedAt':datetime.date.today().isoformat(),'sourceSha256':hashlib.sha256(html.encode()).hexdigest(),'clubs':clubs,'releaseReady':False}
+ return {'scope':'club-first-team-only','season':'2026-2027','source':SOURCE,'verifiedAt':datetime.date.today().isoformat(),'sourceSha256':hashlib.sha256(html.encode()).hexdigest(),'clubs':clubs,'releaseReady':False}
 if __name__=='__main__':
  if len(sys.argv)!=3:raise SystemExit('Usage: extract_pl_squads.py source.html output.json')
  result=extract(Path(sys.argv[1]).read_text(encoding='utf-8'))
