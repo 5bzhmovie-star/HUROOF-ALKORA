@@ -657,11 +657,11 @@
   },
   {
     "id": "player:fifa2026:4ed3034ef8e6b90e51adb846",
-    "nameOriginal": "Ra\u0000k BELGHALI",
-    "nameEn": "Ra\u0000k BELGHALI",
+    "nameOriginal": "Rafik BELGHALI",
+    "nameEn": "Rafik BELGHALI",
     "nameAr": null,
-    "sourceDisplayName": "BELGHALI Ra\u0000k",
-    "firstNames": "Ra\u0000k",
+    "sourceDisplayName": "BELGHALI Rafik",
+    "firstNames": "Rafik",
     "lastNames": "BELGHALI",
     "shirtName": "BELGHALI",
     "dateOfBirth": "2002-06-07",
@@ -676,10 +676,7 @@
     "sourcePage": 1,
     "asOf": "2026-07-19",
     "verifiedAt": "2026-10-11",
-    "textIssues": [
-      2,
-      4
-    ],
+    "textIssues": [],
     "verification": "pending",
     "rawCells": [
       "17",
@@ -697,7 +694,42 @@
       "180",
       "17",
       "2"
-    ]
+    ],
+    "rawCellsCorrected": [
+      "17",
+      "DF",
+      "BELGHALI Rafik",
+      null,
+      "Rafik",
+      "BELGHALI",
+      null,
+      "BELGHALI",
+      "07/06/2002",
+      null,
+      "Hellas Verona FC (ITA)",
+      null,
+      "180",
+      "17",
+      "2"
+    ],
+    "textCorrections": {
+      "cells": [
+        {
+          "column": 2,
+          "original": "BELGHALI Ra\u0000k",
+          "corrected": "BELGHALI Rafik"
+        },
+        {
+          "column": 4,
+          "original": "Ra\u0000k",
+          "corrected": "Rafik"
+        }
+      ],
+      "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+      "reviewer": "Codex visual original PDF row review",
+      "verifiedAt": "2026-10-11",
+      "method": "visual inspection of original PDF row"
+    }
   },
   {
     "id": "player:fifa2026:aa026e7c5c25eae0ec449384",
@@ -1818,7 +1850,7 @@
     "dateOfBirth": "1988-02-12",
     "position": "DF",
     "shirtNumber": 19,
-    "clubAtWorldCup": "SL Ben\u0000ca (POR)",
+    "clubAtWorldCup": "SL Benfica (POR)",
     "heightCm": 182,
     "internationalCapsAsOfSource": 139,
     "internationalGoalsAsOfSource": 8,
@@ -1827,9 +1859,7 @@
     "sourcePage": 2,
     "asOf": "2026-07-19",
     "verifiedAt": "2026-10-11",
-    "textIssues": [
-      10
-    ],
+    "textIssues": [],
     "verification": "pending",
     "rawCells": [
       "19",
@@ -1847,7 +1877,37 @@
       "182",
       "139",
       "8"
-    ]
+    ],
+    "rawCellsCorrected": [
+      "19",
+      "DF",
+      "OTAMENDI Nicolas",
+      null,
+      "Nicolas Hernan Gonzalo",
+      "OTAMENDI",
+      null,
+      "OTAMENDI",
+      "12/02/1988",
+      null,
+      "SL Benfica (POR)",
+      null,
+      "182",
+      "139",
+      "8"
+    ],
+    "textCorrections": {
+      "cells": [
+        {
+          "column": 10,
+          "original": "SL Ben\u0000ca (POR)",
+          "corrected": "SL Benfica (POR)"
+        }
+      ],
+      "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+      "reviewer": "Codex visual original PDF row review",
+      "verifiedAt": "2026-10-11",
+      "method": "visual inspection of original PDF row"
+    }
   },
   {
     "id": "player:fifa2026:45ee5adcae886bbbae6118fe",
@@ -4813,7 +4873,7 @@
     "dateOfBirth": "1997-09-24",
     "position": "FW",
     "shirtNumber": 14,
-    "clubAtWorldCup": "SL Ben\u0000ca (POR)",
+    "clubAtWorldCup": "SL Benfica (POR)",
     "heightCm": 184,
     "internationalCapsAsOfSource": 33,
     "internationalGoalsAsOfSource": 6,
@@ -4822,9 +4882,7 @@
     "sourcePage": 5,
     "asOf": "2026-07-19",
     "verifiedAt": "2026-10-11",
-    "textIssues": [
-      10
-    ],
+    "textIssues": [],
     "verification": "pending",
     "rawCells": [
       "14",
@@ -4842,7 +4900,37 @@
       "184",
       "33",
       "6"
-    ]
+    ],
+    "rawCellsCorrected": [
+      "14",
+      "FW",
+      "LUKEBAKIO Dodi",
+      null,
+      "Dodi",
+      "LUKEBAKIO NGANDOLI",
+      null,
+      "LUKEBAKIO",
+      "24/09/1997",
+      null,
+      "SL Benfica (POR)",
+      null,
+      "184",
+      "33",
+      "6"
+    ],
+    "textCorrections": {
+      "cells": [
+        {
+          "column": 10,
+          "original": "SL Ben\u0000ca (POR)",
+          "corrected": "SL Benfica (POR)"
+        }
+      ],
+      "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+      "reviewer": "Codex visual original PDF row review",
+      "verifiedAt": "2026-10-11",
+      "method": "visual inspection of original PDF row"
+    }
   },
   {
     "id": "player:fifa2026:212ecad2c36b807fb7dfb9b9",
@@ -5594,7 +5682,7 @@
     "dateOfBirth": "2002-08-18",
     "position": "DF",
     "shirtNumber": 7,
-    "clubAtWorldCup": "SL Ben\u0000ca (POR)",
+    "clubAtWorldCup": "SL Benfica (POR)",
     "heightCm": 180,
     "internationalCapsAsOfSource": 31,
     "internationalGoalsAsOfSource": 1,
@@ -5603,9 +5691,7 @@
     "sourcePage": 6,
     "asOf": "2026-07-19",
     "verifiedAt": "2026-10-11",
-    "textIssues": [
-      10
-    ],
+    "textIssues": [],
     "verification": "pending",
     "rawCells": [
       "7",
@@ -5623,7 +5709,37 @@
       "180",
       "31",
       "1"
-    ]
+    ],
+    "rawCellsCorrected": [
+      "7",
+      "DF",
+      "DEDIC Amar",
+      null,
+      "Amar",
+      "DEDIĆ",
+      null,
+      "DEDIĆ",
+      "18/08/2002",
+      null,
+      "SL Benfica (POR)",
+      null,
+      "180",
+      "31",
+      "1"
+    ],
+    "textCorrections": {
+      "cells": [
+        {
+          "column": 10,
+          "original": "SL Ben\u0000ca (POR)",
+          "corrected": "SL Benfica (POR)"
+        }
+      ],
+      "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+      "reviewer": "Codex visual original PDF row review",
+      "verifiedAt": "2026-10-11",
+      "method": "visual inspection of original PDF row"
+    }
   },
   {
     "id": "player:fifa2026:64207d07be43f982ace7cdcc",
@@ -7974,7 +8090,7 @@
     "dateOfBirth": "2002-09-18",
     "position": "DF",
     "shirtNumber": 13,
-    "clubAtWorldCup": "SL Ben\u0000ca (POR)",
+    "clubAtWorldCup": "SL Benfica (POR)",
     "heightCm": 176,
     "internationalCapsAsOfSource": 14,
     "internationalGoalsAsOfSource": 4,
@@ -7983,9 +8099,7 @@
     "sourcePage": 8,
     "asOf": "2026-07-19",
     "verifiedAt": "2026-10-11",
-    "textIssues": [
-      10
-    ],
+    "textIssues": [],
     "verification": "pending",
     "rawCells": [
       "13",
@@ -8003,7 +8117,37 @@
       "176",
       "14",
       "4"
-    ]
+    ],
+    "rawCellsCorrected": [
+      "13",
+      "DF",
+      "SIDNY LOPES CABRAL",
+      null,
+      "Sidny",
+      "LOPES CABRAL",
+      null,
+      "LOPES CABRAL",
+      "18/09/2002",
+      null,
+      "SL Benfica (POR)",
+      null,
+      "176",
+      "14",
+      "4"
+    ],
+    "textCorrections": {
+      "cells": [
+        {
+          "column": 10,
+          "original": "SL Ben\u0000ca (POR)",
+          "corrected": "SL Benfica (POR)"
+        }
+      ],
+      "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+      "reviewer": "Codex visual original PDF row review",
+      "verifiedAt": "2026-10-11",
+      "method": "visual inspection of original PDF row"
+    }
   },
   {
     "id": "player:fifa2026:1d64be11153dfcb2208d108f",
@@ -8622,11 +8766,11 @@
   },
   {
     "id": "player:fifa2026:800d7aa895af9057363ecacc",
-    "nameOriginal": "Al\u0000e Charles JONES",
-    "nameEn": "Al\u0000e Charles JONES",
+    "nameOriginal": "Alfie Charles JONES",
+    "nameEn": "Alfie Charles JONES",
     "nameAr": null,
-    "sourceDisplayName": "JONES Al\u0000e",
-    "firstNames": "Al\u0000e Charles",
+    "sourceDisplayName": "JONES Alfie",
+    "firstNames": "Alfie Charles",
     "lastNames": "JONES",
     "shirtName": "JONES",
     "dateOfBirth": "1997-10-07",
@@ -8641,10 +8785,7 @@
     "sourcePage": 9,
     "asOf": "2026-07-19",
     "verifiedAt": "2026-10-11",
-    "textIssues": [
-      2,
-      4
-    ],
+    "textIssues": [],
     "verification": "pending",
     "rawCells": [
       "3",
@@ -8662,7 +8803,42 @@
       "191",
       "2",
       "0"
-    ]
+    ],
+    "rawCellsCorrected": [
+      "3",
+      "DF",
+      "JONES Alfie",
+      null,
+      "Alfie Charles",
+      "JONES",
+      null,
+      "JONES",
+      "07/10/1997",
+      null,
+      "Middlesbrough FC (ENG)",
+      null,
+      "191",
+      "2",
+      "0"
+    ],
+    "textCorrections": {
+      "cells": [
+        {
+          "column": 2,
+          "original": "JONES Al\u0000e",
+          "corrected": "JONES Alfie"
+        },
+        {
+          "column": 4,
+          "original": "Al\u0000e Charles",
+          "corrected": "Alfie Charles"
+        }
+      ],
+      "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+      "reviewer": "Codex visual original PDF row review",
+      "verifiedAt": "2026-10-11",
+      "method": "visual inspection of original PDF row"
+    }
   },
   {
     "id": "player:fifa2026:ce8c4e5fa688452feb261929",
@@ -9824,7 +10000,7 @@
     "dateOfBirth": "2000-06-02",
     "position": "MF",
     "shirtNumber": 6,
-    "clubAtWorldCup": "SL Ben\u0000ca (POR)",
+    "clubAtWorldCup": "SL Benfica (POR)",
     "heightCm": 185,
     "internationalCapsAsOfSource": 37,
     "internationalGoalsAsOfSource": 2,
@@ -9833,9 +10009,7 @@
     "sourcePage": 10,
     "asOf": "2026-07-19",
     "verifiedAt": "2026-10-11",
-    "textIssues": [
-      10
-    ],
+    "textIssues": [],
     "verification": "pending",
     "rawCells": [
       "6",
@@ -9853,7 +10027,37 @@
       "185",
       "37",
       "2"
-    ]
+    ],
+    "rawCellsCorrected": [
+      "6",
+      "MF",
+      "RIOS Richard",
+      null,
+      "Richard",
+      "RÍOS MONTOYA",
+      null,
+      "RICHARD RIOS",
+      "02/06/2000",
+      null,
+      "SL Benfica (POR)",
+      null,
+      "185",
+      "37",
+      "2"
+    ],
+    "textCorrections": {
+      "cells": [
+        {
+          "column": 10,
+          "original": "SL Ben\u0000ca (POR)",
+          "corrected": "SL Benfica (POR)"
+        }
+      ],
+      "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+      "reviewer": "Codex visual original PDF row review",
+      "verifiedAt": "2026-10-11",
+      "method": "visual inspection of original PDF row"
+    }
   },
   {
     "id": "player:fifa2026:18b8e2d023c3c4b1af641205",
@@ -10564,7 +10768,7 @@
     "dateOfBirth": "1995-03-29",
     "position": "GK",
     "shirtNumber": 24,
-    "clubAtWorldCup": "CA Vélez Sars\u0000eld (ARG)",
+    "clubAtWorldCup": "CA Vélez Sarsfield (ARG)",
     "heightCm": 201,
     "internationalCapsAsOfSource": 12,
     "internationalGoalsAsOfSource": 0,
@@ -10573,9 +10777,7 @@
     "sourcePage": 10,
     "asOf": "2026-07-19",
     "verifiedAt": "2026-10-11",
-    "textIssues": [
-      10
-    ],
+    "textIssues": [],
     "verification": "pending",
     "rawCells": [
       "24",
@@ -10593,7 +10795,37 @@
       "201",
       "12",
       "0"
-    ]
+    ],
+    "rawCellsCorrected": [
+      "24",
+      "GK",
+      "MONTERO Alvaro",
+      null,
+      "Álvaro David",
+      "MONTERO PERALES",
+      null,
+      "MONTERO",
+      "29/03/1995",
+      null,
+      "CA Vélez Sarsfield (ARG)",
+      null,
+      "201",
+      "12",
+      "0"
+    ],
+    "textCorrections": {
+      "cells": [
+        {
+          "column": 10,
+          "original": "CA Vélez Sars\u0000eld (ARG)",
+          "corrected": "CA Vélez Sarsfield (ARG)"
+        }
+      ],
+      "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+      "reviewer": "Codex visual original PDF row review",
+      "verifiedAt": "2026-10-11",
+      "method": "visual inspection of original PDF row"
+    }
   },
   {
     "id": "player:fifa2026:6832372dfbf88e5594d6172e",
@@ -14297,7 +14529,7 @@
     "dateOfBirth": "2002-03-29",
     "position": "FW",
     "shirtNumber": 11,
-    "clubAtWorldCup": "AE Ki\u0000sia FC (GRE)",
+    "clubAtWorldCup": "AE Kifisia FC (GRE)",
     "heightCm": 164,
     "internationalCapsAsOfSource": 29,
     "internationalGoalsAsOfSource": 4,
@@ -14306,9 +14538,7 @@
     "sourcePage": 14,
     "asOf": "2026-07-19",
     "verifiedAt": "2026-10-11",
-    "textIssues": [
-      10
-    ],
+    "textIssues": [],
     "verification": "pending",
     "rawCells": [
       "11",
@@ -14326,7 +14556,37 @@
       "164",
       "29",
       "4"
-    ]
+    ],
+    "rawCellsCorrected": [
+      "11",
+      "FW",
+      "ANTONISSE Jeremy",
+      null,
+      "Jeremy Cornelis Jacobus",
+      "ANTONISSE",
+      null,
+      "ANTONISSE",
+      "29/03/2002",
+      null,
+      "AE Kifisia FC (GRE)",
+      null,
+      "164",
+      "29",
+      "4"
+    ],
+    "textCorrections": {
+      "cells": [
+        {
+          "column": 10,
+          "original": "AE Ki\u0000sia FC (GRE)",
+          "corrected": "AE Kifisia FC (GRE)"
+        }
+      ],
+      "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+      "reviewer": "Codex visual original PDF row review",
+      "verifiedAt": "2026-10-11",
+      "method": "visual inspection of original PDF row"
+    }
   },
   {
     "id": "player:fifa2026:d214312c6a0b8a106f2c44d3",
@@ -14709,7 +14969,7 @@
     "dateOfBirth": "1999-12-04",
     "position": "MF",
     "shirtNumber": 21,
-    "clubAtWorldCup": "She\u0000eld United FC (ENG)",
+    "clubAtWorldCup": "Sheffield United FC (ENG)",
     "heightCm": 185,
     "internationalCapsAsOfSource": 9,
     "internationalGoalsAsOfSource": 3,
@@ -14718,9 +14978,7 @@
     "sourcePage": 14,
     "asOf": "2026-07-19",
     "verifiedAt": "2026-10-11",
-    "textIssues": [
-      10
-    ],
+    "textIssues": [],
     "verification": "pending",
     "rawCells": [
       "21",
@@ -14738,7 +14996,37 @@
       "185",
       "9",
       "3"
-    ]
+    ],
+    "rawCellsCorrected": [
+      "21",
+      "MF",
+      "CHONG Tahith",
+      null,
+      "Tahith Jose Girigorio Djorkaef",
+      "CHONG",
+      null,
+      "CHONG",
+      "04/12/1999",
+      null,
+      "Sheffield United FC (ENG)",
+      null,
+      "185",
+      "9",
+      "3"
+    ],
+    "textCorrections": {
+      "cells": [
+        {
+          "column": 10,
+          "original": "She\u0000eld United FC (ENG)",
+          "corrected": "Sheffield United FC (ENG)"
+        }
+      ],
+      "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+      "reviewer": "Codex visual original PDF row review",
+      "verifiedAt": "2026-10-11",
+      "method": "visual inspection of original PDF row"
+    }
   },
   {
     "id": "player:fifa2026:e81edfb2098238019188aad9",
@@ -16474,7 +16762,7 @@
     "dateOfBirth": "2000-09-09",
     "position": "GK",
     "shirtNumber": 12,
-    "clubAtWorldCup": "AE Ki\u0000sia FC (GRE)",
+    "clubAtWorldCup": "AE Kifisia FC (GRE)",
     "heightCm": 185,
     "internationalCapsAsOfSource": 7,
     "internationalGoalsAsOfSource": 0,
@@ -16483,9 +16771,7 @@
     "sourcePage": 16,
     "asOf": "2026-07-19",
     "verifiedAt": "2026-10-11",
-    "textIssues": [
-      10
-    ],
+    "textIssues": [],
     "verification": "pending",
     "rawCells": [
       "12",
@@ -16503,7 +16789,37 @@
       "185",
       "7",
       "0"
-    ]
+    ],
+    "rawCellsCorrected": [
+      "12",
+      "GK",
+      "RAMIREZ Moises",
+      null,
+      "Wellington Moisés",
+      "RAMÍREZ PRECIADO",
+      null,
+      "RAMÍREZ",
+      "09/09/2000",
+      null,
+      "AE Kifisia FC (GRE)",
+      null,
+      "185",
+      "7",
+      "0"
+    ],
+    "textCorrections": {
+      "cells": [
+        {
+          "column": 10,
+          "original": "AE Ki\u0000sia FC (GRE)",
+          "corrected": "AE Kifisia FC (GRE)"
+        }
+      ],
+      "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+      "reviewer": "Codex visual original PDF row review",
+      "verifiedAt": "2026-10-11",
+      "method": "visual inspection of original PDF row"
+    }
   },
   {
     "id": "player:fifa2026:391d73d16f0568ae3593c50a",
@@ -30201,11 +30517,11 @@
   },
   {
     "id": "player:fifa2026:2f3db0bcad2a2c7273406e31",
-    "nameOriginal": "Sou\u0000ane RAHIMI",
-    "nameEn": "Sou\u0000ane RAHIMI",
+    "nameOriginal": "Soufiane RAHIMI",
+    "nameEn": "Soufiane RAHIMI",
     "nameAr": null,
-    "sourceDisplayName": "RAHIMI Sou\u0000ane",
-    "firstNames": "Sou\u0000ane",
+    "sourceDisplayName": "RAHIMI Soufiane",
+    "firstNames": "Soufiane",
     "lastNames": "RAHIMI",
     "shirtName": "RAHIMI",
     "dateOfBirth": "1996-06-02",
@@ -30220,10 +30536,7 @@
     "sourcePage": 29,
     "asOf": "2026-07-19",
     "verifiedAt": "2026-10-11",
-    "textIssues": [
-      2,
-      4
-    ],
+    "textIssues": [],
     "verification": "pending",
     "rawCells": [
       "9",
@@ -30241,7 +30554,42 @@
       "180",
       "43",
       "14"
-    ]
+    ],
+    "rawCellsCorrected": [
+      "9",
+      "FW",
+      "RAHIMI Soufiane",
+      null,
+      "Soufiane",
+      "RAHIMI",
+      null,
+      "RAHIMI",
+      "02/06/1996",
+      null,
+      "Al Ain FC (UAE)",
+      null,
+      "180",
+      "43",
+      "14"
+    ],
+    "textCorrections": {
+      "cells": [
+        {
+          "column": 2,
+          "original": "RAHIMI Sou\u0000ane",
+          "corrected": "RAHIMI Soufiane"
+        },
+        {
+          "column": 4,
+          "original": "Sou\u0000ane",
+          "corrected": "Soufiane"
+        }
+      ],
+      "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+      "reviewer": "Codex visual original PDF row review",
+      "verifiedAt": "2026-10-11",
+      "method": "visual inspection of original PDF row"
+    }
   },
   {
     "id": "player:fifa2026:ec929e3d62d6005d68cdd722",
@@ -32141,7 +32489,7 @@
     "dateOfBirth": "2005-01-27",
     "position": "DF",
     "shirtNumber": 4,
-    "clubAtWorldCup": "She\u0000eld United FC (ENG)",
+    "clubAtWorldCup": "Sheffield United FC (ENG)",
     "heightCm": 190,
     "internationalCapsAsOfSource": 28,
     "internationalGoalsAsOfSource": 2,
@@ -32150,9 +32498,7 @@
     "sourcePage": 31,
     "asOf": "2026-07-19",
     "verifiedAt": "2026-10-11",
-    "textIssues": [
-      10
-    ],
+    "textIssues": [],
     "verification": "pending",
     "rawCells": [
       "4",
@@ -32170,7 +32516,37 @@
       "190",
       "28",
       "2"
-    ]
+    ],
+    "rawCellsCorrected": [
+      "4",
+      "DF",
+      "BINDON Tyler",
+      null,
+      "Tyler Grant",
+      "BINDON",
+      null,
+      "BINDON",
+      "27/01/2005",
+      null,
+      "Sheffield United FC (ENG)",
+      null,
+      "190",
+      "28",
+      "2"
+    ],
+    "textCorrections": {
+      "cells": [
+        {
+          "column": 10,
+          "original": "She\u0000eld United FC (ENG)",
+          "corrected": "Sheffield United FC (ENG)"
+        }
+      ],
+      "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+      "reviewer": "Codex visual original PDF row review",
+      "verifiedAt": "2026-10-11",
+      "method": "visual inspection of original PDF row"
+    }
   },
   {
     "id": "player:fifa2026:1f8ef027ceb8c1d1f6369cb9",
@@ -33619,7 +33995,7 @@
     "dateOfBirth": "1995-12-10",
     "position": "MF",
     "shirtNumber": 14,
-    "clubAtWorldCup": "SL Ben\u0000ca (POR)",
+    "clubAtWorldCup": "SL Benfica (POR)",
     "heightCm": 181,
     "internationalCapsAsOfSource": 28,
     "internationalGoalsAsOfSource": 1,
@@ -33628,9 +34004,7 @@
     "sourcePage": 32,
     "asOf": "2026-07-19",
     "verifiedAt": "2026-10-11",
-    "textIssues": [
-      10
-    ],
+    "textIssues": [],
     "verification": "pending",
     "rawCells": [
       "14",
@@ -33648,7 +34022,37 @@
       "181",
       "28",
       "1"
-    ]
+    ],
+    "rawCellsCorrected": [
+      "14",
+      "MF",
+      "AURSNES Fredrik",
+      null,
+      "Fredrik",
+      "AURSNES",
+      null,
+      "AURSNES",
+      "10/12/1995",
+      null,
+      "SL Benfica (POR)",
+      null,
+      "181",
+      "28",
+      "1"
+    ],
+    "textCorrections": {
+      "cells": [
+        {
+          "column": 10,
+          "original": "SL Ben\u0000ca (POR)",
+          "corrected": "SL Benfica (POR)"
+        }
+      ],
+      "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+      "reviewer": "Codex visual original PDF row review",
+      "verifiedAt": "2026-10-11",
+      "method": "visual inspection of original PDF row"
+    }
   },
   {
     "id": "player:fifa2026:ac8dfbe06a5d37a18fcf0d34",
@@ -33908,7 +34312,7 @@
     "dateOfBirth": "2004-06-01",
     "position": "MF",
     "shirtNumber": 21,
-    "clubAtWorldCup": "SL Ben\u0000ca (POR)",
+    "clubAtWorldCup": "SL Benfica (POR)",
     "heightCm": 177,
     "internationalCapsAsOfSource": 18,
     "internationalGoalsAsOfSource": 2,
@@ -33917,9 +34321,7 @@
     "sourcePage": 32,
     "asOf": "2026-07-19",
     "verifiedAt": "2026-10-11",
-    "textIssues": [
-      10
-    ],
+    "textIssues": [],
     "verification": "pending",
     "rawCells": [
       "21",
@@ -33937,7 +34339,37 @@
       "177",
       "18",
       "2"
-    ]
+    ],
+    "rawCellsCorrected": [
+      "21",
+      "MF",
+      "SCHJELDERUP Andreas",
+      null,
+      "Andreas Rædergård",
+      "SCHJELDERUP",
+      null,
+      "SCHJELDERUP",
+      "01/06/2004",
+      null,
+      "SL Benfica (POR)",
+      null,
+      "177",
+      "18",
+      "2"
+    ],
+    "textCorrections": {
+      "cells": [
+        {
+          "column": 10,
+          "original": "SL Ben\u0000ca (POR)",
+          "corrected": "SL Benfica (POR)"
+        }
+      ],
+      "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+      "reviewer": "Codex visual original PDF row review",
+      "verifiedAt": "2026-10-11",
+      "method": "visual inspection of original PDF row"
+    }
   },
   {
     "id": "player:fifa2026:03410c9c3089b3ee98a34932",
@@ -36411,7 +36843,7 @@
     "dateOfBirth": "2002-05-16",
     "position": "DF",
     "shirtNumber": 4,
-    "clubAtWorldCup": "SL Ben\u0000ca (POR)",
+    "clubAtWorldCup": "SL Benfica (POR)",
     "heightCm": 187,
     "internationalCapsAsOfSource": 6,
     "internationalGoalsAsOfSource": 0,
@@ -36420,9 +36852,7 @@
     "sourcePage": 35,
     "asOf": "2026-07-19",
     "verifiedAt": "2026-10-11",
-    "textIssues": [
-      10
-    ],
+    "textIssues": [],
     "verification": "pending",
     "rawCells": [
       "4",
@@ -36440,7 +36870,37 @@
       "187",
       "6",
       "0"
-    ]
+    ],
+    "rawCellsCorrected": [
+      "4",
+      "DF",
+      "TOMAS ARAUJO",
+      null,
+      "Tomás",
+      "LEMOS ARAÚJO",
+      null,
+      "TOMÁS A.",
+      "16/05/2002",
+      null,
+      "SL Benfica (POR)",
+      null,
+      "187",
+      "6",
+      "0"
+    ],
+    "textCorrections": {
+      "cells": [
+        {
+          "column": 10,
+          "original": "SL Ben\u0000ca (POR)",
+          "corrected": "SL Benfica (POR)"
+        }
+      ],
+      "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+      "reviewer": "Codex visual original PDF row review",
+      "verifiedAt": "2026-10-11",
+      "method": "visual inspection of original PDF row"
+    }
   },
   {
     "id": "player:fifa2026:a4a3c279ad609b5ee7d53869",
@@ -42143,11 +42603,11 @@
   },
   {
     "id": "player:fifa2026:e682d03bc27210dfa4c3fad6",
-    "nameOriginal": "Mbekezeli Mfanu\u0000kile MBOKAZI",
-    "nameEn": "Mbekezeli Mfanu\u0000kile MBOKAZI",
+    "nameOriginal": "Mbekezeli Mfanufikile MBOKAZI",
+    "nameEn": "Mbekezeli Mfanufikile MBOKAZI",
     "nameAr": null,
     "sourceDisplayName": "MBOKAZI Mbekezeli",
-    "firstNames": "Mbekezeli Mfanu\u0000kile",
+    "firstNames": "Mbekezeli Mfanufikile",
     "lastNames": "MBOKAZI",
     "shirtName": "MBOKAZI",
     "dateOfBirth": "2005-09-19",
@@ -42162,9 +42622,7 @@
     "sourcePage": 40,
     "asOf": "2026-07-19",
     "verifiedAt": "2026-10-11",
-    "textIssues": [
-      4
-    ],
+    "textIssues": [],
     "verification": "pending",
     "rawCells": [
       "14",
@@ -42182,7 +42640,37 @@
       "177",
       "14",
       "1"
-    ]
+    ],
+    "rawCellsCorrected": [
+      "14",
+      "DF",
+      "MBOKAZI Mbekezeli",
+      null,
+      "Mbekezeli Mfanufikile",
+      "MBOKAZI",
+      null,
+      "MBOKAZI",
+      "19/09/2005",
+      null,
+      "Chicago Fire FC (USA)",
+      null,
+      "177",
+      "14",
+      "1"
+    ],
+    "textCorrections": {
+      "cells": [
+        {
+          "column": 4,
+          "original": "Mbekezeli Mfanu\u0000kile",
+          "corrected": "Mbekezeli Mfanufikile"
+        }
+      ],
+      "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+      "reviewer": "Codex visual original PDF row review",
+      "verifiedAt": "2026-10-11",
+      "method": "visual inspection of original PDF row"
+    }
   },
   {
     "id": "player:fifa2026:ff6e66dcac99c9b90f5eca73",

@@ -1,0 +1,868 @@
+{
+  "source": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+  "sourceSha256": "3d700940b2f5a4877dec6bbd125ac2409d40fdf19e3adfbfda9c83616e74113d",
+  "season": "2026-2027",
+  "verifiedAt": "2026-10-11",
+  "clubs": [
+    {
+      "sourceClubId": "3",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "athletic-club",
+      "nameAsPublished": "Athletic Club",
+      "displayNameEn": "Athletic Club",
+      "abbreviation": "ATH",
+      "foundationYear": 1898,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1898-12-31T00:00:00+00:00",
+      "officialWebsite": "https://www.athletic-club.eus",
+      "primaryColor": "#f21e27",
+      "secondaryColor": "#ffffff",
+      "stadiumAsPublished": {
+        "id": 3,
+        "name": "Estadio San Mamés",
+        "image": {
+          "id": 823915,
+          "name": "San Mamés",
+          "caption": "San Mamés",
+          "url": "https://assets.laliga.com/assets/2024/10/01/xlarge/1958f69380ba83bb36b7b536c7a9d74d.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2024/10/01/xsmall/1958f69380ba83bb36b7b536c7a9d74d.png",
+            "small": "https://assets.laliga.com/assets/2024/10/01/small/1958f69380ba83bb36b7b536c7a9d74d.png",
+            "medium": "https://assets.laliga.com/assets/2024/10/01/medium/1958f69380ba83bb36b7b536c7a9d74d.png",
+            "large": "https://assets.laliga.com/assets/2024/10/01/large/1958f69380ba83bb36b7b536c7a9d74d.png",
+            "xlarge": "https://assets.laliga.com/assets/2024/10/01/xlarge/1958f69380ba83bb36b7b536c7a9d74d.png",
+            "hl": "https://assets.laliga.com/assets/2024/10/01/hl/1958f69380ba83bb36b7b536c7a9d74d.png"
+          }
+        },
+        "slug": "estadio-san-mames",
+        "opta_id": "v8973",
+        "lde_id": 922
+      },
+      "logoSource": "https://assets.laliga.com/assets/2019/06/07/xlarge/athletic.png",
+      "providerIds": {
+        "opta": "t174",
+        "lde": 68
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/athletic-club/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "2",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "atletico-de-madrid",
+      "nameAsPublished": "Club Atlético de Madrid SAD",
+      "displayNameEn": "Atlético de Madrid",
+      "abbreviation": "ATM",
+      "foundationYear": 1903,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1903-04-26T00:00:00+00:00",
+      "officialWebsite": "http://www.atleticodemadrid.com/",
+      "primaryColor": "#f21e27",
+      "secondaryColor": "#ffffff",
+      "stadiumAsPublished": {
+        "id": 259,
+        "name": "Riyadh Air Metropolitano",
+        "image": {
+          "id": 823921,
+          "name": "Civitas",
+          "caption": "Civitas",
+          "url": "https://assets.laliga.com/assets/2024/10/01/xlarge/f8c68b59454048e73ef9e1db543f1aca.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2024/10/01/xsmall/f8c68b59454048e73ef9e1db543f1aca.png",
+            "small": "https://assets.laliga.com/assets/2024/10/01/small/f8c68b59454048e73ef9e1db543f1aca.png",
+            "medium": "https://assets.laliga.com/assets/2024/10/01/medium/f8c68b59454048e73ef9e1db543f1aca.png",
+            "large": "https://assets.laliga.com/assets/2024/10/01/large/f8c68b59454048e73ef9e1db543f1aca.png",
+            "xlarge": "https://assets.laliga.com/assets/2024/10/01/xlarge/f8c68b59454048e73ef9e1db543f1aca.png",
+            "hl": "https://assets.laliga.com/assets/2024/10/01/hl/f8c68b59454048e73ef9e1db543f1aca.png"
+          }
+        },
+        "slug": "riyadh-air-metropolitano",
+        "opta_id": "v12175",
+        "lde_id": 510
+      },
+      "logoSource": "https://assets.laliga.com/assets/2024/06/17/xlarge/cbc5c8cc8c3e8abd0e175c00ee53b723.png",
+      "providerIds": {
+        "opta": "t175",
+        "lde": 70
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/atletico-de-madrid/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "13",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "c-a-osasuna",
+      "nameAsPublished": "Club Atlético Osasuna",
+      "displayNameEn": "CA Osasuna",
+      "abbreviation": "OSA",
+      "foundationYear": 1920,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1920-11-17T00:00:00+00:00",
+      "officialWebsite": "http://www.osasuna.es/",
+      "primaryColor": "#bc161c",
+      "secondaryColor": "#020f42",
+      "stadiumAsPublished": {
+        "id": 13,
+        "name": "Estadio El Sadar",
+        "image": {
+          "id": 823928,
+          "name": "Osasuna",
+          "caption": "Osasuna",
+          "url": "https://assets.laliga.com/assets/2024/10/01/xlarge/6c69f96e3fecaf49954f8cf35acff29b.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2024/10/01/xsmall/6c69f96e3fecaf49954f8cf35acff29b.png",
+            "small": "https://assets.laliga.com/assets/2024/10/01/small/6c69f96e3fecaf49954f8cf35acff29b.png",
+            "medium": "https://assets.laliga.com/assets/2024/10/01/medium/6c69f96e3fecaf49954f8cf35acff29b.png",
+            "large": "https://assets.laliga.com/assets/2024/10/01/large/6c69f96e3fecaf49954f8cf35acff29b.png",
+            "xlarge": "https://assets.laliga.com/assets/2024/10/01/xlarge/6c69f96e3fecaf49954f8cf35acff29b.png",
+            "hl": "https://assets.laliga.com/assets/2024/10/01/hl/6c69f96e3fecaf49954f8cf35acff29b.png"
+          }
+        },
+        "slug": "estadio-el-sadar",
+        "opta_id": "v1357",
+        "lde_id": 726
+      },
+      "logoSource": "https://assets.laliga.com/assets/2019/06/07/xlarge/osasuna.png",
+      "providerIds": {
+        "opta": "t450",
+        "lde": 190
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/c-a-osasuna/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "6",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "rc-celta",
+      "nameAsPublished": "Real Club Celta de Vigo SAD",
+      "displayNameEn": "Celta",
+      "abbreviation": "CEL",
+      "foundationYear": 1923,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1923-08-23T00:00:00+00:00",
+      "officialWebsite": "https://www.celta.gal",
+      "primaryColor": "#52c3f1",
+      "secondaryColor": "#ffffff",
+      "stadiumAsPublished": {
+        "id": 6,
+        "name": "Estadio ABANCA Balaídos",
+        "image": {
+          "id": 823919,
+          "name": "Balaidos",
+          "caption": "Balaidos",
+          "url": "https://assets.laliga.com/assets/2024/10/01/xlarge/06f5146a521270384db176fec738288d.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2024/10/01/xsmall/06f5146a521270384db176fec738288d.png",
+            "small": "https://assets.laliga.com/assets/2024/10/01/small/06f5146a521270384db176fec738288d.png",
+            "medium": "https://assets.laliga.com/assets/2024/10/01/medium/06f5146a521270384db176fec738288d.png",
+            "large": "https://assets.laliga.com/assets/2024/10/01/large/06f5146a521270384db176fec738288d.png",
+            "xlarge": "https://assets.laliga.com/assets/2024/10/01/xlarge/06f5146a521270384db176fec738288d.png",
+            "hl": "https://assets.laliga.com/assets/2024/10/01/hl/06f5146a521270384db176fec738288d.png"
+          }
+        },
+        "slug": "estadio-abanca-balaidos",
+        "opta_id": "v1350",
+        "lde_id": 721
+      },
+      "logoSource": "https://assets.laliga.com/assets/2025/07/11/xlarge/0a796827f9e758d7d750db805adde7c5.png",
+      "providerIds": {
+        "opta": "t176",
+        "lde": 71
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/rc-celta/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "21",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "d-alaves",
+      "nameAsPublished": "Deportivo Alavés SAD",
+      "displayNameEn": "Deportivo Alavés",
+      "abbreviation": "ALA",
+      "foundationYear": 1921,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1921-01-23T00:00:00+00:00",
+      "officialWebsite": "http://www.deportivoalaves.com/",
+      "primaryColor": "#0f39b8",
+      "secondaryColor": "#ffffff",
+      "stadiumAsPublished": {
+        "id": 21,
+        "name": "Mendizorroza",
+        "image": {
+          "id": 823902,
+          "name": "Alaves",
+          "caption": "Alaves",
+          "url": "https://assets.laliga.com/assets/2024/10/01/xlarge/cc92bba218cc120ea05c52dbfdea862c.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2024/10/01/xsmall/cc92bba218cc120ea05c52dbfdea862c.png",
+            "small": "https://assets.laliga.com/assets/2024/10/01/small/cc92bba218cc120ea05c52dbfdea862c.png",
+            "medium": "https://assets.laliga.com/assets/2024/10/01/medium/cc92bba218cc120ea05c52dbfdea862c.png",
+            "large": "https://assets.laliga.com/assets/2024/10/01/large/cc92bba218cc120ea05c52dbfdea862c.png",
+            "xlarge": "https://assets.laliga.com/assets/2024/10/01/xlarge/cc92bba218cc120ea05c52dbfdea862c.png",
+            "hl": "https://assets.laliga.com/assets/2024/10/01/hl/cc92bba218cc120ea05c52dbfdea862c.png"
+          }
+        },
+        "slug": "mendizorroza",
+        "opta_id": "v1346",
+        "lde_id": 720
+      },
+      "logoSource": "https://assets.laliga.com/assets/2020/09/01/xlarge/27002754a98bf535807fe49a24cc63ea.png",
+      "providerIds": {
+        "opta": "t173",
+        "lde": 66
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/d-alaves/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "7",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "elche-c-f",
+      "nameAsPublished": "Elche Club de Fútbol SAD",
+      "displayNameEn": "Elche CF",
+      "abbreviation": "ELC",
+      "foundationYear": 1923,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1923-03-01T00:00:00+00:00",
+      "officialWebsite": "http://www.elchecf.es/",
+      "primaryColor": "#038316",
+      "secondaryColor": "#ffffff",
+      "stadiumAsPublished": {
+        "id": 7,
+        "name": "Estadio Martínez Valero",
+        "image": {
+          "id": 825977,
+          "name": "Martinez Valero",
+          "caption": "Martinez Valero",
+          "url": "https://assets.laliga.com/assets/2024/10/08/xlarge/f469dd32e8a6944a2aaa890997caf27b.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2024/10/08/xsmall/f469dd32e8a6944a2aaa890997caf27b.png",
+            "small": "https://assets.laliga.com/assets/2024/10/08/small/f469dd32e8a6944a2aaa890997caf27b.png",
+            "medium": "https://assets.laliga.com/assets/2024/10/08/medium/f469dd32e8a6944a2aaa890997caf27b.png",
+            "large": "https://assets.laliga.com/assets/2024/10/08/large/f469dd32e8a6944a2aaa890997caf27b.png",
+            "xlarge": "https://assets.laliga.com/assets/2024/10/08/xlarge/f469dd32e8a6944a2aaa890997caf27b.png",
+            "hl": "https://assets.laliga.com/assets/2024/10/08/hl/f469dd32e8a6944a2aaa890997caf27b.png"
+          }
+        },
+        "slug": "estadio-martinez-valero",
+        "opta_id": "v3670",
+        "lde_id": 329
+      },
+      "logoSource": "https://assets.laliga.com/assets/2019/06/07/xlarge/elche.png",
+      "providerIds": {
+        "opta": "t954",
+        "lde": 262
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/elche-c-f/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "4",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "fc-barcelona",
+      "nameAsPublished": "Fútbol Club Barcelona",
+      "displayNameEn": "FC Barcelona",
+      "abbreviation": "BAR",
+      "foundationYear": 1899,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1899-11-29T00:00:00+00:00",
+      "officialWebsite": "http://www.fcbarcelona.es",
+      "primaryColor": "#0f39b8",
+      "secondaryColor": "#bc161c",
+      "stadiumAsPublished": {
+        "id": 4,
+        "name": "Spotify Camp Nou",
+        "image": {
+          "id": 1003094,
+          "name": "Camp Nou.png",
+          "url": "https://assets.laliga.com/assets/2026/09/07/xlarge/500f54dc1c6e271f8db53b093ed7ea35.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2026/09/07/xsmall/500f54dc1c6e271f8db53b093ed7ea35.png",
+            "small": "https://assets.laliga.com/assets/2026/09/07/small/500f54dc1c6e271f8db53b093ed7ea35.png",
+            "medium": "https://assets.laliga.com/assets/2026/09/07/medium/500f54dc1c6e271f8db53b093ed7ea35.png",
+            "large": "https://assets.laliga.com/assets/2026/09/07/large/500f54dc1c6e271f8db53b093ed7ea35.png",
+            "xlarge": "https://assets.laliga.com/assets/2026/09/07/xlarge/500f54dc1c6e271f8db53b093ed7ea35.png",
+            "hl": "https://assets.laliga.com/assets/2026/09/07/hl/500f54dc1c6e271f8db53b093ed7ea35.png"
+          }
+        },
+        "slug": "spotify-camp-nou",
+        "opta_id": "v1349",
+        "lde_id": 514
+      },
+      "logoSource": "https://assets.laliga.com/assets/2019/06/07/xlarge/barcelona.png",
+      "providerIds": {
+        "opta": "t178",
+        "lde": 74
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/fc-barcelona/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "9",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "getafe-cf",
+      "nameAsPublished": "Getafe Club de Fútbol SAD",
+      "displayNameEn": "Getafe CF",
+      "abbreviation": "GET",
+      "foundationYear": 1983,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1983-03-30T00:00:00+00:00",
+      "officialWebsite": "http://www.getafecf.com/",
+      "primaryColor": "#0f39b8",
+      "secondaryColor": "#ffffff",
+      "stadiumAsPublished": {
+        "id": 9,
+        "name": "Coliseum",
+        "image": {
+          "id": 823926,
+          "name": "Coliseum",
+          "caption": "Coliseum",
+          "url": "https://assets.laliga.com/assets/2024/10/01/xlarge/f2a3ba93fedbeab1c4415c95c5d6663b.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2024/10/01/xsmall/f2a3ba93fedbeab1c4415c95c5d6663b.png",
+            "small": "https://assets.laliga.com/assets/2024/10/01/small/f2a3ba93fedbeab1c4415c95c5d6663b.png",
+            "medium": "https://assets.laliga.com/assets/2024/10/01/medium/f2a3ba93fedbeab1c4415c95c5d6663b.png",
+            "large": "https://assets.laliga.com/assets/2024/10/01/large/f2a3ba93fedbeab1c4415c95c5d6663b.png",
+            "xlarge": "https://assets.laliga.com/assets/2024/10/01/xlarge/f2a3ba93fedbeab1c4415c95c5d6663b.png",
+            "hl": "https://assets.laliga.com/assets/2024/10/01/hl/f2a3ba93fedbeab1c4415c95c5d6663b.png"
+          }
+        },
+        "slug": "coliseum",
+        "opta_id": "v2719",
+        "lde_id": 777
+      },
+      "logoSource": "https://assets.laliga.com/assets/2023/05/12/xlarge/dc59645c96bc2c9010341c16dd6d4bfa.png",
+      "providerIds": {
+        "opta": "t1450",
+        "lde": 51
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/getafe-cf/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "11",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "levante-ud",
+      "nameAsPublished": "Levante Unión Deportiva SAD",
+      "displayNameEn": "Levante UD",
+      "abbreviation": "LEV",
+      "foundationYear": 1909,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1909-09-07T00:00:00+00:00",
+      "officialWebsite": "https://www.levanteud.com/es/",
+      "primaryColor": "#bc161c",
+      "secondaryColor": "#08237f",
+      "stadiumAsPublished": {
+        "id": 11,
+        "name": "Estadio Ciutat de València",
+        "image": {
+          "id": 825982,
+          "name": "Ciudad de Valencia",
+          "caption": "Ciudad de Valencia",
+          "url": "https://assets.laliga.com/assets/2024/10/08/xlarge/6acf1168a5cf2de322b83ed1a577c476.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2024/10/08/xsmall/6acf1168a5cf2de322b83ed1a577c476.png",
+            "small": "https://assets.laliga.com/assets/2024/10/08/small/6acf1168a5cf2de322b83ed1a577c476.png",
+            "medium": "https://assets.laliga.com/assets/2024/10/08/medium/6acf1168a5cf2de322b83ed1a577c476.png",
+            "large": "https://assets.laliga.com/assets/2024/10/08/large/6acf1168a5cf2de322b83ed1a577c476.png",
+            "xlarge": "https://assets.laliga.com/assets/2024/10/08/xlarge/6acf1168a5cf2de322b83ed1a577c476.png",
+            "hl": "https://assets.laliga.com/assets/2024/10/08/hl/6acf1168a5cf2de322b83ed1a577c476.png"
+          }
+        },
+        "slug": "estadio-ciutat-de-valencia",
+        "opta_id": "v2720",
+        "lde_id": 778
+      },
+      "logoSource": "https://assets.laliga.com/assets/2019/06/07/xlarge/levante.png",
+      "providerIds": {
+        "opta": "t855",
+        "lde": 244
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/levante-ud/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "12",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "malaga-cf",
+      "nameAsPublished": "Málaga Club de Fútbol SAD",
+      "displayNameEn": "Málaga CF",
+      "abbreviation": "MGA",
+      "foundationYear": 1994,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1994-06-29T00:00:00+00:00",
+      "officialWebsite": "http://www.malagacf.com/",
+      "primaryColor": "#1476c4",
+      "secondaryColor": null,
+      "stadiumAsPublished": {
+        "id": 12,
+        "name": "La Rosaleda",
+        "image": {
+          "id": 825968,
+          "name": "Rosaleda",
+          "caption": "Rosaleda",
+          "url": "https://assets.laliga.com/assets/2024/10/08/xlarge/9c56a89d15a67cae2a00ea374b0d5a4b.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2024/10/08/xsmall/9c56a89d15a67cae2a00ea374b0d5a4b.png",
+            "small": "https://assets.laliga.com/assets/2024/10/08/small/9c56a89d15a67cae2a00ea374b0d5a4b.png",
+            "medium": "https://assets.laliga.com/assets/2024/10/08/medium/9c56a89d15a67cae2a00ea374b0d5a4b.png",
+            "large": "https://assets.laliga.com/assets/2024/10/08/large/9c56a89d15a67cae2a00ea374b0d5a4b.png",
+            "xlarge": "https://assets.laliga.com/assets/2024/10/08/xlarge/9c56a89d15a67cae2a00ea374b0d5a4b.png",
+            "hl": "https://assets.laliga.com/assets/2024/10/08/hl/9c56a89d15a67cae2a00ea374b0d5a4b.png"
+          }
+        },
+        "slug": "la-rosaleda",
+        "opta_id": "v1354",
+        "lde_id": 722
+      },
+      "logoSource": "https://assets.laliga.com/assets/2019/06/07/xlarge/malaga.png",
+      "providerIds": {
+        "opta": "t182",
+        "lde": 78
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/malaga-cf/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "49",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "r-racing-club",
+      "nameAsPublished": "Real Racing Club SAD",
+      "displayNameEn": "R. Racing Club",
+      "abbreviation": "RAC",
+      "foundationYear": 1913,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1913-02-23T00:00:00+00:00",
+      "officialWebsite": "http://www.realracingclub.es/",
+      "primaryColor": "#48bf5f",
+      "secondaryColor": "#000000",
+      "stadiumAsPublished": {
+        "id": 48,
+        "name": "El Sardinero",
+        "image": {
+          "id": 825976,
+          "name": "El Sardinero",
+          "caption": "El Sardinero",
+          "url": "https://assets.laliga.com/assets/2024/10/08/xlarge/332306883b6909d0439229ac94561290.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2024/10/08/xsmall/332306883b6909d0439229ac94561290.png",
+            "small": "https://assets.laliga.com/assets/2024/10/08/small/332306883b6909d0439229ac94561290.png",
+            "medium": "https://assets.laliga.com/assets/2024/10/08/medium/332306883b6909d0439229ac94561290.png",
+            "large": "https://assets.laliga.com/assets/2024/10/08/large/332306883b6909d0439229ac94561290.png",
+            "xlarge": "https://assets.laliga.com/assets/2024/10/08/xlarge/332306883b6909d0439229ac94561290.png",
+            "hl": "https://assets.laliga.com/assets/2024/10/08/hl/332306883b6909d0439229ac94561290.png"
+          }
+        },
+        "slug": "el-sardinero",
+        "opta_id": "v1358",
+        "lde_id": 1207
+      },
+      "logoSource": "https://assets.laliga.com/assets/2019/06/07/xlarge/racing.png",
+      "providerIds": {
+        "opta": "t189",
+        "lde": 85
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/r-racing-club/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "14",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "rayo-vallecano",
+      "nameAsPublished": "Rayo Vallecano de Madrid SAD",
+      "displayNameEn": "Rayo Vallecano",
+      "abbreviation": "RAY",
+      "foundationYear": 1924,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1924-05-20T00:00:00+00:00",
+      "officialWebsite": "http://www.rayovallecano.es",
+      "primaryColor": "#f21e27",
+      "secondaryColor": "#ffffff",
+      "stadiumAsPublished": {
+        "id": 14,
+        "name": "Estadio de Vallecas",
+        "image": {
+          "id": 823900,
+          "name": "Rayo",
+          "caption": "Rayo",
+          "url": "https://assets.laliga.com/assets/2024/10/01/xlarge/f402fc0664e7c8ce3d932128987c3c4a.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2024/10/01/xsmall/f402fc0664e7c8ce3d932128987c3c4a.png",
+            "small": "https://assets.laliga.com/assets/2024/10/01/small/f402fc0664e7c8ce3d932128987c3c4a.png",
+            "medium": "https://assets.laliga.com/assets/2024/10/01/medium/f402fc0664e7c8ce3d932128987c3c4a.png",
+            "large": "https://assets.laliga.com/assets/2024/10/01/large/f402fc0664e7c8ce3d932128987c3c4a.png",
+            "xlarge": "https://assets.laliga.com/assets/2024/10/01/xlarge/f402fc0664e7c8ce3d932128987c3c4a.png",
+            "hl": "https://assets.laliga.com/assets/2024/10/01/hl/f402fc0664e7c8ce3d932128987c3c4a.png"
+          }
+        },
+        "slug": "estadio-de-vallecas",
+        "opta_id": "v1359",
+        "lde_id": 727
+      },
+      "logoSource": "https://assets.laliga.com/assets/2023/04/27/xlarge/57d9950a8745ead226c04d37235c0786.png",
+      "providerIds": {
+        "opta": "t184",
+        "lde": 80
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/rayo-vallecano/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "26",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "rc-deportivo",
+      "nameAsPublished": "Real Club Deportivo de A Coruña SAD",
+      "displayNameEn": "RC Deportivo",
+      "abbreviation": "DEP",
+      "foundationYear": 1906,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1906-01-01T00:00:00+00:00",
+      "officialWebsite": "http://www.rcdeportivo.es/",
+      "primaryColor": "#005ea4",
+      "secondaryColor": "#ffffff",
+      "stadiumAsPublished": {
+        "id": 26,
+        "name": "Estadio ABANCA-RIAZOR",
+        "image": {
+          "id": 994912,
+          "name": "Estadio deportivo A Coruña",
+          "caption": "Estadio deportivo A Coruña",
+          "url": "https://assets.laliga.com/assets/2026/06/26/xlarge/93bf4b0d8b662746542edb8b8f0eb568.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2026/06/26/xsmall/93bf4b0d8b662746542edb8b8f0eb568.png",
+            "small": "https://assets.laliga.com/assets/2026/06/26/small/93bf4b0d8b662746542edb8b8f0eb568.png",
+            "medium": "https://assets.laliga.com/assets/2026/06/26/medium/93bf4b0d8b662746542edb8b8f0eb568.png",
+            "large": "https://assets.laliga.com/assets/2026/06/26/large/93bf4b0d8b662746542edb8b8f0eb568.png",
+            "xlarge": "https://assets.laliga.com/assets/2026/06/26/xlarge/93bf4b0d8b662746542edb8b8f0eb568.png",
+            "hl": "https://assets.laliga.com/assets/2026/06/26/hl/93bf4b0d8b662746542edb8b8f0eb568.png"
+          }
+        },
+        "slug": "estadio-abanca-riazor",
+        "opta_id": "v1351",
+        "lde_id": 326
+      },
+      "logoSource": "https://assets.laliga.com/assets/2026/06/24/xlarge/6b88661529a2c06840c8bf6bddd90970.png",
+      "providerIds": {
+        "opta": "t180",
+        "lde": 76
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/rc-deportivo/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "8",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "rcd-espanyol",
+      "nameAsPublished": "RCD Espanyol de Barcelona",
+      "displayNameEn": "RCD Espanyol de Barcelona",
+      "abbreviation": "ESP",
+      "foundationYear": 1900,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1900-10-23T00:00:00+00:00",
+      "officialWebsite": "http://www.rcdespanyol.com",
+      "primaryColor": "#5a7cf1",
+      "secondaryColor": "#ffffff",
+      "stadiumAsPublished": {
+        "id": 8,
+        "name": "RCDE Stadium",
+        "image": {
+          "id": 823925,
+          "name": "Espanyol",
+          "caption": "Espanyol",
+          "url": "https://assets.laliga.com/assets/2024/10/01/xlarge/540a309d629a856a989bf0496ceff3db.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2024/10/01/xsmall/540a309d629a856a989bf0496ceff3db.png",
+            "small": "https://assets.laliga.com/assets/2024/10/01/small/540a309d629a856a989bf0496ceff3db.png",
+            "medium": "https://assets.laliga.com/assets/2024/10/01/medium/540a309d629a856a989bf0496ceff3db.png",
+            "large": "https://assets.laliga.com/assets/2024/10/01/large/540a309d629a856a989bf0496ceff3db.png",
+            "xlarge": "https://assets.laliga.com/assets/2024/10/01/xlarge/540a309d629a856a989bf0496ceff3db.png",
+            "hl": "https://assets.laliga.com/assets/2024/10/01/hl/540a309d629a856a989bf0496ceff3db.png"
+          }
+        },
+        "slug": "rcde-stadium",
+        "opta_id": "v6360",
+        "lde_id": 879
+      },
+      "logoSource": "https://assets.laliga.com/assets/2025/07/02/xlarge/e9177f6edd72c6360602adbca85e442f.png",
+      "providerIds": {
+        "opta": "t177",
+        "lde": 72
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/rcd-espanyol/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "5",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "real-betis",
+      "nameAsPublished": "Real Betis Balompié SAD",
+      "displayNameEn": "Real Betis",
+      "abbreviation": "BET",
+      "foundationYear": 1907,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1907-09-12T00:00:00+00:00",
+      "officialWebsite": "http://www.realbetisbalompie.es/",
+      "primaryColor": "#038316",
+      "secondaryColor": "#ffffff",
+      "stadiumAsPublished": {
+        "id": 402,
+        "name": "Estadio La Cartuja",
+        "image": {
+          "id": 921853,
+          "name": "LA CARTUJA BETIS.png",
+          "url": "https://assets.laliga.com/assets/2025/11/27/xlarge/547c4673add18ea9e5fb6e3bb33d6e90.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2025/11/27/xsmall/547c4673add18ea9e5fb6e3bb33d6e90.png",
+            "small": "https://assets.laliga.com/assets/2025/11/27/small/547c4673add18ea9e5fb6e3bb33d6e90.png",
+            "medium": "https://assets.laliga.com/assets/2025/11/27/medium/547c4673add18ea9e5fb6e3bb33d6e90.png",
+            "large": "https://assets.laliga.com/assets/2025/11/27/large/547c4673add18ea9e5fb6e3bb33d6e90.png",
+            "xlarge": "https://assets.laliga.com/assets/2025/11/27/xlarge/547c4673add18ea9e5fb6e3bb33d6e90.png",
+            "hl": "https://assets.laliga.com/assets/2025/11/27/hl/547c4673add18ea9e5fb6e3bb33d6e90.png"
+          }
+        },
+        "slug": "estadio-la-cartuja",
+        "opta_id": "v3354",
+        "lde_id": 600
+      },
+      "logoSource": "https://assets.laliga.com/assets/2022/09/15/xlarge/e4a09419d3bd115b8f3dab73d480e146.png",
+      "providerIds": {
+        "opta": "t185",
+        "lde": 81
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/real-betis/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "15",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "real-madrid",
+      "nameAsPublished": "Real Madrid Club de Fútbol",
+      "displayNameEn": "Real Madrid",
+      "abbreviation": "RMA",
+      "foundationYear": 1902,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1902-03-06T00:00:00+00:00",
+      "officialWebsite": "http://www.realmadrid.com",
+      "primaryColor": "#0f39b8",
+      "secondaryColor": "#ffffff",
+      "stadiumAsPublished": {
+        "id": 15,
+        "name": "Bernabéu",
+        "image": {
+          "id": 823917,
+          "name": "Santiago Bernabéu",
+          "caption": "Santiago Bernabéu",
+          "url": "https://assets.laliga.com/assets/2024/10/01/xlarge/56d0813c5bfb8bbe24cdb241075ddaff.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2024/10/01/xsmall/56d0813c5bfb8bbe24cdb241075ddaff.png",
+            "small": "https://assets.laliga.com/assets/2024/10/01/small/56d0813c5bfb8bbe24cdb241075ddaff.png",
+            "medium": "https://assets.laliga.com/assets/2024/10/01/medium/56d0813c5bfb8bbe24cdb241075ddaff.png",
+            "large": "https://assets.laliga.com/assets/2024/10/01/large/56d0813c5bfb8bbe24cdb241075ddaff.png",
+            "xlarge": "https://assets.laliga.com/assets/2024/10/01/xlarge/56d0813c5bfb8bbe24cdb241075ddaff.png",
+            "hl": "https://assets.laliga.com/assets/2024/10/01/hl/56d0813c5bfb8bbe24cdb241075ddaff.png"
+          }
+        },
+        "slug": "bernabeu",
+        "opta_id": "v1360",
+        "lde_id": 515
+      },
+      "logoSource": "https://assets.laliga.com/assets/2019/06/07/xlarge/real-madrid.png",
+      "providerIds": {
+        "opta": "t186",
+        "lde": 82
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/real-madrid/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "16",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "real-sociedad",
+      "nameAsPublished": "Real Sociedad de Fútbol SAD",
+      "displayNameEn": "Real Sociedad",
+      "abbreviation": "RSO",
+      "foundationYear": 1909,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1909-09-07T00:00:00+00:00",
+      "officialWebsite": "http://www.realsociedad.com",
+      "primaryColor": "#194beb",
+      "secondaryColor": "#ffffff",
+      "stadiumAsPublished": {
+        "id": 16,
+        "name": "Anoeta",
+        "image": {
+          "id": 823914,
+          "name": "Reale Arena",
+          "caption": "Reale Arena",
+          "url": "https://assets.laliga.com/assets/2024/10/01/xlarge/c6a468a7778030f7b0491a95e2fed629.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2024/10/01/xsmall/c6a468a7778030f7b0491a95e2fed629.png",
+            "small": "https://assets.laliga.com/assets/2024/10/01/small/c6a468a7778030f7b0491a95e2fed629.png",
+            "medium": "https://assets.laliga.com/assets/2024/10/01/medium/c6a468a7778030f7b0491a95e2fed629.png",
+            "large": "https://assets.laliga.com/assets/2024/10/01/large/c6a468a7778030f7b0491a95e2fed629.png",
+            "xlarge": "https://assets.laliga.com/assets/2024/10/01/xlarge/c6a468a7778030f7b0491a95e2fed629.png",
+            "hl": "https://assets.laliga.com/assets/2024/10/01/hl/c6a468a7778030f7b0491a95e2fed629.png"
+          }
+        },
+        "slug": "anoeta",
+        "opta_id": "v1362",
+        "lde_id": 731
+      },
+      "logoSource": "https://assets.laliga.com/assets/2019/06/07/xlarge/real-sociedad.png",
+      "providerIds": {
+        "opta": "t188",
+        "lde": 84
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/real-sociedad/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "17",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "sevilla-fc",
+      "nameAsPublished": "Sevilla Fútbol Club SAD",
+      "displayNameEn": "Sevilla FC",
+      "abbreviation": "SEV",
+      "foundationYear": 1890,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1890-01-20T00:00:00+00:00",
+      "officialWebsite": "http://www.sevillafc.es/",
+      "primaryColor": "#f21e27",
+      "secondaryColor": "#ffffff",
+      "stadiumAsPublished": {
+        "id": 17,
+        "name": "Ramón Sánchez-Pizjuán",
+        "image": {
+          "id": 823916,
+          "name": "Sevilla",
+          "caption": "Sevilla",
+          "url": "https://assets.laliga.com/assets/2024/10/01/xlarge/e4fb43876b3f6e257fbe1c4c2f7b27c6.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2024/10/01/xsmall/e4fb43876b3f6e257fbe1c4c2f7b27c6.png",
+            "small": "https://assets.laliga.com/assets/2024/10/01/small/e4fb43876b3f6e257fbe1c4c2f7b27c6.png",
+            "medium": "https://assets.laliga.com/assets/2024/10/01/medium/e4fb43876b3f6e257fbe1c4c2f7b27c6.png",
+            "large": "https://assets.laliga.com/assets/2024/10/01/large/e4fb43876b3f6e257fbe1c4c2f7b27c6.png",
+            "xlarge": "https://assets.laliga.com/assets/2024/10/01/xlarge/e4fb43876b3f6e257fbe1c4c2f7b27c6.png",
+            "hl": "https://assets.laliga.com/assets/2024/10/01/hl/e4fb43876b3f6e257fbe1c4c2f7b27c6.png"
+          }
+        },
+        "slug": "ramon-sanchez-pizjuan",
+        "opta_id": "v2474",
+        "lde_id": 763
+      },
+      "logoSource": "https://assets.laliga.com/assets/2019/06/07/xlarge/sevilla.png",
+      "providerIds": {
+        "opta": "t179",
+        "lde": 75
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/sevilla-fc/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "18",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "valencia-cf",
+      "nameAsPublished": "Valencia Club de Fútbol SAD",
+      "displayNameEn": "Valencia CF",
+      "abbreviation": "VAL",
+      "foundationYear": 1919,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1919-03-18T00:00:00+00:00",
+      "officialWebsite": "http://www.valenciacf.com",
+      "primaryColor": "#000000",
+      "secondaryColor": "#ffffff",
+      "stadiumAsPublished": {
+        "id": 18,
+        "name": "Camp de Mestalla",
+        "image": {
+          "id": 823906,
+          "name": "Valencia",
+          "caption": "Valencia",
+          "url": "https://assets.laliga.com/assets/2024/10/01/xlarge/2db3e5e9e79886f331a7a42b649a574a.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2024/10/01/xsmall/2db3e5e9e79886f331a7a42b649a574a.png",
+            "small": "https://assets.laliga.com/assets/2024/10/01/small/2db3e5e9e79886f331a7a42b649a574a.png",
+            "medium": "https://assets.laliga.com/assets/2024/10/01/medium/2db3e5e9e79886f331a7a42b649a574a.png",
+            "large": "https://assets.laliga.com/assets/2024/10/01/large/2db3e5e9e79886f331a7a42b649a574a.png",
+            "xlarge": "https://assets.laliga.com/assets/2024/10/01/xlarge/2db3e5e9e79886f331a7a42b649a574a.png",
+            "hl": "https://assets.laliga.com/assets/2024/10/01/hl/2db3e5e9e79886f331a7a42b649a574a.png"
+          }
+        },
+        "slug": "camp-de-mestalla",
+        "opta_id": "v1365",
+        "lde_id": 516
+      },
+      "logoSource": "https://assets.laliga.com/assets/2019/06/07/xlarge/valencia.png",
+      "providerIds": {
+        "opta": "t191",
+        "lde": 88
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/valencia-cf/squad",
+      "verification": "pending-cross-source-review"
+    },
+    {
+      "sourceClubId": "20",
+      "sourceIdNamespace": "laliga",
+      "canonicalClubId": null,
+      "slug": "villarreal-cf",
+      "nameAsPublished": "Villarreal Club de Fútbol SAD",
+      "displayNameEn": "Villarreal CF",
+      "abbreviation": "VIL",
+      "foundationYear": 1923,
+      "foundationPrecision": "year",
+      "foundationAsPublished": "1923-03-10T00:00:00+00:00",
+      "officialWebsite": "http://www.villarrealcf.es/",
+      "primaryColor": "#ffd301",
+      "secondaryColor": "#ffffff",
+      "stadiumAsPublished": {
+        "id": 20,
+        "name": "Estadio de la Cerámica",
+        "image": {
+          "id": 823898,
+          "name": "Estadio de la cerámica",
+          "caption": "Estadio de la cerámica",
+          "url": "https://assets.laliga.com/assets/2024/10/01/xlarge/1920904a4e9aa1179c3ea7bffb76a88f.png",
+          "resizes": {
+            "xsmall": "https://assets.laliga.com/assets/2024/10/01/xsmall/1920904a4e9aa1179c3ea7bffb76a88f.png",
+            "small": "https://assets.laliga.com/assets/2024/10/01/small/1920904a4e9aa1179c3ea7bffb76a88f.png",
+            "medium": "https://assets.laliga.com/assets/2024/10/01/medium/1920904a4e9aa1179c3ea7bffb76a88f.png",
+            "large": "https://assets.laliga.com/assets/2024/10/01/large/1920904a4e9aa1179c3ea7bffb76a88f.png",
+            "xlarge": "https://assets.laliga.com/assets/2024/10/01/xlarge/1920904a4e9aa1179c3ea7bffb76a88f.png",
+            "hl": "https://assets.laliga.com/assets/2024/10/01/hl/1920904a4e9aa1179c3ea7bffb76a88f.png"
+          }
+        },
+        "slug": "estadio-de-la-ceramica",
+        "opta_id": "v1366",
+        "lde_id": 734
+      },
+      "logoSource": "https://assets.laliga.com/assets/2019/06/07/xlarge/villarreal.png",
+      "providerIds": {
+        "opta": "t449",
+        "lde": 189
+      },
+      "profileUrl": "https://www.laliga.com/en-EG/clubs/villarreal-cf/squad",
+      "verification": "pending-cross-source-review"
+    }
+  ],
+  "sourceProvisionalNotice": false,
+  "releaseReady": false
+}

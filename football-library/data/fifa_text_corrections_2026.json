@@ -1,0 +1,227 @@
+{
+  "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf",
+  "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+  "reviewer": "Codex visual original PDF row review",
+  "verifiedAt": "2026-10-11",
+  "corrections": [
+    {
+      "playerId": "player:fifa2026:4ed3034ef8e6b90e51adb846",
+      "sourcePage": 1,
+      "shirtNumber": 17,
+      "cells": [
+        {
+          "column": 2,
+          "original": "BELGHALI Ra\u0000k",
+          "corrected": "BELGHALI Rafik"
+        },
+        {
+          "column": 4,
+          "original": "Ra\u0000k",
+          "corrected": "Rafik"
+        }
+      ]
+    },
+    {
+      "playerId": "player:fifa2026:14f19512e111eeee1d02f9c3",
+      "sourcePage": 2,
+      "shirtNumber": 19,
+      "cells": [
+        {
+          "column": 10,
+          "original": "SL Ben\u0000ca (POR)",
+          "corrected": "SL Benfica (POR)"
+        }
+      ]
+    },
+    {
+      "playerId": "player:fifa2026:8d0886ab583dea8eff9a8eae",
+      "sourcePage": 5,
+      "shirtNumber": 14,
+      "cells": [
+        {
+          "column": 10,
+          "original": "SL Ben\u0000ca (POR)",
+          "corrected": "SL Benfica (POR)"
+        }
+      ]
+    },
+    {
+      "playerId": "player:fifa2026:5f78f2a862f241391c703fe6",
+      "sourcePage": 6,
+      "shirtNumber": 7,
+      "cells": [
+        {
+          "column": 10,
+          "original": "SL Ben\u0000ca (POR)",
+          "corrected": "SL Benfica (POR)"
+        }
+      ]
+    },
+    {
+      "playerId": "player:fifa2026:9c6971cf7c10f7b49e272fb3",
+      "sourcePage": 8,
+      "shirtNumber": 13,
+      "cells": [
+        {
+          "column": 10,
+          "original": "SL Ben\u0000ca (POR)",
+          "corrected": "SL Benfica (POR)"
+        }
+      ]
+    },
+    {
+      "playerId": "player:fifa2026:800d7aa895af9057363ecacc",
+      "sourcePage": 9,
+      "shirtNumber": 3,
+      "cells": [
+        {
+          "column": 2,
+          "original": "JONES Al\u0000e",
+          "corrected": "JONES Alfie"
+        },
+        {
+          "column": 4,
+          "original": "Al\u0000e Charles",
+          "corrected": "Alfie Charles"
+        }
+      ]
+    },
+    {
+      "playerId": "player:fifa2026:c8210f26a9609f558ea72cfc",
+      "sourcePage": 10,
+      "shirtNumber": 6,
+      "cells": [
+        {
+          "column": 10,
+          "original": "SL Ben\u0000ca (POR)",
+          "corrected": "SL Benfica (POR)"
+        }
+      ]
+    },
+    {
+      "playerId": "player:fifa2026:eca450f7eaa816b1ea86be22",
+      "sourcePage": 10,
+      "shirtNumber": 24,
+      "cells": [
+        {
+          "column": 10,
+          "original": "CA Vélez Sars\u0000eld (ARG)",
+          "corrected": "CA Vélez Sarsfield (ARG)"
+        }
+      ]
+    },
+    {
+      "playerId": "player:fifa2026:67d471bc89aa08970781f78c",
+      "sourcePage": 14,
+      "shirtNumber": 11,
+      "cells": [
+        {
+          "column": 10,
+          "original": "AE Ki\u0000sia FC (GRE)",
+          "corrected": "AE Kifisia FC (GRE)"
+        }
+      ]
+    },
+    {
+      "playerId": "player:fifa2026:925fd6c9ec8634fef9e9a9cd",
+      "sourcePage": 14,
+      "shirtNumber": 21,
+      "cells": [
+        {
+          "column": 10,
+          "original": "She\u0000eld United FC (ENG)",
+          "corrected": "Sheffield United FC (ENG)"
+        }
+      ]
+    },
+    {
+      "playerId": "player:fifa2026:95472be3f7277de280e054ce",
+      "sourcePage": 16,
+      "shirtNumber": 12,
+      "cells": [
+        {
+          "column": 10,
+          "original": "AE Ki\u0000sia FC (GRE)",
+          "corrected": "AE Kifisia FC (GRE)"
+        }
+      ]
+    },
+    {
+      "playerId": "player:fifa2026:2f3db0bcad2a2c7273406e31",
+      "sourcePage": 29,
+      "shirtNumber": 9,
+      "cells": [
+        {
+          "column": 2,
+          "original": "RAHIMI Sou\u0000ane",
+          "corrected": "RAHIMI Soufiane"
+        },
+        {
+          "column": 4,
+          "original": "Sou\u0000ane",
+          "corrected": "Soufiane"
+        }
+      ]
+    },
+    {
+      "playerId": "player:fifa2026:e456ac04900da9c83ba57868",
+      "sourcePage": 31,
+      "shirtNumber": 4,
+      "cells": [
+        {
+          "column": 10,
+          "original": "She\u0000eld United FC (ENG)",
+          "corrected": "Sheffield United FC (ENG)"
+        }
+      ]
+    },
+    {
+      "playerId": "player:fifa2026:5552ace29c96bfcd917e72ae",
+      "sourcePage": 32,
+      "shirtNumber": 14,
+      "cells": [
+        {
+          "column": 10,
+          "original": "SL Ben\u0000ca (POR)",
+          "corrected": "SL Benfica (POR)"
+        }
+      ]
+    },
+    {
+      "playerId": "player:fifa2026:299e615e384ed301807a6046",
+      "sourcePage": 32,
+      "shirtNumber": 21,
+      "cells": [
+        {
+          "column": 10,
+          "original": "SL Ben\u0000ca (POR)",
+          "corrected": "SL Benfica (POR)"
+        }
+      ]
+    },
+    {
+      "playerId": "player:fifa2026:71bd8c1317dc5a306eb7233f",
+      "sourcePage": 35,
+      "shirtNumber": 4,
+      "cells": [
+        {
+          "column": 10,
+          "original": "SL Ben\u0000ca (POR)",
+          "corrected": "SL Benfica (POR)"
+        }
+      ]
+    },
+    {
+      "playerId": "player:fifa2026:e682d03bc27210dfa4c3fad6",
+      "sourcePage": 40,
+      "shirtNumber": 14,
+      "cells": [
+        {
+          "column": 4,
+          "original": "Mbekezeli Mfanu\u0000kile",
+          "corrected": "Mbekezeli Mfanufikile"
+        }
+      ]
+    }
+  ]
+}

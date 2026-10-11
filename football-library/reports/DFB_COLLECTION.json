@@ -1,0 +1,10 @@
+{
+  "directorySource": "https://datencenter.dfb.de/competitions/bundesliga/seasons/2026-2027/teams",
+  "directorySha256": "47745a2d871ae20f8358cb4f76df2151746562849fe1b39aa4435797554118bb",
+  "clubs": 18,
+  "squads": 18,
+  "players": 533,
+  "coaches": 20,
+  "failures": [],
+  "releaseReady": false
+}

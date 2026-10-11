@@ -3,3 +3,5 @@ build/
 assets/pending_media/
 __pycache__/
 *.pyc
+sources/html/
+reports/UEFA_ROSTER_CHECKPOINT.json
