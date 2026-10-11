@@ -130,6 +130,8 @@
     "headCoaches": 1,
     "personalProfilesCollected": 8,
     "remainingPersonalProfiles": 18,
-    "releaseReady": false
+    "releaseReady": false,
+    "localPortraitFiles": 26,
+    "portraitApproval": "pending-identity-period-card-crop-and-rights-review"
   }
 }

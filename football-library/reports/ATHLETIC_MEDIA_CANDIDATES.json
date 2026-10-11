@@ -1,0 +1,760 @@
+{
+  "downloaded": [
+    {
+      "path": "assets/pending_media/athletic/aitor-paredes-casamichana/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/aitor-paredes-casamichana.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "aitor-paredes-casamichana",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "7c97c3493db8dcef53def73b04e5a8eeb7d6724057145f9cd79642508b061e9d",
+      "dimensions": [
+        616,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/unai-simon-mendibil/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/unai-simon-mendibil_L.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "unai-simon-mendibil",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "a16f44d5668d396c035e940b26b78d70b5668f058726d1077f2184a63ef726c5",
+      "dimensions": [
+        639,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/daniel-vivian-moreno/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/daniel-vivian-moreno.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "daniel-vivian-moreno",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "d3d453881c89f4a86056d2c2b1401eb5cd0364ceac66fb291def8138708d5950",
+      "dimensions": [
+        610,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/alex-padilla-perez/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/alex-padilla-perez.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "alex-padilla-perez",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "f08033d425d90cdba98aa76fa396a8ff22b5ec4e2c0bb8e9789844f8e9a6f5bd",
+      "dimensions": [
+        618,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/aymeric-laporte/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/aymeric-laporte.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "aymeric-laporte",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "a555348fee70181bdc90d88bad8a76b0c6a367d1886f9250a2e13a71f6aceb4e",
+      "dimensions": [
+        600,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/jesus-areso-blanco/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/jesus-areso-blanco.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "jesus-areso-blanco",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "e82fbbabf4bb230a0602fa2da52db8f3b280df774fdcbccfd2ea701ace0e1f36",
+      "dimensions": [
+        625,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/yeray-alvarez-lopez/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/yeray-alvarez-lopez_L.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "yeray-alvarez-lopez",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "bf849715a93576b1499284657c55b58bff7fc3ce7e387976ce7bbb56e77360c7",
+      "dimensions": [
+        618,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/hugo-rincon-lumbreras/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/hugo-rincon-lumbreras.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "hugo-rincon-lumbreras",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "5eece710a9b13aae9c4158cb938888d821a56cfaa01da897fd725174295eb0a2",
+      "dimensions": [
+        619,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/johaneko-louis-jean/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/johaneko-louis-jean_L.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "johaneko-louis-jean",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "dd82ca76b3419b079eb3f256123d6f03a5af8ff3aaeae30554d53b241a059a3f",
+      "dimensions": [
+        624,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/yuri-berchiche-izeta/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/yuri-berchiche-izeta.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "yuri-berchiche-izeta",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "59f686a7b736ede7f00fa806394f3a74774cf7c928d2b1d213696824888a433f",
+      "dimensions": [
+        612,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/unai-eguiluz-arroyo/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/unai-egiluz-arroyo_L.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "unai-eguiluz-arroyo",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "fc088293a8f783491e6c6498fe3200877365b7ee5ac7ad09db7f4bb4c7702b82",
+      "dimensions": [
+        639,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/benat-prados-diaz/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/benat-prados-diaz.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "benat-prados-diaz",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "4ccc33b025afe24e6f9fe8ea8c55aad56e35be36b3d52f6b557939bad8ed5601",
+      "dimensions": [
+        616,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/oihan-sancet-tirapu/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/oihan-sancet-tirapu.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "oihan-sancet-tirapu",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "f7f81c8dd4cc9eb301a6ff31da593dad5b3f410eb84c41624fd5c871a1c76e9a",
+      "dimensions": [
+        622,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/mikel-jauregizar-alboniga/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/mikel-jauregizar-alboniga.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "mikel-jauregizar-alboniga",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "fcc986d0455af45743b4b84042638e989988fc1d19a86346219218358d65db3b",
+      "dimensions": [
+        622,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/inigo-ruiz-de-galarreta-etxeberria/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/inigo-ruiz-de-galarreta-etxeberria.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "inigo-ruiz-de-galarreta-etxeberria",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "b24ee992633d92d1d9d9e09360d3c84b210c1d3488143e29b5148515eefc1dd5",
+      "dimensions": [
+        611,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/alejandro-rego-mora/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/alejandro-rego-mora.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "alejandro-rego-mora",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "3efd1e803d43165be2dcf0d454ea3b87cf9011494524dc037146d1b4963d0bc4",
+      "dimensions": [
+        614,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/inaki-williams-arthuer/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/inaki-williams-arthuer_L.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "inaki-williams-arthuer",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "a3967401a511a9ae31ade99c880b08d5246d5ec4bd6b7169534f6d1041f2a584",
+      "dimensions": [
+        639,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/alejandro-berenguer-remiro/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/alejandro-berenguer-remiro.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "alejandro-berenguer-remiro",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "a9b475397bb3db14853c97b62dd307042d1c8fa7c5ea66c6595f45301885e31b",
+      "dimensions": [
+        619,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/benat-gerenabarrena-zendoia/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/benat-gerenabarrena-zendoia.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "benat-gerenabarrena-zendoia",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "02faa21072baf5a0dc60cf91fe09db16a02a83c0fd93ae0f2f5d6f27ec23bb6d",
+      "dimensions": [
+        620,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/peio-canales-urtasun/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/peio-canales-urtasun.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "peio-canales-urtasun",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "6c72892288cfe970d38b90a20bcf8c4dd0950fed2b4d3c898f3ea62261a03791",
+      "dimensions": [
+        616,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/gorka-guruzeta-rodriguez/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/gorka-guruzeta-rodriguez.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "gorka-guruzeta-rodriguez",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "c5b59f2404033dad55bf3928bd63bcde0179d18855994810f9e49e7cd69a0cdd",
+      "dimensions": [
+        611,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/nicholas-williams-arthuer/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/nico-williams-arthuer_L.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "nicholas-williams-arthuer",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "6411d9b2109000ba54fbd07736c120e5d60a2c6f3b943192429e1a9ca941f462",
+      "dimensions": [
+        639,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/nicolas-serrano-galdeano/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/nicolas-serrano-galdeano.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "nicolas-serrano-galdeano",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "922b6382cba3dd3f6ea3259f06a99ae81c6d7359bc89b932e327b60955e18aff",
+      "dimensions": [
+        622,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/maroan-sannadi-harrouch/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/maroan-sannadi-harrouch.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "maroan-sannadi-harrouch",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "2630fe9619d16c3a731c567df5489c413eef1504027e8ba6f01029c9c7ecc4ad",
+      "dimensions": [
+        608,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/alvaro-djalo-dias-fernandes/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/alvaro-djalo-dias-fernandes.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "alvaro-djalo-dias-fernandes",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "3afe4ba40fc61870a79700746c3f1b6963e72dcd39c3f7b6a2e805b3a70a4205",
+      "dimensions": [
+        636,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    },
+    {
+      "path": "assets/pending_media/athletic/robert-navarro-munoz/clubs/athletic-club/portrait.png",
+      "source": "https://cdn.athletic-club.eus/imagenes/player_images/medium/robert-navarro-munoz.png",
+      "sourcePage": "https://www.athletic-club.eus/en/teams/athletic-club/2026-27/squad/",
+      "sourcePersonId": "robert-navarro-munoz",
+      "sourceIdNamespace": "athletic-profile-slug",
+      "sha256": "a9731f306150d4123f525cd7f17f9628ec70e514a52e1569478002b6a4028ee8",
+      "dimensions": [
+        600,
+        900
+      ],
+      "rights": "not-cleared-for-redistribution",
+      "verification": "pending-visual-identity-period-review",
+      "approved": false,
+      "sourceClubId": "athletic-club",
+      "sourceClubIdNamespace": "athletic-team-slug",
+      "laligaSourceClubId": "3",
+      "visualReview": {
+        "reviewedAt": "2026-10-11",
+        "qualityReviewed": true,
+        "faceDirection": "front or near-front",
+        "visibleKit": "Athletic Club; goalkeeper kit for the two goalkeepers",
+        "headAndShoulderCardCropReady": false,
+        "identityVerified": false,
+        "periodVerified": false,
+        "rightsVerified": false,
+        "note": "Professional waist-up source portrait; card crop and source-period verification still required"
+      }
+    }
+  ],
+  "failures": [],
+  "releaseReady": false
+}
