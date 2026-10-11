@@ -1,0 +1,188 @@
+{
+  "clubs": [
+    {
+      "sourceClubId": "b5846a2413804c2e8cab8b773b18370a",
+      "slug": "atalanta",
+      "nameEn": "Atalanta",
+      "profileUrl": "https://www.legaseriea.it/team/atalanta/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/b5846a2413804c2e8cab8b773b18370a.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "4af71b35aab34ad5a7d06148abe66ad6",
+      "slug": "bologna",
+      "nameEn": "Bologna",
+      "profileUrl": "https://www.legaseriea.it/team/bologna/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/4af71b35aab34ad5a7d06148abe66ad6.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "25aecd0eda3e4453aabd9a9d5e7fba0d",
+      "slug": "cagliari",
+      "nameEn": "Cagliari",
+      "profileUrl": "https://www.legaseriea.it/team/cagliari/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/25aecd0eda3e4453aabd9a9d5e7fba0d.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "367e70bf50b346209f8a0f16429850cb",
+      "slug": "como",
+      "nameEn": "COMO",
+      "profileUrl": "https://www.legaseriea.it/team/como/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/367e70bf50b346209f8a0f16429850cb.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "5bce12d5bd864c2297695d970f92576d",
+      "slug": "fiorentina",
+      "nameEn": "Fiorentina",
+      "profileUrl": "https://www.legaseriea.it/team/fiorentina/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/5bce12d5bd864c2297695d970f92576d.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "b283fcc0aeda401bb081fcd764e290db",
+      "slug": "frosinone",
+      "nameEn": "FROSINONE",
+      "profileUrl": "https://www.legaseriea.it/team/frosinone/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/b283fcc0aeda401bb081fcd764e290db.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "8c7aa94d22f44738951748e2ccdf319a",
+      "slug": "genoa",
+      "nameEn": "Genoa",
+      "profileUrl": "https://www.legaseriea.it/team/genoa/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/8c7aa94d22f44738951748e2ccdf319a.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "b7421caff23448c49134fa4f9095ee09",
+      "slug": "inter",
+      "nameEn": "Inter",
+      "profileUrl": "https://www.legaseriea.it/team/inter/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/b7421caff23448c49134fa4f9095ee09.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "0ae9210dce6f4f9b9d50aeeb19b0d371",
+      "slug": "juventus",
+      "nameEn": "Juventus",
+      "profileUrl": "https://www.legaseriea.it/team/juventus/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/0ae9210dce6f4f9b9d50aeeb19b0d371.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "fe6490f2b16e45be9956a1cd04aaf3a2",
+      "slug": "lazio",
+      "nameEn": "Lazio",
+      "profileUrl": "https://www.legaseriea.it/team/lazio/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/fe6490f2b16e45be9956a1cd04aaf3a2.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "ced7bf0df3a140dfa48138311122133b",
+      "slug": "lecce",
+      "nameEn": "LECCE",
+      "profileUrl": "https://www.legaseriea.it/team/lecce/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/ced7bf0df3a140dfa48138311122133b.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "d0867ddf777c41789ca282b8276002b0",
+      "slug": "milan",
+      "nameEn": "Milan",
+      "profileUrl": "https://www.legaseriea.it/team/milan/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/d0867ddf777c41789ca282b8276002b0.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "9ba470f39580450fac7654956ba574fa",
+      "slug": "monza",
+      "nameEn": "MONZA",
+      "profileUrl": "https://www.legaseriea.it/team/monza/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/9ba470f39580450fac7654956ba574fa.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "f791dab8f0e4449e9884dd8dbd42dbcc",
+      "slug": "napoli",
+      "nameEn": "Napoli",
+      "profileUrl": "https://www.legaseriea.it/team/napoli/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/f791dab8f0e4449e9884dd8dbd42dbcc.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "3294993c79b14d918ccdc78da0fb90c5",
+      "slug": "parma",
+      "nameEn": "PARMA",
+      "profileUrl": "https://www.legaseriea.it/team/parma/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/3294993c79b14d918ccdc78da0fb90c5.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "8ddc09c1aa73448da2dff953edd95d82",
+      "slug": "roma",
+      "nameEn": "Roma",
+      "profileUrl": "https://www.legaseriea.it/team/roma/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/8ddc09c1aa73448da2dff953edd95d82.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "b70390ba4e3c4bc2947a37617d53e8a3",
+      "slug": "sassuolo",
+      "nameEn": "Sassuolo",
+      "profileUrl": "https://www.legaseriea.it/team/sassuolo/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/b70390ba4e3c4bc2947a37617d53e8a3.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "a55dcc2058e94976b572262fc564a74c",
+      "slug": "torino",
+      "nameEn": "Torino",
+      "profileUrl": "https://www.legaseriea.it/team/torino/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/a55dcc2058e94976b572262fc564a74c.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "630b1e3631db42498d1b7bc94595c5e0",
+      "slug": "udinese",
+      "nameEn": "Udinese",
+      "profileUrl": "https://www.legaseriea.it/team/udinese/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/630b1e3631db42498d1b7bc94595c5e0.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    },
+    {
+      "sourceClubId": "a28236708d214df3a2e2e04ceb7e5c54",
+      "slug": "venezia",
+      "nameEn": "Venezia",
+      "profileUrl": "https://www.legaseriea.it/team/venezia/",
+      "logoSource": "https://media-sdp.legaseriea.it/clubLogos/a28236708d214df3a2e2e04ceb7e5c54.webp",
+      "sourceSeasonId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
+      "canonicalClubId": null
+    }
+  ],
+  "source": "https://www.legaseriea.it/serie-a/index",
+  "sourceSha256": "6079ba86e9b05a595eb888d54515c7368e6fe5210c2f9949cebd4ac526f3bd77",
+  "season": "2026-2027",
+  "releaseReady": false
+}

@@ -1,0 +1,125 @@
+{
+  "season": "2026-2027",
+  "scope": "club-first-team-only",
+  "source": "https://ligue1.com/fr/articles/l1_article_5293-les-dates-de-reprise-des-clubs-de-l1-2627",
+  "sourceSha256": "329626bc2810d61d52fdb52c9494a52900d5f55c06c0b20f6d5f79262ee5d1a5",
+  "verifiedAt": "2026-10-11",
+  "clubs": [
+    {
+      "nameAsPublished": "Angers SCO",
+      "sourceClubId": null,
+      "canonicalClubId": null,
+      "verification": "official season article; source-identifier reconciliation pending"
+    },
+    {
+      "nameAsPublished": "AJ Auxerre",
+      "sourceClubId": null,
+      "canonicalClubId": null,
+      "verification": "official season article; source-identifier reconciliation pending"
+    },
+    {
+      "nameAsPublished": "Stade Brestois 29",
+      "sourceClubId": null,
+      "canonicalClubId": null,
+      "verification": "official season article; source-identifier reconciliation pending"
+    },
+    {
+      "nameAsPublished": "Havre AC",
+      "sourceClubId": null,
+      "canonicalClubId": null,
+      "verification": "official season article; source-identifier reconciliation pending"
+    },
+    {
+      "nameAsPublished": "Le Mans FC",
+      "sourceClubId": null,
+      "canonicalClubId": null,
+      "verification": "official season article; source-identifier reconciliation pending"
+    },
+    {
+      "nameAsPublished": "RC Lens",
+      "sourceClubId": null,
+      "canonicalClubId": null,
+      "verification": "official season article; source-identifier reconciliation pending"
+    },
+    {
+      "nameAsPublished": "FC Lorient",
+      "sourceClubId": null,
+      "canonicalClubId": null,
+      "verification": "official season article; source-identifier reconciliation pending"
+    },
+    {
+      "nameAsPublished": "LOSC",
+      "sourceClubId": null,
+      "canonicalClubId": null,
+      "verification": "official season article; source-identifier reconciliation pending"
+    },
+    {
+      "nameAsPublished": "Olympique Lyonnais",
+      "sourceClubId": null,
+      "canonicalClubId": null,
+      "verification": "official season article; source-identifier reconciliation pending"
+    },
+    {
+      "nameAsPublished": "Olympique de Marseille",
+      "sourceClubId": null,
+      "canonicalClubId": null,
+      "verification": "official season article; source-identifier reconciliation pending"
+    },
+    {
+      "nameAsPublished": "AS Monaco",
+      "sourceClubId": null,
+      "canonicalClubId": null,
+      "verification": "official season article; source-identifier reconciliation pending"
+    },
+    {
+      "nameAsPublished": "OGC Nice",
+      "sourceClubId": null,
+      "canonicalClubId": null,
+      "verification": "official season article; source-identifier reconciliation pending"
+    },
+    {
+      "nameAsPublished": "Paris FC",
+      "sourceClubId": null,
+      "canonicalClubId": null,
+      "verification": "official season article; source-identifier reconciliation pending"
+    },
+    {
+      "nameAsPublished": "Paris Saint-Germain",
+      "sourceClubId": null,
+      "canonicalClubId": null,
+      "verification": "official season article; source-identifier reconciliation pending"
+    },
+    {
+      "nameAsPublished": "Stade Rennais F.C.",
+      "sourceClubId": null,
+      "canonicalClubId": null,
+      "verification": "official season article; source-identifier reconciliation pending"
+    },
+    {
+      "nameAsPublished": "RC Strasbourg Alsace",
+      "sourceClubId": null,
+      "canonicalClubId": null,
+      "verification": "official season article; source-identifier reconciliation pending"
+    },
+    {
+      "nameAsPublished": "Toulouse FC",
+      "sourceClubId": null,
+      "canonicalClubId": null,
+      "verification": "official season article; source-identifier reconciliation pending"
+    },
+    {
+      "nameAsPublished": "ESTAC Troyes",
+      "sourceClubId": null,
+      "canonicalClubId": null,
+      "verification": "official season article; source-identifier reconciliation pending"
+    }
+  ],
+  "missing": [
+    "source club identifiers",
+    "all first-team rosters",
+    "coaches",
+    "contextual portraits",
+    "emblems and detailed statistics"
+  ],
+  "releaseReady": false
+}

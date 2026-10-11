@@ -1,0 +1,49 @@
+{
+  "competition": "saudi-super-cup",
+  "season": "2026-2027",
+  "source": "https://www.saff.com.sa/news.php?id=4407",
+  "sourceSha256": "05c57e235b6bba5602a4eef3ed30a43a6894c4534035492c5feae370a5def9a4",
+  "scope": "club-first-team-only",
+  "verifiedAt": "2026-10-11",
+  "clubs": [
+    {
+      "sourceClubId": "2",
+      "sourceIdNamespace": "saff-team",
+      "canonicalClubId": null,
+      "nameAr": "النصر",
+      "profileUrl": "https://saff.com.sa/team.php?id=2",
+      "logoSource": "https://saff.com.sa/uploadcenter/saffteamsmallfkCLO1747742996.png",
+      "verification": "pending-identity-and-logo-review"
+    },
+    {
+      "sourceClubId": "67",
+      "sourceIdNamespace": "saff-team",
+      "canonicalClubId": null,
+      "nameAr": "الخلود",
+      "profileUrl": "https://saff.com.sa/team.php?id=67",
+      "logoSource": "https://saff.com.sa/uploadcenter/saffteamsmallD5k291787207108.png",
+      "verification": "pending-identity-and-logo-review"
+    },
+    {
+      "sourceClubId": "104",
+      "sourceIdNamespace": "saff-team",
+      "canonicalClubId": null,
+      "nameAr": "الأهلي",
+      "profileUrl": "https://saff.com.sa/team.php?id=104",
+      "logoSource": "https://saff.com.sa/uploadcenter/saffteamsmallHy6F61756329988.png",
+      "verification": "pending-identity-and-logo-review"
+    },
+    {
+      "sourceClubId": "76",
+      "sourceIdNamespace": "saff-team",
+      "canonicalClubId": null,
+      "nameAr": "القادسية",
+      "profileUrl": "https://saff.com.sa/team.php?id=76",
+      "logoSource": "https://saff.com.sa/uploadcenter/saffteamsmall1717872503.png",
+      "verification": "pending-identity-and-logo-review"
+    }
+  ],
+  "matches": [],
+  "fixtureStatus": "not announced in this source; draw is scheduled for 2026-10-14",
+  "releaseReady": false
+}

@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 sources/html/
 reports/UEFA_ROSTER_CHECKPOINT.json
+reports/SERIEA_ROSTER_CHECKPOINT.json

@@ -1,0 +1,3413 @@
+{
+  "competition": "afc-champions-league-elite",
+  "season": "2026-2027",
+  "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+  "sourceSha256": "e1d7e2e054203438013e3687831c5361e447e89f70e9e4ea9a0c27b2a8d48e7e",
+  "scope": "club-first-team-only",
+  "verifiedAt": "2026-10-11",
+  "clubs": [
+    {
+      "drawSlot": "A1",
+      "nameEn": "Al Ain FC",
+      "associationCodeAsPublished": "UAE",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "A2",
+      "nameEn": "Shabab Al Ahli",
+      "associationCodeAsPublished": "UAE",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "A3",
+      "nameEn": "Al Gharafa SC",
+      "associationCodeAsPublished": "QAT",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "A4",
+      "nameEn": "Pakhtakor",
+      "associationCodeAsPublished": "UZB",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "B1",
+      "nameEn": "Esteghlal FC",
+      "associationCodeAsPublished": "IRN",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "B2",
+      "nameEn": "Al Nassr Club",
+      "associationCodeAsPublished": "KSA",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "B3",
+      "nameEn": "Tractor FC",
+      "associationCodeAsPublished": "IRN",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "B4",
+      "nameEn": "Al Qadsiah Club",
+      "associationCodeAsPublished": "KSA",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "C1",
+      "nameEn": "Al Sadd SC",
+      "associationCodeAsPublished": "QAT",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "C2",
+      "nameEn": "PFC Neftchi",
+      "associationCodeAsPublished": "UZB",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "C3",
+      "nameEn": "Al Wasl FC",
+      "associationCodeAsPublished": "UAE",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "C4",
+      "nameEn": "Al Shamal SC",
+      "associationCodeAsPublished": "QAT",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "D1",
+      "nameEn": "Al Ahli Saudi FC",
+      "associationCodeAsPublished": "KSA",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "D2",
+      "nameEn": "Air Force SC",
+      "associationCodeAsPublished": "IRQ",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "D3",
+      "nameEn": "Al Hilal SFC",
+      "associationCodeAsPublished": "KSA",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "D4",
+      "nameEn": "Al Ittihad Club",
+      "associationCodeAsPublished": "KSA",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "E1",
+      "nameEn": "Buriram United",
+      "associationCodeAsPublished": "THA",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "E2",
+      "nameEn": "Daejeon Hanacitizen",
+      "associationCodeAsPublished": "KOR",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "E3",
+      "nameEn": "Port FC",
+      "associationCodeAsPublished": "THA",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "E4",
+      "nameEn": "Cong An Ha Noi FC",
+      "associationCodeAsPublished": "VIE",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "F1",
+      "nameEn": "Kashima Antlers",
+      "associationCodeAsPublished": "JPN",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "F2",
+      "nameEn": "Vissel Kobe",
+      "associationCodeAsPublished": "JPN",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "F3",
+      "nameEn": "Beijing FC",
+      "associationCodeAsPublished": "CHN",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "F4",
+      "nameEn": "Kyoto Sanga F.C.",
+      "associationCodeAsPublished": "JPN",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "G1",
+      "nameEn": "Jeonbuk Hyundai Motors FC",
+      "associationCodeAsPublished": "KOR",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "G2",
+      "nameEn": "Newcastle Jets FC",
+      "associationCodeAsPublished": "AUS",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "G3",
+      "nameEn": "FC Pohang Steelers",
+      "associationCodeAsPublished": "KOR",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "G4",
+      "nameEn": "Ratchaburi FC",
+      "associationCodeAsPublished": "THA",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "H1",
+      "nameEn": "Shanghai Port FC",
+      "associationCodeAsPublished": "CHN",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "H2",
+      "nameEn": "Johor Darul Ta'zim FC",
+      "associationCodeAsPublished": "MAS",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "H3",
+      "nameEn": "Kashiwa Reysol",
+      "associationCodeAsPublished": "JPN",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    },
+    {
+      "drawSlot": "H4",
+      "nameEn": "Gamba Osaka",
+      "associationCodeAsPublished": "JPN",
+      "canonicalClubId": null,
+      "sourceClubId": null,
+      "verification": "official schedule; global identity reconciliation pending"
+    }
+  ],
+  "matches": [
+    {
+      "home": {
+        "drawSlot": "A4",
+        "nameEn": "Pakhtakor",
+        "associationCodeAsPublished": "UZB",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "B4",
+        "nameEn": "Al Qadsiah Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-10-12",
+      "kickOffLocalAsPublished": "18:45",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Pakhtakor Stadium, Tashkent",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 1,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "B3",
+        "nameEn": "Tractor FC",
+        "associationCodeAsPublished": "IRN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "C4",
+        "nameEn": "Al Shamal SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-10-12",
+      "kickOffLocalAsPublished": "20:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Sultan Qaboos Sports Complex, Muscat, OMA (Neutral Venue)",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 1,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "C3",
+        "nameEn": "Al Wasl FC",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "D1",
+        "nameEn": "Al Ahli Saudi FC",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-10-12",
+      "kickOffLocalAsPublished": "20:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Zabeel Stadium, Dubai",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 1,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "D2",
+        "nameEn": "Air Force SC",
+        "associationCodeAsPublished": "IRQ",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "A1",
+        "nameEn": "Al Ain FC",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-10-12",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Basra International Stadium, Basra",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 1,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "B2",
+        "nameEn": "Al Nassr Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "C2",
+        "nameEn": "PFC Neftchi",
+        "associationCodeAsPublished": "UZB",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-10-12",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "King Saud University Stadium, Riyadh",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 1,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "A3",
+        "nameEn": "Al Gharafa SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "B1",
+        "nameEn": "Esteghlal FC",
+        "associationCodeAsPublished": "IRN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-10-12",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Thani Bin Jassim Stadium, Al Rayyan",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 1,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "C1",
+        "nameEn": "Al Sadd SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "D3",
+        "nameEn": "Al Hilal SFC",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-10-13",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Jassim Bin Hamad Stadium, Doha",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 1,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "D4",
+        "nameEn": "Al Ittihad Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "A2",
+        "nameEn": "Shabab Al Ahli",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-10-13",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "King Abdullah Sports City Stadium, Jeddah",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 1,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "G2",
+        "nameEn": "Newcastle Jets FC",
+        "associationCodeAsPublished": "AUS",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "H4",
+        "nameEn": "Gamba Osaka",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-10-13",
+      "kickOffLocalAsPublished": "18:45",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Newcastle Stadium, Newcastle",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 1,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "F4",
+        "nameEn": "Kyoto Sanga F.C.",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "G4",
+        "nameEn": "Ratchaburi FC",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-10-13",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Kyoto Stadium, Kyoto",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 1,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "G3",
+        "nameEn": "FC Pohang Steelers",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "H2",
+        "nameEn": "Johor Darul Ta'zim FC",
+        "associationCodeAsPublished": "MAS",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-10-13",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Steelyard, Pohang",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 1,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "H1",
+        "nameEn": "Shanghai Port FC",
+        "associationCodeAsPublished": "CHN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "E2",
+        "nameEn": "Daejeon Hanacitizen",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-10-13",
+      "kickOffLocalAsPublished": "18:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Pudong Football Stadium, Shanghai",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 1,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "E1",
+        "nameEn": "Buriram United",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "F3",
+        "nameEn": "Beijing FC",
+        "associationCodeAsPublished": "CHN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-10-13",
+      "kickOffLocalAsPublished": "19:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Buriram Stadium, Buriram",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 1,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "E4",
+        "nameEn": "Cong An Ha Noi FC",
+        "associationCodeAsPublished": "VIE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "F1",
+        "nameEn": "Kashima Antlers",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-10-13",
+      "kickOffLocalAsPublished": "19:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Hang Day Stadium, Hanoi",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 1,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "F2",
+        "nameEn": "Vissel Kobe",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "G1",
+        "nameEn": "Jeonbuk Hyundai Motors FC",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-10-14",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Kobe City Misaki Park Stadium, Kobe",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 1,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "H3",
+        "nameEn": "Kashiwa Reysol",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "E3",
+        "nameEn": "Port FC",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-10-14",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Kashiwa Soccer Stadium, Kashiwa",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 1,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "C2",
+        "nameEn": "PFC Neftchi",
+        "associationCodeAsPublished": "UZB",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "D4",
+        "nameEn": "Al Ittihad Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-10-26",
+      "kickOffLocalAsPublished": "18:45",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Istiqlol Stadium, Fergana",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 2,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "D1",
+        "nameEn": "Al Ahli Saudi FC",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "A3",
+        "nameEn": "Al Gharafa SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-10-26",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "King Abdullah Sports City Stadium, Jeddah",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 2,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "A1",
+        "nameEn": "Al Ain FC",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "B3",
+        "nameEn": "Tractor FC",
+        "associationCodeAsPublished": "IRN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-10-26",
+      "kickOffLocalAsPublished": "20:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Hazza Bin Zayed Stadium, Al Ain",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 2,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "D2",
+        "nameEn": "Air Force SC",
+        "associationCodeAsPublished": "IRQ",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "A4",
+        "nameEn": "Pakhtakor",
+        "associationCodeAsPublished": "UZB",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-10-26",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Al-Madina International Stadium, Baghdad",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 2,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "B2",
+        "nameEn": "Al Nassr Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "C3",
+        "nameEn": "Al Wasl FC",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-10-26",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "King Saud University Stadium, Riyadh",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 2,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "B4",
+        "nameEn": "Al Qadsiah Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "C1",
+        "nameEn": "Al Sadd SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-10-26",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Prince Mohammed Bin Fahd Stadium, Dammam",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 2,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "A2",
+        "nameEn": "Shabab Al Ahli",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "B1",
+        "nameEn": "Esteghlal FC",
+        "associationCodeAsPublished": "IRN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-10-27",
+      "kickOffLocalAsPublished": "20:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Rashid Stadium, Dubai",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 2,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "C4",
+        "nameEn": "Al Shamal SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "D3",
+        "nameEn": "Al Hilal SFC",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-10-27",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Al Bayt Stadium, Al Khor",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 2,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "H1",
+        "nameEn": "Shanghai Port FC",
+        "associationCodeAsPublished": "CHN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "E4",
+        "nameEn": "Cong An Ha Noi FC",
+        "associationCodeAsPublished": "VIE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-10-27",
+      "kickOffLocalAsPublished": "18:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Pudong Football Stadium, Shanghai",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 2,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "H2",
+        "nameEn": "Johor Darul Ta'zim FC",
+        "associationCodeAsPublished": "MAS",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "E3",
+        "nameEn": "Port FC",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-10-27",
+      "kickOffLocalAsPublished": "18:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Sultan Ibrahim Stadium, Iskandar Puteri",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 2,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "E2",
+        "nameEn": "Daejeon Hanacitizen",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "F2",
+        "nameEn": "Vissel Kobe",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-10-27",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Daejeon World Cup Stadium, Daejeon",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 2,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "F4",
+        "nameEn": "Kyoto Sanga F.C.",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "G2",
+        "nameEn": "Newcastle Jets FC",
+        "associationCodeAsPublished": "AUS",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-10-27",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Kyoto Stadium, Kyoto",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 2,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "F3",
+        "nameEn": "Beijing FC",
+        "associationCodeAsPublished": "CHN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "G1",
+        "nameEn": "Jeonbuk Hyundai Motors FC",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-10-27",
+      "kickOffLocalAsPublished": "20:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Workers' Stadium, Beijing",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 2,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "G4",
+        "nameEn": "Ratchaburi FC",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "H3",
+        "nameEn": "Kashiwa Reysol",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-10-27",
+      "kickOffLocalAsPublished": "19:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Ratchaburi Stadium, Ratchaburi",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 2,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "F1",
+        "nameEn": "Kashima Antlers",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "G3",
+        "nameEn": "FC Pohang Steelers",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-10-28",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Kashima Soccer Stadium, Kashima",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 2,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "H4",
+        "nameEn": "Gamba Osaka",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "E1",
+        "nameEn": "Buriram United",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-10-28",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Suita City Football Stadium, Suita",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 2,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "A4",
+        "nameEn": "Pakhtakor",
+        "associationCodeAsPublished": "UZB",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "B2",
+        "nameEn": "Al Nassr Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-11-02",
+      "kickOffLocalAsPublished": "18:45",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Pakhtakor Stadium, Tashkent",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 3,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "B3",
+        "nameEn": "Tractor FC",
+        "associationCodeAsPublished": "IRN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "C2",
+        "nameEn": "PFC Neftchi",
+        "associationCodeAsPublished": "UZB",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-11-02",
+      "kickOffLocalAsPublished": "20:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Sultan Qaboos Sports Complex, Muscat, OMA (Neutral Venue)",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 3,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "C3",
+        "nameEn": "Al Wasl FC",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "D2",
+        "nameEn": "Air Force SC",
+        "associationCodeAsPublished": "IRQ",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-11-02",
+      "kickOffLocalAsPublished": "20:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Zabeel Stadium, Dubai",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 3,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "C1",
+        "nameEn": "Al Sadd SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "D1",
+        "nameEn": "Al Ahli Saudi FC",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-11-02",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Jassim Bin Hamad Stadium, Doha",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 3,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "D4",
+        "nameEn": "Al Ittihad Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "A1",
+        "nameEn": "Al Ain FC",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-11-02",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "King Abdullah Sports City Stadium, Jeddah",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 3,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "A3",
+        "nameEn": "Al Gharafa SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "B4",
+        "nameEn": "Al Qadsiah Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-11-02",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Thani Bin Jassim Stadium, Al Rayyan",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 3,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "B1",
+        "nameEn": "Esteghlal FC",
+        "associationCodeAsPublished": "IRN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "C4",
+        "nameEn": "Al Shamal SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-11-03",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Basra International Stadium, Basra, IRQ (Neutral Venue)",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 3,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "D3",
+        "nameEn": "Al Hilal SFC",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "A2",
+        "nameEn": "Shabab Al Ahli",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-11-03",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Kingdom Arena, Riyadh",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 3,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "G2",
+        "nameEn": "Newcastle Jets FC",
+        "associationCodeAsPublished": "AUS",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "H1",
+        "nameEn": "Shanghai Port FC",
+        "associationCodeAsPublished": "CHN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-11-03",
+      "kickOffLocalAsPublished": "18:45",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Newcastle Stadium, Newcastle",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 3,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "G1",
+        "nameEn": "Jeonbuk Hyundai Motors FC",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "H2",
+        "nameEn": "Johor Darul Ta'zim FC",
+        "associationCodeAsPublished": "MAS",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-11-03",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Jeonju World Cup Stadium, Jeonju",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 3,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "F2",
+        "nameEn": "Vissel Kobe",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "G4",
+        "nameEn": "Ratchaburi FC",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-11-03",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Kobe City Misaki Park Stadium, Kobe",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 3,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "H3",
+        "nameEn": "Kashiwa Reysol",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "E2",
+        "nameEn": "Daejeon Hanacitizen",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-11-03",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Kashiwa Soccer Stadium, Kashiwa",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 3,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "E3",
+        "nameEn": "Port FC",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "F3",
+        "nameEn": "Beijing FC",
+        "associationCodeAsPublished": "CHN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-11-03",
+      "kickOffLocalAsPublished": "19:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Pathum Thani Stadium, Pathum Thani",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 3,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "E4",
+        "nameEn": "Cong An Ha Noi FC",
+        "associationCodeAsPublished": "VIE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "F4",
+        "nameEn": "Kyoto Sanga F.C.",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-11-03",
+      "kickOffLocalAsPublished": "19:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Hang Day Stadium, Hanoi",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 3,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "G3",
+        "nameEn": "FC Pohang Steelers",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "H4",
+        "nameEn": "Gamba Osaka",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-11-04",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Steelyard, Pohang",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 3,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "E1",
+        "nameEn": "Buriram United",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "F1",
+        "nameEn": "Kashima Antlers",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-11-04",
+      "kickOffLocalAsPublished": "19:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Buriram Stadium, Buriram",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 3,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "C2",
+        "nameEn": "PFC Neftchi",
+        "associationCodeAsPublished": "UZB",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "D3",
+        "nameEn": "Al Hilal SFC",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-11-23",
+      "kickOffLocalAsPublished": "18:45",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Istiqlol Stadium, Fergana",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 4,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "A1",
+        "nameEn": "Al Ain FC",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "B1",
+        "nameEn": "Esteghlal FC",
+        "associationCodeAsPublished": "IRN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-11-23",
+      "kickOffLocalAsPublished": "20:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Hazza Bin Zayed Stadium, Al Ain",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 4,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "B3",
+        "nameEn": "Tractor FC",
+        "associationCodeAsPublished": "IRN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "C3",
+        "nameEn": "Al Wasl FC",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-11-23",
+      "kickOffLocalAsPublished": "20:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Sultan Qaboos Sports Complex, Muscat, OMA (Neutral Venue)",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 4,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "C4",
+        "nameEn": "Al Shamal SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "D1",
+        "nameEn": "Al Ahli Saudi FC",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-11-23",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Al Bayt Stadium, Al Khor",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 4,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "D4",
+        "nameEn": "Al Ittihad Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "A4",
+        "nameEn": "Pakhtakor",
+        "associationCodeAsPublished": "UZB",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-11-23",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "King Abdullah Sports City Stadium, Jeddah",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 4,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "D2",
+        "nameEn": "Air Force SC",
+        "associationCodeAsPublished": "IRQ",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "A3",
+        "nameEn": "Al Gharafa SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-11-23",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Basra International Stadium, Basra",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 4,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "A2",
+        "nameEn": "Shabab Al Ahli",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "B4",
+        "nameEn": "Al Qadsiah Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-11-24",
+      "kickOffLocalAsPublished": "20:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Rashid Stadium, Dubai",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 4,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "B2",
+        "nameEn": "Al Nassr Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "C1",
+        "nameEn": "Al Sadd SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-11-24",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "King Saud University Stadium, Riyadh",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 4,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "G2",
+        "nameEn": "Newcastle Jets FC",
+        "associationCodeAsPublished": "AUS",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "H3",
+        "nameEn": "Kashiwa Reysol",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-11-24",
+      "kickOffLocalAsPublished": "18:45",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Central Coast Stadium, Gosford",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 4,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "E2",
+        "nameEn": "Daejeon Hanacitizen",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "F3",
+        "nameEn": "Beijing FC",
+        "associationCodeAsPublished": "CHN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-11-24",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Daejeon World Cup Stadium, Daejeon",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 4,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "F4",
+        "nameEn": "Kyoto Sanga F.C.",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "G3",
+        "nameEn": "FC Pohang Steelers",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-11-24",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Kyoto Stadium, Kyoto",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 4,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "H1",
+        "nameEn": "Shanghai Port FC",
+        "associationCodeAsPublished": "CHN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "E1",
+        "nameEn": "Buriram United",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-11-24",
+      "kickOffLocalAsPublished": "20:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Pudong Football Stadium, Shanghai",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 4,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "G4",
+        "nameEn": "Ratchaburi FC",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "H2",
+        "nameEn": "Johor Darul Ta'zim FC",
+        "associationCodeAsPublished": "MAS",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-11-24",
+      "kickOffLocalAsPublished": "19:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Ratchaburi Stadium, Ratchaburi",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 4,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "E4",
+        "nameEn": "Cong An Ha Noi FC",
+        "associationCodeAsPublished": "VIE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "F2",
+        "nameEn": "Vissel Kobe",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-11-24",
+      "kickOffLocalAsPublished": "19:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Hang Day Stadium, Hanoi",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 4,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "F1",
+        "nameEn": "Kashima Antlers",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "G1",
+        "nameEn": "Jeonbuk Hyundai Motors FC",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-11-25",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Kashima Soccer Stadium, Kashima",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 4,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "H4",
+        "nameEn": "Gamba Osaka",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "E3",
+        "nameEn": "Port FC",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-11-25",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Suita City Football Stadium, Suita",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 4,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "A4",
+        "nameEn": "Pakhtakor",
+        "associationCodeAsPublished": "UZB",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "B3",
+        "nameEn": "Tractor FC",
+        "associationCodeAsPublished": "IRN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-12-07",
+      "kickOffLocalAsPublished": "18:45",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Pakhtakor Stadium, Tashkent",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 5,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "C3",
+        "nameEn": "Al Wasl FC",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "D4",
+        "nameEn": "Al Ittihad Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-12-07",
+      "kickOffLocalAsPublished": "20:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Zabeel Stadium, Dubai",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 5,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "B4",
+        "nameEn": "Al Qadsiah Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "C4",
+        "nameEn": "Al Shamal SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-12-07",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Prince Mohammed Bin Fahd Stadium, Dammam",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 5,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "B1",
+        "nameEn": "Esteghlal FC",
+        "associationCodeAsPublished": "IRN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "C2",
+        "nameEn": "PFC Neftchi",
+        "associationCodeAsPublished": "UZB",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-12-07",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Basra International Stadium, Basra, IRQ (Neutral Venue)",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 5,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "D3",
+        "nameEn": "Al Hilal SFC",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "A1",
+        "nameEn": "Al Ain FC",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-12-07",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Kingdom Arena, Riyadh",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 5,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "C1",
+        "nameEn": "Al Sadd SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "D2",
+        "nameEn": "Air Force SC",
+        "associationCodeAsPublished": "IRQ",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-12-07",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Jassim Bin Hamad Stadium, Doha",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 5,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "A3",
+        "nameEn": "Al Gharafa SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "B2",
+        "nameEn": "Al Nassr Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-12-08",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Thani Bin Jassim Stadium, Al Rayyan",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 5,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "D1",
+        "nameEn": "Al Ahli Saudi FC",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "A2",
+        "nameEn": "Shabab Al Ahli",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2026-12-08",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Prince Abdullah Al Faisal Sports City Stadium, Jeddah",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 5,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "F2",
+        "nameEn": "Vissel Kobe",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "G2",
+        "nameEn": "Newcastle Jets FC",
+        "associationCodeAsPublished": "AUS",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-12-01",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Kobe City Misaki Park Stadium, Kobe",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 5,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "H3",
+        "nameEn": "Kashiwa Reysol",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "E4",
+        "nameEn": "Cong An Ha Noi FC",
+        "associationCodeAsPublished": "VIE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-12-01",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Kashiwa Soccer Stadium, Kashiwa",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 5,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "G3",
+        "nameEn": "FC Pohang Steelers",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "H1",
+        "nameEn": "Shanghai Port FC",
+        "associationCodeAsPublished": "CHN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-12-01",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Steelyard, Pohang",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 5,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "H2",
+        "nameEn": "Johor Darul Ta'zim FC",
+        "associationCodeAsPublished": "MAS",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "E2",
+        "nameEn": "Daejeon Hanacitizen",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-12-01",
+      "kickOffLocalAsPublished": "20:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Sultan Ibrahim Stadium, Iskandar Puteri",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 5,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "F3",
+        "nameEn": "Beijing FC",
+        "associationCodeAsPublished": "CHN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "G4",
+        "nameEn": "Ratchaburi FC",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-12-01",
+      "kickOffLocalAsPublished": "20:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Workers' Stadium, Beijing",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 5,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "E1",
+        "nameEn": "Buriram United",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "F4",
+        "nameEn": "Kyoto Sanga F.C.",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-12-01",
+      "kickOffLocalAsPublished": "19:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Buriram Stadium, Buriram",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 5,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "G1",
+        "nameEn": "Jeonbuk Hyundai Motors FC",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "H4",
+        "nameEn": "Gamba Osaka",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-12-02",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Jeonju World Cup Stadium, Jeonju",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 5,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "E3",
+        "nameEn": "Port FC",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "F1",
+        "nameEn": "Kashima Antlers",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2026-12-02",
+      "kickOffLocalAsPublished": "19:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Thammasat Stadium, Pathum Thani",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 5,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "A4",
+        "nameEn": "Pakhtakor",
+        "associationCodeAsPublished": "UZB",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "B1",
+        "nameEn": "Esteghlal FC",
+        "associationCodeAsPublished": "IRN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2027-02-08",
+      "kickOffLocalAsPublished": "18:45",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Pakhtakor Stadium, Tashkent",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 6,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "B3",
+        "nameEn": "Tractor FC",
+        "associationCodeAsPublished": "IRN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "C1",
+        "nameEn": "Al Sadd SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2027-02-08",
+      "kickOffLocalAsPublished": "20:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Sultan Qaboos Sports Complex, Muscat, OMA (Neutral Venue)",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 6,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "A1",
+        "nameEn": "Al Ain FC",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "B4",
+        "nameEn": "Al Qadsiah Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2027-02-08",
+      "kickOffLocalAsPublished": "20:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Hazza Bin Zayed Stadium, Al Ain",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 6,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "D2",
+        "nameEn": "Air Force SC",
+        "associationCodeAsPublished": "IRQ",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "A2",
+        "nameEn": "Shabab Al Ahli",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2027-02-08",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Basra International Stadium, Basra",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 6,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "B2",
+        "nameEn": "Al Nassr Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "C4",
+        "nameEn": "Al Shamal SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2027-02-08",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "King Saud University Stadium, Riyadh",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 6,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "D4",
+        "nameEn": "Al Ittihad Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "A3",
+        "nameEn": "Al Gharafa SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2027-02-08",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "King Abdullah Sports City Stadium, Jeddah",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 6,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "C2",
+        "nameEn": "PFC Neftchi",
+        "associationCodeAsPublished": "UZB",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "D1",
+        "nameEn": "Al Ahli Saudi FC",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2027-02-09",
+      "kickOffLocalAsPublished": "18:45",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Istiqlol Stadium, Fergana",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 6,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "C3",
+        "nameEn": "Al Wasl FC",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "D3",
+        "nameEn": "Al Hilal SFC",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2027-02-09",
+      "kickOffLocalAsPublished": "20:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Zabeel Stadium, Dubai",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 6,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "G2",
+        "nameEn": "Newcastle Jets FC",
+        "associationCodeAsPublished": "AUS",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "H2",
+        "nameEn": "Johor Darul Ta'zim FC",
+        "associationCodeAsPublished": "MAS",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2027-02-09",
+      "kickOffLocalAsPublished": "18:45",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Newcastle Stadium, Newcastle",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 6,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "H1",
+        "nameEn": "Shanghai Port FC",
+        "associationCodeAsPublished": "CHN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "E3",
+        "nameEn": "Port FC",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2027-02-09",
+      "kickOffLocalAsPublished": "18:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Pudong Football Stadium, Shanghai",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 6,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "E2",
+        "nameEn": "Daejeon Hanacitizen",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "F1",
+        "nameEn": "Kashima Antlers",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2027-02-09",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Daejeon World Cup Stadium, Daejeon",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 6,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "F4",
+        "nameEn": "Kyoto Sanga F.C.",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "G1",
+        "nameEn": "Jeonbuk Hyundai Motors FC",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2027-02-09",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Kyoto Stadium, Kyoto",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 6,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "G4",
+        "nameEn": "Ratchaburi FC",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "H4",
+        "nameEn": "Gamba Osaka",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2027-02-09",
+      "kickOffLocalAsPublished": "19:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Ratchaburi Stadium, Ratchaburi",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 6,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "E4",
+        "nameEn": "Cong An Ha Noi FC",
+        "associationCodeAsPublished": "VIE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "F3",
+        "nameEn": "Beijing FC",
+        "associationCodeAsPublished": "CHN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2027-02-09",
+      "kickOffLocalAsPublished": "19:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Hang Day Stadium, Hanoi",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 6,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "F2",
+        "nameEn": "Vissel Kobe",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "G3",
+        "nameEn": "FC Pohang Steelers",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2027-02-10",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Kobe City Misaki Park Stadium, Kobe",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 6,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "H3",
+        "nameEn": "Kashiwa Reysol",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "E1",
+        "nameEn": "Buriram United",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2027-02-10",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Kashiwa Soccer Stadium, Kashiwa",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 6,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "D1",
+        "nameEn": "Al Ahli Saudi FC",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "A1",
+        "nameEn": "Al Ain FC",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2027-02-15",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "King Abdullah Sports City Stadium, Jeddah",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 7,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "C1",
+        "nameEn": "Al Sadd SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "D4",
+        "nameEn": "Al Ittihad Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2027-02-15",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Jassim Bin Hamad Stadium, Doha",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 7,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "B1",
+        "nameEn": "Esteghlal FC",
+        "associationCodeAsPublished": "IRN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "C3",
+        "nameEn": "Al Wasl FC",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2027-02-15",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Basra International Stadium, Basra, IRQ (Neutral Venue)",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 7,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "A2",
+        "nameEn": "Shabab Al Ahli",
+        "associationCodeAsPublished": "UAE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "B2",
+        "nameEn": "Al Nassr Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2027-02-15",
+      "kickOffLocalAsPublished": "22:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Rashid Stadium, Dubai",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 7,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "A3",
+        "nameEn": "Al Gharafa SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "B3",
+        "nameEn": "Tractor FC",
+        "associationCodeAsPublished": "IRN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2027-02-15",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Thani Bin Jassim Stadium, Al Rayyan",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 7,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "D3",
+        "nameEn": "Al Hilal SFC",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "A4",
+        "nameEn": "Pakhtakor",
+        "associationCodeAsPublished": "UZB",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2027-02-15",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Kingdom Arena, Riyadh",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 7,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "C4",
+        "nameEn": "Al Shamal SC",
+        "associationCodeAsPublished": "QAT",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "D2",
+        "nameEn": "Air Force SC",
+        "associationCodeAsPublished": "IRQ",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2027-02-15",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Al Bayt Stadium, Al Khor",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 7,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "B4",
+        "nameEn": "Al Qadsiah Club",
+        "associationCodeAsPublished": "KSA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "C2",
+        "nameEn": "PFC Neftchi",
+        "associationCodeAsPublished": "UZB",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "west",
+      "date": "2027-02-15",
+      "kickOffLocalAsPublished": "21:15",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Prince Mohammed Bin Fahd Stadium, Dammam",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 7,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "F1",
+        "nameEn": "Kashima Antlers",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "G4",
+        "nameEn": "Ratchaburi FC",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2027-02-16",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Kashima Soccer Stadium, Kashima",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 7,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "G1",
+        "nameEn": "Jeonbuk Hyundai Motors FC",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "H1",
+        "nameEn": "Shanghai Port FC",
+        "associationCodeAsPublished": "CHN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2027-02-16",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Jeonju World Cup Stadium, Jeonju",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 7,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "E1",
+        "nameEn": "Buriram United",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "F2",
+        "nameEn": "Vissel Kobe",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2027-02-16",
+      "kickOffLocalAsPublished": "17:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Buriram Stadium, Buriram",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 7,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "H2",
+        "nameEn": "Johor Darul Ta'zim FC",
+        "associationCodeAsPublished": "MAS",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "E4",
+        "nameEn": "Cong An Ha Noi FC",
+        "associationCodeAsPublished": "VIE",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2027-02-16",
+      "kickOffLocalAsPublished": "18:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Sultan Ibrahim Stadium, Iskandar Puteri",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 7,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "E3",
+        "nameEn": "Port FC",
+        "associationCodeAsPublished": "THA",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "F4",
+        "nameEn": "Kyoto Sanga F.C.",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2027-02-16",
+      "kickOffLocalAsPublished": "17:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Thammasat Stadium, Pathum Thani",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 7,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "F3",
+        "nameEn": "Beijing FC",
+        "associationCodeAsPublished": "CHN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "G2",
+        "nameEn": "Newcastle Jets FC",
+        "associationCodeAsPublished": "AUS",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2027-02-16",
+      "kickOffLocalAsPublished": "18:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Workers' Stadium, Beijing",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 7,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "H4",
+        "nameEn": "Gamba Osaka",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "E2",
+        "nameEn": "Daejeon Hanacitizen",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2027-02-16",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Suita City Football Stadium, Suita",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 7,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    },
+    {
+      "home": {
+        "drawSlot": "G3",
+        "nameEn": "FC Pohang Steelers",
+        "associationCodeAsPublished": "KOR",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "away": {
+        "drawSlot": "H3",
+        "nameEn": "Kashiwa Reysol",
+        "associationCodeAsPublished": "JPN",
+        "canonicalClubId": null,
+        "sourceClubId": null,
+        "verification": "official schedule; global identity reconciliation pending"
+      },
+      "region": "east",
+      "date": "2027-02-16",
+      "kickOffLocalAsPublished": "19:00",
+      "timeZone": "not separately specified; no UTC conversion inferred",
+      "venueAsPublished": "Steelyard, Pohang",
+      "homeGoals": null,
+      "awayGoals": null,
+      "sourcePage": 7,
+      "source": "https://assets.the-afc.com/2026-27_ACL_Elite/Downloads/Match_Schedule/AFC-Champions-League-Elite-202627---League-Stage-Match-Schedule---Sep6upd.pdf",
+      "verification": "fixture schedule only; results not provided"
+    }
+  ],
+  "missing": [
+    "preliminary and play-off participants not covered by this league-stage schedule",
+    "first-team registrations",
+    "coaches and context portraits",
+    "source club identifiers and canonical identity reconciliation",
+    "matchday-one schedule absent from this document",
+    "results and detailed statistics"
+  ],
+  "releaseReady": false
+}

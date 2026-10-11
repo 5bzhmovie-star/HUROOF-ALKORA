@@ -80,5 +80,38 @@
     "standaloneUnder21Excluded": 1115,
     "firstTeamUnder21Coverage": "pending-official-evidence",
     "releaseReady": false
+  },
+  "serieA": {
+    "clubs": 20,
+    "squads": 20,
+    "registrations": 620,
+    "coaches": 20,
+    "failures": [],
+    "releaseReady": false
+  },
+  "saudiKingCup": {
+    "firstRoundParticipants": 32,
+    "firstRoundResults": 16,
+    "registrationCoverage": "pending",
+    "releaseReady": false
+  },
+  "saudiSuperCup": {
+    "participants": 4,
+    "source": "https://www.saff.com.sa/news.php?id=4407",
+    "fixtureStatus": "draw not yet held at reference date",
+    "releaseReady": false
+  },
+  "ligue1": {
+    "participantNames": 18,
+    "sourceClubIds": "pending",
+    "rosters": "pending",
+    "releaseReady": false
+  },
+  "afcElite": {
+    "leagueStageParticipants": 32,
+    "scheduledMatches": 112,
+    "preliminaryParticipants": "pending",
+    "registrations": "pending",
+    "releaseReady": false
   }
 }
