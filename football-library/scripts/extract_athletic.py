@@ -25,6 +25,27 @@ def extract(html):
   coaches.append({'sourcePersonId':profile[1],'sourceIdNamespace':'athletic-coach-slug','canonicalCoachId':None,'nameOriginal':name.get_text(' ',strip=True),'profileUrl':urljoin(SOURCE,a['href']),'verification':'pending-source-comparison'})
  if not players or len({p['sourcePersonId'] for p in players})!=len(players) or len(coaches)!=1:raise ValueError('Incomplete or duplicate senior squad')
  return {'clubName':'Athletic Club','season':'2026-2027','scope':'club-first-team-only','source':SOURCE,'sourceSha256':hashlib.sha256(html.encode()).hexdigest(),'verifiedAt':datetime.date.today().isoformat(),'players':players,'coach':coaches[0],'releaseReady':False}
+def career(html):
+ s=BeautifulSoup(html,'html.parser');records=[]
+ def count(value):
+  if value in ('','-'):return None
+  if not value.isdigit():raise ValueError('Invalid career count')
+  return int(value)
+ for table in s.find_all('table'):
+  headers=[h.get_text(' ',strip=True) for h in table.select('thead th')][:5]
+  if headers[:4]!=['Team','Season','Div.','Matches'] or len(headers)!=5 or headers[4] not in ('Goals','G.A.'):continue
+  metric='goals' if headers[4]=='Goals' else 'goalkeeperGAAsPublished';current=None
+  for row in table.select('tr'):
+   cells=[c.get_text(' ',strip=True) for c in row.find_all('td',recursive=False)];classes=row.get('class',[])
+   if 'table__row--parent' in classes:
+    if len(cells)<5 or not cells[0]:raise ValueError('Invalid career row')
+    match=re.fullmatch(r'(\d{4})/(\d{2})',cells[1])
+    if not match or (int(match[1])+1)%100!=int(match[2]):raise ValueError('Invalid career season')
+    current={'teamNameAsPublished':cells[0],'season':str(int(match[1]))+'-'+str(int(match[1])+1),'divisionAsPublished':cells[2],'appearances':count(cells[3]),metric:count(cells[4]),'competitions':[]};records.append(current)
+   elif 'table__row--child' in classes:
+    if current is None or len(cells)<5 or not cells[0]:raise ValueError('Career competition has no team context')
+    current['competitions'].append({'competitionNameAsPublished':cells[0],'appearances':count(cells[3]),metric:count(cells[4])})
+ return records
 def profile(html,player):
  s=BeautifulSoup(html,'html.parser')
  if not s.h1 or s.h1.get_text(' ',strip=True)!=player['nameOriginal']:raise ValueError('Player profile identity mismatch')
