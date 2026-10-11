@@ -1,0 +1,631 @@
+[
+  {
+    "sourceClubId": "02f22b11aa604566a1858f96addb669c",
+    "canonicalClubId": null,
+    "nameAr": "الفتح",
+    "nameEn": "Al Fateh",
+    "stadiumAr": "ميدان تمويل الأولى",
+    "stadiumEn": "Maydan Tamweel Aloula",
+    "cityAr": "الأحساء",
+    "cityEn": "Al Ahsa",
+    "profileAr": "https://www.spl.com.sa/ar/teams/al-fateh/",
+    "profileEn": "https://www.spl.com.sa/en/teams/al-fateh/",
+    "logoSource": "https://media-sdp.spl.com.sa/clubLogos/02f22b11aa604566a1858f96addb669c_light.webp",
+    "source": "https://www.spl.com.sa/ar/teams",
+    "referenceSeason": "2026-2027",
+    "verifiedAt": "2026-10-11",
+    "verification": "pending-season-and-canonical-review",
+    "publishedDetails": {
+      "yearFoundation": "1958",
+      "primaryColor": "#003DD3",
+      "countryCode": "SA",
+      "stadium": {
+        "id": "spl::Football_Stadium::52add47068c142ef85bb7d9a8dabb3f9",
+        "name": "ميدان تمويل الأولى",
+        "city": "الأحساء",
+        "capacity": 19096,
+        "yearOfConstruction": 2004,
+        "mapsGeoCodeLatitude": "25.429603705",
+        "mapsGeoCodeLongitude": "49.581390023",
+        "stadiumImage": "https://media-sdp.spl.com.sa/stadiums/52add47068c142ef85bb7d9a8dabb3f9.webp"
+      },
+      "links": {
+        "shopLink": "https://www.fatehclub.com/ar/store",
+        "websiteLink": "https://www.fatehclub.com/"
+      }
+    }
+  },
+  {
+    "sourceClubId": "1a2a221d20d34ffa8f41246ce61f2079",
+    "canonicalClubId": null,
+    "nameAr": "الدرعية",
+    "nameEn": "Diriyah Club",
+    "stadiumAr": "الأول بارك",
+    "stadiumEn": "Al Awwal Park",
+    "cityAr": "الرياض",
+    "cityEn": "Riyadh",
+    "profileAr": "https://www.spl.com.sa/ar/teams/diriyah/",
+    "profileEn": "https://www.spl.com.sa/en/teams/diriyah/",
+    "logoSource": "https://media-sdp.spl.com.sa/clubLogos/1a2a221d20d34ffa8f41246ce61f2079_light.webp",
+    "source": "https://www.spl.com.sa/ar/teams",
+    "referenceSeason": "2026-2027",
+    "verifiedAt": "2026-10-11",
+    "verification": "pending-season-and-canonical-review",
+    "publishedDetails": {
+      "yearFoundation": null,
+      "primaryColor": "#194646",
+      "countryCode": "SA",
+      "stadium": {
+        "id": "spl::Football_Stadium::c919a4f86f97492ba86f7bf5621e02fb",
+        "name": "الأول بارك",
+        "city": "الرياض",
+        "capacity": 28000,
+        "yearOfConstruction": 1971,
+        "mapsGeoCodeLatitude": "24.662608641",
+        "mapsGeoCodeLongitude": "46.739745140",
+        "stadiumImage": "https://media-sdp.spl.com.sa/stadiums/c919a4f86f97492ba86f7bf5621e02fb.webp"
+      },
+      "links": {}
+    }
+  },
+  {
+    "sourceClubId": "2ba5364e60854fb8a7ca60903875e1ff",
+    "canonicalClubId": null,
+    "nameAr": "الرياض",
+    "nameEn": "Al Riyadh",
+    "stadiumAr": "استاد الأمير فيصل بن فهد الرياضية",
+    "stadiumEn": "Prince Faisal bin Fahd Sports City",
+    "cityAr": "الرياض",
+    "cityEn": "Riyadh",
+    "profileAr": "https://www.spl.com.sa/ar/teams/al-riyadh/",
+    "profileEn": "https://www.spl.com.sa/en/teams/al-riyadh/",
+    "logoSource": "https://media-sdp.spl.com.sa/clubLogos/2ba5364e60854fb8a7ca60903875e1ff_light.webp",
+    "source": "https://www.spl.com.sa/ar/teams",
+    "referenceSeason": "2026-2027",
+    "verifiedAt": "2026-10-11",
+    "verification": "pending-season-and-canonical-review",
+    "publishedDetails": {
+      "yearFoundation": "1953",
+      "primaryColor": "#C90000",
+      "countryCode": "SA",
+      "stadium": {
+        "id": "spl::Football_Stadium::c919a4f86f97492ba86f7bf5621e02fb",
+        "name": "استاد الأمير فيصل بن فهد الرياضية",
+        "city": "الرياض",
+        "capacity": 28000,
+        "yearOfConstruction": 1971,
+        "mapsGeoCodeLatitude": "24.662608641",
+        "mapsGeoCodeLongitude": "46.739745140",
+        "stadiumImage": "https://media-sdp.spl.com.sa/stadiums/c919a4f86f97492ba86f7bf5621e02fb.webp"
+      },
+      "links": {
+        "websiteLink": "https://riyadhclub.sa/"
+      }
+    }
+  },
+  {
+    "sourceClubId": "504ab03d43954464917361ed38f5cad2",
+    "canonicalClubId": null,
+    "nameAr": "الفيحاء",
+    "nameEn": "Al Fayha",
+    "stadiumAr": "مدينة المجمعة الرياضية",
+    "stadiumEn": "Al Majma'ah Sports City",
+    "cityAr": "المجمعة",
+    "cityEn": "Al Majma'ah",
+    "profileAr": "https://www.spl.com.sa/ar/teams/al-fayha/",
+    "profileEn": "https://www.spl.com.sa/en/teams/al-fayha/",
+    "logoSource": "https://media-sdp.spl.com.sa/clubLogos/504ab03d43954464917361ed38f5cad2.webp",
+    "source": "https://www.spl.com.sa/ar/teams",
+    "referenceSeason": "2026-2027",
+    "verifiedAt": "2026-10-11",
+    "verification": "pending-season-and-canonical-review",
+    "publishedDetails": {
+      "yearFoundation": "1953",
+      "primaryColor": "#FD7301",
+      "countryCode": "SA",
+      "stadium": {
+        "id": "spl::Football_Stadium::4c9cd8ca8e8b4b6aa73ff0a30d7b0367",
+        "name": "مدينة المجمعة الرياضية",
+        "city": "المجمعة",
+        "capacity": 7000,
+        "yearOfConstruction": 1980,
+        "mapsGeoCodeLatitude": "25.886875751",
+        "mapsGeoCodeLongitude": "45.368084908",
+        "stadiumImage": "https://media-sdp.spl.com.sa/stadiums/4c9cd8ca8e8b4b6aa73ff0a30d7b0367.webp"
+      },
+      "links": {}
+    }
+  },
+  {
+    "sourceClubId": "5c55f144687d497da1249c312392bb47",
+    "canonicalClubId": null,
+    "nameAr": "الاتحاد",
+    "nameEn": "Al Ittihad",
+    "stadiumAr": "ملعب الإنماء",
+    "stadiumEn": "Alinma Stadium",
+    "cityAr": "جدة",
+    "cityEn": "Jeddah",
+    "profileAr": "https://www.spl.com.sa/ar/teams/al-ittihad/",
+    "profileEn": "https://www.spl.com.sa/en/teams/al-ittihad/",
+    "logoSource": "https://media-sdp.spl.com.sa/clubLogos/5c55f144687d497da1249c312392bb47.webp",
+    "source": "https://www.spl.com.sa/ar/teams",
+    "referenceSeason": "2026-2027",
+    "verifiedAt": "2026-10-11",
+    "verification": "pending-season-and-canonical-review",
+    "publishedDetails": {
+      "yearFoundation": "1927",
+      "primaryColor": "#F4DE0F",
+      "countryCode": "SA",
+      "stadium": {
+        "id": "spl::Football_Stadium::b58ccf348d2c4142bb748520975dd780",
+        "name": "ملعب الإنماء",
+        "city": "جدة",
+        "capacity": 63079,
+        "yearOfConstruction": 2014,
+        "mapsGeoCodeLatitude": "21.763282267",
+        "mapsGeoCodeLongitude": "39.164306606",
+        "stadiumImage": "https://media-sdp.spl.com.sa/stadiums/b58ccf348d2c4142bb748520975dd780.webp"
+      },
+      "links": {
+        "shopLink": "https://shop.ittihadclub.sa/en"
+      }
+    }
+  },
+  {
+    "sourceClubId": "6bb24501d8c04b7e8cbd05fe89d8910f",
+    "canonicalClubId": null,
+    "nameAr": "الخليج",
+    "nameEn": "Al Khaleej",
+    "stadiumAr": "استاد الأمير محمد بن فهد",
+    "stadiumEn": "Prince Mohammed Bin Fahd Stadium",
+    "cityAr": "الدمام",
+    "cityEn": "Saihat",
+    "profileAr": "https://www.spl.com.sa/ar/teams/al-khaleej/",
+    "profileEn": "https://www.spl.com.sa/en/teams/al-khaleej/",
+    "logoSource": "https://media-sdp.spl.com.sa/clubLogos/6bb24501d8c04b7e8cbd05fe89d8910f.webp",
+    "source": "https://www.spl.com.sa/ar/teams",
+    "referenceSeason": "2026-2027",
+    "verifiedAt": "2026-10-11",
+    "verification": "pending-season-and-canonical-review",
+    "publishedDetails": {
+      "yearFoundation": "1945",
+      "primaryColor": "#EEBE26",
+      "countryCode": "SA",
+      "stadium": {
+        "id": "spl::Football_Stadium::655decaf01b34893b1e030cf4d703e86",
+        "name": "استاد الأمير محمد بن فهد",
+        "city": "الدمام",
+        "capacity": 35000,
+        "yearOfConstruction": 1973,
+        "mapsGeoCodeLatitude": "26.427148881",
+        "mapsGeoCodeLongitude": "50.114123373",
+        "stadiumImage": "https://media-sdp.spl.com.sa/stadiums/655decaf01b34893b1e030cf4d703e86.webp"
+      },
+      "links": {
+        "websiteLink": "https://khaleejclub.sa/"
+      }
+    }
+  },
+  {
+    "sourceClubId": "8169ad25b0754c44a49375717b3f9fb2",
+    "canonicalClubId": null,
+    "nameAr": "الشباب",
+    "nameEn": "Al Shabab",
+    "stadiumAr": "إس إتش جي أرينا",
+    "stadiumEn": "SHG Arena",
+    "cityAr": "الرياض",
+    "cityEn": "Riyadh",
+    "profileAr": "https://www.spl.com.sa/ar/teams/al-shabab/",
+    "profileEn": "https://www.spl.com.sa/en/teams/al-shabab/",
+    "logoSource": "https://media-sdp.spl.com.sa/clubLogos/8169ad25b0754c44a49375717b3f9fb2.webp",
+    "source": "https://www.spl.com.sa/ar/teams",
+    "referenceSeason": "2026-2027",
+    "verifiedAt": "2026-10-11",
+    "verification": "pending-season-and-canonical-review",
+    "publishedDetails": {
+      "yearFoundation": "1947",
+      "primaryColor": "#E9E9E9",
+      "countryCode": "SA",
+      "stadium": {
+        "id": "spl::Football_Stadium::40f16c9ce8eb4b9e92e903fcf4c964b7",
+        "name": "إس إتش جي أرينا",
+        "city": "الرياض",
+        "capacity": 13537,
+        "mapsGeoCodeLatitude": "24.803157800",
+        "mapsGeoCodeLongitude": "46.628743885",
+        "stadiumImage": "https://media-sdp.spl.com.sa/stadiums/40f16c9ce8eb4b9e92e903fcf4c964b7.webp"
+      },
+      "links": {
+        "websiteLink": "https://alshabab-sc.sa/"
+      }
+    }
+  },
+  {
+    "sourceClubId": "874890145b9d43d59ec3f646e8bd4fee",
+    "canonicalClubId": null,
+    "nameAr": "الفيصلي",
+    "nameEn": "Al Faisaly",
+    "stadiumAr": "مدينة المجمعة الرياضية",
+    "stadiumEn": "Al Majma'ah Sports City",
+    "cityAr": "المجمعة",
+    "cityEn": "Al Majma'ah",
+    "profileAr": "https://www.spl.com.sa/ar/teams/al-faisaly/",
+    "profileEn": "https://www.spl.com.sa/en/teams/al-faisaly/",
+    "logoSource": "https://media-sdp.spl.com.sa/clubLogos/874890145b9d43d59ec3f646e8bd4fee_light.webp",
+    "source": "https://www.spl.com.sa/ar/teams",
+    "referenceSeason": "2026-2027",
+    "verifiedAt": "2026-10-11",
+    "verification": "pending-season-and-canonical-review",
+    "publishedDetails": {
+      "yearFoundation": "1954",
+      "primaryColor": "#7E2423",
+      "countryCode": "SA",
+      "stadium": {
+        "id": "spl::Football_Stadium::4c9cd8ca8e8b4b6aa73ff0a30d7b0367",
+        "name": "مدينة المجمعة الرياضية",
+        "city": "المجمعة",
+        "capacity": 7000,
+        "yearOfConstruction": 1980,
+        "mapsGeoCodeLatitude": "25.886875751",
+        "mapsGeoCodeLongitude": "45.368084908",
+        "stadiumImage": "https://media-sdp.spl.com.sa/stadiums/4c9cd8ca8e8b4b6aa73ff0a30d7b0367.webp"
+      },
+      "links": {
+        "websiteLink": "https://alfaisalyfc.net/"
+      }
+    }
+  },
+  {
+    "sourceClubId": "8a2bfb4eeaad41e9a84107e0a9c75744",
+    "canonicalClubId": null,
+    "nameAr": "الحزم",
+    "nameEn": "Al Hazem",
+    "stadiumAr": "استاد نادي الحزم",
+    "stadiumEn": "Al Hazem Club Stadium",
+    "cityAr": "الرس",
+    "cityEn": "Ar Rass",
+    "profileAr": "https://www.spl.com.sa/ar/teams/al-hazem/",
+    "profileEn": "https://www.spl.com.sa/en/teams/al-hazem/",
+    "logoSource": "https://media-sdp.spl.com.sa/clubLogos/8a2bfb4eeaad41e9a84107e0a9c75744.webp",
+    "source": "https://www.spl.com.sa/ar/teams",
+    "referenceSeason": "2026-2027",
+    "verifiedAt": "2026-10-11",
+    "verification": "pending-season-and-canonical-review",
+    "publishedDetails": {
+      "yearFoundation": "1957",
+      "primaryColor": "#FED23D",
+      "countryCode": "SA",
+      "stadium": {
+        "id": "spl::Football_Stadium::7f0403f59f954bb4b6b0db21bc84193d",
+        "name": "استاد نادي الحزم",
+        "city": "الرس",
+        "capacity": 8000,
+        "yearOfConstruction": 1982,
+        "mapsGeoCodeLatitude": "25.862100573",
+        "mapsGeoCodeLongitude": "43.502308130",
+        "stadiumImage": "https://media-sdp.spl.com.sa/stadiums/7f0403f59f954bb4b6b0db21bc84193d.webp"
+      },
+      "links": {
+        "websiteLink": "https://alhazem.sa/"
+      }
+    }
+  },
+  {
+    "sourceClubId": "8f7c588e0292459f98d90969682dc2ae",
+    "canonicalClubId": null,
+    "nameAr": "الخلود",
+    "nameEn": "Al Kholood",
+    "stadiumAr": "ملعب نادي الحزم",
+    "stadiumEn": "Al Hazem Club Stadium",
+    "cityAr": "الرس",
+    "cityEn": "Ar Rass",
+    "profileAr": "https://www.spl.com.sa/ar/teams/al-kholood/",
+    "profileEn": "https://www.spl.com.sa/en/teams/al-kholood/",
+    "logoSource": "https://media-sdp.spl.com.sa/clubLogos/8f7c588e0292459f98d90969682dc2ae_light.webp",
+    "source": "https://www.spl.com.sa/ar/teams",
+    "referenceSeason": "2026-2027",
+    "verifiedAt": "2026-10-11",
+    "verification": "pending-season-and-canonical-review",
+    "publishedDetails": {
+      "yearFoundation": "1970",
+      "primaryColor": "#A8012D",
+      "countryCode": "SA",
+      "stadium": {
+        "id": "spl::Football_Stadium::7f0403f59f954bb4b6b0db21bc84193d",
+        "name": "ملعب نادي الحزم",
+        "city": "الرس",
+        "capacity": 8000,
+        "yearOfConstruction": 1982,
+        "mapsGeoCodeLatitude": "25.862100573",
+        "mapsGeoCodeLongitude": "43.502308130",
+        "stadiumImage": "https://media-sdp.spl.com.sa/stadiums/7f0403f59f954bb4b6b0db21bc84193d.webp"
+      },
+      "links": {
+        "websiteLink": "https://akfc-sa.com/"
+      }
+    }
+  },
+  {
+    "sourceClubId": "94263b19841944c38cb20892b176c862",
+    "canonicalClubId": null,
+    "nameAr": "النصر",
+    "nameEn": "Al Nassr",
+    "stadiumAr": "ملعب الأول بارك",
+    "stadiumEn": "Al Awwal Park",
+    "cityAr": "الرياض",
+    "cityEn": "Riyadh",
+    "profileAr": "https://www.spl.com.sa/ar/teams/al-nassr/",
+    "profileEn": "https://www.spl.com.sa/en/teams/al-nassr/",
+    "logoSource": "https://media-sdp.spl.com.sa/clubLogos/94263b19841944c38cb20892b176c862.webp",
+    "source": "https://www.spl.com.sa/ar/teams",
+    "referenceSeason": "2026-2027",
+    "verifiedAt": "2026-10-11",
+    "verification": "pending-season-and-canonical-review",
+    "publishedDetails": {
+      "yearFoundation": "1955",
+      "primaryColor": "#FFDB00",
+      "countryCode": "SA",
+      "stadium": {
+        "id": "spl::Football_Stadium::5b3c8004d5b2483080e77494f30be188",
+        "name": "ملعب الأول بارك",
+        "city": "الرياض",
+        "capacity": 26100,
+        "yearOfConstruction": 2015,
+        "mapsGeoCodeLatitude": "24.729226747",
+        "mapsGeoCodeLongitude": "46.623754371",
+        "stadiumImage": "https://media-sdp.spl.com.sa/stadiums/5b3c8004d5b2483080e77494f30be188.webp"
+      },
+      "links": {
+        "shopLink": "https://store.alnassr.sa/",
+        "websiteLink": "https://alnassr.sa/"
+      }
+    }
+  },
+  {
+    "sourceClubId": "aaac358d37704691aadcfd92ebd53c7b",
+    "canonicalClubId": null,
+    "nameAr": "نيوم",
+    "nameEn": "NEOM",
+    "stadiumAr": "مدينة الملك خالد الرياضية",
+    "stadiumEn": "King Khalid Sports City",
+    "cityAr": "تبوك",
+    "cityEn": "Tabuk",
+    "profileAr": "https://www.spl.com.sa/ar/teams/neom/",
+    "profileEn": "https://www.spl.com.sa/en/teams/neom/",
+    "logoSource": "https://media-sdp.spl.com.sa/clubLogos/aaac358d37704691aadcfd92ebd53c7b_light.webp",
+    "source": "https://www.spl.com.sa/ar/teams",
+    "referenceSeason": "2026-2027",
+    "verifiedAt": "2026-10-11",
+    "verification": "pending-season-and-canonical-review",
+    "publishedDetails": {
+      "yearFoundation": "1965",
+      "primaryColor": "#0084BD",
+      "countryCode": "SA",
+      "stadium": {
+        "id": "spl::Football_Stadium::ca8b5f8a0d40466ebd22e45caa7e4ce1",
+        "name": "مدينة الملك خالد الرياضية",
+        "city": "تبوك",
+        "capacity": 20000,
+        "yearOfConstruction": 1985,
+        "mapsGeoCodeLatitude": "28.479260070",
+        "mapsGeoCodeLongitude": "36.489082531",
+        "stadiumImage": "https://media-sdp.spl.com.sa/stadiums/ca8b5f8a0d40466ebd22e45caa7e4ce1.webp"
+      },
+      "links": {
+        "websiteLink": "https://www.neom.com/neomsc"
+      }
+    }
+  },
+  {
+    "sourceClubId": "ab988d0ad28b419b96ab3cf2c49e0f6f",
+    "canonicalClubId": null,
+    "nameAr": "الاتفاق",
+    "nameEn": "Al Ettifaq",
+    "stadiumAr": "ملعب نادي الاتفاق",
+    "stadiumEn": "Al Ettifaq Club Stadium",
+    "cityAr": "الدمام",
+    "cityEn": "Dammam",
+    "profileAr": "https://www.spl.com.sa/ar/teams/al-ettifaq/",
+    "profileEn": "https://www.spl.com.sa/en/teams/al-ettifaq/",
+    "logoSource": "https://media-sdp.spl.com.sa/clubLogos/ab988d0ad28b419b96ab3cf2c49e0f6f_light.webp",
+    "source": "https://www.spl.com.sa/ar/teams",
+    "referenceSeason": "2026-2027",
+    "verifiedAt": "2026-10-11",
+    "verification": "pending-season-and-canonical-review",
+    "publishedDetails": {
+      "yearFoundation": "1945",
+      "primaryColor": "#017F53",
+      "countryCode": "SA",
+      "stadium": {
+        "id": "spl::Football_Stadium::208ccd6b0b614b09aa4d73be4b289479",
+        "name": "ملعب نادي الاتفاق",
+        "city": "الدمام",
+        "capacity": 15000,
+        "yearOfConstruction": 1983,
+        "mapsGeoCodeLatitude": "26.350810607",
+        "mapsGeoCodeLongitude": "50.181306303",
+        "stadiumImage": "https://media-sdp.spl.com.sa/stadiums/208ccd6b0b614b09aa4d73be4b289479.webp"
+      },
+      "links": {
+        "shopLink": "https://ettifaqstore.com/",
+        "websiteLink": "https://ettifaq.com/"
+      }
+    }
+  },
+  {
+    "sourceClubId": "ae14a651fb584440979f8c4d02b89428",
+    "canonicalClubId": null,
+    "nameAr": "الهلال",
+    "nameEn": "Al Hilal",
+    "stadiumAr": "المملكة أرينا",
+    "stadiumEn": "Kingdom Arena",
+    "cityAr": "الرياض",
+    "cityEn": "Riyadh",
+    "profileAr": "https://www.spl.com.sa/ar/teams/al-hilal/",
+    "profileEn": "https://www.spl.com.sa/en/teams/al-hilal/",
+    "logoSource": "https://media-sdp.spl.com.sa/clubLogos/ae14a651fb584440979f8c4d02b89428_light.webp",
+    "source": "https://www.spl.com.sa/ar/teams",
+    "referenceSeason": "2026-2027",
+    "verifiedAt": "2026-10-11",
+    "verification": "pending-season-and-canonical-review",
+    "publishedDetails": {
+      "yearFoundation": "1957",
+      "primaryColor": "#012CED",
+      "countryCode": "SA",
+      "stadium": {
+        "id": "spl::Football_Stadium::debf2a17e3db43e1bd198c1548e71f1e",
+        "name": "المملكة أرينا",
+        "city": "الرياض",
+        "capacity": 26000,
+        "yearOfConstruction": 2024,
+        "mapsGeoCodeLatitude": "24.778576755",
+        "mapsGeoCodeLongitude": "46.607507447",
+        "stadiumImage": "https://media-sdp.spl.com.sa/stadiums/debf2a17e3db43e1bd198c1548e71f1e.webp"
+      },
+      "links": {
+        "shopLink": "https://store.alhilal.com/",
+        "websiteLink": "https://alhilal.com/"
+      }
+    }
+  },
+  {
+    "sourceClubId": "b950674ec2cf4184a0dea482414ac915",
+    "canonicalClubId": null,
+    "nameAr": "أبها",
+    "nameEn": "Abha",
+    "stadiumAr": "ملعب مدينة الأمير سلطان بن عبدالعزيز الرياضية",
+    "stadiumEn": "Prince Sultan Bin Abdulaziz Sports City",
+    "cityAr": "أبها",
+    "cityEn": "Abha",
+    "profileAr": "https://www.spl.com.sa/ar/teams/abha/",
+    "profileEn": "https://www.spl.com.sa/en/teams/abha/",
+    "logoSource": "https://media-sdp.spl.com.sa/clubLogos/b950674ec2cf4184a0dea482414ac915_light.webp",
+    "source": "https://www.spl.com.sa/ar/teams",
+    "referenceSeason": "2026-2027",
+    "verifiedAt": "2026-10-11",
+    "verification": "pending-season-and-canonical-review",
+    "publishedDetails": {
+      "yearFoundation": null,
+      "primaryColor": "#103E72",
+      "countryCode": "SA",
+      "stadium": {
+        "id": "spl::Football_Stadium::b410bc3ec5a14fe4af9ea4ecca11daac",
+        "name": "ملعب مدينة الأمير سلطان بن عبدالعزيز الرياضية",
+        "city": "أبها",
+        "capacity": 20000,
+        "yearOfConstruction": 1984,
+        "mapsGeoCodeLatitude": "18.310529285",
+        "mapsGeoCodeLongitude": "42.598328590",
+        "stadiumImage": "https://media-sdp.spl.com.sa/stadiums/b410bc3ec5a14fe4af9ea4ecca11daac.webp"
+      },
+      "links": {
+        "websiteLink": "https://abhafc.sa/"
+      }
+    }
+  },
+  {
+    "sourceClubId": "d234b1ebf80e481a888ce64cab2dcd89",
+    "canonicalClubId": null,
+    "nameAr": "التعاون",
+    "nameEn": "Al Taawoun",
+    "stadiumAr": "استاد نادي التعاون",
+    "stadiumEn": "Wolves Park",
+    "cityAr": "بريدة",
+    "cityEn": "Buraydah",
+    "profileAr": "https://www.spl.com.sa/ar/teams/al-taawoun/",
+    "profileEn": "https://www.spl.com.sa/en/teams/al-taawoun/",
+    "logoSource": "https://media-sdp.spl.com.sa/clubLogos/d234b1ebf80e481a888ce64cab2dcd89.webp",
+    "source": "https://www.spl.com.sa/ar/teams",
+    "referenceSeason": "2026-2027",
+    "verifiedAt": "2026-10-11",
+    "verification": "pending-season-and-canonical-review",
+    "publishedDetails": {
+      "yearFoundation": "1956",
+      "primaryColor": "#FED814",
+      "countryCode": "SA",
+      "stadium": {
+        "id": "spl::Football_Stadium::998b2d975f7c433989559bc17e0a82ee",
+        "name": "استاد نادي التعاون",
+        "city": "بريدة",
+        "capacity": 10000,
+        "mapsGeoCodeLatitude": "26.456987000",
+        "mapsGeoCodeLongitude": "43.925142000",
+        "stadiumImage": "https://media-sdp.spl.com.sa/stadiums/998b2d975f7c433989559bc17e0a82ee.webp"
+      },
+      "links": {
+        "websiteLink": "https://www.altaawounfc.com/"
+      }
+    }
+  },
+  {
+    "sourceClubId": "dd29e62730be4d848e1be4c244fbfe5f",
+    "canonicalClubId": null,
+    "nameAr": "القادسية",
+    "nameEn": "Al Qadsiah",
+    "stadiumAr": "استاد الأمير محمد بن فهد",
+    "stadiumEn": "Prince Mohammed Bin Fahd Stadium",
+    "cityAr": "الدمام",
+    "cityEn": "Khobar",
+    "profileAr": "https://www.spl.com.sa/ar/teams/al-qadsiah/",
+    "profileEn": "https://www.spl.com.sa/en/teams/al-qadsiah/",
+    "logoSource": "https://media-sdp.spl.com.sa/clubLogos/dd29e62730be4d848e1be4c244fbfe5f_light.webp",
+    "source": "https://www.spl.com.sa/ar/teams",
+    "referenceSeason": "2026-2027",
+    "verifiedAt": "2026-10-11",
+    "verification": "pending-season-and-canonical-review",
+    "publishedDetails": {
+      "yearFoundation": "1967",
+      "primaryColor": "#EB0101",
+      "countryCode": "SA",
+      "stadium": {
+        "id": "spl::Football_Stadium::655decaf01b34893b1e030cf4d703e86",
+        "name": "استاد الأمير محمد بن فهد",
+        "city": "الدمام",
+        "capacity": 35000,
+        "yearOfConstruction": 1973,
+        "mapsGeoCodeLatitude": "26.427148881",
+        "mapsGeoCodeLongitude": "50.114123373",
+        "stadiumImage": "https://media-sdp.spl.com.sa/stadiums/655decaf01b34893b1e030cf4d703e86.webp"
+      },
+      "links": {
+        "websiteLink": "https://alqadsiah.com/"
+      }
+    }
+  },
+  {
+    "sourceClubId": "efdd3327b51d4fbd95b83d784301d411",
+    "canonicalClubId": null,
+    "nameAr": "الأهلي",
+    "nameEn": "Al Ahli",
+    "stadiumAr": "ملعب الإنماء",
+    "stadiumEn": "Alinma Stadium",
+    "cityAr": "جدة",
+    "cityEn": "Jeddah",
+    "profileAr": "https://www.spl.com.sa/ar/teams/al-ahli/",
+    "profileEn": "https://www.spl.com.sa/en/teams/al-ahli/",
+    "logoSource": "https://media-sdp.spl.com.sa/clubLogos/efdd3327b51d4fbd95b83d784301d411_light.webp",
+    "source": "https://www.spl.com.sa/ar/teams",
+    "referenceSeason": "2026-2027",
+    "verifiedAt": "2026-10-11",
+    "verification": "pending-season-and-canonical-review",
+    "publishedDetails": {
+      "yearFoundation": "1937",
+      "primaryColor": "#3D8261",
+      "countryCode": "SA",
+      "stadium": {
+        "id": "spl::Football_Stadium::b58ccf348d2c4142bb748520975dd780",
+        "name": "ملعب الإنماء",
+        "city": "جدة",
+        "capacity": 63079,
+        "yearOfConstruction": 2014,
+        "mapsGeoCodeLatitude": "21.763282267",
+        "mapsGeoCodeLongitude": "39.164306606",
+        "stadiumImage": "https://media-sdp.spl.com.sa/stadiums/b58ccf348d2c4142bb748520975dd780.webp"
+      },
+      "links": {
+        "shopLink": "https://www.noon.com/saudi-en/~alahlisaudifc/",
+        "websiteLink": "https://www.alahlifc.sa/"
+      }
+    }
+  }
+]

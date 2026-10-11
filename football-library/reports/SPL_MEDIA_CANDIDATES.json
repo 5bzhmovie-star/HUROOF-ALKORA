@@ -1,0 +1,1329 @@
+{
+  "downloaded": [
+    {
+      "path": "assets/pending_media/spl/clubs/02f22b11aa604566a1858f96addb669c/logo.webp",
+      "sha256": "7e42efb1bee806d71c846a12d5c9e30a744a754ea18d6aea98ff406d1cbda4bd",
+      "width": 512,
+      "height": 512,
+      "bytes": 4110,
+      "source": "https://media-sdp.spl.com.sa/clubLogos/02f22b11aa604566a1858f96addb669c_light.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/clubs/1a2a221d20d34ffa8f41246ce61f2079/logo.webp",
+      "sha256": "3a0087d8179ab4d41d12cfca1c9c555ceb516946a578215fd4b9178e773e0810",
+      "width": 512,
+      "height": 512,
+      "bytes": 32648,
+      "source": "https://media-sdp.spl.com.sa/clubLogos/1a2a221d20d34ffa8f41246ce61f2079_light.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/clubs/2ba5364e60854fb8a7ca60903875e1ff/logo.webp",
+      "sha256": "23c3c575eb806bb957a6685c438a24fcadf8a3ecc7b46a0e0e8e959d3d623973",
+      "width": 512,
+      "height": 512,
+      "bytes": 36682,
+      "source": "https://media-sdp.spl.com.sa/clubLogos/2ba5364e60854fb8a7ca60903875e1ff_light.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/clubs/504ab03d43954464917361ed38f5cad2/logo.webp",
+      "sha256": "cf5a2f0987c7c519041343165012f4ac3aee750e11f93a585c9450c1f1b4b513",
+      "width": 512,
+      "height": 512,
+      "bytes": 69504,
+      "source": "https://media-sdp.spl.com.sa/clubLogos/504ab03d43954464917361ed38f5cad2.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/clubs/5c55f144687d497da1249c312392bb47/logo.webp",
+      "sha256": "7f7e23383b54ac97938bd7dc7ac27a34704ac81d0300c9b08b786a17cd243081",
+      "width": 512,
+      "height": 512,
+      "bytes": 26362,
+      "source": "https://media-sdp.spl.com.sa/clubLogos/5c55f144687d497da1249c312392bb47.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/clubs/6bb24501d8c04b7e8cbd05fe89d8910f/logo.webp",
+      "sha256": "47416223eb2653ed1e7969b412dafceda268dada8f5fc899c0f380fa041783f6",
+      "width": 512,
+      "height": 512,
+      "bytes": 61432,
+      "source": "https://media-sdp.spl.com.sa/clubLogos/6bb24501d8c04b7e8cbd05fe89d8910f.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/clubs/8169ad25b0754c44a49375717b3f9fb2/logo.webp",
+      "sha256": "17dbb49c449d8d1e8918094f8e0e18e6bde2640180411ad54799f0509eb34940",
+      "width": 512,
+      "height": 512,
+      "bytes": 63724,
+      "source": "https://media-sdp.spl.com.sa/clubLogos/8169ad25b0754c44a49375717b3f9fb2.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/clubs/874890145b9d43d59ec3f646e8bd4fee/logo.webp",
+      "sha256": "8f0b6fbe55d4862650b9ac0aba8dc1aac0dc1cb519790ce4293ee90b0966f39a",
+      "width": 512,
+      "height": 512,
+      "bytes": 48386,
+      "source": "https://media-sdp.spl.com.sa/clubLogos/874890145b9d43d59ec3f646e8bd4fee_light.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/logo.webp",
+      "sha256": "18923ff58596e51d616fd22163643ef56ceee57d65894b51cf8469355659e7b2",
+      "width": 512,
+      "height": 512,
+      "bytes": 12452,
+      "source": "https://media-sdp.spl.com.sa/clubLogos/8a2bfb4eeaad41e9a84107e0a9c75744.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/clubs/8f7c588e0292459f98d90969682dc2ae/logo.webp",
+      "sha256": "22ab083538d1f162da35923032cbe8231b7633f8ec03e7b0c287b82698395b84",
+      "width": 512,
+      "height": 512,
+      "bytes": 64102,
+      "source": "https://media-sdp.spl.com.sa/clubLogos/8f7c588e0292459f98d90969682dc2ae_light.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/clubs/94263b19841944c38cb20892b176c862/logo.webp",
+      "sha256": "fda5b6216a5cc00685365b5105dd208c98a8fdc137f238c8de424a5c900758f0",
+      "width": 512,
+      "height": 512,
+      "bytes": 56130,
+      "source": "https://media-sdp.spl.com.sa/clubLogos/94263b19841944c38cb20892b176c862.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/clubs/aaac358d37704691aadcfd92ebd53c7b/logo.webp",
+      "sha256": "555b67d562ae8c29a7abf2930549cb813426e37302906ed1de4c03108bd1fe0c",
+      "width": 512,
+      "height": 512,
+      "bytes": 109842,
+      "source": "https://media-sdp.spl.com.sa/clubLogos/aaac358d37704691aadcfd92ebd53c7b_light.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/clubs/ab988d0ad28b419b96ab3cf2c49e0f6f/logo.webp",
+      "sha256": "6004adc994d2df6d4e4adfe9987c9dd927ee180374926af4bebd1324271717bc",
+      "width": 512,
+      "height": 512,
+      "bytes": 60126,
+      "source": "https://media-sdp.spl.com.sa/clubLogos/ab988d0ad28b419b96ab3cf2c49e0f6f_light.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/clubs/ae14a651fb584440979f8c4d02b89428/logo.webp",
+      "sha256": "35be4b8c009bcaf58b487175efea35680a3c4e1491fb47faca8a25cd53059152",
+      "width": 512,
+      "height": 512,
+      "bytes": 5176,
+      "source": "https://media-sdp.spl.com.sa/clubLogos/ae14a651fb584440979f8c4d02b89428_light.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/clubs/b950674ec2cf4184a0dea482414ac915/logo.webp",
+      "sha256": "b5f6bf6af67133f4ff83ef784a5a1be4fc4bcd0e4205ebdcaea14c8a293e64d3",
+      "width": 512,
+      "height": 512,
+      "bytes": 17396,
+      "source": "https://media-sdp.spl.com.sa/clubLogos/b950674ec2cf4184a0dea482414ac915_light.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/clubs/d234b1ebf80e481a888ce64cab2dcd89/logo.webp",
+      "sha256": "099f611a0afc9bc2e68b7acedd874977fc4cb01b3618c8e74ceba5a5ec883db8",
+      "width": 512,
+      "height": 512,
+      "bytes": 48700,
+      "source": "https://media-sdp.spl.com.sa/clubLogos/d234b1ebf80e481a888ce64cab2dcd89.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/clubs/dd29e62730be4d848e1be4c244fbfe5f/logo.webp",
+      "sha256": "4ed547f633e9579cc6fad7577b7e4db8176676ade7de6d0b88be25f4337a8f85",
+      "width": 512,
+      "height": 512,
+      "bytes": 6532,
+      "source": "https://media-sdp.spl.com.sa/clubLogos/dd29e62730be4d848e1be4c244fbfe5f_light.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/clubs/efdd3327b51d4fbd95b83d784301d411/logo.webp",
+      "sha256": "fc304b842856e3dcf01d785ee55875a68ed996c7c9f0cf818895afb54a8a2184",
+      "width": 512,
+      "height": 512,
+      "bytes": 46810,
+      "source": "https://media-sdp.spl.com.sa/clubLogos/efdd3327b51d4fbd95b83d784301d411_light.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/coaches/b415b095328a4cb5ad8805a49642ad29/clubs/02f22b11aa604566a1858f96addb669c/portrait.webp",
+      "sha256": "31034b01914d755ffcea493d7f8832017f1fb6e94f1a991915e55e1eed652a6f",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 533730,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/02f22b11aa604566a1858f96addb669c/coaches/b415b095328a4cb5ad8805a49642ad29.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/06527f3be76e458f85313fa6be1a3e08/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "da0217ae5382ede226e036219b740987818bed688a1ebfcff6d7853f30c162bc",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 507946,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/06527f3be76e458f85313fa6be1a3e08_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/07babc3366b942909e48a09e21691868/clubs/ab988d0ad28b419b96ab3cf2c49e0f6f/portrait.webp",
+      "sha256": "66c302b64adf16015b02b2d4852c74aa1d4d85122a39669f0110172911621990",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 548892,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/ab988d0ad28b419b96ab3cf2c49e0f6f/home/07babc3366b942909e48a09e21691868_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/0874de1205824208b32361953270237a/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "3a7be1e588a3bae1cbc42f570861da60b82177c57f7ae572f77da76fbacbf09d",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 583488,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/0874de1205824208b32361953270237a_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/0bd051e45e484718950d5451b6109f92/clubs/02f22b11aa604566a1858f96addb669c/portrait.webp",
+      "sha256": "53a7657c0c4ae2c8a0ab446db7ae5517454f24a6a3f47938237237cf7cea1501",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 555758,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/02f22b11aa604566a1858f96addb669c/home/0bd051e45e484718950d5451b6109f92_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/0e506bbfc8ef4cc8adec1236ca94863f/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "009b6ac4f78fb04d35fae6a18be4ec6f366b6380bbe8240dff85f403415c123b",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 519968,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/0e506bbfc8ef4cc8adec1236ca94863f_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/13e1c06f0c164e3495a2f9a2c5bb8700/clubs/ab988d0ad28b419b96ab3cf2c49e0f6f/portrait.webp",
+      "sha256": "eb0eddadcca66d360591b188e72e160a548dc766c0e2fd6818ad51cd6c3c1344",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 555728,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/ab988d0ad28b419b96ab3cf2c49e0f6f/home/13e1c06f0c164e3495a2f9a2c5bb8700_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/154fd75d0c4c4b2489b6b6ac8c173850/clubs/ab988d0ad28b419b96ab3cf2c49e0f6f/portrait.webp",
+      "sha256": "f6d6181e435b6cc65fa69f759382d2dda297480fe8ef72d1431641eacce17466",
+      "width": 800,
+      "height": 900,
+      "bytes": 300708,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/ab988d0ad28b419b96ab3cf2c49e0f6f/home/154fd75d0c4c4b2489b6b6ac8c173850_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/163674d0ee814da38917d74de2df4299/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "1b8f87b6c67a56ceabd7b3896a1b5588b6ee27fb7d372773f7b5e2aa62661803",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 581506,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/163674d0ee814da38917d74de2df4299_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/1bfec0a3926448b59a0482c26051c1fc/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "5ce798a29d1c0f487e27d7d725006aefe3b2d802fb8c314baa207398132c8a30",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 561646,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/1bfec0a3926448b59a0482c26051c1fc_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/1cf97c2e8a914719846885086f961af4/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "9e5d0463066339db1fb0b91df72b01669ff8a9ab39169e70124c4db7c40723fa",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 427292,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/1cf97c2e8a914719846885086f961af4_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/1dd0d525bc2245508c2b89e437c7c89a/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "f0f44d2f3f2722fcc0897784e19267bba79c35320e949bb3523b82679abcfda8",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 668482,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/1dd0d525bc2245508c2b89e437c7c89a_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/1f2b9232ee65487e8c0e7e28a21d5d9c/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "5c563e53d66711c18afa0eb6cc20995665a6abcbea0dab2fff03eaa20a626538",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 547860,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/1f2b9232ee65487e8c0e7e28a21d5d9c_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/1fbe75c547ec479eb05378e5afc517d0/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "b530e941f215a802f9d097740dd1a9e90d2b6ef7b6072ab4d7064e6fd5bdbf53",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 646438,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/1fbe75c547ec479eb05378e5afc517d0_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/20bd9be9c1024e11861fc5c1e91a05d3/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "822f2af40fac44012fa8c6bfacf1284ed8e6a0f623ba98b642758a8f23998f1c",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 556844,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/20bd9be9c1024e11861fc5c1e91a05d3_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/2837c9ccd1f14105ad5ba1a51bae9fdf/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "ad0f6631e1ef327a7c2d3f2a4ba6f718bb2c98c5eb005f491368d30e39889baa",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 572518,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/2837c9ccd1f14105ad5ba1a51bae9fdf_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/284662e38e5e4780937c6d5609b939ca/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "2a2903e6e2d7ea24a927b92a10a73847f0bf53c95cc1e322746ef3e67ba8e15c",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 533016,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/284662e38e5e4780937c6d5609b939ca_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/29a85f426a95498eb82c535978191152/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "9319c6ffd22b4b9dd869688d88c0bf2b4d1949e5ecc0a0e81fb639880c2b47f6",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 585868,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/29a85f426a95498eb82c535978191152_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/2b9db98517524db18695bc203c686bab/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "e814bd090e211ce5902a95f17492217c14747bc7b0b671ea1d7da69536e9244c",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 600310,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/2b9db98517524db18695bc203c686bab_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/32292733834f42c2accbd23314e22d1d/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "debd90c3e48414eec21c502137bf2294b42325fb92b4bbd65cf38caa0e77dd3d",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 533616,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/32292733834f42c2accbd23314e22d1d_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/338c0fee2e2943258fdecab07c96ca0e/clubs/ab988d0ad28b419b96ab3cf2c49e0f6f/portrait.webp",
+      "sha256": "0ae1892643b2151dd4f484f0825a2fed7aeb4e4ca57b2e92d2b97a128f9dc952",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 595834,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/ab988d0ad28b419b96ab3cf2c49e0f6f/home/338c0fee2e2943258fdecab07c96ca0e_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/33e821f9304140caa7e2348229b49915/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "852ea712ad35227012344cd6b7953e65b54c6a3921f304adcbd8c0e42218d31b",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 580574,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/33e821f9304140caa7e2348229b49915_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/377209e1469144e48a222dd5bd19defc/clubs/ab988d0ad28b419b96ab3cf2c49e0f6f/portrait.webp",
+      "sha256": "0d7fd50735acf13dcb86c23c4ae16ed80805f114f52b26915c8ce82fb441fdfa",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 544438,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/ab988d0ad28b419b96ab3cf2c49e0f6f/home/377209e1469144e48a222dd5bd19defc_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/3afc177d77e14c5a90b6e0ebbf8b096b/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "af0be062f07bdc2143f90205b1ea0533dfdc06065f6331e26416773f8ff4dcf1",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 580032,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/3afc177d77e14c5a90b6e0ebbf8b096b_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/3c3a03b7ef264bf786e152b0c40d773f/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "c94ce7b91fc08a45ecd9a4a7e0cf92997d34746f34bae378ec8925cd308c80ce",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 555896,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/3c3a03b7ef264bf786e152b0c40d773f_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/3c9716c01832404fbf4cbd129fb065a0/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "3f0f16255649b580252a69bd2280c986ee33954d6b0e8f2463e426dd3b50242d",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 536624,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/3c9716c01832404fbf4cbd129fb065a0_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/3cbb81ce920147fb80fccc4075b877b5/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "77929b07e1bd1c9f7bad4eb16bac0455af0e300b39a1639cce5804c9af1be280",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 601664,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/3cbb81ce920147fb80fccc4075b877b5_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/4223f8db2a6245a4a3b737b17af88f22/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "160302543356d925456e09d1663ab1c7af992d71bea9e4a4dddd4fb4e499b5c3",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 576584,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/4223f8db2a6245a4a3b737b17af88f22_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/477b98183d58425d9dfccc211d8ce636/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "61f6feb784c8d95e5224d77bac2d49aec4f7e4a84e267e401ae933a3e1260c07",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 553342,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/477b98183d58425d9dfccc211d8ce636_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/54d47f9cf09b443b9c07af2c9e68356e/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "c01dbaec43cc2bf7cca261b29b1da0d688f99f071c44d437047a8b34d276256f",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 573958,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/54d47f9cf09b443b9c07af2c9e68356e_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/564b7f07bcb948128d01285fbce42d04/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "2872a0d87ea98e3701d0b4e56adf9c34f8ee82c46364cd228e911f10e9791d6b",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 594280,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/564b7f07bcb948128d01285fbce42d04_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/5a7c4b6b15ff49b3af611f85e2e345b7/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "2ebd931e0feb5a0204e9b28058ac2a264b9d64278bbb3b60a5bececc4628b521",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 527510,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/5a7c4b6b15ff49b3af611f85e2e345b7_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/5e315371b03645549c8fc0a2140156d5/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "2a0c8c6aebebf7052002c5bbfb191340d0853810c557ae99a48016521cf17a1e",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 652588,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/5e315371b03645549c8fc0a2140156d5_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/62c1c91839954f468ea32c7eafbe4aa6/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "84a32442a02581d86969bebe6a1f6ce0588045291ac24d038bdf86b86ce20181",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 545900,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/62c1c91839954f468ea32c7eafbe4aa6_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/63c80c4fb91c4c17a5ca028373008650/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "296b85178b35a4a9fe19a1aa393b8f50c7688db88683aa37ff9cbb23a42f6e90",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 578812,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/63c80c4fb91c4c17a5ca028373008650_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/648d3704cb914bf39a914cb8811469e7/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "5bdb974d01e07d03f733c85560f69f592d14803026585c68edc5b60e06be50e3",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 504378,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/648d3704cb914bf39a914cb8811469e7_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/6a00f23f493d40c2aa7fde3664275713/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "ec67b3a0eaddc08785c43d30c76d1144c098e1cfec262aec1c16cf81ab48b364",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 534906,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/6a00f23f493d40c2aa7fde3664275713_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/6a5e1d263324419dac5a2be67559245b/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "7774da6adf20e2141395f3fe96eaf768ad4da21c9304183a8ccec9dcaddba306",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 552188,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/6a5e1d263324419dac5a2be67559245b_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/6dae63ac605d40bfa11bd9e845a38009/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "51b53a6a350eb29ea62de0504c6463690ca96ee3ec46e066f10105aa8e527f3f",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 631692,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/6dae63ac605d40bfa11bd9e845a38009_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/72266433495441d9a3ec71d0bfb9b618/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "2c804ba41bb15f15bfd9b73210ce47772efe434b57ef08cde35a425327ee1ef2",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 548882,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/72266433495441d9a3ec71d0bfb9b618_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/74347c0da03541fb966a1e192e73722c/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "36d9faae1bd810b676ebedb8187b9f9cfb5bc9bb8ddd29b46f992e06cd9788fb",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 417992,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/74347c0da03541fb966a1e192e73722c_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/747985820a6e4440b8f7082fb41a5a82/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "02f365e89d4fff333bff7d25733d89a7371b74ce9094df5c018fdb834192c449",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 581040,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/747985820a6e4440b8f7082fb41a5a82_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/753adc9ffc5c488cabd1654e312d0c65/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "c8c532dd16d2d0da650fb06de94d3bbf8e93fc0c63cea859c5a79b02b957527d",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 561712,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/753adc9ffc5c488cabd1654e312d0c65_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/7a1066dbeb264e88a2e95c446a45d241/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "f0cbc70a9d61895440333acf33ff1059830a1214402f23dbe97e55857be5c867",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 582242,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/7a1066dbeb264e88a2e95c446a45d241_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/8328a96c102241869fce77c25e543405/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "65a731633fd8dc6ee800c5fe60a4fabcf72e1527c19399f9582fa29981651ee8",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 526356,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/8328a96c102241869fce77c25e543405_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/8aa58d231f2841f79069ae73e2540c01/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "07fcfba4da75ec436803d5d0c8859497e7b091b34613561576c09e486fa833bd",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 543196,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/8aa58d231f2841f79069ae73e2540c01_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/8b9d6a569d394e9ba719e6abc0595543/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "3d9beb28712b8bc87f9ea3a873e362e114f1997b385806fc174291baa1992f23",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 557476,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/8b9d6a569d394e9ba719e6abc0595543_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/8cd00ed2103b4d619da80715ef4ff9c9/clubs/02f22b11aa604566a1858f96addb669c/portrait.webp",
+      "sha256": "718b22df5fb02c9ee229b953dd72cd2b057fe011109e10a36e5f8a19af146058",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 556124,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/02f22b11aa604566a1858f96addb669c/home/8cd00ed2103b4d619da80715ef4ff9c9_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/8ef376e16f1e4844bb04382eb1611c2d/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "ba3ac4636f2d8909f53c8ff9a9f45d6243805c63148abda1746c8a3579bb3a17",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 547148,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/8ef376e16f1e4844bb04382eb1611c2d_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/8efe1c494b3a4176933b82ffed88373b/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "9c4de14dcdf7b64f1226f5829214ee484b454b4e6fe4f9000e052ab9b97f855a",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 570754,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/8efe1c494b3a4176933b82ffed88373b_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/8f7af5bd628d430e9897baea1487e0b3/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "cba52637d66ce6c5de7aed1dfd949cbe81aa04d42d514ba8621a9657f656d75a",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 415454,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/8f7af5bd628d430e9897baea1487e0b3_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/919260badb77441bb5ee2c9383831ee3/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "e5616322ab3a86500fb578a2cc8140940c83e30dc6ca6c3c9f87894f2a0be36b",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 571112,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/919260badb77441bb5ee2c9383831ee3_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/91c15c16bcbc45ddb0713ddc9ae20c61/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "03723102c7fad3a6523fce815bf0fa69579b11d80e772d352f53b652b3f9e96b",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 529816,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/91c15c16bcbc45ddb0713ddc9ae20c61_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/954f35b5cac044e8b570c5613f13a94e/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "29f171220a2147b89063b32c67eacd3aa6c04a71cdb47f8e396c44d2e612c741",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 598766,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/954f35b5cac044e8b570c5613f13a94e_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/960ab2cd1ed84e5494f01515ea97f201/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "ad7040ac31e2b9369f114151b6f33c96874d319a5b4df83318f80cdb807da74c",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 497156,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/960ab2cd1ed84e5494f01515ea97f201_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/9851959ee70f456eaaa450625f40483a/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "14e18f071d0e4daae574ee265d50bb3d609ee89b0576e6e7588e2017a7d6b360",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 569470,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/9851959ee70f456eaaa450625f40483a_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/9a731a8680af4acf8c476ef2bbd78dc7/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "1c6cc2d4c66965ac5e40691970888ad9632a109c2c5878f1f0f3d97f56bc73e8",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 558480,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/9a731a8680af4acf8c476ef2bbd78dc7_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/9af7f68755884d268c3f181bb15d1e6e/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "d51438d69881254cb75595141f9c838d3b0ee4d5a56076689293bdf724fc091b",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 524956,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/9af7f68755884d268c3f181bb15d1e6e_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/9b21d0cafdd542e5aa12459938948bf1/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "74cb7fbbb1598dd54eb9082efbf9b671aa85a60e6f3ad2ed7d2a51d44b147175",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 560842,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/9b21d0cafdd542e5aa12459938948bf1_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/9c3e8a8adc6544b7bd0b14d6a74c121c/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "c40cd6ee52bba93be9947aa55860ae27c40039aa7ce89ce03031840b29dea6be",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 618934,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/9c3e8a8adc6544b7bd0b14d6a74c121c_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/9e5c642e087a4a168f27c5ab6e4f9a60/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "e6b9632fc487d94cf5d4a59420371b0686797d3d04901e2f2606e4392bbbcc71",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 512196,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/9e5c642e087a4a168f27c5ab6e4f9a60_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/9f2d77d60d15433fa554f93ce07ced77/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "5116235235fe1a78d13408c3210a04468018e3b62e2c88c02e19e2483898731c",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 597044,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/9f2d77d60d15433fa554f93ce07ced77_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/a4d6b4cdc1fd4f2a91f12c1846b54936/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "191d922e46c101fc7ea939f165b0dd5ac18da7d2d057d193513e874653efbfb8",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 570362,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/a4d6b4cdc1fd4f2a91f12c1846b54936_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/a90750e65f074978b2c12372d595e7b2/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "42c268a9e7ba461b524506c961f788c71f0c5cdbb9c5af7bfafe164ea99d0c50",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 591194,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/a90750e65f074978b2c12372d595e7b2_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/a92aa774fbf7474fb7fdc94b63bf8f8a/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "3cffc3449dc66cb4cfa409e0941991920b3b1bd2352a0d201767ab3a84303aa7",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 592002,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/a92aa774fbf7474fb7fdc94b63bf8f8a_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/aac2c01a3d6b408bb06c3c84f77f5de8/clubs/02f22b11aa604566a1858f96addb669c/portrait.webp",
+      "sha256": "ee65400d9bdc65ef398dfa81cbe6c8a82914a4f7fc247e8405e62455dac74efc",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 621714,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/02f22b11aa604566a1858f96addb669c/home/aac2c01a3d6b408bb06c3c84f77f5de8_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/aba883c5cfcd47ca9b8f31b9ae7b01da/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "e4812c04749f3ab513d0008364e3d78e797c3366c6d3a44af313e805b01181e1",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 588130,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/aba883c5cfcd47ca9b8f31b9ae7b01da_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/ad00c6c91a9b448aaad53a2349808db3/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "3a761dcd390842948ef21dd71dd2698dce977dac734b6a9d8cd57393eb61abbc",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 584282,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/ad00c6c91a9b448aaad53a2349808db3_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/af25333c4d5f42deb9a63ceb2800a418/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "22144e75e3ee70b0b20571bb0f1740724d1adcbeb6f198146e57254b68d8a6e1",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 635766,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/af25333c4d5f42deb9a63ceb2800a418_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/af52c741b59c4a62a9b30b5ce888876f/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "5836bb798e065bf067ec4c0ebd8c2210c41ca24c91c4c5b22de92a812ede1bb7",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 564978,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/af52c741b59c4a62a9b30b5ce888876f_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/b49ff400cb71406bba131156c2a5e36c/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "1451e438dd095184e20aa870b46161ec07be8b55d45c1d33353e9d74588b51b3",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 524258,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/b49ff400cb71406bba131156c2a5e36c_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/b4afed443cc14d75951401b38b18a1ae/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "8e85d72a1b901ba85313134cba98b75c22a30a12b8ab83e2c566699ed1551334",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 535906,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/b4afed443cc14d75951401b38b18a1ae_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/b53c92a40e354427b1d0a3ce02a7290d/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "90f187715f85c11a49bc9c7ed68a55da06b90feb59d1481b4136020889134134",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 522706,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/b53c92a40e354427b1d0a3ce02a7290d_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/b573cfcecdc244cca227a93d9900573f/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "3eb58470dc82aa55fc18a6da81671aea7ab2c9e135f0b53109dc8705c6e5195d",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 538392,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/b573cfcecdc244cca227a93d9900573f_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/b918f217758d4199ad21e099bbc45437/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "3ddf6e279dfb158f7568c178597d80ae952abc26be1756ea6dda13dc1f4448d8",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 575194,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/b918f217758d4199ad21e099bbc45437_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/b9307cbae1ef4a17a22bd07a561db39d/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "5ccb0dc537c0d0daaed50c62002697bce832f618eb6d177f20fcc087da786e63",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 552636,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/b9307cbae1ef4a17a22bd07a561db39d_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/bb2b28ee5b874e7994f16483403742f7/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "f5525f34cad74dece9127fd555f2f4abf86b8184d3c47d73a5a69fb57f9c85ca",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 531020,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/bb2b28ee5b874e7994f16483403742f7_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/be16f9797eb940ee96473f051bc2dd56/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "e5560322c1d5cefbbd03ddcff7c28b744a775f3a7a81b019189b6c1d3496ef62",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 587102,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/be16f9797eb940ee96473f051bc2dd56_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/be2a0e2b4f504e099a94c2dd29ae18f1/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "b539b520c62bef06fcb90e6f9431bac8fc57677e1f93ab24b30aed2594659b4b",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 606312,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/be2a0e2b4f504e099a94c2dd29ae18f1_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/bef8a8e450b4416dadd31b538987e4e3/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "cb89973afc2ea7499f4df4801a93287fb0fd646d269e4135621947da4614706b",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 559108,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/bef8a8e450b4416dadd31b538987e4e3_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/bf25449426ff4f1a82793c40fc47b5f4/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "97dd0fd25f864a936e0d33120212c4c83e5c0e9859203197ded82b2d84b294f4",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 596726,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/bf25449426ff4f1a82793c40fc47b5f4_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/c1d003ceceb74946aacdb24f639d958a/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "3ed091974d281f761e8258f90edf800eca40f1469886ecdb507313d432013044",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 542480,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/c1d003ceceb74946aacdb24f639d958a_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/c5dc3c88899349d98e1a98d48ffb8c7e/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "07136b41c4cfd0dd3a9b93e857db167f0262a3b628cb6ea5433de25d4a083b22",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 574498,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/c5dc3c88899349d98e1a98d48ffb8c7e_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/c7d0fdca575a4527bb94495f304dcc20/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "72b347a7d5685ea99eda0d30a036e99d14fec3278f10da2aaed9a62dd271d92f",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 564194,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/c7d0fdca575a4527bb94495f304dcc20_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/c95bccd46ee345eebd30494cd31c56e1/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "765de59cdc1f0f11ca8435b9d53c01d002471982de06b9568dbe6688a8a4a2c5",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 472382,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/c95bccd46ee345eebd30494cd31c56e1_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/c9cfa3f65ce04ffe9a57f6ea8dbd7189/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "4c770448e734a0a022a932f931250e100dafc5fd9e41786b726648d7dbbad15b",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 530596,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/c9cfa3f65ce04ffe9a57f6ea8dbd7189_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/cd6d4e29fefc4736aa2b1b7a8886229b/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "0fabf63cdc512c50e9a9660d837298a4745a814deda672d6fff005cce375db34",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 623990,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/cd6d4e29fefc4736aa2b1b7a8886229b_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/d907609169fc43fbb1ed2f82b47fc2cb/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "2daad848893dd1ac8499684b3c374b420e0203b2f4aeccd6811db3e4a6c0aae4",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 626478,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/d907609169fc43fbb1ed2f82b47fc2cb_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/dd7dfeb1201d4564b99fb1f7da86e5d1/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "41e6d09e325a751d73e23fccce092acbdf6d3a0b6e789a19242edd3f37252c8a",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 552420,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/dd7dfeb1201d4564b99fb1f7da86e5d1_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/de456344ebf244c787aa01d0e7be49eb/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "914fef87b8d30484ce2d7677c1e120dfd8253b9bc9ef74d924a6fa46aa82125f",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 496724,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/de456344ebf244c787aa01d0e7be49eb_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/deacd22d9d46446699da66a12ea57c8c/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "66a394f28f318726829344a8e02b99e9c61686953f0731fd12945fc80a84f1d5",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 569148,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/deacd22d9d46446699da66a12ea57c8c_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/e05253ce7450440f8f029726ad32b17b/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "6319d14b0f2e9cc75fbb1c76bf972125071d86ed973b530cbde435aa6f393555",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 572430,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/e05253ce7450440f8f029726ad32b17b_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/e14c3fcdf8eb4617ac4e5cc8c58e75da/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "9ea3616259b9cb2117927191707963f1a0fbfc7306b2a62f38c7ad258fc0457f",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 627982,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/e14c3fcdf8eb4617ac4e5cc8c58e75da_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/ee7693d118234a5fa6c907728ee72906/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "6a4a73e7dab1811e20693d890898a1117005620cea246a0fca48767139be162e",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 533774,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/ee7693d118234a5fa6c907728ee72906_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/f8b6df2c8bea4030b71393b3b2b10f62/clubs/8a2bfb4eeaad41e9a84107e0a9c75744/portrait.webp",
+      "sha256": "13f241edc50e1ba853fb8209c370257e9be9395ab38ca0e089e58aa8b9830b75",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 694404,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/8a2bfb4eeaad41e9a84107e0a9c75744/home/f8b6df2c8bea4030b71393b3b2b10f62_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/fa4226e4a4b04dcd91ecd214ce52958c/clubs/874890145b9d43d59ec3f646e8bd4fee/portrait.webp",
+      "sha256": "c13aaae67a1d2448d998f6ad8aff7829daf37106c5250b470859caaf3982844c",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 507150,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/874890145b9d43d59ec3f646e8bd4fee/home/fa4226e4a4b04dcd91ecd214ce52958c_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    },
+    {
+      "path": "assets/pending_media/spl/players/fda85d8ea12745248e7e18cc4b232851/clubs/b950674ec2cf4184a0dea482414ac915/portrait.webp",
+      "sha256": "86752e67595c32b7ee4d26e27f9887bc59549d75640d2fe2d37023e8c7e2257f",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 529532,
+      "source": "https://media-sdp.spl.com.sa/playerImages/47d9987fd5044e0dba6c6c1df7d6cfa8/3677a75aaa514e43b2840e7fa367c91d/b950674ec2cf4184a0dea482414ac915/home/fda85d8ea12745248e7e18cc4b232851_middle.webp",
+      "identityReview": "pending",
+      "kitReview": "pending",
+      "rightsReview": "pending"
+    }
+  ],
+  "failures": [
+    {
+      "profile": "https://www.spl.com.sa/ar/players/lovro-chelfi/",
+      "error": "No genuine portrait on either language squad card; placeholder excluded"
+    },
+    {
+      "profile": "https://www.spl.com.sa/ar/players/battal-al-shuwaihi-al-harthi/",
+      "error": "No genuine portrait on either language squad card; placeholder excluded"
+    },
+    {
+      "profile": "https://www.spl.com.sa/ar/players/al-baraa-mamdouh-adawi/",
+      "error": "No genuine portrait on either language squad card; placeholder excluded"
+    },
+    {
+      "profile": "https://www.spl.com.sa/ar/players/mateo-benegas/",
+      "error": "No genuine portrait on either language squad card; placeholder excluded"
+    },
+    {
+      "profile": "https://www.spl.com.sa/ar/players/eid-al-muwallad/",
+      "error": "No genuine portrait on either language squad card; placeholder excluded"
+    },
+    {
+      "profile": "https://www.spl.com.sa/ar/players/dayo-joyce/",
+      "error": "No genuine portrait on either language squad card; placeholder excluded"
+    },
+    {
+      "profile": "https://www.spl.com.sa/ar/players/abdulrahman-hassan-sufyani/",
+      "error": "No genuine portrait on either language squad card; placeholder excluded"
+    },
+    {
+      "profile": "https://www.spl.com.sa/ar/players/pedro-henrique-ribeiro-goncalves/",
+      "error": "No genuine portrait on either language squad card; placeholder excluded"
+    },
+    {
+      "profile": "https://www.spl.com.sa/ar/players/rayane-messi/",
+      "error": "No genuine portrait on either language squad card; placeholder excluded"
+    },
+    {
+      "profile": "https://www.spl.com.sa/ar/players/thari-ahmed-yahya-saeed/",
+      "error": "No genuine portrait on either language squad card; placeholder excluded"
+    },
+    {
+      "profile": "https://www.spl.com.sa/ar/players/ibrahim-bin-yahya-alzahrani/",
+      "error": "No genuine portrait on either language squad card; placeholder excluded"
+    },
+    {
+      "profile": "https://www.spl.com.sa/ar/players/ali-diabate/",
+      "error": "No genuine portrait on either language squad card; placeholder excluded"
+    },
+    {
+      "profile": "https://www.spl.com.sa/ar/players/suleman-sani/",
+      "error": "No genuine portrait on either language squad card; placeholder excluded"
+    },
+    {
+      "profile": "https://www.spl.com.sa/ar/players/mouhamadou-diop/",
+      "error": "No genuine portrait on either language squad card; placeholder excluded"
+    }
+  ],
+  "remainingDownloads": 450,
+  "releaseReady": false
+}
