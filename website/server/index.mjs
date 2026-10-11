@@ -183,7 +183,7 @@ export function createApplication(options = {}) {
                 if (method === 'GET' && path === '/api/atlas/player-search')return json(res,playerSearch(url.searchParams.get('q')||''));
                 if (method === 'GET' && path === '/api/atlas/player-autofill')return json(res,playerAutofill(String(url.searchParams.get('id')||'')));
                 if (method === 'GET' && path === '/api/atlas/explore')return json(res,atlasExplore({type:url.searchParams.get('type')||'',q:url.searchParams.get('q')||'',page:url.searchParams.get('page')||1}));
-                if (method === 'GET' && path === '/api/atlas/detail')return json(res,atlasDetail(String(url.searchParams.get('id')||'')));
+                if (method === 'GET' && path === '/api/atlas/detail')return json(res,atlasDetail(String(url.searchParams.get('id')||''),{teamId:url.searchParams.get('teamId')||null,at:url.searchParams.get('at')||new Date().toISOString().slice(0,10)}));
                 if (method === 'GET' && path === '/api/tournaments')
                     return json(res, many("SELECT t.id,t.name,t.position,count(q.id) AS questions FROM tournaments t LEFT JOIN questions q ON q.tournament_id=t.id AND q.status='published' WHERE t.active=1 GROUP BY t.id ORDER BY t.position"));
                 if (method === 'GET' && path === '/api/mini-games')

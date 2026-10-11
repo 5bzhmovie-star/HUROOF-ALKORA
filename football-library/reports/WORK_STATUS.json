@@ -1,0 +1,179 @@
+{
+  "releaseReady": false,
+  "snapshot": "2026-10-11",
+  "fifa": {
+    "format": "huroof-fifa-roster-evidence-v1",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf",
+    "sourceSha256": "02a0a9beb5d219e7cc0aedde19273e9a3bfe4818ecd600d37804b8801dd96d94",
+    "asOf": "2026-07-19",
+    "issues": [
+      {
+        "playerId": "player:fifa2026:4ed3034ef8e6b90e51adb846",
+        "page": 1,
+        "kind": "damaged-font-text",
+        "columns": [
+          2,
+          4
+        ]
+      },
+      {
+        "playerId": "player:fifa2026:14f19512e111eeee1d02f9c3",
+        "page": 2,
+        "kind": "damaged-font-text",
+        "columns": [
+          10
+        ]
+      },
+      {
+        "playerId": "player:fifa2026:8d0886ab583dea8eff9a8eae",
+        "page": 5,
+        "kind": "damaged-font-text",
+        "columns": [
+          10
+        ]
+      },
+      {
+        "playerId": "player:fifa2026:5f78f2a862f241391c703fe6",
+        "page": 6,
+        "kind": "damaged-font-text",
+        "columns": [
+          10
+        ]
+      },
+      {
+        "playerId": "player:fifa2026:9c6971cf7c10f7b49e272fb3",
+        "page": 8,
+        "kind": "damaged-font-text",
+        "columns": [
+          10
+        ]
+      },
+      {
+        "playerId": "player:fifa2026:800d7aa895af9057363ecacc",
+        "page": 9,
+        "kind": "damaged-font-text",
+        "columns": [
+          2,
+          4
+        ]
+      },
+      {
+        "playerId": "player:fifa2026:c8210f26a9609f558ea72cfc",
+        "page": 10,
+        "kind": "damaged-font-text",
+        "columns": [
+          10
+        ]
+      },
+      {
+        "playerId": "player:fifa2026:eca450f7eaa816b1ea86be22",
+        "page": 10,
+        "kind": "damaged-font-text",
+        "columns": [
+          10
+        ]
+      },
+      {
+        "playerId": "player:fifa2026:67d471bc89aa08970781f78c",
+        "page": 14,
+        "kind": "damaged-font-text",
+        "columns": [
+          10
+        ]
+      },
+      {
+        "playerId": "player:fifa2026:925fd6c9ec8634fef9e9a9cd",
+        "page": 14,
+        "kind": "damaged-font-text",
+        "columns": [
+          10
+        ]
+      },
+      {
+        "playerId": "player:fifa2026:95472be3f7277de280e054ce",
+        "page": 16,
+        "kind": "damaged-font-text",
+        "columns": [
+          10
+        ]
+      },
+      {
+        "playerId": "player:fifa2026:2f3db0bcad2a2c7273406e31",
+        "page": 29,
+        "kind": "damaged-font-text",
+        "columns": [
+          2,
+          4
+        ]
+      },
+      {
+        "playerId": "player:fifa2026:e456ac04900da9c83ba57868",
+        "page": 31,
+        "kind": "damaged-font-text",
+        "columns": [
+          10
+        ]
+      },
+      {
+        "playerId": "player:fifa2026:5552ace29c96bfcd917e72ae",
+        "page": 32,
+        "kind": "damaged-font-text",
+        "columns": [
+          10
+        ]
+      },
+      {
+        "playerId": "player:fifa2026:299e615e384ed301807a6046",
+        "page": 32,
+        "kind": "damaged-font-text",
+        "columns": [
+          10
+        ]
+      },
+      {
+        "playerId": "player:fifa2026:71bd8c1317dc5a306eb7233f",
+        "page": 35,
+        "kind": "damaged-font-text",
+        "columns": [
+          10
+        ]
+      },
+      {
+        "playerId": "player:fifa2026:e682d03bc27210dfa4c3fad6",
+        "page": 40,
+        "kind": "damaged-font-text",
+        "columns": [
+          4
+        ]
+      }
+    ],
+    "teamsExtracted": 48,
+    "playersExtracted": 1248,
+    "coachesExtracted": 48,
+    "releaseReady": false,
+    "missing": [
+      "Arabic name review",
+      "Club season rosters",
+      "Contextual portraits",
+      "Detailed career, transfers and season statistics",
+      "Image/redistribution rights review"
+    ]
+  },
+  "flags": {
+    "files": 48,
+    "pngFiles": 48
+  },
+  "chelsea": {
+    "portraits": 31,
+    "rights": "pending"
+  },
+  "remaining": [
+    "All ten club-competition roster sets",
+    "Player Arabic names and damaged font review",
+    "All club and national portrait contexts",
+    "Club/federation/competition emblems",
+    "All detailed transfers, career and season statistics",
+    "PHP/MySQL deployment and import tests",
+    "Canonical identity reconciliation with legacy records"
+  ]
+}

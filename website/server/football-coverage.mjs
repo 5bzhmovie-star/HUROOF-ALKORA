@@ -1,6 +1,7 @@
 import {one,many,dataDir} from './database.mjs';
 import {existsSync} from 'node:fs';
 import {resolve} from 'node:path';
+import {contentAudit} from './football-context.mjs';
 import {COMPETITIONS} from './football-competitions.mjs';
 export function atlasCoverage(){
  const competitions=COMPETITIONS.map(([key,ar,en,source])=>{
@@ -18,10 +19,11 @@ export function atlasCoverage(){
  WHERE e.entity_type='player'`).filter(r=>r.relative_path&&existsSync(resolve(dataDir,'visual-media',r.relative_path))).length;
  const dated=one("SELECT count(*) n FROM football_entities WHERE entity_type='player' AND json_extract(metadata,'$.statsVerified') = 1")?.n||0;
  const seasonEntries=one("SELECT count(*) n FROM football_entities WHERE entity_type='season' AND json_extract(metadata,'$.verification')='reviewed'")?.n||0;
- return {competitions,logosCached:competitions.filter(x=>x.logoCached).length,logosRequired:11,
+ const audit=contentAudit();
+ return {contentAudit:audit,competitions,logosCached:competitions.filter(x=>x.logoCached).length,logosRequired:11,
  playerPhotosCached:localPlayerPhotos,playersIndexed:players?.total||0,
  missingLogos:competitions.filter(x=>!x.logoCached).map(x=>x.nameAr),
  verifiedPlayerStatistics:dated,verifiedSeasons:seasonEntries,
- releaseReady:competitions.every(x=>x.ready)&&players?.total>0&&localPlayerPhotos===players?.total&&dated===players?.total&&seasonEntries>=11,
+ releaseReady:audit.releaseReady&&competitions.every(x=>x.ready)&&players?.total>0&&localPlayerPhotos===players?.total&&dated===players?.total&&seasonEntries>=11,
  warning:'This is a media/relations gate, not certification of 2026-27 roster, lineup or statistics accuracy'};
 }

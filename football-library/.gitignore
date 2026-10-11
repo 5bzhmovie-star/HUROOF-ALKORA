@@ -1,0 +1,5 @@
+sources/*.pdf
+build/
+assets/pending_media/
+__pycache__/
+*.pyc

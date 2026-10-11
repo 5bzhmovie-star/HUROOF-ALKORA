@@ -10,6 +10,7 @@ import {importCompetitionCatalog} from './football-competitions.mjs';
 import {importCatalogBatch,importHistory} from './football-import.mjs';
 import {discoverImageForEntity,enrichMissingImages} from './football-online-media.mjs';
 import {cacheCandidateImage,cacheImages} from './football-media-cache.mjs';
+import {registerContextMedia} from './football-context.mjs';
 import { saveMedia, referencedMediaExists } from './visual-media.mjs';
 import { mkdirSync, openSync, closeSync, writeFileSync, readFileSync, unlinkSync } from 'node:fs';
 import { resolve } from 'node:path';
@@ -147,6 +148,11 @@ export function adminWrite(path, body, admin) {
         case 'football-relation-create': {
             requireAdmin(admin,['owner','manager','questions']);
             const result=addRelation(body);audit(admin.username,'football.relation',result.id);return result;
+        }
+        case 'football-context-media': {
+            requireAdmin(admin,['owner','manager']);
+            const result=registerContextMedia({...body,review:{...body.review,reviewer:admin.username}});
+            audit(admin.username,'football.context-media',result.id);return result;
         }
         case 'visual-media-upload': {
             requireAdmin(admin,['owner','manager','questions']);

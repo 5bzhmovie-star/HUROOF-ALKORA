@@ -1,0 +1,2011 @@
+{
+  "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+  "checkedAt": "2026-10-11",
+  "sourceSha256": "a5fb8b26b3bf8f50b301b407df964f5e6cd3046f7cefed34bbbbc69e1872679a",
+  "profilePlayers": 30,
+  "profileCoaches": 1,
+  "photos": [
+    {
+      "sourceIdentity": "chelsea:1OK5LMp8ZbIPiElyQomM0a",
+      "name": "Emiliano Martinez",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/emiliano-martinez",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790593018/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Martinez_SF_Home_26_27_RGB.png",
+      "file": "assets/pending_media/chelsea:1OK5LMp8ZbIPiElyQomM0a/portrait.webp",
+      "sha256": "34d5fc3614604bfa108edadf51a416b45f31ed7e63149f5f28476d7b26cc1cbd",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "1OK5LMp8ZbIPiElyQomM0a",
+        "playerNumber": "1",
+        "playerFirstName": "Emiliano",
+        "playerLastName": "Martinez",
+        "playerPosition": "Goalkeeper",
+        "playerProfileLink": {
+          "id": "3bc23533-503a-49a2-b9e9-9ee8c919958e",
+          "title": "Emiliano Martinez",
+          "url": "/en/teams/profile/emiliano-martinez",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Martinez_SF_Home_26_27_RGB",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Martinez_SF_Home_26_27_RGB",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Martinez_SF_Home_26_27_RGB",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790593018/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Martinez_SF_Home_26_27_RGB.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Martinez_SF_Home_26_27_RGB"
+            },
+            "details": {
+              "size": 16305431,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:7ySsVFA1B01qf4TCAbuDsH",
+      "name": "Teddy Sharman-Lowe",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/teddy-sharman-lowe",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790594397/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_SharmanLowe_SF_Home_26_27_RGB.png",
+      "file": "assets/pending_media/chelsea:7ySsVFA1B01qf4TCAbuDsH/portrait.webp",
+      "sha256": "8dd30264307e071cd562e0fd7f05cbd0e4cae5f27c94dfb12d2cda4a9f1a11ba",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "7ySsVFA1B01qf4TCAbuDsH",
+        "playerNumber": "28",
+        "playerFirstName": "Teddy",
+        "playerLastName": "Sharman-Lowe",
+        "playerPosition": "Goalkeeper",
+        "playerProfileLink": {
+          "id": "2a473951-7bde-4c15-a04d-b9ad6e8daaed",
+          "title": "Teddy Sharman-Lowe",
+          "url": "/en/teams/profile/teddy-sharman-lowe",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_SharmanLowe_SF_Home_26_27_RGB",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_SharmanLowe_SF_Home_26_27_RGB",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_SharmanLowe_SF_Home_26_27_RGB",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790594397/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_SharmanLowe_SF_Home_26_27_RGB.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_SharmanLowe_SF_Home_26_27_RGB"
+            },
+            "details": {
+              "size": 14609982,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:7LdV15wzU6RHTuVa0qNJIq",
+      "name": "Mike  Penders",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/mike-penders",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1785912798/editorial/people/first-team/2026-27/Mike_Penders_2026-27_profile_avatar-removebg.png",
+      "file": "assets/pending_media/chelsea:7LdV15wzU6RHTuVa0qNJIq/portrait.webp",
+      "sha256": "af2a6016c3c2a201657b7a03816cda46b0d99b8afc8bf45509b953bbf96cfa58",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "7LdV15wzU6RHTuVa0qNJIq",
+        "playerNumber": "39",
+        "playerFirstName": "Mike ",
+        "playerLastName": "Penders ",
+        "playerPosition": "Goalkeeper",
+        "playerProfileLink": {
+          "id": "572e0f23-e401-41bb-b372-986dc3c40039",
+          "title": "Mike Penders ",
+          "url": "/en/teams/profile/mike-penders",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/Mike_Penders_2026-27_profile_avatar-removebg",
+          "title": "editorial/people/first-team/2026-27/Mike_Penders_2026-27_profile_avatar-removebg",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/Mike_Penders_2026-27_profile_avatar-removebg",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1785912798/editorial/people/first-team/2026-27/Mike_Penders_2026-27_profile_avatar-removebg.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/Mike_Penders_2026-27_profile_avatar-removebg"
+            },
+            "details": {
+              "size": 14601503,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 4998
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:4H1GhgvG1ldTNe8pgOUpol",
+      "name": "Gaga Slonina",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/gabriel-slonina",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790594399/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Slolina_SF_Home_26_27_RGB.png",
+      "file": "assets/pending_media/chelsea:4H1GhgvG1ldTNe8pgOUpol/portrait.webp",
+      "sha256": "0730ce307ec48fd4e6fc375076619a905024dbbe347cd59db48a16f48f8f31e0",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "4H1GhgvG1ldTNe8pgOUpol",
+        "playerNumber": "44",
+        "playerFirstName": "Gaga",
+        "playerLastName": "Slonina",
+        "playerPosition": "Goalkeeper",
+        "playerProfileLink": {
+          "id": "20520a2a-5aa1-4475-a362-ddebcd6c3fa3",
+          "title": "Gaga Slonina",
+          "url": "/en/teams/profile/gabriel-slonina",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Slolina_SF_Home_26_27_RGB",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Slolina_SF_Home_26_27_RGB",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Slolina_SF_Home_26_27_RGB",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790594399/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Slolina_SF_Home_26_27_RGB.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Slolina_SF_Home_26_27_RGB"
+            },
+            "details": {
+              "size": 15509369,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:6KNpdPuAg0CfSK4LgSDkTF",
+      "name": "Marco Palestra",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/marco-palestra",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790593020/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Palestra_SF_Home_26_27_RGB.png",
+      "file": "assets/pending_media/chelsea:6KNpdPuAg0CfSK4LgSDkTF/portrait.webp",
+      "sha256": "ded053f2c3ee82be5c5a343f8eb97d8669da95024976909174c654553140e57d",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "6KNpdPuAg0CfSK4LgSDkTF",
+        "playerNumber": "2",
+        "playerFirstName": "Marco",
+        "playerLastName": "Palestra",
+        "playerPosition": "Defender",
+        "playerPositionDetailed": "Full-back/wing-back",
+        "playerProfileLink": {
+          "id": "89ba84ff-1356-4fbf-a938-dfc4b560d54d",
+          "title": "Marco Palestra",
+          "url": "/en/teams/profile/marco-palestra",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Palestra_SF_Home_26_27_RGB",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Palestra_SF_Home_26_27_RGB",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Palestra_SF_Home_26_27_RGB",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790593020/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Palestra_SF_Home_26_27_RGB.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Palestra_SF_Home_26_27_RGB"
+            },
+            "details": {
+              "size": 18536561,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:4CJuicRu1cGbhb22n7MNJh",
+      "name": "Wesley Fofana",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/wesley-fofana",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790590701/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Fofana_SF_Home_26_27_RGB.png",
+      "file": "assets/pending_media/chelsea:4CJuicRu1cGbhb22n7MNJh/portrait.webp",
+      "sha256": "d9eea1c4a5750701443af303a5d941468650acfcc354841faf6c715825154166",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "4CJuicRu1cGbhb22n7MNJh",
+        "playerNumber": "3",
+        "playerFirstName": "Wesley",
+        "playerLastName": "Fofana",
+        "playerPosition": "Defender",
+        "playerPositionDetailed": "Centre-back",
+        "playerProfileLink": {
+          "id": "35bcf4d0-2c67-409e-881f-8c12da3f7973",
+          "title": "Wesley Fofana",
+          "url": "/en/teams/profile/wesley-fofana",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Fofana_SF_Home_26_27_RGB",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Fofana_SF_Home_26_27_RGB",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Fofana_SF_Home_26_27_RGB",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790590701/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Fofana_SF_Home_26_27_RGB.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Fofana_SF_Home_26_27_RGB"
+            },
+            "details": {
+              "size": 17465919,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:3VtrgPA5cspPwBv3C8rRR1",
+      "name": "Maxence  Lacroix",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/maxence-lacroix",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790592711/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Lacroix_SF_Home_26_27_RGB.png",
+      "file": "assets/pending_media/chelsea:3VtrgPA5cspPwBv3C8rRR1/portrait.webp",
+      "sha256": "80761d108c45f41497bddaa7480f0fa986297dcb2194642a17cc83d5ef2cfa1c",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "3VtrgPA5cspPwBv3C8rRR1",
+        "playerNumber": "5",
+        "playerFirstName": "Maxence ",
+        "playerLastName": "Lacroix ",
+        "playerPosition": "Defender",
+        "playerPositionDetailed": "Centre-back",
+        "playerProfileLink": {
+          "id": "68581e39-dbca-4be0-ba4c-9fe1f9415086",
+          "title": "Maxence Lacroix ",
+          "url": "/en/teams/profile/maxence-lacroix",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Lacroix_SF_Home_26_27_RGB",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Lacroix_SF_Home_26_27_RGB",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Lacroix_SF_Home_26_27_RGB",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790592711/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Lacroix_SF_Home_26_27_RGB.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Lacroix_SF_Home_26_27_RGB"
+            },
+            "details": {
+              "size": 16686268,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:5LOgdi9SSvd8dwRDyazmoZ",
+      "name": "Levi Colwill",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/levi-colwill",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790586350/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Colwill_SF_Home_26_27_RGB.png",
+      "file": "assets/pending_media/chelsea:5LOgdi9SSvd8dwRDyazmoZ/portrait.webp",
+      "sha256": "5ce38a00f950d97c2a38df702e1253abbdada1676cea3523b266e9b57d9e4649",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "5LOgdi9SSvd8dwRDyazmoZ",
+        "playerNumber": "6",
+        "playerFirstName": "Levi",
+        "playerLastName": "Colwill",
+        "playerPosition": "Defender",
+        "playerPositionDetailed": "Centre-back",
+        "playerProfileLink": {
+          "id": "bbc4a804-3cba-45d9-aae0-7b631c699172",
+          "title": "Levi Colwill",
+          "url": "/en/teams/profile/levi-colwill",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Colwill_SF_Home_26_27_RGB",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Colwill_SF_Home_26_27_RGB",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Colwill_SF_Home_26_27_RGB",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790586350/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Colwill_SF_Home_26_27_RGB.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Colwill_SF_Home_26_27_RGB"
+            },
+            "details": {
+              "size": 18541542,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:2Be2AsOE5UnUayhdzMlVnF",
+      "name": "Jorrel  Hato",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/jorrel-hato",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790590933/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Hato_SF_Home_26_27_RGB.png",
+      "file": "assets/pending_media/chelsea:2Be2AsOE5UnUayhdzMlVnF/portrait.webp",
+      "sha256": "1bff3491dda812836c6eeca89a8c9cf582aaacbe93169ae8b1a56095ff35cb08",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "2Be2AsOE5UnUayhdzMlVnF",
+        "playerNumber": "21",
+        "playerFirstName": "Jorrel ",
+        "playerLastName": "Hato ",
+        "playerPosition": "Defender",
+        "playerProfileLink": {
+          "id": "e3ef3721-5f76-486d-b882-66f64e035ede",
+          "title": "Jorrel Hato ",
+          "url": "/en/teams/profile/jorrel-hato",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Hato_SF_Home_26_27_RGB",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Hato_SF_Home_26_27_RGB",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Hato_SF_Home_26_27_RGB",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790590933/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Hato_SF_Home_26_27_RGB.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Hato_SF_Home_26_27_RGB"
+            },
+            "details": {
+              "size": 16308590,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:4pu8Vnba43JYreI7ytlXGR",
+      "name": "Reece James",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/reece-james",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790590936/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_James.png",
+      "file": "assets/pending_media/chelsea:4pu8Vnba43JYreI7ytlXGR/portrait.webp",
+      "sha256": "7042dc5d784457a605f1510f551c78af5a2890b0f6fe03481f42460b69bf5582",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "4pu8Vnba43JYreI7ytlXGR",
+        "playerNumber": "24",
+        "playerFirstName": "Reece",
+        "playerLastName": "James",
+        "playerPosition": "Defender",
+        "playerPositionDetailed": "Defender/wing-back/midfielder",
+        "playerProfileLink": {
+          "id": "8f42482d-365f-4e94-95eb-8c0efd436d10",
+          "title": "Reece James",
+          "url": "/en/teams/profile/reece-james",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_James",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_James",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_James",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790590936/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_James.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_James"
+            },
+            "details": {
+              "size": 20017949,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:4AJxNxFWWKTy1xzuPeHMUL",
+      "name": "Malo Gusto",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/malo-gusto",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790590702/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Gusto_SF_Home_26_27_RGB.png",
+      "file": "assets/pending_media/chelsea:4AJxNxFWWKTy1xzuPeHMUL/portrait.webp",
+      "sha256": "d684d201ab98ec178f0708773723b4fd4fd08e740b7b5959232779c5151301ee",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "4AJxNxFWWKTy1xzuPeHMUL",
+        "playerNumber": "27",
+        "playerFirstName": "Malo",
+        "playerLastName": "Gusto",
+        "playerPosition": "Defender",
+        "playerPositionDetailed": "Right-back",
+        "playerProfileLink": {
+          "id": "28aa9c02-26cd-4610-9167-30ba2068c3b4",
+          "title": "Malo Gusto",
+          "url": "/en/teams/profile/malo-gusto",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Gusto_SF_Home_26_27_RGB",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Gusto_SF_Home_26_27_RGB",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Gusto_SF_Home_26_27_RGB",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790590702/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Gusto_SF_Home_26_27_RGB.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Gusto_SF_Home_26_27_RGB"
+            },
+            "details": {
+              "size": 17616117,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:42U4uaP5nEbLMEw8yVGTg5",
+      "name": "Pep  Chavarria",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/pep-chavarria",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1786000447/editorial/people/first-team/2026-27/Pep_Chavarria_2026-27_profile_avatar-removebg.png",
+      "file": "assets/pending_media/chelsea:42U4uaP5nEbLMEw8yVGTg5/portrait.webp",
+      "sha256": "19995386dd646bce6020925b190f4fa22264447bea5b2c1dc29f0cea7a9f6d9d",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "42U4uaP5nEbLMEw8yVGTg5",
+        "playerNumber": "29",
+        "playerFirstName": "Pep ",
+        "playerLastName": "Chavarria",
+        "playerPosition": "Defender",
+        "playerPositionDetailed": "Left-back",
+        "playerProfileLink": {
+          "id": "06537361-f4ab-4567-bc5d-d3cb3b861890",
+          "title": "Pep Chavarria",
+          "url": "/en/teams/profile/pep-chavarria",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/Pep_Chavarria_2026-27_profile_avatar-removebg",
+          "title": "editorial/people/first-team/2026-27/Pep_Chavarria_2026-27_profile_avatar-removebg",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/Pep_Chavarria_2026-27_profile_avatar-removebg",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1786000447/editorial/people/first-team/2026-27/Pep_Chavarria_2026-27_profile_avatar-removebg.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/Pep_Chavarria_2026-27_profile_avatar-removebg"
+            },
+            "details": {
+              "size": 13442770,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 4999
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:5rRjJlyKtF87uvdKfy48F",
+      "name": "Aaron Anselmino",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/aaron-anselmino",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1784912906/editorial/people/first-team/2026-27/Aaron_Anselmino_2026-27_profile_avatar-removebg.png",
+      "file": "assets/pending_media/chelsea:5rRjJlyKtF87uvdKfy48F/portrait.webp",
+      "sha256": "6f74cd9f6546188c4b6dce9d376d0d38f6b353a3478f840584e0c45d438237a2",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "5rRjJlyKtF87uvdKfy48F",
+        "playerNumber": "30",
+        "playerFirstName": "Aaron",
+        "playerLastName": "Anselmino",
+        "playerPosition": "Defender",
+        "playerPositionDetailed": "Centre-back",
+        "playerProfileLink": {
+          "id": "b1e9891d-9252-462c-bfc1-1b3a94bc57fe",
+          "title": "Aaron Anselmino",
+          "url": "/en/teams/profile/aaron-anselmino",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/Aaron_Anselmino_2026-27_profile_avatar-removebg",
+          "title": "editorial/people/first-team/2026-27/Aaron_Anselmino_2026-27_profile_avatar-removebg",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/Aaron_Anselmino_2026-27_profile_avatar-removebg",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1784912906/editorial/people/first-team/2026-27/Aaron_Anselmino_2026-27_profile_avatar-removebg.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/Aaron_Anselmino_2026-27_profile_avatar-removebg"
+            },
+            "details": {
+              "size": 18811189,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:5QYkzwOGVPMISpU1HFtLUZ",
+      "name": "Josh Acheampong",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/josh-acheampong",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790598523/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Acheampong_SF_Home_26_27_RGB.png",
+      "file": "assets/pending_media/chelsea:5QYkzwOGVPMISpU1HFtLUZ/portrait.webp",
+      "sha256": "8f406e5fe99e194eb3c806b0b70ed6f9d0d86336bbd471e8b2a11ac90870596f",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "5QYkzwOGVPMISpU1HFtLUZ",
+        "playerNumber": "34",
+        "playerFirstName": "Josh",
+        "playerLastName": "Acheampong",
+        "playerPosition": "Defender",
+        "playerProfileLink": {
+          "id": "c2369114-fa0e-4bdb-924d-b2b4bcafe4cb",
+          "title": "Josh Acheampong",
+          "url": "/en/teams/profile/josh-acheampong",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Acheampong_SF_Home_26_27_RGB",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Acheampong_SF_Home_26_27_RGB",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Acheampong_SF_Home_26_27_RGB",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790598523/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Acheampong_SF_Home_26_27_RGB.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Acheampong_SF_Home_26_27_RGB"
+            },
+            "details": {
+              "size": 16382308,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:2o22ggUV27H6IdEc9DkphP",
+      "name": "Olutayo Subuloye",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/olutayo-subuloye",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1784913265/editorial/people/first-team/2026-27/Olutayo_Subuloye_2026-27_profile_avatar-removebg.png",
+      "file": "assets/pending_media/chelsea:2o22ggUV27H6IdEc9DkphP/portrait.webp",
+      "sha256": "dc9c10e50782db803966510c0572273b462ae46b3355a4582558f97214eabdc5",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "2o22ggUV27H6IdEc9DkphP",
+        "playerNumber": "37",
+        "playerFirstName": "Olutayo",
+        "playerLastName": "Subuloye",
+        "playerPosition": "Defender",
+        "playerProfileLink": {
+          "id": "55d579a7-4bc8-4932-b157-870967b050e8",
+          "title": "Olutayo Subuloye",
+          "url": "/en/teams/profile/olutayo-subuloye",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/Olutayo_Subuloye_2026-27_profile_avatar-removebg",
+          "title": "editorial/people/first-team/2026-27/Olutayo_Subuloye_2026-27_profile_avatar-removebg",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/Olutayo_Subuloye_2026-27_profile_avatar-removebg",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1784913265/editorial/people/first-team/2026-27/Olutayo_Subuloye_2026-27_profile_avatar-removebg.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/Olutayo_Subuloye_2026-27_profile_avatar-removebg"
+            },
+            "details": {
+              "size": 19203965,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:7rFxlHAAiN3Btsl9kYkTv9",
+      "name": "Valentin Barco",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/valentin-barco",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1786728366/editorial/people/first-team/2026-27/Valentin_Barco_2026-27_profile_avatar-removebg.png",
+      "file": "assets/pending_media/chelsea:7rFxlHAAiN3Btsl9kYkTv9/portrait.webp",
+      "sha256": "d20ecb4630f0a7ff80f984044bdae7246c2f4401ad064c3e676f5fb00e685246",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "7rFxlHAAiN3Btsl9kYkTv9",
+        "playerNumber": "4",
+        "playerFirstName": "Valentin",
+        "playerLastName": "Barco",
+        "playerPosition": "Midfielder",
+        "playerProfileLink": {
+          "id": "3f839517-fcc3-4ab3-b4e1-f86046e08af0",
+          "title": "Valentin Barco",
+          "url": "/en/teams/profile/valentin-barco",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/Valentin_Barco_2026-27_profile_avatar-removebg",
+          "title": "editorial/people/first-team/2026-27/Valentin_Barco_2026-27_profile_avatar-removebg",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/Valentin_Barco_2026-27_profile_avatar-removebg",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1786728366/editorial/people/first-team/2026-27/Valentin_Barco_2026-27_profile_avatar-removebg.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/Valentin_Barco_2026-27_profile_avatar-removebg"
+            },
+            "details": {
+              "size": 16973444,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:4XvGmHcQiikJbWnYow8hc1",
+      "name": "Jordan Henderson",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/jordan-henderson",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790590935/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Henderson_SF_Home_26_27_RGB.png",
+      "file": "assets/pending_media/chelsea:4XvGmHcQiikJbWnYow8hc1/portrait.webp",
+      "sha256": "9926b28ee428ab4a1039669c7ff3b40736394197a2a5b6659784c010267be06d",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "4XvGmHcQiikJbWnYow8hc1",
+        "playerNumber": "14",
+        "playerFirstName": "Jordan",
+        "playerLastName": "Henderson",
+        "playerPosition": "Midfielder",
+        "playerProfileLink": {
+          "id": "e4a6a023-8780-487e-a7e7-7d4a395db854",
+          "title": "Jordan Henderson",
+          "url": "/en/teams/profile/jordan-henderson",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Henderson_SF_Home_26_27_RGB",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Henderson_SF_Home_26_27_RGB",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Henderson_SF_Home_26_27_RGB",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790590935/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Henderson_SF_Home_26_27_RGB.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Henderson_SF_Home_26_27_RGB"
+            },
+            "details": {
+              "size": 17390716,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:43oUZ5vRX4B6m61Pue0jWB",
+      "name": "Moises Caicedo",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/moises-caicedo",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790586339/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Caicedo_SF_Home_26_27_RGB.png",
+      "file": "assets/pending_media/chelsea:43oUZ5vRX4B6m61Pue0jWB/portrait.webp",
+      "sha256": "7bb5799b7216086edc134fa3ab1cc6d40d88ba09cf9aa1a2ebf2fbe7accbfca2",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "43oUZ5vRX4B6m61Pue0jWB",
+        "playerNumber": "25",
+        "playerFirstName": "Moises",
+        "playerLastName": "Caicedo",
+        "playerPosition": "Midfielder",
+        "playerProfileLink": {
+          "id": "bc4f1210-132c-467a-9cae-7cc6207e930f",
+          "title": "Moises Caicedo",
+          "url": "/en/teams/profile/moises-caicedo",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Caicedo_SF_Home_26_27_RGB",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Caicedo_SF_Home_26_27_RGB",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Caicedo_SF_Home_26_27_RGB",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790586339/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Caicedo_SF_Home_26_27_RGB.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Caicedo_SF_Home_26_27_RGB"
+            },
+            "details": {
+              "size": 14936656,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:2vFcoxJCfiGGmajJZVNbPw",
+      "name": "Reggie Watson",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/reggie-watson",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1784913271/editorial/people/first-team/2026-27/Reggie_Watson_2026-27_profile_avatar-removebg.png",
+      "file": "assets/pending_media/chelsea:2vFcoxJCfiGGmajJZVNbPw/portrait.webp",
+      "sha256": "82f1c59f75808e2d31af01740530375c6f27d6b44417434a834815478c4fca7f",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "2vFcoxJCfiGGmajJZVNbPw",
+        "playerNumber": "31",
+        "playerFirstName": "Reggie",
+        "playerLastName": "Watson",
+        "playerPosition": "Midfielder",
+        "playerPositionDetailed": "Central midfielder",
+        "playerProfileLink": {
+          "id": "c902ae21-7909-4f43-b8fb-b086fcf4d0ae",
+          "title": "Reggie Watson",
+          "url": "/en/teams/profile/reggie-watson",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/Reggie_Watson_2026-27_profile_avatar-removebg",
+          "title": "editorial/people/first-team/2026-27/Reggie_Watson_2026-27_profile_avatar-removebg",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/Reggie_Watson_2026-27_profile_avatar-removebg",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1784913271/editorial/people/first-team/2026-27/Reggie_Watson_2026-27_profile_avatar-removebg.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/Reggie_Watson_2026-27_profile_avatar-removebg"
+            },
+            "details": {
+              "size": 17586170,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 4999
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:57CxDlLZdBFdFuKn9GvHKl",
+      "name": "Mahdi Nicoll-Jazuli",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/mahdi-nicoll-jazuli",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1784913145/editorial/people/first-team/2026-27/Mahdi_Nicoll-Jazuli_2026-27_profile_avatar-removebg.png",
+      "file": "assets/pending_media/chelsea:57CxDlLZdBFdFuKn9GvHKl/portrait.webp",
+      "sha256": "27c9c1703c8d524c241d9cb78e5b20e9f8191ae18573fc3b57841491ecb05d48",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "57CxDlLZdBFdFuKn9GvHKl",
+        "playerNumber": "32",
+        "playerFirstName": "Mahdi",
+        "playerLastName": "Nicoll-Jazuli",
+        "playerPosition": "Midfielder",
+        "playerPositionDetailed": "Attacking midfielder",
+        "playerProfileLink": {
+          "id": "086ead68-fb51-470e-841c-83ae41dc38c3",
+          "title": "Mahdi Nicoll-Jazuli",
+          "url": "/en/teams/profile/mahdi-nicoll-jazuli",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/Mahdi_Nicoll-Jazuli_2026-27_profile_avatar-removebg",
+          "title": "editorial/people/first-team/2026-27/Mahdi_Nicoll-Jazuli_2026-27_profile_avatar-removebg",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/Mahdi_Nicoll-Jazuli_2026-27_profile_avatar-removebg",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1784913145/editorial/people/first-team/2026-27/Mahdi_Nicoll-Jazuli_2026-27_profile_avatar-removebg.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/Mahdi_Nicoll-Jazuli_2026-27_profile_avatar-removebg"
+            },
+            "details": {
+              "size": 21242426,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:2fd36y1tclXGYu6pIMjOIL",
+      "name": "Romeo Lavia",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/romeo-lavia",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1784913354/editorial/people/first-team/2026-27/Romeo_Lavia_2026-27_profile_avatar-removebg.png",
+      "file": "assets/pending_media/chelsea:2fd36y1tclXGYu6pIMjOIL/portrait.webp",
+      "sha256": "5e98e4a8ed026102b3f6a3462534c9eb8d5689511768cfe04102cb17e9feafb3",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "2fd36y1tclXGYu6pIMjOIL",
+        "playerNumber": "45",
+        "playerFirstName": "Romeo",
+        "playerLastName": "Lavia",
+        "playerPosition": "Midfielder",
+        "playerProfileLink": {
+          "id": "ddc680f0-bae8-45b9-8eb0-ad3c121e31f3",
+          "title": "Romeo Lavia",
+          "url": "/en/teams/profile/romeo-lavia",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/Romeo_Lavia_2026-27_profile_avatar-removebg",
+          "title": "editorial/people/first-team/2026-27/Romeo_Lavia_2026-27_profile_avatar-removebg",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/Romeo_Lavia_2026-27_profile_avatar-removebg",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1784913354/editorial/people/first-team/2026-27/Romeo_Lavia_2026-27_profile_avatar-removebg.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/Romeo_Lavia_2026-27_profile_avatar-removebg"
+            },
+            "details": {
+              "size": 20490877,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5001
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:2OCQIwCKdHMJNhImUsBRzw",
+      "name": "Pedro  Neto",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/pedro-neto",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790593019/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Neto_SF_Home_26_27_RGB.png",
+      "file": "assets/pending_media/chelsea:2OCQIwCKdHMJNhImUsBRzw/portrait.webp",
+      "sha256": "90dc4b560f546c1c9a76dcdef7c64f5288044e2bebcb37ac5c7c63785d5a195a",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "2OCQIwCKdHMJNhImUsBRzw",
+        "playerNumber": "7",
+        "playerFirstName": "Pedro ",
+        "playerLastName": "Neto",
+        "playerPosition": "Forward",
+        "playerPositionDetailed": "Winger",
+        "playerProfileLink": {
+          "id": "bbba21be-b0a7-4e67-b8fd-7158dddf77d0",
+          "title": "Pedro Neto",
+          "url": "/en/teams/profile/pedro-neto",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Neto_SF_Home_26_27_RGB",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Neto_SF_Home_26_27_RGB",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Neto_SF_Home_26_27_RGB",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790593019/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Neto_SF_Home_26_27_RGB.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Neto_SF_Home_26_27_RGB"
+            },
+            "details": {
+              "size": 17081346,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:2FwzGE2WMOHAnR0puVMisc",
+      "name": "Joao Pedro",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/joao-pedro",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790594048/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Pedro.png",
+      "file": "assets/pending_media/chelsea:2FwzGE2WMOHAnR0puVMisc/portrait.webp",
+      "sha256": "4e35881f9c87ea004cffde807cad41dac87524c6a56513f9773d406c23e5d505",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "2FwzGE2WMOHAnR0puVMisc",
+        "playerNumber": "9",
+        "playerFirstName": "Joao",
+        "playerLastName": "Pedro",
+        "playerPosition": "Forward",
+        "playerProfileLink": {
+          "id": "85aff2f5-5dcb-49de-89ba-87d4c40f2c62",
+          "title": "Joao Pedro",
+          "url": "/en/teams/profile/joao-pedro",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Pedro",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Pedro",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Pedro",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790594048/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Pedro.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Pedro"
+            },
+            "details": {
+              "size": 17716808,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:2srYA1QS1OhCE45rzou1ZR",
+      "name": "Cole Palmer",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/cole-palmer",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790602792/3333x5000_Avatar_Image_Men_26_27_Palmer_SF_Home_26_27_RGB_cnce6g.png",
+      "file": "assets/pending_media/chelsea:2srYA1QS1OhCE45rzou1ZR/portrait.webp",
+      "sha256": "c75b88326488172221e39c12b16d6bf6d9563dd6d151c9746a9424493686f230",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": null,
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "2srYA1QS1OhCE45rzou1ZR",
+        "playerNumber": "10",
+        "playerFirstName": "Cole",
+        "playerLastName": "Palmer ",
+        "playerPosition": "Forward",
+        "playerPositionDetailed": "Attacking midfielder/winger",
+        "playerProfileLink": {
+          "id": "095b33e9-2e8d-48c3-9a02-375600047c51",
+          "title": "Cole Palmer ",
+          "url": "/en/teams/profile/cole-palmer",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "3333x5000_Avatar_Image_Men_26_27_Palmer_SF_Home_26_27_RGB_cnce6g",
+          "title": "3333x5000_Avatar_Image_Men_26_27_Palmer_SF_Home_26_27_RGB_cnce6g",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "3333x5000_Avatar_Image_Men_26_27_Palmer_SF_Home_26_27_RGB_cnce6g",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790602792/3333x5000_Avatar_Image_Men_26_27_Palmer_SF_Home_26_27_RGB_cnce6g.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "3333x5000_Avatar_Image_Men_26_27_Palmer_SF_Home_26_27_RGB_cnce6g"
+            },
+            "details": {
+              "size": 16658269,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:5IobErY2OMIyoMUYzkJwmB",
+      "name": "Jamie Gittens",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/jamie-gittens",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790590701/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Gittens_SF_Home_26_27_RGB.png",
+      "file": "assets/pending_media/chelsea:5IobErY2OMIyoMUYzkJwmB/portrait.webp",
+      "sha256": "2b11bcb235c80050f119a8c608f4b3814a2cc920212d1491a001342b2b860b91",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "5IobErY2OMIyoMUYzkJwmB",
+        "playerNumber": "11",
+        "playerFirstName": "Jamie",
+        "playerLastName": "Gittens",
+        "playerPosition": "Forward",
+        "playerPositionDetailed": "Winger",
+        "playerProfileLink": {
+          "id": "b5a7ce84-e815-4b29-b8d6-b2894800373c",
+          "title": "Jamie Gittens",
+          "url": "/en/teams/profile/jamie-gittens",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Gittens_SF_Home_26_27_RGB",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Gittens_SF_Home_26_27_RGB",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Gittens_SF_Home_26_27_RGB",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790590701/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Gittens_SF_Home_26_27_RGB.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Gittens_SF_Home_26_27_RGB"
+            },
+            "details": {
+              "size": 16903975,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:GyDflUpNF9AiVs3Q51dd1",
+      "name": "Morgan Rogers",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/morgan-rogers",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790594065/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Rogers.png",
+      "file": "assets/pending_media/chelsea:GyDflUpNF9AiVs3Q51dd1/portrait.webp",
+      "sha256": "efdb518808b3b110d95377e9f438c6b11ea4e2d4de9d5084b13860de3f2170ba",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "GyDflUpNF9AiVs3Q51dd1",
+        "playerNumber": "17",
+        "playerFirstName": "Morgan",
+        "playerLastName": "Rogers",
+        "playerPosition": "Forward",
+        "playerPositionDetailed": "Attacking midfielder/winger",
+        "playerProfileLink": {
+          "id": "94232f6a-5607-4e7c-816b-f7d754510736",
+          "title": "Morgan Rogers",
+          "url": "/en/teams/profile/morgan-rogers",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Rogers",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Rogers",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Rogers",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790594065/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Rogers.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Rogers"
+            },
+            "details": {
+              "size": 18573740,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:6w59fFVlJ8GVz6fXjuSCZB",
+      "name": "Danny Welbeck",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/danny-welbeck",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790594402/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Welbeck_SF_Home_26_27_RGB.png",
+      "file": "assets/pending_media/chelsea:6w59fFVlJ8GVz6fXjuSCZB/portrait.webp",
+      "sha256": "0b52d5b1b09b30c43d104f08b1841dd56690bc83e6332a46ff2e38c3fc7d3899",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "6w59fFVlJ8GVz6fXjuSCZB",
+        "playerNumber": "18",
+        "playerFirstName": "Danny",
+        "playerLastName": "Welbeck",
+        "playerPosition": "Forward",
+        "playerPositionDetailed": "Striker",
+        "playerProfileLink": {
+          "id": "c4442107-104b-4100-82a2-021af179e0a9",
+          "title": "Danny Welbeck",
+          "url": "/en/teams/profile/danny-welbeck",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Welbeck_SF_Home_26_27_RGB",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Welbeck_SF_Home_26_27_RGB",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Welbeck_SF_Home_26_27_RGB",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790594402/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Welbeck_SF_Home_26_27_RGB.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Welbeck_SF_Home_26_27_RGB"
+            },
+            "details": {
+              "size": 16675146,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:3kv3HIxly9AVfO313vMgRA",
+      "name": "Emmanuel  Emegha",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/emmanuel-emegha",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1783690405/editorial/people/first-team/2026-27/Emmanuel_Emegha_profile_2026-27-removebg.png",
+      "file": "assets/pending_media/chelsea:3kv3HIxly9AVfO313vMgRA/portrait.webp",
+      "sha256": "bfcc690bdc25780c330509b480b86c47b1f1ef4c5e6e072267137fa5debc8a63",
+      "width": 768,
+      "height": 1156,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "3kv3HIxly9AVfO313vMgRA",
+        "playerNumber": "22",
+        "playerFirstName": "Emmanuel ",
+        "playerLastName": "Emegha",
+        "playerPosition": "Forward",
+        "playerProfileLink": {
+          "id": "23ab5370-3af1-4a8b-aea4-e261642c1fd2",
+          "title": "Emmanuel Emegha",
+          "url": "/en/teams/profile/emmanuel-emegha",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/Emmanuel_Emegha_profile_2026-27-removebg",
+          "title": "editorial/people/first-team/2026-27/Emmanuel_Emegha_profile_2026-27-removebg",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/Emmanuel_Emegha_profile_2026-27-removebg",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1783690405/editorial/people/first-team/2026-27/Emmanuel_Emegha_profile_2026-27-removebg.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/Emmanuel_Emegha_profile_2026-27-removebg"
+            },
+            "details": {
+              "size": 18470119,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5015
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:13NDmLRUDNNy6Tjt13yRcG",
+      "name": "Geovany Quenda",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/geovany-quenda",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1783531308/editorial/people/first-team/2026-27/Geovany_Quenda_2026-27_avatar_temp-removebg.png",
+      "file": "assets/pending_media/chelsea:13NDmLRUDNNy6Tjt13yRcG/portrait.webp",
+      "sha256": "6b6527546595ed07c50d85c88e09ec207c702671fde2a57a4a08fbcff0e49fd4",
+      "width": 768,
+      "height": 1155,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "13NDmLRUDNNy6Tjt13yRcG",
+        "playerNumber": "23",
+        "playerFirstName": "Geovany",
+        "playerLastName": "Quenda",
+        "playerPosition": "Forward",
+        "playerPositionDetailed": "Winger/wing-back",
+        "playerProfileLink": {
+          "id": "3a80b17c-1b2b-48b3-b805-a5191766accf",
+          "title": "Geovany Quenda",
+          "url": "/en/teams/profile/geovany-quenda",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/Geovany_Quenda_2026-27_avatar_temp-removebg",
+          "title": "editorial/people/first-team/2026-27/Geovany_Quenda_2026-27_avatar_temp-removebg",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/Geovany_Quenda_2026-27_avatar_temp-removebg",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1783531308/editorial/people/first-team/2026-27/Geovany_Quenda_2026-27_avatar_temp-removebg.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/Geovany_Quenda_2026-27_avatar_temp-removebg"
+            },
+            "details": {
+              "size": 16047435,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5012
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:7pQf4EbJjYGXqcniuC0I0t",
+      "name": "Estevao  Willian",
+      "kind": "player",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/estevao",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1790590354/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Estevao.png",
+      "file": "assets/pending_media/chelsea:7pQf4EbJjYGXqcniuC0I0t/portrait.webp",
+      "sha256": "22f5ab7981cccf6e9be0d5eb475524adb76dfc1cc0dc976503409c6e4f546cec",
+      "width": 768,
+      "height": 1152,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "7pQf4EbJjYGXqcniuC0I0t",
+        "playerNumber": "41",
+        "playerFirstName": "Estevao ",
+        "playerLastName": "Willian",
+        "playerPosition": "Forward",
+        "playerProfileLink": {
+          "id": "83505604-7be5-4b16-ae98-a49f2d6f65ea",
+          "title": "Estevao Willian ",
+          "url": "/en/teams/profile/estevao",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Estevao",
+          "title": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Estevao",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Estevao",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1790590354/editorial/people/first-team/2026-27/With%20USDC/3333x5000_Avatar_Image_Men_26_27_Estevao.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/first-team/2026-27/With USDC/3333x5000_Avatar_Image_Men_26_27_Estevao"
+            },
+            "details": {
+              "size": 18016880,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5000
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "mensteam"
+        ]
+      }
+    },
+    {
+      "sourceIdentity": "chelsea:4GwzXZntW81iVD55qWqOy5",
+      "name": "Xabi Alonso",
+      "kind": "coach",
+      "teamId": "club:chelsea",
+      "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+      "profileSource": "https://www.chelseafc.com/en/teams/profile/xabi-alonso",
+      "imageSource": "https://img.chelseafc.com/image/upload/f_webp,w_768,c_limit/v1784133787/editorial/people/management/2026-27/Xabi_Alonso_2026-27_profile_avatar-removebg.png",
+      "file": "assets/pending_media/chelsea:4GwzXZntW81iVD55qWqOy5/portrait.webp",
+      "sha256": "65c314eed28bf13cb82d37b8df348d517b651ed745ab6ebed08a0a958e43d899",
+      "width": 768,
+      "height": 1154,
+      "declaredSeason": "2026-2027",
+      "kitReviewed": false,
+      "identityReviewed": false,
+      "rightsStatus": "not-cleared",
+      "verification": "pending",
+      "sourcePlayer": {
+        "playerId": "4GwzXZntW81iVD55qWqOy5",
+        "playerFirstName": "Xabi",
+        "playerLastName": "Alonso ",
+        "playerPosition": "Staff",
+        "playerPositionDetailed": "Manager",
+        "playerProfileLink": {
+          "id": "1f2978c2-d661-485f-92be-3ccfc05da833",
+          "title": "Xabi Alonso ",
+          "url": "/en/teams/profile/xabi-alonso",
+          "isExternal": false,
+          "isActive": false
+        },
+        "playerImage": {
+          "id": "editorial/people/management/2026-27/Xabi_Alonso_2026-27_profile_avatar-removebg",
+          "title": "editorial/people/management/2026-27/Xabi_Alonso_2026-27_profile_avatar-removebg",
+          "description": "",
+          "credit": "",
+          "file": {
+            "fileName": "editorial/people/management/2026-27/Xabi_Alonso_2026-27_profile_avatar-removebg",
+            "contentType": "image",
+            "type": "upload",
+            "format": "png",
+            "url": "http://img.chelseafc.com/image/upload/v1784133787/editorial/people/management/2026-27/Xabi_Alonso_2026-27_profile_avatar-removebg.png",
+            "urlObject": {
+              "baseUrl": "https://res.cloudinary.com/",
+              "cloudName": "chelsea-production",
+              "resourceType": "image",
+              "type": "upload",
+              "publicId": "editorial/people/management/2026-27/Xabi_Alonso_2026-27_profile_avatar-removebg"
+            },
+            "details": {
+              "size": 13139398,
+              "transformations": "",
+              "image": {
+                "width": 3333,
+                "height": 5009
+              }
+            }
+          },
+          "coordinates": []
+        },
+        "teams": [
+          "staff"
+        ]
+      }
+    }
+  ],
+  "releaseReady": false,
+  "note": "Current official profile page, not a certified league registration list. Club membership and canonical FIFA identity mapping require review."
+}
