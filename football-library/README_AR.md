@@ -27,4 +27,6 @@
 نزّل وثيقة FIFA الموجودة في مصدر تقرير FIFA_EXTRACTION إلى `sources/FIFA_WC2026_SquadLists.pdf` ثم نفّذ `scripts/extract_fifa.py`.
 نفّذ استيراد اللعبة من `website` عبر `node scripts/import-fifa-snapshot.mjs` مع DATA_DIR المحدد.
 
+لتصدير جداول المكتبة وحدها إلى JSON مقسم، نفّذ `python football-library/scripts/export_snapshot.py PATH_TO_SQLITE NEW_OUTPUT_DIRECTORY` من جذر المستودع. يجب أن يكون مجلد الإخراج جديدًا؛ لا تُستبدل صادرات سابقة. `index.json` يتضمن الأعمدة وعدد السجلات وبصمات الأجزاء. التصدير يحتفظ بالحقول العربية والحالات والتواريخ دون تحويل البيانات المعلقة إلى معتمدة، ويستبعد حسابات اللعبة. هذه أداة تصدير بيانات وليست شهادة جاهزية أو استيراد MySQL.
+
 لا توجد نسبة اكتمال 100% ولا ZIP نهائي. يلزم استكمال قوائم الأندية والحقول والصور والسجلات والتكامل PHP/MySQL قبل التسليم.
