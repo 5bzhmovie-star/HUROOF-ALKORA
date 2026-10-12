@@ -128,10 +128,38 @@
   "athletic": {
     "firstTeamPlayers": 26,
     "headCoaches": 1,
-    "personalProfilesCollected": 8,
-    "remainingPersonalProfiles": 18,
+    "personalProfilesCollected": 26,
+    "remainingPersonalProfiles": 0,
     "releaseReady": false,
     "localPortraitFiles": 26,
     "portraitApproval": "pending-identity-period-card-crop-and-rights-review"
+  },
+  "athleticPersonal": {
+    "profiles": 26,
+    "careerSeasonRows": 522,
+    "competitionRows": 639,
+    "emptyCareerProfiles": [],
+    "releaseReady": false
+  },
+  "currentLocalRecoveryAudit": {
+    "releaseReady": false,
+    "checkedAt": "2026-10-12",
+    "groups": {
+      "SPL_MEDIA_CANDIDATES.json": {
+        "recordedFiles": 555,
+        "presentMatchingHash": 555,
+        "missingOrMismatch": []
+      },
+      "SERIEA_MEDIA_CANDIDATES.json": {
+        "recordedFiles": 54,
+        "presentMatchingHash": 54,
+        "missingOrMismatch": []
+      },
+      "ATHLETIC_MEDIA_CANDIDATES.json": {
+        "recordedFiles": 26,
+        "presentMatchingHash": 26,
+        "missingOrMismatch": []
+      }
+    }
   }
 }

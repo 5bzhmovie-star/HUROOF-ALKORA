@@ -1,0 +1,21 @@
+{
+  "releaseReady": false,
+  "checkedAt": "2026-10-12",
+  "groups": {
+    "SPL_MEDIA_CANDIDATES.json": {
+      "recordedFiles": 555,
+      "presentMatchingHash": 555,
+      "missingOrMismatch": []
+    },
+    "SERIEA_MEDIA_CANDIDATES.json": {
+      "recordedFiles": 54,
+      "presentMatchingHash": 54,
+      "missingOrMismatch": []
+    },
+    "ATHLETIC_MEDIA_CANDIDATES.json": {
+      "recordedFiles": 26,
+      "presentMatchingHash": 26,
+      "missingOrMismatch": []
+    }
+  }
+}
