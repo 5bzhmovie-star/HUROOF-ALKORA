@@ -1,0 +1,49 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "path": "sources/html/saudi-alternate-statistics-51942b6831f47aedbae9b2800eab53593cd862b9036e9140d24147923b1c1383.json",
+      "sha256": "51942b6831f47aedbae9b2800eab53593cd862b9036e9140d24147923b1c1383",
+      "playerRows": 100,
+      "source": "https://api-sdp.alahlifc.sa/v1/alahli/football/seasons/alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b/stats/players?locale=en&page=1&pageNumElement=100"
+    },
+    {
+      "page": 4,
+      "source": "https://api-sdp.alahlifc.sa/v1/alahli/football/seasons/alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b/stats/players?locale=en&page=4&pageNumElement=100",
+      "path": "sources/html/saudi-alternate-statistics-page-4-f3f4b0c7220f09d6d5b07fa9d797464688544781ef5ef5ac61e9d24f287c336b.json",
+      "sha256": "f3f4b0c7220f09d6d5b07fa9d797464688544781ef5ef5ac61e9d24f287c336b",
+      "playerRows": 100
+    },
+    {
+      "page": 2,
+      "source": "https://api-sdp.alahlifc.sa/v1/alahli/football/seasons/alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b/stats/players?locale=en&page=2&pageNumElement=100",
+      "path": "sources/html/saudi-alternate-statistics-page-2-d889b9d04ce67e9f07fc6b93826874ea6774ac2e8ff33e2d9190b29eb1defbfe.json",
+      "sha256": "d889b9d04ce67e9f07fc6b93826874ea6774ac2e8ff33e2d9190b29eb1defbfe",
+      "playerRows": 100
+    },
+    {
+      "page": 3,
+      "source": "https://api-sdp.alahlifc.sa/v1/alahli/football/seasons/alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b/stats/players?locale=en&page=3&pageNumElement=100",
+      "path": "sources/html/saudi-alternate-statistics-page-3-c3ff71cadb1b44d93b6fa8ba83e1e832e352db18802ccc7a58cb183e2fe93dee.json",
+      "sha256": "c3ff71cadb1b44d93b6fa8ba83e1e832e352db18802ccc7a58cb183e2fe93dee",
+      "playerRows": 100
+    },
+    {
+      "page": 6,
+      "source": "https://api-sdp.alahlifc.sa/v1/alahli/football/seasons/alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b/stats/players?locale=en&page=6&pageNumElement=100",
+      "path": "sources/html/saudi-alternate-statistics-page-6-362e55e4524d6cd03d45b374bdb849ec1eaa563bc2c551e8fe6b8e6e45f09196.json",
+      "sha256": "362e55e4524d6cd03d45b374bdb849ec1eaa563bc2c551e8fe6b8e6e45f09196",
+      "playerRows": 26
+    },
+    {
+      "page": 5,
+      "source": "https://api-sdp.alahlifc.sa/v1/alahli/football/seasons/alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b/stats/players?locale=en&page=5&pageNumElement=100",
+      "path": "sources/html/saudi-alternate-statistics-page-5-a29d7b511b7880cc53d58cab9f30f11fa1366911eb9dcc3e9989b3f083491b01.json",
+      "sha256": "a29d7b511b7880cc53d58cab9f30f11fa1366911eb9dcc3e9989b3f083491b01",
+      "playerRows": 100
+    }
+  ],
+  "failures": [],
+  "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+  "releaseReady": false
+}

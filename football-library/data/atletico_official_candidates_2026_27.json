@@ -1,0 +1,1435 @@
+{
+  "club": "Atlético de Madrid",
+  "season": "2026-2027",
+  "source": "https://en.atleticodemadrid.com/jugadores-primer-equipo/",
+  "rosterCaptureSha256": "586c1e705676773ace4a37ce0237e9453eb49fde477be3cd055c0bdd0058d4e7",
+  "sourceRoute": "official pages retrieved through alternate web reader",
+  "rosterAsPublished": [
+    {
+      "shirtNumber": 1,
+      "displayNameAsPublished": "J. MUSSO"
+    },
+    {
+      "shirtNumber": 13,
+      "displayNameAsPublished": "OBLAK"
+    },
+    {
+      "shirtNumber": 25,
+      "displayNameAsPublished": "Esquivel"
+    },
+    {
+      "shirtNumber": 17,
+      "displayNameAsPublished": "HANCKO"
+    },
+    {
+      "shirtNumber": 18,
+      "displayNameAsPublished": "MARC PUBILL"
+    },
+    {
+      "shirtNumber": 21,
+      "displayNameAsPublished": "ROMERO"
+    },
+    {
+      "shirtNumber": 22,
+      "displayNameAsPublished": "GRIMALDO"
+    },
+    {
+      "shirtNumber": 24,
+      "displayNameAsPublished": "LE NORMAND"
+    },
+    {
+      "shirtNumber": 30,
+      "displayNameAsPublished": "D. Martínez"
+    },
+    {
+      "shirtNumber": 3,
+      "displayNameAsPublished": "OBED VARGAS"
+    },
+    {
+      "shirtNumber": 4,
+      "displayNameAsPublished": "MENDOZA"
+    },
+    {
+      "shirtNumber": 5,
+      "displayNameAsPublished": "JOHNNY"
+    },
+    {
+      "shirtNumber": 6,
+      "displayNameAsPublished": "KOKE"
+    },
+    {
+      "shirtNumber": 7,
+      "displayNameAsPublished": "KANG IN"
+    },
+    {
+      "shirtNumber": 8,
+      "displayNameAsPublished": "BARRIOS"
+    },
+    {
+      "shirtNumber": 10,
+      "displayNameAsPublished": "ÁLEX B."
+    },
+    {
+      "shirtNumber": 14,
+      "displayNameAsPublished": "MARCOS LLORENTE"
+    },
+    {
+      "shirtNumber": 16,
+      "displayNameAsPublished": "ARNAU ORTIZ"
+    },
+    {
+      "shirtNumber": 20,
+      "displayNameAsPublished": "GIULIANO"
+    },
+    {
+      "shirtNumber": 23,
+      "displayNameAsPublished": "HJULMAND"
+    },
+    {
+      "shirtNumber": 9,
+      "displayNameAsPublished": "SØRLOTH"
+    },
+    {
+      "shirtNumber": 11,
+      "displayNameAsPublished": "LOOKMAN"
+    },
+    {
+      "shirtNumber": 15,
+      "displayNameAsPublished": "J. David"
+    },
+    {
+      "shirtNumber": 19,
+      "displayNameAsPublished": "J. ALVAREZ"
+    }
+  ],
+  "profiles": [
+    {
+      "sourceProfileKey": "juan-agustin-musso-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/juan-agustin-musso-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "1994-05-06",
+        "heightCm": 191,
+        "weightKg": 93,
+        "nationalityAsPublished": "Argentinian",
+        "positionAsPublished": "Goalkeeper",
+        "dateOfBirthAsPublished": "06/05/1994"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "Racing Club",
+          "fromYear": 2012,
+          "toYear": 2018,
+          "datePrecision": "year",
+          "raw": "Racing Club: 2012-2018"
+        },
+        {
+          "teamNameAsPublished": "Udinese",
+          "fromYear": 2018,
+          "toYear": 2021,
+          "datePrecision": "year",
+          "raw": "Udinese: 2018-2021"
+        },
+        {
+          "teamNameAsPublished": "Atalanta",
+          "fromYear": 2021,
+          "toYear": 2024,
+          "datePrecision": "year",
+          "raw": "Atalanta: 2021-2024"
+        },
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2024,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2024 - ."
+        }
+      ],
+      "honorsAsPublished": [
+        {
+          "year": 2014,
+          "nameAsPublished": "Primera División Argentine",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2021,
+          "nameAsPublished": "Copa América",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2022,
+          "nameAsPublished": "Finalissima",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2024,
+          "nameAsPublished": "UEFA Europa League",
+          "verification": "pending-cross-source-review"
+        }
+      ],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 1,
+      "nameAsPublished": "JUAN AGUSTíN MUSSO",
+      "sourceCaptureSha256": "544f6ee5463a801545a7b23d9404740df35603f00f70a9e4776faf1b693cff45"
+    },
+    {
+      "sourceProfileKey": "jan-oblak-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/jan-oblak-2026-2027-2",
+      "season": "2026-2027",
+      "personal": null,
+      "careerAsPublished": [],
+      "honorsAsPublished": [],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "profile-unavailable-in-alternate-retrieval",
+      "sourceCaptureSha256": "6a218f5ab707e226a87cc9aade3eb2995fca2ee17e55e42f0d4106a3e75deae4"
+    },
+    {
+      "sourceProfileKey": "salvador-esquivel-2026-2027",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/salvador-esquivel-2026-2027",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "2005-09-30",
+        "heightCm": 190,
+        "weightKg": 93,
+        "nationalityAsPublished": null,
+        "positionAsPublished": "Goalkeeper",
+        "dateOfBirthAsPublished": "30/09/2005"
+      },
+      "careerAsPublished": [],
+      "honorsAsPublished": [],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 25,
+      "nameAsPublished": "SALVADOR ESQUIVEL",
+      "sourceCaptureSha256": "6a218f5ab707e226a87cc9aade3eb2995fca2ee17e55e42f0d4106a3e75deae4"
+    },
+    {
+      "sourceProfileKey": "david-hancko-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/david-hancko-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "1997-12-13",
+        "heightCm": 188,
+        "weightKg": 82,
+        "nationalityAsPublished": "Slovak",
+        "positionAsPublished": "Defender",
+        "dateOfBirthAsPublished": "13/12/1997"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "M. Š. K. Žilina (Youth teams)",
+          "fromYear": 2014,
+          "toYear": 2016,
+          "datePrecision": "year",
+          "raw": "M. Š. K. Žilina (Youth teams): 2014-2016"
+        },
+        {
+          "teamNameAsPublished": "M. Š. K. Žilina",
+          "fromYear": 2016,
+          "toYear": 2018,
+          "datePrecision": "year",
+          "raw": "M. Š. K. Žilina: 2016-2018"
+        },
+        {
+          "teamNameAsPublished": "Fiorentina",
+          "fromYear": 2018,
+          "toYear": 2019,
+          "datePrecision": "year",
+          "raw": "Fiorentina: 2018-2019"
+        },
+        {
+          "teamNameAsPublished": "Sparta Praga",
+          "fromYear": 2019,
+          "toYear": 2023,
+          "datePrecision": "year",
+          "raw": "Sparta Praga: 2019-2023"
+        },
+        {
+          "teamNameAsPublished": "Feyenoord",
+          "fromYear": 2023,
+          "toYear": 2025,
+          "datePrecision": "year",
+          "raw": "Feyenoord: 2023-2025"
+        },
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2025,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2025 - ."
+        }
+      ],
+      "honorsAsPublished": [
+        {
+          "year": 2016,
+          "nameAsPublished": "/17 Slovak Champion",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2019,
+          "nameAsPublished": "/20 Czech Cup",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2022,
+          "nameAsPublished": "/23 Eredivisie",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2023,
+          "nameAsPublished": "/24 Dutch Cup",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2024,
+          "nameAsPublished": "Dutch Super Cup",
+          "verification": "pending-cross-source-review"
+        }
+      ],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 17,
+      "nameAsPublished": "DáVID HANCKO",
+      "sourceCaptureSha256": "6a218f5ab707e226a87cc9aade3eb2995fca2ee17e55e42f0d4106a3e75deae4"
+    },
+    {
+      "sourceProfileKey": "marc-pubill-pages-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/marc-pubill-pages-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "2003-06-20",
+        "heightCm": 190,
+        "weightKg": 86,
+        "nationalityAsPublished": "Spaniard",
+        "positionAsPublished": "Defender",
+        "dateOfBirthAsPublished": "20/06/2003"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2025,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2025 - ."
+        }
+      ],
+      "honorsAsPublished": [
+        {
+          "year": 2024,
+          "nameAsPublished": "Summer Olympics gold medal",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2026,
+          "nameAsPublished": "FIFA World Cup",
+          "verification": "pending-cross-source-review"
+        }
+      ],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 18,
+      "nameAsPublished": "MARC PUBILL PAGéS",
+      "sourceCaptureSha256": "d9ed65efd188ff9f1f20a6a50cdd249afac08358f000cba941a91867761d350c"
+    },
+    {
+      "sourceProfileKey": "cristian-gabriel-romero-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/cristian-gabriel-romero-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "1998-04-27",
+        "heightCm": 185,
+        "weightKg": 80,
+        "nationalityAsPublished": "Argentinian",
+        "positionAsPublished": "Defender",
+        "dateOfBirthAsPublished": "27/04/1998"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "C. A. Belgrano",
+          "fromYear": 2016,
+          "toYear": 2018,
+          "datePrecision": "year",
+          "raw": "C. A. Belgrano: 2016-2018"
+        },
+        {
+          "teamNameAsPublished": "Genoa",
+          "fromYear": 2018,
+          "toYear": 2020,
+          "datePrecision": "year",
+          "raw": "Genoa: 2018-2020"
+        },
+        {
+          "teamNameAsPublished": "Atalanta",
+          "fromYear": 2020,
+          "toYear": 2021,
+          "datePrecision": "year",
+          "raw": "Atalanta: 2020-2021"
+        },
+        {
+          "teamNameAsPublished": "Tottenham Hotspur",
+          "fromYear": 2021,
+          "toYear": 2026,
+          "datePrecision": "year",
+          "raw": "Tottenham Hotspur: 2021-2026"
+        },
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2026,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2026 - ."
+        }
+      ],
+      "honorsAsPublished": [
+        {
+          "year": 2021,
+          "nameAsPublished": "& 2024 Copa América",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2022,
+          "nameAsPublished": "Finalissima",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2022,
+          "nameAsPublished": "FIFA World Cup",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2025,
+          "nameAsPublished": "UEFA Europa League",
+          "verification": "pending-cross-source-review"
+        }
+      ],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 21,
+      "nameAsPublished": "CRISTIAN GABRIEL ROMERO",
+      "sourceCaptureSha256": "d9ed65efd188ff9f1f20a6a50cdd249afac08358f000cba941a91867761d350c"
+    },
+    {
+      "sourceProfileKey": "alejandro-grimaldo-garcia-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/alejandro-grimaldo-garcia-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "1995-09-20",
+        "heightCm": 171,
+        "weightKg": 67,
+        "nationalityAsPublished": "Spanish",
+        "positionAsPublished": "Defender",
+        "dateOfBirthAsPublished": "20/09/1995"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "FC Barcelona (youth teams)",
+          "fromYear": 2008,
+          "toYear": 2015,
+          "datePrecision": "year",
+          "raw": "FC Barcelona (youth teams): 2008-2015"
+        },
+        {
+          "teamNameAsPublished": "Benfica",
+          "fromYear": 2016,
+          "toYear": 2023,
+          "datePrecision": "year",
+          "raw": "Benfica: 2016-2023"
+        },
+        {
+          "teamNameAsPublished": "Bayer Leverkusen",
+          "fromYear": 2023,
+          "toYear": 2026,
+          "datePrecision": "year",
+          "raw": "Bayer Leverkusen: 2023-2026"
+        },
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2026,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2026 - ."
+        }
+      ],
+      "honorsAsPublished": [
+        {
+          "year": 2026,
+          "nameAsPublished": "FIFA World Cup",
+          "verification": "pending-cross-source-review"
+        }
+      ],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 22,
+      "nameAsPublished": "ALEJANDRO GRIMALDO GARCíA",
+      "sourceCaptureSha256": "d9ed65efd188ff9f1f20a6a50cdd249afac08358f000cba941a91867761d350c"
+    },
+    {
+      "sourceProfileKey": "robin-aime-robert-le-normand-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/robin-aime-robert-le-normand-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "1996-11-11",
+        "heightCm": 187,
+        "weightKg": 80,
+        "nationalityAsPublished": "Spaniard",
+        "positionAsPublished": "Defender",
+        "dateOfBirthAsPublished": "11/11/1996"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "Stade Brestois (youth teams)",
+          "fromYear": 2011,
+          "toYear": 2015,
+          "datePrecision": "year",
+          "raw": "Stade Brestois (youth teams): 2011-2015"
+        },
+        {
+          "teamNameAsPublished": "Real Sociedad B",
+          "fromYear": 2016,
+          "toYear": 2019,
+          "datePrecision": "year",
+          "raw": "Real Sociedad B: 2016-2019"
+        },
+        {
+          "teamNameAsPublished": "Real Sociedad B",
+          "fromYear": 2019,
+          "toYear": 2024,
+          "datePrecision": "year",
+          "raw": "Real Sociedad B: 2019-2024"
+        },
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2024,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2024 - ."
+        }
+      ],
+      "honorsAsPublished": [
+        {
+          "year": 2019,
+          "nameAsPublished": "/20 King’s Cup",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2023,
+          "nameAsPublished": "UEFA Nations League",
+          "verification": "pending-cross-source-review"
+        }
+      ],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 24,
+      "nameAsPublished": "ROBIN AIME ROBERT LE NORMAND",
+      "sourceCaptureSha256": "d9ed65efd188ff9f1f20a6a50cdd249afac08358f000cba941a91867761d350c"
+    },
+    {
+      "sourceProfileKey": "dani-martinez-2026-2027",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/dani-martinez-2026-2027",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "2004-05-05",
+        "heightCm": 183,
+        "weightKg": 71,
+        "nationalityAsPublished": "Spanish",
+        "positionAsPublished": "Defender",
+        "dateOfBirthAsPublished": "05/05/2004"
+      },
+      "careerAsPublished": [],
+      "honorsAsPublished": [],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 30,
+      "nameAsPublished": "DANIEL MARTíNEZ",
+      "sourceCaptureSha256": "4c5953db045ec686a9141cff25f133d78eb159dae95213e9ddc1fd7e66e411c1"
+    },
+    {
+      "sourceProfileKey": "obed-gomez-vargas-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/obed-gomez-vargas-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "2005-08-05",
+        "heightCm": 175,
+        "weightKg": 68,
+        "nationalityAsPublished": "Mexican",
+        "positionAsPublished": "Midfielder",
+        "dateOfBirthAsPublished": "05/08/2005"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "Seattle Sounders",
+          "fromYear": 2021,
+          "toYear": 2026,
+          "datePrecision": "year",
+          "raw": "Seattle Sounders: 2021-2026"
+        },
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2026,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2026 - ."
+        }
+      ],
+      "honorsAsPublished": [
+        {
+          "year": 2022,
+          "nameAsPublished": "CONCACAF Champions League",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2025,
+          "nameAsPublished": "Leagues Cup",
+          "verification": "pending-cross-source-review"
+        }
+      ],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 3,
+      "nameAsPublished": "OBED GóMEZ VARGAS",
+      "sourceCaptureSha256": "4c5953db045ec686a9141cff25f133d78eb159dae95213e9ddc1fd7e66e411c1"
+    },
+    {
+      "sourceProfileKey": "rodrigo-mendoza-martinez-moya-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/rodrigo-mendoza-martinez-moya-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "2005-03-15",
+        "heightCm": 182,
+        "weightKg": 72,
+        "nationalityAsPublished": "Spanish",
+        "positionAsPublished": "Midfielder",
+        "dateOfBirthAsPublished": "15/03/2005"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "Elche",
+          "fromYear": 2021,
+          "toYear": 2026,
+          "datePrecision": "year",
+          "raw": "Elche: 2021-2026"
+        },
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2026,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2026 - ."
+        }
+      ],
+      "honorsAsPublished": [],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 4,
+      "nameAsPublished": "RODRIGO MENDOZA MARTíNEZ-MOYá",
+      "sourceCaptureSha256": "4c5953db045ec686a9141cff25f133d78eb159dae95213e9ddc1fd7e66e411c1"
+    },
+    {
+      "sourceProfileKey": "jo-o-lucas-de-souza-cardoso-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/jo-o-lucas-de-souza-cardoso-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "2001-09-20",
+        "heightCm": 182,
+        "weightKg": 78,
+        "nationalityAsPublished": "Italian-American",
+        "positionAsPublished": "Midfielder",
+        "dateOfBirthAsPublished": "20/09/2001"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "S. C. Internacional",
+          "fromYear": 2019,
+          "toYear": 2023,
+          "datePrecision": "year",
+          "raw": "S. C. Internacional: 2019-2023"
+        },
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2025,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2025 - ."
+        }
+      ],
+      "honorsAsPublished": [
+        {
+          "year": 2023,
+          "nameAsPublished": "& 2024 CONCACAF Nations League",
+          "verification": "pending-cross-source-review"
+        }
+      ],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 5,
+      "nameAsPublished": "JOãO LUCAS DE SOUZA CARDOSO",
+      "sourceCaptureSha256": "4c5953db045ec686a9141cff25f133d78eb159dae95213e9ddc1fd7e66e411c1"
+    },
+    {
+      "sourceProfileKey": "jorge-resurreccion-merodio-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/jorge-resurreccion-merodio-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "1992-01-08",
+        "heightCm": 176,
+        "weightKg": 74,
+        "nationalityAsPublished": "Spaniard",
+        "positionAsPublished": "Midfielder",
+        "dateOfBirthAsPublished": "08/01/1992"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "Atlético de Madrid (youth teams)",
+          "fromYear": 2000,
+          "toYear": 2011,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid (youth teams): 2000-2011"
+        },
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2011,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2011 - ."
+        }
+      ],
+      "honorsAsPublished": [
+        {
+          "year": 2013,
+          "nameAsPublished": "/14 & 2020/21 LaLiga",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2014,
+          "nameAsPublished": "National Super Cup",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2012,
+          "nameAsPublished": "/13 King’s Cup",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2011,
+          "nameAsPublished": "/12 & 2017/18 UEFA Europa League",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2012,
+          "nameAsPublished": "& 2018 UEFA Super Cup",
+          "verification": "pending-cross-source-review"
+        }
+      ],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 6,
+      "nameAsPublished": "JORGE RESURRECCIóN MERODIO",
+      "sourceCaptureSha256": "c9af5b28f3d46fe1ff324c260a518fcb83a709510753ac3e0cb251353db7e479"
+    },
+    {
+      "sourceProfileKey": "kang-in-lee-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/kang-in-lee-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "2001-02-19",
+        "heightCm": 174,
+        "weightKg": 66,
+        "nationalityAsPublished": "South Korean",
+        "positionAsPublished": "Midfielder",
+        "dateOfBirthAsPublished": "19/02/2001"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "Valencia CF (youth teams)",
+          "fromYear": 2011,
+          "toYear": 2018,
+          "datePrecision": "year",
+          "raw": "Valencia CF (youth teams): 2011-2018"
+        },
+        {
+          "teamNameAsPublished": "Valencia CF",
+          "fromYear": 2018,
+          "toYear": 2021,
+          "datePrecision": "year",
+          "raw": "Valencia CF: 2018-2021"
+        },
+        {
+          "teamNameAsPublished": "RCD Mallorca",
+          "fromYear": 2021,
+          "toYear": 2023,
+          "datePrecision": "year",
+          "raw": "RCD Mallorca: 2021-2023"
+        },
+        {
+          "teamNameAsPublished": "PSG",
+          "fromYear": 2023,
+          "toYear": 2026,
+          "datePrecision": "year",
+          "raw": "PSG: 2023-2026"
+        },
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2026,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2026 - ."
+        }
+      ],
+      "honorsAsPublished": [
+        {
+          "year": 2025,
+          "nameAsPublished": "UEFA Super Cup",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2025,
+          "nameAsPublished": "FIFA Intercontinental Cup",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2022,
+          "nameAsPublished": "Asian Games.",
+          "verification": "pending-cross-source-review"
+        }
+      ],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 7,
+      "nameAsPublished": "KANG IN LEE",
+      "sourceCaptureSha256": "c9af5b28f3d46fe1ff324c260a518fcb83a709510753ac3e0cb251353db7e479"
+    },
+    {
+      "sourceProfileKey": "pablo-barrios-rivas-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/pablo-barrios-rivas-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "2003-06-15",
+        "heightCm": 181,
+        "weightKg": 75,
+        "nationalityAsPublished": "Spaniard",
+        "positionAsPublished": "Midfielder",
+        "dateOfBirthAsPublished": "15/06/2003"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2023,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2023 - ."
+        }
+      ],
+      "honorsAsPublished": [
+        {
+          "year": 2024,
+          "nameAsPublished": "Summer Olympics gold medal",
+          "verification": "pending-cross-source-review"
+        }
+      ],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 8,
+      "nameAsPublished": "PABLO BARRIOS RIVAS",
+      "sourceCaptureSha256": "c9af5b28f3d46fe1ff324c260a518fcb83a709510753ac3e0cb251353db7e479"
+    },
+    {
+      "sourceProfileKey": "alejandro-baena-rodriguez-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/alejandro-baena-rodriguez-2026-2027-2",
+      "season": "2026-2027",
+      "personal": null,
+      "careerAsPublished": [],
+      "honorsAsPublished": [],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "profile-unavailable-in-alternate-retrieval",
+      "sourceCaptureSha256": "c9af5b28f3d46fe1ff324c260a518fcb83a709510753ac3e0cb251353db7e479"
+    },
+    {
+      "sourceProfileKey": "marcos-llorente-moreno-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/marcos-llorente-moreno-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "1995-05-30",
+        "heightCm": 184,
+        "weightKg": 74,
+        "nationalityAsPublished": "Spaniard",
+        "positionAsPublished": "Midfielder",
+        "dateOfBirthAsPublished": "30/05/1995"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "Alavés",
+          "fromYear": 2016,
+          "toYear": 2017,
+          "datePrecision": "year",
+          "raw": "Alavés: 2016-2017"
+        },
+        {
+          "teamNameAsPublished": "Real Madrid",
+          "fromYear": 2017,
+          "toYear": 2019,
+          "datePrecision": "year",
+          "raw": "Real Madrid: 2017-2019"
+        },
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2019,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2019 - ."
+        }
+      ],
+      "honorsAsPublished": [
+        {
+          "year": 2017,
+          "nameAsPublished": "Spanish Super Cup",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2017,
+          "nameAsPublished": "/18 Champions League",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2018,
+          "nameAsPublished": "UEFA Super Cup",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2017,
+          "nameAsPublished": "& 2018 FIFA Club World Cup",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2020,
+          "nameAsPublished": "/21 LaLiga",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2026,
+          "nameAsPublished": "FIFA World Cup",
+          "verification": "pending-cross-source-review"
+        }
+      ],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 14,
+      "nameAsPublished": "MARCOS LLORENTE MORENO",
+      "sourceCaptureSha256": "c4dcf34f51ef29f34d86ffe4a8ddfd3e1289504c377630f0d4c5f913e747a3fb"
+    },
+    {
+      "sourceProfileKey": "arnau-ortiz-sanchez-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/arnau-ortiz-sanchez-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "2001-10-29",
+        "heightCm": 175,
+        "weightKg": 71,
+        "nationalityAsPublished": "Spanish",
+        "positionAsPublished": "Midfielder",
+        "dateOfBirthAsPublished": "29/10/2001"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "CF Peralada",
+          "fromYear": 2019,
+          "toYear": 2021,
+          "datePrecision": "year",
+          "raw": "CF Peralada: 2019-2021"
+        },
+        {
+          "teamNameAsPublished": "Real Murcia",
+          "fromYear": 2022,
+          "toYear": 2023,
+          "datePrecision": "year",
+          "raw": "Real Murcia: 2022-2023"
+        },
+        {
+          "teamNameAsPublished": "Eldense",
+          "fromYear": 2023,
+          "toYear": 2024,
+          "datePrecision": "year",
+          "raw": "Eldense: 2023-2024; Cartagena: 2024"
+        },
+        {
+          "teamNameAsPublished": "Śląsk Wroclaw",
+          "fromYear": 2024,
+          "toYear": 2025,
+          "datePrecision": "year",
+          "raw": "Śląsk Wroclaw: 2024-2025"
+        },
+        {
+          "teamNameAsPublished": "Atlético Madrileño",
+          "fromYear": 2025,
+          "toYear": 2026,
+          "datePrecision": "year",
+          "raw": "Atlético Madrileño: 2025-2026"
+        },
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2026,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2026 - ."
+        }
+      ],
+      "honorsAsPublished": [],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 16,
+      "nameAsPublished": "ARNAU ORTIZ SáNCHEZ",
+      "sourceCaptureSha256": "c4dcf34f51ef29f34d86ffe4a8ddfd3e1289504c377630f0d4c5f913e747a3fb"
+    },
+    {
+      "sourceProfileKey": "giuliano-simeone-baldini-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/giuliano-simeone-baldini-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "2002-12-18",
+        "heightCm": 173,
+        "weightKg": 75,
+        "nationalityAsPublished": "Spanish-Argentinian",
+        "positionAsPublished": "Midfielder",
+        "dateOfBirthAsPublished": "18/12/2002"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "Atlético de Madrid (youth teams)",
+          "fromYear": 2019,
+          "toYear": 2022,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid (youth teams): 2019-2022"
+        },
+        {
+          "teamNameAsPublished": "Real Zaragoza",
+          "fromYear": 2022,
+          "toYear": 2023,
+          "datePrecision": "year",
+          "raw": "Real Zaragoza: 2022-2023"
+        },
+        {
+          "teamNameAsPublished": "Deportivo Alavés",
+          "fromYear": 2023,
+          "toYear": 2024,
+          "datePrecision": "year",
+          "raw": "Deportivo Alavés: 2023-2024"
+        },
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2024,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2024 - ."
+        }
+      ],
+      "honorsAsPublished": [],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 20,
+      "nameAsPublished": "GIULIANO SIMEONE BALDINI",
+      "sourceCaptureSha256": "c4dcf34f51ef29f34d86ffe4a8ddfd3e1289504c377630f0d4c5f913e747a3fb"
+    },
+    {
+      "sourceProfileKey": "morten-hjulmand-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/morten-hjulmand-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "1999-06-25",
+        "heightCm": 185,
+        "weightKg": 73,
+        "nationalityAsPublished": "Danish",
+        "positionAsPublished": "Midfielder",
+        "dateOfBirthAsPublished": "25/06/1999"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "Admira Wacker",
+          "fromYear": 2018,
+          "toYear": 2020,
+          "datePrecision": "year",
+          "raw": "Admira Wacker: 2018-2020"
+        },
+        {
+          "teamNameAsPublished": "Lecce",
+          "fromYear": 2021,
+          "toYear": 2023,
+          "datePrecision": "year",
+          "raw": "Lecce: 2021-2023"
+        },
+        {
+          "teamNameAsPublished": "Sporting CP",
+          "fromYear": 2023,
+          "toYear": 2026,
+          "datePrecision": "year",
+          "raw": "Sporting CP: 2023-2026"
+        },
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2026,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2026 - ."
+        }
+      ],
+      "honorsAsPublished": [],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 23,
+      "nameAsPublished": "MORTEN HJULMAND",
+      "sourceCaptureSha256": "c4dcf34f51ef29f34d86ffe4a8ddfd3e1289504c377630f0d4c5f913e747a3fb"
+    },
+    {
+      "sourceProfileKey": "alexander-s-rloth-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/alexander-s-rloth-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "1995-12-05",
+        "heightCm": 195,
+        "weightKg": 94,
+        "nationalityAsPublished": "Norwegian",
+        "positionAsPublished": "Forward",
+        "dateOfBirthAsPublished": "05/12/1995"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "Rosenborg Ballklub",
+          "fromYear": 2013,
+          "toYear": 2014,
+          "datePrecision": "year",
+          "raw": "Rosenborg Ballklub: 2013-2014"
+        },
+        {
+          "teamNameAsPublished": "F. C. Groningen",
+          "fromYear": 2015,
+          "toYear": 2017,
+          "datePrecision": "year",
+          "raw": "F. C. Groningen: 2015-2017"
+        },
+        {
+          "teamNameAsPublished": "Midtjylland",
+          "fromYear": 2017,
+          "toYear": 2018,
+          "datePrecision": "year",
+          "raw": "Midtjylland: 2017-2018"
+        },
+        {
+          "teamNameAsPublished": "Crystal Palace",
+          "fromYear": 2017,
+          "toYear": 2019,
+          "datePrecision": "year",
+          "raw": "Crystal Palace: 2017-2019"
+        },
+        {
+          "teamNameAsPublished": "Gent",
+          "fromYear": 2018,
+          "toYear": 2019,
+          "datePrecision": "year",
+          "raw": "Gent: 2018-2019"
+        },
+        {
+          "teamNameAsPublished": "Trabzonspor",
+          "fromYear": 2019,
+          "toYear": 2020,
+          "datePrecision": "year",
+          "raw": "Trabzonspor: 2019-2020"
+        },
+        {
+          "teamNameAsPublished": "Leipzig",
+          "fromYear": 2020,
+          "toYear": 2021,
+          "datePrecision": "year",
+          "raw": "Leipzig: 2020-2021; 2022-2023"
+        },
+        {
+          "teamNameAsPublished": "Real Sociedad",
+          "fromYear": 2021,
+          "toYear": 2022,
+          "datePrecision": "year",
+          "raw": "Real Sociedad: 2021-2022; 2023-2023"
+        },
+        {
+          "teamNameAsPublished": "Villarreal",
+          "fromYear": 2023,
+          "toYear": 2024,
+          "datePrecision": "year",
+          "raw": "Villarreal: 2023-2024"
+        },
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2024,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2024 - ."
+        }
+      ],
+      "honorsAsPublished": [
+        {
+          "year": 2017,
+          "nameAsPublished": "/18 Danish Superliga",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2019,
+          "nameAsPublished": "/20 Turkish Cup",
+          "verification": "pending-cross-source-review"
+        }
+      ],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 9,
+      "nameAsPublished": "ALEXANDER SøRLOTH",
+      "sourceCaptureSha256": "ec9d76efb14eb5d0e0e2151a7c39bcd6c7efd40ec5ddf7b5d68e63922bf1d0d5"
+    },
+    {
+      "sourceProfileKey": "ademola-olajade-alade-aylola-lookman-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/ademola-olajade-alade-aylola-lookman-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "1997-10-20",
+        "heightCm": 174,
+        "weightKg": 71,
+        "nationalityAsPublished": "Nigerian",
+        "positionAsPublished": "Forward",
+        "dateOfBirthAsPublished": "20/10/1997"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "Charlton Athletic",
+          "fromYear": 2015,
+          "toYear": 2017,
+          "datePrecision": "year",
+          "raw": "Charlton Athletic: 2015-2017"
+        },
+        {
+          "teamNameAsPublished": "Everton",
+          "fromYear": 2017,
+          "toYear": 2019,
+          "datePrecision": "year",
+          "raw": "Everton: 2017-2019"
+        },
+        {
+          "teamNameAsPublished": "R. B. Leipzig",
+          "fromYear": 2018,
+          "toYear": 2022,
+          "datePrecision": "year",
+          "raw": "R. B. Leipzig: 2018-2022"
+        },
+        {
+          "teamNameAsPublished": "Fulham",
+          "fromYear": 2020,
+          "toYear": 2021,
+          "datePrecision": "year",
+          "raw": "Fulham: 2020-2021"
+        },
+        {
+          "teamNameAsPublished": "Leicester City",
+          "fromYear": 2021,
+          "toYear": 2022,
+          "datePrecision": "year",
+          "raw": "Leicester City: 2021-2022"
+        },
+        {
+          "teamNameAsPublished": "Atalanta",
+          "fromYear": 2022,
+          "toYear": 2026,
+          "datePrecision": "year",
+          "raw": "Atalanta: 2022-2026"
+        },
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2026,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2026 - ."
+        }
+      ],
+      "honorsAsPublished": [
+        {
+          "year": 2017,
+          "nameAsPublished": "FIFA U-20 World Cup",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2024,
+          "nameAsPublished": "UEFA Europa League",
+          "verification": "pending-cross-source-review"
+        }
+      ],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 11,
+      "nameAsPublished": "ADEMOLA OLAJADE ALADE AYLOLA LOOKMAN",
+      "sourceCaptureSha256": "ec9d76efb14eb5d0e0e2151a7c39bcd6c7efd40ec5ddf7b5d68e63922bf1d0d5"
+    },
+    {
+      "sourceProfileKey": "jonathan-david-2026-2027",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/jonathan-david-2026-2027",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "2000-01-14",
+        "heightCm": 178,
+        "weightKg": 81,
+        "nationalityAsPublished": "Canadian",
+        "positionAsPublished": "Forward",
+        "dateOfBirthAsPublished": "14/01/2000"
+      },
+      "careerAsPublished": [],
+      "honorsAsPublished": [],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 15,
+      "nameAsPublished": "JONATHAN DAVID",
+      "sourceCaptureSha256": "ec9d76efb14eb5d0e0e2151a7c39bcd6c7efd40ec5ddf7b5d68e63922bf1d0d5"
+    },
+    {
+      "sourceProfileKey": "julian-alvarez-2026-2027-2",
+      "sourceIdNamespace": "atletico-official-profile",
+      "canonicalPersonId": null,
+      "source": "https://en.atleticodemadrid.com/jugadores/julian-alvarez-2026-2027-2",
+      "season": "2026-2027",
+      "personal": {
+        "dateOfBirth": "2000-01-31",
+        "heightCm": 170,
+        "weightKg": 71,
+        "nationalityAsPublished": "Argentinian",
+        "positionAsPublished": "Forward",
+        "dateOfBirthAsPublished": "31/01/2000"
+      },
+      "careerAsPublished": [
+        {
+          "teamNameAsPublished": "River Plate",
+          "fromYear": 2017,
+          "toYear": 2022,
+          "datePrecision": "year",
+          "raw": "River Plate: 2017-2022"
+        },
+        {
+          "teamNameAsPublished": "Atlético de Madrid",
+          "fromYear": 2024,
+          "toYear": null,
+          "datePrecision": "year",
+          "raw": "Atlético de Madrid: 2024 - ."
+        }
+      ],
+      "honorsAsPublished": [
+        {
+          "year": 2018,
+          "nameAsPublished": ": Copa Libertadores",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2019,
+          "nameAsPublished": ": Cup; Supercup Argentine",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2021,
+          "nameAsPublished": ": Argentine League; Trofeo de Campeones; C. América",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2022,
+          "nameAsPublished": ": Finalissima; World Cup",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2023,
+          "nameAsPublished": ": P. League; FA Cup; Champions League; UEFA Supercup; Club World Cup",
+          "verification": "pending-cross-source-review"
+        },
+        {
+          "year": 2024,
+          "nameAsPublished": ": P. League; C. América",
+          "verification": "pending-cross-source-review"
+        }
+      ],
+      "statistics": null,
+      "releaseReady": false,
+      "verification": "pending-independent-person-period-and-source-completeness-review",
+      "shirtNumber": 19,
+      "nameAsPublished": "JULIáN ALVAREZ",
+      "sourceCaptureSha256": "ec9d76efb14eb5d0e0e2151a7c39bcd6c7efd40ec5ddf7b5d68e63922bf1d0d5"
+    }
+  ],
+  "headCoach": {
+    "nameAsPublished": "Diego Pablo Simeone",
+    "roleAsPublished": "Manager",
+    "canonicalPersonId": null
+  },
+  "releaseReady": false,
+  "limitations": [
+    "Formal league registration and canonical identity reconciliation pending",
+    "Unpublished profile statistics remain null",
+    "Portrait downloads unavailable; no shirt-number graphics accepted as portraits",
+    "Honors and career periods await independent cross-source verification"
+  ]
+}

@@ -1,0 +1,1652 @@
+{
+  "source": "https://api-sdp.alahlifc.sa/v1/alahli/football/teams/alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54/roster?locale=en&seasonId=alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+  "sourceSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+  "retrievedAt": "2026-10-15",
+  "competitionAsPublished": {
+    "seasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+    "startDateUtc": "2026-08-13T00:00:00Z",
+    "endDateUtc": "2027-05-28T00:00:00Z",
+    "seasonName": "2026/2027",
+    "imagery": {},
+    "competitionId": "alahli::Football_Competition::b3ba805a8c82455b9e5a606d9d9c1b67",
+    "providerId": "opta:Competition:ea0h6cf3bhl698hkxhpulh2zz",
+    "name": "Saudi League",
+    "officialName": "Saudi League",
+    "shortName": "Saudi League",
+    "acronymName": "Saudi League"
+  },
+  "teamAsPublished": {
+    "teamId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+    "providerId": "opta:Team:aj1bdyuwq8pdwycaa9kba8uni",
+    "shortName": "Ahli",
+    "officialName": "Al Ahli",
+    "acronymName": "AHL",
+    "acronymNameLocalized": "AHL",
+    "isTeamFake": false,
+    "mediaName": "Al Ahli",
+    "mediaShortName": "Ahli",
+    "countryCode": "KSA",
+    "teamType": "club",
+    "overallSummary": null,
+    "stadium": null,
+    "imagery": {},
+    "allSeasonImagery": []
+  },
+  "players": [
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Mohammed Yousef"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 29
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Defender"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 23
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2003-01-14",
+        "height": "171",
+        "weight": "69",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::5bc8e16f47a4450c86764e2ecc5800f3",
+        "providerId": "opta:Player:1azucbpif3say0q9ntgjlsaok",
+        "bibNumber": "29",
+        "roleLabel": "Defender",
+        "role": 2,
+        "mediaFirstName": "Mohammed",
+        "mediaLastName": "Yousef",
+        "shirtName": "Mohammed Abdulrahman",
+        "shortName": "Mohammed Yousef",
+        "displayName": "",
+        "nationality": "Saudi Arabia",
+        "nationalityIsoCode": "KSA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "bf66d680fd73422d8fc8f7d7ad42af68",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2003-01-14"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Ziyad Aljohani"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 30
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Midfielder"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 24
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2001-11-11",
+        "height": "180",
+        "weight": "63",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::ba35b3904bb843bc9790ddc96548aa3e",
+        "providerId": "opta:Player:1e3y0yji1wtjgfq7tweu4bgus",
+        "bibNumber": "30",
+        "roleLabel": "Midfielder",
+        "role": 3,
+        "mediaFirstName": "Ziyad",
+        "mediaLastName": "Aljohani",
+        "shirtName": "Ziyad Al Johani",
+        "shortName": "Ziyad Aljohani",
+        "displayName": "",
+        "nationality": "Saudi Arabia",
+        "nationalityIsoCode": "KSA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "4f0a8e501f064c5da055834c22253d76",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2001-11-11"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "É. Mendy"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 16
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Goalkeeper"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 34
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "1992-03-01",
+        "height": "194",
+        "weight": "97",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::7b5690428066444b9970c8b0b73268b6",
+        "providerId": "opta:Player:22s7hpp9k5ihtc2pwiaytdp05",
+        "bibNumber": "16",
+        "roleLabel": "Goalkeeper",
+        "role": 1,
+        "mediaFirstName": "Édouard",
+        "mediaLastName": "Mendy",
+        "shirtName": "Édouard Mendy",
+        "shortName": "É. Mendy",
+        "displayName": "",
+        "nationality": "Senegal",
+        "nationalityIsoCode": "SEN",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "c057625e40ff420a875b535031d241cd",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "1992-03-01"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Mohammed Sulaiman"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 5
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Defender"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 22
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2004-04-08",
+        "height": "180",
+        "weight": "72",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::4d7ab84dbb014690afe21b5355432b6a",
+        "providerId": "opta:Player:29raxitd4cpp1xlhmwolpv1g4",
+        "bibNumber": "5",
+        "roleLabel": "Defender",
+        "role": 2,
+        "mediaFirstName": "Mohammed",
+        "mediaLastName": "Bakor",
+        "shirtName": "Mohammed Sulaiman",
+        "shortName": "Mohammed Sulaiman",
+        "displayName": "",
+        "nationality": "Saudi Arabia",
+        "nationalityIsoCode": "KSA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "dc526845615d49f188c77cb5c87e717d",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2004-04-08"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Galeno"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 13
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Forward"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 28
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "1997-10-22",
+        "height": "179",
+        "weight": "69",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::92dc938e770b47b692acf4e4c0b7e09a",
+        "providerId": "opta:Player:2j8v4lkqeg1bcqp77ezseo8vd",
+        "bibNumber": "13",
+        "roleLabel": "Forward",
+        "role": 4,
+        "mediaFirstName": "Wenderson",
+        "mediaLastName": "Galeno",
+        "shirtName": "Galeno",
+        "shortName": "Galeno",
+        "displayName": "",
+        "nationality": "Brazil",
+        "nationalityIsoCode": "BRA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "54e5f4bac9094b43b2f61b789971892f",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "1997-10-22"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Feras Al Brikan"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 9
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Forward"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 26
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2000-05-14",
+        "height": "181",
+        "weight": "78",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::f86fcfe622194c4a8cb5f22f9d0ebc4a",
+        "providerId": "opta:Player:3a2ef34105eqoes4s6zu1310p",
+        "bibNumber": "9",
+        "roleLabel": "Forward",
+        "role": 4,
+        "mediaFirstName": "Feras",
+        "mediaLastName": "Albrikan",
+        "shirtName": "Feras Al Brikan",
+        "shortName": "Feras Al Brikan",
+        "displayName": "",
+        "nationality": "Saudi Arabia",
+        "nationalityIsoCode": "KSA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "9f9388c9cddb4cd59003662005cd7659",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2000-05-14"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "I. Diaby"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 4
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Midfielder"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 19
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2007-03-17",
+        "height": "187",
+        "weight": "79",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::0a06a759573849a1a467af4c264e0705",
+        "providerId": "opta:Player:49kmr0edzpkmo788p2kt60xzo",
+        "bibNumber": "4",
+        "roleLabel": "Midfielder",
+        "role": 3,
+        "mediaFirstName": "Ibrahima",
+        "mediaLastName": "Diaby",
+        "shirtName": "",
+        "shortName": "I. Diaby",
+        "displayName": "",
+        "nationality": "France",
+        "nationalityIsoCode": "FRA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "24038e539e304642afe7c3d0ea69e61b",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2007-03-17"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Naif Masoud"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 66
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Midfielder"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 25
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2001-03-08",
+        "height": "177",
+        "weight": "70",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::38497717b95a497fbf614b1e29426262",
+        "providerId": "opta:Player:510bce6tb0hm95gosszx42plg",
+        "bibNumber": "66",
+        "roleLabel": "Midfielder",
+        "role": 3,
+        "mediaFirstName": "Naif",
+        "mediaLastName": "Masoud",
+        "shirtName": "Naif Masoud",
+        "shortName": "Naif Masoud",
+        "displayName": "",
+        "nationality": "Saudi Arabia",
+        "nationalityIsoCode": "KSA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "857dd0f2b7cd40409927467b74c397fe",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2001-03-08"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "A. Bondarenko"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 19
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Midfielder"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 26
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2000-08-21",
+        "height": "182",
+        "weight": "73",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::7137f391a6e54b588fb1af26f62216b7",
+        "providerId": "opta:Player:664kqj9hktp7ezt2rp08xoi22",
+        "bibNumber": "19",
+        "roleLabel": "Midfielder",
+        "role": 3,
+        "mediaFirstName": "Artem",
+        "mediaLastName": "Bondarenko",
+        "shirtName": "",
+        "shortName": "A. Bondarenko",
+        "displayName": "",
+        "nationality": "Ukraine",
+        "nationalityIsoCode": "UKR",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "4f9c98f1b96c40098655e96240a08601",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2000-08-21"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "V. Atangana"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 6
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Midfielder"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 21
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2005-08-25",
+        "height": "173",
+        "weight": "68",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::8c0e9b4589804e40bfa449420eebe6d7",
+        "providerId": "opta:Player:6thbb2kineeyc4n6djxywl5as",
+        "bibNumber": "6",
+        "roleLabel": "Midfielder",
+        "role": 3,
+        "mediaFirstName": "Valentin",
+        "mediaLastName": "Atangana",
+        "shirtName": "",
+        "shortName": "V. Atangana",
+        "displayName": "",
+        "nationality": "France",
+        "nationalityIsoCode": "FRA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "bc360ea1a9664424aebd5af6dcc97add",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2005-08-25"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Saad Balobaid"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 31
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Defender"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 26
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2000-01-26",
+        "height": "165",
+        "weight": "60",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::83963cbeb2174b008677cf5619f8e56d",
+        "providerId": "opta:Player:7l1lhluaxnuy4cun3omcva4us",
+        "bibNumber": "31",
+        "roleLabel": "Defender",
+        "role": 2,
+        "mediaFirstName": "Saad",
+        "mediaLastName": "Balobaid",
+        "shirtName": "Saad Yaslam",
+        "shortName": "Saad Balobaid",
+        "displayName": "",
+        "nationality": "Saudi Arabia",
+        "nationalityIsoCode": "KSA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": null,
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2000-01-26"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Trincão"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 7
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Forward"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 26
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "1999-12-29",
+        "height": "184",
+        "weight": "76",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::d363adcf6e41433a9f451fe3d5b1dfcc",
+        "providerId": "opta:Player:83ekq1r2omnsazmp41pio8s89",
+        "bibNumber": "7",
+        "roleLabel": "Forward",
+        "role": 4,
+        "mediaFirstName": "Francisco",
+        "mediaLastName": "Trincão",
+        "shirtName": "Trincão",
+        "shortName": "Trincão",
+        "displayName": "",
+        "nationality": "Portugal",
+        "nationalityIsoCode": "PRT",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "b37a51a4248f467d9d14895fd3d7d9df",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "1999-12-29"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Rayan Hamed"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 46
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Defender"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 24
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2002-04-13",
+        "height": "177",
+        "weight": "79",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::de73e06eb8574674b2d1062241309fcb",
+        "providerId": "opta:Player:8ubhvcj0tweo1qmll0ner7kes",
+        "bibNumber": "46",
+        "roleLabel": "Defender",
+        "role": 2,
+        "mediaFirstName": "Rayan",
+        "mediaLastName": "Hamed",
+        "shirtName": "Rayan Hamed",
+        "shortName": "Rayan Hamed",
+        "displayName": "",
+        "nationality": "Saudi Arabia",
+        "nationalityIsoCode": "KSA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "4c545e3d759c45d98dea8c54040c2fce",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2002-04-13"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Meshal Al Mutairi"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 11
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Midfielder"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 27
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "1999-03-25",
+        "height": "170",
+        "weight": "70",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::f58653b3240b40c6b0b6d11dd055a645",
+        "providerId": "opta:Player:9l4e85b0horq0wyh6me1n4mj8",
+        "bibNumber": "11",
+        "roleLabel": "Midfielder",
+        "role": 3,
+        "mediaFirstName": "Meshal",
+        "mediaLastName": "Al Mutairi",
+        "shirtName": "Meshal Al Mutairi",
+        "shortName": "Meshal Al Mutairi",
+        "displayName": "",
+        "nationality": "Saudi Arabia",
+        "nationalityIsoCode": "KSA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "080fcc4855cd42098f0605aa082bb2b6",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "1999-03-25"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Matheus Gonçalves"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 20
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Forward"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 21
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2005-08-18",
+        "height": "177",
+        "weight": "74",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::edeab1500f874216b1c98279c0d26186",
+        "providerId": "opta:Player:9vkp8i9plp9cg96cysjsvjvo4",
+        "bibNumber": "20",
+        "roleLabel": "Forward",
+        "role": 4,
+        "mediaFirstName": "Matheus",
+        "mediaLastName": "Gonçalves",
+        "shirtName": "Matheus Gonçalves",
+        "shortName": "Matheus Gonçalves",
+        "displayName": "",
+        "nationality": "Brazil",
+        "nationalityIsoCode": "BRA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "2fd2211a7dec4ab6a481c136952e1122",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2005-08-18"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Roger Ibañez"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 3
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Defender"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 27
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "1998-11-23",
+        "height": "185",
+        "weight": "80",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::fc34b0bb9f454803afed0a9cd6712b91",
+        "providerId": "opta:Player:ab4kuqa33849h6z77ksuqhdk9",
+        "bibNumber": "3",
+        "roleLabel": "Defender",
+        "role": 2,
+        "mediaFirstName": "Roger",
+        "mediaLastName": "Ibañez",
+        "shirtName": "Roger Ibañez",
+        "shortName": "Roger Ibañez",
+        "displayName": "",
+        "nationality": "Brazil",
+        "nationalityIsoCode": "BRA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "f6031054c05a47b5a1f10acbf5a80254",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "1998-11-23"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Ali Majrashi"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 27
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Defender"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 27
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "1999-10-01",
+        "height": "169",
+        "weight": "68",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::26f96bbcf88541f3afbe6cfad073e654",
+        "providerId": "opta:Player:afnoqty7fqk51izgoy8vxl0fe",
+        "bibNumber": "27",
+        "roleLabel": "Defender",
+        "role": 2,
+        "mediaFirstName": "Ali",
+        "mediaLastName": "Majrashi",
+        "shirtName": "Ali Majrashi",
+        "shortName": "Ali Majrashi",
+        "displayName": "",
+        "nationality": "Saudi Arabia",
+        "nationalityIsoCode": "KSA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": null,
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "1999-10-01"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "E. Spertsyan"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 8
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Midfielder"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 26
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2000-06-07T00:00:00Z",
+        "height": "178",
+        "weight": "66",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::6af170557a0d4dab8e54795bfe4f89e7",
+        "providerId": "opta:Player:aqfio6cy6zj8yi19spuzob52i",
+        "bibNumber": "8",
+        "roleLabel": "Midfielder",
+        "role": 3,
+        "mediaFirstName": "Eduard",
+        "mediaLastName": "Spertsyan",
+        "shirtName": "",
+        "shortName": "E. Spertsyan",
+        "displayName": "",
+        "nationality": "Armenia",
+        "nationalityIsoCode": "ARM",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "415700ba3f994d52932081ee6a1b1f0c",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2000-06-07"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "I. Toney"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 17
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Forward"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 30
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "1996-03-16",
+        "height": "185",
+        "weight": "88",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::499c946f38694b1d93fff68519141a12",
+        "providerId": "opta:Player:b36foqukxn8obd969q6sea7yt",
+        "bibNumber": "17",
+        "roleLabel": "Forward",
+        "role": 4,
+        "mediaFirstName": "Ivan",
+        "mediaLastName": "Toney",
+        "shirtName": "",
+        "shortName": "I. Toney",
+        "displayName": "",
+        "nationality": "England",
+        "nationalityIsoCode": "ENG",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "6cd64098920a4a03a28825fc402e8783",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "1996-03-16"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Sedi"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 24
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Defender"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 19
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2006-11-30",
+        "height": "186",
+        "weight": "75",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::e7cbbcd6088d42a88441fff13951e3de",
+        "providerId": "opta:Player:bab8s40ltdf9v117umanbcmxg",
+        "bibNumber": "24",
+        "roleLabel": "Defender",
+        "role": 2,
+        "mediaFirstName": "Abubacarr",
+        "mediaLastName": "Sedi",
+        "shirtName": "",
+        "shortName": "Sedi",
+        "displayName": "",
+        "nationality": "Gambia",
+        "nationalityIsoCode": "GAM",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "c1500aebc44d46abb91633dfa03e31ab",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2006-11-30"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Saleh Abu Al Shamat"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 47
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Forward"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 24
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2002-08-11",
+        "height": "171",
+        "weight": "58",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::38bff5cb6b0843588fba05edfbe23fbd",
+        "providerId": "opta:Player:baydxofjcjtwrnjglc7l6l82c",
+        "bibNumber": "47",
+        "roleLabel": "Forward",
+        "role": 4,
+        "mediaFirstName": "Saleh",
+        "mediaLastName": "Abu Al Shamat",
+        "shirtName": "Saleh Abu Al Shamat",
+        "shortName": "Saleh Abu Al Shamat",
+        "displayName": "",
+        "nationality": "Saudi Arabia",
+        "nationalityIsoCode": "KSA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "fd5f349f61a546ff8dda9abd46d8d098",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2002-08-11"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Zakaria Hawsawi"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 2
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Defender"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 25
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2001-01-12",
+        "height": "173",
+        "weight": "70",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::0799c4478215465e9d83f377c33c992b",
+        "providerId": "opta:Player:bg3kdsod1j0u3yk1jw5ndu9sk",
+        "bibNumber": "2",
+        "roleLabel": "Defender",
+        "role": 2,
+        "mediaFirstName": "Zakaria",
+        "mediaLastName": "Hawsawi",
+        "shirtName": "Zakaria Hawsawi",
+        "shortName": "Zakaria Hawsawi",
+        "displayName": "",
+        "nationality": "Saudi Arabia",
+        "nationalityIsoCode": "KSA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "e7c35015a8064e3693754a4666ca7de6",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2001-01-12"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Salman Al Jadani"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 72
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Goalkeeper"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 22
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2004-06-18",
+        "height": "",
+        "weight": "",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::243fb959d35a47eb96c8bdd8727970b2",
+        "providerId": "opta:Player:c8rjhrhn5ducpz84kjtcm9e6s",
+        "bibNumber": "72",
+        "roleLabel": "Goalkeeper",
+        "role": 1,
+        "mediaFirstName": "Salman",
+        "mediaLastName": "Al Jadani",
+        "shirtName": "Salman Al Jadani",
+        "shortName": "Salman Al Jadani",
+        "displayName": "",
+        "nationality": "Saudi Arabia",
+        "nationalityIsoCode": "KSA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "8551ee3259e04c0fada5ca42b97800db",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2004-06-18"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Abdullah Radif"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 21
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Forward"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 23
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2003-01-20",
+        "height": "186",
+        "weight": "71",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::8839ea8c7fd14ff98323c96105b666b5",
+        "providerId": "opta:Player:cf6l2e5tkglv7decs50666w44",
+        "bibNumber": "21",
+        "roleLabel": "Forward",
+        "role": 4,
+        "mediaFirstName": "Abdullah",
+        "mediaLastName": "Radif",
+        "shirtName": "Abdullah Radif",
+        "shortName": "Abdullah Radif",
+        "displayName": "",
+        "nationality": "Saudi Arabia",
+        "nationalityIsoCode": "KSA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "8c397b85bf304c1da54c55d31cf80c2d",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2003-01-20"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Saeed Baattia"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 15
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Defender"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 26
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2000-09-23",
+        "height": "172",
+        "weight": "71",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::0347f92084154afb82debecf70b07b1b",
+        "providerId": "opta:Player:cubm0fb23h5i8zj73acdxagb8",
+        "bibNumber": "15",
+        "roleLabel": "Defender",
+        "role": 2,
+        "mediaFirstName": "Saeed",
+        "mediaLastName": "Baattiah",
+        "shirtName": "Saeed Baattia",
+        "shortName": "Saeed Baattia",
+        "displayName": "",
+        "nationality": "Saudi Arabia",
+        "nationalityIsoCode": "KSA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "a42eeec5098b4aac81cf4cf0bd540243",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2000-09-23"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Abdulrahman Al Sanbi"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 1
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Goalkeeper"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 25
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2001-02-03",
+        "height": "181",
+        "weight": "78",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::c8b175fe048e4208a46535645509e251",
+        "providerId": "opta:Player:dlpg8hjezq29yv4r25bbk1p90",
+        "bibNumber": "1",
+        "roleLabel": "Goalkeeper",
+        "role": 1,
+        "mediaFirstName": "Abdulrahman",
+        "mediaLastName": "Al Sanbi",
+        "shirtName": "Abdulrahman Al Sanbi",
+        "shortName": "Abdulrahman Al Sanbi",
+        "displayName": "",
+        "nationality": "Saudi Arabia",
+        "nationalityIsoCode": "KSA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "ff9db4d3d63d46e28868649071c4e344",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2001-02-03"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "Abdullah Abdo"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 62
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Goalkeeper"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 24
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "2002-06-25",
+        "height": "189",
+        "weight": "85",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::a864a7018f41410fac292ce37dee07bd",
+        "providerId": "opta:Player:dm7luqfmr6pewtryg8blitxqs",
+        "bibNumber": "62",
+        "roleLabel": "Goalkeeper",
+        "role": 1,
+        "mediaFirstName": "Abdullah",
+        "mediaLastName": "Abdo",
+        "shirtName": "Abdullah Abdo",
+        "shortName": "Abdullah Abdo",
+        "displayName": "",
+        "nationality": "Saudi Arabia",
+        "nationalityIsoCode": "KSA",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "79a09b7378314535800fa99b61eb13f7",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "2002-06-25"
+    },
+    {
+      "recordAsPublished": {
+        "info": [
+          {
+            "infoId": "player",
+            "infoLabel": "Player",
+            "infoLabelAbbreviation": "Player",
+            "infoValue": "M. Demiral"
+          },
+          {
+            "infoId": "jersey",
+            "infoLabel": "Jersey",
+            "infoLabelAbbreviation": "Jersey",
+            "infoValue": 28
+          },
+          {
+            "infoId": "position",
+            "infoLabel": "Position",
+            "infoLabelAbbreviation": "Position",
+            "infoValue": "Defender"
+          },
+          {
+            "infoId": "age",
+            "infoLabel": "Age",
+            "infoLabelAbbreviation": "Age",
+            "infoValue": 28
+          }
+        ],
+        "imagery": {},
+        "dateOfBirth": "1998-03-05",
+        "height": "190",
+        "weight": "86",
+        "playerStatus": "Active",
+        "leaveDate": "",
+        "playerId": "alahli::Football_Player::65e846554c6346e3a4db13d710a04d6d",
+        "providerId": "opta:Player:n62gu1fztuvojijr41hyetw5",
+        "bibNumber": "28",
+        "roleLabel": "Defender",
+        "role": 2,
+        "mediaFirstName": "Merih",
+        "mediaLastName": "Demiral",
+        "shirtName": "",
+        "shortName": "M. Demiral",
+        "displayName": "",
+        "nationality": "Türkiye",
+        "nationalityIsoCode": "TUR",
+        "editorial": {
+          "playerRoleWithinTeam": ""
+        },
+        "apiCallRequestTime": "0001-01-01T00:00:00"
+      },
+      "splSourcePersonIdCandidate": "d18072b9db5640e7ad2efb3b5a614b59",
+      "canonicalPersonId": null,
+      "verification": "pending-independent-period-identity-and-rights-review",
+      "dateOfBirthNormalizedWithoutTimezoneShift": "1998-03-05"
+    }
+  ],
+  "officialsAsPublished": [
+    {
+      "status": "Active",
+      "providerId": "opta:Official:2yiy5gjlkw6zwzlnq465en6xh",
+      "shortName": "E. Yanova",
+      "displayName": "",
+      "mediaFirstName": "Engin",
+      "mediaLastName": "Yanova",
+      "staffId": "alahli::Football_Official::079ddc8c075e43d1a7d36db2a52dc324",
+      "roleLabel": "Assistant Coach",
+      "nationality": "Türkiye",
+      "nationalityIsoCode": "TUR",
+      "dateOfBirth": "1977-04-06",
+      "imagery": {}
+    },
+    {
+      "status": "Active",
+      "providerId": "opta:Official:b03bvby523gixk6h38xfbpplh",
+      "shortName": "M. Pušić",
+      "displayName": "",
+      "mediaFirstName": "Marino",
+      "mediaLastName": "Pušić",
+      "staffId": "alahli::Football_Official::e383306d18f844bcb03c6e1b700721ca",
+      "roleLabel": "Head Coach",
+      "nationality": "Netherlands",
+      "nationalityIsoCode": "NLD",
+      "dateOfBirth": "1971-08-18",
+      "imagery": {}
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "Saad Balobaid",
+      "providerId": "opta:Player:7l1lhluaxnuy4cun3omcva4us",
+      "splDateOfBirth": "2000-01-27",
+      "clubDateOfBirthAsPublished": "2000-01-26",
+      "issue": "Unresolved date-of-birth disagreement"
+    },
+    {
+      "name": "Ali Majrashi",
+      "providerId": "opta:Player:afnoqty7fqk51izgoy8vxl0fe",
+      "splDateOfBirth": "1999-10-02",
+      "clubDateOfBirthAsPublished": "1999-10-01",
+      "issue": "Unresolved date-of-birth disagreement"
+    }
+  ],
+  "releaseReady": false
+}

@@ -753,16 +753,503 @@
     "releaseReady": false
   },
   "collectionBlocker": {
-    "type": "network-gateway-tunnel-403",
-    "affectedHosts": [
-      "www.spl.com.sa",
-      "img.uefa.com"
-    ],
-    "resumeSupported": true
+    "primarySources": "Some direct downloads return 403",
+    "alternativeSources": "Official club public data service and official web-reader route worked",
+    "newAssetsDurablySaved": false
   },
   "privateBackupSave": {
     "status": "failed-library-storage-limit-exceeded",
     "localArchiveExists": true,
     "newAssetsDurablySaved": false
+  },
+  "saudiAlternateSource": {
+    "sourceSeason": "2026/2027",
+    "teamRostersCollected": 18,
+    "sourcePlayerRegistrations": 582,
+    "uniqueSourcePeople": 582,
+    "failures": [],
+    "releaseReady": false,
+    "headCoachesAsPublished": 18,
+    "ahliLocalPortraitFiles": 28,
+    "ahliPortraitFailures": 0,
+    "ahliUnresolvedBirthDateConflicts": [
+      {
+        "name": "Saad Balobaid",
+        "providerId": "opta:Player:7l1lhluaxnuy4cun3omcva4us",
+        "splDateOfBirth": "2000-01-27",
+        "clubDateOfBirthAsPublished": "2000-01-26",
+        "issue": "Unresolved date-of-birth disagreement"
+      },
+      {
+        "name": "Ali Majrashi",
+        "providerId": "opta:Player:afnoqty7fqk51izgoy8vxl0fe",
+        "splDateOfBirth": "1999-10-02",
+        "clubDateOfBirthAsPublished": "1999-10-01",
+        "issue": "Unresolved date-of-birth disagreement"
+      }
+    ]
+  },
+  "saudiAlternateStatistics": {
+    "pagesVerified": 6,
+    "sourcePlayerClubStatisticRows": 526,
+    "uniqueSourcePeople": 526,
+    "publishedStatisticFieldsPassingNumericChecks": 66828,
+    "invalidSourceFieldsQuarantined": 50,
+    "rowsWithInvalidSourceFields": 1,
+    "sourceRosterRegistrations": 582,
+    "rosterRegistrationsWithoutStatistics": [
+      {
+        "sourcePersonId": "alahli::Football_Player::04742c030cfd4cceb397fd114f9cd630",
+        "sourceClubId": "alahli::Football_Team::695cdbfb7c1b49cdbc822e74d136aad3"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::04fcf6c8d2d1406fb8b871d2ef7d6cd6",
+        "sourceClubId": "alahli::Football_Team::e8421fd1d8e64a41956f2334d7eb49d0"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::051530966e164c64bb9dfcdbbccd5519",
+        "sourceClubId": "alahli::Football_Team::c757568bc1274dffa6d4294644fd1709"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::06258b2647cb4cf6969105cfc38c43c3",
+        "sourceClubId": "alahli::Football_Team::e62d63226ebc42b3905107ba0c58e540"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::0a06a759573849a1a467af4c264e0705",
+        "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::0da1837dfca941ca8c3729a419318279",
+        "sourceClubId": "alahli::Football_Team::82c8fa5262e246dca748796c34c71965"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::10a3831030674a839fa108183f6d4215",
+        "sourceClubId": "alahli::Football_Team::695cdbfb7c1b49cdbc822e74d136aad3"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::12b6c90e752f494980a032d2beebc3e6",
+        "sourceClubId": "alahli::Football_Team::bef6a05ac86a4dd88d441d2897527e73"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::17a584aa65a24f4b9c5f73faaa604243",
+        "sourceClubId": "alahli::Football_Team::f27999aa050840c091a0dc1a5e587289"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::19e4981592ea4510a208870bdf024698",
+        "sourceClubId": "alahli::Football_Team::e62d63226ebc42b3905107ba0c58e540"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::1d109b7903354c4aa5d64860e659eec9",
+        "sourceClubId": "alahli::Football_Team::e62d63226ebc42b3905107ba0c58e540"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::1f2f3a2fda104301b911ca2bc330a02e",
+        "sourceClubId": "alahli::Football_Team::aec3787cd0224b42b1d3b268919ec9c4"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::2027d77ce6314b87b80e2b96af82b36d",
+        "sourceClubId": "alahli::Football_Team::7295d8dfc1094eb8aace9d5f89e445c5"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::20923a7ec8de408f84192ab0d8ce27da",
+        "sourceClubId": "alahli::Football_Team::5c5ae0031cec4157a9a39d3970d47af1"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::2560dc6e13594fdca445b5d4102a6f26",
+        "sourceClubId": "alahli::Football_Team::77b2d88230e04792b206d60591b29f0b"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::26f96bbcf88541f3afbe6cfad073e654",
+        "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::2af0440fa8e74d5c94fd085f9f5f2a67",
+        "sourceClubId": "alahli::Football_Team::77b2d88230e04792b206d60591b29f0b"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::2b56eec1341547f38d14ea90a3a08e55",
+        "sourceClubId": "alahli::Football_Team::e62d63226ebc42b3905107ba0c58e540"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::2cbd91c9261640bd8f21e1b95481d677",
+        "sourceClubId": "alahli::Football_Team::77b2d88230e04792b206d60591b29f0b"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::37912b3219004ff59eadf7d8050eccd9",
+        "sourceClubId": "alahli::Football_Team::bef6a05ac86a4dd88d441d2897527e73"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::38263a6fac0a48dba35e094326cefde3",
+        "sourceClubId": "alahli::Football_Team::e62d63226ebc42b3905107ba0c58e540"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::38636095dee04f14a0a3817ecab40b99",
+        "sourceClubId": "alahli::Football_Team::77b2d88230e04792b206d60591b29f0b"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::43026b47ad6344b3865541696a50a3e5",
+        "sourceClubId": "alahli::Football_Team::77b2d88230e04792b206d60591b29f0b"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::431e7106f38344e1bfb2a8faef54ee98",
+        "sourceClubId": "alahli::Football_Team::c757568bc1274dffa6d4294644fd1709"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::433463c77b714b50a40e71558c62eb55",
+        "sourceClubId": "alahli::Football_Team::291787140ed848e8add1c50bf689f01b"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::43d6c494214a4f2fa83963244aa5bec3",
+        "sourceClubId": "alahli::Football_Team::695cdbfb7c1b49cdbc822e74d136aad3"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::4529054832694ba9afe41a148831204c",
+        "sourceClubId": "alahli::Football_Team::c757568bc1274dffa6d4294644fd1709"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::4575cabf085244ef80d2f52a56b0cd69",
+        "sourceClubId": "alahli::Football_Team::82c8fa5262e246dca748796c34c71965"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::4a9c38a42ee345b28c08f03c4f5e8deb",
+        "sourceClubId": "alahli::Football_Team::bef6a05ac86a4dd88d441d2897527e73"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::514ff884811e4d96a4c753bd29d67124",
+        "sourceClubId": "alahli::Football_Team::77b2d88230e04792b206d60591b29f0b"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::58f57312544041a1ae6ec24f5d35a631",
+        "sourceClubId": "alahli::Football_Team::e8421fd1d8e64a41956f2334d7eb49d0"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::59f2338ea05d4f7b9a9246dff3f6751a",
+        "sourceClubId": "alahli::Football_Team::f368ab65a8bc4dc388404207a0696c8f"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::5ce3c8c9c4744f4ab89d43048c535e7f",
+        "sourceClubId": "alahli::Football_Team::aec3787cd0224b42b1d3b268919ec9c4"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::602883bbc79446d6a99400c618a6147c",
+        "sourceClubId": "alahli::Football_Team::50ec9679cd6e40d9b361f38a8fffac3b"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::61067ed0470643df85b9b973f87749ea",
+        "sourceClubId": "alahli::Football_Team::aec3787cd0224b42b1d3b268919ec9c4"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::61dd0549add04edd87e749d0cc4f3634",
+        "sourceClubId": "alahli::Football_Team::f27999aa050840c091a0dc1a5e587289"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::6559a8148885477a9a9436313a8b8ca2",
+        "sourceClubId": "alahli::Football_Team::c757568bc1274dffa6d4294644fd1709"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::65c48c82b4564296a68ea6826e369cf1",
+        "sourceClubId": "alahli::Football_Team::291787140ed848e8add1c50bf689f01b"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::667b13315fdd483abbffad2e7fa39b82",
+        "sourceClubId": "alahli::Football_Team::82c8fa5262e246dca748796c34c71965"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::68917fc4ba5f4272b0b80e66a09a90ff",
+        "sourceClubId": "alahli::Football_Team::e62d63226ebc42b3905107ba0c58e540"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::6c7bb4c0e7ed4afbb00f2a91f28d9972",
+        "sourceClubId": "alahli::Football_Team::b884e20c43054c4b9ba9338ffe0bf036"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::6d57537e1bf440ea80e71955a1dd2642",
+        "sourceClubId": "alahli::Football_Team::695cdbfb7c1b49cdbc822e74d136aad3"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::6db88443a64c4b7ba8a5a8e8a4cad6c2",
+        "sourceClubId": "alahli::Football_Team::291787140ed848e8add1c50bf689f01b"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::6f17362114394711ba6d4e254f0eb4b3",
+        "sourceClubId": "alahli::Football_Team::e8421fd1d8e64a41956f2334d7eb49d0"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::74a5639c741b4eb18d5038cdf25d606b",
+        "sourceClubId": "alahli::Football_Team::82c8fa5262e246dca748796c34c71965"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::756045e2ba4c4350887319a5694104bb",
+        "sourceClubId": "alahli::Football_Team::82c8fa5262e246dca748796c34c71965"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::76cd959edeaf4e348e287b14685596c3",
+        "sourceClubId": "alahli::Football_Team::695cdbfb7c1b49cdbc822e74d136aad3"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::78e1d4d09ce44249af331b1533c4fd4f",
+        "sourceClubId": "alahli::Football_Team::e8421fd1d8e64a41956f2334d7eb49d0"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::819cd3e2ba30496bad8aa405efc820aa",
+        "sourceClubId": "alahli::Football_Team::b884e20c43054c4b9ba9338ffe0bf036"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::92ac4e0e7af94f6fbc98ab2dca196e2f",
+        "sourceClubId": "alahli::Football_Team::b884e20c43054c4b9ba9338ffe0bf036"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::94234962b36d479ea261f8f869bd6749",
+        "sourceClubId": "alahli::Football_Team::b884e20c43054c4b9ba9338ffe0bf036"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::98e797d2e60446df8e56beebfcc0145c",
+        "sourceClubId": "alahli::Football_Team::5c5ae0031cec4157a9a39d3970d47af1"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::9cb50b4f86f448f994185234145efa52",
+        "sourceClubId": "alahli::Football_Team::5c5ae0031cec4157a9a39d3970d47af1"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::9cd5e5ae61b84ce5b827ae8e64af517b",
+        "sourceClubId": "alahli::Football_Team::bef6a05ac86a4dd88d441d2897527e73"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::a0d0b9a4bd1440eb8c7668b52ebbb4a0",
+        "sourceClubId": "alahli::Football_Team::b884e20c43054c4b9ba9338ffe0bf036"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::a9501124fd594e389a2884c3943272de",
+        "sourceClubId": "alahli::Football_Team::50ec9679cd6e40d9b361f38a8fffac3b"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::b08114a4cc0744f9943cc8de4335e76e",
+        "sourceClubId": "alahli::Football_Team::695cdbfb7c1b49cdbc822e74d136aad3"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::befdf0f16f6d4afdaa3e1e1f4460b835",
+        "sourceClubId": "alahli::Football_Team::e62d63226ebc42b3905107ba0c58e540"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::bf12255b755a43efb35994366413d0ff",
+        "sourceClubId": "alahli::Football_Team::aec3787cd0224b42b1d3b268919ec9c4"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::c278ceb59ed1424fae3087bea65c9b63",
+        "sourceClubId": "alahli::Football_Team::f368ab65a8bc4dc388404207a0696c8f"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::c29245c613994b48a9dc4c0685d78121",
+        "sourceClubId": "alahli::Football_Team::695cdbfb7c1b49cdbc822e74d136aad3"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::c4eb0818a00f40e19c84c4b68dfc6bd8",
+        "sourceClubId": "alahli::Football_Team::bef6a05ac86a4dd88d441d2897527e73"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::c585c8e0c886484d9ba7e0457d7bd51f",
+        "sourceClubId": "alahli::Football_Team::695cdbfb7c1b49cdbc822e74d136aad3"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::cc73b6ba8feb4db098a18fda2b4488da",
+        "sourceClubId": "alahli::Football_Team::bef6a05ac86a4dd88d441d2897527e73"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::ce2f6e5c4b924514a4e4ee2f7a08f857",
+        "sourceClubId": "alahli::Football_Team::aec3787cd0224b42b1d3b268919ec9c4"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::d65c99a876344ad1939a4b466b57f25f",
+        "sourceClubId": "alahli::Football_Team::77b2d88230e04792b206d60591b29f0b"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::da9322a119ce4bc0b12239943c264632",
+        "sourceClubId": "alahli::Football_Team::b884e20c43054c4b9ba9338ffe0bf036"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::e16dac2db68b488495bc5fcb9fdabc15",
+        "sourceClubId": "alahli::Football_Team::82c8fa5262e246dca748796c34c71965"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::e564f56056d34faab80b427e83d01af7",
+        "sourceClubId": "alahli::Football_Team::7295d8dfc1094eb8aace9d5f89e445c5"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::e57bc0e8478b435ca5d72b3edf1a3811",
+        "sourceClubId": "alahli::Football_Team::b884e20c43054c4b9ba9338ffe0bf036"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::e6edcadb30074d9abc01b3e8b29d9a47",
+        "sourceClubId": "alahli::Football_Team::bef6a05ac86a4dd88d441d2897527e73"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::e7bbf26d9800427a8b81c8d8130903a3",
+        "sourceClubId": "alahli::Football_Team::c757568bc1274dffa6d4294644fd1709"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::e7cbbcd6088d42a88441fff13951e3de",
+        "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::eb7ed393780e423b901c1c86c0a3359b",
+        "sourceClubId": "alahli::Football_Team::50ec9679cd6e40d9b361f38a8fffac3b"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::ece5ff27b58d48f9a77675e592284c19",
+        "sourceClubId": "alahli::Football_Team::c757568bc1274dffa6d4294644fd1709"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::ed7fec1adbf04b0680fc13a3cf5b866c",
+        "sourceClubId": "alahli::Football_Team::c757568bc1274dffa6d4294644fd1709"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::ef585a616268472a8273978c03c13391",
+        "sourceClubId": "alahli::Football_Team::82c8fa5262e246dca748796c34c71965"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::f71668578687472cab317f17373e3e8e",
+        "sourceClubId": "alahli::Football_Team::b884e20c43054c4b9ba9338ffe0bf036"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::f8bc462009a843a4be904851e9eacfbb",
+        "sourceClubId": "alahli::Football_Team::7295d8dfc1094eb8aace9d5f89e445c5"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::fc30939f016649469041bdbfd72d0e6c",
+        "sourceClubId": "alahli::Football_Team::82c8fa5262e246dca748796c34c71965"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::fdd95f33129841bca46adc136a68c2b8",
+        "sourceClubId": "alahli::Football_Team::b884e20c43054c4b9ba9338ffe0bf036"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::ff2cac83a89347debe9aba54c33fe4ed",
+        "sourceClubId": "alahli::Football_Team::291787140ed848e8add1c50bf689f01b"
+      }
+    ],
+    "statisticRowsOutsideReturnedRosters": [
+      {
+        "sourcePersonId": "alahli::Football_Player::11824a01989344cb858eca98be1a4490",
+        "sourceClubId": "alahli::Football_Team::5c5ae0031cec4157a9a39d3970d47af1"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::1ab7c8c709d947ddb807b7460c520fd6",
+        "sourceClubId": "alahli::Football_Team::f368ab65a8bc4dc388404207a0696c8f"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::23bca792855a4f848bcf7ba4e4b8c833",
+        "sourceClubId": "alahli::Football_Team::f27999aa050840c091a0dc1a5e587289"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::26281aa4c2ec4bdeb0c09885067fd278",
+        "sourceClubId": "alahli::Football_Team::e8421fd1d8e64a41956f2334d7eb49d0"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::305cce42981b438597c1399d3109ed34",
+        "sourceClubId": "alahli::Football_Team::e62d63226ebc42b3905107ba0c58e540"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::3888c3ef71f140bcbea52259d9db71ac",
+        "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::38bce55b665b4310a2fc575287ae06c8",
+        "sourceClubId": "alahli::Football_Team::695cdbfb7c1b49cdbc822e74d136aad3"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::38de061f19e244c1a14bd559b317954f",
+        "sourceClubId": "alahli::Football_Team::2dad634acc16410083c1143d1ea618db"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::3dba9e8d20b34b9882cf4c5377b4ea01",
+        "sourceClubId": "alahli::Football_Team::b884e20c43054c4b9ba9338ffe0bf036"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::48c324e62756469f95fe454219a3e76d",
+        "sourceClubId": "alahli::Football_Team::77b2d88230e04792b206d60591b29f0b"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::5cbc64dd942349f39f35a6e8e5628ffc",
+        "sourceClubId": "alahli::Football_Team::82c8fa5262e246dca748796c34c71965"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::76bb037e709149039cc1bfbe92c3ebce",
+        "sourceClubId": "alahli::Football_Team::50ec9679cd6e40d9b361f38a8fffac3b"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::7fdc86cc44aa4b66b3edc2b83169b3b0",
+        "sourceClubId": "alahli::Football_Team::bef6a05ac86a4dd88d441d2897527e73"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::892a63ae218b49ed849b6b60b9804b28",
+        "sourceClubId": "alahli::Football_Team::2dad634acc16410083c1143d1ea618db"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::8b2c756027ed477796b8109f9d8c3c3e",
+        "sourceClubId": "alahli::Football_Team::291787140ed848e8add1c50bf689f01b"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::8feae120d8f3432da01b3f527891a270",
+        "sourceClubId": "alahli::Football_Team::f27999aa050840c091a0dc1a5e587289"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::90119e638fd34018bd0cf047996f3d37",
+        "sourceClubId": "alahli::Football_Team::695cdbfb7c1b49cdbc822e74d136aad3"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::95e1c4d6023e43bbb033176073d60c36",
+        "sourceClubId": "alahli::Football_Team::08a340d948844689b6ad959be10217b2"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::b4c96503dd9e4f8481a1af872d4f6309",
+        "sourceClubId": "alahli::Football_Team::2dad634acc16410083c1143d1ea618db"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::dab6c187d8844dab8ef980910d4cfb8d",
+        "sourceClubId": "alahli::Football_Team::bef6a05ac86a4dd88d441d2897527e73"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::dcb029e1361349619df6ddabcbc05181",
+        "sourceClubId": "alahli::Football_Team::f27999aa050840c091a0dc1a5e587289"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::ed0d2adb6398474fabce2048cd40f0d7",
+        "sourceClubId": "alahli::Football_Team::aec3787cd0224b42b1d3b268919ec9c4"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::eee806a0eace49e58a30a2d61116c3d6",
+        "sourceClubId": "alahli::Football_Team::5c5ae0031cec4157a9a39d3970d47af1"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::f9757c063f234171a0e42e1608507b4f",
+        "sourceClubId": "alahli::Football_Team::e62d63226ebc42b3905107ba0c58e540"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::fd3df8f876544774abaed9a4b6f6eaa4",
+        "sourceClubId": "alahli::Football_Team::2dad634acc16410083c1143d1ea618db"
+      },
+      {
+        "sourcePersonId": "alahli::Football_Player::ffd02229153d45859976a61886aee4d5",
+        "sourceClubId": "alahli::Football_Team::5c5ae0031cec4157a9a39d3970d47af1"
+      }
+    ],
+    "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+    "releaseReady": false,
+    "limitations": [
+      "Current season only; historical careers and eleven-competition coverage remain incomplete",
+      "Canonical identity, invalid source metrics, multi-club splits and redistribution rights pending"
+    ]
+  },
+  "atleticoOfficial": {
+    "firstTeamRosterCards": 24,
+    "profileLinksCaptured": 24,
+    "personalProfiles": 22,
+    "careerRows": 74,
+    "honorRows": 46,
+    "unavailableProfiles": [
+      "https://en.atleticodemadrid.com/jugadores/jan-oblak-2026-2027-2",
+      "https://en.atleticodemadrid.com/jugadores/alejandro-baena-rodriguez-2026-2027-2"
+    ],
+    "releaseReady": false
   }
 }

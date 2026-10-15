@@ -1,0 +1,43 @@
+{
+  "records": [
+    {
+      "sourcePersonId": "6c0262727cf746b48b94cacd0428a893",
+      "sourceClubId": "efdd3327b51d4fbd95b83d784301d411",
+      "canonicalPersonId": null,
+      "nameEn": "Ali Majrashi",
+      "type": "contract-renewal",
+      "announcementDate": "2025-07-26",
+      "source": "https://en.alahlifc.sa/news/ali-majrashi-renewed-his-contract-until-2029",
+      "sourceCaptureSha256": "f5d799c11556c90f6c2c85f764c60645faa9aaeaae9f85642e062997b412a768",
+      "verifiedAt": "2026-10-15",
+      "verification": "pending-independent-review",
+      "releaseReady": false,
+      "contractEndYear": 2029,
+      "contractEndPrecision": "year",
+      "contractEndDate": null,
+      "contractDurationYearsAsPublished": 4
+    },
+    {
+      "sourcePersonId": "415700ba3f994d52932081ee6a1b1f0c",
+      "sourceClubId": "efdd3327b51d4fbd95b83d784301d411",
+      "canonicalPersonId": null,
+      "nameEn": "Eduard Spertsyan",
+      "type": "transfer-announcement",
+      "announcementDate": "2026-07-07",
+      "source": "https://en.alahlifc.sa/news/eduard-spertsyan-is-an-al-ahli-player",
+      "sourceCaptureSha256": "f5d799c11556c90f6c2c85f764c60645faa9aaeaae9f85642e062997b412a768",
+      "verifiedAt": "2026-10-15",
+      "verification": "pending-independent-review",
+      "releaseReady": false,
+      "fromClubAsPublished": "FC Krasnodar",
+      "toClubAsPublished": "Al Ahli",
+      "contractDurationYearsAsPublished": 4,
+      "transferDate": null,
+      "feeAmount": null,
+      "feeCurrency": null,
+      "contractEndDate": null
+    }
+  ],
+  "releaseReady": false,
+  "datePolicy": "Announcement dates are not asserted to be registration or transfer dates; no fee or precise contract end date inferred"
+}

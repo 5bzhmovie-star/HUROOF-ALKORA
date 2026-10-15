@@ -1,0 +1,791 @@
+{
+  "records": [
+    {
+      "sourcePersonId": "alahli::Football_Player::7b5690428066444b9970c8b0b73268b6",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "c057625e40ff420a875b535031d241cd",
+      "nameAsPublished": "É. Mendy",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/7b5690428066444b9970c8b0b73268b6",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/7b5690428066444b9970c8b0b73268b6/portrait.png",
+      "sha256": "6ce7370a0a201b0404c54a1a6334fb289204de7ef43e19c43d3490e8ce796885",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::4d7ab84dbb014690afe21b5355432b6a",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "dc526845615d49f188c77cb5c87e717d",
+      "nameAsPublished": "Mohammed Sulaiman",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/4d7ab84dbb014690afe21b5355432b6a",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/4d7ab84dbb014690afe21b5355432b6a/portrait.png",
+      "sha256": "9133842338c15f7b3d6aa54f7cb7d26e3b6f7771313c2caa2cf7486ff7b9e23e",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::ba35b3904bb843bc9790ddc96548aa3e",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "4f0a8e501f064c5da055834c22253d76",
+      "nameAsPublished": "Ziyad Aljohani",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/ba35b3904bb843bc9790ddc96548aa3e",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/ba35b3904bb843bc9790ddc96548aa3e/portrait.png",
+      "sha256": "6dd64a636541b1e7524679b3a5080afb92cf20254eaba7e7977c1d3a40c0157e",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::5bc8e16f47a4450c86764e2ecc5800f3",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "bf66d680fd73422d8fc8f7d7ad42af68",
+      "nameAsPublished": "Mohammed Yousef",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/5bc8e16f47a4450c86764e2ecc5800f3",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/5bc8e16f47a4450c86764e2ecc5800f3/portrait.png",
+      "sha256": "9655d27d3a6c34b1933dc8d906a93bad0ea3ca80ecb4fbf814615e57a93a38ad",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::38497717b95a497fbf614b1e29426262",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "857dd0f2b7cd40409927467b74c397fe",
+      "nameAsPublished": "Naif Masoud",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/38497717b95a497fbf614b1e29426262",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/38497717b95a497fbf614b1e29426262/portrait.png",
+      "sha256": "e73e5ecc8c644c61e6f81b85be38b9f58e87e63a45536ed89a79ab6f9ba2e872",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::0a06a759573849a1a467af4c264e0705",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "24038e539e304642afe7c3d0ea69e61b",
+      "nameAsPublished": "I. Diaby",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/0a06a759573849a1a467af4c264e0705",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/0a06a759573849a1a467af4c264e0705/portrait.png",
+      "sha256": "0c2449c928cc7e29fa090df0389e449cca98f493f7592dac4591f024bb5e54c9",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::92dc938e770b47b692acf4e4c0b7e09a",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "54e5f4bac9094b43b2f61b789971892f",
+      "nameAsPublished": "Galeno",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/92dc938e770b47b692acf4e4c0b7e09a",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/92dc938e770b47b692acf4e4c0b7e09a/portrait.png",
+      "sha256": "3b2dfdb1fc52e8c86478a3f5cd34d40e60a605143e230d5f8e7893c54da0472d",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::f86fcfe622194c4a8cb5f22f9d0ebc4a",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "9f9388c9cddb4cd59003662005cd7659",
+      "nameAsPublished": "Feras Al Brikan",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/f86fcfe622194c4a8cb5f22f9d0ebc4a",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/f86fcfe622194c4a8cb5f22f9d0ebc4a/portrait.png",
+      "sha256": "a02ae1db4d293c2d5342ec04ed901adb5d4e5041d0503a0aa28c11b835a11736",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::7137f391a6e54b588fb1af26f62216b7",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "4f9c98f1b96c40098655e96240a08601",
+      "nameAsPublished": "A. Bondarenko",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/7137f391a6e54b588fb1af26f62216b7",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/7137f391a6e54b588fb1af26f62216b7/portrait.png",
+      "sha256": "e4c835b21dd6ae658509efe05c23d0b11f7c48ac7de41c4575e00aab6ea5eaa9",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::83963cbeb2174b008677cf5619f8e56d",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": null,
+      "nameAsPublished": "Saad Balobaid",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/83963cbeb2174b008677cf5619f8e56d",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/83963cbeb2174b008677cf5619f8e56d/portrait.png",
+      "sha256": "3aa5c65feca6bd0fb370ff9e425b412b194941c66182e8657cb8c57bac877cfa",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::d363adcf6e41433a9f451fe3d5b1dfcc",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "b37a51a4248f467d9d14895fd3d7d9df",
+      "nameAsPublished": "Trincão",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/d363adcf6e41433a9f451fe3d5b1dfcc",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/d363adcf6e41433a9f451fe3d5b1dfcc/portrait.png",
+      "sha256": "172668c24ba6869eb9de49c03ef8a0e4ceccb45471936a88eb32a29a49f58781",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::8c0e9b4589804e40bfa449420eebe6d7",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "bc360ea1a9664424aebd5af6dcc97add",
+      "nameAsPublished": "V. Atangana",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/8c0e9b4589804e40bfa449420eebe6d7",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/8c0e9b4589804e40bfa449420eebe6d7/portrait.png",
+      "sha256": "7dbdedbf63d0ee56ca0f05f7384cc8872ed69584fea969011f3e6124df98119f",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::de73e06eb8574674b2d1062241309fcb",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "4c545e3d759c45d98dea8c54040c2fce",
+      "nameAsPublished": "Rayan Hamed",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/de73e06eb8574674b2d1062241309fcb",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/de73e06eb8574674b2d1062241309fcb/portrait.png",
+      "sha256": "59cb4a218da34d7fc052b9f37368235db3e20f5f711ce5b6fa2f521d602c8cd4",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::f58653b3240b40c6b0b6d11dd055a645",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "080fcc4855cd42098f0605aa082bb2b6",
+      "nameAsPublished": "Meshal Al Mutairi",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/f58653b3240b40c6b0b6d11dd055a645",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/f58653b3240b40c6b0b6d11dd055a645/portrait.png",
+      "sha256": "bf36b0c98b29e445cebf2f31d9d2b4bbcfa9ca1376b805b9b4c9a6d08cf4d239",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::fc34b0bb9f454803afed0a9cd6712b91",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "f6031054c05a47b5a1f10acbf5a80254",
+      "nameAsPublished": "Roger Ibañez",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/fc34b0bb9f454803afed0a9cd6712b91",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/fc34b0bb9f454803afed0a9cd6712b91/portrait.png",
+      "sha256": "9771a720dc1db160ae8a83f4bb9583a7fac19b3db3cf9236dd1f8efd849e3e53",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::edeab1500f874216b1c98279c0d26186",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "2fd2211a7dec4ab6a481c136952e1122",
+      "nameAsPublished": "Matheus Gonçalves",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/edeab1500f874216b1c98279c0d26186",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/edeab1500f874216b1c98279c0d26186/portrait.png",
+      "sha256": "2330888b425e406884bdf8533a4901975db15fc18f3c715227627051e4aae6d4",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::6af170557a0d4dab8e54795bfe4f89e7",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "415700ba3f994d52932081ee6a1b1f0c",
+      "nameAsPublished": "E. Spertsyan",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/6af170557a0d4dab8e54795bfe4f89e7",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/6af170557a0d4dab8e54795bfe4f89e7/portrait.png",
+      "sha256": "84896b3bfcc0aef6dcb9641d74b986c5487b9ae6883d8d758b226bf2ce98910e",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::499c946f38694b1d93fff68519141a12",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "6cd64098920a4a03a28825fc402e8783",
+      "nameAsPublished": "I. Toney",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/499c946f38694b1d93fff68519141a12",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/499c946f38694b1d93fff68519141a12/portrait.png",
+      "sha256": "dd7f8a40c743ea7041ad3a36463827268a247277e830b7caa4370aae4a6cc827",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::26f96bbcf88541f3afbe6cfad073e654",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": null,
+      "nameAsPublished": "Ali Majrashi",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/26f96bbcf88541f3afbe6cfad073e654",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/26f96bbcf88541f3afbe6cfad073e654/portrait.png",
+      "sha256": "de36bed10b590e17ae891670bb40e3d22fad04135698f4924aa7fc22b4b232ad",
+      "dimensions": [
+        480,
+        803
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::e7cbbcd6088d42a88441fff13951e3de",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "c1500aebc44d46abb91633dfa03e31ab",
+      "nameAsPublished": "Sedi",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/e7cbbcd6088d42a88441fff13951e3de",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/e7cbbcd6088d42a88441fff13951e3de/portrait.png",
+      "sha256": "5dcd76af728cfa110ee98a52c3a8762309ee027e37fb88e53d4d295093e85fab",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::243fb959d35a47eb96c8bdd8727970b2",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "8551ee3259e04c0fada5ca42b97800db",
+      "nameAsPublished": "Salman Al Jadani",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/243fb959d35a47eb96c8bdd8727970b2",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/243fb959d35a47eb96c8bdd8727970b2/portrait.png",
+      "sha256": "e0b9ce98d94537fa23fbe825062990d045200733aa1e0af2c24c4de1fea8c554",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::0799c4478215465e9d83f377c33c992b",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "e7c35015a8064e3693754a4666ca7de6",
+      "nameAsPublished": "Zakaria Hawsawi",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/0799c4478215465e9d83f377c33c992b",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/0799c4478215465e9d83f377c33c992b/portrait.png",
+      "sha256": "8621ab357827751b71209cbab028cd950bbe08b7abd1761bc1744c130cc4a184",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::38bff5cb6b0843588fba05edfbe23fbd",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "fd5f349f61a546ff8dda9abd46d8d098",
+      "nameAsPublished": "Saleh Abu Al Shamat",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/38bff5cb6b0843588fba05edfbe23fbd",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/38bff5cb6b0843588fba05edfbe23fbd/portrait.png",
+      "sha256": "74662b147ce16476febafb6029745e731a0fdbb69027086a0adaee0bf6b23b89",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::8839ea8c7fd14ff98323c96105b666b5",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "8c397b85bf304c1da54c55d31cf80c2d",
+      "nameAsPublished": "Abdullah Radif",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/8839ea8c7fd14ff98323c96105b666b5",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/8839ea8c7fd14ff98323c96105b666b5/portrait.png",
+      "sha256": "70e4d25b034bd93b75ca582d9977f1a9fef8cf23defc9bc07504ddcf2d18502f",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::a864a7018f41410fac292ce37dee07bd",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "79a09b7378314535800fa99b61eb13f7",
+      "nameAsPublished": "Abdullah Abdo",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/a864a7018f41410fac292ce37dee07bd",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/a864a7018f41410fac292ce37dee07bd/portrait.png",
+      "sha256": "1c0feb1b6cc567f089579364049f9ffddd72b252eeafe620cc3143ee64e0d795",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::0347f92084154afb82debecf70b07b1b",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "a42eeec5098b4aac81cf4cf0bd540243",
+      "nameAsPublished": "Saeed Baattia",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/0347f92084154afb82debecf70b07b1b",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/0347f92084154afb82debecf70b07b1b/portrait.png",
+      "sha256": "0101fa50ff7e23444d365cbe051325fbcf9892079a59fabdc6122e9678d5b691",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::c8b175fe048e4208a46535645509e251",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "ff9db4d3d63d46e28868649071c4e344",
+      "nameAsPublished": "Abdulrahman Al Sanbi",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/c8b175fe048e4208a46535645509e251",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/c8b175fe048e4208a46535645509e251/portrait.png",
+      "sha256": "91e078bf1538efac1bd89bccf4e9701d481fd12e5ed52d7da7d44f4d74879a4f",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alahli::Football_Player::65e846554c6346e3a4db13d710a04d6d",
+      "sourceClubId": "alahli::Football_Team::757d5a5f170442e9bc647b9eeb3fec54",
+      "sourceSeasonId": "alahli::Football_Season::074ee295c4de4ffb80b9893cb15a120b",
+      "splSourcePersonIdCandidate": "d18072b9db5640e7ad2efb3b5a614b59",
+      "nameAsPublished": "M. Demiral",
+      "source": "https://images.alahlifc.sa/image/private/t_w_480/prd/assets/widgets/players/65e846554c6346e3a4db13d710a04d6d",
+      "sourcePage": "https://en.alahlifc.sa/teams/first-team",
+      "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9",
+      "path": "assets/pending_media/ahli_official/65e846554c6346e3a4db13d710a04d6d/portrait.png",
+      "sha256": "fb085d9983b679f30ef9814aa34719356e852eff00869435fdcdf7908b1e7a7a",
+      "dimensions": [
+        480,
+        480
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    }
+  ],
+  "failures": [],
+  "releaseReady": false,
+  "sourceRosterSha256": "c9183c509f6a7ebfd99b7281ccb23d8cd14c6d512295eb439069969738b1eed9"
+}

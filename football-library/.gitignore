@@ -13,3 +13,5 @@ sources/spl_profiles/
 reports/SPL_PROFILE_STATISTICS_CHECKPOINT.json
 
 data/statistics/spl_current_season_source_candidates.json
+
+data/statistics/saudi_alternate_source_candidates.json

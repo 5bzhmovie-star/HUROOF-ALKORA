@@ -1,0 +1,27 @@
+{
+  "sourceSeason": "2026/2027",
+  "teamRostersCollected": 18,
+  "sourcePlayerRegistrations": 582,
+  "uniqueSourcePeople": 582,
+  "failures": [],
+  "releaseReady": false,
+  "headCoachesAsPublished": 18,
+  "ahliLocalPortraitFiles": 28,
+  "ahliPortraitFailures": 0,
+  "ahliUnresolvedBirthDateConflicts": [
+    {
+      "name": "Saad Balobaid",
+      "providerId": "opta:Player:7l1lhluaxnuy4cun3omcva4us",
+      "splDateOfBirth": "2000-01-27",
+      "clubDateOfBirthAsPublished": "2000-01-26",
+      "issue": "Unresolved date-of-birth disagreement"
+    },
+    {
+      "name": "Ali Majrashi",
+      "providerId": "opta:Player:afnoqty7fqk51izgoy8vxl0fe",
+      "splDateOfBirth": "1999-10-02",
+      "clubDateOfBirthAsPublished": "1999-10-01",
+      "issue": "Unresolved date-of-birth disagreement"
+    }
+  ]
+}

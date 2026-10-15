@@ -1,0 +1,209 @@
+{
+  "source": "https://www.saff.com.sa/en/teams.php?season=26&id=1",
+  "sourceSeasonId": "26",
+  "sourceSha256": "09a46b033411acffa0cd5623dbec9d748465217cc603f822db0b680b3d8958a4",
+  "season": "2026-2027",
+  "scope": "Premier Division senior club directory; no academy squads",
+  "clubs": [
+    {
+      "sourceClubId": "125",
+      "sourceIdNamespace": "saff",
+      "canonicalClubId": null,
+      "nameEnAsPublished": "Abha",
+      "cityEnAsPublished": "Abha",
+      "foundationYear": 1966,
+      "foundationPrecision": "year",
+      "profileUrl": "https://www.saff.com.sa/en/team.php?id=125",
+      "verification": "pending-cross-source-identity-review"
+    },
+    {
+      "sourceClubId": "104",
+      "sourceIdNamespace": "saff",
+      "canonicalClubId": null,
+      "nameEnAsPublished": "Al Ahli",
+      "cityEnAsPublished": "Jeddah",
+      "foundationYear": 1937,
+      "foundationPrecision": "year",
+      "profileUrl": "https://www.saff.com.sa/en/team.php?id=104",
+      "verification": "pending-cross-source-identity-review"
+    },
+    {
+      "sourceClubId": "103",
+      "sourceIdNamespace": "saff",
+      "canonicalClubId": null,
+      "nameEnAsPublished": "Al Ittihad",
+      "cityEnAsPublished": "Jeddah",
+      "foundationYear": 1927,
+      "foundationPrecision": "year",
+      "profileUrl": "https://www.saff.com.sa/en/team.php?id=103",
+      "verification": "pending-cross-source-identity-review"
+    },
+    {
+      "sourceClubId": "71",
+      "sourceIdNamespace": "saff",
+      "canonicalClubId": null,
+      "nameEnAsPublished": "Al Ettifaq",
+      "cityEnAsPublished": "Dammam",
+      "foundationYear": 1945,
+      "foundationPrecision": "year",
+      "profileUrl": "https://www.saff.com.sa/en/team.php?id=71",
+      "verification": "pending-cross-source-identity-review"
+    },
+    {
+      "sourceClubId": "56",
+      "sourceIdNamespace": "saff",
+      "canonicalClubId": null,
+      "nameEnAsPublished": "Al Taawoun",
+      "cityEnAsPublished": "Buraidah",
+      "foundationYear": 1956,
+      "foundationPrecision": "year",
+      "profileUrl": "https://www.saff.com.sa/en/team.php?id=56",
+      "verification": "pending-cross-source-identity-review"
+    },
+    {
+      "sourceClubId": "66",
+      "sourceIdNamespace": "saff",
+      "canonicalClubId": null,
+      "nameEnAsPublished": "Al Hazem",
+      "cityEnAsPublished": "Al-Ras",
+      "foundationYear": 1957,
+      "foundationPrecision": "year",
+      "profileUrl": "https://www.saff.com.sa/en/team.php?id=66",
+      "verification": "pending-cross-source-identity-review"
+    },
+    {
+      "sourceClubId": "67",
+      "sourceIdNamespace": "saff",
+      "canonicalClubId": null,
+      "nameEnAsPublished": "Al Kholood",
+      "cityEnAsPublished": "Al-Ras",
+      "foundationYear": 1970,
+      "foundationPrecision": "year",
+      "profileUrl": "https://www.saff.com.sa/en/team.php?id=67",
+      "verification": "pending-cross-source-identity-review"
+    },
+    {
+      "sourceClubId": "72",
+      "sourceIdNamespace": "saff",
+      "canonicalClubId": null,
+      "nameEnAsPublished": "Al Khaleej",
+      "cityEnAsPublished": "Saihat",
+      "foundationYear": 1945,
+      "foundationPrecision": "year",
+      "profileUrl": "https://www.saff.com.sa/en/team.php?id=72",
+      "verification": "pending-cross-source-identity-review"
+    },
+    {
+      "sourceClubId": "5",
+      "sourceIdNamespace": "saff",
+      "canonicalClubId": null,
+      "nameEnAsPublished": "Al Diraiyah",
+      "cityEnAsPublished": "Diriyah",
+      "foundationYear": 1976,
+      "foundationPrecision": "year",
+      "profileUrl": "https://www.saff.com.sa/en/team.php?id=5",
+      "verification": "pending-cross-source-identity-review"
+    },
+    {
+      "sourceClubId": "3",
+      "sourceIdNamespace": "saff",
+      "canonicalClubId": null,
+      "nameEnAsPublished": "Al Riyadh",
+      "cityEnAsPublished": "Riyadh",
+      "foundationYear": 1953,
+      "foundationPrecision": "year",
+      "profileUrl": "https://www.saff.com.sa/en/team.php?id=3",
+      "verification": "pending-cross-source-identity-review"
+    },
+    {
+      "sourceClubId": "4",
+      "sourceIdNamespace": "saff",
+      "canonicalClubId": null,
+      "nameEnAsPublished": "Al Shabab",
+      "cityEnAsPublished": "Riyadh",
+      "foundationYear": 1947,
+      "foundationPrecision": "year",
+      "profileUrl": "https://www.saff.com.sa/en/team.php?id=4",
+      "verification": "pending-cross-source-identity-review"
+    },
+    {
+      "sourceClubId": "141",
+      "sourceIdNamespace": "saff",
+      "canonicalClubId": null,
+      "nameEnAsPublished": "Al Fateh",
+      "cityEnAsPublished": "Al-Ahsa",
+      "foundationYear": 1958,
+      "foundationPrecision": "year",
+      "profileUrl": "https://www.saff.com.sa/en/team.php?id=141",
+      "verification": "pending-cross-source-identity-review"
+    },
+    {
+      "sourceClubId": "37",
+      "sourceIdNamespace": "saff",
+      "canonicalClubId": null,
+      "nameEnAsPublished": "Al Fayha",
+      "cityEnAsPublished": "Al-Mjmaah",
+      "foundationYear": 1953,
+      "foundationPrecision": "year",
+      "profileUrl": "https://www.saff.com.sa/en/team.php?id=37",
+      "verification": "pending-cross-source-identity-review"
+    },
+    {
+      "sourceClubId": "39",
+      "sourceIdNamespace": "saff",
+      "canonicalClubId": null,
+      "nameEnAsPublished": "Al Faisaly",
+      "cityEnAsPublished": "Harmah",
+      "foundationYear": 1954,
+      "foundationPrecision": "year",
+      "profileUrl": "https://www.saff.com.sa/en/team.php?id=39",
+      "verification": "pending-cross-source-identity-review"
+    },
+    {
+      "sourceClubId": "76",
+      "sourceIdNamespace": "saff",
+      "canonicalClubId": null,
+      "nameEnAsPublished": "Al Qadisiyah",
+      "cityEnAsPublished": "Al-Khobar",
+      "foundationYear": 1967,
+      "foundationPrecision": "year",
+      "profileUrl": "https://www.saff.com.sa/en/team.php?id=76",
+      "verification": "pending-cross-source-identity-review"
+    },
+    {
+      "sourceClubId": "2",
+      "sourceIdNamespace": "saff",
+      "canonicalClubId": null,
+      "nameEnAsPublished": "Al Nassr",
+      "cityEnAsPublished": "Riyadh",
+      "foundationYear": 1955,
+      "foundationPrecision": "year",
+      "profileUrl": "https://www.saff.com.sa/en/team.php?id=2",
+      "verification": "pending-cross-source-identity-review"
+    },
+    {
+      "sourceClubId": "1",
+      "sourceIdNamespace": "saff",
+      "canonicalClubId": null,
+      "nameEnAsPublished": "Al Hilal",
+      "cityEnAsPublished": "Riyadh",
+      "foundationYear": 1957,
+      "foundationPrecision": "year",
+      "profileUrl": "https://www.saff.com.sa/en/team.php?id=1",
+      "verification": "pending-cross-source-identity-review"
+    },
+    {
+      "sourceClubId": "149",
+      "sourceIdNamespace": "saff",
+      "canonicalClubId": null,
+      "nameEnAsPublished": "NEOM",
+      "cityEnAsPublished": "Tabuk",
+      "foundationYear": 1965,
+      "foundationPrecision": "year",
+      "profileUrl": "https://www.saff.com.sa/en/team.php?id=149",
+      "verification": "pending-cross-source-identity-review"
+    }
+  ],
+  "sourceEncodingIssue": "Declared UTF-8 contains legacy bytes in unrelated navigation/footer; selected club fields checked for replacement characters",
+  "releaseReady": false
+}
