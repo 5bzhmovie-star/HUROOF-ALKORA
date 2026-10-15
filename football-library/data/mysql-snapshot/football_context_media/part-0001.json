@@ -1,0 +1,482 @@
+[
+  {
+    "id": "03b7baa1-ad60-4eed-a743-95adf8457185",
+    "entity_id": "national_team:fifa:cro",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "zjVDLh0jwHF1Ivyn2qaldwEn",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/hr.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "03c1c3e0-1307-4638-86fd-806af353b37d",
+    "entity_id": "national_team:fifa:pan",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "1d4VqnnQcVx7ie5HcwVojwtW",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/pa.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "0aec1177-cfec-459a-80d0-3ff93fc3b302",
+    "entity_id": "national_team:fifa:arg",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "dmeGZEMYorsIpebEyo_AYJc7",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ar.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "0bc4993d-3c22-4fc9-b685-836ee69779be",
+    "entity_id": "national_team:fifa:usa",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "xkIxnRU9MJoD3x6zmyidDOE8",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/us.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "0cf82381-b122-4530-9c27-55e4e4fa1d0c",
+    "entity_id": "national_team:fifa:rsa",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "5y5rvVs9jHqZVm9x6rwxZqLB",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/za.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "0fbace34-f7a2-4645-9ce7-4f7f69381adf",
+    "entity_id": "national_team:fifa:mex",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "n1IOJ5O9AtR9IX8uDu1vTwTw",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/mx.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "202b157e-8141-46da-81c8-59841ffc4a14",
+    "entity_id": "national_team:fifa:bel",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "dMcg7TtanYLlbA0hAzEkv-bH",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/be.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "26c91679-2f8d-423f-a275-aae6c90afa43",
+    "entity_id": "national_team:fifa:hai",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "fphgwQ7aaSMItTDqWcEO1zh_",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ht.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "2a228ce2-d598-48f6-bcef-25312a131536",
+    "entity_id": "national_team:fifa:civ",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "THWb9t18HRGTEfNIN0OSTWvF",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ci.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "2d5bf47e-4df3-4493-bf43-a7e752f0c929",
+    "entity_id": "national_team:fifa:uzb",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "n9-XO1ktMPRk1dfdpvULNhpI",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/uz.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "2d61c16c-cb07-494c-8a98-2699c83c0fd2",
+    "entity_id": "national_team:fifa:irq",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "723yBoxakuwXzMc__QMqMIS7",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/iq.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "30b56d39-e491-4042-97d9-87ccd3927c69",
+    "entity_id": "national_team:fifa:ned",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "ZwKcIa-0IT_XqQ3YmTFuTn1i",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/nl.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "3412f1d4-8ab6-4101-a54f-3047f2316591",
+    "entity_id": "national_team:fifa:tur",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "y23KaDhNrtsNWkW3GtzTZEuY",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/tr.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "3b3b364b-d139-4abc-b615-a066f0d4ff04",
+    "entity_id": "national_team:fifa:kor",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "tek9z4uQYIw3ATwE7b8qzd7s",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/kr.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "3bfde298-a802-454b-bcb1-77552674290f",
+    "entity_id": "national_team:fifa:swe",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "dbcW6ISZoWBgFjpfsYUC5GeY",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/se.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "3c5b8f49-225d-4069-8325-5fbc662b672c",
+    "entity_id": "national_team:fifa:bih",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "EMIIF_1g8lZKBFz-X_z5faJP",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ba.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "3d450a3f-2927-42ef-a3de-b13c5039dbe2",
+    "entity_id": "national_team:fifa:cod",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "KzwT4JtGSlQ7tBZbu2MYKZ3B",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/cd.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "3de37a29-c4b0-4ac2-8480-21f20479cb7e",
+    "entity_id": "national_team:fifa:aut",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "6U0SdpyQaNx5UwOyCn4dVqB9",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/at.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "3e1cdbdc-cd67-4a64-9501-d0e892a01f28",
+    "entity_id": "national_team:fifa:sui",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "OWjTBuU3rvgRqJdemzzPlpnL",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ch.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "48689f06-ee36-4efa-bc91-5827af80b428",
+    "entity_id": "national_team:fifa:mar",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "SaJhYG6uHzLeUjj-87hi9xOl",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ma.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "556619bd-585c-4634-95f2-a3f40d6107c6",
+    "entity_id": "national_team:fifa:ksa",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "VKI_FGnxTrZilx-9n2tEj3mm",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/sa.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "5792ab52-63d9-4b36-885d-6ebbc70fb803",
+    "entity_id": "national_team:fifa:uru",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "DJZUswsZ0v_AOdcXcSabF00R",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/uy.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "614a9b1c-ec77-4d76-806d-f9ff0aaf55f7",
+    "entity_id": "national_team:fifa:cze",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "aH4Mj2KIa9zKeDYjpaquOCza",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/cz.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "6618c1ef-6ce0-4894-8a6e-815a91e81d29",
+    "entity_id": "national_team:fifa:nor",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "7DW7oqretnWhEUQ6zR5m9uEY",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/no.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "6bc2b438-28e7-487f-97f0-3269565aae6c",
+    "entity_id": "national_team:fifa:fra",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "73eJh_8c78sfWXQ8wnrAN2nI",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/fr.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "71400ab6-27d0-4004-8128-8fd7ea5676ea",
+    "entity_id": "national_team:fifa:col",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "f5iEw2vVUBIz3YL9pW-94zxa",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/co.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "71b98ea7-ef21-4edc-83f5-cf2121aa82f4",
+    "entity_id": "national_team:fifa:nzl",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "ePDXKbYaVqzdWL-45ZPMDYdx",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/nz.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "7d2a3bdf-2fa6-40db-a446-265d166ea7c6",
+    "entity_id": "national_team:fifa:esp",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "vUmXr_Db5CuE6jxzPyMG4IKF",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/es.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "7d400306-f4df-4319-a171-8cf3594ddb62",
+    "entity_id": "national_team:fifa:tun",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "8OVAz86uZUHCBw2Yg02Ov34A",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/tn.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "81d4b8dc-63ac-4ffa-9985-62c1988314dc",
+    "entity_id": "national_team:fifa:qat",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "Z9eWavzBRUnGm8nGQdQdN5ra",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/qa.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "8d6eba16-4041-41e4-8c09-251543a7f2ac",
+    "entity_id": "national_team:fifa:eng",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "J2keXdwJ526uvvk7RZjpu3z4",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/gb-eng.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "8dd864ae-c2c0-4508-a68c-0117f78c1ff8",
+    "entity_id": "national_team:fifa:aus",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "mM7ds_JNolq7w0y6OkcM-y9s",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/au.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "8e8819b3-f0b1-4a86-91d8-7c5612c0de45",
+    "entity_id": "national_team:fifa:jor",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "YndS5VhEpein79kLGxcHtrg6",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/jo.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "932f33c3-0bed-45de-b3e0-e66f71561319",
+    "entity_id": "national_team:fifa:can",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "Rp9RsuisA5x2SGGBMFGkRjuF",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ca.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "94369100-a0c9-4395-8f8f-b3948d5f4586",
+    "entity_id": "national_team:fifa:bra",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "Ee9d8SAJUjhZISl-kpTkopBE",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/br.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "953d5994-9de3-493c-a43b-edaf3adbbf43",
+    "entity_id": "national_team:fifa:por",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "rmaMKjh1ja19yg38aantmuhH",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/pt.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "a069d0d3-8021-4e2c-b11a-f896e9778108",
+    "entity_id": "national_team:fifa:egy",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "2yDZUwgIodcAiNwUYVQetDGF",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/eg.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "a16487ef-7ac8-4d31-84d4-ba224ca4310c",
+    "entity_id": "national_team:fifa:ecu",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "H8v7gKpYvon82HUQpIa9R8uV",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ec.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "a7c70ad3-35ce-4c2b-b695-632eead98b78",
+    "entity_id": "national_team:fifa:cpv",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "rioSIc3ykXmfGLXNwtJbvU_q",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/cv.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "bc24a11f-c59b-4ef6-a55e-0b5d9b3a9ebd",
+    "entity_id": "national_team:fifa:jpn",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "S8NfbrJwAR0lNMAN91bfPJ4C",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/jp.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "c6094c53-4f63-4d67-acde-aa2ddb771d6c",
+    "entity_id": "national_team:fifa:par",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "SAkEzgl1MaCu5w-5J9uOY9Fn",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/py.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "cf5648bb-dfd1-4376-b052-d0302ca4e648",
+    "entity_id": "national_team:fifa:cuw",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "sxsA87Vz89JCOmPKucXE7SNU",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/cw.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "cfe1a907-8b28-4d77-8ef4-f3668327497b",
+    "entity_id": "national_team:fifa:sco",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "HGW3QqYFoLT4OeePNmVwVDu-",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/gb-sct.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "d4556661-cc8f-46f2-bdf3-f1981710ae27",
+    "entity_id": "national_team:fifa:alg",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "5PcMhooBJv1I2wDYACaXGT_h",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/dz.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "d4e9d553-a983-42a5-afac-b1706da0563d",
+    "entity_id": "national_team:fifa:gha",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "LlMSNNWubC-DdOD1KZ_RCKHB",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/gh.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "e9b4ce9a-fae4-44c2-b3d3-67ff9b3f7430",
+    "entity_id": "national_team:fifa:sen",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "ES6yOaTEUvIFR8MmzS-kOa7s",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/sn.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "fc623d03-b57b-47f2-90d1-535b98ff33de",
+    "entity_id": "national_team:fifa:irn",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "OzDEjObQg5w4deSJZ0sn-iEL",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ir.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  },
+  {
+    "id": "fd3fda7e-bfdb-4760-8810-ca6cae270a79",
+    "entity_id": "national_team:fifa:ger",
+    "team_id": null,
+    "role": "flag",
+    "starts_at": "2026-06-11",
+    "ends_at": null,
+    "asset_id": "1Nr-NFAlk1ojYVZGhCl63vRT",
+    "review": "{\"identity\":true,\"visual\":true,\"rights\":true,\"reviewer\":\"Codex visual flag sheet review\",\"evidence\":\"https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/de.svg\",\"verifiedAt\":\"2026-10-11\"}"
+  }
+]

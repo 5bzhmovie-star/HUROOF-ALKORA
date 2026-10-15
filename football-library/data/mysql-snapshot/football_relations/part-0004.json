@@ -1,0 +1,2502 @@
+[
+  {
+    "id": "player:fifa2026:9be3528274903a8526a47edc:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9be3528274903a8526a47edc",
+    "to_entity_id": "national_team:fifa:sui",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":12,\"clubAtWorldCup\":\"FC Lorient (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9c09ae961b6349195125d0e8:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9c09ae961b6349195125d0e8",
+    "to_entity_id": "national_team:fifa:par",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":4,\"clubAtWorldCup\":\"FC Dynamo Moscow (RUS)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9c4ddd565303caa12bb91e7d:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9c4ddd565303caa12bb91e7d",
+    "to_entity_id": "national_team:fifa:gha",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":7,\"clubAtWorldCup\":\"Leicester City FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9c6971cf7c10f7b49e272fb3:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9c6971cf7c10f7b49e272fb3",
+    "to_entity_id": "national_team:fifa:cpv",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":13,\"clubAtWorldCup\":\"SL Benfica (POR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9cdb1aa70218dba051743019:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9cdb1aa70218dba051743019",
+    "to_entity_id": "national_team:fifa:pan",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":13,\"clubAtWorldCup\":\"Puerto Cabello CF (VEN)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9d0ac23837efbea89ce6a92c:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9d0ac23837efbea89ce6a92c",
+    "to_entity_id": "national_team:fifa:nor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":1,\"clubAtWorldCup\":\"Sevilla FC (ESP)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9d0d2bfa395e4a88d9ad906c:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9d0d2bfa395e4a88d9ad906c",
+    "to_entity_id": "national_team:fifa:tur",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":23,\"clubAtWorldCup\":\"Galatasaray SK (TUR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9d2ef1d894cecb1a9cf89571:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9d2ef1d894cecb1a9cf89571",
+    "to_entity_id": "national_team:fifa:civ",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":12,\"clubAtWorldCup\":\"OGC Nice (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9d51f35da106cda9b6d3ea9d:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9d51f35da106cda9b6d3ea9d",
+    "to_entity_id": "national_team:fifa:tur",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":25,\"clubAtWorldCup\":\"Çaykur Rizespor (TUR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9d722f0eddba8966e55d9282:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9d722f0eddba8966e55d9282",
+    "to_entity_id": "national_team:fifa:cro",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":6,\"clubAtWorldCup\":\"AFC Ajax (NED)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9de5da00860b6296f3befde6:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9de5da00860b6296f3befde6",
+    "to_entity_id": "national_team:fifa:bel",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":21,\"clubAtWorldCup\":\"Fulham FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9e0e65b4aed1b4a9b863938c:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9e0e65b4aed1b4a9b863938c",
+    "to_entity_id": "national_team:fifa:gha",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":1,\"clubAtWorldCup\":\"FC St. Gallen (SUI)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9e56f503470ec87d3c1be7f2:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9e56f503470ec87d3c1be7f2",
+    "to_entity_id": "national_team:fifa:civ",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":14,\"clubAtWorldCup\":\"Cercle Brugge (BEL)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9e6f3cdcedf84f64d38cfc99:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9e6f3cdcedf84f64d38cfc99",
+    "to_entity_id": "national_team:fifa:kor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":20,\"clubAtWorldCup\":\"Celtic FC (SCO)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9e74bc464a1a0548bea1153a:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9e74bc464a1a0548bea1153a",
+    "to_entity_id": "national_team:fifa:cod",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":8,\"clubAtWorldCup\":\"Atromitos FC (GRE)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9ec2d0dd3044021dbb750673:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9ec2d0dd3044021dbb750673",
+    "to_entity_id": "national_team:fifa:usa",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":1,\"clubAtWorldCup\":\"New England Revolution (USA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9f154c205e0156c484f0155f:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9f154c205e0156c484f0155f",
+    "to_entity_id": "national_team:fifa:col",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":13,\"clubAtWorldCup\":\"Cagliari (ITA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9f7755dbbd89bc3ebf6bfdd0:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9f7755dbbd89bc3ebf6bfdd0",
+    "to_entity_id": "national_team:fifa:nzl",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":25,\"clubAtWorldCup\":\"Newcastle United Jets FC (AUS)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9fa954fbdca5453174a94873:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9fa954fbdca5453174a94873",
+    "to_entity_id": "national_team:fifa:qat",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":11,\"clubAtWorldCup\":\"Al Sadd SC (QAT)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9fc1908dabe7c1c871539849:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9fc1908dabe7c1c871539849",
+    "to_entity_id": "national_team:fifa:mex",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":11,\"clubAtWorldCup\":\"AC Milan (ITA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9fe5d029082e6d5be1f15cfa:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9fe5d029082e6d5be1f15cfa",
+    "to_entity_id": "national_team:fifa:gha",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":3,\"clubAtWorldCup\":\"FC Nordsjælland (DEN)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9fed6e62d9c6206efb144d0b:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9fed6e62d9c6206efb144d0b",
+    "to_entity_id": "national_team:fifa:jpn",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":12,\"clubAtWorldCup\":\"Sanfrecce Hiroshima (JPN)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:9ff565b94f0394e246808b6f:wc2026-squad",
+    "from_entity_id": "player:fifa2026:9ff565b94f0394e246808b6f",
+    "to_entity_id": "national_team:fifa:eng",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":21,\"clubAtWorldCup\":\"Arsenal FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a0375331e27e4b3a3d3b1685:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a0375331e27e4b3a3d3b1685",
+    "to_entity_id": "national_team:fifa:ger",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":20,\"clubAtWorldCup\":\"1. FSV Mainz 05 (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a0476a31b27cb7ef186bd1ec:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a0476a31b27cb7ef186bd1ec",
+    "to_entity_id": "national_team:fifa:swe",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":2,\"clubAtWorldCup\":\"SC Braga (POR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a1235b1c50f7a403e03951e1:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a1235b1c50f7a403e03951e1",
+    "to_entity_id": "national_team:fifa:egy",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":4,\"clubAtWorldCup\":\"Zamalek SC (EGY)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a1aac2502ca879f04c801f75:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a1aac2502ca879f04c801f75",
+    "to_entity_id": "national_team:fifa:nzl",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":17,\"clubAtWorldCup\":\"WS Wanderers FC (AUS)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a1c9b6b5777bc78c19286dcd:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a1c9b6b5777bc78c19286dcd",
+    "to_entity_id": "national_team:fifa:mex",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":25,\"clubAtWorldCup\":\"CD Guadalajara (MEX)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a22d98d4916875ef49ad3057:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a22d98d4916875ef49ad3057",
+    "to_entity_id": "national_team:fifa:mex",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":18,\"clubAtWorldCup\":\"Atlético De Madrid (ESP)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a241955152b354d603c9046e:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a241955152b354d603c9046e",
+    "to_entity_id": "national_team:fifa:hai",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":16,\"clubAtWorldCup\":\"Ferencvárosi TC (HUN)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a268ab11149c8e1e87b60d86:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a268ab11149c8e1e87b60d86",
+    "to_entity_id": "national_team:fifa:qat",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":15,\"clubAtWorldCup\":\"Al Wakrah SC (QAT)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a29b728b64182825252dc2ee:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a29b728b64182825252dc2ee",
+    "to_entity_id": "national_team:fifa:por",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":9,\"clubAtWorldCup\":\"Paris Saint-Germain (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a2ae0c8ebd951f277e59dd65:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a2ae0c8ebd951f277e59dd65",
+    "to_entity_id": "national_team:fifa:tun",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":6,\"clubAtWorldCup\":\"Servette FC (SUI)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a32fd57a294f951bb5eefa7b:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a32fd57a294f951bb5eefa7b",
+    "to_entity_id": "national_team:fifa:aut",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":7,\"clubAtWorldCup\":\"FK Crvena Zvezda (SRB)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a3740b98614a5a45592926c9:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a3740b98614a5a45592926c9",
+    "to_entity_id": "national_team:fifa:can",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":6,\"clubAtWorldCup\":\"LAFC (USA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a3ab88991e4209c53973eff9:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a3ab88991e4209c53973eff9",
+    "to_entity_id": "national_team:fifa:egy",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":24,\"clubAtWorldCup\":\"ZED FC (EGY)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a3b584fa5c7f07ef647f4915:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a3b584fa5c7f07ef647f4915",
+    "to_entity_id": "national_team:fifa:cze",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":2,\"clubAtWorldCup\":\"SK Slavia Praha (CZE)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a3b92367dd144bbb2b5ea792:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a3b92367dd144bbb2b5ea792",
+    "to_entity_id": "national_team:fifa:cod",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":5,\"clubAtWorldCup\":\"AEL FC (GRE)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a3cd03e711533bb2cde0f520:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a3cd03e711533bb2cde0f520",
+    "to_entity_id": "national_team:fifa:sen",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":17,\"clubAtWorldCup\":\"Tottenham Hotspur FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a451558a9d0fd727524a488b:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a451558a9d0fd727524a488b",
+    "to_entity_id": "national_team:fifa:sui",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":20,\"clubAtWorldCup\":\"Pisa SC (ITA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a4661fa74e2bae78af3044e6:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a4661fa74e2bae78af3044e6",
+    "to_entity_id": "national_team:fifa:aut",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":17,\"clubAtWorldCup\":\"Borussia Dortmund (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a4a3c279ad609b5ee7d53869:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a4a3c279ad609b5ee7d53869",
+    "to_entity_id": "national_team:fifa:por",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":5,\"clubAtWorldCup\":\"Manchester United FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a4fa7a6d7dbfbe169799315a:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a4fa7a6d7dbfbe169799315a",
+    "to_entity_id": "national_team:fifa:sco",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":4,\"clubAtWorldCup\":\"SSC Napoli (ITA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a5141d69916b30eabb4e369d:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a5141d69916b30eabb4e369d",
+    "to_entity_id": "national_team:fifa:egy",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":9,\"clubAtWorldCup\":\"FC Barcelona (ESP)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a520d13fceea562597f0272c:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a520d13fceea562597f0272c",
+    "to_entity_id": "national_team:fifa:jor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":9,\"clubAtWorldCup\":\"Al Sailiya SC (QAT)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a55d39832e19c1fac6eec388:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a55d39832e19c1fac6eec388",
+    "to_entity_id": "national_team:fifa:alg",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":19,\"clubAtWorldCup\":\"Lille OSC (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a63911458a9d4582e5c07f0e:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a63911458a9d4582e5c07f0e",
+    "to_entity_id": "national_team:fifa:kor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":15,\"clubAtWorldCup\":\"Daejeon Hana Citizen FC (KOR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a65fc8a0f4930d186250806b:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a65fc8a0f4930d186250806b",
+    "to_entity_id": "national_team:fifa:hai",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":1,\"clubAtWorldCup\":\"SC Bastia (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a699a808533efd63653fcbeb:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a699a808533efd63653fcbeb",
+    "to_entity_id": "national_team:fifa:qat",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":4,\"clubAtWorldCup\":\"Al Arabi SC (QAT)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a71e28fbe04d038599367d27:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a71e28fbe04d038599367d27",
+    "to_entity_id": "national_team:fifa:ecu",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":7,\"clubAtWorldCup\":\"AC Milan (ITA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a736dd63b51a86e8ec6ca7d6:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a736dd63b51a86e8ec6ca7d6",
+    "to_entity_id": "national_team:fifa:jor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":21,\"clubAtWorldCup\":\"Qatar SC (QAT)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a7d1838ccb987d4ba84a68da:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a7d1838ccb987d4ba84a68da",
+    "to_entity_id": "national_team:fifa:cze",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":24,\"clubAtWorldCup\":\"FC Viktoria Plzeň (CZE)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a7f482f548f965ea036a6314:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a7f482f548f965ea036a6314",
+    "to_entity_id": "national_team:fifa:cod",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":7,\"clubAtWorldCup\":\"Montpellier HSC (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a7fd5df49257dddb4b9305e0:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a7fd5df49257dddb4b9305e0",
+    "to_entity_id": "national_team:fifa:cuw",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":9,\"clubAtWorldCup\":\"Miami FC (USA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a824c9ef54c9809334df165d:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a824c9ef54c9809334df165d",
+    "to_entity_id": "national_team:fifa:irq",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":1,\"clubAtWorldCup\":\"Al Talaba SC (IRQ)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a8a0f1e8520f67526873f2c5:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a8a0f1e8520f67526873f2c5",
+    "to_entity_id": "national_team:fifa:aut",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":22,\"clubAtWorldCup\":\"TSG Hoffenheim (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a8aa05da4cb086d27f5080c6:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a8aa05da4cb086d27f5080c6",
+    "to_entity_id": "national_team:fifa:sen",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":11,\"clubAtWorldCup\":\"FC Bayern München (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a8b93cdd08a35d8b6f9d27a4:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a8b93cdd08a35d8b6f9d27a4",
+    "to_entity_id": "national_team:fifa:uzb",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":7,\"clubAtWorldCup\":\"Baniyas Club (UAE)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a8d508902562f8c4c76dc515:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a8d508902562f8c4c76dc515",
+    "to_entity_id": "national_team:fifa:irq",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":21,\"clubAtWorldCup\":\"Venezia FC (ITA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a9745b4afc66d922b481cf4b:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a9745b4afc66d922b481cf4b",
+    "to_entity_id": "national_team:fifa:sui",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":23,\"clubAtWorldCup\":\"Burnley FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a99b91f3497da4fd6eb0c21c:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a99b91f3497da4fd6eb0c21c",
+    "to_entity_id": "national_team:fifa:sco",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":25,\"clubAtWorldCup\":\"Kilmarnock FC (SCO)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a9a4af523ddd637b292ba695:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a9a4af523ddd637b292ba695",
+    "to_entity_id": "national_team:fifa:sen",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":14,\"clubAtWorldCup\":\"Galatasaray SK (TUR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:a9d8ff28baa4d54b33ce250c:wc2026-squad",
+    "from_entity_id": "player:fifa2026:a9d8ff28baa4d54b33ce250c",
+    "to_entity_id": "national_team:fifa:sen",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":10,\"clubAtWorldCup\":\"Al Nassr FC (KSA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:aa026e7c5c25eae0ec449384:wc2026-squad",
+    "from_entity_id": "player:fifa2026:aa026e7c5c25eae0ec449384",
+    "to_entity_id": "national_team:fifa:alg",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":18,\"clubAtWorldCup\":\"VfL Wolfsburg (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:aa306317b1e15ff606c90397:wc2026-squad",
+    "from_entity_id": "player:fifa2026:aa306317b1e15ff606c90397",
+    "to_entity_id": "national_team:fifa:egy",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":8,\"clubAtWorldCup\":\"Al Ahly FC (EGY)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:aa32a8e2a4c160bf732cdaa9:wc2026-squad",
+    "from_entity_id": "player:fifa2026:aa32a8e2a4c160bf732cdaa9",
+    "to_entity_id": "national_team:fifa:nor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":4,\"clubAtWorldCup\":\"Genoa CFC (ITA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:aa35a5958bf8275aa5aacbfb:wc2026-squad",
+    "from_entity_id": "player:fifa2026:aa35a5958bf8275aa5aacbfb",
+    "to_entity_id": "national_team:fifa:bra",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":1,\"clubAtWorldCup\":\"Liverpool FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:aa90839712c9eff6186f730f:wc2026-squad",
+    "from_entity_id": "player:fifa2026:aa90839712c9eff6186f730f",
+    "to_entity_id": "national_team:fifa:civ",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":24,\"clubAtWorldCup\":\"TSG Hoffenheim (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:aabf7c9a07573f2334afb32c:wc2026-squad",
+    "from_entity_id": "player:fifa2026:aabf7c9a07573f2334afb32c",
+    "to_entity_id": "national_team:fifa:egy",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":2,\"clubAtWorldCup\":\"Al Ahly FC (EGY)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:aae723cd22e9a8ed08951406:wc2026-squad",
+    "from_entity_id": "player:fifa2026:aae723cd22e9a8ed08951406",
+    "to_entity_id": "national_team:fifa:egy",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":16,\"clubAtWorldCup\":\"Zamalek SC (EGY)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ab2c5d52df702e5bf8ce6b49:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ab2c5d52df702e5bf8ce6b49",
+    "to_entity_id": "national_team:fifa:ned",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":19,\"clubAtWorldCup\":\"Sunderland AFC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ab367dac822c6d578d83a7d8:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ab367dac822c6d578d83a7d8",
+    "to_entity_id": "national_team:fifa:aut",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":24,\"clubAtWorldCup\":\"PSV Eindhoven (NED)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ab36af52469e5a80786a041f:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ab36af52469e5a80786a041f",
+    "to_entity_id": "national_team:fifa:tun",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":14,\"clubAtWorldCup\":\"Paris Saint-Germain (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ab836eb304debd2350eb25db:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ab836eb304debd2350eb25db",
+    "to_entity_id": "national_team:fifa:mex",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":16,\"clubAtWorldCup\":\"Al Qadsiah FC (KSA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ab894330b602c4907052af89:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ab894330b602c4907052af89",
+    "to_entity_id": "national_team:fifa:aut",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":3,\"clubAtWorldCup\":\"Tottenham Hotspur FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ab90fcf92307c3457237de51:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ab90fcf92307c3457237de51",
+    "to_entity_id": "national_team:fifa:gha",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":2,\"clubAtWorldCup\":\"Stade Rennais FC (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:abdfd32bc50138e1a32c8df3:wc2026-squad",
+    "from_entity_id": "player:fifa2026:abdfd32bc50138e1a32c8df3",
+    "to_entity_id": "national_team:fifa:tun",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":25,\"clubAtWorldCup\":\"Norwich City FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ac741b85edac918761da82b8:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ac741b85edac918761da82b8",
+    "to_entity_id": "national_team:fifa:uzb",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":13,\"clubAtWorldCup\":\"Pakhtakor Tashkent FK (UZB)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ac7defaacac111683b275518:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ac7defaacac111683b275518",
+    "to_entity_id": "national_team:fifa:ger",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":10,\"clubAtWorldCup\":\"FC Bayern München (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ac8dfbe06a5d37a18fcf0d34:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ac8dfbe06a5d37a18fcf0d34",
+    "to_entity_id": "national_team:fifa:nor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":15,\"clubAtWorldCup\":\"FK Bodø/Glimt (NOR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ace04cfd214a95cb40b7f055:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ace04cfd214a95cb40b7f055",
+    "to_entity_id": "national_team:fifa:ecu",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":10,\"clubAtWorldCup\":\"CA River Plate (ARG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ace3f41347878635d5d76053:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ace3f41347878635d5d76053",
+    "to_entity_id": "national_team:fifa:bel",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":24,\"clubAtWorldCup\":\"Aston Villa FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:acee64579f9c00f6cd2e2828:wc2026-squad",
+    "from_entity_id": "player:fifa2026:acee64579f9c00f6cd2e2828",
+    "to_entity_id": "national_team:fifa:tur",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":19,\"clubAtWorldCup\":\"Galatasaray SK (TUR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:acffbc837e759561d510d974:wc2026-squad",
+    "from_entity_id": "player:fifa2026:acffbc837e759561d510d974",
+    "to_entity_id": "national_team:fifa:irn",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":25,\"clubAtWorldCup\":\"Malavan Anzali FC (IRN)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ad0a265530e3e249622f7ab4:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ad0a265530e3e249622f7ab4",
+    "to_entity_id": "national_team:fifa:sco",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":8,\"clubAtWorldCup\":\"Manchester United FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ad1148ac675b29664f3dcb44:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ad1148ac675b29664f3dcb44",
+    "to_entity_id": "national_team:fifa:swe",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":1,\"clubAtWorldCup\":\"Derby County FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ad13f78be059198bb7716fb5:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ad13f78be059198bb7716fb5",
+    "to_entity_id": "national_team:fifa:uzb",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":8,\"clubAtWorldCup\":\"FK Neftchi Farg'ona (UZB)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ad256883976be9054adea9dc:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ad256883976be9054adea9dc",
+    "to_entity_id": "national_team:fifa:par",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":8,\"clubAtWorldCup\":\"Brighton & Hove Albion FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ad65e5f7e04bcc3517f9752e:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ad65e5f7e04bcc3517f9752e",
+    "to_entity_id": "national_team:fifa:sen",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":23,\"clubAtWorldCup\":\"Le Havre AC (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ad6601dfaadfb1b723103e4e:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ad6601dfaadfb1b723103e4e",
+    "to_entity_id": "national_team:fifa:uzb",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":18,\"clubAtWorldCup\":\"Dibba FC (UAE)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ad76af24ac8ab8f8027878cf:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ad76af24ac8ab8f8027878cf",
+    "to_entity_id": "national_team:fifa:hai",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":21,\"clubAtWorldCup\":\"AJ Auxerre (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ada84875c4d3e3d4e292ab76:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ada84875c4d3e3d4e292ab76",
+    "to_entity_id": "national_team:fifa:aut",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":25,\"clubAtWorldCup\":\"Venezia FC (ITA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:adc7cb23501331c54b050485:wc2026-squad",
+    "from_entity_id": "player:fifa2026:adc7cb23501331c54b050485",
+    "to_entity_id": "national_team:fifa:tun",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":1,\"clubAtWorldCup\":\"Club Africain (TUN)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:adda3dbdcb72e8b803f0a5db:wc2026-squad",
+    "from_entity_id": "player:fifa2026:adda3dbdcb72e8b803f0a5db",
+    "to_entity_id": "national_team:fifa:kor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":17,\"clubAtWorldCup\":\"Stoke City FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ae07747f2d674385e0b74fcf:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ae07747f2d674385e0b74fcf",
+    "to_entity_id": "national_team:fifa:irq",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":15,\"clubAtWorldCup\":\"Al Karma SC (IRQ)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ae190772cae656c00e9b3d94:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ae190772cae656c00e9b3d94",
+    "to_entity_id": "national_team:fifa:mar",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":3,\"clubAtWorldCup\":\"Manchester United FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ae252d4dec74099d8c9612c7:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ae252d4dec74099d8c9612c7",
+    "to_entity_id": "national_team:fifa:aut",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":14,\"clubAtWorldCup\":\"LASK Linz (AUT)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:aec52ee14c8c00e2571bfbbf:wc2026-squad",
+    "from_entity_id": "player:fifa2026:aec52ee14c8c00e2571bfbbf",
+    "to_entity_id": "national_team:fifa:sco",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":15,\"clubAtWorldCup\":\"Rangers FC (SCO)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:aedf6e5dfe2c910ccd0e73c4:wc2026-squad",
+    "from_entity_id": "player:fifa2026:aedf6e5dfe2c910ccd0e73c4",
+    "to_entity_id": "national_team:fifa:aut",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":15,\"clubAtWorldCup\":\"SC Freiburg (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:af30d8f375ff04ac23fe28e0:wc2026-squad",
+    "from_entity_id": "player:fifa2026:af30d8f375ff04ac23fe28e0",
+    "to_entity_id": "national_team:fifa:ger",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":12,\"clubAtWorldCup\":\"TSG Hoffenheim (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:aff755648662737d4e8750d8:wc2026-squad",
+    "from_entity_id": "player:fifa2026:aff755648662737d4e8750d8",
+    "to_entity_id": "national_team:fifa:civ",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":13,\"clubAtWorldCup\":\"Başakşehir FK (TUR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b02791613ad3d3abc0bd4eaa:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b02791613ad3d3abc0bd4eaa",
+    "to_entity_id": "national_team:fifa:gha",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":8,\"clubAtWorldCup\":\"Real Oviedo (ESP)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b04a4a3ae4e36817f03ad36e:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b04a4a3ae4e36817f03ad36e",
+    "to_entity_id": "national_team:fifa:sui",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":25,\"clubAtWorldCup\":\"VfB Stuttgart (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b04dfc8eabe418582b1d9506:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b04dfc8eabe418582b1d9506",
+    "to_entity_id": "national_team:fifa:ger",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":9,\"clubAtWorldCup\":\"VfB Stuttgart (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b0890141a9d253238963a2ab:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b0890141a9d253238963a2ab",
+    "to_entity_id": "national_team:fifa:pan",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":10,\"clubAtWorldCup\":\"Club León (MEX)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b0cc23be7ee7c7b44381895c:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b0cc23be7ee7c7b44381895c",
+    "to_entity_id": "national_team:fifa:jor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":7,\"clubAtWorldCup\":\"Raja Casablanca (MAR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b1526858b959e1005dc9c1d8:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b1526858b959e1005dc9c1d8",
+    "to_entity_id": "national_team:fifa:civ",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":22,\"clubAtWorldCup\":\"Crystal Palace FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b17276b2db705fbf4ae558ff:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b17276b2db705fbf4ae558ff",
+    "to_entity_id": "national_team:fifa:ger",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":18,\"clubAtWorldCup\":\"Eintracht Frankfurt (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b1c81721e168427ca1b460da:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b1c81721e168427ca1b460da",
+    "to_entity_id": "national_team:fifa:pan",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":3,\"clubAtWorldCup\":\"Norwich City FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b1d6c0eae7a404c898ac4375:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b1d6c0eae7a404c898ac4375",
+    "to_entity_id": "national_team:fifa:swe",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":19,\"clubAtWorldCup\":\"VfL Wolfsburg (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b245f7c6e202ae292595c645:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b245f7c6e202ae292595c645",
+    "to_entity_id": "national_team:fifa:tur",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":2,\"clubAtWorldCup\":\"AS Roma (ITA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b2a86fc6d9af7230790d09e7:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b2a86fc6d9af7230790d09e7",
+    "to_entity_id": "national_team:fifa:tun",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":21,\"clubAtWorldCup\":\"Espérance De Tunisie (TUN)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b2d511b85cba2fcc78192fc9:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b2d511b85cba2fcc78192fc9",
+    "to_entity_id": "national_team:fifa:jor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":18,\"clubAtWorldCup\":\"Al Hussein SC (JOR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b35fc85132c2cf48e1146fcf:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b35fc85132c2cf48e1146fcf",
+    "to_entity_id": "national_team:fifa:sen",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":15,\"clubAtWorldCup\":\"AS Monaco (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b3c7b79eb8714e76a2abc9c9:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b3c7b79eb8714e76a2abc9c9",
+    "to_entity_id": "national_team:fifa:jor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":23,\"clubAtWorldCup\":\"Al Hussein SC (JOR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b3fad2663e72b481e82764be:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b3fad2663e72b481e82764be",
+    "to_entity_id": "national_team:fifa:jpn",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":14,\"clubAtWorldCup\":\"KRC Genk (BEL)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b414cdcd32a20b469f081a64:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b414cdcd32a20b469f081a64",
+    "to_entity_id": "national_team:fifa:fra",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":19,\"clubAtWorldCup\":\"Al Hilal SC (KSA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b431d4ed31b25a8b04d351f7:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b431d4ed31b25a8b04d351f7",
+    "to_entity_id": "national_team:fifa:bra",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":5,\"clubAtWorldCup\":\"Manchester United FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b4413a4ee3031ed1a91f0174:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b4413a4ee3031ed1a91f0174",
+    "to_entity_id": "national_team:fifa:ksa",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":13,\"clubAtWorldCup\":\"Al Nassr FC (KSA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b49cae6ccd29fe6b09341445:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b49cae6ccd29fe6b09341445",
+    "to_entity_id": "national_team:fifa:cro",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":12,\"clubAtWorldCup\":\"Hull City FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b4c272a4291498384b58a2c8:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b4c272a4291498384b58a2c8",
+    "to_entity_id": "national_team:fifa:eng",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":17,\"clubAtWorldCup\":\"Aston Villa FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b51b4c9a6ce45971a0dbc7a9:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b51b4c9a6ce45971a0dbc7a9",
+    "to_entity_id": "national_team:fifa:tur",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":17,\"clubAtWorldCup\":\"Kasımpaşa SK (TUR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b5361e65d0547105be417e46:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b5361e65d0547105be417e46",
+    "to_entity_id": "national_team:fifa:uzb",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":3,\"clubAtWorldCup\":\"Pakhtakor Tashkent FK (UZB)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b560ce9d8f593a65b89ab687:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b560ce9d8f593a65b89ab687",
+    "to_entity_id": "national_team:fifa:col",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":18,\"clubAtWorldCup\":\"CF Cruz Azul (MEX)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b5741815abfd26d4835d05f6:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b5741815abfd26d4835d05f6",
+    "to_entity_id": "national_team:fifa:ger",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":1,\"clubAtWorldCup\":\"FC Bayern München (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b5fcf44b5e57b12c1f4c1cd9:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b5fcf44b5e57b12c1f4c1cd9",
+    "to_entity_id": "national_team:fifa:cze",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":12,\"clubAtWorldCup\":\"FC Viktoria Plzeň (CZE)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b60b0a722ffd35250f3035e4:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b60b0a722ffd35250f3035e4",
+    "to_entity_id": "national_team:fifa:ksa",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":4,\"clubAtWorldCup\":\"Al Nassr FC (KSA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b6ec4b53f839c75f60630540:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b6ec4b53f839c75f60630540",
+    "to_entity_id": "national_team:fifa:mar",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":13,\"clubAtWorldCup\":\"KRC Genk (BEL)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b70c750e06aed9746e3d24a7:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b70c750e06aed9746e3d24a7",
+    "to_entity_id": "national_team:fifa:esp",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":14,\"clubAtWorldCup\":\"Athletic Club (ESP)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b72b35decdc112b4e05d498b:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b72b35decdc112b4e05d498b",
+    "to_entity_id": "national_team:fifa:aus",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":22,\"clubAtWorldCup\":\"FC St. Pauli (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b778733c59c8c0ab164699e9:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b778733c59c8c0ab164699e9",
+    "to_entity_id": "national_team:fifa:jor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":10,\"clubAtWorldCup\":\"Stade Rennais FC (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b780f0b2cbb3a8f9aa2cbf43:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b780f0b2cbb3a8f9aa2cbf43",
+    "to_entity_id": "national_team:fifa:irn",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":16,\"clubAtWorldCup\":\"Tractor Sazi Tabriz FC (IRN)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b793bb1d848dfa266604e520:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b793bb1d848dfa266604e520",
+    "to_entity_id": "national_team:fifa:eng",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":14,\"clubAtWorldCup\":\"Brentford FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b7e618a340eca01a810644f9:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b7e618a340eca01a810644f9",
+    "to_entity_id": "national_team:fifa:jpn",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":7,\"clubAtWorldCup\":\"Leeds United FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b7fa5f2de81706d1888d407c:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b7fa5f2de81706d1888d407c",
+    "to_entity_id": "national_team:fifa:swe",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":23,\"clubAtWorldCup\":\"AIK Stockholm (SWE)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b82c77e09075180a166aaccc:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b82c77e09075180a166aaccc",
+    "to_entity_id": "national_team:fifa:aus",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":9,\"clubAtWorldCup\":\"Norwich City FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b8353350208cea8a0d93a1e6:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b8353350208cea8a0d93a1e6",
+    "to_entity_id": "national_team:fifa:alg",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":11,\"clubAtWorldCup\":\"Feyenoord Rotterdam (NED)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b8c3a274e6f2077b43f1bb56:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b8c3a274e6f2077b43f1bb56",
+    "to_entity_id": "national_team:fifa:arg",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":15,\"clubAtWorldCup\":\"Atlético De Madrid (ESP)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b8cf9d24dbb92cb37e60bbfd:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b8cf9d24dbb92cb37e60bbfd",
+    "to_entity_id": "national_team:fifa:nor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":2,\"clubAtWorldCup\":\"US Cremonese (ITA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b8d61f1eb4b4d624c4914808:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b8d61f1eb4b4d624c4914808",
+    "to_entity_id": "national_team:fifa:ned",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":3,\"clubAtWorldCup\":\"Atalanta Bergamo (ITA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b8d6290da602951a9f3007e1:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b8d6290da602951a9f3007e1",
+    "to_entity_id": "national_team:fifa:swe",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":4,\"clubAtWorldCup\":\"Atalanta Bergamo (ITA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b8f3c907077ede37b27dff96:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b8f3c907077ede37b27dff96",
+    "to_entity_id": "national_team:fifa:hai",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":6,\"clubAtWorldCup\":\"El Paso Locomotive FC (USA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b92c3a9a9d9324e3a15b78f3:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b92c3a9a9d9324e3a15b78f3",
+    "to_entity_id": "national_team:fifa:sco",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":10,\"clubAtWorldCup\":\"Torino FC (ITA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b96b899bf5f4a8f31af318f8:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b96b899bf5f4a8f31af318f8",
+    "to_entity_id": "national_team:fifa:irq",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":9,\"clubAtWorldCup\":\"Luton Town FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b9735e80ecdb07ac4b2bd766:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b9735e80ecdb07ac4b2bd766",
+    "to_entity_id": "national_team:fifa:rsa",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":25,\"clubAtWorldCup\":\"Orlando Pirates FC (RSA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b9a2b62c4db66d844d47a793:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b9a2b62c4db66d844d47a793",
+    "to_entity_id": "national_team:fifa:arg",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":1,\"clubAtWorldCup\":\"Atlético De Madrid (ESP)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b9ca3c232b1dfe665112a8a4:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b9ca3c232b1dfe665112a8a4",
+    "to_entity_id": "national_team:fifa:ned",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":24,\"clubAtWorldCup\":\"West Ham United FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b9cee83e773afc9bfe5d6ad7:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b9cee83e773afc9bfe5d6ad7",
+    "to_entity_id": "national_team:fifa:cod",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":6,\"clubAtWorldCup\":\"Lille OSC (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:b9e639f725442094eac4a2b5:wc2026-squad",
+    "from_entity_id": "player:fifa2026:b9e639f725442094eac4a2b5",
+    "to_entity_id": "national_team:fifa:alg",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":21,\"clubAtWorldCup\":\"Borussia Dortmund (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:baad2b817dcd9d1339f84c9c:wc2026-squad",
+    "from_entity_id": "player:fifa2026:baad2b817dcd9d1339f84c9c",
+    "to_entity_id": "national_team:fifa:jpn",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":9,\"clubAtWorldCup\":\"Sint-Truiden VV (BEL)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:bae14b74e9f9da5aa5d9e669:wc2026-squad",
+    "from_entity_id": "player:fifa2026:bae14b74e9f9da5aa5d9e669",
+    "to_entity_id": "national_team:fifa:rsa",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":20,\"clubAtWorldCup\":\"Mamelodi Sundowns FC (RSA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:bae78c203fb0e9197d1efae7:wc2026-squad",
+    "from_entity_id": "player:fifa2026:bae78c203fb0e9197d1efae7",
+    "to_entity_id": "national_team:fifa:gha",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":12,\"clubAtWorldCup\":\"St Patrick's Athletic FC (IRL)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:bb58c350d2ce27b9ef3ec019:wc2026-squad",
+    "from_entity_id": "player:fifa2026:bb58c350d2ce27b9ef3ec019",
+    "to_entity_id": "national_team:fifa:hai",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":12,\"clubAtWorldCup\":\"FC Sochaux-Montbéliard (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:bbcb270fff0ae5a603ed6150:wc2026-squad",
+    "from_entity_id": "player:fifa2026:bbcb270fff0ae5a603ed6150",
+    "to_entity_id": "national_team:fifa:tur",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":11,\"clubAtWorldCup\":\"Juventus FC (ITA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:bbf30a471a0f2dc4525cc26a:wc2026-squad",
+    "from_entity_id": "player:fifa2026:bbf30a471a0f2dc4525cc26a",
+    "to_entity_id": "national_team:fifa:arg",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":11,\"clubAtWorldCup\":\"Real Betis (ESP)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:bc0b219a898c6843d7287e00:wc2026-squad",
+    "from_entity_id": "player:fifa2026:bc0b219a898c6843d7287e00",
+    "to_entity_id": "national_team:fifa:alg",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":10,\"clubAtWorldCup\":\"Eintracht Frankfurt (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:bc8531f18b2258052913f3ff:wc2026-squad",
+    "from_entity_id": "player:fifa2026:bc8531f18b2258052913f3ff",
+    "to_entity_id": "national_team:fifa:jor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":12,\"clubAtWorldCup\":\"Al Faisaly SC (JOR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:bc890f2e4e191aeb7ce1553e:wc2026-squad",
+    "from_entity_id": "player:fifa2026:bc890f2e4e191aeb7ce1553e",
+    "to_entity_id": "national_team:fifa:por",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":19,\"clubAtWorldCup\":\"Real Sociedad (ESP)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:bcbbe3907e7c6080ecaa1f01:wc2026-squad",
+    "from_entity_id": "player:fifa2026:bcbbe3907e7c6080ecaa1f01",
+    "to_entity_id": "national_team:fifa:arg",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":18,\"clubAtWorldCup\":\"Como (ITA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:bd53ef6bd54f0eb4c27d4588:wc2026-squad",
+    "from_entity_id": "player:fifa2026:bd53ef6bd54f0eb4c27d4588",
+    "to_entity_id": "national_team:fifa:tur",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":15,\"clubAtWorldCup\":\"TSG Hoffenheim (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:bd8dff68f78d39d2b0322fb2:wc2026-squad",
+    "from_entity_id": "player:fifa2026:bd8dff68f78d39d2b0322fb2",
+    "to_entity_id": "national_team:fifa:ger",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":3,\"clubAtWorldCup\":\"Borussia Dortmund (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:be41427f0e875dec7ebf9116:wc2026-squad",
+    "from_entity_id": "player:fifa2026:be41427f0e875dec7ebf9116",
+    "to_entity_id": "national_team:fifa:par",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":21,\"clubAtWorldCup\":\"CA Independiente (ARG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:be4eed5751b6c78c00706b32:wc2026-squad",
+    "from_entity_id": "player:fifa2026:be4eed5751b6c78c00706b32",
+    "to_entity_id": "national_team:fifa:por",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":23,\"clubAtWorldCup\":\"Paris Saint-Germain (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:be6cc0b3cdbf02c55c6421de:wc2026-squad",
+    "from_entity_id": "player:fifa2026:be6cc0b3cdbf02c55c6421de",
+    "to_entity_id": "national_team:fifa:rsa",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":24,\"clubAtWorldCup\":\"Philadelphia Union (USA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:beed9121704017cb1c2042ab:wc2026-squad",
+    "from_entity_id": "player:fifa2026:beed9121704017cb1c2042ab",
+    "to_entity_id": "national_team:fifa:pan",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":15,\"clubAtWorldCup\":\"CD Plaza Amador (PAN)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:befcefcc8f34f4b6b604ebe6:wc2026-squad",
+    "from_entity_id": "player:fifa2026:befcefcc8f34f4b6b604ebe6",
+    "to_entity_id": "national_team:fifa:alg",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":16,\"clubAtWorldCup\":\"USM Alger (ALG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:bf06c91e253e92e5cbd60209:wc2026-squad",
+    "from_entity_id": "player:fifa2026:bf06c91e253e92e5cbd60209",
+    "to_entity_id": "national_team:fifa:jor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":4,\"clubAtWorldCup\":\"Al Faisaly SC (JOR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:bf45fe5953dda7dca7547771:wc2026-squad",
+    "from_entity_id": "player:fifa2026:bf45fe5953dda7dca7547771",
+    "to_entity_id": "national_team:fifa:nzl",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":13,\"clubAtWorldCup\":\"Wrexham AFC (WAL)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c004f117848f81c3fe1db60b:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c004f117848f81c3fe1db60b",
+    "to_entity_id": "national_team:fifa:fra",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":18,\"clubAtWorldCup\":\"Paris Saint-Germain (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c035531ab7f4b973837fff96:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c035531ab7f4b973837fff96",
+    "to_entity_id": "national_team:fifa:tur",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":21,\"clubAtWorldCup\":\"Galatasaray SK (TUR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c06057601b0fff04416dc7b9:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c06057601b0fff04416dc7b9",
+    "to_entity_id": "national_team:fifa:aus",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":20,\"clubAtWorldCup\":\"US Sassuolo (ITA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c0946357c2ef660b2fc61536:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c0946357c2ef660b2fc61536",
+    "to_entity_id": "national_team:fifa:eng",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":8,\"clubAtWorldCup\":\"Nottingham Forest FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c115ac0d20bae17c86ccc335:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c115ac0d20bae17c86ccc335",
+    "to_entity_id": "national_team:fifa:bih",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":1,\"clubAtWorldCup\":\"FC St. Pauli (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c13fd6a8ed2c57d42e41e0c1:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c13fd6a8ed2c57d42e41e0c1",
+    "to_entity_id": "national_team:fifa:cze",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":6,\"clubAtWorldCup\":\"SK Slavia Praha (CZE)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c17aff74f206cb46b99d2e9a:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c17aff74f206cb46b99d2e9a",
+    "to_entity_id": "national_team:fifa:bih",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":19,\"clubAtWorldCup\":\"FC Red Bull Salzburg (AUT)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c18035f7106a1b5b10c944a8:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c18035f7106a1b5b10c944a8",
+    "to_entity_id": "national_team:fifa:eng",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":12,\"clubAtWorldCup\":\"Chelsea FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c19ef01a7c4b5cbfb7d0a6f0:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c19ef01a7c4b5cbfb7d0a6f0",
+    "to_entity_id": "national_team:fifa:can",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":19,\"clubAtWorldCup\":\"FC Bayern München (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c21458683ab605a4cad2e9c4:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c21458683ab605a4cad2e9c4",
+    "to_entity_id": "national_team:fifa:jpn",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":22,\"clubAtWorldCup\":\"AFC Ajax (NED)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c27118cdc219224863af7ba7:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c27118cdc219224863af7ba7",
+    "to_entity_id": "national_team:fifa:cpv",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":18,\"clubAtWorldCup\":\"Vitória SC (POR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c2b2ed79164780e12b30a3dd:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c2b2ed79164780e12b30a3dd",
+    "to_entity_id": "national_team:fifa:jor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":26,\"clubAtWorldCup\":\"Al Faisaly SC (JOR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c32cc3edbbb1d5b1c2901235:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c32cc3edbbb1d5b1c2901235",
+    "to_entity_id": "national_team:fifa:ned",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":23,\"clubAtWorldCup\":\"Bayer 04 Leverkusen (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c348752d0ab28615fcb81b32:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c348752d0ab28615fcb81b32",
+    "to_entity_id": "national_team:fifa:eng",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":9,\"clubAtWorldCup\":\"FC Bayern München (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c3bd5da88833a1dc6aef583c:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c3bd5da88833a1dc6aef583c",
+    "to_entity_id": "national_team:fifa:uru",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":18,\"clubAtWorldCup\":\"Club América (MEX)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c3d2c05c76c650f59c7cf7d6:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c3d2c05c76c650f59c7cf7d6",
+    "to_entity_id": "national_team:fifa:irq",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":10,\"clubAtWorldCup\":\"Dibba FC (UAE)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c3e39d2585ef46c514d544b2:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c3e39d2585ef46c514d544b2",
+    "to_entity_id": "national_team:fifa:alg",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":15,\"clubAtWorldCup\":\"Manchester City FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c3fe0ff5d7c7b03b50c0d420:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c3fe0ff5d7c7b03b50c0d420",
+    "to_entity_id": "national_team:fifa:jpn",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":21,\"clubAtWorldCup\":\"FC Bayern München (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c425eb4ebfecd8fabf7a89ba:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c425eb4ebfecd8fabf7a89ba",
+    "to_entity_id": "national_team:fifa:ecu",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":8,\"clubAtWorldCup\":\"Royal Antwerp FC (BEL)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c478b01bc46d92acdf6b0c6c:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c478b01bc46d92acdf6b0c6c",
+    "to_entity_id": "national_team:fifa:mex",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":9,\"clubAtWorldCup\":\"Fulham FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c4879bd89d7fc30699c2da72:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c4879bd89d7fc30699c2da72",
+    "to_entity_id": "national_team:fifa:arg",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":13,\"clubAtWorldCup\":\"Tottenham Hotspur FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c4d4f8dbff25f16e0699db61:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c4d4f8dbff25f16e0699db61",
+    "to_entity_id": "national_team:fifa:jpn",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":6,\"clubAtWorldCup\":\"Borussia Mönchengladbach (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c507d821366dbed2ff421dea:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c507d821366dbed2ff421dea",
+    "to_entity_id": "national_team:fifa:rsa",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":1,\"clubAtWorldCup\":\"Mamelodi Sundowns FC (RSA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c515f5ae167ea202a9695b67:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c515f5ae167ea202a9695b67",
+    "to_entity_id": "national_team:fifa:kor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":8,\"clubAtWorldCup\":\"Birmingham City FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c52948d04e9ff0fb0f48deb6:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c52948d04e9ff0fb0f48deb6",
+    "to_entity_id": "national_team:fifa:ecu",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":4,\"clubAtWorldCup\":\"Club Brugge (BEL)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c52f17a8ca021812f3709244:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c52f17a8ca021812f3709244",
+    "to_entity_id": "national_team:fifa:ksa",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":24,\"clubAtWorldCup\":\"Al Hilal SC (KSA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c54c93237873cf32015e1d07:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c54c93237873cf32015e1d07",
+    "to_entity_id": "national_team:fifa:ecu",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":16,\"clubAtWorldCup\":\"CA Huracán (ARG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c56a3ed5e87fea6cfbf5719f:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c56a3ed5e87fea6cfbf5719f",
+    "to_entity_id": "national_team:fifa:civ",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":18,\"clubAtWorldCup\":\"Nottingham Forest FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c577ac6f469e3802be75231c:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c577ac6f469e3802be75231c",
+    "to_entity_id": "national_team:fifa:ger",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":13,\"clubAtWorldCup\":\"Brighton & Hove Albion FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c592d672a680368fc5fbfa5a:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c592d672a680368fc5fbfa5a",
+    "to_entity_id": "national_team:fifa:cpv",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":6,\"clubAtWorldCup\":\"FC Krasnodar (RUS)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c601caf8e9e981fff4da6cc8:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c601caf8e9e981fff4da6cc8",
+    "to_entity_id": "national_team:fifa:qat",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":5,\"clubAtWorldCup\":\"Al Rayyan SC (QAT)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c66bf749c552787b3f2d5346:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c66bf749c552787b3f2d5346",
+    "to_entity_id": "national_team:fifa:tur",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":16,\"clubAtWorldCup\":\"Fenerbahçe SK (TUR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c67a20789dece0ea3cb0cd7e:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c67a20789dece0ea3cb0cd7e",
+    "to_entity_id": "national_team:fifa:cuw",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":17,\"clubAtWorldCup\":\"FC Volendam (NED)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c68794adb171c4186b35bbc7:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c68794adb171c4186b35bbc7",
+    "to_entity_id": "national_team:fifa:irq",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":19,\"clubAtWorldCup\":\"Aarhus GF (DEN)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c6900335115bd8c9bd9d4178:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c6900335115bd8c9bd9d4178",
+    "to_entity_id": "national_team:fifa:ksa",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":11,\"clubAtWorldCup\":\"Al Ittihad (KSA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c6923cd5f009de0dfc665f92:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c6923cd5f009de0dfc665f92",
+    "to_entity_id": "national_team:fifa:sen",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":6,\"clubAtWorldCup\":\"Rayo Vallecano (ESP)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c6a2b16623b3bcd5607be0bd:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c6a2b16623b3bcd5607be0bd",
+    "to_entity_id": "national_team:fifa:egy",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":23,\"clubAtWorldCup\":\"Al Ahly FC (EGY)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c6d9becb4e845271e9f5339b:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c6d9becb4e845271e9f5339b",
+    "to_entity_id": "national_team:fifa:usa",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":21,\"clubAtWorldCup\":\"Olympique Marseille (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c6ee8ae008d6ff1441e2c656:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c6ee8ae008d6ff1441e2c656",
+    "to_entity_id": "national_team:fifa:ger",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":14,\"clubAtWorldCup\":\"Borussia Dortmund (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c7af23afc676099c1fc75ddb:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c7af23afc676099c1fc75ddb",
+    "to_entity_id": "national_team:fifa:aus",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":7,\"clubAtWorldCup\":\"Melbourne City FC (AUS)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c8115de0ecc757668c70e03d:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c8115de0ecc757668c70e03d",
+    "to_entity_id": "national_team:fifa:ecu",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":20,\"clubAtWorldCup\":\"Sunderland AFC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c8210f26a9609f558ea72cfc:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c8210f26a9609f558ea72cfc",
+    "to_entity_id": "national_team:fifa:col",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":6,\"clubAtWorldCup\":\"SL Benfica (POR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c850c2c79792f1a0b674d98a:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c850c2c79792f1a0b674d98a",
+    "to_entity_id": "national_team:fifa:sui",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":24,\"clubAtWorldCup\":\"Eintracht Frankfurt (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c88109c33e0673e13dc429fc:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c88109c33e0673e13dc429fc",
+    "to_entity_id": "national_team:fifa:cpv",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":7,\"clubAtWorldCup\":\"CF Estrela Da Amadora (POR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c88b51a990412d3adffcd126:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c88b51a990412d3adffcd126",
+    "to_entity_id": "national_team:fifa:sen",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":19,\"clubAtWorldCup\":\"Olympique Lyonnais (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c8af97fd8e4bd63c84f6c0dd:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c8af97fd8e4bd63c84f6c0dd",
+    "to_entity_id": "national_team:fifa:eng",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":23,\"clubAtWorldCup\":\"Manchester City FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c8b1158329a040cf7638dd91:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c8b1158329a040cf7638dd91",
+    "to_entity_id": "national_team:fifa:jpn",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":17,\"clubAtWorldCup\":\"SC Freiburg (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c90009a31dc5b51874320de5:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c90009a31dc5b51874320de5",
+    "to_entity_id": "national_team:fifa:jpn",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":25,\"clubAtWorldCup\":\"FC København (DEN)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c9648a4ffeb66ea06687a9d2:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c9648a4ffeb66ea06687a9d2",
+    "to_entity_id": "national_team:fifa:egy",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":26,\"clubAtWorldCup\":\"El Gouna FC (EGY)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c9902d23c4a7baf122ea63fe:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c9902d23c4a7baf122ea63fe",
+    "to_entity_id": "national_team:fifa:gha",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":26,\"clubAtWorldCup\":\"AJ Auxerre (FRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c99ea4d00daa1e9ecd42d187:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c99ea4d00daa1e9ecd42d187",
+    "to_entity_id": "national_team:fifa:uru",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":23,\"clubAtWorldCup\":\"Estudiantes LP (ARG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:c9b4d3922d4cfbc8b0605776:wc2026-squad",
+    "from_entity_id": "player:fifa2026:c9b4d3922d4cfbc8b0605776",
+    "to_entity_id": "national_team:fifa:uru",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":7,\"clubAtWorldCup\":\"CR Flamengo (BRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ca11f1d99b3a6d7e222ff0e1:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ca11f1d99b3a6d7e222ff0e1",
+    "to_entity_id": "national_team:fifa:sui",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":19,\"clubAtWorldCup\":\"Leeds United FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ca59581e6a2ad4e8490ff53a:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ca59581e6a2ad4e8490ff53a",
+    "to_entity_id": "national_team:fifa:ger",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":15,\"clubAtWorldCup\":\"Borussia Dortmund (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ca7e4edae6e6269e2957e928:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ca7e4edae6e6269e2957e928",
+    "to_entity_id": "national_team:fifa:sen",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":2,\"clubAtWorldCup\":\"Chelsea FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ca987707cc4f460bee4be13e:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ca987707cc4f460bee4be13e",
+    "to_entity_id": "national_team:fifa:qat",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":7,\"clubAtWorldCup\":\"Al Rayyan SC (QAT)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:cafe11794dc1a5773bee96c9:wc2026-squad",
+    "from_entity_id": "player:fifa2026:cafe11794dc1a5773bee96c9",
+    "to_entity_id": "national_team:fifa:jor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":13,\"clubAtWorldCup\":\"Al Hussein SC (JOR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:cb02570df97a63230c5c7e53:wc2026-squad",
+    "from_entity_id": "player:fifa2026:cb02570df97a63230c5c7e53",
+    "to_entity_id": "national_team:fifa:mar",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":5,\"clubAtWorldCup\":\"Al Fateh SC (KSA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:cbd2ac98ae00b19e0359bf7f:wc2026-squad",
+    "from_entity_id": "player:fifa2026:cbd2ac98ae00b19e0359bf7f",
+    "to_entity_id": "national_team:fifa:sco",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":23,\"clubAtWorldCup\":\"Norwich City FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:cc0796ce4eca72782ca62a4d:wc2026-squad",
+    "from_entity_id": "player:fifa2026:cc0796ce4eca72782ca62a4d",
+    "to_entity_id": "national_team:fifa:irn",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":9,\"clubAtWorldCup\":\"Olympiacos FC (GRE)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:cc8868998bdf8637864907a4:wc2026-squad",
+    "from_entity_id": "player:fifa2026:cc8868998bdf8637864907a4",
+    "to_entity_id": "national_team:fifa:usa",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":4,\"clubAtWorldCup\":\"AFC Bournemouth (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ccbed443e5791bd976a8451f:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ccbed443e5791bd976a8451f",
+    "to_entity_id": "national_team:fifa:rsa",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":12,\"clubAtWorldCup\":\"AEL Limassol (CYP)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:cd11826f0d8937a66e9e15a7:wc2026-squad",
+    "from_entity_id": "player:fifa2026:cd11826f0d8937a66e9e15a7",
+    "to_entity_id": "national_team:fifa:kor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":10,\"clubAtWorldCup\":\"1. FSV Mainz 05 (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:cd29003ad5995ce832f70fad:wc2026-squad",
+    "from_entity_id": "player:fifa2026:cd29003ad5995ce832f70fad",
+    "to_entity_id": "national_team:fifa:arg",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":4,\"clubAtWorldCup\":\"CA River Plate (ARG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:cd322b46f8a2aad125f3f796:wc2026-squad",
+    "from_entity_id": "player:fifa2026:cd322b46f8a2aad125f3f796",
+    "to_entity_id": "national_team:fifa:aut",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":16,\"clubAtWorldCup\":\"1. FSV Mainz 05 (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:cd3e3b0a68c606ff5cd24005:wc2026-squad",
+    "from_entity_id": "player:fifa2026:cd3e3b0a68c606ff5cd24005",
+    "to_entity_id": "national_team:fifa:mar",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":14,\"clubAtWorldCup\":\"Fulham FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:cd706b42665c68a157ba54eb:wc2026-squad",
+    "from_entity_id": "player:fifa2026:cd706b42665c68a157ba54eb",
+    "to_entity_id": "national_team:fifa:cpv",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":11,\"clubAtWorldCup\":\"Apollon Limassol (CYP)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:cd82dcf413b64874e1ab6f26:wc2026-squad",
+    "from_entity_id": "player:fifa2026:cd82dcf413b64874e1ab6f26",
+    "to_entity_id": "national_team:fifa:por",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":12,\"clubAtWorldCup\":\"Wolverhampton Wanderers FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:cd9fd949505ed717b3164b6e:wc2026-squad",
+    "from_entity_id": "player:fifa2026:cd9fd949505ed717b3164b6e",
+    "to_entity_id": "national_team:fifa:aus",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":8,\"clubAtWorldCup\":\"FC St. Pauli (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:cdc09d0991c72c49c9eff260:wc2026-squad",
+    "from_entity_id": "player:fifa2026:cdc09d0991c72c49c9eff260",
+    "to_entity_id": "national_team:fifa:irn",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":21,\"clubAtWorldCup\":\"Al Wahda SC (UAE)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:cdc14f909d9c9463790985ec:wc2026-squad",
+    "from_entity_id": "player:fifa2026:cdc14f909d9c9463790985ec",
+    "to_entity_id": "national_team:fifa:ecu",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":21,\"clubAtWorldCup\":\"Atlético Mineiro (BRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ce0961b0dd6ddc61ebbf6bba:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ce0961b0dd6ddc61ebbf6bba",
+    "to_entity_id": "national_team:fifa:par",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":25,\"clubAtWorldCup\":\"Red Bull Bragantino (BRA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ce493e66afa622d0d4448382:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ce493e66afa622d0d4448382",
+    "to_entity_id": "national_team:fifa:tun",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":17,\"clubAtWorldCup\":\"Eintracht Frankfurt (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ce6e10292c056a8d1b9d41f8:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ce6e10292c056a8d1b9d41f8",
+    "to_entity_id": "national_team:fifa:uru",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":6,\"clubAtWorldCup\":\"Tottenham Hotspur FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ce80818064d5356641ba7a2b:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ce80818064d5356641ba7a2b",
+    "to_entity_id": "national_team:fifa:gha",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":22,\"clubAtWorldCup\":\"Atalanta Bergamo (ITA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ce8c4e5fa688452feb261929:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ce8c4e5fa688452feb261929",
+    "to_entity_id": "national_team:fifa:can",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":4,\"clubAtWorldCup\":\"FCV Dender EH (BEL)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ce99220469c6b8e647191a28:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ce99220469c6b8e647191a28",
+    "to_entity_id": "national_team:fifa:bih",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":23,\"clubAtWorldCup\":\"Borussia Mönchengladbach (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ce9edd45c9f02b24d4a4a7f0:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ce9edd45c9f02b24d4a4a7f0",
+    "to_entity_id": "national_team:fifa:cod",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":18,\"clubAtWorldCup\":\"RCD Espanyol (ESP)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:cea722ffaec9360670d49253:wc2026-squad",
+    "from_entity_id": "player:fifa2026:cea722ffaec9360670d49253",
+    "to_entity_id": "national_team:fifa:fra",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":4,\"clubAtWorldCup\":\"FC Bayern München (GER)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ceaaa9234a2dcd1835837c15:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ceaaa9234a2dcd1835837c15",
+    "to_entity_id": "national_team:fifa:eng",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":3,\"clubAtWorldCup\":\"Manchester City FC (ENG)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:ced638b2672f3b53591eb20c:wc2026-squad",
+    "from_entity_id": "player:fifa2026:ced638b2672f3b53591eb20c",
+    "to_entity_id": "national_team:fifa:cro",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":17,\"clubAtWorldCup\":\"FC Internazionale Milano (ITA)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  },
+  {
+    "id": "player:fifa2026:cef5d6eaef899912951b3c74:wc2026-squad",
+    "from_entity_id": "player:fifa2026:cef5d6eaef899912951b3c74",
+    "to_entity_id": "national_team:fifa:kor",
+    "relation_type": "selected_for",
+    "starts_at": "2026-06-11",
+    "ends_at": "2026-07-19",
+    "metadata": "{\"periodType\":\"tournament\",\"shirtNumber\":18,\"clubAtWorldCup\":\"Beşiktaş JK (TUR)\",\"verification\":\"pending\"}",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf"
+  }
+]

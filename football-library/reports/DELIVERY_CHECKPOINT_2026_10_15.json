@@ -1,0 +1,57 @@
+{
+  "referenceDate": "2026-10-15",
+  "releaseReady": false,
+  "media": {
+    "files": 922,
+    "bundleParts": 49,
+    "originalBytes": 394722831,
+    "formats": {
+      "PNG": 106,
+      "WEBP": 642,
+      "JPEG": 174
+    },
+    "allChecksumsMatch": true,
+    "allImageFilesDecode": true,
+    "approvedForQuestions": 0,
+    "scope": "collected club/context candidates; national portraits and full coverage still missing",
+    "freshPhpInstallation": {
+      "verified": 922,
+      "extracted": 922,
+      "existingBeforeInstallation": 0,
+      "postInstallVerificationPassed": true
+    }
+  },
+  "sqlite": {
+    "path": "data/catalog.sqlite",
+    "scope": "FIFA World Cup snapshot only",
+    "integrity": "ok",
+    "foreignKeyViolations": 0,
+    "tables": {
+      "football_entities": 1345,
+      "football_relations": 1248,
+      "visual_assets": 48,
+      "football_import_batches": 0,
+      "football_participant_snapshots": 1,
+      "football_squad_snapshots": 48,
+      "football_context_media": 48,
+      "football_fact_records": 2496
+    },
+    "jsonExportCountsMatch": true,
+    "containsGameAccounts": false
+  },
+  "tests": {
+    "pythonPassed": 33,
+    "pythonSkipped": 0,
+    "nodeTargetedPassed": 4,
+    "mysqlIntegration": "actual isolated MariaDB import, repeat, tamper rejection, foreign-key rollback passed"
+  },
+  "remaining": [
+    "Complete all eleven competitions and first-team registrations",
+    "Resolve cross-source identities and conflicts before canonical merge",
+    "Complete player and coach biographies, historical transfers, statistics and honors",
+    "Acquire remaining correct contextual club/national portraits, coach photos and emblems",
+    "Review Arabic names, image identity, kit, time period and reuse rights",
+    "Finish PHP viewer and integration of all candidate club data",
+    "Final complete-library acceptance and ZIP not yet satisfied"
+  ]
+}

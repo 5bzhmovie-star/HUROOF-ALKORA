@@ -1,13 +1,16 @@
 """Collect the official men's profile snapshot, retaining loan status.
 Downloaded photos are internal candidates until identity, jersey/date and rights
-are reviewed. They are deliberately excluded from public git commits.
+are reviewed. Review status remains explicit when assets are included in git.
 """
 from html.parser import HTMLParser
 from pathlib import Path
 from PIL import Image
-import concurrent.futures,hashlib,json,urllib.request,urllib.parse,io
+import concurrent.futures,hashlib,json,urllib.request,urllib.parse,io,re
 BASE=Path(__file__).resolve().parents[1]
 SOURCE='https://www.chelseafc.com/en/teams/mens-profiles'
+def media_folder(identifier):
+ if not isinstance(identifier,str) or not re.fullmatch(r'chelsea:[A-Za-z0-9_-]{1,80}',identifier):raise ValueError('Invalid source media identity')
+ return BASE/'assets/pending_media/chelsea'/identifier.split(':',1)[1]
 class ProfileParser(HTMLParser):
  def __init__(self):super().__init__();self.players=[]
  def handle_starttag(self,tag,attrs):
@@ -21,7 +24,7 @@ class ProfileParser(HTMLParser):
 def acquire(player):
  url=player['playerImage']['file']['url'].replace('http:','https:').replace('/image/upload/','/image/upload/f_webp,w_768,c_limit/')
  if urllib.parse.urlsplit(url).hostname!='img.chelseafc.com':raise ValueError('Unexpected media domain')
- identifier='chelsea:'+player['playerId'];folder=BASE/'assets/pending_media'/identifier;folder.mkdir(parents=True,exist_ok=True)
+ identifier='chelsea:'+player['playerId'];folder=media_folder(identifier);folder.mkdir(parents=True,exist_ok=True)
  target=folder/'portrait.webp'
  if target.exists():data=target.read_bytes()
  else:

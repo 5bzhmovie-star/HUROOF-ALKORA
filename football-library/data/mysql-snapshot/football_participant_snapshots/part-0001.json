@@ -1,0 +1,10 @@
+[
+  {
+    "competition_id": "competition:fifa-world-cup",
+    "season": "2026",
+    "team_ids": "[\"national_team:fifa:alg\",\"national_team:fifa:arg\",\"national_team:fifa:aus\",\"national_team:fifa:aut\",\"national_team:fifa:bel\",\"national_team:fifa:bih\",\"national_team:fifa:bra\",\"national_team:fifa:cpv\",\"national_team:fifa:can\",\"national_team:fifa:col\",\"national_team:fifa:cod\",\"national_team:fifa:civ\",\"national_team:fifa:cro\",\"national_team:fifa:cuw\",\"national_team:fifa:cze\",\"national_team:fifa:ecu\",\"national_team:fifa:egy\",\"national_team:fifa:eng\",\"national_team:fifa:fra\",\"national_team:fifa:ger\",\"national_team:fifa:gha\",\"national_team:fifa:hai\",\"national_team:fifa:irn\",\"national_team:fifa:irq\",\"national_team:fifa:jpn\",\"national_team:fifa:jor\",\"national_team:fifa:kor\",\"national_team:fifa:mex\",\"national_team:fifa:mar\",\"national_team:fifa:ned\",\"national_team:fifa:nzl\",\"national_team:fifa:nor\",\"national_team:fifa:pan\",\"national_team:fifa:par\",\"national_team:fifa:por\",\"national_team:fifa:qat\",\"national_team:fifa:ksa\",\"national_team:fifa:sco\",\"national_team:fifa:sen\",\"national_team:fifa:rsa\",\"national_team:fifa:esp\",\"national_team:fifa:swe\",\"national_team:fifa:sui\",\"national_team:fifa:tun\",\"national_team:fifa:tur\",\"national_team:fifa:uru\",\"national_team:fifa:usa\",\"national_team:fifa:uzb\"]",
+    "source": "https://fdp.fifa.org/assetspublic/ce281/pdf/SquadLists-English.pdf",
+    "verified_at": "2026-10-11",
+    "status": "reviewed"
+  }
+]

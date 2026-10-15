@@ -1,0 +1,707 @@
+{
+  "formatVersion": 1,
+  "releaseReady": false,
+  "status": "internal-working-snapshot",
+  "tables": {
+    "football_entities": {
+      "rows": 1345,
+      "columns": [
+        {
+          "cid": 0,
+          "name": "id",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "entity_type",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 2,
+          "name": "name_ar",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 3,
+          "name": "name_en",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 4,
+          "name": "image_key",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 5,
+          "name": "image_source",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 6,
+          "name": "image_license",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 7,
+          "name": "fallback",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 8,
+          "name": "metadata",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": "'{}'",
+          "pk": 0
+        },
+        {
+          "cid": 9,
+          "name": "updated_at",
+          "type": "INTEGER",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        }
+      ],
+      "parts": [
+        {
+          "path": "football_entities/part-0001.json",
+          "rows": 250,
+          "sha256": "b14074bc6687dd72b7c4cbb7a9006cb1199063b5cd821fa7c80cda98182ce72e"
+        },
+        {
+          "path": "football_entities/part-0002.json",
+          "rows": 250,
+          "sha256": "231ab45999019a0df11f31ba7e58f18716dd38b02ad536ff14a42d89788d2b79"
+        },
+        {
+          "path": "football_entities/part-0003.json",
+          "rows": 250,
+          "sha256": "390ab9639bdb453e98084f5cc3f5c1fdc764227987654177aa5c26ee6f48b754"
+        },
+        {
+          "path": "football_entities/part-0004.json",
+          "rows": 250,
+          "sha256": "c7a5a18990fe714ae699d13b9212b7f7ab065d69cc37b6980e10c09433db3f35"
+        },
+        {
+          "path": "football_entities/part-0005.json",
+          "rows": 250,
+          "sha256": "81d7011b6cc18a6a2aac2646dd39e9b22f3b8891a5d0d7184958942520c32be8"
+        },
+        {
+          "path": "football_entities/part-0006.json",
+          "rows": 95,
+          "sha256": "bbff54a8925c3f76efa85feee1b1c002e9e7a8e1e899ed6a79dec32c4bed2745"
+        }
+      ]
+    },
+    "football_relations": {
+      "rows": 1248,
+      "columns": [
+        {
+          "cid": 0,
+          "name": "id",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "from_entity_id",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 2,
+          "name": "to_entity_id",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 3,
+          "name": "relation_type",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 4,
+          "name": "starts_at",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 5,
+          "name": "ends_at",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 6,
+          "name": "metadata",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": "'{}'",
+          "pk": 0
+        },
+        {
+          "cid": 7,
+          "name": "source",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        }
+      ],
+      "parts": [
+        {
+          "path": "football_relations/part-0001.json",
+          "rows": 250,
+          "sha256": "9306e6b2b2bbd3147c723bdbf890dc71424a20dd1730739b205fa69d5c6994f3"
+        },
+        {
+          "path": "football_relations/part-0002.json",
+          "rows": 250,
+          "sha256": "32eb3b4bbb270edc3f1a4026327474e24b8a069a37be8b95e281657a10238fb4"
+        },
+        {
+          "path": "football_relations/part-0003.json",
+          "rows": 250,
+          "sha256": "4354de40e6d095b7fd8565e0117991a32461fdedf32c48a0f0188c378f01b14e"
+        },
+        {
+          "path": "football_relations/part-0004.json",
+          "rows": 250,
+          "sha256": "c3b62dde1c6c19b252910fb9f325c74bd33b5750546a1a03ee4170b7669b4e3c"
+        },
+        {
+          "path": "football_relations/part-0005.json",
+          "rows": 248,
+          "sha256": "dfba01c2a9bba985e7048a0af003caba063dec964361dd74769114bb8b8f5703"
+        }
+      ]
+    },
+    "visual_assets": {
+      "rows": 48,
+      "columns": [
+        {
+          "cid": 0,
+          "name": "id",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "content_type",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 2,
+          "name": "relative_path",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 3,
+          "name": "sha256",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 4,
+          "name": "license",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 5,
+          "name": "source",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 6,
+          "name": "created_at",
+          "type": "INTEGER",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        }
+      ],
+      "parts": [
+        {
+          "path": "visual_assets/part-0001.json",
+          "rows": 48,
+          "sha256": "d191d1677d72d8667cc93bee762f1c0c175b3575caf8989d469e2bcb1db6cde1"
+        }
+      ]
+    },
+    "football_import_batches": {
+      "rows": 0,
+      "columns": [
+        {
+          "cid": 0,
+          "name": "id",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "source",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 2,
+          "name": "snapshot_date",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 3,
+          "name": "sha256",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 4,
+          "name": "entities_added",
+          "type": "INTEGER",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 5,
+          "name": "relations_added",
+          "type": "INTEGER",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 6,
+          "name": "images_missing",
+          "type": "INTEGER",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 7,
+          "name": "created_at",
+          "type": "INTEGER",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        }
+      ],
+      "parts": []
+    },
+    "football_participant_snapshots": {
+      "rows": 1,
+      "columns": [
+        {
+          "cid": 0,
+          "name": "competition_id",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "season",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 2
+        },
+        {
+          "cid": 2,
+          "name": "team_ids",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 3,
+          "name": "source",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 4,
+          "name": "verified_at",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 5,
+          "name": "status",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        }
+      ],
+      "parts": [
+        {
+          "path": "football_participant_snapshots/part-0001.json",
+          "rows": 1,
+          "sha256": "034e7df0a6920292f90f0cc61342c78aad24e9f653b5b236e286e9e8161c715d"
+        }
+      ]
+    },
+    "football_squad_snapshots": {
+      "rows": 48,
+      "columns": [
+        {
+          "cid": 0,
+          "name": "team_id",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "competition_id",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 2
+        },
+        {
+          "cid": 2,
+          "name": "season",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 3
+        },
+        {
+          "cid": 3,
+          "name": "player_ids",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 4,
+          "name": "coach_ids",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 5,
+          "name": "source",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 6,
+          "name": "verified_at",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 7,
+          "name": "status",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        }
+      ],
+      "parts": [
+        {
+          "path": "football_squad_snapshots/part-0001.json",
+          "rows": 48,
+          "sha256": "fe6203006068f259ec1812a2b75dedcb8d24038bfc71d697d5bd69090a05c1b9"
+        }
+      ]
+    },
+    "football_context_media": {
+      "rows": 48,
+      "columns": [
+        {
+          "cid": 0,
+          "name": "id",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "entity_id",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 2,
+          "name": "team_id",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 3,
+          "name": "role",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 4,
+          "name": "starts_at",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 5,
+          "name": "ends_at",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 6,
+          "name": "asset_id",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 7,
+          "name": "review",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": "'{}'",
+          "pk": 0
+        }
+      ],
+      "parts": [
+        {
+          "path": "football_context_media/part-0001.json",
+          "rows": 48,
+          "sha256": "df7ffc196cd494fdd23e625249acd7902933fb84e69e55ce9a80f278c2943dbf"
+        }
+      ]
+    },
+    "football_fact_records": {
+      "rows": 2496,
+      "columns": [
+        {
+          "cid": 0,
+          "name": "id",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 1
+        },
+        {
+          "cid": 1,
+          "name": "entity_id",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 2,
+          "name": "kind",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 3,
+          "name": "context_id",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 4,
+          "name": "season",
+          "type": "TEXT",
+          "notnull": 0,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 5,
+          "name": "as_of",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 6,
+          "name": "payload",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 7,
+          "name": "source",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 8,
+          "name": "status",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        },
+        {
+          "cid": 9,
+          "name": "verified_at",
+          "type": "TEXT",
+          "notnull": 1,
+          "dflt_value": null,
+          "pk": 0
+        }
+      ],
+      "parts": [
+        {
+          "path": "football_fact_records/part-0001.json",
+          "rows": 250,
+          "sha256": "33bf883d73acc021cbe478fe845b6be3d716b1d26a3428c97c8eab08f237ffa6"
+        },
+        {
+          "path": "football_fact_records/part-0002.json",
+          "rows": 250,
+          "sha256": "c2152cbcc61137aee1b352acd7a8a0b1944c937bc5ab309b3fcb0c4c80ba2007"
+        },
+        {
+          "path": "football_fact_records/part-0003.json",
+          "rows": 250,
+          "sha256": "bc0e6d7a706c3904883b06a5898a37ff9a458f3b562ba0dba1cc0c84fdf5ba7c"
+        },
+        {
+          "path": "football_fact_records/part-0004.json",
+          "rows": 250,
+          "sha256": "fa251035378ed280f849f936544054beabbcb66f5af81fddc2d2fd62b7cd2361"
+        },
+        {
+          "path": "football_fact_records/part-0005.json",
+          "rows": 250,
+          "sha256": "8cc1ddff3be18190203d2137d9b6f0299dfb9bcdf30a6c795a166e2abf54c066"
+        },
+        {
+          "path": "football_fact_records/part-0006.json",
+          "rows": 250,
+          "sha256": "af1e5b3e3f6c40a7bf8914a94444b0c9b7796fce8e630b9b1d9b16cb572a27d0"
+        },
+        {
+          "path": "football_fact_records/part-0007.json",
+          "rows": 250,
+          "sha256": "3f9541085efb3c4e47ae4060e5aa822bd9df061135775299fafd42ffbea47961"
+        },
+        {
+          "path": "football_fact_records/part-0008.json",
+          "rows": 250,
+          "sha256": "c1dcffa4617508563f27ba93e14e58a118fd42849e047c929764e09bb0e786f1"
+        },
+        {
+          "path": "football_fact_records/part-0009.json",
+          "rows": 250,
+          "sha256": "14c8222bf02a5578ebe8769af2c9dd177d4c234ad57a37b683ab2af8bd6f2c2c"
+        },
+        {
+          "path": "football_fact_records/part-0010.json",
+          "rows": 246,
+          "sha256": "4d8694a40956978508e4b89ac1a7ac24c22c9bde5fc3b3421137dadb994f19e3"
+        }
+      ]
+    }
+  }
+}

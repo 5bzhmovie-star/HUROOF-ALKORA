@@ -1,0 +1,390 @@
+{
+  "format": "huroof-catalog-media-v1",
+  "files": [
+    {
+      "assetId": "1Nr-NFAlk1ojYVZGhCl63vRT",
+      "runtimeFilename": "1Nr-NFAlk1ojYVZGhCl63vRT.png",
+      "file": "assets/national_teams/national_team_fifa_ger/flag.png",
+      "sha256": "6dfa87f69c17c91009df9e9d74a01862de928a4382621b7a787778bbda253696",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/de.svg"
+    },
+    {
+      "assetId": "1d4VqnnQcVx7ie5HcwVojwtW",
+      "runtimeFilename": "1d4VqnnQcVx7ie5HcwVojwtW.png",
+      "file": "assets/national_teams/national_team_fifa_pan/flag.png",
+      "sha256": "11e2ed8489e7834e6ee2612b01e7251ab94a5b18991a6eb96eb0d9a5cc9fa96b",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/pa.svg"
+    },
+    {
+      "assetId": "2yDZUwgIodcAiNwUYVQetDGF",
+      "runtimeFilename": "2yDZUwgIodcAiNwUYVQetDGF.png",
+      "file": "assets/national_teams/national_team_fifa_egy/flag.png",
+      "sha256": "72359b3fe0d6a63f80d57df6adf7f5390f32f1b38b3383b610a8633733bf1aee",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/eg.svg"
+    },
+    {
+      "assetId": "5PcMhooBJv1I2wDYACaXGT_h",
+      "runtimeFilename": "5PcMhooBJv1I2wDYACaXGT_h.png",
+      "file": "assets/national_teams/national_team_fifa_alg/flag.png",
+      "sha256": "2d66363ba192615d1c1ad532f2af1ef6578302afe8b59b817031fae6274ffc9e",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/dz.svg"
+    },
+    {
+      "assetId": "5y5rvVs9jHqZVm9x6rwxZqLB",
+      "runtimeFilename": "5y5rvVs9jHqZVm9x6rwxZqLB.png",
+      "file": "assets/national_teams/national_team_fifa_rsa/flag.png",
+      "sha256": "07f3815aa36670bfb6003487f3a4eb6a531c00f4ca4971958240b988150e877f",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/za.svg"
+    },
+    {
+      "assetId": "6U0SdpyQaNx5UwOyCn4dVqB9",
+      "runtimeFilename": "6U0SdpyQaNx5UwOyCn4dVqB9.png",
+      "file": "assets/national_teams/national_team_fifa_aut/flag.png",
+      "sha256": "75b5d9dd4af81b32c003ce9e20aced0352a4e0d6a86159849b8339646d66e2a6",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/at.svg"
+    },
+    {
+      "assetId": "723yBoxakuwXzMc__QMqMIS7",
+      "runtimeFilename": "723yBoxakuwXzMc__QMqMIS7.png",
+      "file": "assets/national_teams/national_team_fifa_irq/flag.png",
+      "sha256": "4f41fe89ee85619db3c9066f24601688fbc3d2bae2614a4e5e0fd6f8ee29952f",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/iq.svg"
+    },
+    {
+      "assetId": "73eJh_8c78sfWXQ8wnrAN2nI",
+      "runtimeFilename": "73eJh_8c78sfWXQ8wnrAN2nI.png",
+      "file": "assets/national_teams/national_team_fifa_fra/flag.png",
+      "sha256": "19ddfe4ec430f10e111b1600cf88d6772130b04ea1b7edf61b15ee3e3696fbf4",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/fr.svg"
+    },
+    {
+      "assetId": "7DW7oqretnWhEUQ6zR5m9uEY",
+      "runtimeFilename": "7DW7oqretnWhEUQ6zR5m9uEY.png",
+      "file": "assets/national_teams/national_team_fifa_nor/flag.png",
+      "sha256": "0f46d1c67f17b3d01deaf6046c9ec31fb28f52c7ea89d442ac6a8274dfe4b1a0",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/no.svg"
+    },
+    {
+      "assetId": "8OVAz86uZUHCBw2Yg02Ov34A",
+      "runtimeFilename": "8OVAz86uZUHCBw2Yg02Ov34A.png",
+      "file": "assets/national_teams/national_team_fifa_tun/flag.png",
+      "sha256": "66719c37bffc462399dd0a9d3fa8d5f2a71a84a4a026871fa8bde03393f37b27",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/tn.svg"
+    },
+    {
+      "assetId": "DJZUswsZ0v_AOdcXcSabF00R",
+      "runtimeFilename": "DJZUswsZ0v_AOdcXcSabF00R.png",
+      "file": "assets/national_teams/national_team_fifa_uru/flag.png",
+      "sha256": "33de10f82015e49d66f307b3c78738058455e1aa45860bb632ad3c3f557c493c",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/uy.svg"
+    },
+    {
+      "assetId": "EMIIF_1g8lZKBFz-X_z5faJP",
+      "runtimeFilename": "EMIIF_1g8lZKBFz-X_z5faJP.png",
+      "file": "assets/national_teams/national_team_fifa_bih/flag.png",
+      "sha256": "cb1f84eb4360fff494c92bee2e12968a61233901a47d507a656e864691815455",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ba.svg"
+    },
+    {
+      "assetId": "ES6yOaTEUvIFR8MmzS-kOa7s",
+      "runtimeFilename": "ES6yOaTEUvIFR8MmzS-kOa7s.png",
+      "file": "assets/national_teams/national_team_fifa_sen/flag.png",
+      "sha256": "3f96c6753ec70d4a01078ab05fabcb26de936a71bb171ea280f6f8c3709deeee",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/sn.svg"
+    },
+    {
+      "assetId": "Ee9d8SAJUjhZISl-kpTkopBE",
+      "runtimeFilename": "Ee9d8SAJUjhZISl-kpTkopBE.png",
+      "file": "assets/national_teams/national_team_fifa_bra/flag.png",
+      "sha256": "1d51e687306eaac30fa32ff28df67c9259393ba0a6a0a775658d9d7268867306",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/br.svg"
+    },
+    {
+      "assetId": "H8v7gKpYvon82HUQpIa9R8uV",
+      "runtimeFilename": "H8v7gKpYvon82HUQpIa9R8uV.png",
+      "file": "assets/national_teams/national_team_fifa_ecu/flag.png",
+      "sha256": "af1876388ac7b4b06c17f116bd3323f5bd773750a1d16286bdf6075cff7dd599",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ec.svg"
+    },
+    {
+      "assetId": "HGW3QqYFoLT4OeePNmVwVDu-",
+      "runtimeFilename": "HGW3QqYFoLT4OeePNmVwVDu-.png",
+      "file": "assets/national_teams/national_team_fifa_sco/flag.png",
+      "sha256": "faeaff9de6a0b5bfd8a6cc4e091c1ecaf56a4c0217a632f56b0e26e08045f2d7",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/gb-sct.svg"
+    },
+    {
+      "assetId": "J2keXdwJ526uvvk7RZjpu3z4",
+      "runtimeFilename": "J2keXdwJ526uvvk7RZjpu3z4.png",
+      "file": "assets/national_teams/national_team_fifa_eng/flag.png",
+      "sha256": "e4136e405fffede3278724e1aeaa9833f1a7a100757990421663da07d2629df5",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/gb-eng.svg"
+    },
+    {
+      "assetId": "KzwT4JtGSlQ7tBZbu2MYKZ3B",
+      "runtimeFilename": "KzwT4JtGSlQ7tBZbu2MYKZ3B.png",
+      "file": "assets/national_teams/national_team_fifa_cod/flag.png",
+      "sha256": "f93bd0c9cab31c08092843c64543644795d084547a5e7f93f4ba6224baf71162",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/cd.svg"
+    },
+    {
+      "assetId": "LlMSNNWubC-DdOD1KZ_RCKHB",
+      "runtimeFilename": "LlMSNNWubC-DdOD1KZ_RCKHB.png",
+      "file": "assets/national_teams/national_team_fifa_gha/flag.png",
+      "sha256": "0babe4f856332a061266156b89b68aed88c0b102d1ce050d64fb30b863c22031",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/gh.svg"
+    },
+    {
+      "assetId": "OWjTBuU3rvgRqJdemzzPlpnL",
+      "runtimeFilename": "OWjTBuU3rvgRqJdemzzPlpnL.png",
+      "file": "assets/national_teams/national_team_fifa_sui/flag.png",
+      "sha256": "6f1a407b5f0b12fc4ab6cab887ff929cdc24e6ea1143fadde7477c3fc49948b2",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ch.svg"
+    },
+    {
+      "assetId": "OzDEjObQg5w4deSJZ0sn-iEL",
+      "runtimeFilename": "OzDEjObQg5w4deSJZ0sn-iEL.png",
+      "file": "assets/national_teams/national_team_fifa_irn/flag.png",
+      "sha256": "4a102f747f0eb41cf97d41717883374213149c3239416b8fe2c58cc64d6b6eae",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ir.svg"
+    },
+    {
+      "assetId": "Rp9RsuisA5x2SGGBMFGkRjuF",
+      "runtimeFilename": "Rp9RsuisA5x2SGGBMFGkRjuF.png",
+      "file": "assets/national_teams/national_team_fifa_can/flag.png",
+      "sha256": "10bfa1f57e00e9fa6bedc2609328a14fd6b30175981ead2154bd326e4a9200f5",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ca.svg"
+    },
+    {
+      "assetId": "S8NfbrJwAR0lNMAN91bfPJ4C",
+      "runtimeFilename": "S8NfbrJwAR0lNMAN91bfPJ4C.png",
+      "file": "assets/national_teams/national_team_fifa_jpn/flag.png",
+      "sha256": "61cd78bdb625eabd2da485940ef64a4302b1726e9d98959df8aec0b5268e8e9a",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/jp.svg"
+    },
+    {
+      "assetId": "SAkEzgl1MaCu5w-5J9uOY9Fn",
+      "runtimeFilename": "SAkEzgl1MaCu5w-5J9uOY9Fn.png",
+      "file": "assets/national_teams/national_team_fifa_par/flag.png",
+      "sha256": "853fa47191e73a60c538f05485d9dc285895300685ec691a6473cceda6137c34",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/py.svg"
+    },
+    {
+      "assetId": "SaJhYG6uHzLeUjj-87hi9xOl",
+      "runtimeFilename": "SaJhYG6uHzLeUjj-87hi9xOl.png",
+      "file": "assets/national_teams/national_team_fifa_mar/flag.png",
+      "sha256": "e6f4bf24e0824de646dce3508d48db84f9012fc4ba37f3acbb75a44b8a222bd8",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ma.svg"
+    },
+    {
+      "assetId": "THWb9t18HRGTEfNIN0OSTWvF",
+      "runtimeFilename": "THWb9t18HRGTEfNIN0OSTWvF.png",
+      "file": "assets/national_teams/national_team_fifa_civ/flag.png",
+      "sha256": "761a3160423c1a83e613f1dbcf393d37865bfbffa20e5023d99e9bd51d3d31a0",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ci.svg"
+    },
+    {
+      "assetId": "VKI_FGnxTrZilx-9n2tEj3mm",
+      "runtimeFilename": "VKI_FGnxTrZilx-9n2tEj3mm.png",
+      "file": "assets/national_teams/national_team_fifa_ksa/flag.png",
+      "sha256": "7c123f79add029a93c3c48f9d82ad2eccbb8880d3c249b3488037251dcb63356",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/sa.svg"
+    },
+    {
+      "assetId": "YndS5VhEpein79kLGxcHtrg6",
+      "runtimeFilename": "YndS5VhEpein79kLGxcHtrg6.png",
+      "file": "assets/national_teams/national_team_fifa_jor/flag.png",
+      "sha256": "06857896717f1a89bed7157825f7fef8a7314075a3d7d7b381bae224c8591a3f",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/jo.svg"
+    },
+    {
+      "assetId": "Z9eWavzBRUnGm8nGQdQdN5ra",
+      "runtimeFilename": "Z9eWavzBRUnGm8nGQdQdN5ra.png",
+      "file": "assets/national_teams/national_team_fifa_qat/flag.png",
+      "sha256": "c3021b609016432248d667f208b90c24d8e5d42d08e3b6c373f6954df0cc8b95",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/qa.svg"
+    },
+    {
+      "assetId": "ZwKcIa-0IT_XqQ3YmTFuTn1i",
+      "runtimeFilename": "ZwKcIa-0IT_XqQ3YmTFuTn1i.png",
+      "file": "assets/national_teams/national_team_fifa_ned/flag.png",
+      "sha256": "2489cab014d7b36140e191d9ecb954179b13938beaeadac55b4bee6cb87144d6",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/nl.svg"
+    },
+    {
+      "assetId": "aH4Mj2KIa9zKeDYjpaquOCza",
+      "runtimeFilename": "aH4Mj2KIa9zKeDYjpaquOCza.png",
+      "file": "assets/national_teams/national_team_fifa_cze/flag.png",
+      "sha256": "b47d2536ab94fab7798c37e2f515b34f7d8849edfce3371983e99da46d2b3787",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/cz.svg"
+    },
+    {
+      "assetId": "dMcg7TtanYLlbA0hAzEkv-bH",
+      "runtimeFilename": "dMcg7TtanYLlbA0hAzEkv-bH.png",
+      "file": "assets/national_teams/national_team_fifa_bel/flag.png",
+      "sha256": "aa54252f00a2cfeb56d513a9392679081f8c5589625ddcefdfb12c6753314d53",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/be.svg"
+    },
+    {
+      "assetId": "dbcW6ISZoWBgFjpfsYUC5GeY",
+      "runtimeFilename": "dbcW6ISZoWBgFjpfsYUC5GeY.png",
+      "file": "assets/national_teams/national_team_fifa_swe/flag.png",
+      "sha256": "5c236f297f25aace7b504f0c9c57e2f2900969c4a0d560437a81a2b539871c5c",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/se.svg"
+    },
+    {
+      "assetId": "dmeGZEMYorsIpebEyo_AYJc7",
+      "runtimeFilename": "dmeGZEMYorsIpebEyo_AYJc7.png",
+      "file": "assets/national_teams/national_team_fifa_arg/flag.png",
+      "sha256": "f6bd272f7e339be39a5d6113d69742f469d68a33af8d2e3f731988acc7cb6f64",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ar.svg"
+    },
+    {
+      "assetId": "ePDXKbYaVqzdWL-45ZPMDYdx",
+      "runtimeFilename": "ePDXKbYaVqzdWL-45ZPMDYdx.png",
+      "file": "assets/national_teams/national_team_fifa_nzl/flag.png",
+      "sha256": "08b134e3d8bd877063c6792a43688cd564920c40d4665ad1ae5c6c9d8d08bbcd",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/nz.svg"
+    },
+    {
+      "assetId": "f5iEw2vVUBIz3YL9pW-94zxa",
+      "runtimeFilename": "f5iEw2vVUBIz3YL9pW-94zxa.png",
+      "file": "assets/national_teams/national_team_fifa_col/flag.png",
+      "sha256": "202a89db03321c70f28b0be652ed8426b8e4d69476931a7f0a8a20a3e81d1ff8",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/co.svg"
+    },
+    {
+      "assetId": "fphgwQ7aaSMItTDqWcEO1zh_",
+      "runtimeFilename": "fphgwQ7aaSMItTDqWcEO1zh_.png",
+      "file": "assets/national_teams/national_team_fifa_hai/flag.png",
+      "sha256": "dabc984cebc658790cbaa1fb1964583be922d5d4f6925da59b61507227abe150",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ht.svg"
+    },
+    {
+      "assetId": "mM7ds_JNolq7w0y6OkcM-y9s",
+      "runtimeFilename": "mM7ds_JNolq7w0y6OkcM-y9s.png",
+      "file": "assets/national_teams/national_team_fifa_aus/flag.png",
+      "sha256": "41b73a12bcac5553d83510970c1090c1225c65f80730fe5727c9340b66231635",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/au.svg"
+    },
+    {
+      "assetId": "n1IOJ5O9AtR9IX8uDu1vTwTw",
+      "runtimeFilename": "n1IOJ5O9AtR9IX8uDu1vTwTw.png",
+      "file": "assets/national_teams/national_team_fifa_mex/flag.png",
+      "sha256": "fe69dacfaf7b895010e2ceb90162ef9fb3310b8d5d10c3d9ce3c6bd5d2469e2f",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/mx.svg"
+    },
+    {
+      "assetId": "n9-XO1ktMPRk1dfdpvULNhpI",
+      "runtimeFilename": "n9-XO1ktMPRk1dfdpvULNhpI.png",
+      "file": "assets/national_teams/national_team_fifa_uzb/flag.png",
+      "sha256": "35883dc365c4bbf58219a5ba44e9bb1b6057f8e762da6fc15959d7d06bde4d91",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/uz.svg"
+    },
+    {
+      "assetId": "rioSIc3ykXmfGLXNwtJbvU_q",
+      "runtimeFilename": "rioSIc3ykXmfGLXNwtJbvU_q.png",
+      "file": "assets/national_teams/national_team_fifa_cpv/flag.png",
+      "sha256": "b917d753b74876a7d152763114334ed06daf086fb1faefeb238d814370d88fff",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/cv.svg"
+    },
+    {
+      "assetId": "rmaMKjh1ja19yg38aantmuhH",
+      "runtimeFilename": "rmaMKjh1ja19yg38aantmuhH.png",
+      "file": "assets/national_teams/national_team_fifa_por/flag.png",
+      "sha256": "cbf912563af3f670d42e6d44b90e84b7f5340950c81a52574cb0789282cce5a0",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/pt.svg"
+    },
+    {
+      "assetId": "sxsA87Vz89JCOmPKucXE7SNU",
+      "runtimeFilename": "sxsA87Vz89JCOmPKucXE7SNU.png",
+      "file": "assets/national_teams/national_team_fifa_cuw/flag.png",
+      "sha256": "702ea0ff08baa88135fb7e9e7039aa3112648f4d08291ea4e0cadd19bb02ed14",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/cw.svg"
+    },
+    {
+      "assetId": "tek9z4uQYIw3ATwE7b8qzd7s",
+      "runtimeFilename": "tek9z4uQYIw3ATwE7b8qzd7s.png",
+      "file": "assets/national_teams/national_team_fifa_kor/flag.png",
+      "sha256": "b5bdfcd57de9c5630428a1d0a565e1eb45740f610921a12072d15bde3ba33265",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/kr.svg"
+    },
+    {
+      "assetId": "vUmXr_Db5CuE6jxzPyMG4IKF",
+      "runtimeFilename": "vUmXr_Db5CuE6jxzPyMG4IKF.png",
+      "file": "assets/national_teams/national_team_fifa_esp/flag.png",
+      "sha256": "e599ab067b4add8071efa9b7647ee6bb0f8184fd4758375ec54adcea4bc4073c",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/es.svg"
+    },
+    {
+      "assetId": "xkIxnRU9MJoD3x6zmyidDOE8",
+      "runtimeFilename": "xkIxnRU9MJoD3x6zmyidDOE8.png",
+      "file": "assets/national_teams/national_team_fifa_usa/flag.png",
+      "sha256": "decb9c4b3d2463199df9c23be259831e3864be3d019670756673ab2eb460d406",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/us.svg"
+    },
+    {
+      "assetId": "y23KaDhNrtsNWkW3GtzTZEuY",
+      "runtimeFilename": "y23KaDhNrtsNWkW3GtzTZEuY.png",
+      "file": "assets/national_teams/national_team_fifa_tur/flag.png",
+      "sha256": "f682ca5391e321e989110efe3dca0a15a0e6781184fd8150a1d9b2867edc2492",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/tr.svg"
+    },
+    {
+      "assetId": "zjVDLh0jwHF1Ivyn2qaldwEn",
+      "runtimeFilename": "zjVDLh0jwHF1Ivyn2qaldwEn.png",
+      "file": "assets/national_teams/national_team_fifa_cro/flag.png",
+      "sha256": "7491afaa1a80da0b9440462836d38fc8032ac659e61bc3bd7050e6f32588d359",
+      "license": "MIT; Panayiotis Lipiridis; see flag-icons-MIT.txt",
+      "source": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/hr.svg"
+    }
+  ],
+  "releaseReady": false
+}

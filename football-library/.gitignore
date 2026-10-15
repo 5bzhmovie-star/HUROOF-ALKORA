@@ -1,6 +1,5 @@
 sources/*.pdf
 build/
-assets/pending_media/
 __pycache__/
 *.pyc
 sources/html/
@@ -15,3 +14,5 @@ reports/SPL_PROFILE_STATISTICS_CHECKPOINT.json
 data/statistics/spl_current_season_source_candidates.json
 
 data/statistics/saudi_alternate_source_candidates.json
+
+assets/pending_media/

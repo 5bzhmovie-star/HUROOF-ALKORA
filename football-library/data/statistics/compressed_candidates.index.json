@@ -1,0 +1,23 @@
+{
+  "releaseReady": false,
+  "files": [
+    {
+      "path": "saudi_alternate_source_candidates.json.gz",
+      "format": "gzip-json",
+      "uncompressedBytes": 17193487,
+      "uncompressedSha256": "697363e5fb915c5e53ab0f8937991561f9d78a8c66818076235b6d68f0a4bd8b",
+      "bytes": 942318,
+      "sha256": "2ceaec8e35740d5a47c8e207eb0994f1c5e0bf9f91cef40975fc30b5176100bc",
+      "status": "source-candidate-pending-review"
+    },
+    {
+      "path": "spl_current_season_source_candidates.json.gz",
+      "format": "gzip-json",
+      "uncompressedBytes": 9057642,
+      "uncompressedSha256": "f623c14f1e3922ee99b81601b1fffe14c1e1f812e8b19efd03ee337a43f765d2",
+      "bytes": 500981,
+      "sha256": "3c818ca0c345e7a45bc4cdad96b9a0e76461698ee3442931f61255e5150339b2",
+      "status": "source-candidate-pending-review"
+    }
+  ]
+}
