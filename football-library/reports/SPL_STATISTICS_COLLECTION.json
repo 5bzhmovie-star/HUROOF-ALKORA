@@ -1,0 +1,1016 @@
+{
+  "profilesCollected": 276,
+  "targetWebsiteCards": 544,
+  "uncollectedWebsiteCards": 268,
+  "failedLatestAttempts": [
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mamadou-sylla/",
+      "error": "ValueError: Missing or ambiguous exact player and club"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/ibrahim-omar-abdulaziz-al-abood/",
+      "error": "ValueError: Missing or ambiguous exact player and club"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mathys-de-carvalho-soares/",
+      "error": "ValueError: Statistics unavailable or unresolved in published source"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/hamid-al-zahri/",
+      "error": "ValueError: Missing or ambiguous exact player and club"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdullah-al-ammar/",
+      "error": "ValueError: Statistics unavailable or unresolved in published source"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohamed-ibrahim/",
+      "error": "ValueError: Statistics unavailable or unresolved in published source"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/muhammad-al-otaibi/",
+      "error": "ValueError: Statistics unavailable or unresolved in published source"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/muqrin-abanumay/",
+      "error": "ValueError: Missing or ambiguous exact player and club"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/moayad-saleem/",
+      "error": "ValueError: Statistics unavailable or unresolved in published source"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/dayo-joyce/",
+      "error": "ValueError: Statistics unavailable or unresolved in published source"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/hassan-idris/",
+      "error": "ValueError: Statistics unavailable or unresolved in published source"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/amadou-bamba-dieng/",
+      "error": "ValueError: Statistics unavailable or unresolved in published source"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/nawaf-al-bishri/",
+      "error": "ValueError: Statistics unavailable or unresolved in published source"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/gustavo-gouveia-rodrigues-cruz/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/ramzi-solan/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/coba-da-costa/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/adam-berry/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/julien-domingues/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/yaseen-al-zubaidi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdullah-al-ajyan/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mubarak-al-buainain/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/nawaf-al-aqidi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/bento-bento/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulrahman-al-otaibi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/sultan-al-ghannam/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulrahman-hassan-sufyani/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/nader-al-sharari/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohamed-simakan/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulelah-al-amri/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/saad-al-nasser/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/nawaf-bu-washl/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/inigo-martinez/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/awad-aman/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/majed-qasheesh/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/salem-al-najdi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/samuel-de-almeida-costa/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/hayder-tofee/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/sami-al-naji/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdullah-al-khaibari/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulrahman-sufyani/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/aiman-salem-ahmed/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdullah-al-hamddan/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/cristiano-ronaldo/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/sadio-mane/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohammed-marran/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/kingsley-coman/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/angelo-gabriel/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulrahman-ghareeb/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/rakan-al-ghamdi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/saad-haqawi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/joao-felix/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/marcin-bulka/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulrahman-bin-hussain-bin-ahmed-dagriri/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohammed-al-burayk/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/luis-arantes-maximiano/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/malang-sarr/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/khalifah-al-dawsari/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulmalik-al-oyayari/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohannad-abu-taha/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/islam-hawsawi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/nathan-zeze/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohammed-walid-mohammed-al-rajbani-al-dossary/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/khaled-al-rammah/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abbas-al-hassan/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/faisal-arq-al-ghamdi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/alaa-al-hejji/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/valentin-vada/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulaziz-noor/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/amadou-bamba-dieng-x4488/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/giorgos-masouras/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulaziz-al-othman/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/said-benrahma/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/khalil-al-absi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/ahmed-al-anazi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/haroune-camara/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/muhannad-al-saad/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/marek-rodak/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/alexandre-lacazette/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/ahmad-ali-saleem-al-rehaili-al-harbi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulbasit-hawsawi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/pedro-henrique-ribeiro-goncalves/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/turki-ba-al-jawsh/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdullah-madu/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/jack-hendry/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/meshal-al-alaeli/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/madallah-al-olayan/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/radi-al-otaibi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdullaا-khateeb/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/marzouq-tambakti/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/meshal-sibyani/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/alvaro-medran/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/ondrej-duda/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/riyadh-sharahili/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/bersant-celina/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdoulaye-kante/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/yasir-al-shammari/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulelah-hawsawi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/rayane-messi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/talal-haji/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/sultan-haroun/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/khalid-al-ghannam/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/moussa-dembele/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdullah-bin-rashad-bin-ali-al-bishi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/jordan-larsson/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/matija-gluscevic/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/ziyad-al-ghamdi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/ali-mohsen-abdullah-al-essa/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/rayan-al-dossary/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohammed-al-yami/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/yassine-bounou/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohammed-bin-khalil-bin-ibrahim-al-owais/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/kalidou-koulibaly/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohammed-mahzari/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/yusuf-akcicek/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/theo-hernandez/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/moteb-al-harbi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/saad-al-muthary/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohammed-al-sarnoukh/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/meshal-al-dawood/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/ali-lajami/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/hamad-al-tuhayfan/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/hassan-al-tambakti/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/nasser-al-dawsari/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/ruben-neves/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/murad-al-hawsawi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/sergej-milinkovic-savic/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/salem-al-dawsari/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohamed-kanno/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/saimon-bouabre/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdullah-sufuq/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/nawaf-al-habashi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/suhayb-al-zaid/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/turki-al-ghumayl/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/thari-ahmed-yahya-saeed/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/louay-labidi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulaziz-jurmush/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/gabriel-teodoro-martinelli-silva/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/ollie-watkins/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/crysencio-summerville/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/sultan-mandash/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/sabri-dahal/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/donovan-leon/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohamed-meite/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mustafa-malayekah/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulrhman-waleed-abdul-rahman-al-bouq/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/moayad-ahmad-binyan/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/jurien-gaari/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohammed-al-dossary/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/khaled-ahmed-hussein-al-shamrani/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdullah-al-fahad-al-mkabbas/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulbasit-hindi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdou-diallo/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/nawaf-al-ghulaimish/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/safwan-bin-saud-al-johani/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/amar-al-yuhaybi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/faisal-al-subiani/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/basil-al-sayyali/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/feras-al-ghamdi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohammed-ayed-obaid-al-hamsal/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/bader-al-mutairi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mateo-borrell/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/nasser-al-daajani-al-otaibi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/majed-dawran/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohammed-al-zaid/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/kamil-boumedmed/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/loreintz-rosier/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/ali-ali-fathi-mubarak/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/nabil-fekir/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/alimami-gory/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/koshaim-al-karani/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulkarim-darisi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/michy-batshuayi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulrahman-al-senaid/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/georges-kevin-n-koudou/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdullah-al-jadani/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mailson-tenorio-dos-santos/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdul-rahman-bin-ali-bin-ahmed-al-safar-al-ghamdi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/bassam-al-hurayji/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/zineddine-belaid/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/nawaf-al-hawairy/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/nasser-al-haleel/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/jair-collahuazo/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/adeeb-al-hassan/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulrahman-ghazzai-al-harbi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/muteb-al-mufarrij/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/faris-al-ghamdi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/awn-al-saluli/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/aschraf-el-mahdioui/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/oscar-dorley/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/ibrahim-mahnashi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/nedim-bajrami/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/rakan-al-tulayhi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulrahman-ibrahim-ahmed-hindi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/ibrahim-bin-yahya-alzahrani/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohammed-al-kuwaykibi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohammed-al-saedi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abderrazzaq-hamed-allah/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/saif-rajab/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohammed-al-aqel/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/parfait-guiagon/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/meshari-sunyur/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/younes-el-bahraoui/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/bassem-al-arini/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulah-mohammed-abdulaziz-al-jwayzan/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/ahmed-al-kassar/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/ali-diabate/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/jehad-thikri/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/koen-casteels/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/marin-petkov/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/jose-ignacio-iglesias/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/gaston-alvarez/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/yasser-al-shahrani/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohammed-abu-al-shamat/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/turki-al-ammar/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/julian-weigl/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/ahmed-al-siyahi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/ali-hazazi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/waleed-bin-abdulwahab-bin-abdulaziz-al-ahmad/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/tijjani-reijnders/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohammed-al-nakhli/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulmalik-al-jaber/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mahamadou-sangare/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/nahitan-nandez/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/eyad-houssa/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohammed-al-qahtani/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/haitham-asiri/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/suleman-sani/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/musab-al-juwayr/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/julian-quinones/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdullah-al-salem/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/christopher-bonsu-baah/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdullah-abdo/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulrahman-al-sanbi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/edouard-mendy/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abdulaziz-al-elewai/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mateo-retegui/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/salman-al-jadani/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/zakaria-bin-siraj-bin-ahmed-hawsawi/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mouhamadou-diop/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/merih-demiral/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/abubacarr-kinteh/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohammed-yousef/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/roger-ibanez-da-silva/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/saad-balobaid/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/mohammed-bakor/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/saeed-baattia/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/ibrahim-azzam/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/rayan-hamed/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "profileUrl": "https://www.spl.com.sa/ar/players/faisal-ibrahim-ahmed-fallatah/",
+      "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "failedAttemptCount": 249,
+  "failureReasons": {
+    "ValueError: Missing or ambiguous exact player and club": 4,
+    "ValueError: Statistics unavailable or unresolved in published source": 9,
+    "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>": 236
+  },
+  "releaseReady": false,
+  "limitations": [
+    "Not all website cards have validated statistics",
+    "Current source totals are not complete historical careers",
+    "Identity, period and redistribution licensing review pending",
+    "Network gateway blocked collection with tunnel HTTP 403"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "clubsCollected": 20,
+  "currentFirstTeamAssignments": 481,
+  "excludedYouthHistoricalOrUnclear": 595,
+  "failures": [],
+  "releaseReady": false,
+  "uniqueSourcePeople": 481,
+  "clubsWithSourceCountDiscrepancies": [
+    {
+      "sourceClubId": "2",
+      "recordsActuallyReturned": 58,
+      "totalAsPublished": 62,
+      "sourceCountMatches": false,
+      "sourceCountDifference": 4
+    },
+    {
+      "sourceClubId": "127",
+      "recordsActuallyReturned": 44,
+      "totalAsPublished": 45,
+      "sourceCountMatches": false,
+      "sourceCountDifference": 1
+    },
+    {
+      "sourceClubId": "131",
+      "recordsActuallyReturned": 61,
+      "totalAsPublished": 63,
+      "sourceCountMatches": false,
+      "sourceCountDifference": 2
+    },
+    {
+      "sourceClubId": "1",
+      "recordsActuallyReturned": 51,
+      "totalAsPublished": 55,
+      "sourceCountMatches": false,
+      "sourceCountDifference": 4
+    },
+    {
+      "sourceClubId": "7",
+      "recordsActuallyReturned": 36,
+      "totalAsPublished": 42,
+      "sourceCountMatches": false,
+      "sourceCountDifference": 6
+    },
+    {
+      "sourceClubId": "5",
+      "recordsActuallyReturned": 45,
+      "totalAsPublished": 47,
+      "sourceCountMatches": false,
+      "sourceCountDifference": 2
+    },
+    {
+      "sourceClubId": "6",
+      "recordsActuallyReturned": 62,
+      "totalAsPublished": 68,
+      "sourceCountMatches": false,
+      "sourceCountDifference": 6
+    },
+    {
+      "sourceClubId": "4",
+      "recordsActuallyReturned": 62,
+      "totalAsPublished": 64,
+      "sourceCountMatches": false,
+      "sourceCountDifference": 2
+    },
+    {
+      "sourceClubId": "41",
+      "recordsActuallyReturned": 62,
+      "totalAsPublished": 63,
+      "sourceCountMatches": false,
+      "sourceCountDifference": 1
+    },
+    {
+      "sourceClubId": "34",
+      "recordsActuallyReturned": 40,
+      "totalAsPublished": 42,
+      "sourceCountMatches": false,
+      "sourceCountDifference": 2
+    },
+    {
+      "sourceClubId": "10",
+      "recordsActuallyReturned": 58,
+      "totalAsPublished": 59,
+      "sourceCountMatches": false,
+      "sourceCountDifference": 1
+    },
+    {
+      "sourceClubId": "8",
+      "recordsActuallyReturned": 52,
+      "totalAsPublished": 55,
+      "sourceCountMatches": false,
+      "sourceCountDifference": 3
+    },
+    {
+      "sourceClubId": "11",
+      "recordsActuallyReturned": 61,
+      "totalAsPublished": 64,
+      "sourceCountMatches": false,
+      "sourceCountDifference": 3
+    },
+    {
+      "sourceClubId": "23",
+      "recordsActuallyReturned": 56,
+      "totalAsPublished": 59,
+      "sourceCountMatches": false,
+      "sourceCountDifference": 3
+    },
+    {
+      "sourceClubId": "12",
+      "recordsActuallyReturned": 56,
+      "totalAsPublished": 58,
+      "sourceCountMatches": false,
+      "sourceCountDifference": 2
+    },
+    {
+      "sourceClubId": "29",
+      "recordsActuallyReturned": 57,
+      "totalAsPublished": 62,
+      "sourceCountMatches": false,
+      "sourceCountDifference": 5
+    },
+    {
+      "sourceClubId": "21",
+      "recordsActuallyReturned": 69,
+      "totalAsPublished": 73,
+      "sourceCountMatches": false,
+      "sourceCountDifference": 4
+    }
+  ],
+  "formalSquadCompletenessVerified": false
+}

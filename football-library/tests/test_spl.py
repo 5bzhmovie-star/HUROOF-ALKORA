@@ -20,11 +20,14 @@ class SplTest(unittest.TestCase):
   with self.assertRaises(ValueError):m.coach_portrait(bad,good,club)
  def test_embedded_official_data_is_decoded_as_json_with_person_and_club_identity(self):
   path=Path(__file__).resolve().parents[1]/'scripts/acquire_spl.py';spec=importlib.util.spec_from_file_location('spl',path);m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
-  person={'playerId':'spl::Football_Player::'+'b'*32,'playerSlug':'person','dateOfBirth':'1995-12-30T00:00:00Z','height':'180','weight':'75','team':{'teamId':'spl::Football_Team::'+'a'*32}}
+  person={'playerId':'spl::Football_Player::'+'b'*32,'playerSlug':'person','dateOfBirth':'1995-12-30T00:00:00Z','height':'180','weight':'75','seasonId':'spl::Football_Season::'+'d'*32,'team':{'teamId':'spl::Football_Team::'+'a'*32}}
   payload='1:'+json.dumps({'players':[person]})+'\n';half=len(payload)//2
   html=''.join('<script>self.__next_f.push('+json.dumps([1,c])+')</script>' for c in [payload[:half],payload[half:]])
   self.assertEqual(m.embedded_players(html,'a'*32)['person']['height'],'180')
   self.assertEqual(m.embedded_players(html,'c'*32),{})
+  player={'sourceProfileKey':'person','sourcePersonId':'b'*32}
+  m.enrich_players([player],html,'a'*32)
+  self.assertEqual(player['sourceSeasonId'],'d'*32)
  def test_source_identity_and_shirt_context_without_guessing_canonical_person(self):
   path=Path(__file__).resolve().parents[1]/'scripts/acquire_spl.py'
   spec=importlib.util.spec_from_file_location('spl',path);m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
@@ -33,6 +36,8 @@ class SplTest(unittest.TestCase):
   result=m.parse_squad(html,club,'https://www.spl.com.sa/ar/teams/test/squad')
   self.assertEqual(len(result),1);self.assertEqual(result[0]['sourcePersonId'],person)
   self.assertEqual(result[0]['sourceClubId'],club);self.assertEqual(result[0]['nameAr'],'محمد')
+  self.assertIsNone(result[0]['sourceSeasonId']);self.assertIsNone(result[0]['sourceCompetitionId'])
+  self.assertEqual(result[0]['sourceImagePathContextIds'],[season,competition])
   self.assertIsNone(result[0]['canonicalPlayerId']);self.assertIsNone(result[0]['shirtNumber'])
   mixed=html.replace('/players/person/','/players/galeno-بومعكيل/')
   self.assertEqual(m.parse_squad(mixed,club,'https://www.spl.com.sa/ar/teams/test/squad')[0]['profileUrl'],'https://www.spl.com.sa/ar/players/galeno-بومعكيل/')

@@ -1,0 +1,1656 @@
+{
+  "records": [
+    {
+      "sourcePersonId": "trent-alexander-arnold",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Trent",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/trent-alexander-arnold",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/TRENT_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/trent-alexander-arnold/portrait.png",
+      "sha256": "de643b371006a73804f47849dcf7a237583e36cd587c39127ba921a9f8f07e9b",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "raul-asencio-del-rosario",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Asencio",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/raul-asencio-del-rosario",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/ASENCIO_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/raul-asencio-del-rosario/portrait.png",
+      "sha256": "535944a366d72d5625b745d536ee6ed745a49e9e13537d289f767ce1270443ff",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "eder-gabriel-militao",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "E. Militão",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/eder-gabriel-militao",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/MILITAO_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/eder-gabriel-militao/portrait.png",
+      "sha256": "f3cee85491ef73ae11ad43898be8104b3e80e40aea2009ef06ec0905e1059ac3",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "dean-huijsen",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Huijsen",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/dean-huijsen",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/HUIJSEN_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/dean-huijsen/portrait.png",
+      "sha256": "2482cc4c82261dc81fb41d6274f48b4ba548ad76c88920f1120f985229a0135e",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "thibaut-courtois",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Courtois",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/thibaut-courtois",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/COURTOIS_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/thibaut-courtois/portrait.png",
+      "sha256": "80207d3fd2a224ac870b4e796bc3cf596911296a4f944b0a53d6eafbc6160d95",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "andriy-lunin",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Lunin",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/andriy-lunin",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/LUNIN_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/andriy-lunin/portrait.png",
+      "sha256": "94a5fc379d02a58683e5516a17be106ad130e16946c9eac1ff3a1629d7312c0d",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "ferland-mendy",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "F. Mendy",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/ferland-mendy",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/MENDY_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/ferland-mendy/portrait.png",
+      "sha256": "84e1e43495e99b6905d10549b7dc8d2a3cd6e0709239610720cc6355be755e0e",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "alvaro-fernandez-carreras",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Á. Carreras",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/alvaro-fernandez-carreras",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/CARRERAS_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/alvaro-fernandez-carreras/portrait.png",
+      "sha256": "5a5fbd9cc4aa09b140e86c9ed4c34fc4363f1aa3238012203e73bf5be4772ff8",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "marc-cucurella-saseta",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Cucurella",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/marc-cucurella-saseta",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/CUCURELLA_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/marc-cucurella-saseta/portrait.png",
+      "sha256": "e533a16912313848e69efe27e91d220437b73fe17c9b3dd072e346e45a702f2b",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "antonio-rudiger",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Rüdiger",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/antonio-rudiger",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/RUDIGER_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/antonio-rudiger/portrait.png",
+      "sha256": "3cf5343bfe47eebad3cbf1fa19ee9fb507d690ac9fd0e0605408417581949fe6",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "denzel-dumfries",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Dumfries",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/denzel-dumfries",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/DUMFRIES_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/denzel-dumfries/portrait.png",
+      "sha256": "5b0a65411dcd261b8651fc5be1884f704e8f097e2f8c2a7b8793598c97de3581",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "ibrahima-konate",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Konaté",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/ibrahima-konate",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/KONATE_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/ibrahima-konate/portrait.png",
+      "sha256": "30ab528dca5bcb4a9bdeff44ed53cea5c8b243e3d0d67526c7f6bd48f3748ade",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "eduardo-camavinga",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Camavinga",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/eduardo-camavinga",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/CAMAVINGA_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/eduardo-camavinga/portrait.png",
+      "sha256": "fddf4cbd4b9b3f7a7ef02898b50027deec96af8bb47b513a0943a655ef7039ef",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "jude-bellingham",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Bellingham",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/jude-bellingham",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/BELLINGHAM_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/jude-bellingham/portrait.png",
+      "sha256": "3475b13c48596d36374eaa361421d4fece849a05eafc83480b37187f7a563c9a",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "bernardo-silva",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Bernardo Silva",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/bernardo-silva",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/BERNARDO_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/bernardo-silva/portrait.png",
+      "sha256": "83a7faa9aa4f345065b846f26ef7fce974a122381d70068dd3dd3b6e04586c6d",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "arda-guler",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Arda Güler",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/arda-guler",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/GULER_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/arda-guler/portrait.png",
+      "sha256": "4a3a47bb13756d248b0084f356b050d99868e04b9a7f12fdf6ae02b49b4a1ae9",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "aurelien-tchouameni",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Tchouaméni",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/aurelien-tchouameni",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/TCHOUAMENI_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/aurelien-tchouameni/portrait.png",
+      "sha256": "2997b2f9c4a16a099297ba39620e3bf58efe67d790d500772c78d1e2b24f3cae",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "federico-santiago-valverde-dipetta",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Valverde",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/federico-santiago-valverde-dipetta",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/VALVERDE_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/federico-santiago-valverde-dipetta/portrait.png",
+      "sha256": "7b722406e1336dfacdb1c30803ff87e3b162623eff9b8d8ba362cab196b4e51b",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "kylian-mbappe",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Mbappé",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/kylian-mbappe",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/MBAPPE_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/kylian-mbappe/portrait.png",
+      "sha256": "cd6aa48d634117666c56d6238f533ad4be86296d813e6b1f77c420faa9200fde",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "rodrygo-goes",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Rodrygo",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/rodrygo-goes",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/RODRYGO_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/rodrygo-goes/portrait.png",
+      "sha256": "53180dd4df49f30df487c96caeae2cfff0e4d2d4f7119a37533ae83f298bebea",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "brahim-diaz",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Brahim",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/brahim-diaz",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/BRAHIM_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/brahim-diaz/portrait.png",
+      "sha256": "09cd3d3ffcb593bd839ebeb63577b4b0b88bf238c5a38d7c3fcf672ea5492f70",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "thiago-pitarch-pinar",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Thiago",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/thiago-pitarch-pinar",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/THIAGO_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/thiago-pitarch-pinar/portrait.png",
+      "sha256": "7abdcd8c0fb9ac9d747d0e6ad85c75b4f2e4ede1a1749359533c58cea0f8c6c9",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "endrick-felipe-moreira-de-sousa",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Endrick",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/endrick-felipe-moreira-de-sousa",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/ENDRICK_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/endrick-felipe-moreira-de-sousa/portrait.png",
+      "sha256": "e8a237871c7abeff108ca83c191c2002343cd1144f4b90d626e2a5e22bfd43d6",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "vinicius-paixao-de-oliveira-junior",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Vini Jr.",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/vinicius-paixao-de-oliveira-junior",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/VINI_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/vinicius-paixao-de-oliveira-junior/portrait.png",
+      "sha256": "a7bc0e159c895aa4b073e91944e1f667cc973af69b50816b2b42f28b24e28a80",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "jose-mourinho",
+      "sourceClubSlug": "real-madrid",
+      "kind": "coach",
+      "nameAsPublished": "Mourinho",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/jose-mourinho",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/Mourinho_EQUIPO_CARITA_380x501%20–%201?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/jose-mourinho/portrait.png",
+      "sha256": "e9ad3402fd20115e5d98ee6230f30becd14c3204fdf3798a0e5a8627ef9d666d",
+      "dimensions": [
+        292,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "110491",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Joan García",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/110491/joan-garcia",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/21/76e07caa-8cb7-47bb-8110-f83e5046b65e/01-Joan_Garcia-BLUE.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/110491/portrait.jpg",
+      "sha256": "b99c4e109def5c4b738a3986d3719894d83234dfd6b2e0cf0d4604f38ab916a3",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "yan-diomande",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "Diomande",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/yan-diomande",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/DIOMANDE_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/yan-diomande/portrait.png",
+      "sha256": "c862f1a2efd17d8e03ef9c8f5ecdcb0af881439e5a5af22c2b755e2fb73e0140",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "16668",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Dominik Livakovic",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/16668/dominik-livakovic",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/08/26/364ac22a-cb07-44fb-8a38-4eb9385e0eb7/Livakovic-blau.png?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/16668/portrait.png",
+      "sha256": "640ff6601fbc8d0d35f8b866d955e05f5d6bdbcaf6e7c9ae31f47b8a5d7e5480",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "carlos-espi",
+      "sourceClubSlug": "real-madrid",
+      "kind": "player",
+      "nameAsPublished": "C. Espí",
+      "sourcePage": "https://www.realmadrid.com/en-US/football/first-team/players/carlos-espi",
+      "source": "https://assets.realmadrid.com/is/image/realmadrid/ESPI_CARITA_1500X2000?$Desktop$&fit=wrap&wid=288&hei=384",
+      "path": "assets/pending_media/spanish/real-madrid/carlos-espi/portrait.png",
+      "sha256": "5936a52bcc154e818532c7fe16a2f0e4228b66e00e51a390a25d1f5d3dc54326",
+      "dimensions": [
+        288,
+        384
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.realmadrid.com/en-US/football/first-team/players",
+      "sourceSquadSha256": "0a6f5b257da587255654136758ac1491c2f44f9951393550a6918c7cdc8345a9",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "3543",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Wojciech Szczesny",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/3543/wojciech-szczesny",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/21/eb96038d-1fc9-4a98-8f40-b81944d057e6/25-Szczesny-RED.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/3543/portrait.jpg",
+      "sha256": "6b7023fcb8bb5240e946ebb7519876ecab8c1d467fdca009b85e0da9c0026e55",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "129400",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Pau Cubarsí",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/129400/pau-cubarsi",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/21/e96de4b6-5d94-400e-9f70-d1f745243818/02-Cubarsi-BLUE.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/129400/portrait.jpg",
+      "sha256": "c99d0b02db85d01811d25b81b4256c08623ab925235891248122638435551022",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "68906",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Alejandro Balde",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/68906/alejandro-balde",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/21/f8b0225c-2508-431c-baca-b66b97ec6e8e/03-Balde-BLUE.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/68906/portrait.jpg",
+      "sha256": "a394d9c4daf40015eec742ab3a7b33ff893e7e563ff94acad92d594c54daaadc",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "4495",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Andreas Christensen",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/4495/andreas-christensen",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/21/7b358e10-138f-4526-8cf8-34a26d6797c8/15-Christensen-RED.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/4495/portrait.jpg",
+      "sha256": "f90e41d18667cfd78838a37ec2b3696abf8756e9b164ade3f5a92576742e58f2",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "5051",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "João Cancelo",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/5051/joao-pedro-cavaco-cancelo",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/08/19/be6d271c-7704-4848-bc10-1a38924d4d60/00-Cancelo.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/5051/portrait.png",
+      "sha256": "64818919d57df1f8afce0d1820c79e6117557be68a15aae7d7de0085df47e7b7",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "111861",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Gerard Martín",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/111861/gerard-martin",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/21/a37cf202-c22c-416d-87d7-e02cd73e39ad/18-Martin-BLUE.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/111861/portrait.jpg",
+      "sha256": "2d3a11dc4b500105643bc1b169b711b93a56a16933657dc1a54a158202cb9e45",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "141001",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Xavi Espart",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/141001/xavi-espart",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/08/26/ac515f82-5b62-4f2a-8a19-d0bb6ba13e63/12-XAVI_ESPART.png?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/141001/portrait.png",
+      "sha256": "3305e0f8449b1daf8cfe6b58c6f130014d361a7cd20d06ddb8d3be09c7a71b19",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "116719",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Gavi",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/116719/pablo-paez-gavira",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/21/1691acd3-0765-4dfc-9296-a3320c24240a/06-Gavi-BLUE.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/116719/portrait.jpg",
+      "sha256": "7d7c2ec06471a9bcb393963331996570eb70c0b2ec5e109cce1654ae1c9b8c28",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "15552",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Jules Koundé",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/15552/jules-kounde",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/21/a51ceaf6-fd5e-495d-8217-322e7c319888/23-Kounde-RED.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/15552/portrait.jpg",
+      "sha256": "d0a46d74a9dfe4237e297ed7b99dd26a79b0af6ad9681b8d797e61584e7c4452",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "24635",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Eric García",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/24635/eric-garcia",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/21/b5cf8356-d686-4b7b-bf99-343f7c2a4454/24-Eric_Garcia-BLUE.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/24635/portrait.jpg",
+      "sha256": "0df18f52d886361147c6ba969f09d4d838e6918326b288ec3c0024ebbc23f311",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "70486",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Pedri",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/70486/pedro-gonzalez-lopez",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/21/c4a35ee4-35ef-4414-aff6-ed72ba8fce67/08-Pedri-RED.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/70486/portrait.jpg",
+      "sha256": "adc81eb73b2429f64046ef8348fe3fc1100f0b72d462e35b1e51b4e8ed263164",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "118929",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Fermín López",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/118929/fermin-lopez",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/21/cdd9f6c9-feb9-459c-bf84-1ea17e847cef/16-Fermin-BLUE.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/118929/portrait.jpg",
+      "sha256": "50adfa4248193ae3639e0b3972a1a826880032ec56c784b1b115e647e11f9c80",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "140515",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Brian Fariñas",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/140515/brian-farinas",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/09/03/05fbff19-0b97-49bb-ac8b-92f1c816da51/04-Brian_Farinas-red.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/140515/portrait.jpg",
+      "sha256": "65c7b1e31c48d07b0433f3ce5cf5d9c4b960fb1a482f0a0e55f31916f82a77e3",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "16677",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Dani Olmo",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/16677/dani-olmo",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/21/a150d470-f7ea-46d9-9f4d-a6295fef9d8d/20-Olmo-BLUE.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/16677/portrait.jpg",
+      "sha256": "d5c2196991a8665fd2b8f40dbfc7afbe5fe9903bd95af14c414f6ce6c726faad",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "129404",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Lamine Yamal",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/129404/lamine-yamal-nasraoui-ebana",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/21/323ae443-f58c-4e3d-bad5-e026d3175e81/10-Lamine-BLUE.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/129404/portrait.jpg",
+      "sha256": "d22fe8a94e1c5d7b98ad4d1778e506bc8a0aac52c09729b50b55c70050641f11",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "19680",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Gabriel Jesus",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/19680/gabriel-fernando-de-jesus",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/09/03/20781c6e-5186-47ce-aa0c-f2d90c4d5085/09-Gabriel_Jesus-red.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/19680/portrait.jpg",
+      "sha256": "fec7fe478e208fe7e6968790078aa883f1323f2a229adbff4a944263783aea84",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "141411",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Marc Bernal",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/141411/marc-bernal",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/21/e026c314-3284-4509-aae8-aac9f929c8e2/22-Bernal-BLUE.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/141411/portrait.jpg",
+      "sha256": "73b78de4705e537b959d3ae058c069c23a2b6f2091649e3abc04d000d22f372a",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "16291",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Frenkie de Jong",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/16291/frenkie-de-jong",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/21/c6f44c49-1532-4041-bf76-0b80d48c2680/21-De_Jong-RED.png?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/16291/portrait.png",
+      "sha256": "34ab7fd93c7183dd7be3db83036e6f942c6c9bddb0e50c242ab80653174be998",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "16286",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Rodri",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/16286/rodrigo-hernandez-cascante",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/08/18/4ad1a791-ce44-4734-bc29-e8cb8c4cf82e/00-Rodri-grana.png?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/16286/portrait.png",
+      "sha256": "450008886530bf45c671e306559a02d729d632a06007a8981832cf3494dc8cbe",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "24156",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Raphinha",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/24156/raphael-dias-belloli",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/21/52cf522f-f115-4e64-8b22-6979d3687fae/11-Raphinha-RED.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/24156/portrait.jpg",
+      "sha256": "55d65aafc71e583888e733e785cb6c7e44232471ac655ec6396e5898ac35e61b",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "23747",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Anthony Gordon",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/23747/anthony-gordon",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/21/e22ebbbd-4707-423c-89f6-4ce7bbc34559/00-Gordon-RED.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/23747/portrait.jpg",
+      "sha256": "3e14f96652aa9356e606b86aba5105680cb9d98db677c40b819860ef96d06fbb",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "572280",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Hamza Mohamed Abdelkarim Elsayed Selim",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/572280/hamza-mohamed-abdelkarim-elsayed-selim",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/09/03/15566d63-53d3-4b35-8077-437adcaa1ed2/29-Hamza-blue.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/572280/portrait.jpg",
+      "sha256": "547d4f1ecbbce72d47989e1c040b85ac385d5e399e45667d799c2ecb53cf3c33",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "52163",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Karim Adeyemi",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/52163/karim-adeyemi",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/24/d7f6ac8e-1dd3-4cd5-9a79-6d2b1c3b21c0/00-Adeyemi-BLUE.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/52163/portrait.jpg",
+      "sha256": "1ae81183a694abc4fcf5e4b47e869b5bcb4c55874fd755cd5ab040d10c307b74",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "136745",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Jesse Bisiwu",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/136745/jesse-bisiwu",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/08/04/63e8788b-a4e5-4d96-9dcb-718e9ef0f9c6/00-Bisiwu-red.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/136745/portrait.jpg",
+      "sha256": "deeefa956ed22f93f04b5607522629e529d2934f7c0a6a66134d58f66e9588fa",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "123727",
+      "sourceClubSlug": "barcelona",
+      "kind": "player",
+      "nameAsPublished": "Roony Bardghji",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/players/123727/roony-bardghji",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/21/bf80b46d-292c-4dea-b240-e63ad38d17b1/28-Bardghji-BLUE.jpg?width=940&height=940",
+      "path": "assets/pending_media/spanish/barcelona/123727/portrait.jpg",
+      "sha256": "68d2fe1cbd1f72312fbab45a8a81763055d20dc45c924c081cedb8d17b0fb3fb",
+      "dimensions": [
+        940,
+        940
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    },
+    {
+      "sourcePersonId": "4030694",
+      "sourceClubSlug": "barcelona",
+      "kind": "coach",
+      "nameAsPublished": "Hansi Flick",
+      "sourcePage": "https://www.fcbarcelona.com/en/football/first-team/staff/4030694/hansi-flick",
+      "source": "https://www.fcbarcelona.com/photo-resources/2026/07/01/6181083d-ed6a-4c57-ae51-162701aa520e/00-Hansi_Flick.jpg?width=940",
+      "path": "assets/pending_media/spanish/barcelona/4030694/portrait.jpg",
+      "sha256": "a0f03d4e2b2214375bdd8cc6cf211536becc3af9cf560f817849bf73210db399",
+      "dimensions": [
+        940,
+        529
+      ],
+      "approved": false,
+      "identityReview": "pending",
+      "kitReview": "visible club kit; season and authenticity pending",
+      "rightsReview": "pending",
+      "sourceSquadPage": "https://www.fcbarcelona.com/en/football/first-team/players",
+      "sourceSquadSha256": "494696d1536bfd573cdb36faf3b2066ebcb1d5c2871fc13c2e426070535f6682",
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "faceVisible": true,
+        "frontOrNearFront": true,
+        "clubKitVisible": true,
+        "identityIndependentlyVerified": false,
+        "authenticityIndependentlyVerified": false,
+        "periodIndependentlyVerified": false,
+        "cardCropPending": true
+      }
+    }
+  ],
+  "failures": [],
+  "releaseReady": false
+}

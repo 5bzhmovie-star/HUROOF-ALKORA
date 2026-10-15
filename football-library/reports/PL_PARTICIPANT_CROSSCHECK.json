@@ -1,0 +1,152 @@
+{
+  "clubNameMatches": 20,
+  "newsSource": "https://www.premierleague.com/en/news/4706139/see-all-the-202627-premier-league-squad-lists",
+  "apiEvidence": {
+    "source": "https://footballapi.pulselive.com/football/teams?compSeasons=841&page=0&pageSize=100",
+    "sourceSha256": "f85c5a2ff9920ce28c4a6d5465224e8943e842379b2f4e210cdacd29605735cd",
+    "retrievedAt": "2026-10-15T00:20:09.363475+00:00"
+  },
+  "records": [
+    {
+      "nameAsPublishedInSquadNews": "AFC Bournemouth",
+      "nameAsPublishedInApi": "Bournemouth",
+      "newsSourceClubId": "127",
+      "apiSourceClubId": "127",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Arsenal",
+      "nameAsPublishedInApi": "Arsenal",
+      "newsSourceClubId": "1",
+      "apiSourceClubId": "1",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Aston Villa",
+      "nameAsPublishedInApi": "Aston Villa",
+      "newsSourceClubId": "2",
+      "apiSourceClubId": "2",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Brentford",
+      "nameAsPublishedInApi": "Brentford",
+      "newsSourceClubId": "130",
+      "apiSourceClubId": "130",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Brighton & Hove Albion",
+      "nameAsPublishedInApi": "Brighton & Hove Albion",
+      "newsSourceClubId": "131",
+      "apiSourceClubId": "131",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Chelsea",
+      "nameAsPublishedInApi": "Chelsea",
+      "newsSourceClubId": "4",
+      "apiSourceClubId": "4",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Coventry City",
+      "nameAsPublishedInApi": "Coventry City",
+      "newsSourceClubId": "9",
+      "apiSourceClubId": "5",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Crystal Palace",
+      "nameAsPublishedInApi": "Crystal Palace",
+      "newsSourceClubId": "6",
+      "apiSourceClubId": "6",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Everton",
+      "nameAsPublishedInApi": "Everton",
+      "newsSourceClubId": "7",
+      "apiSourceClubId": "7",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Fulham",
+      "nameAsPublishedInApi": "Fulham",
+      "newsSourceClubId": "34",
+      "apiSourceClubId": "34",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Hull City",
+      "nameAsPublishedInApi": "Hull City",
+      "newsSourceClubId": "88",
+      "apiSourceClubId": "41",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Ipswich Town",
+      "nameAsPublishedInApi": "Ipswich Town",
+      "newsSourceClubId": "40",
+      "apiSourceClubId": "8",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Leeds United",
+      "nameAsPublishedInApi": "Leeds United",
+      "newsSourceClubId": "2",
+      "apiSourceClubId": "9",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Liverpool",
+      "nameAsPublishedInApi": "Liverpool",
+      "newsSourceClubId": "14",
+      "apiSourceClubId": "10",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Manchester City",
+      "nameAsPublishedInApi": "Manchester City",
+      "newsSourceClubId": "43",
+      "apiSourceClubId": "11",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Manchester United",
+      "nameAsPublishedInApi": "Manchester United",
+      "newsSourceClubId": "1",
+      "apiSourceClubId": "12",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Newcastle United",
+      "nameAsPublishedInApi": "Newcastle United",
+      "newsSourceClubId": "4",
+      "apiSourceClubId": "23",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Nottingham Forest",
+      "nameAsPublishedInApi": "Nottingham Forest",
+      "newsSourceClubId": "17",
+      "apiSourceClubId": "15",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Sunderland",
+      "nameAsPublishedInApi": "Sunderland",
+      "newsSourceClubId": "56",
+      "apiSourceClubId": "29",
+      "identityMergeApproved": false
+    },
+    {
+      "nameAsPublishedInSquadNews": "Tottenham Hotspur",
+      "nameAsPublishedInApi": "Tottenham Hotspur",
+      "newsSourceClubId": "6",
+      "apiSourceClubId": "21",
+      "identityMergeApproved": false
+    }
+  ],
+  "releaseReady": false
+}

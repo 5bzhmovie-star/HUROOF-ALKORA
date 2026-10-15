@@ -97,6 +97,8 @@ def enrich_players(players,html,club_id):
    'publishedFirstName':record.get('mediaFirstName'),'publishedLastName':record.get('mediaLastName'),
    'preferredFoot':None,'verification':'pending-source-comparison'}
   player['providerId']=record.get('providerId');player['registeredSeasonIdAsPublished']=record.get('seasonId')
+  published_season=record.get('seasonId')
+  player['sourceSeasonId']=published_season.rsplit('::',1)[1] if isinstance(published_season,str) and re.fullmatch(r'spl::Football_Season::[a-f0-9]{32}',published_season) else None
  return players
 def parse_squad(html,club_id,source,language='ar'):
  soup=BeautifulSoup(html,'html.parser');players=[]
@@ -105,16 +107,16 @@ def parse_squad(html,club_id,source,language='ar'):
   if not re.fullmatch(r'https://www\.spl\.com\.sa/'+language+r'/players/[\w%-]+/',profile):continue
   card=anchor.parent;images=[i for i in card.find_all('img') if i.get('alt','').endswith(' Player Image')]
   if len(images)!=1:raise ValueError('Missing or ambiguous player image card')
-  image=images[0];match=PORTRAIT.fullmatch(image.get('src',''));season=competition=person=None;team=club_id;portrait=None
+  image=images[0];match=PORTRAIT.fullmatch(image.get('src',''));season=competition=person=None;image_context=[];team=club_id;portrait=None
   if match:
-   season,competition,team,person=match.groups()
+   image_context=list(match.groups()[:2]);team,person=match.groups()[2:]
    if team!=club_id:raise ValueError('Portrait jersey context belongs to another club')
    portrait=image['src']
   name=re.sub(r' Player Image$','',image.get('alt','')).strip()
   if not name:raise ValueError('Missing player name')
   header=anchor.find_previous('h2');numbers=[int(t) for t in card.stripped_strings if re.fullmatch(r'[0-9]{1,3}',t)]
   flags=[i.get('alt') for i in card.find_all('img') if '/flags/' in i.get('src','')]
-  players.append({'sourcePersonId':person,'sourceProfileKey':urlparse(profile).path.split('/')[3],'sourceClubId':team,'sourceSeasonId':season,'sourceCompetitionId':competition,'canonicalPlayerId':None,
+  players.append({'sourcePersonId':person,'sourceProfileKey':urlparse(profile).path.split('/')[3],'sourceClubId':team,'sourceSeasonId':season,'sourceCompetitionId':competition,'sourceImagePathContextIds':image_context,'canonicalPlayerId':None,
    'nameAr':name if language=='ar' else None,'nameEn':name if language=='en' else None,'profileUrl':profile,'portraitSource':portrait,
    'positionLabel':header.get_text(' ',strip=True) if header else None,'shirtNumber':numbers[0] if len(numbers)==1 else None,
    'nationalityCodeAsPublished':flags[0] if len(flags)==1 else None,'source':source,'verification':'pending','rights':'not-cleared-for-redistribution'})

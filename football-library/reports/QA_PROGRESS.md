@@ -85,3 +85,6 @@
 - انتهت محاولة جميع الروابط المحددة: 597 ملفًا محفوظًا، منها 577 صورة لاعب و20 شعارًا؛ 56 رابطًا رفضها المصدر برمز HTTP 403. لا صور مدربين إيطاليين معتمدة في هذه الدفعة.
 - الفحص الفعلي للوجود والبصمات: 555 أصلًا سعوديًا و597 إيطاليًا و26 صورة أتلتيك، دون ملفات مفقودة أو بصمات مختلفة بين ملفات سجلات هذه المجموعات.
 - حفظ الملف لا يثبت اعتماد الهوية أو القميص أو الفترة أو الحقوق. جميع الأصول المرشحة تبقى غير معتمدة للنشر النهائي.
+
+
+2026-10-15: Collected 20 official PL current first-team profile candidate sets (481 source people). Seventeen API source counts disagree with returned rows; no formal completeness asserted. Saved 55 Madrid/Barcelona portraits, 20 LaLiga logos and 151 English UEFA-context portraits. Saudi statistics collected for 276 profiles (35,128 as-published fields, not independent facts), with raw-source hashes verified. Subsequent collection blocked by network gateway tunnel HTTP 403. Local audit found 543 previously recorded Italian media files absent from this runtime; preserved report evidence, no false local availability claim. Python suite: 25 passing, one MySQL integration group skipped. Release remains blocked.

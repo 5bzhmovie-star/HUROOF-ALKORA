@@ -1,0 +1,1064 @@
+{
+  "source": "https://www.spl.com.sa/en/players/adrian-semper/",
+  "sourceSha256": "b1751110f28c9fcba2e7a908e9be05b8539c77ee858298598614056eeb169973",
+  "retrievedAt": "2026-10-15",
+  "sourcePersonId": "8cd00ed2103b4d619da80715ef4ff9c9",
+  "sourceClubId": "02f22b11aa604566a1858f96addb669c",
+  "sourceSeasonId": "3677a75aaa514e43b2840e7fa367c91d",
+  "statisticsAsPublished": [
+    {
+      "statsId": "games-played",
+      "statsLabel": "Games Played",
+      "statsLabelAbbreviation": "",
+      "statsValue": 5,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "minutes-played",
+      "statsLabel": "Minutes Played",
+      "statsLabelAbbreviation": "Minutes Played",
+      "statsValue": 450,
+      "statsUnit": "minutes",
+      "statsUnitAbbreviation": "'"
+    },
+    {
+      "statsId": "goals",
+      "statsLabel": "Goals",
+      "statsLabelAbbreviation": "Goals",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "assists",
+      "statsLabel": "Assists",
+      "statsLabelAbbreviation": "Assists",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "total-scoring-attempts",
+      "statsLabel": "Total scoring attempts",
+      "statsLabelAbbreviation": "S",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "goal-involvements",
+      "statsLabel": "Goals Involvements",
+      "statsLabelAbbreviation": "GI",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "on-target-scoring-attempts",
+      "statsLabel": "On Target Scoring Attempts",
+      "statsLabelAbbreviation": "SOT",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "total-attacking-assist",
+      "statsLabel": "Total attacking assists",
+      "statsLabelAbbreviation": "KP",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "tackles-won",
+      "statsLabel": "Tackles Won",
+      "statsLabelAbbreviation": "TWon",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "fouls-committed",
+      "statsLabel": "Fouls committed",
+      "statsLabelAbbreviation": "FC",
+      "statsValue": 1,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "fouls-suffered",
+      "statsLabel": "Fouls Suffered",
+      "statsLabelAbbreviation": "FS",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "total-offside",
+      "statsLabel": "Total offside",
+      "statsLabelAbbreviation": "OFF",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "yellow-cards",
+      "statsLabel": "Yellow Cards",
+      "statsLabelAbbreviation": "Yellow Cards",
+      "statsValue": 1,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "red-cards",
+      "statsLabel": "Red Cards",
+      "statsLabelAbbreviation": "Red Cards",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Aerials-Won-Perc",
+      "statsLabel": "Aerials Won Percentage",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "accurate-pass-percentage",
+      "statsLabel": "Accurate Pass Percentage",
+      "statsLabelAbbreviation": "Accurate Pass %",
+      "statsValue": 68,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "goals-conceded",
+      "statsLabel": "Goals conceded",
+      "statsLabelAbbreviation": "",
+      "statsValue": 10,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "goals-against-average",
+      "statsLabel": "Goals against average",
+      "statsLabelAbbreviation": "GAA",
+      "statsValue": 2,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "corners",
+      "statsLabel": "Corners",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "goals-free-kick",
+      "statsLabel": "Goals Free kick",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "hit-woodwork",
+      "statsLabel": "Hit Woodwork",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "penalty-attempts",
+      "statsLabel": "Penalty Attempts",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "penalties-successful",
+      "statsLabel": "Penalties Successful",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "yellow-red-cards",
+      "statsLabel": "Yellow Red Cards",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "tackles-won-perc",
+      "statsLabel": "Tackles Won Percentage",
+      "statsLabelAbbreviation": "%",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "duels-won-perc",
+      "statsLabel": "Duels Won Percentage",
+      "statsLabelAbbreviation": "DWP",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "aerial-duels-won-perc",
+      "statsLabel": "Aerial Duels Won Percentage",
+      "statsLabelAbbreviation": "ADWP",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "crosses-complete-percentage",
+      "statsLabel": "Cross Complete Percentage",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "total-distance-covered",
+      "statsLabel": "Total Distance Covered",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "avg-distance-covered",
+      "statsLabel": "Average Distance Covered",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "total-distance-covered-walking",
+      "statsLabel": "Total Distance Covered Walking",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "average-distance-covered-walking",
+      "statsLabel": "Average Distance Covered Walking",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "total-distance-covered-jogging",
+      "statsLabel": "Total Distance Covered Jogging",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "average-distance-covered-jogging",
+      "statsLabel": "Average Distance Covered Jogging",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "total-distance-covered-low-intensity-running",
+      "statsLabel": "Total Distance Covered Low Intensity Running",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "average-distance-covered-low-intensity-running",
+      "statsLabel": "Average Distance Covered Low Intensity Running",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "total-distance-covered-sprinting",
+      "statsLabel": "Total Distance Covered Sprinting",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "average-distance-covered-sprinting",
+      "statsLabel": "Average Distance Covered Sprinting",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "total-distance-covered-high-intensity-running",
+      "statsLabel": "Total Distance Covered High Intensity Running",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "average-distance-covered-high-intensity-running",
+      "statsLabel": "Average Distance Covered High Intensity Running",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "sprints",
+      "statsLabel": "Sprints",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "average-speed",
+      "statsLabel": "Average Speed",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "top-speed",
+      "statsLabel": "Top Speed",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "accurate-pass",
+      "statsLabel": "Accurate Pass",
+      "statsLabelAbbreviation": "Accurate Passes",
+      "statsValue": 96,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "accurate-forward-pass",
+      "statsLabel": "Accurate Forward Pass",
+      "statsLabelAbbreviation": "PFwd",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "total-pass",
+      "statsLabel": "Total Pass",
+      "statsLabelAbbreviation": "Total Passes",
+      "statsValue": 143,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "cross",
+      "statsLabel": "Cross",
+      "statsLabelAbbreviation": "Cross",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "assists-average-over-90-minutes",
+      "statsLabel": "Assists average over 90 minutes",
+      "statsLabelAbbreviation": "A/90min",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "accurate-long-balls",
+      "statsLabel": "Accurate long balls",
+      "statsLabelAbbreviation": "LB",
+      "statsValue": 22,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "successful-short-passes",
+      "statsLabel": "Successful short passes",
+      "statsLabelAbbreviation": "SP",
+      "statsValue": 74,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "turnover",
+      "statsLabel": "Turnover",
+      "statsLabelAbbreviation": "TO",
+      "statsValue": 49,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "cross-attempts",
+      "statsLabel": "Cross Attempts",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "long-pass-attempts",
+      "statsLabel": "Long Pass Attempts",
+      "statsLabelAbbreviation": "",
+      "statsValue": 67,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "long-passes-successful",
+      "statsLabel": "Long Passes Successful",
+      "statsLabelAbbreviation": "",
+      "statsValue": 22,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "medium-passes-successful",
+      "statsLabel": "Medium Passes Successful",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "goals-average-over-90-minutes",
+      "statsLabel": "Goals average over 90 minutes",
+      "statsLabelAbbreviation": "G/90min",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "penalty-kick-goals",
+      "statsLabel": "Penalty kick goals",
+      "statsLabelAbbreviation": "PKG",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "penalty-kick-taken",
+      "statsLabel": "Penalty Kick Taken",
+      "statsLabelAbbreviation": "PKA",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "penalty-kick-percentage",
+      "statsLabel": "Penalty kick percentage",
+      "statsLabelAbbreviation": "PK%",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "accurate-shooting-percentage",
+      "statsLabel": "Accurate Shooting %",
+      "statsLabelAbbreviation": "Accurate Shooting Percentage",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "successful-dribble",
+      "statsLabel": "Successful Dribble",
+      "statsLabelAbbreviation": "Successful Dribble",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "dribble-percentage",
+      "statsLabel": "Dribble percentage",
+      "statsLabelAbbreviation": "DRB%",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "goals-plus-assists",
+      "statsLabel": "Goals + assists",
+      "statsLabelAbbreviation": "G+A",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "dribble-attemps",
+      "statsLabel": "Dribble Attempts",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "shotsOnGoalPerc",
+      "statsLabel": "Shots On Goal Percentage %",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "tackle",
+      "statsLabel": "Tackles",
+      "statsLabelAbbreviation": "Tackles",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "tackle-percentage",
+      "statsLabel": "Tackles percentage",
+      "statsLabelAbbreviation": "Tackles %",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "interception",
+      "statsLabel": "Interceptions",
+      "statsLabelAbbreviation": "Interceptions",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "headed-duel",
+      "statsLabel": "Headed duel",
+      "statsLabelAbbreviation": "HD",
+      "statsValue": 1,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "saves",
+      "statsLabel": "Saves",
+      "statsLabelAbbreviation": "Saves",
+      "statsValue": 19,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "penalty-conceded",
+      "statsLabel": "Penalty conceded",
+      "statsLabelAbbreviation": "PKGA",
+      "statsValue": 1,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "long-ball-percentage",
+      "statsLabel": "Long ball percentage",
+      "statsLabelAbbreviation": "LB%",
+      "statsValue": 33,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "total-cleareance",
+      "statsLabel": "Total cleareance",
+      "statsLabelAbbreviation": "CLR",
+      "statsValue": 4,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "goalkeeper-saves-per-90-min",
+      "statsLabel": "GoalKeeper Saves Per 90 Minutes",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "goalkeeper-saves-per-match",
+      "statsLabel": "GoalKeeper Saves Per Match",
+      "statsLabelAbbreviation": "",
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Aerial Duels",
+      "statsLabel": "Aerial Duels",
+      "statsLabelAbbreviation": null,
+      "statsValue": 1,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Aerial Duels lost",
+      "statsLabel": "Aerial Duels lost",
+      "statsLabelAbbreviation": null,
+      "statsValue": 1,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Appearances",
+      "statsLabel": "Appearances",
+      "statsLabelAbbreviation": null,
+      "statsValue": 5,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Carries",
+      "statsLabel": "Carries",
+      "statsLabelAbbreviation": null,
+      "statsValue": 12,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Catches",
+      "statsLabel": "Catches",
+      "statsLabelAbbreviation": null,
+      "statsValue": 6,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Clean Sheets",
+      "statsLabel": "Clean Sheets",
+      "statsLabelAbbreviation": null,
+      "statsValue": 2,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Duels",
+      "statsLabel": "Duels",
+      "statsLabelAbbreviation": null,
+      "statsValue": 2,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Duels lost",
+      "statsLabel": "Duels lost",
+      "statsLabelAbbreviation": null,
+      "statsValue": 2,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Forward Passes",
+      "statsLabel": "Forward Passes",
+      "statsLabelAbbreviation": null,
+      "statsValue": 79,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Foul Attempted Tackle",
+      "statsLabel": "Foul Attempted Tackle",
+      "statsLabelAbbreviation": null,
+      "statsValue": 1,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "GK Successful Distribution",
+      "statsLabel": "GK Successful Distribution",
+      "statsLabelAbbreviation": null,
+      "statsValue": 48,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "GK Unsuccessful Distribution",
+      "statsLabel": "GK Unsuccessful Distribution",
+      "statsLabelAbbreviation": null,
+      "statsValue": 12,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Games Played",
+      "statsLabel": "Games Played",
+      "statsLabelAbbreviation": null,
+      "statsValue": 5,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Goal Kicks",
+      "statsLabel": "Goal Kicks",
+      "statsLabelAbbreviation": null,
+      "statsValue": 42,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Goals Conceded",
+      "statsLabel": "Goals Conceded",
+      "statsLabelAbbreviation": null,
+      "statsValue": 10,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Goals Conceded Inside Box",
+      "statsLabel": "Goals Conceded Inside Box",
+      "statsLabelAbbreviation": null,
+      "statsValue": 9,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Goals Conceded Outside Box",
+      "statsLabel": "Goals Conceded Outside Box",
+      "statsLabelAbbreviation": null,
+      "statsValue": 1,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Ground Duels",
+      "statsLabel": "Ground Duels",
+      "statsLabelAbbreviation": null,
+      "statsValue": 1,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Ground Duels lost",
+      "statsLabel": "Ground Duels lost",
+      "statsLabelAbbreviation": null,
+      "statsValue": 1,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Leftside Passes",
+      "statsLabel": "Leftside Passes",
+      "statsLabelAbbreviation": null,
+      "statsValue": 33,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Open Play Passes",
+      "statsLabel": "Open Play Passes",
+      "statsLabelAbbreviation": null,
+      "statsValue": 74,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Penalties Conceded",
+      "statsLabel": "Penalties Conceded",
+      "statsLabelAbbreviation": null,
+      "statsValue": 1,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Penalties Faced",
+      "statsLabel": "Penalties Faced",
+      "statsLabelAbbreviation": null,
+      "statsValue": 3,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Penalty Goals Conceded",
+      "statsLabel": "Penalty Goals Conceded",
+      "statsLabelAbbreviation": null,
+      "statsValue": 3,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Progressive Carries",
+      "statsLabel": "Progressive Carries",
+      "statsLabelAbbreviation": null,
+      "statsValue": 6,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Punches",
+      "statsLabel": "Punches",
+      "statsLabelAbbreviation": null,
+      "statsValue": 1,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Recoveries",
+      "statsLabel": "Recoveries",
+      "statsLabelAbbreviation": null,
+      "statsValue": 35,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Rightside Passes",
+      "statsLabel": "Rightside Passes",
+      "statsLabelAbbreviation": null,
+      "statsValue": 31,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Saves Made",
+      "statsLabel": "Saves Made",
+      "statsLabelAbbreviation": null,
+      "statsValue": 19,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Saves Made from Inside Box",
+      "statsLabel": "Saves Made from Inside Box",
+      "statsLabelAbbreviation": null,
+      "statsValue": 14,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Saves Made from Outside Box",
+      "statsLabel": "Saves Made from Outside Box",
+      "statsLabelAbbreviation": null,
+      "statsValue": 4,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Saves made - caught",
+      "statsLabel": "Saves made - caught",
+      "statsLabelAbbreviation": null,
+      "statsValue": 1,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Saves made - parried",
+      "statsLabel": "Saves made - parried",
+      "statsLabelAbbreviation": null,
+      "statsValue": 7,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Starts",
+      "statsLabel": "Starts",
+      "statsLabelAbbreviation": null,
+      "statsValue": 5,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Successful Launches",
+      "statsLabel": "Successful Launches",
+      "statsLabelAbbreviation": null,
+      "statsValue": 7,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Successful Long Passes",
+      "statsLabel": "Successful Long Passes",
+      "statsLabelAbbreviation": null,
+      "statsValue": 22,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Successful Open Play Passes",
+      "statsLabel": "Successful Open Play Passes",
+      "statsLabelAbbreviation": null,
+      "statsValue": 53,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Successful Passes Opposition Half",
+      "statsLabel": "Successful Passes Opposition Half",
+      "statsLabelAbbreviation": null,
+      "statsValue": 15,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Successful Passes Own Half",
+      "statsLabel": "Successful Passes Own Half",
+      "statsLabelAbbreviation": null,
+      "statsValue": 81,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Successful Short Passes",
+      "statsLabel": "Successful Short Passes",
+      "statsLabelAbbreviation": null,
+      "statsValue": 74,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Time Played",
+      "statsLabel": "Time Played",
+      "statsLabelAbbreviation": null,
+      "statsValue": 450,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Total Big Chances Saved",
+      "statsLabel": "Total Big Chances Saved",
+      "statsLabelAbbreviation": null,
+      "statsValue": 7,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Total Clearances",
+      "statsLabel": "Total Clearances",
+      "statsLabelAbbreviation": null,
+      "statsValue": 4,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Total Fouls Conceded",
+      "statsLabel": "Total Fouls Conceded",
+      "statsLabelAbbreviation": null,
+      "statsValue": 1,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Total Losses Of Possession",
+      "statsLabel": "Total Losses Of Possession",
+      "statsLabelAbbreviation": null,
+      "statsValue": 49,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Total Passes",
+      "statsLabel": "Total Passes",
+      "statsLabelAbbreviation": null,
+      "statsValue": 143,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Total Successful Passes ( Excl Crosses & Corners ) ",
+      "statsLabel": "Total Successful Passes ( Excl Crosses & Corners ) ",
+      "statsLabelAbbreviation": null,
+      "statsValue": 96,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Total Unsuccessful Passes ( Excl Crosses & Corners )",
+      "statsLabel": "Total Unsuccessful Passes ( Excl Crosses & Corners )",
+      "statsLabelAbbreviation": null,
+      "statsValue": 47,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Touches",
+      "statsLabel": "Touches",
+      "statsLabelAbbreviation": null,
+      "statsValue": 192,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Unsuccessful Launches",
+      "statsLabel": "Unsuccessful Launches",
+      "statsLabelAbbreviation": null,
+      "statsValue": 24,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Unsuccessful Long Passes",
+      "statsLabel": "Unsuccessful Long Passes",
+      "statsLabelAbbreviation": null,
+      "statsValue": 45,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Unsuccessful Passes Opposition Half",
+      "statsLabel": "Unsuccessful Passes Opposition Half",
+      "statsLabelAbbreviation": null,
+      "statsValue": 34,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Unsuccessful Passes Own Half",
+      "statsLabel": "Unsuccessful Passes Own Half",
+      "statsLabelAbbreviation": null,
+      "statsValue": 13,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Unsuccessful Short Passes",
+      "statsLabel": "Unsuccessful Short Passes",
+      "statsLabelAbbreviation": null,
+      "statsValue": 2,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Yellow Cards",
+      "statsLabel": "Yellow Cards",
+      "statsLabelAbbreviation": null,
+      "statsValue": 1,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    },
+    {
+      "statsId": "Winning Goal",
+      "statsLabel": "Winning Goal",
+      "statsLabelAbbreviation": null,
+      "statsValue": 0,
+      "statsUnit": null,
+      "statsUnitAbbreviation": null
+    }
+  ],
+  "omittedUnlicensedAdvancedMetrics": [
+    "Xg",
+    "XGEfficiency"
+  ],
+  "verification": "pending-independent-period-and-data-license-review",
+  "releaseReady": false
+}

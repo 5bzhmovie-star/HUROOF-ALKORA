@@ -8,3 +8,8 @@ reports/UEFA_ROSTER_CHECKPOINT.json
 reports/SERIEA_ROSTER_CHECKPOINT.json
 reports/ATHLETIC_PROFILE_CHECKPOINT.json
 reports/*.tmp
+
+sources/spl_profiles/
+reports/SPL_PROFILE_STATISTICS_CHECKPOINT.json
+
+data/statistics/spl_current_season_source_candidates.json

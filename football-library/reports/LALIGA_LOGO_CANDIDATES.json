@@ -1,0 +1,426 @@
+{
+  "records": [
+    {
+      "sourceClubId": "13",
+      "clubName": "Club Atlético Osasuna",
+      "source": "https://assets.laliga.com/assets/2019/06/07/xlarge/osasuna.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/13/logo.png",
+      "sha256": "e6831aad5af0c23d5bae8456185b42d25cd76c37bd3da050aa93b2a7bcab9f15",
+      "dimensions": [
+        900,
+        900
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "6",
+      "clubName": "Real Club Celta de Vigo SAD",
+      "source": "https://assets.laliga.com/assets/2025/07/11/xlarge/0a796827f9e758d7d750db805adde7c5.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/6/logo.png",
+      "sha256": "c621d401461777b9fc93edfde458414404fc68727c81bb84f29cc34ad6809770",
+      "dimensions": [
+        900,
+        875
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "3",
+      "clubName": "Athletic Club",
+      "source": "https://assets.laliga.com/assets/2019/06/07/xlarge/athletic.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/3/logo.png",
+      "sha256": "53517022daddead0f5eb9bf4f55ce55116a877276e9374bbead3341ad6b3c27e",
+      "dimensions": [
+        900,
+        900
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "2",
+      "clubName": "Club Atlético de Madrid SAD",
+      "source": "https://assets.laliga.com/assets/2024/06/17/xlarge/cbc5c8cc8c3e8abd0e175c00ee53b723.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/2/logo.png",
+      "sha256": "18c11d0a7dd5e0b7dee8761cfe12d753fabde2e45c00fd0b73a1941dec371052",
+      "dimensions": [
+        900,
+        900
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "9",
+      "clubName": "Getafe Club de Fútbol SAD",
+      "source": "https://assets.laliga.com/assets/2023/05/12/xlarge/dc59645c96bc2c9010341c16dd6d4bfa.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/9/logo.png",
+      "sha256": "c109885524e87aae74ccb849e147a19a893e3d500d18ea1d57509585c56bb7b5",
+      "dimensions": [
+        900,
+        900
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "4",
+      "clubName": "Fútbol Club Barcelona",
+      "source": "https://assets.laliga.com/assets/2019/06/07/xlarge/barcelona.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/4/logo.png",
+      "sha256": "ff52fd1f863b497a06a0f2d46cb15994651383a42866bf21e873d1ab817ccc28",
+      "dimensions": [
+        900,
+        900
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "7",
+      "clubName": "Elche Club de Fútbol SAD",
+      "source": "https://assets.laliga.com/assets/2019/06/07/xlarge/elche.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/7/logo.png",
+      "sha256": "c50d7c24df44012db54a4f3d5beb89ff8a7ce8ded507ebbcefaa25d6dcc494a0",
+      "dimensions": [
+        900,
+        900
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "21",
+      "clubName": "Deportivo Alavés SAD",
+      "source": "https://assets.laliga.com/assets/2020/09/01/xlarge/27002754a98bf535807fe49a24cc63ea.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/21/logo.png",
+      "sha256": "74a951f2959d421f23e2359304b9737e23a0f41e4cd8e1f702ac35139f19dcd6",
+      "dimensions": [
+        900,
+        900
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "11",
+      "clubName": "Levante Unión Deportiva SAD",
+      "source": "https://assets.laliga.com/assets/2019/06/07/xlarge/levante.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/11/logo.png",
+      "sha256": "25bec3f59fc89a17fe39dcef9eb67036b7c5becc89b375dc692f1579fca56dd1",
+      "dimensions": [
+        900,
+        900
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "49",
+      "clubName": "Real Racing Club SAD",
+      "source": "https://assets.laliga.com/assets/2019/06/07/xlarge/racing.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/49/logo.png",
+      "sha256": "9c324e573dfc278ddb8beb0177d88b081446f385fe5738004fbb3e2548b64e3d",
+      "dimensions": [
+        900,
+        900
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "14",
+      "clubName": "Rayo Vallecano de Madrid SAD",
+      "source": "https://assets.laliga.com/assets/2023/04/27/xlarge/57d9950a8745ead226c04d37235c0786.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/14/logo.png",
+      "sha256": "36c45d2cf0fe782170a9431ff93001dac93e8ebb275a96939010a6c83ec160ff",
+      "dimensions": [
+        900,
+        900
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "12",
+      "clubName": "Málaga Club de Fútbol SAD",
+      "source": "https://assets.laliga.com/assets/2019/06/07/xlarge/malaga.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/12/logo.png",
+      "sha256": "e61a0a6f15efa031cdc33f6cb93bd82622953a9ebf6ec060567dd845107d97f7",
+      "dimensions": [
+        900,
+        900
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "5",
+      "clubName": "Real Betis Balompié SAD",
+      "source": "https://assets.laliga.com/assets/2022/09/15/xlarge/e4a09419d3bd115b8f3dab73d480e146.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/5/logo.png",
+      "sha256": "5c8e85b0ab41348e478b525f4f540379599bfd1b3c62fa60d620c307344ccec8",
+      "dimensions": [
+        900,
+        900
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "26",
+      "clubName": "Real Club Deportivo de A Coruña SAD",
+      "source": "https://assets.laliga.com/assets/2026/06/24/xlarge/6b88661529a2c06840c8bf6bddd90970.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/26/logo.png",
+      "sha256": "37b01a657b8cbb3c5143d1b44c908f3753c1c1257bf2a05e4370077b28eac087",
+      "dimensions": [
+        900,
+        900
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "15",
+      "clubName": "Real Madrid Club de Fútbol",
+      "source": "https://assets.laliga.com/assets/2019/06/07/xlarge/real-madrid.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/15/logo.png",
+      "sha256": "50a6b5a013dc4d2675848e6978c6fc79339ba4fd0bdffc626673a92ecab597c9",
+      "dimensions": [
+        900,
+        900
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "8",
+      "clubName": "RCD Espanyol de Barcelona",
+      "source": "https://assets.laliga.com/assets/2025/07/02/xlarge/e9177f6edd72c6360602adbca85e442f.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/8/logo.png",
+      "sha256": "71ee16c12a968be5e11500bc97f6c09349e41563798a95d184db78e97aaf0e58",
+      "dimensions": [
+        900,
+        844
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "20",
+      "clubName": "Villarreal Club de Fútbol SAD",
+      "source": "https://assets.laliga.com/assets/2019/06/07/xlarge/villarreal.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/20/logo.png",
+      "sha256": "689469b059b59c0021cad433bc2a0d8a07ad3ce46f67d08b794be9c2d762f265",
+      "dimensions": [
+        900,
+        900
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "18",
+      "clubName": "Valencia Club de Fútbol SAD",
+      "source": "https://assets.laliga.com/assets/2019/06/07/xlarge/valencia.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/18/logo.png",
+      "sha256": "acc1bae0f5e251180fb6f22e8bd3819c9f9e5d34ed74b45d58575dbc9dc741e2",
+      "dimensions": [
+        900,
+        900
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "16",
+      "clubName": "Real Sociedad de Fútbol SAD",
+      "source": "https://assets.laliga.com/assets/2019/06/07/xlarge/real-sociedad.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/16/logo.png",
+      "sha256": "4b9250ce4403dbebd9c26500a81067824d1a0924f69a4fc7d6ab384de549a57a",
+      "dimensions": [
+        900,
+        900
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    },
+    {
+      "sourceClubId": "17",
+      "clubName": "Sevilla Fútbol Club SAD",
+      "source": "https://assets.laliga.com/assets/2019/06/07/xlarge/sevilla.png",
+      "sourcePage": "https://www.laliga.com/en-EG/laliga-easports/clubs",
+      "path": "assets/pending_media/laliga/clubs/17/logo.png",
+      "sha256": "35cb221018557c069371631c1690184034fa82721685fd8e7a4c407a9d44c0f3",
+      "dimensions": [
+        900,
+        900
+      ],
+      "rightsReview": "pending",
+      "visualReview": {
+        "reviewedAt": "2026-10-15",
+        "legible": true,
+        "uncropped": true,
+        "matchesPublishedClubContext": true,
+        "independentCurrentVersionVerified": false
+      },
+      "approved": false
+    }
+  ],
+  "failures": [],
+  "releaseReady": false
+}
