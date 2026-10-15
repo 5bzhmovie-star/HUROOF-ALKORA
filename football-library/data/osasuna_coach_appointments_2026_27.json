@@ -1,0 +1,81 @@
+{
+  "records": [
+    {
+      "sourcePersonKey": "osasuna:jagoba-arrasate",
+      "nameOriginal": "Jagoba Arrasate Elustondo",
+      "nameEn": "Jagoba Arrasate Elustondo",
+      "nameAr": null,
+      "dateOfBirth": "1978-04-22",
+      "birthplaceAsPublished": "Berriatua, Bizkaia",
+      "sourceClubId": "13",
+      "clubIdNamespace": "laliga",
+      "season": "2026-2027",
+      "role": "head_coach",
+      "announcementDate": "2026-10-12",
+      "appointmentEffectiveDate": null,
+      "contractEndAsAnnounced": "2029-06-30",
+      "tenureEndConfirmed": null,
+      "verification": "pending",
+      "source": "https://www.osasuna.es/jagoba-arrasate-2029",
+      "sourceSha256": "6cc14b08462bd29a0986c243a78303927f11d1f61da0963d6f8cedcf8ae1374a",
+      "previousTenureAsPublished": {
+        "club": "Osasuna",
+        "startsYear": 2018,
+        "endsYear": 2024,
+        "matches": 256,
+        "honors": [
+          {
+            "competition": "Segunda Division",
+            "achievement": "champion and promotion",
+            "season": "2018-2019"
+          },
+          {
+            "competition": "Copa del Rey",
+            "achievement": "runner-up",
+            "season": "2022-2023"
+          }
+        ],
+        "otherFormerTeamsMentioned": [
+          "Real Sociedad",
+          "Numancia",
+          "Mallorca"
+        ],
+        "MallorcaMatchesAsPublished": 68
+      },
+      "editorialImageSource": "https://www.osasuna.es/public/Image/2026/10/fichajeweb2_png.webp",
+      "imageFailure": "HTTP Error 403: Forbidden"
+    },
+    {
+      "sourcePersonKey": "osasuna:luis-miguel-ramis",
+      "nameOriginal": "Luis Miguel Ramis Monfort",
+      "nameEn": "Luis Miguel Ramis Monfort",
+      "nameAr": null,
+      "dateOfBirth": "1970-07-25",
+      "birthplaceAsPublished": "Tarragona",
+      "sourceClubId": "13",
+      "clubIdNamespace": "laliga",
+      "season": "2026-2027",
+      "role": "head_coach",
+      "announcementDate": "2026-06-10",
+      "appointmentEffectiveDate": null,
+      "contractEndAsAnnounced": "2028-06-30",
+      "tenureEndConfirmed": "2026-10-12",
+      "verification": "pending",
+      "source": "https://www.osasuna.es/en/osasuna-names-luis-miguel-ramis-as-coach",
+      "sourceSha256": "bfe22af47cce2e876ebeb47ddac9ea9c980b6f522d72cc9770285a3d3e2b18c5",
+      "departureEvidence": {
+        "source": "https://www.osasuna.es/luis-miguel-ramis-no-continuara-como-entrenador-de-osasuna",
+        "sourceSha256": "2f762b97c90c3f7b636a0cd8ce08403a933e0328c63055db6b1128ca0168a229",
+        "announcementDate": "2026-10-12",
+        "reason": "dismissal confirmed by club"
+      },
+      "editorialImageSource": "https://www.osasuna.es/public/Image/2026/6/1781080961ramisweb_png.webp"
+    }
+  ],
+  "releaseReady": false,
+  "limitations": [
+    "Announcement dates are not assumed exact contract start dates",
+    "Osasuna has no head coach listed in current LaLiga squad response; official club appointments retained separately",
+    "Arabic names, portrait identity/quality/rights and full coaching records pending"
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "season": "2026-2027",
+  "referenceDate": "2026-10-15",
+  "clubsActuallyCollected": 20,
+  "playerRecordsActuallyCollected": 587,
+  "uniqueSourcePeople": 587,
+  "sameSourceDuplicatePeople": 0,
+  "currentHeadCoachSources": 20,
+  "fieldsAsPublished": {
+    "dateOfBirth": 587,
+    "birthplace": 513,
+    "positiveHeightCm": 562,
+    "positiveWeightKg": 530,
+    "nationalityCountryCode": 587
+  },
+  "apiFailures": [],
+  "clubData": [
+    {
+      "sourceClubId": "13",
+      "name": "CA Osasuna",
+      "players": 28,
+      "headCoachesInLeagueResponse": 0,
+      "otherStaffInactiveLoanedOutExcluded": 0
+    },
+    {
+      "sourceClubId": "6",
+      "name": "Celta",
+      "players": 28,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 1
+    },
+    {
+      "sourceClubId": "3",
+      "name": "Athletic Club",
+      "players": 28,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 1
+    },
+    {
+      "sourceClubId": "2",
+      "name": "Atlético de Madrid",
+      "players": 28,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 1
+    },
+    {
+      "sourceClubId": "21",
+      "name": "Deportivo Alavés",
+      "players": 27,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 1
+    },
+    {
+      "sourceClubId": "9",
+      "name": "Getafe CF",
+      "players": 33,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 1
+    },
+    {
+      "sourceClubId": "4",
+      "name": "FC Barcelona",
+      "players": 30,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 1
+    },
+    {
+      "sourceClubId": "7",
+      "name": "Elche CF",
+      "players": 29,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 1
+    },
+    {
+      "sourceClubId": "11",
+      "name": "Levante UD",
+      "players": 27,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 1
+    },
+    {
+      "sourceClubId": "14",
+      "name": "Rayo Vallecano",
+      "players": 33,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 1
+    },
+    {
+      "sourceClubId": "12",
+      "name": "Málaga CF",
+      "players": 30,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 1
+    },
+    {
+      "sourceClubId": "49",
+      "name": "R. Racing Club",
+      "players": 28,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 1
+    },
+    {
+      "sourceClubId": "8",
+      "name": "RCD Espanyol de Barcelona",
+      "players": 29,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 1
+    },
+    {
+      "sourceClubId": "5",
+      "name": "Real Betis",
+      "players": 28,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 1
+    },
+    {
+      "sourceClubId": "26",
+      "name": "RC Deportivo",
+      "players": 29,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 1
+    },
+    {
+      "sourceClubId": "15",
+      "name": "Real Madrid",
+      "players": 32,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 1
+    },
+    {
+      "sourceClubId": "16",
+      "name": "Real Sociedad",
+      "players": 29,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 1
+    },
+    {
+      "sourceClubId": "18",
+      "name": "Valencia CF",
+      "players": 33,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 1
+    },
+    {
+      "sourceClubId": "20",
+      "name": "Villarreal CF",
+      "players": 27,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 2
+    },
+    {
+      "sourceClubId": "17",
+      "name": "Sevilla FC",
+      "players": 31,
+      "headCoachesInLeagueResponse": 1,
+      "otherStaffInactiveLoanedOutExcluded": 1
+    }
+  ],
+  "releaseReady": false,
+  "remaining": [
+    "Images downloading and visual review ongoing; silhouettes rejected",
+    "Formal registrations and cross-source identities not fully reconciled",
+    "Arabic names, full historical transfers/statistics/honors and all career fields missing or partial",
+    "All-three-league encyclopedia and game integration incomplete"
+  ]
+}

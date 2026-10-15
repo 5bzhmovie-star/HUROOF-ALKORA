@@ -1,0 +1,699 @@
+{
+  "season": "2026-2027",
+  "currentCoachSources": [
+    {
+      "sourcePersonId": "35633",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "6",
+      "clubName": "Celta",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 35633,
+        "name": "Claudio Giráldez",
+        "nickname": "Claudio Giraldez",
+        "firstname": "Claudio",
+        "lastname": "Giráldez",
+        "gender": "male",
+        "date_of_birth": "1988-02-24T00:00:00+00:00",
+        "place_of_birth": "O Porriño",
+        "international": false,
+        "country": {
+          "id": "ES"
+        },
+        "slug": "claudio-giraldez"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/rc-celta/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "e8dc49a1b0028904fb71bff2d4e03ad40514464e823e1411eb3dcf2ac6281fbd",
+          "retrievedAt": "2026-10-15T06:07:32.218059+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "17175",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "3",
+      "clubName": "Athletic Club",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 17175,
+        "name": "Edin Terzic",
+        "nickname": "Terzic",
+        "firstname": "Edin",
+        "lastname": "Terzic",
+        "gender": "male",
+        "date_of_birth": "1982-10-30T00:00:00+00:00",
+        "place_of_birth": "Menden",
+        "international": false,
+        "country": {
+          "id": "DE"
+        },
+        "slug": "edin-terzic"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/athletic-club/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "f8b55f1cc591bd2b8be797387762824428de2eafd07043b527d5115ac6e91d4b",
+          "retrievedAt": "2026-10-15T06:07:32.245162+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "581",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "2",
+      "clubName": "Atlético de Madrid",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 581,
+        "name": "Diego Simeone",
+        "nickname": "Simeone",
+        "firstname": "Diego",
+        "lastname": "Simeone",
+        "gender": "male",
+        "date_of_birth": "1970-04-28T00:00:00+00:00",
+        "place_of_birth": "Buenos Aires",
+        "international": false,
+        "country": {
+          "id": "AR"
+        },
+        "slug": "simeone"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/atletico-de-madrid/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "3c6a3ffd92b8decef351ae548c2f7039efdc1c5cd9ef7deb4b422c0d222a5f95",
+          "retrievedAt": "2026-10-15T06:07:32.255868+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "1724",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "21",
+      "clubName": "Deportivo Alavés",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 1724,
+        "name": "Enrique Sánchez Flores",
+        "nickname": "Sanchez Flores",
+        "firstname": "Enrique",
+        "lastname": "Sánchez Flores",
+        "gender": "male",
+        "date_of_birth": "1965-02-02T00:00:00+00:00",
+        "international": false,
+        "country": {
+          "id": "ES"
+        },
+        "slug": "quique-sanchez-flores"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/d-alaves/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "201f6ca4aae9b99cb8e7734fb938f1466db5a6af3fa2addd5542d3a555b6e547",
+          "retrievedAt": "2026-10-15T06:07:41.788908+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "1254",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "9",
+      "clubName": "Getafe CF",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 1254,
+        "name": "José Bordalás",
+        "nickname": "Jose Bordalas",
+        "firstname": "José",
+        "lastname": "Bordalás",
+        "gender": "male",
+        "date_of_birth": "1964-03-05T00:00:00+00:00",
+        "place_of_birth": "Alicante",
+        "international": false,
+        "country": {
+          "id": "ES"
+        },
+        "slug": "jose-bordalas"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/getafe-cf/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "6d11067f93b7d82b264b0cee62c4848d6e1e62a24cb17e98e2b1dbe0ad1bfb30",
+          "retrievedAt": "2026-10-15T06:07:41.803996+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "13240",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "4",
+      "clubName": "FC Barcelona",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 13240,
+        "name": "Hansi Flick",
+        "nickname": "Hansi Flick",
+        "firstname": "Hansi",
+        "lastname": "Flick",
+        "gender": "male",
+        "date_of_birth": "1965-02-24T00:00:00+00:00",
+        "place_of_birth": "Heidelberg",
+        "international": false,
+        "country": {
+          "id": "DE"
+        },
+        "slug": "hans-dieter-flick"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/fc-barcelona/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "20fd7aeb8fac3614df08cc9cf65a9b649cc7fdb681f86edf91834772c4efa895",
+          "retrievedAt": "2026-10-15T06:07:41.816552+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "26583",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "7",
+      "clubName": "Elche CF",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 26583,
+        "name": "Martín Anselmi",
+        "nickname": "Martin Anselmi",
+        "firstname": "Martín",
+        "lastname": "Anselmi",
+        "gender": "male",
+        "date_of_birth": "1985-07-11T00:00:00+00:00",
+        "international": false,
+        "country": {
+          "id": "AR"
+        },
+        "slug": "martin-anselmi"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/elche-c-f/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "8479deda20cc5cfb0b8516175d2fca584e9f1a66bc4cc7500f183fc19d9b4c3b",
+          "retrievedAt": "2026-10-15T06:07:41.841349+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "40964",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "11",
+      "clubName": "Levante UD",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 40964,
+        "name": "Luís Manuel Ferreira de Castro",
+        "nickname": "Luis Castro",
+        "firstname": "Luís Manuel",
+        "lastname": "Ferreira de Castro",
+        "gender": "male",
+        "date_of_birth": "1980-05-07T00:00:00+00:00",
+        "place_of_birth": "Moreira de Cónegos",
+        "international": false,
+        "country": {
+          "id": "PT"
+        },
+        "slug": "luis-manuel-ferreira-de-castro"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/levante-ud/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "ef213ec90f5e966b62040acb4449d0d443c39dcb8a468c3b1b1006ffaef3df6a",
+          "retrievedAt": "2026-10-15T06:07:51.452740+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "40118",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "14",
+      "clubName": "Rayo Vallecano",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 40118,
+        "name": "Beñat San José",
+        "nickname": "Beñat San José",
+        "firstname": "Beñat",
+        "lastname": "San José",
+        "gender": "male",
+        "date_of_birth": "1979-09-24T00:00:00+00:00",
+        "place_of_birth": "San Sebastián",
+        "international": false,
+        "country": {
+          "id": "ES"
+        },
+        "slug": "benat-san-jose"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/rayo-vallecano/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "7d928154f2cdfe42f7e53f93903e49bf3a7e4419424e29618c2a5b0c16315f22",
+          "retrievedAt": "2026-10-15T06:07:51.474215+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "44392",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "12",
+      "clubName": "Málaga CF",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 44392,
+        "name": "Juan Francisco Funes Arjona",
+        "nickname": "Funes",
+        "firstname": "Juan Francisco",
+        "lastname": "Funes Arjona",
+        "gender": "male",
+        "date_of_birth": "1983-06-25T00:00:00+00:00",
+        "place_of_birth": "Loja",
+        "international": false,
+        "country": {
+          "id": "ES"
+        },
+        "slug": "juan-francisco-funes-arjona"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/malaga-cf/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "4b25b3569ec80b5a5144a8a4066d8946217e2cafa88353a01bae0bec9ad01711",
+          "retrievedAt": "2026-10-15T06:07:51.492949+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "9460",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "49",
+      "clubName": "R. Racing Club",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 9460,
+        "name": "José Alberto López Menéndez",
+        "nickname": "J. A. Lopez",
+        "firstname": "José Alberto",
+        "lastname": "López Menéndez",
+        "gender": "male",
+        "date_of_birth": "1982-05-21T00:00:00+00:00",
+        "place_of_birth": "Oviedo",
+        "international": false,
+        "country": {
+          "id": "ES"
+        },
+        "slug": "jose-alberto-lopez-menendez"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/r-racing-club/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "e872134dcbd26c0e79bbae5fdb8ec9f057c0133033d8848fa62a9a735145ddfe",
+          "retrievedAt": "2026-10-15T06:07:51.614977+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "9347",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "8",
+      "clubName": "RCD Espanyol de Barcelona",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 9347,
+        "name": "José Manuel González Álvarez",
+        "nickname": "Manolo González",
+        "firstname": "José Manuel",
+        "lastname": "González Álvarez",
+        "gender": "male",
+        "date_of_birth": "1979-01-14T00:00:00+00:00",
+        "place_of_birth": "Folgoso do Courel",
+        "international": false,
+        "country": {
+          "id": "ES"
+        },
+        "slug": "jose-manuel-gonzalez-alvarez"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/rcd-espanyol/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "8c907be199ebf034ff8abfd34526578298bb080f411e41d221f0f87276dd0789",
+          "retrievedAt": "2026-10-15T06:08:01.252448+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "2567",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "5",
+      "clubName": "Real Betis",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 2567,
+        "name": "Manuel Pellegrini",
+        "nickname": "Manuel Pellegrini",
+        "firstname": "Manuel",
+        "lastname": "Pellegrini",
+        "gender": "male",
+        "date_of_birth": "1953-09-16T00:00:00+00:00",
+        "place_of_birth": "Santiago de Chile",
+        "international": false,
+        "country": {
+          "id": "CL"
+        },
+        "slug": "manuel-pellegrini"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/real-betis/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "aa3c27fb085b4e7136cff4f1a787573059e9a8c18dbfdc684302e812676ecb6a",
+          "retrievedAt": "2026-10-15T06:08:01.307821+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "1018",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "26",
+      "clubName": "RC Deportivo",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 1018,
+        "name": "Antonio Hidalgo",
+        "nickname": "Antonio Hidalgo",
+        "firstname": "Antonio",
+        "lastname": "Hidalgo",
+        "gender": "male",
+        "date_of_birth": "1979-02-06T00:00:00+00:00",
+        "international": false,
+        "country": {
+          "id": "ES"
+        },
+        "slug": "antonio-hidalgo"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/rc-deportivo/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "bbbc2f2f11fd63e73fdf5374b980570d6fe4d17756dc43ca33fb9afb7e651bcf",
+          "retrievedAt": "2026-10-15T06:08:01.340280+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "2398",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "15",
+      "clubName": "Real Madrid",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 2398,
+        "name": "José Mário dos Santos Mourinho Félix",
+        "nickname": "José Mourinho",
+        "firstname": "José Mário",
+        "lastname": "dos Santos Mourinho Félix",
+        "gender": "male",
+        "date_of_birth": "1963-01-26T00:00:00+00:00",
+        "place_of_birth": "Setúbal",
+        "international": false,
+        "country": {
+          "id": "PT"
+        },
+        "slug": "jose-mourinho"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/real-madrid/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "c21cf20ae92ff678e2c564023a673d7cf80779b5f0b2f99e87c8bc916b0371c2",
+          "retrievedAt": "2026-10-15T06:08:01.366424+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "18118",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "16",
+      "clubName": "Real Sociedad",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 18118,
+        "name": "Pellegrino Matarazzo",
+        "nickname": "Matarazzo",
+        "firstname": "Pellegrino",
+        "lastname": "Matarazzo",
+        "gender": "male",
+        "date_of_birth": "1977-11-28T00:00:00+00:00",
+        "place_of_birth": "Wane",
+        "international": false,
+        "country": {
+          "id": "US"
+        },
+        "slug": "pellegrino-matarazzo"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/real-sociedad/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "40f4fe641eb53a4a248c1c220ae943b9a14c6faa6605269168c909af288f626c",
+          "retrievedAt": "2026-10-15T06:08:10.742176+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "631",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "18",
+      "clubName": "Valencia CF",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 631,
+        "name": "Javier Aguirre",
+        "nickname": "Javier Aguirre",
+        "firstname": "Javier",
+        "lastname": "Aguirre",
+        "gender": "male",
+        "date_of_birth": "1958-12-01T00:00:00+00:00",
+        "international": false,
+        "country": {
+          "id": "MX"
+        },
+        "slug": "javier-aguirre"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/valencia-cf/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "e067a7e2f7a268c2a7b8a95be431db0df7e77044af6f37ae203ae792a92dc50e",
+          "retrievedAt": "2026-10-15T06:08:10.776640+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "27252",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "20",
+      "clubName": "Villarreal CF",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 27252,
+        "name": "Iñigo Pérez",
+        "nickname": "Iñigo Perez",
+        "firstname": "Iñigo",
+        "lastname": "Pérez",
+        "gender": "male",
+        "date_of_birth": "1988-01-18T00:00:00+00:00",
+        "place_of_birth": "Pamplona",
+        "international": false,
+        "country": {
+          "id": "ES"
+        },
+        "slug": "inigo-perez-1"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/villarreal-cf/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "55a2e98e73d18e4cdcfd446c5332c27dee28b5341702624ea9c0663d6ede6e95",
+          "retrievedAt": "2026-10-15T06:08:10.814723+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "49",
+      "sourceIdNamespace": "laliga",
+      "sourceClubId": "17",
+      "clubName": "Sevilla FC",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "id": 49,
+        "name": "Luis García",
+        "nickname": "Luis Garcia",
+        "firstname": "Luis",
+        "lastname": "García",
+        "gender": "male",
+        "date_of_birth": "1972-12-01T00:00:00+00:00",
+        "place_of_birth": "Madrid",
+        "international": false,
+        "country": {
+          "id": "ES"
+        },
+        "slug": "luis-garcia"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": null,
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "sources": [
+        {
+          "source": "https://apim.laliga.com/public-service/api/v1/teams/sevilla-fc/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026",
+          "sourceSha256": "d2ff4d9e625e6d9a8b691b09f04342b469efacaa3983f11d022d379015e2f0be",
+          "retrievedAt": "2026-10-15T06:08:10.825678+00:00"
+        }
+      ],
+      "verification": "pending"
+    },
+    {
+      "sourcePersonId": "osasuna:jagoba-arrasate",
+      "sourceIdNamespace": "osasuna-official",
+      "sourceClubId": "13",
+      "clubName": "CA Osasuna",
+      "season": "2026-2027",
+      "personalAsPublished": {
+        "nameOriginal": "Jagoba Arrasate Elustondo",
+        "nameEn": "Jagoba Arrasate Elustondo",
+        "dateOfBirth": "1978-04-22",
+        "birthplaceAsPublished": "Berriatua, Bizkaia"
+      },
+      "role": "head_coach",
+      "currentAsPublished": true,
+      "announcementDate": "2026-10-12",
+      "tenureStartsAt": null,
+      "tenureEndsAt": null,
+      "contractEndAsAnnounced": "2029-06-30",
+      "sources": [
+        {
+          "source": "https://www.osasuna.es/jagoba-arrasate-2029",
+          "sourceSha256": "6cc14b08462bd29a0986c243a78303927f11d1f61da0963d6f8cedcf8ae1374a"
+        }
+      ],
+      "verification": "pending"
+    }
+  ],
+  "historicalAppointmentsFile": "osasuna_coach_appointments_2026_27.json",
+  "limitations": [
+    "Current source assignment is not a certified full-season tenure",
+    "Official Osasuna appointment supersedes the absent LaLiga coach listing",
+    "Image, source identity reconciliation, Arabic names and full career audits remain pending"
+  ],
+  "releaseReady": false
+}
