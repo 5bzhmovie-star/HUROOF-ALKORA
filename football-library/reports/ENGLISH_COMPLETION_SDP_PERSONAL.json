@@ -1,0 +1,7 @@
+{
+  "clubs": 20,
+  "profiles": 473,
+  "fields": "name,birth,country,joinDate,height,weight,position,shirt,preferredFoot retained only if published",
+  "failures": [],
+  "releaseReady": false
+}

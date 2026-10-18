@@ -1,0 +1,237 @@
+{
+  "records": [
+    {
+      "source": "https://en.alahlifc.sa/news/artem-bondarenko-is-an-al-ahli-player",
+      "sourceSha256": "92f383b498b94987e5857df227418209a76e30ffdc4db076c35bf53b8b7abe0c",
+      "retrievedAt": "2026-10-15T06:10:47.777177+00:00",
+      "titleAsPublished": "Artem Bondarenko is an Al Ahli player",
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "canonicalPersonId": null,
+      "releaseReady": false,
+      "announcementDate": "2026-08-21",
+      "publishedClaims": {
+        "name": "Artem Bondarenko",
+        "fromClub": "Shakhtar Donetsk",
+        "toClub": "Al Ahli",
+        "transactionType": "one-year loan with obligation to buy",
+        "contractEndYear": 2029,
+        "careerAsPublished": {
+          "trophiesAtShakhtar": 5,
+          "UkrainianPremierLeagueAppearances": 137,
+          "goals": 38,
+          "assists": 24,
+          "ChampionsLeagueAppearances": 20
+        }
+      },
+      "feeAmount": null,
+      "transferDate": null,
+      "contractEndDate": null
+    },
+    {
+      "source": "https://en.alahlifc.sa/news/francisco-trincao-is-an-al-ahli-player",
+      "sourceSha256": "480de3767ad987ae0b4cee2161ce2d66dc37328d392a9db94fe5f2d84589a465",
+      "retrievedAt": "2026-10-15T06:10:48.579180+00:00",
+      "titleAsPublished": "Francisco Trincão is an Al Ahli player",
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "canonicalPersonId": null,
+      "releaseReady": false,
+      "announcementDate": "2026-07-18",
+      "publishedClaims": {
+        "name": "Francisco Trincão",
+        "fromClub": "Sporting Lisbon",
+        "toClub": "Al Ahli",
+        "contractDurationYears": 4,
+        "formerClubs": [
+          "Sporting Lisbon",
+          "Barcelona",
+          "Wolverhampton Wanderers",
+          "Sporting Braga"
+        ],
+        "careerAsPublished": {
+          "officialAppearances": 327,
+          "goals": 62,
+          "assists": 57
+        },
+        "honoursAsPublished": [
+          "UEFA Nations League 2024-2025",
+          "Portuguese league 2023-2024",
+          "Portuguese league 2024-2025",
+          "Portuguese Cup 2024-2025",
+          "Copa del Rey 2020-2021",
+          "Portuguese League Cup 2019-2020"
+        ]
+      },
+      "feeAmount": null,
+      "transferDate": null,
+      "contractEndDate": null
+    },
+    {
+      "source": "https://en.alahlifc.sa/news/al-ahli-approve-the-loan-of-enzo-millot",
+      "sourceSha256": "4492a98d5ad0461092a9e6cbf73be64517e55b3eff6fa91708680048a781639f",
+      "retrievedAt": "2026-10-15T06:10:48.968303+00:00",
+      "titleAsPublished": "Al Ahli approve the loan of Enzo Millot",
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "canonicalPersonId": null,
+      "releaseReady": false,
+      "announcementDate": "2026-08-22",
+      "publishedClaims": {
+        "name": "Enzo Millot",
+        "fromClub": "Al Ahli",
+        "toClub": "Al-Diriyah",
+        "transactionType": "loan",
+        "loanEndSeason": "2026/2027"
+      },
+      "feeAmount": null,
+      "transferDate": null,
+      "contractEndDate": null
+    },
+    {
+      "source": "https://en.alahlifc.sa/news/official-meshal-al-mutairi-is-now-al-ahli-until-2029",
+      "sourceSha256": "a6be3e415f329250f362d7d31e9d933dc5c47f57f3b2108083ed94e945fffaa2",
+      "retrievedAt": "2026-10-15T06:10:48.986375+00:00",
+      "titleAsPublished": "Official: Meshal Al Mutairi is now Al Ahli until 2029",
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "canonicalPersonId": null,
+      "releaseReady": false,
+      "announcementDate": "2026-06-25",
+      "publishedClaims": {
+        "name": "Meshal Al Mutairi",
+        "fromClub": "Abha",
+        "toClub": "Al Ahli",
+        "contractEndYear": 2029
+      },
+      "feeAmount": null,
+      "transferDate": null,
+      "contractEndDate": null
+    },
+    {
+      "source": "https://en.alahlifc.sa/news/naif-masoud-is-green",
+      "sourceSha256": "9036641e7f0a4c63ba8d8e1fb2442af646b1a52d0e54475d6f39f0469ff7feb4",
+      "retrievedAt": "2026-10-15T06:11:00.212245+00:00",
+      "titleAsPublished": "Naif Masoud is Green",
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "canonicalPersonId": null,
+      "releaseReady": false,
+      "announcementDate": "2026-07-22",
+      "publishedClaims": {
+        "name": "Naif Masoud",
+        "fromClub": "Al-Fateh",
+        "toClub": "Al Ahli",
+        "contractDurationSeasons": 4,
+        "seniorInternationalTeamAsPublished": "Saudi Arabia"
+      },
+      "feeAmount": null,
+      "transferDate": null,
+      "contractEndDate": null
+    },
+    {
+      "source": "https://en.alahlifc.sa/news/baattia-is-an-al-ahli-player",
+      "sourceSha256": "2a62546adfa72b3c7acb221fbe786bbf18204f7a1598ee015660f833f9beeb51",
+      "retrievedAt": "2026-10-15T06:11:00.236953+00:00",
+      "titleAsPublished": "Baattia is an Al Ahli player",
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "canonicalPersonId": null,
+      "releaseReady": false,
+      "announcementDate": "2026-09-06",
+      "publishedClaims": {
+        "name": "Saeed Baattia",
+        "fromClub": "Al Fateh",
+        "toClub": "Al Ahli",
+        "contractDurationYears": 3,
+        "previousSeasonClubStatisticsAsPublished": {
+          "appearances": 31,
+          "starts": 29,
+          "club": "Al Fateh"
+        }
+      },
+      "feeAmount": null,
+      "transferDate": null,
+      "contractEndDate": null
+    },
+    {
+      "source": "https://en.alahlifc.sa/news/al-ahli-approve-the-loan-of-ricardo-mathias",
+      "sourceSha256": "a00935bb53e9184cdd11c02515bef6fb6dcfe6e6e6d4ca56448fb7c2be056f04",
+      "retrievedAt": "2026-10-15T06:11:00.256592+00:00",
+      "titleAsPublished": "Al Ahli approve the loan of Ricardo Mathias",
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "canonicalPersonId": null,
+      "releaseReady": false,
+      "announcementDate": "2026-09-06",
+      "publishedClaims": {
+        "name": "Ricardo Mathias",
+        "fromClub": "Al Ahli",
+        "toClub": "Al Shabab",
+        "transactionType": "loan",
+        "loanEndSeason": "2026/2027"
+      },
+      "feeAmount": null,
+      "transferDate": null,
+      "contractEndDate": null
+    },
+    {
+      "source": "https://en.alahlifc.sa/news/al-ahli-approve-matteo-dams-transfer-to-belgian-club-club-brugge",
+      "sourceSha256": "52cab939e405016189e6a54a9167918e214aa97c0ca91c8ab87e541ff294319f",
+      "retrievedAt": "2026-10-15T06:11:00.650330+00:00",
+      "titleAsPublished": "Al Ahli approve Matteo Dams’ transfer to Belgian club Club Brugge",
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "canonicalPersonId": null,
+      "releaseReady": false,
+      "announcementDate": "2026-08-22",
+      "publishedClaims": {
+        "name": "Matteo Dams",
+        "fromClub": "Al Ahli",
+        "toClub": "Club Brugge",
+        "transactionType": "transfer",
+        "honoursAsPublished": [
+          "AFC Champions League Elite 2025-2026",
+          "Saudi Super Cup 2025"
+        ]
+      },
+      "feeAmount": null,
+      "transferDate": null,
+      "contractEndDate": null
+    },
+    {
+      "source": "https://en.alahlifc.sa/news/ibrahima-diaby-is-an-ahlawi",
+      "sourceSha256": "fce9728ac473b9bdf9a2871389f9252dc39c9ab7306a5cec17b5487c10b410c1",
+      "retrievedAt": "2026-10-15T06:11:10.263535+00:00",
+      "titleAsPublished": "Ibrahima Diaby is an Ahlawi",
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "canonicalPersonId": null,
+      "releaseReady": false,
+      "announcementDate": "2026-09-06",
+      "publishedClaims": {
+        "name": "Ibrahima Diaby",
+        "fromClub": "Cercle Brugge",
+        "toClub": "Al Ahli",
+        "contractDurationYears": 4,
+        "formerAcademyAsPublished": "Paris Saint-Germain",
+        "positionAsPublished": "defensive midfielder"
+      },
+      "feeAmount": null,
+      "transferDate": null,
+      "contractEndDate": null
+    }
+  ],
+  "failures": [],
+  "releaseReady": false,
+  "policy": "Published narratives and announcement dates only; no inferred registration date, fee or precise contract end date. Identity, period, rights and claim review pending."
+}

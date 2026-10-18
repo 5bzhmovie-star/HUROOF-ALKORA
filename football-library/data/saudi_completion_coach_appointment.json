@@ -1,0 +1,49 @@
+{
+  "records": [
+    {
+      "nameAsPublished": "Vuk Rasovic",
+      "sourceStaffId": "spl::Football_Official::e139ed8ab4b74355893ed6b6ddf62780",
+      "sourceClubId": "d234b1ebf80e481a888ce64cab2dcd89",
+      "source": "https://www.altaawounfc.com/news/2347-Vuk-Rasovic-to-Lead-Al-Taawoun-Until-End-of-Season?lang=en",
+      "imageSource": "https://altaawounfc.com/storage/3790/Jgz2Y1mLtiSvORM3OKbUeb15XASO6Q-metaNUMzQTQ1M0UtNDNFQy00RTA1LTgxMkUtOTAyODU5Njc3RUZFLmpwZWc%3D-.jpeg",
+      "imageSha256": "2a1ffd70069980050188f701db5a0e08c34f2929174fd02d5d7447bc7c5d6ff7",
+      "path": "assets/pending_media/saudi_completion/e139ed8ab4b74355893ed6b6ddf62780/appointment.jpeg",
+      "bytes": 374674,
+      "width": 1638,
+      "height": 2048,
+      "imageContext": "Official welcome composite featuring coach; not an isolated portrait; exclude from verified photographic portrait coverage",
+      "announcementDate": "2026-09-21",
+      "appointmentEndAsPublished": "end of current sporting season",
+      "appointmentStartDate": null,
+      "appointmentEndDate": null,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "releaseReady": false,
+      "sourceSha256": "a04e776bb3e451a18ea60497405b8c17bbd737e0e448430ce1df77bea20cec67",
+      "countsAsPortrait": false,
+      "visualReview": "Official published welcome composite visually inspected; excluded from photographic portrait coverage"
+    },
+    {
+      "nameAsPublished": "Vuk Rasovic",
+      "sourceStaffId": "spl::Football_Official::e139ed8ab4b74355893ed6b6ddf62780",
+      "sourceClubId": "d234b1ebf80e481a888ce64cab2dcd89",
+      "source": "https://www.altaawounfc.com/news/2364-Press-Conference-%7C-Razovic-and-Muteb-Al-Mufarrij-Ahead-of-the-Al-Rayyan-Clash?lang=en",
+      "sourceSha256": "1376f1502f02024c3a9106c1f3c165533dc51292a1b13935ce18f2c549acf991",
+      "imageSource": "https://altaawounfc.com/storage/3810/6nXHgcn4YWt8SDli5yLamJSJykHpAG-metaQzUzMTM5NDgtQzAxMy00MDhBLTlBRjMtQTAxODlDRDU0ODM3LmpwZWc%3D-.jpeg",
+      "imageSha256": "ec24c844567bbb1df3a9cb8d5530db4929676d8077b2f32f70768eff1d5a0c3e",
+      "path": "assets/pending_media/saudi_completion/e139ed8ab4b74355893ed6b6ddf62780/press-conference.jpeg",
+      "bytes": 680776,
+      "width": 1639,
+      "height": 2048,
+      "publicationDate": "2026-10-13",
+      "imageContext": "Official head coach press conference news photo; visual review pending",
+      "countsAsPortrait": false,
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "releaseReady": false,
+      "visualReview": "Coach photographic image with text overlay visually inspected; identity and rights pending"
+    }
+  ]
+}

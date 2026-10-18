@@ -1,0 +1,2076 @@
+{
+  "source": "https://www.itfc.co.uk/teams/",
+  "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+  "season": "2026-2027",
+  "media": [
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-kjellscherpen",
+      "nameAsPublished": "Kjell Scherpen",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiIwMzNmMzk4MC1iNzVlLTExZjEtYTIwZC01OWFlZWVkZGU1YTMucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "67189",
+      "personalAsPublished": {
+        "name": {
+          "display": "Kjell Scherpen",
+          "first": "Kjell",
+          "last": "Scherpen"
+        },
+        "birth": {
+          "date": {
+            "millis": 948585600000.0,
+            "label": "23 January 2000"
+          },
+          "country": {
+            "isoCode": "NL",
+            "country": "Netherlands",
+            "demonym": "Dutch"
+          },
+          "place": "Emmen"
+        },
+        "nationalTeam": {
+          "isoCode": "NL",
+          "country": "Netherlands",
+          "demonym": "Dutch"
+        },
+        "info": {
+          "position": "G",
+          "shirtNum": 37.0,
+          "positionInfo": "Goalkeeper"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 786314.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-kjellscherpen/portrait.jpg",
+      "sha256": "4dd880421b27e73ed662603b7a8e3104a9168d04574ba03fb2ec1741110caf07",
+      "bytes": 40826,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-darnellfurlong",
+      "nameAsPublished": "Darnell Furlong",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiJkMzYwNTIyMC1hYzhjLTExZjEtOWI4Yi04OWUzOGI0NDMxNDUucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "10491",
+      "personalAsPublished": {
+        "name": {
+          "display": "Darnell Furlong",
+          "first": "Darnell",
+          "middle": "Anthony",
+          "last": "Furlong"
+        },
+        "birth": {
+          "date": {
+            "millis": 815097600000.0,
+            "label": "31 October 1995"
+          },
+          "country": {
+            "isoCode": "GB-ENG",
+            "country": "England",
+            "demonym": "English"
+          },
+          "place": "Luton"
+        },
+        "nationalTeam": {
+          "isoCode": "GB-ENG",
+          "country": "England",
+          "demonym": "English"
+        },
+        "info": {
+          "position": "D",
+          "shirtNum": 2.0,
+          "positionInfo": "Right Full Back"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 740895.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-darnellfurlong/portrait.jpg",
+      "sha256": "34bd3e92de37f9502cee047a3a6e7c010e0e866a36e30700e33fb38a463ef519",
+      "bytes": 32724,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-davidbutton",
+      "nameAsPublished": "David Button",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiIzYThlZTk5MC1hYWFiLTExZjEtODc5Ni03MzRiNDFhNDYyY2IucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "3505",
+      "personalAsPublished": {
+        "name": {
+          "display": "David Button",
+          "first": "David",
+          "middle": "Robert Edmund",
+          "last": "Button"
+        },
+        "birth": {
+          "date": {
+            "millis": 604540800000.0,
+            "label": "27 February 1989"
+          },
+          "country": {
+            "isoCode": "GB-ENG",
+            "country": "England",
+            "demonym": "English"
+          },
+          "place": "Stevenage"
+        },
+        "nationalTeam": {
+          "isoCode": "GB-ENG",
+          "country": "England",
+          "demonym": "English"
+        },
+        "info": {
+          "position": "G",
+          "shirtNum": 27.0,
+          "positionInfo": "Centre Goalkeeper"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 737894.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-davidbutton/portrait.jpg",
+      "sha256": "a7810eb36a4c79e97b38d2069e99ccb4b8cd9ee26e811716e21c3b9e880ba0c2",
+      "bytes": 40414,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-christianwalton",
+      "nameAsPublished": "Christian Walton",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiJjODM3NDE3MC1hYWFiLTExZjEtODc5Ni03MzRiNDFhNDYyY2IucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "8159",
+      "personalAsPublished": {
+        "name": {
+          "display": "Christian Walton",
+          "first": "Christian",
+          "last": "Walton"
+        },
+        "birth": {
+          "date": {
+            "millis": 815875200000.0,
+            "label": "9 November 1995"
+          },
+          "country": {
+            "isoCode": "GB-ENG",
+            "country": "England",
+            "demonym": "English"
+          },
+          "place": "Truro"
+        },
+        "nationalTeam": {
+          "isoCode": "GB-ENG",
+          "country": "England",
+          "demonym": "English"
+        },
+        "info": {
+          "position": "G",
+          "shirtNum": 28.0,
+          "positionInfo": "Goalkeeper"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 301231.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-christianwalton/portrait.jpg",
+      "sha256": "1eee66d8287da3f61cd5f7d82b681319a9c73b6aa52ee8d0b9c447ad8baf2822",
+      "bytes": 47582,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-alexpalmer",
+      "nameAsPublished": "Alex Palmer",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiI0MjM4MTRlMC05ZWVmLTExZjEtYWFhYy00M2VlMjU0NzI3ODIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "10525",
+      "personalAsPublished": {
+        "name": {
+          "display": "Alex Palmer",
+          "first": "Alex",
+          "last": "Palmer"
+        },
+        "birth": {
+          "date": {
+            "millis": 839635200000.0,
+            "label": "10 August 1996"
+          },
+          "country": {
+            "isoCode": "GB-ENG",
+            "country": "England",
+            "demonym": "English"
+          },
+          "place": "Kidderminster"
+        },
+        "nationalTeam": {
+          "isoCode": "GB-ENG",
+          "country": "England",
+          "demonym": "English"
+        },
+        "info": {
+          "position": "G",
+          "shirtNum": 1.0,
+          "positionInfo": "Goalkeeper"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 734867.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-alexpalmer/portrait.jpg",
+      "sha256": "013aca6ff39cb4e6659843f86b0685bef270b072d262a4b47ac3f3cf1d45d6d7",
+      "bytes": 68691,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-leifdavis",
+      "nameAsPublished": "Leif Davis",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiIwY2Y1ZDY0MC1hYzhkLTExZjEtYTMyMS1jZGVjNzA5ODFkMTkucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "51454",
+      "personalAsPublished": {
+        "name": {
+          "display": "Leif Davis",
+          "first": "Leif",
+          "last": "Davis"
+        },
+        "birth": {
+          "date": {
+            "millis": 946598400000.0,
+            "label": "31 December 1999"
+          },
+          "country": {
+            "isoCode": "GB-ENG",
+            "country": "England",
+            "demonym": "English"
+          },
+          "place": "Newcastle"
+        },
+        "nationalTeam": {
+          "isoCode": "GB-ENG",
+          "country": "England",
+          "demonym": "English"
+        },
+        "info": {
+          "position": "D",
+          "shirtNum": 3.0,
+          "positionInfo": "Left Full Back"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 320523.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-leifdavis/portrait.jpg",
+      "sha256": "4c427f37840385f82fb730e2c314e9e32af850bb8308c431178987537201e1a2",
+      "bytes": 37767,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-jacobgreaves",
+      "nameAsPublished": "Jacob Greaves",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiJkNDg5Y2MxMC1hYzhlLTExZjEtOWI4Yi04OWUzOGI0NDMxNDUucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "49254",
+      "personalAsPublished": {
+        "name": {
+          "display": "Jacob Greaves",
+          "first": "Jacob",
+          "last": "Greaves"
+        },
+        "birth": {
+          "date": {
+            "millis": 968716800000.0,
+            "label": "12 September 2000"
+          },
+          "country": {
+            "isoCode": "GB-ENG",
+            "country": "England",
+            "demonym": "English"
+          },
+          "place": "Cottingham"
+        },
+        "nationalTeam": {
+          "isoCode": "GB-ENG",
+          "country": "England",
+          "demonym": "English"
+        },
+        "info": {
+          "position": "D",
+          "shirtNum": 24.0,
+          "positionInfo": "Central Defender"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 360794.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-jacobgreaves/portrait.jpg",
+      "sha256": "28702c5b4572830210ab840f5ff35bba6e529e585898b14c72d105d28ddaf7a0",
+      "bytes": 33126,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-daraoshea",
+      "nameAsPublished": "Dara O'Shea",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiIxOTk0ZjdkMC1hYzhmLTExZjEtOWI4Yi04OWUzOGI0NDMxNDUucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "15154",
+      "personalAsPublished": {
+        "name": {
+          "display": "Dara O'Shea",
+          "first": "Dara",
+          "last": "O'Shea"
+        },
+        "birth": {
+          "date": {
+            "millis": 920505600000.0,
+            "label": "4 March 1999"
+          },
+          "country": {
+            "isoCode": "IE",
+            "country": "Ireland",
+            "demonym": "Irish"
+          },
+          "place": "Dublin"
+        },
+        "nationalTeam": {
+          "isoCode": "IE",
+          "country": "Ireland",
+          "demonym": "Irish"
+        },
+        "info": {
+          "position": "D",
+          "shirtNum": 26.0,
+          "positionInfo": "Centre Central Defender"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 363354.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-daraoshea/portrait.jpg",
+      "sha256": "3b5dcd8de7e592f8f32af72212d6ce1e087e11338f56bcdb8dbbaa00f59184f4",
+      "bytes": 31165,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-issadiop",
+      "nameAsPublished": "Issa Diop",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiI2MmM4M2VlMC1hYzhlLTExZjEtYTMyMS1jZGVjNzA5ODFkMTkucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "49884",
+      "personalAsPublished": {
+        "name": {
+          "display": "Issa Diop",
+          "first": "Issa",
+          "last": "Diop"
+        },
+        "birth": {
+          "date": {
+            "millis": 852768000000.0,
+            "label": "9 January 1997"
+          },
+          "country": {
+            "isoCode": "FR",
+            "country": "France",
+            "demonym": "French"
+          },
+          "place": "Toulouse"
+        },
+        "nationalTeam": {
+          "isoCode": "MA",
+          "country": "Morocco",
+          "demonym": "Moroccan"
+        },
+        "info": {
+          "position": "D",
+          "shirtNum": 6.0,
+          "positionInfo": "Centre Central Defender"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 786122.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-issadiop/portrait.jpg",
+      "sha256": "06f6dc7fab49edda3c058e7ac01c8b7a9e0b6f731d82e65f2e1c47ffc80261dc",
+      "bytes": 31585,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-cedrickipre",
+      "nameAsPublished": "Cédric Kipré",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiJkODQ1NjlmMC1hYzhkLTExZjEtYTMyMS1jZGVjNzA5ODFkMTkucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "15333",
+      "personalAsPublished": {
+        "name": {
+          "display": "Cédric Kipré",
+          "first": "Cédric",
+          "last": "Kipré"
+        },
+        "birth": {
+          "date": {
+            "millis": 850089600000.0,
+            "label": "9 December 1996"
+          },
+          "country": {
+            "isoCode": "FR",
+            "country": "France",
+            "demonym": "French"
+          },
+          "place": "Paris"
+        },
+        "nationalTeam": {
+          "isoCode": "CI",
+          "country": "Cote D’Ivoire",
+          "demonym": "Ivorian"
+        },
+        "info": {
+          "position": "D",
+          "shirtNum": 4.0,
+          "positionInfo": "Central Defender"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 785373.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-cedrickipre/portrait.jpg",
+      "sha256": "893ba61ab9559c5cefb9a28e4d45049cc80e4ee929a247b8c6da0862132e36a6",
+      "bytes": 31570,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-exequielpalacios",
+      "nameAsPublished": "Exequiel Palacios",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiJmZWY5ODlkMC1hYjg2LTExZjEtYTRiMi04OTNmZWJmNzg2ODEucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "40161",
+      "personalAsPublished": {
+        "name": {
+          "display": "Exequiel Palacios",
+          "first": "Exequiel",
+          "last": "Palacios"
+        },
+        "birth": {
+          "date": {
+            "millis": 907545600000.0,
+            "label": "5 October 1998"
+          },
+          "country": {
+            "isoCode": "AR",
+            "country": "Argentina"
+          },
+          "place": "Famaillá"
+        },
+        "nationalTeam": {
+          "isoCode": "AR",
+          "country": "Argentina"
+        },
+        "info": {
+          "position": "M",
+          "shirtNum": 25.0,
+          "positionInfo": "Centre Central Midfielder"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 793203.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-exequielpalacios/portrait.jpg",
+      "sha256": "6213d68ef715085952d2a2974b462eb9293c1e6918c532b943f347f9ff14f15e",
+      "bytes": 41381,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-azormatusiwa",
+      "nameAsPublished": "Azor Matusiwa",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiI3MzgyZDQ3MC1hYjg1LTExZjEtOWZkYi1lZjNlY2FjZDg4MzAucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "49308",
+      "personalAsPublished": {
+        "name": {
+          "display": "Azor Matusiwa",
+          "first": "Azor",
+          "last": "Matusiwa"
+        },
+        "birth": {
+          "date": {
+            "millis": 893721600000.0,
+            "label": "28 April 1998"
+          },
+          "country": {
+            "isoCode": "NL",
+            "country": "Netherlands",
+            "demonym": "Dutch"
+          },
+          "place": "Hilversum"
+        },
+        "nationalTeam": {
+          "isoCode": "NL",
+          "country": "Netherlands",
+          "demonym": "Dutch"
+        },
+        "info": {
+          "position": "M",
+          "shirtNum": 5.0,
+          "positionInfo": "Centre Defensive Midfielder"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 738465.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-azormatusiwa/portrait.jpg",
+      "sha256": "4717c463f0a82066b5c928bf9161ed3901187deca1e7dc6e77208682f32654af",
+      "bytes": 36169,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-sasalukic",
+      "nameAsPublished": "Saša Lukić",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiIxMzY0MjkwMC1hYjg0LTExZjEtODk1Zi1hNWVkYzM4YmMwOGQucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "16044",
+      "personalAsPublished": {
+        "name": {
+          "display": "Sasa Lukic",
+          "first": "Sasa",
+          "last": "Lukic"
+        },
+        "birth": {
+          "date": {
+            "millis": 839894400000.0,
+            "label": "13 August 1996"
+          },
+          "country": {
+            "isoCode": "RS",
+            "country": "Serbia",
+            "demonym": "Serbian"
+          },
+          "place": "Sabac"
+        },
+        "nationalTeam": {
+          "isoCode": "RS",
+          "country": "Serbia",
+          "demonym": "Serbian"
+        },
+        "info": {
+          "position": "M",
+          "shirtNum": 23.0,
+          "positionInfo": "Central Midfielder"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 791922.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-sasalukic/portrait.jpg",
+      "sha256": "ab8e2eb75ae9925d22153b87abe7a5a8dca889df166b9200e138bc53d97d5fcd",
+      "bytes": 32944,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-jacktaylor",
+      "nameAsPublished": "Jack Taylor",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiJkYjgxYWMxMC1hYjgzLTExZjEtOWFlZC03ZDNlMTc0ZTE3MWQucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "19723",
+      "personalAsPublished": {
+        "name": {
+          "display": "Jack Taylor",
+          "first": "Jack",
+          "last": "Taylor"
+        },
+        "birth": {
+          "date": {
+            "millis": 898560000000.0,
+            "label": "23 June 1998"
+          },
+          "country": {
+            "isoCode": "GB-ENG",
+            "country": "England",
+            "demonym": "English"
+          },
+          "place": "London"
+        },
+        "nationalTeam": {
+          "isoCode": "IE",
+          "country": "Ireland",
+          "demonym": "Irish"
+        },
+        "info": {
+          "position": "M",
+          "shirtNum": 14.0,
+          "positionInfo": "Centre Central Midfielder"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 340666.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-jacktaylor/portrait.jpg",
+      "sha256": "2eece7c3490b99554aca0c20d9ea5238f93d16b75fccee395c5f2992f62a5811",
+      "bytes": 31026,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-abdoulouattara",
+      "nameAsPublished": "Abdoul Ouattara",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiJhYmVlMTExMC1hYzkwLTExZjEtYjFmYS0xOTRkODI3YmE0MGMucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "126111",
+      "personalAsPublished": {
+        "name": {
+          "display": "Abdoul Ouattara",
+          "first": "Abdoul",
+          "last": "Ouattara"
+        },
+        "birth": {
+          "date": {
+            "millis": 1129939200000.0,
+            "label": "22 October 2005"
+          },
+          "country": {
+            "isoCode": "CI",
+            "country": "Cote D’Ivoire",
+            "demonym": "Ivorian"
+          },
+          "place": "Zoukpangbeu"
+        },
+        "nationalTeam": {
+          "isoCode": "CI",
+          "country": "Cote D’Ivoire",
+          "demonym": "Ivorian"
+        },
+        "info": {
+          "position": "D",
+          "shirtNum": 42.0,
+          "positionInfo": "Right Full Back"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 792792.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-abdoulouattara/portrait.jpg",
+      "sha256": "7b7a6818263e4c81dac46502592b4c3796a5baa06b8012508203bdbb3f3d92aa",
+      "bytes": 28951,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-marcelinonunez",
+      "nameAsPublished": "Marcelino Núñez",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiI1YzAyM2Y4MC1hYjg0LTExZjEtODk1Zi1hNWVkYzM4YmMwOGQucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "127605",
+      "personalAsPublished": {
+        "name": {
+          "display": "Marcelino Núñez",
+          "first": "Marcelino",
+          "last": "Núñez"
+        },
+        "birth": {
+          "date": {
+            "millis": 951868800000.0,
+            "label": "1 March 2000"
+          },
+          "country": {
+            "isoCode": "CL",
+            "country": "Chile",
+            "demonym": "Chilean"
+          },
+          "place": "Recoleta"
+        },
+        "nationalTeam": {
+          "isoCode": "CL",
+          "country": "Chile",
+          "demonym": "Chilean"
+        },
+        "info": {
+          "position": "M",
+          "shirtNum": 32.0,
+          "positionInfo": "Centre Central Midfielder"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 740926.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-marcelinonunez/portrait.jpg",
+      "sha256": "bb6c776ec8631a154760b24dc04c8847259ba4a6946afb137bcc84bb9b662004",
+      "bytes": 31698,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-abdulfatawu",
+      "nameAsPublished": "Abdul Fatawu",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiJiNTY5MDI2MC1hYjk5LTExZjEtODNhYi1hNTA5ZmEwMDBjNmYucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "127644",
+      "personalAsPublished": {
+        "name": {
+          "display": "Abdul Fatawu",
+          "first": "Abdul Fatawu",
+          "last": "Issahaku"
+        },
+        "birth": {
+          "date": {
+            "millis": 1078704000000.0,
+            "label": "8 March 2004"
+          },
+          "country": {
+            "isoCode": "GH",
+            "country": "Ghana",
+            "demonym": "Ghanan"
+          },
+          "place": "Tamale"
+        },
+        "nationalTeam": {
+          "isoCode": "GH",
+          "country": "Ghana",
+          "demonym": "Ghanan"
+        },
+        "info": {
+          "position": "F",
+          "shirtNum": 7.0,
+          "positionInfo": "Right Winger"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 786120.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-abdulfatawu/portrait.jpg",
+      "sha256": "72ebc23ef4eeb66a6ac9988dc62926210f3d84af4d77b8bbecc5543c924536db",
+      "bytes": 31318,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-zianflemming",
+      "nameAsPublished": "Zian Flemming",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiI0ZWU5MWYxMC1hYjlhLTExZjEtYWE4NS0zZDVhY2YyOThjMTgucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "75735",
+      "personalAsPublished": {
+        "name": {
+          "display": "Zian Flemming",
+          "first": "Zian",
+          "last": "Flemming"
+        },
+        "birth": {
+          "date": {
+            "millis": 901929600000.0,
+            "label": "1 August 1998"
+          },
+          "country": {
+            "isoCode": "NL",
+            "country": "Netherlands",
+            "demonym": "Dutch"
+          },
+          "place": "Amsterdam"
+        },
+        "nationalTeam": {
+          "isoCode": "NL",
+          "country": "Netherlands",
+          "demonym": "Dutch"
+        },
+        "info": {
+          "position": "F",
+          "shirtNum": 9.0,
+          "positionInfo": "Centre Striker"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 794516.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-zianflemming/portrait.jpg",
+      "sha256": "ccac6203dcf7af9b8e12333d2a4d6924682f6baeec193e527008e220cc07053d",
+      "bytes": 39961,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-jadenphilogene",
+      "nameAsPublished": "Jaden Philogene",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiI4OTU0MWJhMC1hYjlhLTExZjEtYWE4NS0zZDVhY2YyOThjMTgucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "64519",
+      "personalAsPublished": {
+        "name": {
+          "display": "Jaden Philogene",
+          "first": "Jaden",
+          "last": "Philogene"
+        },
+        "birth": {
+          "date": {
+            "millis": 1013126400000.0,
+            "label": "8 February 2002"
+          },
+          "country": {
+            "isoCode": "GB-ENG",
+            "country": "England",
+            "demonym": "English"
+          },
+          "place": "London"
+        },
+        "nationalTeam": {
+          "isoCode": "GB-ENG",
+          "country": "England",
+          "demonym": "English"
+        },
+        "info": {
+          "position": "F",
+          "shirtNum": 11.0,
+          "positionInfo": "Left Winger"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 731772.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-jadenphilogene/portrait.jpg",
+      "sha256": "61f7cae3fb526af7ec82a9e8e4497b9f0b355ee0ce476ac3b5b942dadb025e28",
+      "bytes": 29604,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-julioenciso",
+      "nameAsPublished": "Julio Enciso",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiJiYjhhNmFjMC1hYjlhLTExZjEtODNhYi1hNTA5ZmEwMDBjNmYucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "125827",
+      "personalAsPublished": {
+        "name": {
+          "display": "Julio Enciso",
+          "first": "Julio",
+          "last": "Enciso"
+        },
+        "birth": {
+          "date": {
+            "millis": 1074816000000.0,
+            "label": "23 January 2004"
+          },
+          "country": {
+            "isoCode": "PY",
+            "country": "Paraguay",
+            "demonym": "Paraguayan"
+          },
+          "place": "Caaguazú"
+        },
+        "nationalTeam": {
+          "isoCode": "PY",
+          "country": "Paraguay",
+          "demonym": "Paraguayan"
+        },
+        "info": {
+          "position": "M",
+          "shirtNum": 10.0,
+          "positionInfo": "Centre Attacking Midfielder"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 792793.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-julioenciso/portrait.jpg",
+      "sha256": "b1f1ad4c78e7452ff948055db9282feca265051394560119ab997db3fbec0929",
+      "bytes": 34099,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-jackclarke",
+      "nameAsPublished": "Jack Clarke",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiI4NTNlNTMwMC1hYjlmLTExZjEtOWY2Ni0xNWQwNjAxYjU5MDcucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "32715",
+      "personalAsPublished": {
+        "name": {
+          "display": "Jack Clarke",
+          "first": "Jack",
+          "last": "Clarke"
+        },
+        "birth": {
+          "date": {
+            "millis": 974937600000.0,
+            "label": "23 November 2000"
+          },
+          "country": {
+            "isoCode": "GB-ENG",
+            "country": "England",
+            "demonym": "English"
+          },
+          "place": "York"
+        },
+        "nationalTeam": {
+          "isoCode": "GB-ENG",
+          "country": "England",
+          "demonym": "English"
+        },
+        "info": {
+          "position": "F",
+          "shirtNum": 47.0,
+          "positionInfo": "Left Winger"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 363299.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-jackclarke/portrait.jpg",
+      "sha256": "d68595d3ba063997cf22d4063e38bc9251a93b8c77f4e7f18ba29c6a7ebad46c",
+      "bytes": 30596,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-kaseymcateer",
+      "nameAsPublished": "Kasey McAteer",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiJkZmYyN2Y3MC1hYjllLTExZjEtOWQ5NC0xZGI4MzUwZWJlYjcucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "51553",
+      "personalAsPublished": {
+        "name": {
+          "display": "Kasey McAteer",
+          "first": "Kasey",
+          "last": "McAteer"
+        },
+        "birth": {
+          "date": {
+            "millis": 1006387200000.0,
+            "label": "22 November 2001"
+          },
+          "country": {
+            "isoCode": "GB-ENG",
+            "country": "England",
+            "demonym": "English"
+          },
+          "place": "Northampton"
+        },
+        "nationalTeam": {
+          "isoCode": "IE",
+          "country": "Ireland",
+          "demonym": "Irish"
+        },
+        "info": {
+          "position": "M",
+          "shirtNum": 20.0,
+          "positionInfo": "Right Attacking Midfielder"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 740618.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-kaseymcateer/portrait.jpg",
+      "sha256": "537229a55873457b0c41725231e2dab60fbba6c8e5970033912c231419b45831",
+      "bytes": 29029,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-anismehmeti",
+      "nameAsPublished": "Anis Mehmeti",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiI5Yjc1ZjQ5MC1hYjlkLTExZjEtOGI3YS02MzU4ZDI0OGVmYzYucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "23856",
+      "personalAsPublished": {
+        "name": {
+          "display": "Anis Mehmeti",
+          "first": "Anis",
+          "last": "Mehmeti"
+        },
+        "birth": {
+          "date": {
+            "millis": 978998400000.0,
+            "label": "9 January 2001"
+          },
+          "country": {
+            "isoCode": "GB-ENG",
+            "country": "England",
+            "demonym": "English"
+          },
+          "place": "London"
+        },
+        "nationalTeam": {
+          "isoCode": "AL",
+          "country": "Albania",
+          "demonym": "Albanian"
+        },
+        "info": {
+          "position": "M",
+          "shirtNum": 33.0,
+          "positionInfo": "Centre Attacking Midfielder"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 775099.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-anismehmeti/portrait.jpg",
+      "sha256": "320ee17343b1cc7720bfe3fd559191ad50c2c6ada5c774c1a4266987f4874e09",
+      "bytes": 29765,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-daizenmaeda",
+      "nameAsPublished": "Daizen Maeda",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiI1ZGU3ZmIzMC1hYjlmLTExZjEtOWQ5NC0xZGI4MzUwZWJlYjcucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "122002",
+      "personalAsPublished": {
+        "name": {
+          "display": "Daizen Maeda",
+          "first": "Daizen",
+          "last": "Maeda"
+        },
+        "birth": {
+          "date": {
+            "millis": 877305600000.0,
+            "label": "20 October 1997"
+          },
+          "country": {
+            "isoCode": "JP",
+            "country": "Japan",
+            "demonym": "Japanese"
+          },
+          "place": "Taishi"
+        },
+        "nationalTeam": {
+          "isoCode": "JP",
+          "country": "Japan",
+          "demonym": "Japanese"
+        },
+        "info": {
+          "position": "F",
+          "shirtNum": 38.0,
+          "positionInfo": "Left Winger"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 786188.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-daizenmaeda/portrait.jpg",
+      "sha256": "20234b786884296e0c61bfddf170fe4366d6b17cda6988e629c5f32721e6ba14",
+      "bytes": 32784,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "ipswich",
+      "sourcePersonId": "ipswich-chubaakpom",
+      "nameAsPublished": "Chuba Akpom",
+      "kind": "player",
+      "source": "https://www.itfc.co.uk/teams/",
+      "sourceSha256": "9c4c648bf154da1c12e37fd9e65f2277e7b5b8d7b1eb5c249a41ebed7c562754",
+      "imageSource": "https://images.webapi.gc.ipswichtownfcservices.co.uk/eyJrZXkiOiI2MDUyNTY2MC1hYjlkLTExZjEtOGI3YS02MzU4ZDI0OGVmYzYucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1NTAsImhlaWdodCI6NTUwLCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwiYmFja2dyb3VuZCI6IndoaXRlIn0sImZsYXR0ZW4iOnsiYmFja2dyb3VuZCI6IndoaXRlIn0sInRvRm9ybWF0IjoianBlZyJ9fQ==",
+      "profileSource": null,
+      "plPersonId": "4482",
+      "personalAsPublished": {
+        "name": {
+          "display": "Chuba Akpom",
+          "first": "Chuba",
+          "last": "Akpom"
+        },
+        "birth": {
+          "date": {
+            "millis": 813196800000.0,
+            "label": "9 October 1995"
+          },
+          "country": {
+            "isoCode": "GB-ENG",
+            "country": "England",
+            "demonym": "English"
+          },
+          "place": "London"
+        },
+        "nationalTeam": {
+          "isoCode": "GB-ENG",
+          "country": "England",
+          "demonym": "English"
+        },
+        "info": {
+          "position": "F",
+          "shirtNum": 29.0,
+          "positionInfo": "Striker"
+        },
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "club": {
+            "name": "Ipswich Town",
+            "abbr": "IPS",
+            "id": 8.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Ipswich",
+          "id": 8.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 785375.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=8&page=0&pageSize=100",
+          "sourceSha256": "0f99d93651232459844ed7bb335cb23b7ed8848835d6c18568bbe9bfbd489d1a",
+          "retrievedAt": "2026-10-15T00:20:23.301815+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/ipswich/ipswich-chubaakpom/portrait.jpg",
+      "sha256": "ee5ed0704058765754e8ad8a44e5fa52b52734cca7a61dc9bf454c7d20271f67",
+      "bytes": 31498,
+      "width": 550,
+      "height": 550,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    }
+  ],
+  "failures": [],
+  "excluded": [
+    {
+      "name": "Florentino Luís",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Sindre Walle Egeli",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Emersonn Correia da Silva",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Gary O'Neil",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Tim Jenkins",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Neil Critchley",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Stuart Lewis",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Ed Ames",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Sone Aluko",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Rene Gilmartin",
+      "reason": "No matching current club PL FIRST assignment"
+    }
+  ],
+  "releaseReady": false
+}

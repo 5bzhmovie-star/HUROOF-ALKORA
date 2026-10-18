@@ -1,0 +1,40 @@
+{
+  "releaseReady": false,
+  "indexedActualFiles": 1665,
+  "newActualFiles": 743,
+  "newBytes": 152043802,
+  "lostTransientImageFiles": [
+    {
+      "path": "assets/pending_media/saudi_completion/62026499d9c0474095fc687fa0aeffbf/announcement.jpeg",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pending_media/saudi_completion/648b3f21d12c4ed191316b5df23c4a6b/announcement.jpeg",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pending_media/saudi_completion/70848fd1237b4afb8b5706943e077855/announcement.jpeg",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "assets/pending_media/saudi_completion/e139ed8ab4b74355893ed6b6ddf62780/appointment.jpeg",
+      "error": "source bytes changed"
+    },
+    {
+      "path": "assets/pending_media/saudi_completion/e139ed8ab4b74355893ed6b6ddf62780/press-conference.jpeg",
+      "error": "source bytes changed"
+    }
+  ],
+  "notes": [
+    "Five recovered candidate images could not be restored with identical bytes; excluded from actual asset counts. Three signing photos returned403; two coach editorial images changed.",
+    "Canonical club-person merge, full biographies/statistics/transfers, image identity/kit/rights approval remain incomplete."
+  ],
+  "tests": {
+    "pythonRun": 38,
+    "passed": 37,
+    "skipped": 1,
+    "skipReason": "Disposable MySQL connection not configured",
+    "phpColdExtraction": 743,
+    "phpSecondVerification": 743
+  }
+}

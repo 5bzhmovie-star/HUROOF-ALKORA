@@ -3,7 +3,7 @@ import argparse,hashlib,json,re,tarfile
 from pathlib import Path
 
 def safe_path(value):
- if not isinstance(value,str) or not re.fullmatch(r'assets/pending_media/[A-Za-z0-9_./-]+\.(?:png|jpg|webp)',value):raise ValueError('Unsafe media path')
+ if not isinstance(value,str) or not re.fullmatch(r'assets/pending_media/[A-Za-z0-9_./-]+\.(?:png|jpe?g|webp)',value):raise ValueError('Unsafe media path')
  if any(p in ('','.','..') for p in value.split('/')):raise ValueError('Unsafe media segment')
  return value
 

@@ -1,0 +1,11 @@
+{
+  "source": "https://www.nottinghamforest.co.uk/_nuxt/HNgQ-SDv.js",
+  "sha256": "10c9f6b690ed078844321201edda6c16a56cbc80a5805eae02a545d33deeb6d0",
+  "retrievedAt": "2026-10-15",
+  "publicSourceRouteEvidence": {
+    "squad": "getSquad(t){const r=await this.getTeamByString(t),o=`${this.getUrl(\"teams\",2)}/squads/opta?teamID=${r.id}`;return(await(await fetch(o)).json()).body}",
+    "base": "getUrl(t,r){return`https://${t}.football.web.gc.${servicesURL}/v${r}`}",
+    "images": "useGCImage=(fit,width,height,imageKey,servicesURL)=>imageKey?`https://images.gc.${servicesURL}/${fit?\"fit-in/\":\"\"}${width}x${height}/${imageKey}`:\"\""
+  },
+  "authorization": "Public FootballWeb v2 fetch uses no Authorization header; private FootballCMS routes were not called"
+}

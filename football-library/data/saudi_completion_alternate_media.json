@@ -1,0 +1,27 @@
+{
+  "records": [
+    {
+      "sourcePersonId": "alahli::Football_Player::e6edcadb30074d9abc01b3e8b29d9a47",
+      "providerId": "opta:Player:7kfk6763fk0ktra89jib1h638",
+      "clubAsPublished": "Al-Taawoun",
+      "nameAsPublished": "Mustafa Samb",
+      "alternateNameAsPublished": "Mustapha Samb",
+      "source": "https://altaawounfc.com/storage/3719/conversions/0mjioTHh7b1mgL9bXX3HJxJRCOYdjA-meta2YXYtdi32YHZiSDYs9mF2KjZitmG2YoucG5n--webp.webp",
+      "sourcePage": "https://www.altaawounfc.com/players?lang=en",
+      "sourcePageSha256": "ed39045ba20c94f8a6f69dcddeee1906f51c036bf87a374b63312867b534e426",
+      "sourceSha256": "44f5a1c51c0633b4154fdd8ccc0fc57e5cdf003b5e410e8e76bf86b50f86f112",
+      "path": "assets/pending_media/saudi_completion/alahli-e6edcadb30074d9abc01b3e8b29d9a47/portrait.webp",
+      "bytes": 81094,
+      "width": 839,
+      "height": 874,
+      "format": "WEBP",
+      "identityMatchBasis": "Same club, compatible full name; spelling variant Mustafa/Mustapha pending independent corroboration",
+      "identityReview": "pending",
+      "periodReview": "pending",
+      "rightsReview": "pending",
+      "approvedForQuestions": false,
+      "visualReview": "Actual player portrait visually inspected; identity and rights pending"
+    }
+  ],
+  "releaseReady": false
+}

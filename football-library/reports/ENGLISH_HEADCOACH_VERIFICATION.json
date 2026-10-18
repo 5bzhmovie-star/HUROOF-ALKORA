@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-10-15",
+  "headcoachRecords": 20,
+  "clubs": 20,
+  "historicalOrNoncurrentAssignments": 9,
+  "actualPortraitFiles": 7,
+  "actualBytes": 627010,
+  "portraits": [
+    {
+      "sourceClubId": "7",
+      "sourcePersonId": "37569",
+      "file": "assets/pending_media/english_headcoaches/7/37569/portrait.png",
+      "dimensions": [
+        220,
+        280
+      ]
+    },
+    {
+      "sourceClubId": "2",
+      "sourcePersonId": "42856",
+      "file": "assets/pending_media/english_headcoaches/2/42856/portrait.png",
+      "dimensions": [
+        220,
+        280
+      ]
+    },
+    {
+      "sourceClubId": "6",
+      "sourcePersonId": "47376",
+      "file": "assets/pending_media/english_headcoaches/6/47376/portrait.png",
+      "dimensions": [
+        220,
+        280
+      ]
+    },
+    {
+      "sourceClubId": "3",
+      "sourcePersonId": "51018",
+      "file": "assets/pending_media/english_headcoaches/3/51018/portrait.png",
+      "dimensions": [
+        220,
+        280
+      ]
+    },
+    {
+      "sourceClubId": "36",
+      "sourcePersonId": "53902",
+      "file": "assets/pending_media/english_headcoaches/36/53902/portrait.png",
+      "dimensions": [
+        220,
+        280
+      ]
+    },
+    {
+      "sourceClubId": "11",
+      "sourcePersonId": "85",
+      "file": "assets/pending_media/english_headcoaches/11/85/portrait.png",
+      "dimensions": [
+        220,
+        280
+      ]
+    },
+    {
+      "sourceClubId": "94",
+      "sourcePersonId": "66206",
+      "file": "assets/pending_media/english_headcoaches/94/66206/portrait.png",
+      "dimensions": [
+        220,
+        280
+      ]
+    }
+  ],
+  "verification": "2 audit tests passed; Python compilation passed; all actual portraits decoded/PIL verified and SHA256 checked; all7 visual contact review; no upscaling",
+  "limitations": [
+    "12published default portrait requests403; no alternate image guesses or retries after batch",
+    "1portrait rejected due unresolved current-club branding",
+    "Career summaries limited to published PL seasons and first fixture ID",
+    "No full worldwide managerial histories or inferred departure dates",
+    "All identity, kitperiod and rights pending; no card-quality approval"
+  ],
+  "releaseReady": false
+}

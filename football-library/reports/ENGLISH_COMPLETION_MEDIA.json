@@ -1,0 +1,38 @@
+{
+  "actualFiles": 61,
+  "players": 60,
+  "coaches": 1,
+  "byClub": {
+    "52919": 14,
+    "7889": 22,
+    "tottenham": 25
+  },
+  "failures": [
+    {
+      "name": "Kaden Braithwaite",
+      "imageSource": "https://img.uefa.com/imgml/TP/players/1/2027/324x324/250193656.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Daniel Armer",
+      "imageSource": "https://img.uefa.com/imgml/TP/players/1/2027/324x324/250190131.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Floyd Samba",
+      "imageSource": "https://img.uefa.com/imgml/TP/players/1/2027/324x324/250193658.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Martin Dúbravka",
+      "imageSource": "https://resources.thfc.pulselive.com/photo-resources/2026/08/20/4a87516c-805c-4961-8428-bdabed4f45a8/firstteam_profiles_202627_martindubravka.png?width=363&height=433",
+      "error": "Visual review: Tottenham shirt in Manchester City source context; reject club-context mismatch"
+    },
+    {
+      "name": "Enzo Maresca",
+      "imageSource": "https://img.uefa.com/imgml/TP/players/1/2027/324x324/30513.jpg",
+      "error": "Visual review: portrait appears to show a different coach; identity mismatch pending resolution"
+    }
+  ],
+  "releaseReady": false
+}

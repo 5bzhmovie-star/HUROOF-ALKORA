@@ -1,0 +1,2942 @@
+{
+  "checkedAt": "2026-10-15",
+  "season": "2026-2027",
+  "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/competitions/8/seasons/2026/managers?_limit=100",
+  "sourceSha256": "a5181afdccc770c7c66a952e6e4d5d27bf8de50b0fe86334ff0cef958cf4c83a",
+  "participantSource": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/competitions/8/seasons/2026/teams?_limit=100",
+  "participantSourceSha256": "54c740d087df969628eeca14f6bbf7ff5417e78902ef7965a7d4029078bfab15",
+  "sourceRecordsAsPublished": [
+    {
+      "country": {
+        "isoCode": "ES",
+        "country": "Spain",
+        "demonym": "Spanish"
+      },
+      "activelyManaging": "7",
+      "name": {
+        "last": "Emery",
+        "first": "Unai"
+      },
+      "teamManaged": {
+        "name": "Aston Villa",
+        "id": "7",
+        "shortName": "Aston Villa"
+      },
+      "dates": {
+        "joinedClub": "2022-11-01",
+        "birth": "1971-11-03"
+      },
+      "id": "37569",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "ES",
+        "country": "Spain",
+        "demonym": "Spanish"
+      },
+      "name": {
+        "last": "Guardiola",
+        "first": "Pep"
+      },
+      "teamManaged": {
+        "name": "Manchester City",
+        "id": "43",
+        "shortName": "Man City"
+      },
+      "dates": {
+        "joinedClub": "2016-07-01",
+        "birth": "1971-01-18"
+      },
+      "id": "37974",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "GB-ENG",
+        "country": "England",
+        "demonym": "English"
+      },
+      "name": {
+        "last": "Howe",
+        "first": "Eddie"
+      },
+      "teamManaged": {
+        "name": "Newcastle United",
+        "id": "4",
+        "shortName": "Newcastle"
+      },
+      "dates": {
+        "joinedClub": "2021-11-08",
+        "birth": "1977-11-29"
+      },
+      "id": "38216",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "PT",
+        "country": "Portugal",
+        "demonym": "Portugese"
+      },
+      "name": {
+        "last": "de Oliveira Lopes Pereira",
+        "known": "Vítor Pereira",
+        "first": "Vítor Manuel"
+      },
+      "teamManaged": {
+        "name": "Nottingham Forest",
+        "id": "17",
+        "shortName": "Nott'm Forest"
+      },
+      "dates": {
+        "joinedClub": "2026-02-15",
+        "birth": "1968-07-26"
+      },
+      "id": "40855",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "PT",
+        "country": "Portugal",
+        "demonym": "Portugese"
+      },
+      "activelyManaging": "251",
+      "name": {
+        "last": "Saraiva da Silva",
+        "known": "Marco Silva",
+        "first": "Marco Alexandre"
+      },
+      "teamManaged": {
+        "name": "Fulham",
+        "id": "54",
+        "shortName": "Fulham"
+      },
+      "dates": {
+        "joinedClub": "2021-07-01",
+        "birth": "1977-07-12"
+      },
+      "id": "41801",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "DE",
+        "country": "Germany",
+        "demonym": "German"
+      },
+      "activelyManaging": "2",
+      "name": {
+        "last": "Farke",
+        "first": "Daniel"
+      },
+      "teamManaged": {
+        "name": "Leeds United",
+        "id": "2",
+        "shortName": "Leeds"
+      },
+      "dates": {
+        "joinedClub": "2023-07-04",
+        "birth": "1976-10-30"
+      },
+      "id": "42856",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "AT",
+        "country": "Austria",
+        "demonym": "Austrian"
+      },
+      "activelyManaging": "17",
+      "name": {
+        "last": "Glasner",
+        "first": "Oliver"
+      },
+      "teamManaged": {
+        "name": "Nottingham Forest",
+        "id": "17",
+        "shortName": "Nott'm Forest"
+      },
+      "dates": {
+        "joinedClub": "2026-07-06",
+        "birth": "1974-08-28"
+      },
+      "id": "44410",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "AT",
+        "country": "Austria",
+        "demonym": "Austrian"
+      },
+      "activelyManaging": "17",
+      "name": {
+        "last": "Glasner",
+        "first": "Oliver"
+      },
+      "teamManaged": {
+        "name": "Crystal Palace",
+        "id": "31",
+        "shortName": "Crystal Palace"
+      },
+      "dates": {
+        "joinedClub": "2024-02-20",
+        "birth": "1974-08-28"
+      },
+      "id": "44410",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "IT",
+        "country": "Italy",
+        "demonym": "Italian"
+      },
+      "activelyManaging": "6",
+      "name": {
+        "last": "De Zerbi",
+        "first": "Roberto"
+      },
+      "teamManaged": {
+        "name": "Tottenham Hotspur",
+        "id": "6",
+        "shortName": "Spurs"
+      },
+      "dates": {
+        "joinedClub": "2026-03-31",
+        "birth": "1979-06-06"
+      },
+      "id": "47376",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "GB-NIR",
+        "country": "Northern Ireland",
+        "demonym": "Northern Irish"
+      },
+      "name": {
+        "last": "McKenna",
+        "first": "Kieran"
+      },
+      "teamManaged": {
+        "name": "Ipswich Town",
+        "id": "40",
+        "shortName": "Ipswich"
+      },
+      "dates": {
+        "joinedClub": "2021-12-16",
+        "birth": "1986-05-14"
+      },
+      "id": "47418",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "ES",
+        "country": "Spain",
+        "demonym": "Spanish"
+      },
+      "activelyManaging": "8",
+      "name": {
+        "last": "Alonso",
+        "first": "Xabi"
+      },
+      "teamManaged": {
+        "name": "Chelsea",
+        "id": "8",
+        "shortName": "Chelsea"
+      },
+      "dates": {
+        "joinedClub": "2026-07-01",
+        "birth": "1981-11-25"
+      },
+      "id": "48314",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "IT",
+        "country": "Italy",
+        "demonym": "Italian"
+      },
+      "activelyManaging": "43",
+      "name": {
+        "last": "Maresca",
+        "first": "Enzo"
+      },
+      "teamManaged": {
+        "name": "Manchester City",
+        "id": "43",
+        "shortName": "Man City"
+      },
+      "dates": {
+        "joinedClub": "2026-06-29",
+        "birth": "1980-02-10"
+      },
+      "id": "48549",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "DE",
+        "country": "Germany",
+        "demonym": "German"
+      },
+      "activelyManaging": "91",
+      "name": {
+        "last": "Rose",
+        "first": "Marco"
+      },
+      "teamManaged": {
+        "name": "Bournemouth",
+        "id": "91",
+        "shortName": "Bournemouth"
+      },
+      "dates": {
+        "joinedClub": "2026-06-03",
+        "birth": "1976-09-11"
+      },
+      "id": "48664",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "GB-ENG",
+        "country": "England",
+        "demonym": "English"
+      },
+      "activelyManaging": "9",
+      "name": {
+        "last": "Lampard",
+        "first": "Frank"
+      },
+      "teamManaged": {
+        "name": "Coventry City",
+        "id": "9",
+        "shortName": "Coventry"
+      },
+      "dates": {
+        "joinedClub": "2024-11-28",
+        "birth": "1978-06-20"
+      },
+      "id": "50167",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "ES",
+        "country": "Spain",
+        "demonym": "Spanish"
+      },
+      "activelyManaging": "14",
+      "name": {
+        "last": "Iraola",
+        "first": "Andoni"
+      },
+      "teamManaged": {
+        "name": "Liverpool",
+        "id": "14",
+        "shortName": "Liverpool"
+      },
+      "dates": {
+        "joinedClub": "2026-06-04",
+        "birth": "1982-06-22"
+      },
+      "id": "50428",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "ES",
+        "country": "Spain",
+        "demonym": "Spanish"
+      },
+      "activelyManaging": "14",
+      "name": {
+        "last": "Iraola",
+        "first": "Andoni"
+      },
+      "teamManaged": {
+        "name": "Bournemouth",
+        "id": "91",
+        "shortName": "Bournemouth"
+      },
+      "dates": {
+        "joinedClub": "2023-07-01",
+        "birth": "1982-06-22"
+      },
+      "id": "50428",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "HR",
+        "country": "Croatia",
+        "demonym": "Croatian"
+      },
+      "activelyManaging": "88",
+      "name": {
+        "last": "Jakirovic",
+        "first": "Sergej"
+      },
+      "teamManaged": {
+        "name": "Hull City",
+        "id": "88",
+        "shortName": "Hull"
+      },
+      "dates": {
+        "joinedClub": "2025-06-11",
+        "birth": "1976-12-23"
+      },
+      "id": "50432",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "ES",
+        "country": "Spain",
+        "demonym": "Spanish"
+      },
+      "activelyManaging": "3",
+      "name": {
+        "last": "Arteta",
+        "first": "Mikel"
+      },
+      "teamManaged": {
+        "name": "Arsenal",
+        "id": "3",
+        "shortName": "Arsenal"
+      },
+      "dates": {
+        "joinedClub": "2019-12-22",
+        "birth": "1982-03-26"
+      },
+      "id": "51018",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "NL",
+        "country": "Netherlands",
+        "demonym": "Dutch"
+      },
+      "name": {
+        "last": "Slot",
+        "first": "Arne"
+      },
+      "teamManaged": {
+        "name": "Liverpool",
+        "id": "14",
+        "shortName": "Liverpool"
+      },
+      "dates": {
+        "joinedClub": "2024-06-01",
+        "birth": "1978-09-17"
+      },
+      "id": "52174",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "DE",
+        "country": "Germany",
+        "demonym": "German"
+      },
+      "activelyManaging": "36",
+      "name": {
+        "last": "Hürzeler",
+        "first": "Fabian"
+      },
+      "teamManaged": {
+        "name": "Brighton and Hove Albion",
+        "id": "36",
+        "shortName": "Brighton"
+      },
+      "dates": {
+        "joinedClub": "2024-06-15",
+        "birth": "1993-02-26"
+      },
+      "id": "53902",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "DE",
+        "country": "Germany",
+        "demonym": "German"
+      },
+      "activelyManaging": "4",
+      "name": {
+        "last": "Jaissle",
+        "first": "Matthias"
+      },
+      "teamManaged": {
+        "name": "Newcastle United",
+        "id": "4",
+        "shortName": "Newcastle"
+      },
+      "dates": {
+        "joinedClub": "2026-08-05",
+        "birth": "1988-04-05"
+      },
+      "id": "53959",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "GB-ENG",
+        "country": "England",
+        "demonym": "English"
+      },
+      "activelyManaging": "1",
+      "name": {
+        "last": "Carrick",
+        "first": "Michael"
+      },
+      "teamManaged": {
+        "name": "Manchester United",
+        "id": "1",
+        "shortName": "Man Utd"
+      },
+      "dates": {
+        "joinedClub": "2026-01-13",
+        "birth": "1981-07-28"
+      },
+      "id": "56407",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "FR",
+        "country": "France",
+        "demonym": "French"
+      },
+      "activelyManaging": "56",
+      "name": {
+        "last": "Le Bris",
+        "first": "Régis"
+      },
+      "teamManaged": {
+        "name": "Sunderland",
+        "id": "56",
+        "shortName": "Sunderland"
+      },
+      "dates": {
+        "joinedClub": "2024-07-01",
+        "birth": "1975-12-06"
+      },
+      "id": "58318",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "GB-ENG",
+        "country": "England",
+        "demonym": "English"
+      },
+      "activelyManaging": "40",
+      "name": {
+        "last": "O'Neil",
+        "first": "Gary"
+      },
+      "teamManaged": {
+        "name": "Ipswich Town",
+        "id": "40",
+        "shortName": "Ipswich"
+      },
+      "dates": {
+        "joinedClub": "2026-06-23",
+        "birth": "1983-05-18"
+      },
+      "id": "58884",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "ES",
+        "country": "Spain",
+        "demonym": "Spanish"
+      },
+      "activelyManaging": "54",
+      "name": {
+        "last": "Arbeloa",
+        "first": "Álvaro"
+      },
+      "teamManaged": {
+        "name": "Fulham",
+        "id": "54",
+        "shortName": "Fulham"
+      },
+      "dates": {
+        "joinedClub": "2026-07-08",
+        "birth": "1983-01-17"
+      },
+      "id": "58906",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "GB-ENG",
+        "country": "England",
+        "demonym": "English"
+      },
+      "name": {
+        "last": "McFarlane",
+        "first": "Calum"
+      },
+      "teamManaged": {
+        "name": "Chelsea",
+        "id": "8",
+        "shortName": "Chelsea"
+      },
+      "dates": {
+        "joinedClub": "2026-04-22",
+        "birth": "1985-11-13"
+      },
+      "id": "61136",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "FR",
+        "country": "France",
+        "demonym": "French"
+      },
+      "activelyManaging": "31",
+      "name": {
+        "last": "Sage",
+        "first": "Pierre"
+      },
+      "teamManaged": {
+        "name": "Crystal Palace",
+        "id": "31",
+        "shortName": "Crystal Palace"
+      },
+      "dates": {
+        "joinedClub": "2026-06-15",
+        "birth": "1979-05-05"
+      },
+      "id": "62022",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "IE",
+        "country": "Ireland",
+        "demonym": "Irish"
+      },
+      "activelyManaging": "94",
+      "name": {
+        "last": "Andrews",
+        "first": "Keith"
+      },
+      "teamManaged": {
+        "name": "Brentford",
+        "id": "94",
+        "shortName": "Brentford"
+      },
+      "dates": {
+        "joinedClub": "2025-06-27",
+        "birth": "1980-09-13"
+      },
+      "id": "66206",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "GB-SCT",
+        "country": "Scotland",
+        "demonym": "Scottish"
+      },
+      "activelyManaging": "11",
+      "name": {
+        "last": "Moyes",
+        "first": "David"
+      },
+      "teamManaged": {
+        "name": "Everton",
+        "id": "11",
+        "shortName": "Everton"
+      },
+      "dates": {
+        "joinedClub": "2025-01-11",
+        "birth": "1963-04-25"
+      },
+      "id": "85",
+      "type": "Manager"
+    }
+  ],
+  "historicalOrNoncurrentAssignments": [
+    {
+      "country": {
+        "isoCode": "ES",
+        "country": "Spain",
+        "demonym": "Spanish"
+      },
+      "name": {
+        "last": "Guardiola",
+        "first": "Pep"
+      },
+      "teamManaged": {
+        "name": "Manchester City",
+        "id": "43",
+        "shortName": "Man City"
+      },
+      "dates": {
+        "joinedClub": "2016-07-01",
+        "birth": "1971-01-18"
+      },
+      "id": "37974",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "GB-ENG",
+        "country": "England",
+        "demonym": "English"
+      },
+      "name": {
+        "last": "Howe",
+        "first": "Eddie"
+      },
+      "teamManaged": {
+        "name": "Newcastle United",
+        "id": "4",
+        "shortName": "Newcastle"
+      },
+      "dates": {
+        "joinedClub": "2021-11-08",
+        "birth": "1977-11-29"
+      },
+      "id": "38216",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "PT",
+        "country": "Portugal",
+        "demonym": "Portugese"
+      },
+      "name": {
+        "last": "de Oliveira Lopes Pereira",
+        "known": "Vítor Pereira",
+        "first": "Vítor Manuel"
+      },
+      "teamManaged": {
+        "name": "Nottingham Forest",
+        "id": "17",
+        "shortName": "Nott'm Forest"
+      },
+      "dates": {
+        "joinedClub": "2026-02-15",
+        "birth": "1968-07-26"
+      },
+      "id": "40855",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "PT",
+        "country": "Portugal",
+        "demonym": "Portugese"
+      },
+      "activelyManaging": "251",
+      "name": {
+        "last": "Saraiva da Silva",
+        "known": "Marco Silva",
+        "first": "Marco Alexandre"
+      },
+      "teamManaged": {
+        "name": "Fulham",
+        "id": "54",
+        "shortName": "Fulham"
+      },
+      "dates": {
+        "joinedClub": "2021-07-01",
+        "birth": "1977-07-12"
+      },
+      "id": "41801",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "AT",
+        "country": "Austria",
+        "demonym": "Austrian"
+      },
+      "activelyManaging": "17",
+      "name": {
+        "last": "Glasner",
+        "first": "Oliver"
+      },
+      "teamManaged": {
+        "name": "Crystal Palace",
+        "id": "31",
+        "shortName": "Crystal Palace"
+      },
+      "dates": {
+        "joinedClub": "2024-02-20",
+        "birth": "1974-08-28"
+      },
+      "id": "44410",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "GB-NIR",
+        "country": "Northern Ireland",
+        "demonym": "Northern Irish"
+      },
+      "name": {
+        "last": "McKenna",
+        "first": "Kieran"
+      },
+      "teamManaged": {
+        "name": "Ipswich Town",
+        "id": "40",
+        "shortName": "Ipswich"
+      },
+      "dates": {
+        "joinedClub": "2021-12-16",
+        "birth": "1986-05-14"
+      },
+      "id": "47418",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "ES",
+        "country": "Spain",
+        "demonym": "Spanish"
+      },
+      "activelyManaging": "14",
+      "name": {
+        "last": "Iraola",
+        "first": "Andoni"
+      },
+      "teamManaged": {
+        "name": "Bournemouth",
+        "id": "91",
+        "shortName": "Bournemouth"
+      },
+      "dates": {
+        "joinedClub": "2023-07-01",
+        "birth": "1982-06-22"
+      },
+      "id": "50428",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "NL",
+        "country": "Netherlands",
+        "demonym": "Dutch"
+      },
+      "name": {
+        "last": "Slot",
+        "first": "Arne"
+      },
+      "teamManaged": {
+        "name": "Liverpool",
+        "id": "14",
+        "shortName": "Liverpool"
+      },
+      "dates": {
+        "joinedClub": "2024-06-01",
+        "birth": "1978-09-17"
+      },
+      "id": "52174",
+      "type": "Manager"
+    },
+    {
+      "country": {
+        "isoCode": "GB-ENG",
+        "country": "England",
+        "demonym": "English"
+      },
+      "name": {
+        "last": "McFarlane",
+        "first": "Calum"
+      },
+      "teamManaged": {
+        "name": "Chelsea",
+        "id": "8",
+        "shortName": "Chelsea"
+      },
+      "dates": {
+        "joinedClub": "2026-04-22",
+        "birth": "1985-11-13"
+      },
+      "id": "61136",
+      "type": "Manager"
+    }
+  ],
+  "currentHeadcoaches": [
+    {
+      "sourcePersonId": "37569",
+      "sourceClubId": "7",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Aston Villa",
+        "id": "7",
+        "shortName": "Aston Villa"
+      },
+      "nameAsPublished": {
+        "last": "Emery",
+        "first": "Unai"
+      },
+      "dateOfBirth": "1971-11-03",
+      "nationalityAsPublished": {
+        "isoCode": "ES",
+        "country": "Spain",
+        "demonym": "Spanish"
+      },
+      "appointmentDateAsPublished": "2022-11-01",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2025",
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "987593",
+        "seasonsAtCurrentTeam": [
+          "2025",
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/37569",
+      "sourceSha256": "bef6222018b89f11c956676a9d600614ee467f970258fc1f61431fb6046aabf0",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "ES",
+          "country": "Spain",
+          "demonym": "Spanish"
+        },
+        "activelyManaging": "7",
+        "name": {
+          "last": "Emery",
+          "first": "Unai"
+        },
+        "teamManaged": {
+          "name": "Aston Villa",
+          "id": "7",
+          "shortName": "Aston Villa"
+        },
+        "dates": {
+          "joinedClub": "2022-11-01",
+          "birth": "1971-11-03"
+        },
+        "id": "37569",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Aston Villa",
+          "id": "7",
+          "shortName": "Aston Villa"
+        },
+        "country": {
+          "isoCode": "ES",
+          "country": "Spain",
+          "demonym": "Spanish"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2025",
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "987593",
+          "seasonsAtCurrentTeam": [
+            "2025",
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "Emery",
+          "first": "Unai"
+        },
+        "dates": {
+          "joinedClub": "2022-11-01",
+          "birth": "1971-11-03"
+        },
+        "id": "37569"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/37569.png",
+        "file": "assets/pending_media/english_headcoaches/7/37569/portrait.png",
+        "sha256": "42a622faec50ff4d4c0b4c802ac3bfba3234fe724cde4a368bf7994b61f63be3",
+        "width": 220,
+        "height": 280,
+        "bytes": 71074,
+        "rightsStatus": "pending-review",
+        "identityReviewed": false,
+        "kitPeriodReviewed": false,
+        "approvedForQuestions": false,
+        "visualReview": {
+          "checkedAt": "2026-10-15",
+          "faceVisible": true,
+          "professionalPortrait": true,
+          "resolution": "Original published default portrait; no resizing or upscaling",
+          "independentIdentityVerified": false,
+          "kitPeriodVerified": false,
+          "cardQualityApproved": false
+        }
+      }
+    },
+    {
+      "sourcePersonId": "44410",
+      "sourceClubId": "17",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Nottingham Forest",
+        "id": "17",
+        "shortName": "Nott'm Forest"
+      },
+      "nameAsPublished": {
+        "last": "Glasner",
+        "first": "Oliver"
+      },
+      "dateOfBirth": "1974-08-28",
+      "nationalityAsPublished": {
+        "isoCode": "AT",
+        "country": "Austria",
+        "demonym": "Austrian"
+      },
+      "appointmentDateAsPublished": "2026-07-06",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2025",
+          "2026",
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "2367793",
+        "seasonsAtCurrentTeam": [
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/44410",
+      "sourceSha256": "efedcd72d8a8ce43e738a19229ba38535c5a597b8f7c1214c287f4afa08bcb88",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "AT",
+          "country": "Austria",
+          "demonym": "Austrian"
+        },
+        "activelyManaging": "17",
+        "name": {
+          "last": "Glasner",
+          "first": "Oliver"
+        },
+        "teamManaged": {
+          "name": "Nottingham Forest",
+          "id": "17",
+          "shortName": "Nott'm Forest"
+        },
+        "dates": {
+          "joinedClub": "2026-07-06",
+          "birth": "1974-08-28"
+        },
+        "id": "44410",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Nottingham Forest",
+          "id": "17",
+          "shortName": "Nott'm Forest"
+        },
+        "country": {
+          "isoCode": "AT",
+          "country": "Austria",
+          "demonym": "Austrian"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2025",
+            "2026",
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "2367793",
+          "seasonsAtCurrentTeam": [
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "Glasner",
+          "first": "Oliver"
+        },
+        "dates": {
+          "joinedClub": "2026-07-06",
+          "birth": "1974-08-28"
+        },
+        "id": "44410"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": null,
+      "portraitFailure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/44410.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "42856",
+      "sourceClubId": "2",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Leeds United",
+        "id": "2",
+        "shortName": "Leeds"
+      },
+      "nameAsPublished": {
+        "last": "Farke",
+        "first": "Daniel"
+      },
+      "dateOfBirth": "1976-10-30",
+      "nationalityAsPublished": {
+        "isoCode": "DE",
+        "country": "Germany",
+        "demonym": "German"
+      },
+      "appointmentDateAsPublished": "2023-07-04",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2025",
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "1059702",
+        "seasonsAtCurrentTeam": [
+          "2025",
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/42856",
+      "sourceSha256": "b3e97d9f14fad5f0a52f578c94c710d3116d4692e99419dfff418281c958ed96",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "DE",
+          "country": "Germany",
+          "demonym": "German"
+        },
+        "activelyManaging": "2",
+        "name": {
+          "last": "Farke",
+          "first": "Daniel"
+        },
+        "teamManaged": {
+          "name": "Leeds United",
+          "id": "2",
+          "shortName": "Leeds"
+        },
+        "dates": {
+          "joinedClub": "2023-07-04",
+          "birth": "1976-10-30"
+        },
+        "id": "42856",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Leeds United",
+          "id": "2",
+          "shortName": "Leeds"
+        },
+        "country": {
+          "isoCode": "DE",
+          "country": "Germany",
+          "demonym": "German"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2025",
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "1059702",
+          "seasonsAtCurrentTeam": [
+            "2025",
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "Farke",
+          "first": "Daniel"
+        },
+        "dates": {
+          "joinedClub": "2023-07-04",
+          "birth": "1976-10-30"
+        },
+        "id": "42856"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/42856.png",
+        "file": "assets/pending_media/english_headcoaches/2/42856/portrait.png",
+        "sha256": "2fa02a8f91c71c1bf31eded4ed31317c7c6ad5a12f7d6f3f5a4684959fce4ed2",
+        "width": 220,
+        "height": 280,
+        "bytes": 81139,
+        "rightsStatus": "pending-review",
+        "identityReviewed": false,
+        "kitPeriodReviewed": false,
+        "approvedForQuestions": false,
+        "visualReview": {
+          "checkedAt": "2026-10-15",
+          "faceVisible": true,
+          "professionalPortrait": true,
+          "resolution": "Original published default portrait; no resizing or upscaling",
+          "independentIdentityVerified": false,
+          "kitPeriodVerified": false,
+          "cardQualityApproved": false
+        }
+      }
+    },
+    {
+      "sourcePersonId": "47376",
+      "sourceClubId": "6",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Tottenham Hotspur",
+        "id": "6",
+        "shortName": "Spurs"
+      },
+      "nameAsPublished": {
+        "last": "De Zerbi",
+        "first": "Roberto"
+      },
+      "dateOfBirth": "1979-06-06",
+      "nationalityAsPublished": {
+        "isoCode": "IT",
+        "country": "Italy",
+        "demonym": "Italian"
+      },
+      "appointmentDateAsPublished": "2026-03-31",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2025",
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "2292896",
+        "seasonsAtCurrentTeam": [
+          "2025",
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/47376",
+      "sourceSha256": "9e3a69b566e378ff548ac860a3217687d424298842f7f44b7c71b743855e8ffa",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "IT",
+          "country": "Italy",
+          "demonym": "Italian"
+        },
+        "activelyManaging": "6",
+        "name": {
+          "last": "De Zerbi",
+          "first": "Roberto"
+        },
+        "teamManaged": {
+          "name": "Tottenham Hotspur",
+          "id": "6",
+          "shortName": "Spurs"
+        },
+        "dates": {
+          "joinedClub": "2026-03-31",
+          "birth": "1979-06-06"
+        },
+        "id": "47376",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Tottenham Hotspur",
+          "id": "6",
+          "shortName": "Spurs"
+        },
+        "country": {
+          "isoCode": "IT",
+          "country": "Italy",
+          "demonym": "Italian"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2025",
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "2292896",
+          "seasonsAtCurrentTeam": [
+            "2025",
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "De Zerbi",
+          "first": "Roberto"
+        },
+        "dates": {
+          "joinedClub": "2026-03-31",
+          "birth": "1979-06-06"
+        },
+        "id": "47376"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/47376.png",
+        "file": "assets/pending_media/english_headcoaches/6/47376/portrait.png",
+        "sha256": "9b041cd499827c1e7a6d358915923ff680a935c6c55c28da732534ab7d648278",
+        "width": 220,
+        "height": 280,
+        "bytes": 88795,
+        "rightsStatus": "pending-review",
+        "identityReviewed": false,
+        "kitPeriodReviewed": false,
+        "approvedForQuestions": false,
+        "visualReview": {
+          "checkedAt": "2026-10-15",
+          "faceVisible": true,
+          "professionalPortrait": true,
+          "resolution": "Original published default portrait; no resizing or upscaling",
+          "independentIdentityVerified": false,
+          "kitPeriodVerified": false,
+          "cardQualityApproved": false
+        }
+      }
+    },
+    {
+      "sourcePersonId": "48314",
+      "sourceClubId": "8",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Chelsea",
+        "id": "8",
+        "shortName": "Chelsea"
+      },
+      "nameAsPublished": {
+        "last": "Alonso",
+        "first": "Xabi"
+      },
+      "dateOfBirth": "1981-11-25",
+      "nationalityAsPublished": {
+        "isoCode": "ES",
+        "country": "Spain",
+        "demonym": "Spanish"
+      },
+      "appointmentDateAsPublished": "2026-07-01",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "2645204",
+        "seasonsAtCurrentTeam": [
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/48314",
+      "sourceSha256": "24eb7bd8ce15f71b5eedb9cae323a449eee4f1094776daa23711c759fb71310a",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "ES",
+          "country": "Spain",
+          "demonym": "Spanish"
+        },
+        "activelyManaging": "8",
+        "name": {
+          "last": "Alonso",
+          "first": "Xabi"
+        },
+        "teamManaged": {
+          "name": "Chelsea",
+          "id": "8",
+          "shortName": "Chelsea"
+        },
+        "dates": {
+          "joinedClub": "2026-07-01",
+          "birth": "1981-11-25"
+        },
+        "id": "48314",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Chelsea",
+          "id": "8",
+          "shortName": "Chelsea"
+        },
+        "country": {
+          "isoCode": "ES",
+          "country": "Spain",
+          "demonym": "Spanish"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "2645204",
+          "seasonsAtCurrentTeam": [
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "Alonso",
+          "first": "Xabi"
+        },
+        "dates": {
+          "joinedClub": "2026-07-01",
+          "birth": "1981-11-25"
+        },
+        "id": "48314"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": null,
+      "portraitFailure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/48314.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "48549",
+      "sourceClubId": "43",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Manchester City",
+        "id": "43",
+        "shortName": "Man City"
+      },
+      "nameAsPublished": {
+        "last": "Maresca",
+        "first": "Enzo"
+      },
+      "dateOfBirth": "1980-02-10",
+      "nationalityAsPublished": {
+        "isoCode": "IT",
+        "country": "Italy",
+        "demonym": "Italian"
+      },
+      "appointmentDateAsPublished": "2026-06-29",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2025",
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "2444478",
+        "seasonsAtCurrentTeam": [
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/48549",
+      "sourceSha256": "bedf7203a5832fbf51aa834f4143fd0221f30c3533ddb5b8072f727ee3458449",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "IT",
+          "country": "Italy",
+          "demonym": "Italian"
+        },
+        "activelyManaging": "43",
+        "name": {
+          "last": "Maresca",
+          "first": "Enzo"
+        },
+        "teamManaged": {
+          "name": "Manchester City",
+          "id": "43",
+          "shortName": "Man City"
+        },
+        "dates": {
+          "joinedClub": "2026-06-29",
+          "birth": "1980-02-10"
+        },
+        "id": "48549",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Manchester City",
+          "id": "43",
+          "shortName": "Man City"
+        },
+        "country": {
+          "isoCode": "IT",
+          "country": "Italy",
+          "demonym": "Italian"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2025",
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "2444478",
+          "seasonsAtCurrentTeam": [
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "Maresca",
+          "first": "Enzo"
+        },
+        "dates": {
+          "joinedClub": "2026-06-29",
+          "birth": "1980-02-10"
+        },
+        "id": "48549"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": null,
+      "portraitFailure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/48549.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "50167",
+      "sourceClubId": "9",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Coventry City",
+        "id": "9",
+        "shortName": "Coventry"
+      },
+      "nameAsPublished": {
+        "last": "Lampard",
+        "first": "Frank"
+      },
+      "dateOfBirth": "1978-06-20",
+      "nationalityAsPublished": {
+        "isoCode": "GB-ENG",
+        "country": "England",
+        "demonym": "English"
+      },
+      "appointmentDateAsPublished": "2024-11-28",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "1059710",
+        "seasonsAtCurrentTeam": [
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/50167",
+      "sourceSha256": "d9b1a153ef978677344cea299034e8ce5dbd2fdecb5cbf51ace6791a31646833",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "GB-ENG",
+          "country": "England",
+          "demonym": "English"
+        },
+        "activelyManaging": "9",
+        "name": {
+          "last": "Lampard",
+          "first": "Frank"
+        },
+        "teamManaged": {
+          "name": "Coventry City",
+          "id": "9",
+          "shortName": "Coventry"
+        },
+        "dates": {
+          "joinedClub": "2024-11-28",
+          "birth": "1978-06-20"
+        },
+        "id": "50167",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Coventry City",
+          "id": "9",
+          "shortName": "Coventry"
+        },
+        "country": {
+          "isoCode": "GB-ENG",
+          "country": "England",
+          "demonym": "English"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "1059710",
+          "seasonsAtCurrentTeam": [
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "Lampard",
+          "first": "Frank"
+        },
+        "dates": {
+          "joinedClub": "2024-11-28",
+          "birth": "1978-06-20"
+        },
+        "id": "50167"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": null,
+      "portraitFailure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/50167.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "50428",
+      "sourceClubId": "14",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Liverpool",
+        "id": "14",
+        "shortName": "Liverpool"
+      },
+      "nameAsPublished": {
+        "last": "Iraola",
+        "first": "Andoni"
+      },
+      "dateOfBirth": "1982-06-22",
+      "nationalityAsPublished": {
+        "isoCode": "ES",
+        "country": "Spain",
+        "demonym": "Spanish"
+      },
+      "appointmentDateAsPublished": "2026-06-04",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2025",
+          "2026",
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "2367539",
+        "seasonsAtCurrentTeam": [
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/50428",
+      "sourceSha256": "ad2121a86754d39d50a57850b0c3b6ed22fef7d6f885936eff4a8149c2c4038c",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "ES",
+          "country": "Spain",
+          "demonym": "Spanish"
+        },
+        "activelyManaging": "14",
+        "name": {
+          "last": "Iraola",
+          "first": "Andoni"
+        },
+        "teamManaged": {
+          "name": "Liverpool",
+          "id": "14",
+          "shortName": "Liverpool"
+        },
+        "dates": {
+          "joinedClub": "2026-06-04",
+          "birth": "1982-06-22"
+        },
+        "id": "50428",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Liverpool",
+          "id": "14",
+          "shortName": "Liverpool"
+        },
+        "country": {
+          "isoCode": "ES",
+          "country": "Spain",
+          "demonym": "Spanish"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2025",
+            "2026",
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "2367539",
+          "seasonsAtCurrentTeam": [
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "Iraola",
+          "first": "Andoni"
+        },
+        "dates": {
+          "joinedClub": "2026-06-04",
+          "birth": "1982-06-22"
+        },
+        "id": "50428"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": null,
+      "portraitFailure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/50428.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "50432",
+      "sourceClubId": "88",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Hull City",
+        "id": "88",
+        "shortName": "Hull"
+      },
+      "nameAsPublished": {
+        "last": "Jakirovic",
+        "first": "Sergej"
+      },
+      "dateOfBirth": "1976-12-23",
+      "nationalityAsPublished": {
+        "isoCode": "HR",
+        "country": "Croatia",
+        "demonym": "Croatian"
+      },
+      "appointmentDateAsPublished": "2025-06-11",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "2645198",
+        "seasonsAtCurrentTeam": [
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/50432",
+      "sourceSha256": "04f1c5bc890b7ff6bd79d9e2868e336b582eb0390c618c4dd521ea7f430328e2",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "HR",
+          "country": "Croatia",
+          "demonym": "Croatian"
+        },
+        "activelyManaging": "88",
+        "name": {
+          "last": "Jakirovic",
+          "first": "Sergej"
+        },
+        "teamManaged": {
+          "name": "Hull City",
+          "id": "88",
+          "shortName": "Hull"
+        },
+        "dates": {
+          "joinedClub": "2025-06-11",
+          "birth": "1976-12-23"
+        },
+        "id": "50432",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Hull City",
+          "id": "88",
+          "shortName": "Hull"
+        },
+        "country": {
+          "isoCode": "HR",
+          "country": "Croatia",
+          "demonym": "Croatian"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "2645198",
+          "seasonsAtCurrentTeam": [
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "Jakirovic",
+          "first": "Sergej"
+        },
+        "dates": {
+          "joinedClub": "2025-06-11",
+          "birth": "1976-12-23"
+        },
+        "id": "50432"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": null,
+      "portraitFailure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/50432.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "48664",
+      "sourceClubId": "91",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Bournemouth",
+        "id": "91",
+        "shortName": "Bournemouth"
+      },
+      "nameAsPublished": {
+        "last": "Rose",
+        "first": "Marco"
+      },
+      "dateOfBirth": "1976-09-11",
+      "nationalityAsPublished": {
+        "isoCode": "DE",
+        "country": "Germany",
+        "demonym": "German"
+      },
+      "appointmentDateAsPublished": "2026-06-03",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "2645202",
+        "seasonsAtCurrentTeam": [
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/48664",
+      "sourceSha256": "86bdbfea9ed880123cd26b4d8048a63e9370d00c838798f22d7c25b1ee228f45",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "DE",
+          "country": "Germany",
+          "demonym": "German"
+        },
+        "activelyManaging": "91",
+        "name": {
+          "last": "Rose",
+          "first": "Marco"
+        },
+        "teamManaged": {
+          "name": "Bournemouth",
+          "id": "91",
+          "shortName": "Bournemouth"
+        },
+        "dates": {
+          "joinedClub": "2026-06-03",
+          "birth": "1976-09-11"
+        },
+        "id": "48664",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Bournemouth",
+          "id": "91",
+          "shortName": "Bournemouth"
+        },
+        "country": {
+          "isoCode": "DE",
+          "country": "Germany",
+          "demonym": "German"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "2645202",
+          "seasonsAtCurrentTeam": [
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "Rose",
+          "first": "Marco"
+        },
+        "dates": {
+          "joinedClub": "2026-06-03",
+          "birth": "1976-09-11"
+        },
+        "id": "48664"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": null,
+      "portraitFailure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/48664.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "51018",
+      "sourceClubId": "3",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Arsenal",
+        "id": "3",
+        "shortName": "Arsenal"
+      },
+      "nameAsPublished": {
+        "last": "Arteta",
+        "first": "Mikel"
+      },
+      "dateOfBirth": "1982-03-26",
+      "nationalityAsPublished": {
+        "isoCode": "ES",
+        "country": "Spain",
+        "demonym": "Spanish"
+      },
+      "appointmentDateAsPublished": "2019-12-22",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2025",
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "1059882",
+        "seasonsAtCurrentTeam": [
+          "2025",
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/51018",
+      "sourceSha256": "0a2aaac4dc4c3aa496cb8e9b7be97c791c73bf6e21f11fc76d053109af5b4dee",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "ES",
+          "country": "Spain",
+          "demonym": "Spanish"
+        },
+        "activelyManaging": "3",
+        "name": {
+          "last": "Arteta",
+          "first": "Mikel"
+        },
+        "teamManaged": {
+          "name": "Arsenal",
+          "id": "3",
+          "shortName": "Arsenal"
+        },
+        "dates": {
+          "joinedClub": "2019-12-22",
+          "birth": "1982-03-26"
+        },
+        "id": "51018",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Arsenal",
+          "id": "3",
+          "shortName": "Arsenal"
+        },
+        "country": {
+          "isoCode": "ES",
+          "country": "Spain",
+          "demonym": "Spanish"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2025",
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "1059882",
+          "seasonsAtCurrentTeam": [
+            "2025",
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "Arteta",
+          "first": "Mikel"
+        },
+        "dates": {
+          "joinedClub": "2019-12-22",
+          "birth": "1982-03-26"
+        },
+        "id": "51018"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/51018.png",
+        "file": "assets/pending_media/english_headcoaches/3/51018/portrait.png",
+        "sha256": "82d94de9053162b6be6cf3965b698c9108811fa80ff2813f7704de041636bd1a",
+        "width": 220,
+        "height": 280,
+        "bytes": 101336,
+        "rightsStatus": "pending-review",
+        "identityReviewed": false,
+        "kitPeriodReviewed": false,
+        "approvedForQuestions": false,
+        "visualReview": {
+          "checkedAt": "2026-10-15",
+          "faceVisible": true,
+          "professionalPortrait": true,
+          "resolution": "Original published default portrait; no resizing or upscaling",
+          "independentIdentityVerified": false,
+          "kitPeriodVerified": false,
+          "cardQualityApproved": false
+        }
+      }
+    },
+    {
+      "sourcePersonId": "53902",
+      "sourceClubId": "36",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Brighton and Hove Albion",
+        "id": "36",
+        "shortName": "Brighton"
+      },
+      "nameAsPublished": {
+        "last": "Hürzeler",
+        "first": "Fabian"
+      },
+      "dateOfBirth": "1993-02-26",
+      "nationalityAsPublished": {
+        "isoCode": "DE",
+        "country": "Germany",
+        "demonym": "German"
+      },
+      "appointmentDateAsPublished": "2024-06-15",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2025",
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "2444472",
+        "seasonsAtCurrentTeam": [
+          "2025",
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/53902",
+      "sourceSha256": "79a9f26843fed7ac416d29750560a4b6d217b9d28433ea21f0fa0436ae4ee2bf",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "DE",
+          "country": "Germany",
+          "demonym": "German"
+        },
+        "activelyManaging": "36",
+        "name": {
+          "last": "Hürzeler",
+          "first": "Fabian"
+        },
+        "teamManaged": {
+          "name": "Brighton and Hove Albion",
+          "id": "36",
+          "shortName": "Brighton"
+        },
+        "dates": {
+          "joinedClub": "2024-06-15",
+          "birth": "1993-02-26"
+        },
+        "id": "53902",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Brighton and Hove Albion",
+          "id": "36",
+          "shortName": "Brighton"
+        },
+        "country": {
+          "isoCode": "DE",
+          "country": "Germany",
+          "demonym": "German"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2025",
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "2444472",
+          "seasonsAtCurrentTeam": [
+            "2025",
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "Hürzeler",
+          "first": "Fabian"
+        },
+        "dates": {
+          "joinedClub": "2024-06-15",
+          "birth": "1993-02-26"
+        },
+        "id": "53902"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/53902.png",
+        "file": "assets/pending_media/english_headcoaches/36/53902/portrait.png",
+        "sha256": "5f0f62c2cdb3bad41f94481142812fb9ca8dd75080dbc277d45fc3ae14fba575",
+        "width": 220,
+        "height": 280,
+        "bytes": 87322,
+        "rightsStatus": "pending-review",
+        "identityReviewed": false,
+        "kitPeriodReviewed": false,
+        "approvedForQuestions": false,
+        "visualReview": {
+          "checkedAt": "2026-10-15",
+          "faceVisible": true,
+          "professionalPortrait": true,
+          "resolution": "Original published default portrait; no resizing or upscaling",
+          "independentIdentityVerified": false,
+          "kitPeriodVerified": false,
+          "cardQualityApproved": false
+        }
+      }
+    },
+    {
+      "sourcePersonId": "58884",
+      "sourceClubId": "40",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Ipswich Town",
+        "id": "40",
+        "shortName": "Ipswich"
+      },
+      "nameAsPublished": {
+        "last": "O'Neil",
+        "first": "Gary"
+      },
+      "dateOfBirth": "1983-05-18",
+      "nationalityAsPublished": {
+        "isoCode": "GB-ENG",
+        "country": "England",
+        "demonym": "English"
+      },
+      "appointmentDateAsPublished": "2026-06-23",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "2292850",
+        "seasonsAtCurrentTeam": [
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/58884",
+      "sourceSha256": "a3ca8500eb3f7d456b86228d86b69601f472ee15912b7da1ac14b17a8adab92a",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "GB-ENG",
+          "country": "England",
+          "demonym": "English"
+        },
+        "activelyManaging": "40",
+        "name": {
+          "last": "O'Neil",
+          "first": "Gary"
+        },
+        "teamManaged": {
+          "name": "Ipswich Town",
+          "id": "40",
+          "shortName": "Ipswich"
+        },
+        "dates": {
+          "joinedClub": "2026-06-23",
+          "birth": "1983-05-18"
+        },
+        "id": "58884",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Ipswich Town",
+          "id": "40",
+          "shortName": "Ipswich"
+        },
+        "country": {
+          "isoCode": "GB-ENG",
+          "country": "England",
+          "demonym": "English"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "2292850",
+          "seasonsAtCurrentTeam": [
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "O'Neil",
+          "first": "Gary"
+        },
+        "dates": {
+          "joinedClub": "2026-06-23",
+          "birth": "1983-05-18"
+        },
+        "id": "58884"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": null,
+      "portraitFailure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/58884.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "56407",
+      "sourceClubId": "1",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Manchester United",
+        "id": "1",
+        "shortName": "Man Utd"
+      },
+      "nameAsPublished": {
+        "last": "Carrick",
+        "first": "Michael"
+      },
+      "dateOfBirth": "1981-07-28",
+      "nationalityAsPublished": {
+        "isoCode": "GB-ENG",
+        "country": "England",
+        "demonym": "English"
+      },
+      "appointmentDateAsPublished": "2026-01-13",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2025",
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "2210395",
+        "seasonsAtCurrentTeam": [
+          "2025",
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/56407",
+      "sourceSha256": "70eedb6a0647867e69ad571fb2d5513664501116ea3e359b9f9250ad09766e26",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "GB-ENG",
+          "country": "England",
+          "demonym": "English"
+        },
+        "activelyManaging": "1",
+        "name": {
+          "last": "Carrick",
+          "first": "Michael"
+        },
+        "teamManaged": {
+          "name": "Manchester United",
+          "id": "1",
+          "shortName": "Man Utd"
+        },
+        "dates": {
+          "joinedClub": "2026-01-13",
+          "birth": "1981-07-28"
+        },
+        "id": "56407",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Manchester United",
+          "id": "1",
+          "shortName": "Man Utd"
+        },
+        "country": {
+          "isoCode": "GB-ENG",
+          "country": "England",
+          "demonym": "English"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2025",
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "2210395",
+          "seasonsAtCurrentTeam": [
+            "2025",
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "Carrick",
+          "first": "Michael"
+        },
+        "dates": {
+          "joinedClub": "2026-01-13",
+          "birth": "1981-07-28"
+        },
+        "id": "56407"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": null,
+      "portraitFailure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/56407.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "53959",
+      "sourceClubId": "4",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Newcastle United",
+        "id": "4",
+        "shortName": "Newcastle"
+      },
+      "nameAsPublished": {
+        "last": "Jaissle",
+        "first": "Matthias"
+      },
+      "dateOfBirth": "1988-04-05",
+      "nationalityAsPublished": {
+        "isoCode": "DE",
+        "country": "Germany",
+        "demonym": "German"
+      },
+      "appointmentDateAsPublished": "2026-08-05",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "2645203",
+        "seasonsAtCurrentTeam": [
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/53959",
+      "sourceSha256": "193807bcebef73bf1ed0d805de5de0d0a16422703495c685dc1a71acc63201a2",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "DE",
+          "country": "Germany",
+          "demonym": "German"
+        },
+        "activelyManaging": "4",
+        "name": {
+          "last": "Jaissle",
+          "first": "Matthias"
+        },
+        "teamManaged": {
+          "name": "Newcastle United",
+          "id": "4",
+          "shortName": "Newcastle"
+        },
+        "dates": {
+          "joinedClub": "2026-08-05",
+          "birth": "1988-04-05"
+        },
+        "id": "53959",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Newcastle United",
+          "id": "4",
+          "shortName": "Newcastle"
+        },
+        "country": {
+          "isoCode": "DE",
+          "country": "Germany",
+          "demonym": "German"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "2645203",
+          "seasonsAtCurrentTeam": [
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "Jaissle",
+          "first": "Matthias"
+        },
+        "dates": {
+          "joinedClub": "2026-08-05",
+          "birth": "1988-04-05"
+        },
+        "id": "53959"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": null,
+      "portraitFailure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/53959.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "58318",
+      "sourceClubId": "56",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Sunderland",
+        "id": "56",
+        "shortName": "Sunderland"
+      },
+      "nameAsPublished": {
+        "last": "Le Bris",
+        "first": "Régis"
+      },
+      "dateOfBirth": "1975-12-06",
+      "nationalityAsPublished": {
+        "isoCode": "FR",
+        "country": "France",
+        "demonym": "French"
+      },
+      "appointmentDateAsPublished": "2024-07-01",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2025",
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "2561899",
+        "seasonsAtCurrentTeam": [
+          "2025",
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/58318",
+      "sourceSha256": "d30f3c4d829bd34dbf3841337faacf01592ee1b84a1429057ce40b75bb5688db",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "FR",
+          "country": "France",
+          "demonym": "French"
+        },
+        "activelyManaging": "56",
+        "name": {
+          "last": "Le Bris",
+          "first": "Régis"
+        },
+        "teamManaged": {
+          "name": "Sunderland",
+          "id": "56",
+          "shortName": "Sunderland"
+        },
+        "dates": {
+          "joinedClub": "2024-07-01",
+          "birth": "1975-12-06"
+        },
+        "id": "58318",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Sunderland",
+          "id": "56",
+          "shortName": "Sunderland"
+        },
+        "country": {
+          "isoCode": "FR",
+          "country": "France",
+          "demonym": "French"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2025",
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "2561899",
+          "seasonsAtCurrentTeam": [
+            "2025",
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "Le Bris",
+          "first": "Régis"
+        },
+        "dates": {
+          "joinedClub": "2024-07-01",
+          "birth": "1975-12-06"
+        },
+        "id": "58318"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": null,
+      "portraitRejected": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/58318.png",
+        "sha256": "6d1c01cfbd590c8cd965e28deffd2441c74728ed6f4385a130ad10a8541dbf2d",
+        "width": 220,
+        "height": 280,
+        "bytes": 83680,
+        "rightsStatus": "pending-review",
+        "identityReviewed": false,
+        "kitPeriodReviewed": false,
+        "approvedForQuestions": false,
+        "reason": "Visual review: shirt badge appears inconsistent with Sunderland current-club context; identity and branding unresolved. Do not use."
+      }
+    },
+    {
+      "sourcePersonId": "62022",
+      "sourceClubId": "31",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Crystal Palace",
+        "id": "31",
+        "shortName": "Crystal Palace"
+      },
+      "nameAsPublished": {
+        "last": "Sage",
+        "first": "Pierre"
+      },
+      "dateOfBirth": "1979-05-05",
+      "nationalityAsPublished": {
+        "isoCode": "FR",
+        "country": "France",
+        "demonym": "French"
+      },
+      "appointmentDateAsPublished": "2026-06-15",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "2645197",
+        "seasonsAtCurrentTeam": [
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/62022",
+      "sourceSha256": "dbc155454eb80ba300f9d4048bd84aff2e123e2140181fafe3bad4e40b8d87dc",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "FR",
+          "country": "France",
+          "demonym": "French"
+        },
+        "activelyManaging": "31",
+        "name": {
+          "last": "Sage",
+          "first": "Pierre"
+        },
+        "teamManaged": {
+          "name": "Crystal Palace",
+          "id": "31",
+          "shortName": "Crystal Palace"
+        },
+        "dates": {
+          "joinedClub": "2026-06-15",
+          "birth": "1979-05-05"
+        },
+        "id": "62022",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Crystal Palace",
+          "id": "31",
+          "shortName": "Crystal Palace"
+        },
+        "country": {
+          "isoCode": "FR",
+          "country": "France",
+          "demonym": "French"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "2645197",
+          "seasonsAtCurrentTeam": [
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "Sage",
+          "first": "Pierre"
+        },
+        "dates": {
+          "joinedClub": "2026-06-15",
+          "birth": "1979-05-05"
+        },
+        "id": "62022"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": null,
+      "portraitFailure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/62022.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "58906",
+      "sourceClubId": "54",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Fulham",
+        "id": "54",
+        "shortName": "Fulham"
+      },
+      "nameAsPublished": {
+        "last": "Arbeloa",
+        "first": "Álvaro"
+      },
+      "dateOfBirth": "1983-01-17",
+      "nationalityAsPublished": {
+        "isoCode": "ES",
+        "country": "Spain",
+        "demonym": "Spanish"
+      },
+      "appointmentDateAsPublished": "2026-07-08",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "2645204",
+        "seasonsAtCurrentTeam": [
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/58906",
+      "sourceSha256": "88e5fd85d8785141104d83a073c7885f0c18edfbe9ac0477a5baca19b4b2d9dd",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "ES",
+          "country": "Spain",
+          "demonym": "Spanish"
+        },
+        "activelyManaging": "54",
+        "name": {
+          "last": "Arbeloa",
+          "first": "Álvaro"
+        },
+        "teamManaged": {
+          "name": "Fulham",
+          "id": "54",
+          "shortName": "Fulham"
+        },
+        "dates": {
+          "joinedClub": "2026-07-08",
+          "birth": "1983-01-17"
+        },
+        "id": "58906",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Fulham",
+          "id": "54",
+          "shortName": "Fulham"
+        },
+        "country": {
+          "isoCode": "ES",
+          "country": "Spain",
+          "demonym": "Spanish"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "2645204",
+          "seasonsAtCurrentTeam": [
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "Arbeloa",
+          "first": "Álvaro"
+        },
+        "dates": {
+          "joinedClub": "2026-07-08",
+          "birth": "1983-01-17"
+        },
+        "id": "58906"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": null,
+      "portraitFailure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/58906.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "85",
+      "sourceClubId": "11",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Everton",
+        "id": "11",
+        "shortName": "Everton"
+      },
+      "nameAsPublished": {
+        "last": "Moyes",
+        "first": "David"
+      },
+      "dateOfBirth": "1963-04-25",
+      "nationalityAsPublished": {
+        "isoCode": "GB-SCT",
+        "country": "Scotland",
+        "demonym": "Scottish"
+      },
+      "appointmentDateAsPublished": "2025-01-11",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2025",
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "15975",
+        "seasonsAtCurrentTeam": [
+          "2025",
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/85",
+      "sourceSha256": "3409eb7f85bc0687ba55312803e5dc6fe8e1b0c6dc0f6680c330c36926a60962",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "GB-SCT",
+          "country": "Scotland",
+          "demonym": "Scottish"
+        },
+        "activelyManaging": "11",
+        "name": {
+          "last": "Moyes",
+          "first": "David"
+        },
+        "teamManaged": {
+          "name": "Everton",
+          "id": "11",
+          "shortName": "Everton"
+        },
+        "dates": {
+          "joinedClub": "2025-01-11",
+          "birth": "1963-04-25"
+        },
+        "id": "85",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Everton",
+          "id": "11",
+          "shortName": "Everton"
+        },
+        "country": {
+          "isoCode": "GB-SCT",
+          "country": "Scotland",
+          "demonym": "Scottish"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2025",
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "15975",
+          "seasonsAtCurrentTeam": [
+            "2025",
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "Moyes",
+          "first": "David"
+        },
+        "dates": {
+          "joinedClub": "2025-01-11",
+          "birth": "1963-04-25"
+        },
+        "id": "85"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/85.png",
+        "file": "assets/pending_media/english_headcoaches/11/85/portrait.png",
+        "sha256": "d902769cc65109b6dd610e4d1d224f995f1066ef1060a7be535637e41bdad766",
+        "width": 220,
+        "height": 280,
+        "bytes": 99134,
+        "rightsStatus": "pending-review",
+        "identityReviewed": false,
+        "kitPeriodReviewed": false,
+        "approvedForQuestions": false,
+        "visualReview": {
+          "checkedAt": "2026-10-15",
+          "faceVisible": true,
+          "professionalPortrait": true,
+          "resolution": "Original published default portrait; no resizing or upscaling",
+          "independentIdentityVerified": false,
+          "kitPeriodVerified": false,
+          "cardQualityApproved": false
+        }
+      }
+    },
+    {
+      "sourcePersonId": "66206",
+      "sourceClubId": "94",
+      "sourceNamespace": "premier-league-sdp-manager",
+      "canonicalPersonId": null,
+      "clubAsPublished": {
+        "name": "Brentford",
+        "id": "94",
+        "shortName": "Brentford"
+      },
+      "nameAsPublished": {
+        "last": "Andrews",
+        "first": "Keith"
+      },
+      "dateOfBirth": "1980-09-13",
+      "nationalityAsPublished": {
+        "isoCode": "IE",
+        "country": "Ireland",
+        "demonym": "Irish"
+      },
+      "appointmentDateAsPublished": "2025-06-27",
+      "careerAsPublished": {
+        "seasonsInPremierLeague": [
+          "2025",
+          "2026"
+        ],
+        "firstPremierLeagueFixtureId": "2561898",
+        "seasonsAtCurrentTeam": [
+          "2025",
+          "2026"
+        ]
+      },
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/66206",
+      "sourceSha256": "cf87ace8d700248ac43f7cf735fedb83be29f1c4f0c4ecd91664d898602e3f65",
+      "seasonAssignmentAsPublished": {
+        "country": {
+          "isoCode": "IE",
+          "country": "Ireland",
+          "demonym": "Irish"
+        },
+        "activelyManaging": "94",
+        "name": {
+          "last": "Andrews",
+          "first": "Keith"
+        },
+        "teamManaged": {
+          "name": "Brentford",
+          "id": "94",
+          "shortName": "Brentford"
+        },
+        "dates": {
+          "joinedClub": "2025-06-27",
+          "birth": "1980-09-13"
+        },
+        "id": "66206",
+        "type": "Manager"
+      },
+      "detailAsPublished": {
+        "currentTeam": {
+          "name": "Brentford",
+          "id": "94",
+          "shortName": "Brentford"
+        },
+        "country": {
+          "isoCode": "IE",
+          "country": "Ireland",
+          "demonym": "Irish"
+        },
+        "career": {
+          "seasonsInPremierLeague": [
+            "2025",
+            "2026"
+          ],
+          "firstPremierLeagueFixtureId": "2561898",
+          "seasonsAtCurrentTeam": [
+            "2025",
+            "2026"
+          ]
+        },
+        "role": "Manager",
+        "name": {
+          "last": "Andrews",
+          "first": "Keith"
+        },
+        "dates": {
+          "joinedClub": "2025-06-27",
+          "birth": "1980-09-13"
+        },
+        "id": "66206"
+      },
+      "scopeEvidence": "Manager type plus activelyManaging equals teamManaged.id in2026season source; detail currentTeam.id confirms same exact ID",
+      "identityReview": "pending independent identity review; no name normalization or cross-source canonical mapping",
+      "portrait": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/66206.png",
+        "file": "assets/pending_media/english_headcoaches/94/66206/portrait.png",
+        "sha256": "6662e54d84ed3cff8edb48cec2f75bde6885296e6bcff49d3931de341556b46c",
+        "width": 220,
+        "height": 280,
+        "bytes": 98210,
+        "rightsStatus": "pending-review",
+        "identityReviewed": false,
+        "kitPeriodReviewed": false,
+        "approvedForQuestions": false,
+        "visualReview": {
+          "checkedAt": "2026-10-15",
+          "faceVisible": true,
+          "professionalPortrait": true,
+          "resolution": "Original published default portrait; no resizing or upscaling",
+          "independentIdentityVerified": false,
+          "kitPeriodVerified": false,
+          "cardQualityApproved": false
+        }
+      }
+    }
+  ],
+  "failures": [],
+  "sourceImplementationEvidence": {
+    "bundleUrl": "https://www.premierleague.com/resources/v1.54.15/scripts/bundle-es.min.js",
+    "bundleSha256": "860c0496db1a48b2ad20ba7cbdefd2e776e5fe970d2bb1cb6f7e0ac700784633",
+    "sidebarUrl": "https://www.premierleague.com/resources/v1.54.15/scripts/manager-profile-sidebar.js",
+    "sidebarSha256": "2b738bbd4b3827b83f82c1da5b955dac165ea1afdaf20e2980da9ce4dfcfe214",
+    "routes": "managersBySeason and managerById are published publicFootballAPI routes",
+    "portrait": "Manager sidebar supplies manager.id as playerOptaId with MEDIUM110x140; PlayerHeadshot uses PHOTOS/players/{size}/{id}.png. No guessed image IDs or alternate sizes."
+  },
+  "limitations": [
+    "Historical source assignments do not publish departure dates; no dates inferred",
+    "Career summary gives Premier League seasons and first fixture ID, not a complete worldwide managerial history",
+    "Portrait identity and rights pending independent review",
+    "Current assignment source snapshot is2026-10-15; manager changes can occur"
+  ],
+  "releaseReady": false
+}

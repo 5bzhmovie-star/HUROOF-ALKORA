@@ -1,0 +1,18 @@
+{
+  "source": "https://teams.football.web.gc.coventrycityfcservices.co.uk/v2/squads/opta?teamID=t9",
+  "profiles": 26,
+  "actualFiles": 24,
+  "failures": [
+    {
+      "name": "Luke Woolfenden",
+      "error": "Small or flat placeholder",
+      "imageSource": "https://images.gc.coventrycityfcservices.co.uk/fit-in/768x768/cf4705d0-152b-11ef-aa07-b9966f59d872.jpg"
+    },
+    {
+      "name": "Haji Wright",
+      "error": "Small or flat placeholder",
+      "imageSource": "https://images.gc.coventrycityfcservices.co.uk/fit-in/768x768/cf4705d0-152b-11ef-aa07-b9966f59d872.jpg"
+    }
+  ],
+  "releaseReady": false
+}

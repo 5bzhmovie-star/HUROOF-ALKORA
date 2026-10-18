@@ -1,0 +1,112 @@
+{
+  "currentHeadcoaches": 20,
+  "clubs": 20,
+  "actualPortraitFiles": 7,
+  "historicalOrNoncurrentAssignments": 9,
+  "portraitFailures": [
+    {
+      "sourcePersonId": "44410",
+      "club": "Nottingham Forest",
+      "failure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/44410.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "48314",
+      "club": "Chelsea",
+      "failure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/48314.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "48549",
+      "club": "Manchester City",
+      "failure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/48549.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "50167",
+      "club": "Coventry City",
+      "failure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/50167.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "50428",
+      "club": "Liverpool",
+      "failure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/50428.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "50432",
+      "club": "Hull City",
+      "failure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/50432.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "48664",
+      "club": "Bournemouth",
+      "failure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/48664.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "58884",
+      "club": "Ipswich Town",
+      "failure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/58884.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "56407",
+      "club": "Manchester United",
+      "failure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/56407.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "53959",
+      "club": "Newcastle United",
+      "failure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/53959.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "62022",
+      "club": "Crystal Palace",
+      "failure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/62022.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "sourcePersonId": "58906",
+      "club": "Fulham",
+      "failure": {
+        "source": "https://resources.premierleague.com/premierleague25/photos/players/110x140/58906.png",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    }
+  ],
+  "failures": [],
+  "releaseReady": false,
+  "visualRejections": [
+    {
+      "sourcePersonId": "58318",
+      "reason": "Unresolved identity/current-club branding context"
+    }
+  ]
+}

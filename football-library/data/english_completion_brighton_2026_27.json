@@ -1,0 +1,1371 @@
+{
+  "source": "https://www.brightonandhovealbion.com/first-team-men-squad",
+  "sourceSha256": "188bdb742f4b024fb209e1bfc0a9703034049682b08bf547205a5bde8dba01e5",
+  "season": "2026-2027",
+  "media": [
+    {
+      "sourceClubId": "brighton",
+      "sourcePersonId": "brighton-512123",
+      "nameAsPublished": "Jaouen Hadjam",
+      "kind": "player",
+      "source": "https://www.brightonandhovealbion.com/first-team-men-squad",
+      "sourceSha256": "188bdb742f4b024fb209e1bfc0a9703034049682b08bf547205a5bde8dba01e5",
+      "imageSource": "https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/HADJAM%20W%20NUMBER.png?__w=337&__h=500&clxf=t_general_large",
+      "profileSource": "https://www.brightonandhovealbion.com/player-detail-statistics-defender/512123",
+      "plPersonId": "126175",
+      "personalAsPublished": {
+        "name": {
+          "display": "Jaouen Hadjam",
+          "first": "Jaouen",
+          "last": "Hadjam"
+        },
+        "birth": {
+          "date": {
+            "millis": 1048636800000.0,
+            "label": "26 March 2003"
+          },
+          "country": {
+            "isoCode": "FR",
+            "country": "France",
+            "demonym": "French"
+          },
+          "place": "Paris"
+        },
+        "nationalTeam": {
+          "isoCode": "DZ",
+          "country": "Algeria",
+          "demonym": "Algerian"
+        },
+        "info": {
+          "position": "D",
+          "shirtNum": 3.0,
+          "positionInfo": "Left Full Back"
+        },
+        "currentTeam": {
+          "name": "Brighton & Hove Albion",
+          "club": {
+            "name": "Brighton and Hove Albion",
+            "abbr": "BHA",
+            "id": 131.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Brighton",
+          "id": 131.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 793023.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=131&page=0&pageSize=100",
+          "sourceSha256": "9cd904fa00f7d9fe8d9e16c12ceedb872271b4cd8aabc90ae9a657910ab5342e",
+          "retrievedAt": "2026-10-15T00:20:14.428657+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/brighton/brighton-512123/portrait.webp",
+      "sha256": "9be7297fa2901f47c1d87e5d0da1a8970fad9ae5c3365d8fb1ae378caac9c70e",
+      "bytes": 29636,
+      "width": 337,
+      "height": 500,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "brighton",
+      "sourcePersonId": "brighton-231416",
+      "nameAsPublished": "Ferdi Kadioglu",
+      "kind": "player",
+      "source": "https://www.brightonandhovealbion.com/first-team-men-squad",
+      "sourceSha256": "188bdb742f4b024fb209e1bfc0a9703034049682b08bf547205a5bde8dba01e5",
+      "imageSource": "https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/Squad-Page-Player-Tiles-20.png?__w=1375&__h=2042&clxf=t_general_large",
+      "profileSource": "https://www.brightonandhovealbion.com/player-detail-statistics-defender/231416",
+      "plPersonId": "50727",
+      "personalAsPublished": {
+        "name": {
+          "display": "Ferdi Kadioglu",
+          "first": "Ferdi",
+          "last": "Kadioglu"
+        },
+        "birth": {
+          "date": {
+            "millis": 939254400000.0,
+            "label": "7 October 1999"
+          },
+          "country": {
+            "isoCode": "NL",
+            "country": "Netherlands",
+            "demonym": "Dutch"
+          },
+          "place": "Arnhem"
+        },
+        "nationalTeam": {
+          "isoCode": "TR",
+          "country": "Turkiye",
+          "demonym": "Turkish"
+        },
+        "info": {
+          "position": "D",
+          "shirtNum": 24.0,
+          "positionInfo": "Left Full Back"
+        },
+        "currentTeam": {
+          "name": "Brighton & Hove Albion",
+          "club": {
+            "name": "Brighton and Hove Albion",
+            "abbr": "BHA",
+            "id": 131.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Brighton",
+          "id": 131.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 363406.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=131&page=0&pageSize=100",
+          "sourceSha256": "9cd904fa00f7d9fe8d9e16c12ceedb872271b4cd8aabc90ae9a657910ab5342e",
+          "retrievedAt": "2026-10-15T00:20:14.428657+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/brighton/brighton-231416/portrait.webp",
+      "sha256": "34c2f50dce0eb59abdad09db61b78f1ac6932ade56cdc5cdf9689bfb596d5946",
+      "bytes": 161964,
+      "width": 1010,
+      "height": 1500,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "brighton",
+      "sourcePersonId": "brighton-465730",
+      "nameAsPublished": "Maxim De Cuyper",
+      "kind": "player",
+      "source": "https://www.brightonandhovealbion.com/first-team-men-squad",
+      "sourceSha256": "188bdb742f4b024fb209e1bfc0a9703034049682b08bf547205a5bde8dba01e5",
+      "imageSource": "https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/Squad-Page-Player-Tiles-24.png?__w=1375&__h=2042&clxf=t_general_large",
+      "profileSource": "https://www.brightonandhovealbion.com/player-detail-statistics-defender/465730",
+      "plPersonId": "67928",
+      "personalAsPublished": {
+        "name": {
+          "display": "Maxim De Cuyper",
+          "first": "Maxim",
+          "last": "De Cuyper"
+        },
+        "birth": {
+          "date": {
+            "millis": 977443200000.0,
+            "label": "22 December 2000"
+          },
+          "country": {
+            "isoCode": "BE",
+            "country": "Belgium",
+            "demonym": "Belgian"
+          },
+          "place": "Knokke-Heist"
+        },
+        "nationalTeam": {
+          "isoCode": "BE",
+          "country": "Belgium",
+          "demonym": "Belgian"
+        },
+        "info": {
+          "position": "D",
+          "shirtNum": 29.0,
+          "positionInfo": "Left Full Back"
+        },
+        "currentTeam": {
+          "name": "Brighton & Hove Albion",
+          "club": {
+            "name": "Brighton and Hove Albion",
+            "abbr": "BHA",
+            "id": 131.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Brighton",
+          "id": 131.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 738113.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=131&page=0&pageSize=100",
+          "sourceSha256": "9cd904fa00f7d9fe8d9e16c12ceedb872271b4cd8aabc90ae9a657910ab5342e",
+          "retrievedAt": "2026-10-15T00:20:14.428657+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/brighton/brighton-465730/portrait.webp",
+      "sha256": "429365758ea9bef6497cdc32c8c66f6396933182a8a9054c122bb2dfa97bc74e",
+      "bytes": 149508,
+      "width": 1010,
+      "height": 1500,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "brighton",
+      "sourcePersonId": "brighton-222694",
+      "nameAsPublished": "Pascal Struijk",
+      "kind": "player",
+      "source": "https://www.brightonandhovealbion.com/first-team-men-squad",
+      "sourceSha256": "188bdb742f4b024fb209e1bfc0a9703034049682b08bf547205a5bde8dba01e5",
+      "imageSource": "https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/Squad-Page-Player-Tiles-03.png?__w=1375&__h=2042&clxf=t_general_large",
+      "profileSource": "https://www.brightonandhovealbion.com/player-detail-statistics-defender/222694",
+      "plPersonId": "33124",
+      "personalAsPublished": {
+        "name": {
+          "display": "Pascal Struijk",
+          "first": "Pascal",
+          "last": "Struijk"
+        },
+        "birth": {
+          "date": {
+            "millis": 934329600000.0,
+            "label": "11 August 1999"
+          },
+          "country": {
+            "isoCode": "BE",
+            "country": "Belgium",
+            "demonym": "Belgian"
+          },
+          "place": "Deurne"
+        },
+        "nationalTeam": {
+          "isoCode": "NL",
+          "country": "Netherlands",
+          "demonym": "Dutch"
+        },
+        "info": {
+          "position": "D",
+          "shirtNum": 4.0,
+          "positionInfo": "Central Defender"
+        },
+        "currentTeam": {
+          "name": "Brighton & Hove Albion",
+          "club": {
+            "name": "Brighton and Hove Albion",
+            "abbr": "BHA",
+            "id": 131.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Brighton",
+          "id": 131.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 785429.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=131&page=0&pageSize=100",
+          "sourceSha256": "9cd904fa00f7d9fe8d9e16c12ceedb872271b4cd8aabc90ae9a657910ab5342e",
+          "retrievedAt": "2026-10-15T00:20:14.428657+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/brighton/brighton-222694/portrait.webp",
+      "sha256": "9c335d5afc03da48ee6754b65c4254d8807c2ec3bffec9bbc3ba9ccbe567e6b5",
+      "bytes": 167240,
+      "width": 1010,
+      "height": 1500,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "brighton",
+      "sourcePersonId": "brighton-489639",
+      "nameAsPublished": "Bart Verbruggen",
+      "kind": "player",
+      "source": "https://www.brightonandhovealbion.com/first-team-men-squad",
+      "sourceSha256": "188bdb742f4b024fb209e1bfc0a9703034049682b08bf547205a5bde8dba01e5",
+      "imageSource": "https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/Squad-Page-Player-Tiles-01.png?__w=1375&__h=2042&clxf=t_general_large",
+      "profileSource": "https://www.brightonandhovealbion.com/player-detail-statistics-goalkeeper/489639",
+      "plPersonId": "75709",
+      "personalAsPublished": {
+        "name": {
+          "display": "Bart Verbruggen",
+          "first": "Bart",
+          "last": "Verbruggen"
+        },
+        "birth": {
+          "date": {
+            "millis": 1029628800000.0,
+            "label": "18 August 2002"
+          },
+          "country": {
+            "isoCode": "NL",
+            "country": "Netherlands",
+            "demonym": "Dutch"
+          },
+          "place": "Zwolle"
+        },
+        "nationalTeam": {
+          "isoCode": "NL",
+          "country": "Netherlands",
+          "demonym": "Dutch"
+        },
+        "info": {
+          "position": "G",
+          "shirtNum": 1.0,
+          "positionInfo": "Goalkeeper"
+        },
+        "currentTeam": {
+          "name": "Brighton & Hove Albion",
+          "club": {
+            "name": "Brighton and Hove Albion",
+            "abbr": "BHA",
+            "id": 131.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Brighton",
+          "id": 131.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 340943.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=131&page=0&pageSize=100",
+          "sourceSha256": "9cd904fa00f7d9fe8d9e16c12ceedb872271b4cd8aabc90ae9a657910ab5342e",
+          "retrievedAt": "2026-10-15T00:20:14.428657+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/brighton/brighton-489639/portrait.webp",
+      "sha256": "03c0a25b22e10baf35cd3b1bced37baaee91fcbb706bcf946d291bc8886bd63a",
+      "bytes": 125346,
+      "width": 1010,
+      "height": 1500,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "brighton",
+      "sourcePersonId": "brighton-592984",
+      "nameAsPublished": "Chema Andres",
+      "kind": "player",
+      "source": "https://www.brightonandhovealbion.com/first-team-men-squad",
+      "sourceSha256": "188bdb742f4b024fb209e1bfc0a9703034049682b08bf547205a5bde8dba01e5",
+      "imageSource": "https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/CHEMA%20ANDRES%20W%20NUMBER.png?__w=337&__h=500&clxf=t_general_large",
+      "profileSource": "https://www.brightonandhovealbion.com/player-detail-statistics-midfielder/592984",
+      "plPersonId": "129259",
+      "personalAsPublished": {
+        "name": {
+          "display": "Chema Andrés",
+          "first": "José María",
+          "last": "Andrés Baixauli"
+        },
+        "birth": {
+          "date": {
+            "millis": 1114387200000.0,
+            "label": "25 April 2005"
+          },
+          "country": {
+            "isoCode": "ES",
+            "country": "Spain",
+            "demonym": "Spanish"
+          },
+          "place": "Valencia"
+        },
+        "nationalTeam": {
+          "isoCode": "ES",
+          "country": "Spain",
+          "demonym": "Spanish"
+        },
+        "info": {
+          "position": "M",
+          "shirtNum": 14.0,
+          "positionInfo": "Centre Central Midfielder"
+        },
+        "currentTeam": {
+          "name": "Brighton & Hove Albion",
+          "club": {
+            "name": "Brighton and Hove Albion",
+            "abbr": "BHA",
+            "id": 131.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Brighton",
+          "id": 131.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 794509.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=131&page=0&pageSize=100",
+          "sourceSha256": "9cd904fa00f7d9fe8d9e16c12ceedb872271b4cd8aabc90ae9a657910ab5342e",
+          "retrievedAt": "2026-10-15T00:20:14.428657+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/brighton/brighton-592984/portrait.webp",
+      "sha256": "88f107d4950bfda9dc125229ca9bcd954948dc1d017355e8481399c48314a44c",
+      "bytes": 27126,
+      "width": 337,
+      "height": 500,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "brighton",
+      "sourcePersonId": "brighton-532529",
+      "nameAsPublished": "Jack Hinshelwood",
+      "kind": "player",
+      "source": "https://www.brightonandhovealbion.com/first-team-men-squad",
+      "sourceSha256": "188bdb742f4b024fb209e1bfc0a9703034049682b08bf547205a5bde8dba01e5",
+      "imageSource": "https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/Squad-Page-Player-Tiles-06.png?__w=1375&__h=2042&clxf=t_general_large",
+      "profileSource": "https://www.brightonandhovealbion.com/player-detail-statistics-midfielder/532529",
+      "plPersonId": "112739",
+      "personalAsPublished": {
+        "name": {
+          "display": "Jack Hinshelwood",
+          "first": "Jack",
+          "last": "Hinshelwood"
+        },
+        "birth": {
+          "date": {
+            "millis": 1113177600000.0,
+            "label": "11 April 2005"
+          },
+          "country": {
+            "isoCode": "GB-ENG",
+            "country": "England",
+            "demonym": "English"
+          },
+          "place": "Chichester"
+        },
+        "nationalTeam": {
+          "isoCode": "GB-ENG",
+          "country": "England",
+          "demonym": "English"
+        },
+        "info": {
+          "position": "M",
+          "shirtNum": 8.0,
+          "positionInfo": "Centre Defensive Midfielder"
+        },
+        "currentTeam": {
+          "name": "Brighton & Hove Albion",
+          "club": {
+            "name": "Brighton and Hove Albion",
+            "abbr": "BHA",
+            "id": 131.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Brighton",
+          "id": 131.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 335797.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=131&page=0&pageSize=100",
+          "sourceSha256": "9cd904fa00f7d9fe8d9e16c12ceedb872271b4cd8aabc90ae9a657910ab5342e",
+          "retrievedAt": "2026-10-15T00:20:14.428657+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/brighton/brighton-532529/portrait.webp",
+      "sha256": "bcbc08684e244d5033b5991af9e63f2da0821eca412446776ac88a9ef153d147",
+      "bytes": 141540,
+      "width": 1010,
+      "height": 1500,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "brighton",
+      "sourcePersonId": "brighton-514254",
+      "nameAsPublished": "Diego Gomez",
+      "kind": "player",
+      "source": "https://www.brightonandhovealbion.com/first-team-men-squad",
+      "sourceSha256": "188bdb742f4b024fb209e1bfc0a9703034049682b08bf547205a5bde8dba01e5",
+      "imageSource": "https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/Squad-Page-Player-Tiles-21.png?__w=1375&__h=2042&clxf=t_general_large",
+      "profileSource": "https://www.brightonandhovealbion.com/player-detail-statistics-midfielder/514254",
+      "plPersonId": "143240",
+      "personalAsPublished": {
+        "name": {
+          "display": "Diego Gómez",
+          "first": "Diego",
+          "last": "Gómez"
+        },
+        "birth": {
+          "date": {
+            "millis": 1048723200000.0,
+            "label": "27 March 2003"
+          },
+          "country": {
+            "isoCode": "PY",
+            "country": "Paraguay",
+            "demonym": "Paraguayan"
+          },
+          "place": "San Juan Bautista"
+        },
+        "nationalTeam": {
+          "isoCode": "PY",
+          "country": "Paraguay",
+          "demonym": "Paraguayan"
+        },
+        "info": {
+          "position": "M",
+          "shirtNum": 25.0,
+          "positionInfo": "Central Midfielder"
+        },
+        "currentTeam": {
+          "name": "Brighton & Hove Albion",
+          "club": {
+            "name": "Brighton and Hove Albion",
+            "abbr": "BHA",
+            "id": 131.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Brighton",
+          "id": 131.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 729475.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=131&page=0&pageSize=100",
+          "sourceSha256": "9cd904fa00f7d9fe8d9e16c12ceedb872271b4cd8aabc90ae9a657910ab5342e",
+          "retrievedAt": "2026-10-15T00:20:14.428657+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/brighton/brighton-514254/portrait.webp",
+      "sha256": "2ff71b53c423b40fab2a34ebce8874fdb4667f5ff3b3ad34c20ae476798b088c",
+      "bytes": 162772,
+      "width": 1010,
+      "height": 1500,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "brighton",
+      "sourcePersonId": "brighton-610799",
+      "nameAsPublished": "Luka Vuskovic",
+      "kind": "player",
+      "source": "https://www.brightonandhovealbion.com/first-team-men-squad",
+      "sourceSha256": "188bdb742f4b024fb209e1bfc0a9703034049682b08bf547205a5bde8dba01e5",
+      "imageSource": "https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/Squad-Page-Player-Tiles-30.png?__w=1375&__h=2042&clxf=t_general_large",
+      "profileSource": "https://www.brightonandhovealbion.com/player-detail-statistics-defender/610799",
+      "plPersonId": "134632",
+      "personalAsPublished": {
+        "name": {
+          "display": "Luka Vuskovic",
+          "first": "Luka",
+          "last": "Vuskovic"
+        },
+        "birth": {
+          "date": {
+            "millis": 1172275200000.0,
+            "label": "24 February 2007"
+          },
+          "country": {
+            "isoCode": "HR",
+            "country": "Croatia",
+            "demonym": "Croatian"
+          },
+          "place": "Split"
+        },
+        "nationalTeam": {
+          "isoCode": "HR",
+          "country": "Croatia",
+          "demonym": "Croatian"
+        },
+        "info": {
+          "position": "D",
+          "shirtNum": 44.0,
+          "positionInfo": "Central Defender"
+        },
+        "currentTeam": {
+          "name": "Brighton & Hove Albion",
+          "club": {
+            "name": "Brighton and Hove Albion",
+            "abbr": "BHA",
+            "id": 131.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Brighton",
+          "id": 131.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 785952.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=131&page=0&pageSize=100",
+          "sourceSha256": "9cd904fa00f7d9fe8d9e16c12ceedb872271b4cd8aabc90ae9a657910ab5342e",
+          "retrievedAt": "2026-10-15T00:20:14.428657+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/brighton/brighton-610799/portrait.webp",
+      "sha256": "9479b6e3742a7caf3be257d12ec36c1472a0d985440720a31df07fa6ba1f2da6",
+      "bytes": 158750,
+      "width": 1010,
+      "height": 1500,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "brighton",
+      "sourcePersonId": "brighton-454490",
+      "nameAsPublished": "Michael Svoboda",
+      "kind": "player",
+      "source": "https://www.brightonandhovealbion.com/first-team-men-squad",
+      "sourceSha256": "188bdb742f4b024fb209e1bfc0a9703034049682b08bf547205a5bde8dba01e5",
+      "imageSource": "https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/Squad-Page-Player-Tiles-25.png?__w=1375&__h=2042&clxf=t_general_large",
+      "profileSource": "https://www.brightonandhovealbion.com/player-detail-statistics-defender/454490",
+      "plPersonId": "334200",
+      "personalAsPublished": {
+        "name": {
+          "display": "Michael Svoboda",
+          "first": "Michael",
+          "last": "Svoboda"
+        },
+        "birth": {
+          "date": {
+            "millis": 908409600000.0,
+            "label": "15 October 1998"
+          },
+          "country": {
+            "isoCode": "AT",
+            "country": "Austria",
+            "demonym": "Austrian"
+          },
+          "place": "Wien"
+        },
+        "nationalTeam": {
+          "isoCode": "AT",
+          "country": "Austria",
+          "demonym": "Austrian"
+        },
+        "info": {
+          "position": "D",
+          "shirtNum": 30.0,
+          "positionInfo": "Centre Central Defender"
+        },
+        "currentTeam": {
+          "name": "Brighton & Hove Albion",
+          "club": {
+            "name": "Brighton and Hove Albion",
+            "abbr": "BHA",
+            "id": 131.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Brighton",
+          "id": 131.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 785460.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=131&page=0&pageSize=100",
+          "sourceSha256": "9cd904fa00f7d9fe8d9e16c12ceedb872271b4cd8aabc90ae9a657910ab5342e",
+          "retrievedAt": "2026-10-15T00:20:14.428657+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/brighton/brighton-454490/portrait.webp",
+      "sha256": "70c948910e2f2fd73efd18a433a23e4a18fa8ea0a294549c7f7bd919c5ad3a8d",
+      "bytes": 161640,
+      "width": 1010,
+      "height": 1500,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "brighton",
+      "sourcePersonId": "brighton-592031",
+      "nameAsPublished": "Yankuba Minteh",
+      "kind": "player",
+      "source": "https://www.brightonandhovealbion.com/first-team-men-squad",
+      "sourceSha256": "188bdb742f4b024fb209e1bfc0a9703034049682b08bf547205a5bde8dba01e5",
+      "imageSource": "https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/YANKUBA%20NEW.png?__w=337&__h=500&clxf=t_general_large",
+      "profileSource": "https://www.brightonandhovealbion.com/player-detail-statistics-striker/592031",
+      "plPersonId": "136175",
+      "personalAsPublished": {
+        "name": {
+          "display": "Yankuba Minteh",
+          "first": "Yankuba",
+          "last": "Minteh"
+        },
+        "birth": {
+          "date": {
+            "millis": 1090454400000.0,
+            "label": "22 July 2004"
+          },
+          "country": {
+            "isoCode": "GM",
+            "country": "Gambia",
+            "demonym": "Gambian"
+          },
+          "place": "Bakoteh"
+        },
+        "nationalTeam": {
+          "isoCode": "GM",
+          "country": "Gambia",
+          "demonym": "Gambian"
+        },
+        "info": {
+          "position": "F",
+          "shirtNum": 11.0,
+          "positionInfo": "Left/Centre/Right Winger"
+        },
+        "currentTeam": {
+          "name": "Brighton & Hove Albion",
+          "club": {
+            "name": "Brighton and Hove Albion",
+            "abbr": "BHA",
+            "id": 131.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Brighton",
+          "id": 131.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 359408.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=131&page=0&pageSize=100",
+          "sourceSha256": "9cd904fa00f7d9fe8d9e16c12ceedb872271b4cd8aabc90ae9a657910ab5342e",
+          "retrievedAt": "2026-10-15T00:20:14.428657+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/brighton/brighton-592031/portrait.webp",
+      "sha256": "6d49309b952683d5380ea631b2313264e9a8a44120d4725f773dded7cf33cc96",
+      "bytes": 28798,
+      "width": 337,
+      "height": 500,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "brighton",
+      "sourcePersonId": "brighton-463067",
+      "nameAsPublished": "Georginio Rutter",
+      "kind": "player",
+      "source": "https://www.brightonandhovealbion.com/first-team-men-squad",
+      "sourceSha256": "188bdb742f4b024fb209e1bfc0a9703034049682b08bf547205a5bde8dba01e5",
+      "imageSource": "https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/Squad-Page-Player-Tiles-08.png?__w=1375&__h=2042&clxf=t_general_large",
+      "profileSource": "https://www.brightonandhovealbion.com/player-detail-statistics-striker/463067",
+      "plPersonId": "51830",
+      "personalAsPublished": {
+        "name": {
+          "display": "Georginio Rutter",
+          "first": "Georginio",
+          "last": "Rutter"
+        },
+        "birth": {
+          "date": {
+            "millis": 1019260800000.0,
+            "label": "20 April 2002"
+          },
+          "country": {
+            "isoCode": "FR",
+            "country": "France",
+            "demonym": "French"
+          },
+          "place": "Plescop"
+        },
+        "nationalTeam": {
+          "isoCode": "FR",
+          "country": "France",
+          "demonym": "French"
+        },
+        "info": {
+          "position": "F",
+          "shirtNum": 10.0,
+          "positionInfo": "Centre Striker"
+        },
+        "currentTeam": {
+          "name": "Brighton & Hove Albion",
+          "club": {
+            "name": "Brighton and Hove Albion",
+            "abbr": "BHA",
+            "id": 131.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Brighton",
+          "id": 131.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 363094.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=131&page=0&pageSize=100",
+          "sourceSha256": "9cd904fa00f7d9fe8d9e16c12ceedb872271b4cd8aabc90ae9a657910ab5342e",
+          "retrievedAt": "2026-10-15T00:20:14.428657+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/brighton/brighton-463067/portrait.webp",
+      "sha256": "fe2e2c42e0f5c394909e718dbff89da79f92dc401b153e7d9080131702fbcfa9",
+      "bytes": 183054,
+      "width": 1010,
+      "height": 1500,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "brighton",
+      "sourcePersonId": "brighton-700308",
+      "nameAsPublished": "Zadok Yohanna",
+      "kind": "player",
+      "source": "https://www.brightonandhovealbion.com/first-team-men-squad",
+      "sourceSha256": "188bdb742f4b024fb209e1bfc0a9703034049682b08bf547205a5bde8dba01e5",
+      "imageSource": "https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/Squad-Page-Player-Tiles-28.png?__w=1375&__h=2042&clxf=t_general_large",
+      "profileSource": "https://www.brightonandhovealbion.com/player-detail-statistics-striker/700308",
+      "plPersonId": "334183",
+      "personalAsPublished": {
+        "name": {
+          "display": "Zadok Yohanna",
+          "first": "Zadok",
+          "last": "Yohanna"
+        },
+        "birth": {
+          "date": {
+            "millis": 1183075200000.0,
+            "label": "29 June 2007"
+          },
+          "country": {
+            "isoCode": "NG",
+            "country": "Nigeria",
+            "demonym": "Nigerian"
+          }
+        },
+        "nationalTeam": {
+          "isoCode": "NG",
+          "country": "Nigeria",
+          "demonym": "Nigerian"
+        },
+        "info": {
+          "position": "F",
+          "shirtNum": 36.0,
+          "positionInfo": "Right Winger"
+        },
+        "currentTeam": {
+          "name": "Brighton & Hove Albion",
+          "club": {
+            "name": "Brighton and Hove Albion",
+            "abbr": "BHA",
+            "id": 131.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Brighton",
+          "id": 131.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 785354.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=131&page=0&pageSize=100",
+          "sourceSha256": "9cd904fa00f7d9fe8d9e16c12ceedb872271b4cd8aabc90ae9a657910ab5342e",
+          "retrievedAt": "2026-10-15T00:20:14.428657+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/brighton/brighton-700308/portrait.webp",
+      "sha256": "53b9cf01dd43c243490a777aa750ad233f70905650b4718a1984c3cd27790b7f",
+      "bytes": 187670,
+      "width": 1010,
+      "height": 1500,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "brighton",
+      "sourcePersonId": "brighton-467779",
+      "nameAsPublished": "Mats Wieffer",
+      "kind": "player",
+      "source": "https://www.brightonandhovealbion.com/first-team-men-squad",
+      "sourceSha256": "188bdb742f4b024fb209e1bfc0a9703034049682b08bf547205a5bde8dba01e5",
+      "imageSource": "https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/Squad-Page-Player-Tiles-23.png?__w=1375&__h=2042&clxf=t_general_large",
+      "profileSource": "https://www.brightonandhovealbion.com/player-detail-statistics-midfielder/467779",
+      "plPersonId": "72239",
+      "personalAsPublished": {
+        "name": {
+          "display": "Mats Wieffer",
+          "first": "Mats",
+          "last": "Wieffer"
+        },
+        "birth": {
+          "date": {
+            "millis": 942710400000.0,
+            "label": "16 November 1999"
+          },
+          "country": {
+            "isoCode": "NL",
+            "country": "Netherlands",
+            "demonym": "Dutch"
+          },
+          "place": "Borne"
+        },
+        "nationalTeam": {
+          "isoCode": "NL",
+          "country": "Netherlands",
+          "demonym": "Dutch"
+        },
+        "info": {
+          "position": "M",
+          "shirtNum": 27.0,
+          "positionInfo": "Centre Defensive Midfielder"
+        },
+        "currentTeam": {
+          "name": "Brighton & Hove Albion",
+          "club": {
+            "name": "Brighton and Hove Albion",
+            "abbr": "BHA",
+            "id": 131.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Brighton",
+          "id": 131.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 360338.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=131&page=0&pageSize=100",
+          "sourceSha256": "9cd904fa00f7d9fe8d9e16c12ceedb872271b4cd8aabc90ae9a657910ab5342e",
+          "retrievedAt": "2026-10-15T00:20:14.428657+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/brighton/brighton-467779/portrait.webp",
+      "sha256": "d20fcba2a3db4ef3ae3e9e7cb9d73d03ebc87e7488a80363560691ca09c16658",
+      "bytes": 166884,
+      "width": 1010,
+      "height": 1500,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "brighton",
+      "sourcePersonId": "brighton-538007",
+      "nameAsPublished": "Promise David",
+      "kind": "player",
+      "source": "https://www.brightonandhovealbion.com/first-team-men-squad",
+      "sourceSha256": "188bdb742f4b024fb209e1bfc0a9703034049682b08bf547205a5bde8dba01e5",
+      "imageSource": "https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/Squad-Page-Player-Tiles-10.png?__w=1375&__h=2042&clxf=t_general_large",
+      "profileSource": "https://www.brightonandhovealbion.com/player-detail-statistics-striker/538007",
+      "plPersonId": "146676",
+      "personalAsPublished": {
+        "name": {
+          "display": "Promise David",
+          "first": "Promise",
+          "last": "David"
+        },
+        "birth": {
+          "date": {
+            "millis": 994118400000.0,
+            "label": "3 July 2001"
+          },
+          "country": {
+            "isoCode": "CA",
+            "country": "Canada",
+            "demonym": "Canadian"
+          },
+          "place": "Brampton"
+        },
+        "nationalTeam": {
+          "isoCode": "CA",
+          "country": "Canada",
+          "demonym": "Canadian"
+        },
+        "info": {
+          "position": "F",
+          "shirtNum": 12.0,
+          "positionInfo": "Striker",
+          "loan": true
+        },
+        "currentTeam": {
+          "name": "Brighton & Hove Albion",
+          "club": {
+            "name": "Brighton and Hove Albion",
+            "abbr": "BHA",
+            "id": 131.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Brighton",
+          "id": 131.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 792876.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=131&page=0&pageSize=100",
+          "sourceSha256": "9cd904fa00f7d9fe8d9e16c12ceedb872271b4cd8aabc90ae9a657910ab5342e",
+          "retrievedAt": "2026-10-15T00:20:14.428657+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/brighton/brighton-538007/portrait.webp",
+      "sha256": "75a956110a2d95d45d686b56a75af141604dc64ea7d50ea19c247616eb9aa70e",
+      "bytes": 133016,
+      "width": 1010,
+      "height": 1500,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    },
+    {
+      "sourceClubId": "brighton",
+      "sourcePersonId": "brighton-471551",
+      "nameAsPublished": "Femi Azeez",
+      "kind": "player",
+      "source": "https://www.brightonandhovealbion.com/first-team-men-squad",
+      "sourceSha256": "188bdb742f4b024fb209e1bfc0a9703034049682b08bf547205a5bde8dba01e5",
+      "imageSource": "https://cmscdnus.yinzcam.com/Toolbox/jsoneditor/FA_BHA/FEMI%20AZEEZ%2039.png?__w=337&__h=500&clxf=t_general_large",
+      "profileSource": "https://www.brightonandhovealbion.com/player-detail-statistics-striker/471551",
+      "plPersonId": "69521",
+      "personalAsPublished": {
+        "name": {
+          "display": "Femi Azeez",
+          "first": "Femi",
+          "last": "Azeez"
+        },
+        "birth": {
+          "date": {
+            "millis": 991699200000.0,
+            "label": "5 June 2001"
+          },
+          "country": {
+            "isoCode": "GB-ENG",
+            "country": "England",
+            "demonym": "English"
+          },
+          "place": "London"
+        },
+        "nationalTeam": {
+          "isoCode": "NG",
+          "country": "Nigeria",
+          "demonym": "Nigerian"
+        },
+        "info": {
+          "position": "F",
+          "shirtNum": 39.0,
+          "positionInfo": "Left/Right Winger"
+        },
+        "currentTeam": {
+          "name": "Brighton & Hove Albion",
+          "club": {
+            "name": "Brighton and Hove Albion",
+            "abbr": "BHA",
+            "id": 131.0
+          },
+          "teamType": "FIRST",
+          "shortName": "Brighton",
+          "id": 131.0
+        },
+        "previousTeam": null,
+        "altIds": null,
+        "playerId": 794523.0
+      },
+      "personalSources": [
+        {
+          "source": "https://footballapi.pulselive.com/football/players?compSeasons=841&teams=131&page=0&pageSize=100",
+          "sourceSha256": "9cd904fa00f7d9fe8d9e16c12ceedb872271b4cd8aabc90ae9a657910ab5342e",
+          "retrievedAt": "2026-10-15T00:20:14.428657+00:00"
+        }
+      ],
+      "scopeEvidence": "Official men first-team cards matched current club PL FIRST name; canonical identity pending",
+      "file": "assets/pending_media/english_completion/brighton/brighton-471551/portrait.webp",
+      "sha256": "b9e813ac79c642f6ab2a2242e94eadef67fd606dcc4286e094876ad71a9a9a81",
+      "bytes": 31802,
+      "width": 337,
+      "height": 500,
+      "rightsStatus": "pending-review",
+      "identityReviewed": false,
+      "kitReviewed": false,
+      "approvedForQuestions": false,
+      "visualReview": {
+        "checkedAt": "2026-10-15",
+        "professionalStudioImage": true,
+        "clubShirtVisible": true,
+        "placeholder": false,
+        "independentIdentityVerified": false,
+        "kitPeriodVerified": false,
+        "faceQuestionSuitable": false,
+        "note": "Contact sheet checked; identity and kit period independently unverified"
+      }
+    }
+  ],
+  "failures": [],
+  "excluded": [
+    {
+      "name": "Jason Steele",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Tom McGill",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Adam Webster",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Lewis Dunk",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Joao Pedro Costinha",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Oliver Boscagli",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Kaoru Mitoma",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Pascal Gross number 30",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "James Milner",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Yasin Ayari",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Matt O'Riley",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Malick Yalcouye",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Stefanos Tzimas",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Ibrahim Osman",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Charalampos Kostoulas",
+      "reason": "No matching current club PL FIRST assignment"
+    },
+    {
+      "name": "Evan Ferguson",
+      "reason": "No matching current club PL FIRST assignment"
+    }
+  ],
+  "releaseReady": false
+}

@@ -3,7 +3,7 @@ declare(strict_types=1);
 // Native PHP only: indexed original TAR bytes, no archive extension or shell.
 if (PHP_SAPI !== 'cli') { http_response_code(404); exit; }
 function ha_media_target(string $root,string $relative): string {
- if(!preg_match('~^assets/pending_media/[A-Za-z0-9_./-]+\.(png|jpg|webp)$~D',$relative))throw new RuntimeException('Unsafe media path');
+ if(!preg_match('~^assets/pending_media/[A-Za-z0-9_./-]+\.(png|jpe?g|webp)$~D',$relative))throw new RuntimeException('Unsafe media path');
  $path=$root;
  foreach(explode('/',$relative) as $segment){
   if($segment==='' || $segment==='.' || $segment==='..')throw new RuntimeException('Unsafe media segment');

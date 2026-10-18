@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-10-15",
+  "actualFiles": 213,
+  "portraitFiles": 208,
+  "logoFiles": 5,
+  "datasets": {
+    "english_completion_palace_2026_27.json": {
+      "mediaFiles": 21,
+      "profiles": 21,
+      "failures": 0
+    },
+    "english_completion_logos_2026_27.json": {
+      "mediaFiles": 5,
+      "profiles": 0,
+      "failures": 0
+    },
+    "english_completion_everton_2026_27.json": {
+      "mediaFiles": 17,
+      "profiles": 17,
+      "failures": 0
+    },
+    "english_completion_public_api_evidence_2026_27.json": {
+      "mediaFiles": 0,
+      "profiles": 0,
+      "failures": 0
+    },
+    "english_completion_forest_2026_27.json": {
+      "mediaFiles": 22,
+      "profiles": 22,
+      "failures": 0
+    },
+    "english_completion_sunderland_2026_27.json": {
+      "mediaFiles": 22,
+      "profiles": 22,
+      "failures": 0
+    },
+    "english_completion_brighton_2026_27.json": {
+      "mediaFiles": 16,
+      "profiles": 0,
+      "failures": 0
+    },
+    "english_completion_coventry_2026_27.json": {
+      "mediaFiles": 24,
+      "profiles": 26,
+      "failures": 2
+    },
+    "english_completion_ipswich_2026_27.json": {
+      "mediaFiles": 25,
+      "profiles": 0,
+      "failures": 0
+    },
+    "english_completion_sdp_personal_2026_27.json": {
+      "mediaFiles": 0,
+      "profiles": 0,
+      "failures": 0
+    },
+    "english_completion_media_2026_27.json": {
+      "mediaFiles": 61,
+      "profiles": 0,
+      "failures": 5
+    }
+  },
+  "sdpSupplemental": {
+    "clubs": 20,
+    "currentFIRSTMatchedProfiles": 473,
+    "fieldCoverage": {
+      "height": 457,
+      "weight": 441,
+      "preferredFoot": 467,
+      "shirtNum": 473,
+      "countryOfBirth": 471,
+      "birth": 473,
+      "joinedClub": 473
+    },
+    "failures": []
+  },
+  "verification": "2 saved-data audit tests passed; PIL and SHA256 checked every actual file; contact sheets visually inspected",
+  "rejectedMedia": "3UEFA404,1wrongcoachidentity,1wrongclubshirt,2Coventrysilhouettes",
+  "limitations": [
+    "Missing portraits for Brentford,Leeds,Bournemouth,Newcastle,Fulham,Hull; official PL portraitresource sample403",
+    "Comprehensive career totals and headcoachcoverage incomplete",
+    "Coventry editorial studio photos require separate face visibility quality review",
+    "Current PL FIRST match does not certify formal season registration",
+    "Canonical identity, kitperiod and rights clearance pending"
+  ],
+  "releaseReady": false
+}

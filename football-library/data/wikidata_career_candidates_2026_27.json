@@ -1,0 +1,178 @@
+{
+  "format": "huroof-wikidata-chunks-v1",
+  "releaseReady": false,
+  "scalars": {
+    "license": "CC0-1.0",
+    "licensingSource": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+    "retrievedAt": "2026-10-15T06:26:06.442523+00:00",
+    "releaseReady": false,
+    "acquisitionStatus": "finite-checkpoint-complete; API stopped after429, six official EntityData fallback candidates fetched and only matching scope identities retained"
+  },
+  "arrays": {
+    "propertyEvidence": {
+      "rows": 3,
+      "parts": [
+        {
+          "path": "wikidata_career_candidates_2026_27/propertyEvidence-0001.json",
+          "rows": 3,
+          "bytes": 235,
+          "sha256": "acfcbf9a663e2883202508e43049733fab9868085a29b999c053869e5d24518a"
+        }
+      ]
+    },
+    "sourceRows": {
+      "rows": 1277,
+      "parts": [
+        {
+          "path": "wikidata_career_candidates_2026_27/sourceRows-0001.json",
+          "rows": 851,
+          "bytes": 511952,
+          "sha256": "bae07255e4eec0ced46da052a1875a090320accfe70c013ed76f9a082da36dd9"
+        },
+        {
+          "path": "wikidata_career_candidates_2026_27/sourceRows-0002.json",
+          "rows": 426,
+          "bytes": 173902,
+          "sha256": "eade5ab81b7f553a8581cfdc979dddaa34bddb64977e217be7fb51e7064fb1bc"
+        }
+      ]
+    },
+    "queryEvidence": {
+      "rows": 16,
+      "parts": [
+        {
+          "path": "wikidata_career_candidates_2026_27/queryEvidence-0001.json",
+          "rows": 16,
+          "bytes": 32786,
+          "sha256": "20fe1e892da228cea35056fabc6ccda5ee862d4f16fda7fb6c874afe28539e9a"
+        }
+      ]
+    },
+    "records": {
+      "rows": 214,
+      "parts": [
+        {
+          "path": "wikidata_career_candidates_2026_27/records-0001.json",
+          "rows": 36,
+          "bytes": 503623,
+          "sha256": "b0d4b7ea46670623f42e36f1624b4938c06105d97b709dd1ba3a94c53408d71a"
+        },
+        {
+          "path": "wikidata_career_candidates_2026_27/records-0002.json",
+          "rows": 30,
+          "bytes": 507380,
+          "sha256": "5f577acaf9103a34062464a081776c84e2bacadaad6678120079179a95a90244"
+        },
+        {
+          "path": "wikidata_career_candidates_2026_27/records-0003.json",
+          "rows": 22,
+          "bytes": 502844,
+          "sha256": "3c11c12c57f210ade27fc433d5c749ba148527747501b003381be54cf6ecb46a"
+        },
+        {
+          "path": "wikidata_career_candidates_2026_27/records-0004.json",
+          "rows": 17,
+          "bytes": 502005,
+          "sha256": "d972bd739e8cacd551fde7042a85758fec3271d8b23f2f09b2ee3660364c78fa"
+        },
+        {
+          "path": "wikidata_career_candidates_2026_27/records-0005.json",
+          "rows": 18,
+          "bytes": 489061,
+          "sha256": "6448ae60add0156ac3f36504974bb0d296d6e94059c54e4bd13eb3caf01d780a"
+        },
+        {
+          "path": "wikidata_career_candidates_2026_27/records-0006.json",
+          "rows": 16,
+          "bytes": 493880,
+          "sha256": "0616f7a003821f0f0db7dbf70356becdde55a0246faf2fb099fe330f8817601c"
+        },
+        {
+          "path": "wikidata_career_candidates_2026_27/records-0007.json",
+          "rows": 21,
+          "bytes": 485689,
+          "sha256": "09911f8e146b1232c74fbeabffc2e0edaaa159ff0b2b8ce095b7f98786b44536"
+        },
+        {
+          "path": "wikidata_career_candidates_2026_27/records-0008.json",
+          "rows": 18,
+          "bytes": 492105,
+          "sha256": "fece1a426d0774b4ca271d41d005c409e53fb4f58c8e0ab85934c8cf42dba15d"
+        },
+        {
+          "path": "wikidata_career_candidates_2026_27/records-0009.json",
+          "rows": 16,
+          "bytes": 479635,
+          "sha256": "edf39d47a44ecae31822c4f7d5b59a43f87f0ffcc19630e7f3a979864078e522"
+        },
+        {
+          "path": "wikidata_career_candidates_2026_27/records-0010.json",
+          "rows": 19,
+          "bytes": 511571,
+          "sha256": "7b97560d13653ba663fc0d6533d2fca96df1580dfe26e0425cf41bb14241ad64"
+        },
+        {
+          "path": "wikidata_career_candidates_2026_27/records-0011.json",
+          "rows": 1,
+          "bytes": 69167,
+          "sha256": "b9f74bd1f6908a686843bf3515fec308bcaf98600644b16656b5d3328ff47214"
+        }
+      ]
+    },
+    "unresolved": {
+      "rows": 935,
+      "parts": [
+        {
+          "path": "wikidata_career_candidates_2026_27/unresolved-0001.json",
+          "rows": 935,
+          "bytes": 142412,
+          "sha256": "79ab92eb9ffa7f206e9ae88122869acb85a4685ea67fd570c3cc7f370786ec14"
+        }
+      ]
+    },
+    "failures": {
+      "rows": 4,
+      "parts": [
+        {
+          "path": "wikidata_career_candidates_2026_27/failures-0001.json",
+          "rows": 4,
+          "bytes": 1293,
+          "sha256": "d362f83a27f469f7479d7ec3bbb10e4720ad6fd13bf51f559b7a67755f150fe8"
+        }
+      ]
+    },
+    "unresolvedSaudiScope": {
+      "rows": 544,
+      "parts": [
+        {
+          "path": "wikidata_career_candidates_2026_27/unresolvedSaudiScope-0001.json",
+          "rows": 544,
+          "bytes": 195021,
+          "sha256": "b70c172b2e12084a35b8a370ed7d5514b23de9611973baa6465e35503bc8af93"
+        }
+      ]
+    },
+    "saudiNameSearchEvidence": {
+      "rows": 12,
+      "parts": [
+        {
+          "path": "wikidata_career_candidates_2026_27/saudiNameSearchEvidence-0001.json",
+          "rows": 12,
+          "bytes": 7414,
+          "sha256": "bea19c3a5035ac7d9fee72c40ce1d97506de59e09c99d34fa24c04f725631e74"
+        }
+      ]
+    },
+    "identifierValuesWithoutSuccessfulQuery": {
+      "rows": 73,
+      "parts": [
+        {
+          "path": "wikidata_career_candidates_2026_27/identifierValuesWithoutSuccessfulQuery-0001.json",
+          "rows": 73,
+          "bytes": 6991,
+          "sha256": "9464edb9d4a69eef82ce57718bca0763e621f5bec0d25985bb806d3af1dea5ba"
+        }
+      ]
+    }
+  }
+}
