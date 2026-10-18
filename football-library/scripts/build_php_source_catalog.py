@@ -17,6 +17,20 @@ def context_photo_candidate(r,photos,paths,births):
  a=paths.get(p.get('file'))
  if not a or a['sha256']!=p.get('sha256') or not any(e.get('sourceIdentity')==p.get('sourceIdentity') and e.get('kind')=='player' for e in a.get('evidence',[])):return None
  return {'sha256':a['sha256'],'status':'candidate-exact-name-birth-and-official-club-context','dateOfBirthCorroborated':True,'birthSourceSha256':birth.get('sourceSha256'),'approvedForQuestions':False,'sourceIdentity':p['sourceIdentity'],'source':p.get('profileSource') or p.get('source')}
+def uefa_context_candidate(r,evidence,paths):
+ if r['namespace']!='premier-league-api':return None
+ # Explicitly reviewed club namespace crosswalk; numeric IDs are never equated.
+ clubs={'1':('52280','Arsenal FC'),'2':('52683','Aston Villa'),'12':('52682','Manchester United'),'11':('52919','Manchester City')}
+ if r['clubId'] not in clubs:return None
+ uc,club_name=clubs[r['clubId']];hits=[x for x in evidence if x.get('targetObservationId')==r['id']]
+ if len(hits)!=1:return None
+ x=hits[0];p=x['media'];u=x['uefaPlayer'];birth=x['profileEvidence'];a=paths.get(p.get('path'));names={norm(n) for n in r['names']}
+ if x.get('targetClubId')!='eng-'+r['clubId'] or not r.get('dob') or birth.get('dateOfBirth')!=r['dob'] or x.get('targetBirth')!=r['dob']:return None
+ if birth.get('status')!='published-meta-fields' or birth.get('source')!=u.get('profileUrl') or not any(norm(n) in names for n in birth.get('names',[])):return None
+ if norm(p.get('nameAsPublished','')) not in names or norm(u.get('nameOriginal','')) not in names:return None
+ if p.get('sourceClubId')!=uc or u.get('sourceClubId')!=uc or p.get('clubNameAsPublished')!=club_name or p.get('season')!='2026-2027' or p.get('kind')!='player' or p.get('sourcePersonId')!=u.get('sourcePersonId'):return None
+ if not a or a['sha256']!=p.get('sha256') or not any(e.get('sourcePersonId')==p['sourcePersonId'] and e.get('sourceClubId')==uc and e.get('kind')=='player' and e.get('sourceIdNamespace')=='uefa-person' and e.get('season')=='2026-2027' for e in a.get('evidence',[])):return None
+ return {'sha256':a['sha256'],'status':'candidate-exact-name-birth-and-official-club-context','dateOfBirthCorroborated':True,'approvedForQuestions':False,'sourceIdentity':'uefa-person:'+p['sourcePersonId'],'source':birth['source'],'birthSourceSha256':birth['sourceSha256']}
 def build(base,out):
  base=Path(base).resolve();out=Path(out)
  if out.exists():raise ValueError('Use a new output directory')
@@ -34,6 +48,7 @@ def build(base,out):
   assets=assets+extra['files']
   if len({a['sha256'] for a in assets})!=len(assets):raise ValueError('Duplicate supplemental media')
  chelsea=read('chelsea_profiles_2026_27.json')['photos'];chelsea_births={x['sourceIdentity']:x for x in read('chelsea_profile_birth_evidence_2026_10_18.json')['profiles']}
+ uefa_evidence=read('english_uefa_profile_evidence_2026_10_18.json')['records'] if (base/'data/english_uefa_profile_evidence_2026_10_18.json').exists() else []
  paths={a['path']:a for a in assets};refs={};details={};coaches={};sdpclub={};extra={}
  for c in read('english_completion_sdp_personal_2026_27.json')['clubs']:
   sdpclub[str(c['sourceClubId'])]=str(c['plSourceClubId'])
@@ -71,7 +86,12 @@ def build(base,out):
   logo=next((a['sha256'] for a in assets if ref.get('logoPrefix') and a['path'].startswith(ref['logoPrefix'])),None) or logos.get(ref['name']);players=[]
   for r in members:
    p={'id':r['id'],'sourceIdentityKey':r['sourceIdentityKey'],'name':r['names'][0],'aliases':r['names'],'dateOfBirth':r['dob'],'source':r['source'],'sourceFile':r['inputFile'],'verification':'pending','approvedForQuestions':False,'isCanonicalIdentity':False,**details.get((ns,r['sourcePersonId'],cid),{})};media=r.get('mediaCandidates',[]);p['photo']=media[0]['sha256'] if media else None;candidate=context_photo_candidate(r,chelsea,paths,chelsea_births) if not p['photo'] else None
-   if candidate:p['photo']=candidate['sha256'];p['photoLinkEvidence']=candidate
+   if not p['photo'] and not candidate:candidate=uefa_context_candidate(r,uefa_evidence,paths)
+   if candidate:
+    p['photo']=candidate['sha256'];p['photoLinkEvidence']=candidate
+    if candidate.get('sourceIdentity','').startswith('uefa-person:'):
+     evidence=next(x for x in uefa_evidence if x['targetObservationId']==r['id']);stats=evidence['uefaPlayer'].get('statistics') or {}
+     if stats.get('competition')=='uefa-champions-league' and stats.get('season')=='2026-2027':p['competitionStatistics']=[{**stats,'source':evidence['media']['sourcePage'],'sourceSha256':evidence['media']['sourcePageSha256'],'verification':'pending','approvedForQuestions':False}]
    p['photoStatus']='pending-identity-kit-period-and-rights' if p['photo'] else 'missing';pictures+=bool(p['photo']);p['fifaIdentityCandidates']=[v[0] for v in db.execute('SELECT target_id FROM candidates WHERE source_id=?',(r['id'],))];players.append(p);search.append({'id':p['id'],'club':club_id,'league':ref['league'],'name':p['name'],'nameAr':p.get('nameAr'),'search':norm(' '.join([*r['names'],p.get('nameAr') or '',ref['name'],ref.get('nameAr') or '',str(p.get('nationality') or ''),str(p.get('position') or '')]))})
   doc={'id':club_id,'league':ref['league'],'name':ref['name'],'nameAr':ref.get('nameAr'),'logo':logo,'source':ref['source'],'coaches':coaches.get((ns,cid),[]),'players':players,'verification':'pending','releaseReady':False}
   if ns=='spl-primary' and ref['name']=='Al Fateh':doc['coachReviewNote']='توجد أدلة من موقع النادي لتغيير المدرب؛ لا تعتمد ملاحظة هذا المصدر بوصفها المدرب الحالي.'

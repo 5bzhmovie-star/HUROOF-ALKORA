@@ -5,16 +5,16 @@
   "counts": {
     "clubs": 58,
     "sourcePlayerCards": 1612,
-    "playerCardsWithContextPortrait": 1244,
+    "playerCardsWithContextPortrait": 1311,
     "clubsWithLogo": 58,
     "releaseReady": false
   },
-  "cardsMissingPortrait": 368,
+  "cardsMissingPortrait": 301,
   "clubsMissingLogo": 0,
   "coachSourceRecords": 58,
   "coachSourceRecordsWithPortrait": 42,
   "pythonReturnCode": 0,
-  "pythonSummary": "Ran59 tests;58 passed,1 skipped (MySQL connection not configured)",
+  "pythonSummary": "Ran63 tests;62 passed,1 skipped (MySQL connection not configured)",
   "phpLintReturnCodes": [
     0,
     0,
@@ -40,5 +40,15 @@
     ],
     "approvedForQuestions": false,
     "visualAndRightsReview": "pending"
+  },
+  "uefaAdditionalContextLinks": {
+    "count": 67,
+    "profilesFetched": 68,
+    "birthConflictsRejected": 1,
+    "statisticsSourceRows": 67,
+    "approvedForQuestions": false,
+    "rightsAndKitReview": "pending",
+    "localPortraitReadsAndChecksumsPassed": 67,
+    "phpStatisticsDetailRenderPassed": true
   }
 }

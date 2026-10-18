@@ -246,8 +246,8 @@
       "logo": "cb6bdc24bc77d8a2e8ac2a62862a791c910c192b605935ee172c66b5e88f6167",
       "players": 22,
       "file": "clubs/eng-1.json",
-      "bytes": 19224,
-      "sha256": "93b315f83a87435fd13368c311fc3b348997eae15865dfbee0da622d86d4e20f"
+      "bytes": 39820,
+      "sha256": "9b54e3caeff1283909b7d85d23c263150e67ee607010f9b017a966eb2b9ea15b"
     },
     {
       "id": "eng-10",
@@ -268,8 +268,8 @@
       "logo": "6f561778b2a7e39c5f009cc5a0cc12103e31d57c90f7acbaf0716089f0595c13",
       "players": 23,
       "file": "clubs/eng-11.json",
-      "bytes": 21563,
-      "sha256": "db8750198f32414f2e273dde84b7cf1655fae88a2a3526f147a4e94ae8eda83f"
+      "bytes": 27757,
+      "sha256": "cdf4861027d9bbea418726893d4951180e0e02e380ccaff3f0d284b000c81343"
     },
     {
       "id": "eng-12",
@@ -279,8 +279,8 @@
       "logo": "47f127dbbf7d5fb9b22b28b0ef4e07247a2fdfc77e3c8d99683f456a0dc8174e",
       "players": 23,
       "file": "clubs/eng-12.json",
-      "bytes": 19917,
-      "sha256": "fef005f6c29b39396f8ccc2d91489326bc2d854c049b47e34b900e045cbb98c6"
+      "bytes": 41536,
+      "sha256": "c76e453eb7fbdd080b1e384079c3f3ccafeaebd9d3b18de87b3e48ed1eb712e4"
     },
     {
       "id": "eng-127",
@@ -334,8 +334,8 @@
       "logo": "408ed831671e595b7a0c488a40df9284d3c35cb7d79f57cb083cbaa9dbc25f90",
       "players": 24,
       "file": "clubs/eng-2.json",
-      "bytes": 20844,
-      "sha256": "5ce88954953e0e512d161dcdcef55ffee62ac5c32597153507aa8f0df6f29156"
+      "bytes": 41511,
+      "sha256": "d10ba5384838606c0aafe5b2b3c2b7311476f9161798c2f6313ddef1de9fee99"
     },
     {
       "id": "eng-21",
@@ -683,6 +683,11 @@
       "path": "data/chelsea_profile_birth_evidence_2026_10_18.json",
       "bytes": 13962,
       "sha256": "e62251c29ad6a1264e80c8b3d3fcfe3c383823a4c1c9b9b91ed371706ebabd70"
+    },
+    {
+      "path": "data/english_uefa_profile_evidence_2026_10_18.json",
+      "bytes": 217211,
+      "sha256": "0f12eb9fca7f7496301f122f4d51abed96895bef446642623a6a1d4eb5000e62"
     },
     {
       "path": "data/english_completion_sdp_personal_2026_27.json",

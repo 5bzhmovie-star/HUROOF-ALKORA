@@ -1,0 +1,2261 @@
+{
+  "releaseReady": false,
+  "computedFrom": "data/php_source_catalog_2026_10_18/clubs/*.json",
+  "checkedAt": "2026-10-18T13:52:55.642825+00:00",
+  "leagues": {
+    "sau": {
+      "clubs": 18,
+      "sourceCards": 544,
+      "portraitsLinked": 520,
+      "portraitsMissing": 24,
+      "clubLogos": 18,
+      "fieldsAvailable": {
+        "dateOfBirth": 541,
+        "nationality": 544,
+        "position": 544,
+        "shirtNumber": 488,
+        "heightCm": 467,
+        "weightKg": 394,
+        "preferredFoot": 0,
+        "birthPlace": 0
+      }
+    },
+    "esp": {
+      "clubs": 20,
+      "sourceCards": 587,
+      "portraitsLinked": 496,
+      "portraitsMissing": 91,
+      "clubLogos": 20,
+      "fieldsAvailable": {
+        "dateOfBirth": 587,
+        "nationality": 587,
+        "position": 587,
+        "shirtNumber": 584,
+        "heightCm": 562,
+        "weightKg": 530,
+        "preferredFoot": 0,
+        "birthPlace": 513
+      }
+    },
+    "eng": {
+      "clubs": 20,
+      "sourceCards": 481,
+      "portraitsLinked": 295,
+      "portraitsMissing": 186,
+      "clubLogos": 20,
+      "fieldsAvailable": {
+        "dateOfBirth": 481,
+        "nationality": 481,
+        "position": 481,
+        "shirtNumber": 478,
+        "heightCm": 457,
+        "weightKg": 441,
+        "preferredFoot": 467,
+        "birthPlace": 425
+      }
+    }
+  },
+  "missingPlayerPortraits": [
+    {
+      "id": "cdacc06a873a13d85f4c2070b2f281d01aa461f9f5a7ea90e7e3a840ab3a2367",
+      "club": "esp-21",
+      "clubName": "Deportivo Alavés",
+      "name": "Nicolás Valentini",
+      "dateOfBirth": "2001-04-06"
+    },
+    {
+      "id": "af1cd58f27374f059a3673db07a0b09d978ce2b263468368fd74f99d9ace4404",
+      "club": "sau-874890145b9d43d59ec3f646e8bd4fee",
+      "clubName": "Al Faisaly",
+      "name": "Moayad Salim",
+      "dateOfBirth": "2008-03-09"
+    },
+    {
+      "id": "6970f745c00de434b532057b237d0fe72f78c66b20126af5af3c6541405d45d2",
+      "club": "sau-874890145b9d43d59ec3f646e8bd4fee",
+      "clubName": "Al Faisaly",
+      "name": "Dayo Joyce Osho",
+      "dateOfBirth": "2006-07-28"
+    },
+    {
+      "id": "ce058f230ffe8b23c88022122be6ede5b49bcbc6533a81a0b330fb225d80d2f1",
+      "club": "sau-874890145b9d43d59ec3f646e8bd4fee",
+      "clubName": "Al Faisaly",
+      "name": "Eid Al Muwallad",
+      "dateOfBirth": "2001-12-14"
+    },
+    {
+      "id": "62e6fefc681f8502dbf27c78a23bfb44e0d7dc5f284f7ced2fed3ebaaf45180b",
+      "club": "sau-874890145b9d43d59ec3f646e8bd4fee",
+      "clubName": "Al Faisaly",
+      "name": "Wael Kadan",
+      "dateOfBirth": "2005-05-05"
+    },
+    {
+      "id": "53f52e161479223aaef3b40fa6ccffa24a9bda5e231c95efd4c3e8b01f7d5ed1",
+      "club": "sau-efdd3327b51d4fbd95b83d784301d411",
+      "clubName": "Al Ahli",
+      "name": "Makhtar Diop",
+      "dateOfBirth": "2008-02-17"
+    },
+    {
+      "id": "b93d973b4a598af5266057f253616d7155f0a5590cb819d81d43a91c29de1561",
+      "club": "sau-efdd3327b51d4fbd95b83d784301d411",
+      "clubName": "Al Ahli",
+      "name": "Ali Majrashi",
+      "dateOfBirth": "1999-10-02"
+    },
+    {
+      "id": "409419c59f79ac6c526f3ea5d3f244840a87e8046358d22fafcb4e78f2b190b1",
+      "club": "eng-5",
+      "clubName": "Coventry City",
+      "name": "Stephen Mfuni",
+      "dateOfBirth": "2008-02-12"
+    },
+    {
+      "id": "3aef13ed8dc8cd49cd9456175836924e8a528a3aa1ec8b5982e49936972df228",
+      "club": "eng-5",
+      "clubName": "Coventry City",
+      "name": "Luke Woolfenden",
+      "dateOfBirth": "1998-10-21"
+    },
+    {
+      "id": "8937e590ff8cfe334ff8fd5b527f4da9c22c572f505e2d7975a49a10e5a1610c",
+      "club": "eng-5",
+      "clubName": "Coventry City",
+      "name": "Haji Wright",
+      "dateOfBirth": "1998-03-27"
+    },
+    {
+      "id": "767e65b9ad5956597772bba102ba296aed0e491e82b47c31731769be116822b4",
+      "club": "eng-2",
+      "clubName": "Aston Villa",
+      "name": "Amadou Onana",
+      "dateOfBirth": "2001-08-16"
+    },
+    {
+      "id": "0b9fa604c1aa12231678ca7f0e8aa605561c0b12ac7e860a532fd09765c85cca",
+      "club": "eng-2",
+      "clubName": "Aston Villa",
+      "name": "Modou Kéba Cissé",
+      "dateOfBirth": "2005-08-04"
+    },
+    {
+      "id": "70fe10336bca867f84ac5e9fb00262850c993324462146773681466af9406997",
+      "club": "eng-2",
+      "clubName": "Aston Villa",
+      "name": "Taylor Harwood-Bellis",
+      "dateOfBirth": "2002-01-30"
+    },
+    {
+      "id": "cdaa8acb8ec310ccddac7e1b5cfd6054daa2636a6b8b688e5573f3cc913e0d55",
+      "club": "eng-2",
+      "clubName": "Aston Villa",
+      "name": "Brian Madjo",
+      "dateOfBirth": "2009-01-12"
+    },
+    {
+      "id": "33d0c0f4db7c450dd7a570cc5aae747403dd25bc01c2b7446a160b486e7a45f8",
+      "club": "esp-3",
+      "clubName": "Athletic Club",
+      "name": "Christian Imga",
+      "dateOfBirth": "2009-02-17"
+    },
+    {
+      "id": "ba853749568041e40958ac649f6a32fd0e798b6efdcd3457caece08cf616ec9b",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Lewis Cook",
+      "dateOfBirth": "1997-02-03"
+    },
+    {
+      "id": "b12386048a88b93b034d3cb04b788ee241d1e148478f3e0022210b821f31a508",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Amine Adli",
+      "dateOfBirth": "2000-05-10"
+    },
+    {
+      "id": "23d5012643e2542871cff53a13b2aeeaa37525556d7810188452e74860976836",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "António Silva",
+      "dateOfBirth": "2003-10-30"
+    },
+    {
+      "id": "10f601eb72b08ccde58ea0776f514dd9689ecbd14260406e3bd47736febc45b9",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Álvaro Rodríguez",
+      "dateOfBirth": "2004-07-14"
+    },
+    {
+      "id": "a74a52ece32c6e50c965ccef9f7e685d0268ad75a79b9de31456e0a2541da394",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Ben Gannon-Doak",
+      "dateOfBirth": "2005-11-11"
+    },
+    {
+      "id": "8fad1dea0a131ab29d628a10cab40c5bd33d50a13c88b5fb142c9af78cf283f0",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Bafodé Diakité",
+      "dateOfBirth": "2001-01-06"
+    },
+    {
+      "id": "5ff2a3b04efc1dda403f721c698282a537b7a10093206874163bcf002ba946f8",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Rayan",
+      "dateOfBirth": "2006-08-03"
+    },
+    {
+      "id": "0645ba4fee83485e11e70e26b8b7ddd3760d2422637b97a8c5c170d2498e1f30",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Mack Allan",
+      "dateOfBirth": "2006-02-19"
+    },
+    {
+      "id": "0c6825d9a8bbf96bb59c8abb87499e1f66ec15d3fade48c360780a3a7c04facd",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Djordje Petrovic",
+      "dateOfBirth": "1999-10-08"
+    },
+    {
+      "id": "ecece0f717a6ed7596e8b4266d34fb23d024c77e8799eb1460e222783806458a",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Alex Tóth",
+      "dateOfBirth": "2005-10-23"
+    },
+    {
+      "id": "85006258a650fbb59eb136f42dec93732fae65451dd107477e0323bcb56dfa2f",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Veljko Milosavljevic",
+      "dateOfBirth": "2007-06-28"
+    },
+    {
+      "id": "98e5fb7a6ed18e074498e03e687b599432d241c3aa246861a286b3ad25075bbd",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Ryan Christie",
+      "dateOfBirth": "1995-02-22"
+    },
+    {
+      "id": "326e23ac34c5312dff067bc6dfe5ceab7ebc562aeebc0657013c065edadb19b3",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Michele Di Gregorio",
+      "dateOfBirth": "1997-07-27"
+    },
+    {
+      "id": "e942852d3e65d64b7b5b5382494a793b047b5be58b721cefa569148903a40427",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Justin Kluivert",
+      "dateOfBirth": "1999-05-05"
+    },
+    {
+      "id": "79daead251ebaf5a3c16364c0658117d608e225d3701ecd79fd10f95e28cb691",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Julio Soler",
+      "dateOfBirth": "2005-02-16"
+    },
+    {
+      "id": "1fc9859b8884a83340a790f63f362dd2549093e5205ca817a9ed18e55a22491e",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Fraser Forster",
+      "dateOfBirth": "1988-03-17"
+    },
+    {
+      "id": "d55790177a898c9bb2ff08c76ec506b0b33dc1d34f7c97ed0d7a78d32a936987",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Evanilson",
+      "dateOfBirth": "1999-10-06"
+    },
+    {
+      "id": "215a7ada8819698c3657ca6485f13244deb3e68c67818391ea41114fe8714323",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Tyler Adams",
+      "dateOfBirth": "1999-02-14"
+    },
+    {
+      "id": "ad690adea03bf8f232dec51f64ec6af2ad600bf68504f2d1b3ad26880cd312d2",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Adrien Truffert",
+      "dateOfBirth": "2001-11-20"
+    },
+    {
+      "id": "865058b5c6f71f1d35da8e0928ee1290f423d6119f1dc17a11220579cb6da600",
+      "club": "eng-127",
+      "clubName": "Bournemouth",
+      "name": "Alex Scott",
+      "dateOfBirth": "2003-08-21"
+    },
+    {
+      "id": "8600692f12789a95f5658e5d6b150bae68aaf80cbcb0270a03c4542609ddeca8",
+      "club": "eng-29",
+      "clubName": "Sunderland",
+      "name": "Abdoullah Ba",
+      "dateOfBirth": "2003-07-31"
+    },
+    {
+      "id": "8f098cca2353592e06001ae3210a022e64308dacb3fc0e481099f116d5e78c1a",
+      "club": "eng-29",
+      "clubName": "Sunderland",
+      "name": "Kevin Danso",
+      "dateOfBirth": "1998-09-19"
+    },
+    {
+      "id": "3ad1ec842e002cddd6131d4623c0a2548c16040e065ab54b5936e491e4f4d028",
+      "club": "esp-8",
+      "clubName": "RCD Espanyol de Barcelona",
+      "name": "Bryan Zaragoza",
+      "dateOfBirth": "2001-09-09"
+    },
+    {
+      "id": "f998c4cba06068480049828e7a19b320cbec8ed3059550795df0f36d73ace960",
+      "club": "esp-8",
+      "clubName": "RCD Espanyol de Barcelona",
+      "name": "Álex Calatrava Torrado",
+      "dateOfBirth": "2000-06-22"
+    },
+    {
+      "id": "e39a1e06a14eb158b70f0d6180012ab61c3ed71258d9f74e242921de0c238dc0",
+      "club": "esp-8",
+      "clubName": "RCD Espanyol de Barcelona",
+      "name": "Vanja Drkusic",
+      "dateOfBirth": "1999-10-30"
+    },
+    {
+      "id": "18d3279c6fc6e3785ec1eee49a9e7e38202cc9100232da324bacc13c94598092",
+      "club": "esp-8",
+      "clubName": "RCD Espanyol de Barcelona",
+      "name": "Kike García",
+      "dateOfBirth": "1989-11-25"
+    },
+    {
+      "id": "c37a3c298a3498283eb8e1eaef5346dd5ac8f05d489f0e9df5d92ed8fa348b9b",
+      "club": "esp-8",
+      "clubName": "RCD Espanyol de Barcelona",
+      "name": "Victor Mullerat",
+      "dateOfBirth": "2007-10-29"
+    },
+    {
+      "id": "81dae757c0a01933e59e438625f799f01ada9faa853025bd234a8400b2359e4b",
+      "club": "esp-8",
+      "clubName": "RCD Espanyol de Barcelona",
+      "name": "Andoni Gorosabel",
+      "dateOfBirth": "1996-08-04"
+    },
+    {
+      "id": "fe7af33de67a6642fbe717f4328ae827695f3677e05612782f6f0d251128219f",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Mamadou Sangaré",
+      "dateOfBirth": "2002-06-26"
+    },
+    {
+      "id": "8fee50be570c34b928965dd50fbfcd5c389322b2112912d50c35d74b21e7f479",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Rico Henry",
+      "dateOfBirth": "1997-07-08"
+    },
+    {
+      "id": "4d8eb155c216dc2142c926ce57e9380322fb42dd0c811b261b7edfb28a1ab0c3",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Aaron Hickey",
+      "dateOfBirth": "2002-06-10"
+    },
+    {
+      "id": "61af2747114fbdcb8e3e3564d760aee0df47bd723b00c7d2e0f9d7e0d75860fa",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Igor Thiago",
+      "dateOfBirth": "2001-06-26"
+    },
+    {
+      "id": "f500972ba99debb2397c9cda13bc68b6918e215f9d762a017a1cc1f855f68415",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Kevin Schade",
+      "dateOfBirth": "2001-11-27"
+    },
+    {
+      "id": "74d8b6a2eb9f706078903c47c46102e2794c46c5967acdca79edf01f85f393ef",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Yehor Yarmoliuk",
+      "dateOfBirth": "2004-03-01"
+    },
+    {
+      "id": "109038894f76601426c906f161af3588d0ad8646bec9627741f427889a9e4cc1",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Michael Kayode",
+      "dateOfBirth": "2004-07-10"
+    },
+    {
+      "id": "66cdf4808d004f361321ffac5a9081b0d5320a6244836b8f7f21c94849e04dfd",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Dango Ouattara",
+      "dateOfBirth": "2002-02-11"
+    },
+    {
+      "id": "2d4fe081a399c9b00442ac85c9e2eb7fdd0c9a899d1e381794954f25165056fb",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Hákon Valdimarsson",
+      "dateOfBirth": "2001-10-13"
+    },
+    {
+      "id": "663f11d50544d790f60b8b626866516f837ba8cf6ffd207dd22a4d37193647c1",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "El Hadji Malick Diouf",
+      "dateOfBirth": "2004-12-29"
+    },
+    {
+      "id": "75bc741427319c343db903b6c2de7006a5c3ca973f743f44226376baa8862cc7",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Caoimhín Kelleher",
+      "dateOfBirth": "1998-11-23"
+    },
+    {
+      "id": "56df1fc211d3a4954876fa76a5a39250e9b4afaf5078c22eb5fe99ae8119ee16",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Kristoffer Ajer",
+      "dateOfBirth": "1998-04-17"
+    },
+    {
+      "id": "7737862c86184b4daa28d865ac627b9fe9fb1aff84983141163df4d17f2c71e0",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Vitaly Janelt",
+      "dateOfBirth": "1998-05-10"
+    },
+    {
+      "id": "76f767551386cdf8ef09672ca7645650a08c25a077f6863b37826ebbe0956116",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Keane Lewis-Potter",
+      "dateOfBirth": "2001-02-22"
+    },
+    {
+      "id": "03e5daf9add1e51262aa6576711ff40f97b031a0012d52dadce3f6a1900cf54d",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Nathan Collins",
+      "dateOfBirth": "2001-04-30"
+    },
+    {
+      "id": "44f9f309684ae4ebeaeb2208d52aee6477fe02efaeaba33bbaf727706f570c5a",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Fábio Carvalho",
+      "dateOfBirth": "2002-08-30"
+    },
+    {
+      "id": "f7a0d40531f1be9705f008be30b18739ef498a8fc692cc331e183fc6fe583696",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Mathias Jensen",
+      "dateOfBirth": "1996-01-01"
+    },
+    {
+      "id": "3b99294510249353c6f76376d5389206e137025fa812567928f63e41f0323fe1",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Mikkel Damsgaard",
+      "dateOfBirth": "2000-07-03"
+    },
+    {
+      "id": "42325576e7b19f893776bdaa5a96063e8fc47f773329e2aa96be0d276e0f97a8",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Jaidon Anthony",
+      "dateOfBirth": "1999-12-01"
+    },
+    {
+      "id": "1a7e33afe4017acb2da79a3fb17bb42064ce453b797d454acc01dd45126dae7e",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Sepp van den Berg",
+      "dateOfBirth": "2001-12-20"
+    },
+    {
+      "id": "b86d4f2ad5970f083e230ce195f9257f90613f80348a82ad93fb6559092ded84",
+      "club": "eng-130",
+      "clubName": "Brentford",
+      "name": "Callum Wilson",
+      "dateOfBirth": "1992-02-27"
+    },
+    {
+      "id": "e9002b024bd90201f4502cd92ef10cea7a929686e794f5773069ae5477a9e5bd",
+      "club": "esp-6",
+      "clubName": "Celta",
+      "name": "Altay Bayindir",
+      "dateOfBirth": "1998-04-14"
+    },
+    {
+      "id": "6372a0f169be8e0957e59368124877201e2a60dfe6c55f9bc8c6cb1e3acaf77b",
+      "club": "esp-6",
+      "clubName": "Celta",
+      "name": "Sebastián Cáceres",
+      "dateOfBirth": "1999-08-18"
+    },
+    {
+      "id": "9b10f9aa3a0f06420a401fffcc4719af30e42e86b1da0cee122d6d7548b8fb2a",
+      "club": "esp-6",
+      "clubName": "Celta",
+      "name": "Abdoulaye Faye",
+      "dateOfBirth": "2004-09-22"
+    },
+    {
+      "id": "17774bec0d5f9463fed52fbffa376e13a2e193da45252d53b5d05a86944ef4ff",
+      "club": "esp-6",
+      "clubName": "Celta",
+      "name": "Couhaib Driouech",
+      "dateOfBirth": "2002-04-17"
+    },
+    {
+      "id": "014c141bf21fe0ac32e51e50f03b9b197c63e1a232ef93a95f1cb4d4b5527b09",
+      "club": "esp-6",
+      "clubName": "Celta",
+      "name": "Javi Galán",
+      "dateOfBirth": "1994-11-19"
+    },
+    {
+      "id": "d21c570e474741f5cc2bcbdd5c04dfa386b72a52e6879ead4f1ddc652c35ba31",
+      "club": "esp-6",
+      "clubName": "Celta",
+      "name": "Enrique Ribes",
+      "dateOfBirth": "2004-01-16"
+    },
+    {
+      "id": "45360be6f8369511be5cc55901bff9ce424c3d0fa9e58a475344c20a8e206fcb",
+      "club": "esp-6",
+      "clubName": "Celta",
+      "name": "Aleix Febas",
+      "dateOfBirth": "1996-02-02"
+    },
+    {
+      "id": "2ad15720c867bff0af50263f7b2152f3efe14fa97179a0e8550127a346138e70",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Nick Pope",
+      "dateOfBirth": "1992-04-19"
+    },
+    {
+      "id": "3d7e3d36972a5b71ad412b285cd483aa957a1c70deb03a7ae92f73ca58edde34",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Lewis Hall",
+      "dateOfBirth": "2004-09-08"
+    },
+    {
+      "id": "25351f31fba95247016e2a1f4dd279db0e20a4a1fc544c84fe797f61f1aa8031",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "William Osula",
+      "dateOfBirth": "2003-08-04"
+    },
+    {
+      "id": "6782218db6274dbe861cf2df28224164f13492060bb33ba88fbca6514194a239",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Lukás Hornícek",
+      "dateOfBirth": "2002-07-13"
+    },
+    {
+      "id": "5b5ffdefbcb3136481448872764fc493f29bee9e240f99c8daf6c2d7d4f95ea6",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Yoane Wissa",
+      "dateOfBirth": "1996-09-03"
+    },
+    {
+      "id": "46b104f7e94bd5360c58cefa773f88e3a2bbe24582994e789abbf0b6bff08493",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Malick Thiaw",
+      "dateOfBirth": "2001-08-08"
+    },
+    {
+      "id": "6578659a4c5b176d5741a3b622c2c15ee6dfd0dd3aed244774a200c2677e49a9",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Miodrag Pivas",
+      "dateOfBirth": "2005-05-17"
+    },
+    {
+      "id": "7992131001d1d4ffb7aa1742b23bea653eef28958caaee2cf647388e654b2d21",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Matias Fernandez-Pardo",
+      "dateOfBirth": "2005-02-03"
+    },
+    {
+      "id": "2d62d674b09fb42c9661e335f688d34d23f430c42f2746138749e93d05ecdd83",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Joe Willock",
+      "dateOfBirth": "1999-08-20"
+    },
+    {
+      "id": "ecb85757765f09f0016c78f8d848bf66dcc99f4e8124f24fcc6849c4511f4554",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Harvey Barnes",
+      "dateOfBirth": "1997-12-09"
+    },
+    {
+      "id": "839b484aff9e6f418c9c957b90949cb29d6facedd6a5936bd6c79961bcbf67b1",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Aladji Bamba",
+      "dateOfBirth": "2006-07-14"
+    },
+    {
+      "id": "0dcd1b4967486c37dc551390b12858c496a1456977c48fd2f8fd0ea7efdc1082",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Jacob Ramsey",
+      "dateOfBirth": "2001-05-28"
+    },
+    {
+      "id": "4a4ed1fc42e0257f1dc5b2078fbec9101d6fcaecae6a27b699b48c4d6a46a9d8",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Odysseas Vlachodimos",
+      "dateOfBirth": "1994-04-26"
+    },
+    {
+      "id": "9034837337ddb623cafc4c4bb7cff6aa1a36795d76437eec0c9d48c38eafc3b7",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Joelinton",
+      "dateOfBirth": "1996-08-14"
+    },
+    {
+      "id": "4ae734b791472367396839f7b8d9490bd279a4226cc9a9e53f3ff1903bc16436",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Bazoumana Touré",
+      "dateOfBirth": "2006-03-02"
+    },
+    {
+      "id": "2dcf7154f019077ceb4d7cc155b1db23df9a2a1e10bc482977237c9f26ec22ee",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Sean Steur",
+      "dateOfBirth": "2008-01-11"
+    },
+    {
+      "id": "575471e3e6be8acd4032ad89d0b09cc22a030020f04db52ec182a5dca0fc1620",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Vakhtang Salia",
+      "dateOfBirth": "2007-08-30"
+    },
+    {
+      "id": "6e0afefe62a006104be38b202345e747aeadc421d52c0c6f7dbccaad1efc9869",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Ewen Jaouen",
+      "dateOfBirth": "2005-12-29"
+    },
+    {
+      "id": "82ac1d2b18f0eb3afb03e261d346f56803a5c8caf193293c078b7dc8e80413aa",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Anthony Elanga",
+      "dateOfBirth": "2002-04-27"
+    },
+    {
+      "id": "6fc38793850bffadf4c3937a22c7051297bb952a854479677b19e9e14b3b8667",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Tino Livramento",
+      "dateOfBirth": "2002-11-12"
+    },
+    {
+      "id": "e2a2849d0b884538a859f20178195009083a8eff949c2562dbe72af1ea6260b8",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Sven Botman",
+      "dateOfBirth": "2000-01-12"
+    },
+    {
+      "id": "bd11028ab375a35af0e6042fdb1ee5a829f526c4059fbcee752c33cfb4364168",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Nico González",
+      "dateOfBirth": "2002-01-03"
+    },
+    {
+      "id": "8cd9546e66a9e2bed90227952308be9df71a0ecffe5eea2e286f28c461b93aca",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Amar Dedic",
+      "dateOfBirth": "2002-08-18"
+    },
+    {
+      "id": "711d69965a484a153f06233869bbf33a48713e0a0bdc2a74fc665579d71d5258",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Mark Gillespie",
+      "dateOfBirth": "1992-03-27"
+    },
+    {
+      "id": "415c9bd18b65754b87b9642dc16a115e4c050c4e464b75bd0f1a1c101e8b1560",
+      "club": "eng-23",
+      "clubName": "Newcastle United",
+      "name": "Dan Burn",
+      "dateOfBirth": "1992-05-09"
+    },
+    {
+      "id": "03acec0d08c673aad5ae689f884889cc436bdc0a88dc6c8f1bf2fc6b4971959f",
+      "club": "eng-7",
+      "clubName": "Everton",
+      "name": "Braiden Graham",
+      "dateOfBirth": "2007-11-07"
+    },
+    {
+      "id": "a8bcbd21575686273c8e4157731a2ae589104f37c4f7151c05fa6cababe71aff",
+      "club": "eng-7",
+      "clubName": "Everton",
+      "name": "Jack Grealish",
+      "dateOfBirth": "1995-09-10"
+    },
+    {
+      "id": "24efcc824a4578ee552b5f5f41a0ebe2fffcd8e69b542391d79d186258c2469e",
+      "club": "esp-2",
+      "clubName": "Atlético de Madrid",
+      "name": "Jonathan David",
+      "dateOfBirth": "2000-01-14"
+    },
+    {
+      "id": "d83d8eebe65a7ba28609bcbf59ff51e33fe0ae2e2e80c36c6924a9f3ff5212ab",
+      "club": "esp-2",
+      "clubName": "Atlético de Madrid",
+      "name": "Cristian Romero",
+      "dateOfBirth": "1998-04-27"
+    },
+    {
+      "id": "40c298a648e1dd52d8c2c1f42668bf28f929e36840788383bcdc7cd43615b102",
+      "club": "esp-2",
+      "clubName": "Atlético de Madrid",
+      "name": "Javier Gil",
+      "dateOfBirth": "2006-05-03"
+    },
+    {
+      "id": "e67b08fb37c99062d009acb45839c87c7017d67c2dd1f239b00420192048a20c",
+      "club": "esp-2",
+      "clubName": "Atlético de Madrid",
+      "name": "Jorge Castillo",
+      "dateOfBirth": "2006-05-23"
+    },
+    {
+      "id": "c0bc673ed315cb92a5bddd7ba4aecce61bc7dae49bd78701ed47d1fdb9876752",
+      "club": "eng-4",
+      "clubName": "Chelsea",
+      "name": "Valentín Barco",
+      "dateOfBirth": "2004-07-23"
+    },
+    {
+      "id": "261903dcb0c64e85b6c8b01481a427d36aac649e7de05d0658d8fd41cef85508",
+      "club": "eng-4",
+      "clubName": "Chelsea",
+      "name": "Estêvão",
+      "dateOfBirth": "2007-04-24"
+    },
+    {
+      "id": "0d1d423c40b704581d947e2d0dde0ad295fad57a3e04a784c9978058f5447850",
+      "club": "eng-4",
+      "clubName": "Chelsea",
+      "name": "Cole Palmer",
+      "dateOfBirth": "2002-05-06"
+    },
+    {
+      "id": "16b7c15739b20b59d553b5697c0951b3ba67d068fb785c2a47545b2853b681d9",
+      "club": "eng-131",
+      "clubName": "Brighton & Hove Albion",
+      "name": "Nehemiah Oriola",
+      "dateOfBirth": "2007-06-11"
+    },
+    {
+      "id": "c9b111bcb7271b5c379b7e257228d695a562edba9ca90a2bd80a6accdba96897",
+      "club": "eng-131",
+      "clubName": "Brighton & Hove Albion",
+      "name": "Shane Nti",
+      "dateOfBirth": "2007-05-07"
+    },
+    {
+      "id": "251e6e51e7194e04f0bb9021c1ca5b21ec8b4632c498dec7f07387ea2adcf938",
+      "club": "eng-131",
+      "clubName": "Brighton & Hove Albion",
+      "name": "Costinha",
+      "dateOfBirth": "2000-03-26"
+    },
+    {
+      "id": "686492a2b185118a3545687889cd88e39e85087bc08b5fedb63fb63fb205ddd2",
+      "club": "eng-131",
+      "clubName": "Brighton & Hove Albion",
+      "name": "Younes Ibrahim",
+      "dateOfBirth": "2008-02-16"
+    },
+    {
+      "id": "c5c8d4df54068bef4a593369120c478d7e7d0a3b83fb38faa7a67560eca58f7b",
+      "club": "eng-131",
+      "clubName": "Brighton & Hove Albion",
+      "name": "George Munday",
+      "dateOfBirth": "2006-12-10"
+    },
+    {
+      "id": "d8669f7d10b42a785077ba2d19edf8213bcdaa33cdcec0e4f504d655a6e35a37",
+      "club": "eng-131",
+      "clubName": "Brighton & Hove Albion",
+      "name": "Olivier Boscagli",
+      "dateOfBirth": "1997-11-18"
+    },
+    {
+      "id": "5ab4a3592696aacfbcb863218983397e8ffbafb6fba10014704fcc8015650780",
+      "club": "eng-131",
+      "clubName": "Brighton & Hove Albion",
+      "name": "Pascal Groß",
+      "dateOfBirth": "1991-06-15"
+    },
+    {
+      "id": "fc117890bfdcb97136a1aa82278227feb6adb5959f88f7c97c7f25653a9c6630",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Semi Ajayi",
+      "dateOfBirth": "1993-11-09"
+    },
+    {
+      "id": "4f62ed7e6e158970d97cd26be4709e0e1998629cbc139a7437ba92bbd502a30b",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Kieran Dowell",
+      "dateOfBirth": "1997-10-10"
+    },
+    {
+      "id": "907ca045149fc2bbeb5339ac175701eef784116b972f976a7dfb862b3a73aaf8",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Paddy McNair",
+      "dateOfBirth": "1995-04-27"
+    },
+    {
+      "id": "b48cc4d262ff6dbe02110e7097fe8fd7a77a3ca310a66908d95919ffe6208f64",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Brooke Norton-Cuffy",
+      "dateOfBirth": "2004-01-12"
+    },
+    {
+      "id": "11e7eaafd61a51705288b10d2676a673f09281464d13779b234cf8269319a741",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Eliot Matazo",
+      "dateOfBirth": "2002-02-15"
+    },
+    {
+      "id": "3026af4970e51496084fc2363e280ea8d0c474bcec678fea9dcbc75522c4340c",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Mohamed-Ali Cho",
+      "dateOfBirth": "2004-01-19"
+    },
+    {
+      "id": "e9449e1a84610d7d709ac6548ed2d48502e61b816c97bcdfd76f8a03f032ac7c",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Hidemasa Morita",
+      "dateOfBirth": "1995-05-10"
+    },
+    {
+      "id": "861407527c08b99c2b2b57ed330b7603a0b95da74426a1d404b6041e3852e84c",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Nobel Mendy",
+      "dateOfBirth": "2004-09-03"
+    },
+    {
+      "id": "a9f7fcb052687284e90505a81097f65f4a05d9ee1dc70474fc6f747f49442266",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Archie Howard",
+      "dateOfBirth": "2006-12-02"
+    },
+    {
+      "id": "39d2c195694fe81cc4dbbd19fac05611f3ffcb8a6e5e862869643a235104b7b9",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Lewie Coyle",
+      "dateOfBirth": "1995-10-15"
+    },
+    {
+      "id": "50984e686219d5085d98018123de49c9932ae4ee35eb218ecf997c517d76a1a6",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Christos Mouzakitis",
+      "dateOfBirth": "2006-12-25"
+    },
+    {
+      "id": "d640b0d964c941a6cbd01a2baff76e42d14854c71343d39ee86376bcc88e30f0",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Óscar Zambrano",
+      "dateOfBirth": "2004-04-20"
+    },
+    {
+      "id": "244d6aa4c819828f2c6b763031b87a302bf4f370d04f964e9abee18f7dcbd554",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Regan Slater",
+      "dateOfBirth": "1999-09-11"
+    },
+    {
+      "id": "3fe29d503236e05110a20db7163910dc9db45e4c4a183dde1bfa83ea1465df32",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Sorba Thomas",
+      "dateOfBirth": "1999-01-25"
+    },
+    {
+      "id": "600b370eeba262a4d1ddbef0fe7fc461d8843eabd0985e5c0d52933f4966bd1c",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Robinio Vaz",
+      "dateOfBirth": "2007-02-17"
+    },
+    {
+      "id": "505c59387f71678ec1d398a8bc213b1baf6e8f738776eaaf054deed992efce44",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Abdülkadir Ömür",
+      "dateOfBirth": "1999-06-25"
+    },
+    {
+      "id": "6179c1b20fd1ddceba2558ac5ca4992d6d67b24972eb65cb18b6d399ad97b014",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Jens Hjertø-Dahl",
+      "dateOfBirth": "2005-10-31"
+    },
+    {
+      "id": "228c963140d852d0c1e87556fb7c7dfd63986c35b895e496515e2496e02f00e2",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Elliot Stroud",
+      "dateOfBirth": "2002-06-22"
+    },
+    {
+      "id": "89552886012ca7366eb251f70c798864af3c7d2842d6d0061fd2b3ead4c65aa9",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Lucas Herrington",
+      "dateOfBirth": "2007-09-05"
+    },
+    {
+      "id": "c22c4f923d8be4d9f027a584ca593ff57e4145a13f5172765173719132c6afbd",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Ilyas Ansah",
+      "dateOfBirth": "2004-11-08"
+    },
+    {
+      "id": "db0f83d1bea52c596616cffc9d85e593e652f438330d2002f3b6663dbaf4ad7c",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "John Egan",
+      "dateOfBirth": "1992-10-20"
+    },
+    {
+      "id": "fdd3526e6b5f124e62891a0c3a8de3173458ced19c0a067cdd4b6a9deebc0604",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Jack Butland",
+      "dateOfBirth": "1993-03-10"
+    },
+    {
+      "id": "e5091035dd8c55e460394542f6f264b0f5c12d9119780355ac3a53541d8280cb",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Matt Targett",
+      "dateOfBirth": "1995-09-18"
+    },
+    {
+      "id": "1382f1e2488e63e9fbb2516362020128de36923637123f0ae3c9ade100abe1e8",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Joe Gelhardt",
+      "dateOfBirth": "2002-05-04"
+    },
+    {
+      "id": "e801a6fe7d28db39b519da4f17fba57b4688d42ca0c12f8f8280c1616ebe2998",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Konstantinos Tzolakis",
+      "dateOfBirth": "2002-11-08"
+    },
+    {
+      "id": "243d36aaee3e2821d9fdbbb34309f999797d5056d057f9f563d4b444ee7e256f",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Darko Gyabi",
+      "dateOfBirth": "2004-02-18"
+    },
+    {
+      "id": "8493496696dd90470cfb43c508444a333f64bb2797f8ce5a8ed9602cf32f2ceb",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Tim Iroegbunam",
+      "dateOfBirth": "2003-06-30"
+    },
+    {
+      "id": "63be32af938d5f29fbb8fcf972f29b9afd9211b84ab2e4fe784701062b7671ed",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Lucas Gourna-Douath",
+      "dateOfBirth": "2003-08-05"
+    },
+    {
+      "id": "895606fd1cb8af51f89368732dae4d44ba414ca48ce3ec7f9712ae80c181f94d",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Oliver McBurnie",
+      "dateOfBirth": "1996-06-04"
+    },
+    {
+      "id": "0478bf78c787f1c163361a8086f74b6047a1210d3cffa7194447ba78c4118800",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Dillon Phillips",
+      "dateOfBirth": "1995-06-11"
+    },
+    {
+      "id": "cb7eb7fc281421a3caee87897b29389af458ad37fe8302fce1c58b02788817dc",
+      "club": "eng-41",
+      "clubName": "Hull City",
+      "name": "Matt Crooks",
+      "dateOfBirth": "1994-01-20"
+    },
+    {
+      "id": "bc0fe88630c3504dea922c68d6f2a8f575332c02b4ea37d7e2a6f7a628da4c87",
+      "club": "esp-20",
+      "clubName": "Villarreal CF",
+      "name": "Cheikh Thiam",
+      "dateOfBirth": "2005-11-07"
+    },
+    {
+      "id": "ca1c3065879527099c64709b2d93d8342d0380ecd9d037225239f789a31b8475",
+      "club": "esp-20",
+      "clubName": "Villarreal CF",
+      "name": "Nizar El Jmili Ben Hamou",
+      "dateOfBirth": "2004-11-30"
+    },
+    {
+      "id": "0582767de87e8564c7283e1739b1c7d2c9a409613efa11bb916de11580301840",
+      "club": "esp-11",
+      "clubName": "Levante UD",
+      "name": "Petar Ratkov",
+      "dateOfBirth": "2003-08-18"
+    },
+    {
+      "id": "7447e50da4ff593193cb9cd44708016530819f30833f18816875d6880ca70034",
+      "club": "esp-11",
+      "clubName": "Levante UD",
+      "name": "Axel Tape",
+      "dateOfBirth": "2007-08-10"
+    },
+    {
+      "id": "c2df437a3de7c1b0a076cb32c4d45563cce9282d40958f0db9191e36bcbdee6f",
+      "club": "esp-11",
+      "clubName": "Levante UD",
+      "name": "Thiago Fernández",
+      "dateOfBirth": "2004-04-03"
+    },
+    {
+      "id": "e3bc2477216f80ef92a9aba54d664a2064849d76bd6d1d63cb4f8239a3252b1f",
+      "club": "esp-11",
+      "clubName": "Levante UD",
+      "name": "Ifeanyi Ndukwe",
+      "dateOfBirth": "2008-03-03"
+    },
+    {
+      "id": "86bbb7fef6026d36335b15d1ae2f05affc531e6c65a4a3c445bfc355ae1b9ecf",
+      "club": "esp-11",
+      "clubName": "Levante UD",
+      "name": "Adrián de la Fuente",
+      "dateOfBirth": "1999-02-26"
+    },
+    {
+      "id": "9c2fd8bd3954b1ea53771c003c79e74df6ffc56e5b153b4549ed6f56b95e296b",
+      "club": "sau-504ab03d43954464917361ed38f5cad2",
+      "clubName": "Al Fayha",
+      "name": "Al Baraa Adawi",
+      "dateOfBirth": "2004-01-19"
+    },
+    {
+      "id": "427d17f9afe5bcc368f2b11247dcc258bd2196805315ad4bfc1557e76beb7a1b",
+      "club": "sau-5c55f144687d497da1249c312392bb47",
+      "clubName": "Al Ittihad",
+      "name": "Marwan Al Sahafi",
+      "dateOfBirth": "2004-02-17"
+    },
+    {
+      "id": "06fcf65bc0c5294b9ddd786ec6099479e2e7494a4cc9eb7962bb5b30d0ec6609",
+      "club": "esp-16",
+      "clubName": "Real Sociedad",
+      "name": "Mamadou Sarr",
+      "dateOfBirth": "2005-08-29"
+    },
+    {
+      "id": "1b0135979bc604f0f817719280ac769afe74d6a222f66c5ca2b25e0539646dcc",
+      "club": "esp-16",
+      "clubName": "Real Sociedad",
+      "name": "Héctor Fort",
+      "dateOfBirth": "2006-08-02"
+    },
+    {
+      "id": "a98f1dc0c273051c3f32bcb51da039b4e250e1577a68c95ddfa268e56deff50f",
+      "club": "esp-17",
+      "clubName": "Sevilla FC",
+      "name": "Fábio Rafael Rodrigues Cardoso",
+      "dateOfBirth": "1994-04-19"
+    },
+    {
+      "id": "aa8fbfe12c3a8b43f326b8d5abd911e28e432525d2db545bdc24f721cd3b5065",
+      "club": "esp-17",
+      "clubName": "Sevilla FC",
+      "name": "Edu Altozano",
+      "dateOfBirth": "2006-10-17"
+    },
+    {
+      "id": "385ea0ca6bb71ed72235290849d3c5066c4e0490dcc67ae0d88aa15747bcfbf3",
+      "club": "esp-17",
+      "clubName": "Sevilla FC",
+      "name": "Iker Munoz",
+      "dateOfBirth": "2004-01-05"
+    },
+    {
+      "id": "c9deebc5a3747dacc7817f51771fa9ee5c300bc467d61f13a68bbb15f05a2bd0",
+      "club": "sau-d234b1ebf80e481a888ce64cab2dcd89",
+      "clubName": "Al Taawoun",
+      "name": "Ibrahim Al Zahrani",
+      "dateOfBirth": "2006-04-01"
+    },
+    {
+      "id": "9cadf6d4194f432b8025b2f013857878b8192a92cc8090984cda7f77b66d2022",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Benjamin Lecomte",
+      "dateOfBirth": "1991-04-26"
+    },
+    {
+      "id": "fb6cbd718f6804bda7d3d0b097b7e1cb5cf68ead2e09ab29269932c7f2c6b196",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Hugo Larsson",
+      "dateOfBirth": "2004-06-27"
+    },
+    {
+      "id": "b0e5d55ae7053b0aff11e7410dc1920c038c89e0de1b58e97dca7654420a6649",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Manuel Ángel",
+      "dateOfBirth": "2004-03-15"
+    },
+    {
+      "id": "24c5acddcf84100fc44539fc015cee463b9b795899c07590648c1aad0b405305",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Gonzalo García",
+      "dateOfBirth": "2004-03-24"
+    },
+    {
+      "id": "8f98a6b040e04dfaa9d41c6128b932507b53dde0938362aa7b43f769655a51b0",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Kevin",
+      "dateOfBirth": "2003-01-04"
+    },
+    {
+      "id": "3dedc66ec08f8ceacb8234d133b1e84223dafb8d2bb0a4fe49a565761bb98e55",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "César Palacios",
+      "dateOfBirth": "2004-11-11"
+    },
+    {
+      "id": "af3e03970a23a87d1e8a7f807d58b9c375855399b863cb6cb74f9ab5ce329761",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Josh King",
+      "dateOfBirth": "2007-01-03"
+    },
+    {
+      "id": "c169d2a3106dc5c1fa55ca742ff87ccf736cf47127569064fb144238155f83df",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Emile Smith Rowe",
+      "dateOfBirth": "2000-07-28"
+    },
+    {
+      "id": "90fb2cba2134d82f730a2aa66792f2989a4c2ce863e329d93c9e55db8ec2ca76",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Antonee Robinson",
+      "dateOfBirth": "1997-08-08"
+    },
+    {
+      "id": "7efb5c52db588a79287b853e90a2604e8214afdcb7374a9dcc4c0356eaa7bb70",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Ryan Sessegnon",
+      "dateOfBirth": "2000-05-18"
+    },
+    {
+      "id": "d0965fdc5a1900265c06f31b721b0af8dcb76204f4224c830905c6b691b86f66",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Sander Berge",
+      "dateOfBirth": "1998-02-14"
+    },
+    {
+      "id": "ec1c778474aafd8ed37cdb54fd113d704706cf990f4fcc1d14af617615364614",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Calvin Bassey",
+      "dateOfBirth": "1999-12-31"
+    },
+    {
+      "id": "7b37ce92f2d15ba6b248bd4ced0ef1caf18a7b0cf398a8ba3aee357b0cbd0f4c",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Joachim Andersen",
+      "dateOfBirth": "1996-05-31"
+    },
+    {
+      "id": "03a9636cf37f92927f285bba268b168260eaf71e30bef92cc3c77822b638d0c7",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Jorge Cuenca",
+      "dateOfBirth": "1999-11-17"
+    },
+    {
+      "id": "9164a6b5cf944f575c9895a391227f43031d3cd0405a3e4945aa5db22293b69b",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Tom Cairney",
+      "dateOfBirth": "1991-01-20"
+    },
+    {
+      "id": "72db7af0ce7f3d9e78c40f0f664016f3819af135c60faf932e259af0d94eac52",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Alex Iwobi",
+      "dateOfBirth": "1996-05-03"
+    },
+    {
+      "id": "827331c02dec9c541a3f8a5b94385575c757e62f09cea96d83beb58869ca3b1d",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Harrison Reed",
+      "dateOfBirth": "1995-01-27"
+    },
+    {
+      "id": "cf54a8c07693790f991517130e454d934e87f33f21971cfc7bfde9087a059a6a",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Bernd Leno",
+      "dateOfBirth": "1992-03-04"
+    },
+    {
+      "id": "660d05d469677122ff2338000fe9ee8e9e9a6fcda9cf14df3bf17372822ca995",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Oscar Bobb",
+      "dateOfBirth": "2003-07-12"
+    },
+    {
+      "id": "7460bc24874355ce648444a80c3f4d60567e5f3b4baaeb4d3bd91696a55bd5f5",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Timothy Castagne",
+      "dateOfBirth": "1995-12-05"
+    },
+    {
+      "id": "d13bb6729b9276e5f46b9e3e7175f870bd65a306b4f8a6abaf6f83058b1ca84f",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "David Affengruber",
+      "dateOfBirth": "2001-03-19"
+    },
+    {
+      "id": "e873fa4aee0654a83096016ad12785c0d5f50950cae6a6796f4c48fd2a137371",
+      "club": "eng-34",
+      "clubName": "Fulham",
+      "name": "Shea Charles",
+      "dateOfBirth": "2003-11-05"
+    },
+    {
+      "id": "9c71a60d63f50320b8a930660530cb3d2bd8b91e3951a9c3aa428df2c7778e56",
+      "club": "sau-6bb24501d8c04b7e8cbd05fe89d8910f",
+      "clubName": "Al Khaleej",
+      "name": "Mateo Benegas",
+      "dateOfBirth": "2006-01-02"
+    },
+    {
+      "id": "26300042ed711230d2c6c6914b59fff54d2b7acb1fc6f5cb88781dc99768a1a7",
+      "club": "esp-7",
+      "clubName": "Elche CF",
+      "name": "Rubén Sánchez",
+      "dateOfBirth": "2001-02-04"
+    },
+    {
+      "id": "1005bd9fff3f6e2d6f88a8564fe35f7afb51b3e8db47148a15cf5d2e97c6bcaf",
+      "club": "esp-7",
+      "clubName": "Elche CF",
+      "name": "Thomas Lemar",
+      "dateOfBirth": "1995-11-12"
+    },
+    {
+      "id": "5a5242f6750215ad074b7628178c0a65c6fbecc19d4af0d45810305767faee59",
+      "club": "esp-7",
+      "clubName": "Elche CF",
+      "name": "Roy Revivo",
+      "dateOfBirth": "2003-05-22"
+    },
+    {
+      "id": "ddcd41291f10508241c0ac960026db98012eb444f80041a8150f9d088c8d1645",
+      "club": "esp-7",
+      "clubName": "Elche CF",
+      "name": "Ezequiel Ponce",
+      "dateOfBirth": "1997-03-29"
+    },
+    {
+      "id": "89792f091282e27667318222abf033a804ec5409c93d1a77e7babc05e1275886",
+      "club": "esp-7",
+      "clubName": "Elche CF",
+      "name": "Kevin Lomónaco",
+      "dateOfBirth": "2002-01-08"
+    },
+    {
+      "id": "31c8f5fca47ef7f1c233bf2c4c349e5eee85ef577ee4ced9051fb00e734f120b",
+      "club": "esp-4",
+      "clubName": "FC Barcelona",
+      "name": "João Pedro Cavaco Cancelo",
+      "dateOfBirth": "1994-05-27"
+    },
+    {
+      "id": "a09ad476fd3f25a07eadc5fada3fcf37624d014535b494532b116bacb35f2a93",
+      "club": "esp-4",
+      "clubName": "FC Barcelona",
+      "name": "Roony Bardghji",
+      "dateOfBirth": "2005-11-15"
+    },
+    {
+      "id": "bf79b23b0a89cfc7a0baeef738a14b3b67efdf20c0584979569b3bca386f199a",
+      "club": "esp-4",
+      "clubName": "FC Barcelona",
+      "name": "Rodrigo Hernández Cascante",
+      "dateOfBirth": "1996-06-22"
+    },
+    {
+      "id": "4c99bd5954560380c0e6125448b17af10b3e7264e1eb78e74f4b5996709fa8a9",
+      "club": "esp-4",
+      "clubName": "FC Barcelona",
+      "name": "Eder Aller",
+      "dateOfBirth": "2007-04-04"
+    },
+    {
+      "id": "8ac1376347ce0324eb5bbf6a5da89143c224d63c02746cd61dd00f31211d9c32",
+      "club": "esp-4",
+      "clubName": "FC Barcelona",
+      "name": "Iker Rodríguez",
+      "dateOfBirth": "2008-02-22"
+    },
+    {
+      "id": "95122d74b0e52149cd386a503d4390a54c50a4969fb20cd83bd87cfa552e2457",
+      "club": "esp-4",
+      "clubName": "FC Barcelona",
+      "name": "Jordi Pesquer",
+      "dateOfBirth": "2009-01-26"
+    },
+    {
+      "id": "f51e580e9c9cf4679511ca6ab5adf4fed27f28e28289be2c9a0dcee0c45670a2",
+      "club": "esp-4",
+      "clubName": "FC Barcelona",
+      "name": "Dominik Livakovic",
+      "dateOfBirth": "1995-01-09"
+    },
+    {
+      "id": "4daaa5a3f7aba94a63f60d36b8201e69409781b59f813ded899a9954a8b05695",
+      "club": "esp-4",
+      "clubName": "FC Barcelona",
+      "name": "Gabriel Fernando de Jesus",
+      "dateOfBirth": "1997-04-03"
+    },
+    {
+      "id": "52afce276f3af6579f9e8d1583f9041bf207d31f0e66f3a937865db620fed2df",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Tarik Muharemovic",
+      "dateOfBirth": "2003-02-28"
+    },
+    {
+      "id": "3dc661e90f36d213a330c0d5f8d08690199ebfd1694c74f7561d18b02717ea96",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Anton Stach",
+      "dateOfBirth": "1998-11-15"
+    },
+    {
+      "id": "36cb1bf5b578086f282b1a6fe9443790820f93a87ef11afea1995d129338e615",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Darryl Ombang",
+      "dateOfBirth": "2005-07-11"
+    },
+    {
+      "id": "3be4309aedc5c85f22a2384e09cda16c143554d6519a6178984b1947370600c3",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Nico Elvedi",
+      "dateOfBirth": "1996-09-30"
+    },
+    {
+      "id": "27bc538a785ad57df9c89442ba1fd07e7814b02eb0bf905efb73c045b05b6cd5",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Rhys Chadwick",
+      "dateOfBirth": "2007-02-19"
+    },
+    {
+      "id": "09c193a2fd72cdc7147e9d81ab50dd377d603baeca1aa51a43826fbe6cf0b628",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Ao Tanaka",
+      "dateOfBirth": "1998-09-10"
+    },
+    {
+      "id": "549e12ee6aa534a707dacdbb2f627047f89f9446dc0dab5b865a4c8f8a05f9d4",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Alfie Cresswell",
+      "dateOfBirth": "2007-07-15"
+    },
+    {
+      "id": "6f53a8bb0a124bdecaeb72a0c503773292e1a1d27cacadd26ee4030e681e31eb",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "James Justin",
+      "dateOfBirth": "1998-02-23"
+    },
+    {
+      "id": "33ecf44cd46968be4f645948a9ecc6ef662c4e05b85be4456eaedd3831736900",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Joe Rodon",
+      "dateOfBirth": "1997-10-22"
+    },
+    {
+      "id": "551ab6177185cd1a5186534ead09912372fe077925ae8e5b56cbfeef9350ac9e",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Harry Wilson",
+      "dateOfBirth": "1997-03-22"
+    },
+    {
+      "id": "f3e2e13656ebf39474a16405642ca7a777af33c97236e72264b72b7526bad7fc",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Jean-Mattéo Bahoya",
+      "dateOfBirth": "2005-05-07"
+    },
+    {
+      "id": "e02a793e17104ca13caaa906b7d34efd5f2a12b15a0573b3e5804ad9dfd848ce",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Callum Mills",
+      "dateOfBirth": "2008-09-19"
+    },
+    {
+      "id": "f0de51fb7d21c0f5adb3fed4a0e4e7e95e66e4abdad2014652c40d93aed68aa5",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Jayden Bogle",
+      "dateOfBirth": "2000-07-27"
+    },
+    {
+      "id": "f4a4cb5b11f93b02e8a3169989e1dcd618e92317a69b58c760163cf0bdfe3c5d",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Jayden Lienou",
+      "dateOfBirth": "2008-04-08"
+    },
+    {
+      "id": "512ab304b096c9cb839e4f47806caff002c6f3f5214977a73e0a00471651eeb3",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Lukas Nmecha",
+      "dateOfBirth": "1998-12-14"
+    },
+    {
+      "id": "cc20c9d112c6c767905666ff5702e0c17893fd001ee5ec55ccc4acab64c6c4b2",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Sean Longstaff",
+      "dateOfBirth": "1997-10-30"
+    },
+    {
+      "id": "b54fd039c11df2f1c1d9a5d4dc40d048f6615c1df5b1264b66444e08aa1869b3",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Ethan Ampadu",
+      "dateOfBirth": "2000-09-14"
+    },
+    {
+      "id": "4cf3d6fe45f1eadf4c33d2072cf51c974f51c5cf7ac7846accf1ab68a4de63b9",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "James Trafford",
+      "dateOfBirth": "2002-10-10"
+    },
+    {
+      "id": "c14250f9fc6efbd23870f1467d51bd680d4729da4214dc913fb77ea70a404b63",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Noah Okafor",
+      "dateOfBirth": "2000-05-24"
+    },
+    {
+      "id": "9eaae15700bea40e6e19ddf122ea205c2ea7c9e4e3418f3dbecbc093554c35a6",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Michael Zetterer",
+      "dateOfBirth": "1995-07-12"
+    },
+    {
+      "id": "519ebdf281a6e1501ccd921f31a31cc7a092b7cd23f0f2119f11dadac9d38cd3",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Jaka Bijol",
+      "dateOfBirth": "1999-02-05"
+    },
+    {
+      "id": "d22bd19ce267cebdf90d6a3a912ef02314da402197e04e4963b304e27be43e51",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Melvin Bard",
+      "dateOfBirth": "2000-11-06"
+    },
+    {
+      "id": "72c2c2965b4199960f461522bb2d7728e32af039e5f4f37c4a9e4155fc564896",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Gabriel Gudmundsson",
+      "dateOfBirth": "1999-04-29"
+    },
+    {
+      "id": "ad20a6784f2959dce4ded1ac461915d6a381b32983a6f068ef11af8045542f5b",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Alex Cairns",
+      "dateOfBirth": "1993-01-04"
+    },
+    {
+      "id": "0947a88c9ca2db131b1bf77b94fadd084b7bccb033123ed23db659ea057a429d",
+      "club": "eng-9",
+      "clubName": "Leeds United",
+      "name": "Dominic Calvert-Lewin",
+      "dateOfBirth": "1997-03-16"
+    },
+    {
+      "id": "36338799d06a3c1dbb53a15518c03c2c59652f01af8df45108f4fdb24f1216ca",
+      "club": "eng-10",
+      "clubName": "Liverpool",
+      "name": "Federico Chiesa",
+      "dateOfBirth": "1997-10-25"
+    },
+    {
+      "id": "d4adde4233e184308dee01e07c337f4cf4533891028da2a2a5a770a900a5966f",
+      "club": "eng-10",
+      "clubName": "Liverpool",
+      "name": "Will Wright",
+      "dateOfBirth": "2008-04-03"
+    },
+    {
+      "id": "a0315bbeb7b6547601a642bcdedf742d96aed935896488da8ff7a6af52db9770",
+      "club": "eng-10",
+      "clubName": "Liverpool",
+      "name": "Wataru Endo",
+      "dateOfBirth": "1993-02-09"
+    },
+    {
+      "id": "ca55e6091e7b8192ade5c129f4bcab2caec943f768b734d17b84b4793f4e5ecd",
+      "club": "eng-10",
+      "clubName": "Liverpool",
+      "name": "Natalia Ramos",
+      "dateOfBirth": "1999-02-10"
+    },
+    {
+      "id": "84dcd14ecbfe9709366ad6b15ff4eacdd35bf7c894338d2ba15a413a4b5fb0f1",
+      "club": "sau-ab988d0ad28b419b96ab3cf2c49e0f6f",
+      "clubName": "Al Ettifaq",
+      "name": "Sultan Haroun",
+      "dateOfBirth": "2006-03-13"
+    },
+    {
+      "id": "4e9bc16455c17de9b8cb6271e408309328d1933582fdac5d4c8f760d1e53ac55",
+      "club": "sau-ab988d0ad28b419b96ab3cf2c49e0f6f",
+      "clubName": "Al Ettifaq",
+      "name": "Pedro Henrique",
+      "dateOfBirth": "1995-10-02"
+    },
+    {
+      "id": "684311f46d1075de02fd043c48133c3dc29c7227a9ff022bcb84c655ebbd56a5",
+      "club": "sau-ab988d0ad28b419b96ab3cf2c49e0f6f",
+      "clubName": "Al Ettifaq",
+      "name": "Talal Haji",
+      "dateOfBirth": "2007-09-16"
+    },
+    {
+      "id": "19eb3140f435a5e4a4adaa3c50c47f25b3f85d0247cdf1250537d8d945420f58",
+      "club": "sau-ab988d0ad28b419b96ab3cf2c49e0f6f",
+      "clubName": "Al Ettifaq",
+      "name": "Rayane Messi",
+      "dateOfBirth": "2007-05-23"
+    },
+    {
+      "id": "b595f555b829ef40ad2220535bc6bd8149b2d7ea9996ef2633f32127c4ab7424",
+      "club": "eng-11",
+      "clubName": "Manchester City",
+      "name": "Kaden Braithwaite",
+      "dateOfBirth": "2008-02-08"
+    },
+    {
+      "id": "e782b6b90e4d4e82584abd605fc7176d9af9e675f517a59aff82e60df01c62da",
+      "club": "eng-11",
+      "clubName": "Manchester City",
+      "name": "Floyd Samba",
+      "dateOfBirth": "2009-01-15"
+    },
+    {
+      "id": "2d45dbcccbfc9c5d4de990914a2c89691898aeaf9af9534dc3e3766d2fc35207",
+      "club": "eng-11",
+      "clubName": "Manchester City",
+      "name": "Allan",
+      "dateOfBirth": "2004-04-19"
+    },
+    {
+      "id": "f1b5dc85ebb7f2c1bb2d9bd6ea0fbc5001e766e02cf42efe7a88d3b4d2598084",
+      "club": "eng-8",
+      "clubName": "Ipswich Town",
+      "name": "Jorja Fox",
+      "dateOfBirth": "2003-08-28"
+    },
+    {
+      "id": "5a6f5fae460cc538bb38c98b59cf412e7c498de677b46dc8a83eb7152bee37c3",
+      "club": "eng-8",
+      "clubName": "Ipswich Town",
+      "name": "Sindre Egeli",
+      "dateOfBirth": "2006-06-21"
+    },
+    {
+      "id": "e43bfbf1649e1f2e7c6fc6917fefc7aeb89a612dd1b14eba793d44089d148a92",
+      "club": "eng-8",
+      "clubName": "Ipswich Town",
+      "name": "Emersonn",
+      "dateOfBirth": "2004-07-16"
+    },
+    {
+      "id": "6b153167e8e0cbc5569efe02ed1e9a102e64705c57479c47a90b50d1460cdc27",
+      "club": "eng-8",
+      "clubName": "Ipswich Town",
+      "name": "Dan Neil",
+      "dateOfBirth": "2001-12-13"
+    },
+    {
+      "id": "1b2fa886c46940d477e3737c4705d9f52014ef826a7f86856a10aed0eeb1f22c",
+      "club": "eng-8",
+      "clubName": "Ipswich Town",
+      "name": "Florentino",
+      "dateOfBirth": "1999-08-19"
+    },
+    {
+      "id": "2caae37f84a562237cb03a226aab3ec411bcd761814871397862f4b9201af571",
+      "club": "esp-26",
+      "clubName": "RC Deportivo",
+      "name": "Marc Casadó",
+      "dateOfBirth": "2003-09-14"
+    },
+    {
+      "id": "ea44d95fb8fca43b9fad7f5a561dc35b874a2c17bf4c5e99b1a3f1f6db938e85",
+      "club": "esp-26",
+      "clubName": "RC Deportivo",
+      "name": "Martín Ochoa",
+      "dateOfBirth": "2004-12-20"
+    },
+    {
+      "id": "294432cca48843f2925187c547692e8ec78e5abab4067282aa4cdd08d6a4b99b",
+      "club": "esp-26",
+      "clubName": "RC Deportivo",
+      "name": "Adama Traoré",
+      "dateOfBirth": "1996-01-25"
+    },
+    {
+      "id": "be00df6b0972eb75e29c1f9400e70fd8857376a07d1735e517f59eaf2bbd491c",
+      "club": "esp-26",
+      "clubName": "RC Deportivo",
+      "name": "José María Giménez",
+      "dateOfBirth": "1995-01-20"
+    },
+    {
+      "id": "46eed92c8cd4203ac03f35a762dc1db34baae86f9daf4c4eb3e2e4c926abe9d4",
+      "club": "sau-1a2a221d20d34ffa8f41246ce61f2079",
+      "clubName": "Diriyah Club",
+      "name": "Abdulelah Al Jafari",
+      "dateOfBirth": "2005-01-27"
+    },
+    {
+      "id": "037ac7fed1c266e8ff6717ef0244f536fcca9d1c4aca3513e33a53af3d24e050",
+      "club": "sau-1a2a221d20d34ffa8f41246ce61f2079",
+      "clubName": "Diriyah Club",
+      "name": "Lovro Chelfi",
+      "dateOfBirth": "2007-01-30"
+    },
+    {
+      "id": "c30c1e734b0d0d1b6aad3c5d2d9becb43be26ab5d00e62bb2d3a35e52422ec2a",
+      "club": "eng-21",
+      "clubName": "Tottenham Hotspur",
+      "name": "Martin Dúbravka",
+      "dateOfBirth": "1989-01-15"
+    },
+    {
+      "id": "3bfe712ee596d451daeab462ced7f780ffb50284aae79816fcb24b4936394367",
+      "club": "esp-15",
+      "clubName": "Real Madrid",
+      "name": "Sergio Martínez",
+      "dateOfBirth": "2007-05-15"
+    },
+    {
+      "id": "a64d4a6158041d2a064a1dace3a76df0b055bd5558fff2c730cb7725aba08cc9",
+      "club": "eng-1",
+      "clubName": "Arsenal",
+      "name": "Maalik Hashi",
+      "dateOfBirth": "2008-09-08"
+    },
+    {
+      "id": "1f452c94d971bb5a870ed278564be8a962abeec68a38cd6e42d000161d880a97",
+      "club": "eng-1",
+      "clubName": "Arsenal",
+      "name": "Gabriel Magalhães",
+      "dateOfBirth": "1997-12-19"
+    },
+    {
+      "id": "04936343d4fe96665b17351774bac8bf9457ad2b4c4ee56cf796c1cb883c67ea",
+      "club": "esp-18",
+      "clubName": "Valencia CF",
+      "name": "Harvey Elliott",
+      "dateOfBirth": "2003-04-04"
+    },
+    {
+      "id": "0c2912ff98026928665cf425ed23f62bea9ca0b4e6c0c561419964c31dbe3585",
+      "club": "esp-18",
+      "clubName": "Valencia CF",
+      "name": "Sergi Canós",
+      "dateOfBirth": "1997-02-02"
+    },
+    {
+      "id": "e11c67ea6154f04752c2bea1779a5eb17423be646b589dfbe0daa4f2dec80bc3",
+      "club": "esp-18",
+      "clubName": "Valencia CF",
+      "name": "Marcos Navarro",
+      "dateOfBirth": "2004-05-30"
+    },
+    {
+      "id": "89835de029727943f6fa9563f2cbce16736f03a67da1d02745184e1870a973ef",
+      "club": "esp-18",
+      "clubName": "Valencia CF",
+      "name": "Alejandro Panach Olmo",
+      "dateOfBirth": "2006-01-18"
+    },
+    {
+      "id": "e3e33df10da7710c85e1ef6aa3d2c24d02a8b9dddc56560489f1401573616925",
+      "club": "esp-18",
+      "clubName": "Valencia CF",
+      "name": "Aaron Mayol",
+      "dateOfBirth": "2008-03-04"
+    },
+    {
+      "id": "a9a228f08ff5e1cdef412f65adbe8f5328c017d22de18fbbec535dd1ec31705a",
+      "club": "esp-13",
+      "clubName": "CA Osasuna",
+      "name": "Diego Rico",
+      "dateOfBirth": "1993-02-23"
+    },
+    {
+      "id": "df833be059f98311f606e230ba9a5c51e1ebce7fadfe5f754face83f51e46f70",
+      "club": "esp-13",
+      "clubName": "CA Osasuna",
+      "name": "Rockson Yeboah",
+      "dateOfBirth": "2004-08-02"
+    },
+    {
+      "id": "ec52ebaf272cbf731bba5d8fc7dd4efa4b27918854f6db04b4b219b069ad5682",
+      "club": "esp-13",
+      "clubName": "CA Osasuna",
+      "name": "Mikel Bermejo",
+      "dateOfBirth": "2009-02-17"
+    },
+    {
+      "id": "16e208aba26debdfdffd52d643dbd5996aa09d2db92723a61cbf980074592678",
+      "club": "esp-13",
+      "clubName": "CA Osasuna",
+      "name": "Romain Del Castillo",
+      "dateOfBirth": "1996-03-29"
+    },
+    {
+      "id": "5355af8ad70c9c670e356349145577e3f9c113df311e8e82d84e7da701d60c4a",
+      "club": "eng-12",
+      "clubName": "Manchester United",
+      "name": "Daniel Armer",
+      "dateOfBirth": "2007-10-23"
+    },
+    {
+      "id": "bab0b0a4bf7d4017fad34a5c04c8d82cda4b049dc943dad53a9c4f266a2f24df",
+      "club": "eng-12",
+      "clubName": "Manchester United",
+      "name": "Diego León",
+      "dateOfBirth": "2007-04-03"
+    },
+    {
+      "id": "a68bb861309cce70caa98c54c027d3df29acb0b8bdcf21ff8ea81b65935b441b",
+      "club": "esp-9",
+      "clubName": "Getafe CF",
+      "name": "Francho Serrano",
+      "dateOfBirth": "2001-10-17"
+    },
+    {
+      "id": "1ba041db0cf63af7e150767fcf47427d0ed4a31a4b2fdc56a9052c11e4bb148e",
+      "club": "esp-9",
+      "clubName": "Getafe CF",
+      "name": "Iván Azón",
+      "dateOfBirth": "2002-12-24"
+    },
+    {
+      "id": "783b51e3e6e4f89f2737ff1b33835f8999b8bc1e4518970ac6ea85848792e25a",
+      "club": "esp-9",
+      "clubName": "Getafe CF",
+      "name": "Nemanja Gudelj",
+      "dateOfBirth": "1991-11-16"
+    },
+    {
+      "id": "d13b41b0c3583e65790607cd8932a032163229b408c3ec3c1a0058ec29c219ff",
+      "club": "esp-9",
+      "clubName": "Getafe CF",
+      "name": "José Luis Pérez del Amo",
+      "dateOfBirth": "2004-03-12"
+    },
+    {
+      "id": "835ee764e88642e30f3d2cf5442eeaafe2014d6d2ba43882386e6914b94b8a65",
+      "club": "esp-9",
+      "clubName": "Getafe CF",
+      "name": "Jesús Martínez",
+      "dateOfBirth": "2004-02-08"
+    },
+    {
+      "id": "3e479ab54e07331f6c5d44192125c491087c16b3e8836d49f6f23d387025f41c",
+      "club": "esp-9",
+      "clubName": "Getafe CF",
+      "name": "Christantus Uche",
+      "dateOfBirth": "2003-05-19"
+    },
+    {
+      "id": "8e14b31f11745740c7edca94d649191cc64072ec0111ec3bc02848d9845c87d1",
+      "club": "esp-9",
+      "clubName": "Getafe CF",
+      "name": "Diego Ferrer",
+      "dateOfBirth": "2007-04-17"
+    },
+    {
+      "id": "aaf26821b31663dd50e1ef6262aa57de1b37aa88a05a5c4f923f39882628265a",
+      "club": "esp-9",
+      "clubName": "Getafe CF",
+      "name": "Francisco Burgos Barrionuevo",
+      "dateOfBirth": "2004-05-30"
+    },
+    {
+      "id": "487afd10a30008824926b0482f38fc016d26e403f7c18dced470243c50498363",
+      "club": "esp-9",
+      "clubName": "Getafe CF",
+      "name": "Mohamed Hamdoune",
+      "dateOfBirth": "2004-05-24"
+    },
+    {
+      "id": "dbf78ef0b3c1395e1335c2118da53ed652a9568ad13cd9f5785a36cb52647c49",
+      "club": "esp-9",
+      "clubName": "Getafe CF",
+      "name": "Ebrahima Drammeh",
+      "dateOfBirth": "2007-01-06"
+    },
+    {
+      "id": "1cf69b7d32dfbee1f514198f6fcf3bcfaa25d17b1769c9442f7a59635bcdbfb1",
+      "club": "esp-9",
+      "clubName": "Getafe CF",
+      "name": "Óscar López",
+      "dateOfBirth": "2006-08-13"
+    },
+    {
+      "id": "1f6dec832fda6c4ba7c04b06b3f41fa577b915c9d04bded1527d7fec5c52c409",
+      "club": "esp-9",
+      "clubName": "Getafe CF",
+      "name": "Moha Achraf",
+      "dateOfBirth": "2006-07-28"
+    },
+    {
+      "id": "42121d4861d3677906c98eadd0be84fb8e24b10e07d8166a29b8f12fc3c60464",
+      "club": "esp-9",
+      "clubName": "Getafe CF",
+      "name": "Dani Carvajal",
+      "dateOfBirth": "1992-01-11"
+    },
+    {
+      "id": "0fc0fe34b98c81543038d7703768d7c1d74bc8e108fe8394ff738beaa21a6073",
+      "club": "esp-9",
+      "clubName": "Getafe CF",
+      "name": "Enes Ünal",
+      "dateOfBirth": "1997-05-10"
+    },
+    {
+      "id": "b5109ec698c92f63d3a83bc87a34dcb6bb07de75af317dc68c6cdef13af108ce",
+      "club": "esp-9",
+      "clubName": "Getafe CF",
+      "name": "Johan Mojica",
+      "dateOfBirth": "1992-08-21"
+    },
+    {
+      "id": "5cb02484d8a26a7080fcefb869c215438622370f5ed2d9bb9d4068c3f675b995",
+      "club": "esp-49",
+      "clubName": "R. Racing Club",
+      "name": "Íñigo Sainz-Maza",
+      "dateOfBirth": "1998-06-16"
+    },
+    {
+      "id": "5ad371bc5cf8e0c6816733ff00c15525b8ca276c944bbad570a854bda63ef755",
+      "club": "esp-49",
+      "clubName": "R. Racing Club",
+      "name": "Domingos André Ribeiro Almeida",
+      "dateOfBirth": "2000-05-30"
+    },
+    {
+      "id": "154b9fbc55c51d51686d0b44d2ef788e01bd5b19c50aee337112db57440cf260",
+      "club": "esp-49",
+      "clubName": "R. Racing Club",
+      "name": "Jeanuël Belocian",
+      "dateOfBirth": "2005-02-17"
+    },
+    {
+      "id": "a739b468e2cb1cc03b95d4e8efc21a063057666d6abc6c2405ff77036c5712d0",
+      "club": "esp-49",
+      "clubName": "R. Racing Club",
+      "name": "Matteo Prati",
+      "dateOfBirth": "2003-12-28"
+    },
+    {
+      "id": "0035bb594b331cde9940798edce8355cbdfbefa34c8170ae63473ba342751f84",
+      "club": "esp-49",
+      "clubName": "R. Racing Club",
+      "name": "Pablo García",
+      "dateOfBirth": "2006-06-13"
+    },
+    {
+      "id": "754659b5ef0ff77f7a112f554c37b3aa9a922a2aa5e1291876e777292771132d",
+      "club": "esp-49",
+      "clubName": "R. Racing Club",
+      "name": "Andrés Vallecillo",
+      "dateOfBirth": "2006-02-21"
+    },
+    {
+      "id": "37430f5f5bbc6920befbf7d4e69669f295007326eef7d27ff03de26e4c10316b",
+      "club": "esp-49",
+      "clubName": "R. Racing Club",
+      "name": "Iker Luque",
+      "dateOfBirth": "2005-06-05"
+    },
+    {
+      "id": "9db31f2a3d495543bb723af8d04d2e3ac6e9f5a86fed454b4573ed413552fbe9",
+      "club": "esp-49",
+      "clubName": "R. Racing Club",
+      "name": "Simon Eriksson",
+      "dateOfBirth": "2006-04-24"
+    },
+    {
+      "id": "9dda59a0b25e34934b081ad892ed1e3941901cb7277556dc03d48eb24b7e5429",
+      "club": "esp-49",
+      "clubName": "R. Racing Club",
+      "name": "Aarón Martín",
+      "dateOfBirth": "1997-04-22"
+    },
+    {
+      "id": "f9455f84a8776abfffa9f89ff56cda3c36c526d95678a1f313cd164b8dd6cc73",
+      "club": "esp-49",
+      "clubName": "R. Racing Club",
+      "name": "Iván Martín",
+      "dateOfBirth": "1999-02-14"
+    },
+    {
+      "id": "f74c3a187a6410cedd3dcb6d7f0a8e9c264fb03b52b4c1b038c60b7637f86d55",
+      "club": "sau-94263b19841944c38cb20892b176c862",
+      "clubName": "Al Nassr",
+      "name": "Abdulrahman Sufyani",
+      "dateOfBirth": "2007-03-27"
+    },
+    {
+      "id": "4cec82ed1d3b9e144c2ada66a02c9162db0a9bc4a79a64eaa63a4052a8482dba",
+      "club": "sau-94263b19841944c38cb20892b176c862",
+      "clubName": "Al Nassr",
+      "name": "Abdulrahman Sufyani",
+      "dateOfBirth": "2008-04-15"
+    },
+    {
+      "id": "9ddfeb5b7391362fbfcc364de8c149b9c1c64ec1379c062d14fbc9c52ef125fc",
+      "club": "eng-6",
+      "clubName": "Crystal Palace",
+      "name": "Darío Osorio",
+      "dateOfBirth": "2004-01-24"
+    },
+    {
+      "id": "793e8b46ac8f85531f7e17bb056acaf49897c2af4fed4191d3b2b31d9b1ca908",
+      "club": "eng-6",
+      "clubName": "Crystal Palace",
+      "name": "Honest Ahanor",
+      "dateOfBirth": "2008-02-23"
+    },
+    {
+      "id": "fa655383a0157d79f610eb29de42f4350682f7047511b91d77e684841c9fbd38",
+      "club": "eng-6",
+      "clubName": "Crystal Palace",
+      "name": "Axel Disasi",
+      "dateOfBirth": "1998-03-11"
+    },
+    {
+      "id": "d51d0ab31a52cda58bbe40d7f72e1a7f8168b4ef4510a9db79c20bb216b8fefa",
+      "club": "eng-6",
+      "clubName": "Crystal Palace",
+      "name": "Evann Guessand",
+      "dateOfBirth": "2001-07-01"
+    },
+    {
+      "id": "14b0e05e732d8902bc4557e9080204ee3de0fdd5a6e666e4d424e8de7b82b5ff",
+      "club": "sau-2ba5364e60854fb8a7ca60903875e1ff",
+      "clubName": "Al Riyadh",
+      "name": "Awad Dahal",
+      "dateOfBirth": "2005-02-23"
+    },
+    {
+      "id": "3d839eb22c2a0aceba42155e3551ec45abafb73dc1c17316ebea35a0d76d82f3",
+      "club": "sau-2ba5364e60854fb8a7ca60903875e1ff",
+      "clubName": "Al Riyadh",
+      "name": "Battal Al Harthi",
+      "dateOfBirth": "2005-04-14"
+    },
+    {
+      "id": "b34c5c4dd3375654880827857a165cd5ba4eff5da557561f54005eb1119adcac",
+      "club": "esp-5",
+      "clubName": "Real Betis",
+      "name": "Álvaro de Pablo",
+      "dateOfBirth": "2002-08-07"
+    },
+    {
+      "id": "d39d212d984f5701f93cc757bf0356ffc0aaf56006c3db659c9a87a298070476",
+      "club": "sau-dd29e62730be4d848e1be4c244fbfe5f",
+      "clubName": "Al Qadsiah",
+      "name": "Ali Badra Diabaté",
+      "dateOfBirth": "2006-12-05"
+    },
+    {
+      "id": "f23728bc77024c547bfe2f39761f5956525b3a48de7ee5f3ad22d54f5c8d21db",
+      "club": "sau-dd29e62730be4d848e1be4c244fbfe5f",
+      "clubName": "Al Qadsiah",
+      "name": "Suleman Sani",
+      "dateOfBirth": "2006-09-01"
+    },
+    {
+      "id": "45b09ceb68a0ae6a44537b2238d59cfa86e72e43a7973141a0643962f0e88b12",
+      "club": "sau-ae14a651fb584440979f8c4d02b89428",
+      "clubName": "Al Hilal",
+      "name": "Turki Al Ghumayl",
+      "dateOfBirth": "2005-02-02"
+    },
+    {
+      "id": "ac6d0f02a263a5e547c4e0f19665dbd3a95e5d39951512be8c480c268cdb1db2",
+      "club": "sau-ae14a651fb584440979f8c4d02b89428",
+      "clubName": "Al Hilal",
+      "name": "Thari Saeed",
+      "dateOfBirth": "2008-06-25"
+    },
+    {
+      "id": "3438985b49650eb1268ae58e4cbdf066b17de766c08b0ef0975339bb9c34c7ea",
+      "club": "esp-14",
+      "clubName": "Rayo Vallecano",
+      "name": "Raúl de Tomás",
+      "dateOfBirth": "1994-10-17"
+    },
+    {
+      "id": "e62775fc5b7eaf48d2550eb98ccc89c2bdb07ee39e389606c872b32ce89d5ec9",
+      "club": "esp-14",
+      "clubName": "Rayo Vallecano",
+      "name": "Emil Audero",
+      "dateOfBirth": "1997-01-18"
+    },
+    {
+      "id": "c0de118cc286ec6c4838c5fe931c6c5af6816e6a025611e7b3446fc47ce63642",
+      "club": "esp-14",
+      "clubName": "Rayo Vallecano",
+      "name": "Alexandre Zurawski",
+      "dateOfBirth": "1998-04-01"
+    },
+    {
+      "id": "c9e1d3c4ee5b59d6100bb387440cf40e2541093c641ea284dffb3a40ff4b5e62",
+      "club": "esp-14",
+      "clubName": "Rayo Vallecano",
+      "name": "Rayane Belaid",
+      "dateOfBirth": "2005-02-11"
+    },
+    {
+      "id": "0ae159cdfe9c952c2820f3431a52f5555540c521c2bf5ef174944a07c1273cb5",
+      "club": "esp-14",
+      "clubName": "Rayo Vallecano",
+      "name": "Gnangoro Bouare Samake",
+      "dateOfBirth": "2004-08-13"
+    },
+    {
+      "id": "2f5b903bfc9f4cc10ed7c133b8ff629fc90325ad748a537d266d5c65ef270608",
+      "club": "esp-14",
+      "clubName": "Rayo Vallecano",
+      "name": "Mujaid Sadick",
+      "dateOfBirth": "2000-03-14"
+    },
+    {
+      "id": "e19c189a5c23f46ab98420dded87d558b7d45d7d58ba3b780ef307c82f1da970",
+      "club": "esp-14",
+      "clubName": "Rayo Vallecano",
+      "name": "Adrià Pedrosa",
+      "dateOfBirth": "1998-05-13"
+    }
+  ],
+  "missingCoachPortraits": [
+    {
+      "club": "eng-5",
+      "name": "Frank Lampard",
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/50167"
+    },
+    {
+      "club": "eng-127",
+      "name": "Marco Rose",
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/48664"
+    },
+    {
+      "club": "eng-29",
+      "name": "Régis Le Bris",
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/58318"
+    },
+    {
+      "club": "eng-23",
+      "name": "Matthias Jaissle",
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/53959"
+    },
+    {
+      "club": "eng-4",
+      "name": "Xabi Alonso",
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/48314"
+    },
+    {
+      "club": "eng-41",
+      "name": "Sergej Jakirovic",
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/50432"
+    },
+    {
+      "club": "eng-15",
+      "name": "Oliver Glasner",
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/44410"
+    },
+    {
+      "club": "sau-d234b1ebf80e481a888ce64cab2dcd89",
+      "name": "V. Rašović",
+      "source": "https://www.spl.com.sa/ar/teams/al-taawoun/squad"
+    },
+    {
+      "club": "eng-34",
+      "name": "Álvaro Arbeloa",
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/58906"
+    },
+    {
+      "club": "eng-10",
+      "name": "Andoni Iraola",
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/50428"
+    },
+    {
+      "club": "eng-11",
+      "name": "Enzo Maresca",
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/48549"
+    },
+    {
+      "club": "eng-8",
+      "name": "Gary O'Neil",
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/58884"
+    },
+    {
+      "club": "esp-18",
+      "name": "Javier Aguirre",
+      "source": "https://apim.laliga.com/public-service/api/v1/teams/valencia-cf/squad?limit=50&offset=0&orderField=id&orderType=DESC&seasonYear=2026"
+    },
+    {
+      "club": "esp-13",
+      "name": null,
+      "source": "https://www.osasuna.es/jagoba-arrasate-2029"
+    },
+    {
+      "club": "eng-12",
+      "name": "Michael Carrick",
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/56407"
+    },
+    {
+      "club": "eng-6",
+      "name": "Pierre Sage",
+      "source": "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v1/managers/62022"
+    }
+  ],
+  "newBirthConflicts": [
+    {
+      "name": "Maalik Hashi",
+      "observation": "a64d4a6158041d2a064a1dace3a76df0b055bd5558fff2c730cb7725aba08cc9",
+      "primaryBirth": "2008-09-08",
+      "uefaBirth": "2008-09-03",
+      "source": "https://www.uefa.com/uefachampionsleague/clubs/players/250212925--maalik-hashi/",
+      "action": "not linked; requires source conflict review"
+    }
+  ],
+  "fullCareersStatisticsAndTransfersComplete": false,
+  "mediaRightsCleared": false
+}
