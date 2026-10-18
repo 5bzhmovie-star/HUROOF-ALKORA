@@ -1,0 +1,264 @@
+{
+  "format": "huroof-identity-review-v1",
+  "releaseReady": false,
+  "canonicalCatalogModified": false,
+  "inputs": [
+    {
+      "path": "data/laliga_senior_squads_2026_27.json",
+      "sha256": "7c2f5a0106afdd439700de1b82755ce8c683890591902f121cf8521d8f5f7745",
+      "bytes": 2592113
+    },
+    {
+      "path": "data/spl_squad_candidates_2026_27.json",
+      "sha256": "5207446773fa07da27dff9487ed1b605178c171d2166301d3d0ea40e7572c4da",
+      "bytes": 1057295
+    },
+    {
+      "path": "data/pl_api_first_team_candidates_2026_27.json",
+      "sha256": "7046e0315a82bde89a32b9517d750865dafa3fc6e6e16da0804a89c1c8bf2c1a",
+      "bytes": 1612709
+    },
+    {
+      "path": "data/english_completion_sdp_personal_2026_27.json",
+      "sha256": "21ff43e55f660a30af902e4be0e714a53e17b54c916677a952979a27a8b9b976",
+      "bytes": 514347
+    },
+    {
+      "path": "data/wc2026_players.json",
+      "sha256": "bf070e2b9d9909439c7ebca66b5a8ccc184c3a00d8ede319a18627ad59c2d0de",
+      "bytes": 1301781
+    },
+    {
+      "path": "data/media_files.index.json",
+      "sha256": "68837a08b576d9c3ee1751d7fd0c1150e5c724253c51bbc8e4baed404467cb97",
+      "bytes": 1650443
+    }
+  ],
+  "counts": {
+    "observations": 2085,
+    "fifaTargets": 1248,
+    "candidateLinks": 176,
+    "observationsByNamespace": {
+      "laliga": 587,
+      "spl-primary": 544,
+      "premier-league-api": 481,
+      "premier-league-sdp": 473
+    },
+    "reviewStatuses": {
+      "no-exact-fifa-match": 1906,
+      "exact-name-and-birth-date-review-required": 176,
+      "missing-birth-date": 3
+    },
+    "clubContextMediaLinks": 1016
+  },
+  "parts": [
+    {
+      "path": "observations-0001.json",
+      "kind": "observations",
+      "rows": 200,
+      "bytes": 160050,
+      "sha256": "5d5c501e12aa5f5ae755f796a6892b4476e20a10db157bde6ccebb9f6c6b1a03"
+    },
+    {
+      "path": "observations-0002.json",
+      "kind": "observations",
+      "rows": 200,
+      "bytes": 161084,
+      "sha256": "ae06747e981d09ad6d01834071d711c2b116951c9d73b707ba326b6dc643ea27"
+    },
+    {
+      "path": "observations-0003.json",
+      "kind": "observations",
+      "rows": 200,
+      "bytes": 166269,
+      "sha256": "d052ae6786547f2b09b1f92e54082b942b6509abaade5aaf044315228fe046a3"
+    },
+    {
+      "path": "observations-0004.json",
+      "kind": "observations",
+      "rows": 200,
+      "bytes": 186480,
+      "sha256": "107fc03516d3ddde08d5825c8d4d44c38c3e90f3c3fc192cf947d5d3ddb632c9"
+    },
+    {
+      "path": "observations-0005.json",
+      "kind": "observations",
+      "rows": 200,
+      "bytes": 185110,
+      "sha256": "812ed1aa44c9dcd49f8bbeea2d425e861240695e3c895917e0059a08e45c3f80"
+    },
+    {
+      "path": "observations-0006.json",
+      "kind": "observations",
+      "rows": 200,
+      "bytes": 164618,
+      "sha256": "abd8df64a031a80bff55a57c47a2c943911b6203f9bc9ff76f79de7a3d4e34ae"
+    },
+    {
+      "path": "observations-0007.json",
+      "kind": "observations",
+      "rows": 200,
+      "bytes": 122951,
+      "sha256": "920e233832a2e29844c5dacc0f6a5fce05ec034e258334adcbb88501870cf944"
+    },
+    {
+      "path": "observations-0008.json",
+      "kind": "observations",
+      "rows": 200,
+      "bytes": 123197,
+      "sha256": "be8fbe4f354248c6f2bc77ad213cf24a5322d87489baaffb5752a8b2b2d42779"
+    },
+    {
+      "path": "observations-0009.json",
+      "kind": "observations",
+      "rows": 200,
+      "bytes": 148442,
+      "sha256": "fe3fa22099c558bf04a5d72da617a7f5014c909c2a5087351ba53490eeee25f6"
+    },
+    {
+      "path": "observations-0010.json",
+      "kind": "observations",
+      "rows": 200,
+      "bytes": 149543,
+      "sha256": "c3975aebebfbd25a8850849ba191f37e924c89a7abf1294b004df0298142abee"
+    },
+    {
+      "path": "observations-0011.json",
+      "kind": "observations",
+      "rows": 85,
+      "bytes": 64000,
+      "sha256": "79cc418bef726198c3f42100c1ba81b3adde8a2077c909a6b853bc15f8a305b5"
+    },
+    {
+      "path": "matches-0001.json",
+      "kind": "matches",
+      "rows": 200,
+      "bytes": 57380,
+      "sha256": "5b7b4a0c96d8c6e2813f19fa39d41d243bacaab904a17b01fb1324b91567ab9b"
+    },
+    {
+      "path": "matches-0002.json",
+      "kind": "matches",
+      "rows": 200,
+      "bytes": 56214,
+      "sha256": "4486036f6aac6a20926628a9997dee867319bb0e9aae593ca415629c9695502d"
+    },
+    {
+      "path": "matches-0003.json",
+      "kind": "matches",
+      "rows": 200,
+      "bytes": 57379,
+      "sha256": "a8d02d209ae150046af6aabba70d5642795d7925b5c424ebcb61fe002c5b6763"
+    },
+    {
+      "path": "matches-0004.json",
+      "kind": "matches",
+      "rows": 200,
+      "bytes": 56530,
+      "sha256": "d5f6457c9954d3716e1bddd675a67ea15f84c9919b56d98f0e328b329a45feba"
+    },
+    {
+      "path": "matches-0005.json",
+      "kind": "matches",
+      "rows": 200,
+      "bytes": 56426,
+      "sha256": "0f082c8f6e2ba903eab8399d4691f880f605badb92dca5838dcf5c4fc4aaf489"
+    },
+    {
+      "path": "matches-0006.json",
+      "kind": "matches",
+      "rows": 200,
+      "bytes": 57380,
+      "sha256": "5ddf5a4fa2d6de34e25c17b3622d0503bd9d0d3d2a4750286e8372882168f016"
+    },
+    {
+      "path": "matches-0007.json",
+      "kind": "matches",
+      "rows": 200,
+      "bytes": 58546,
+      "sha256": "191c720ca148f1dd764c4f40a36dc90c8355eb4caeb19b21af0f600dbad9548c"
+    },
+    {
+      "path": "matches-0008.json",
+      "kind": "matches",
+      "rows": 200,
+      "bytes": 59394,
+      "sha256": "2aae7bc6c7b21c24a0983f5b4e9602a550efff10272f3b4332e1b80f941ae731"
+    },
+    {
+      "path": "matches-0009.json",
+      "kind": "matches",
+      "rows": 200,
+      "bytes": 58864,
+      "sha256": "c10a76a3103e4abe50827d9735d9920c8c3578cd0328f2a0aadad36f9191f462"
+    },
+    {
+      "path": "matches-0010.json",
+      "kind": "matches",
+      "rows": 200,
+      "bytes": 58864,
+      "sha256": "97111b318b741e327ff5daa91ca588ae77d5805c4a169e0a4041187b956f98a7"
+    },
+    {
+      "path": "matches-0011.json",
+      "kind": "matches",
+      "rows": 85,
+      "bytes": 25498,
+      "sha256": "5b9b5d0c050c2830242806f7800a7e0f37145b0ea66c537ea802453980bb990d"
+    },
+    {
+      "path": "fifa_targets-0001.json",
+      "kind": "fifa_targets",
+      "rows": 200,
+      "bytes": 65217,
+      "sha256": "3273264c28975e5c9344af53f0559fd05eb76d53cb5b588dea2fa9a8d290a0ca"
+    },
+    {
+      "path": "fifa_targets-0002.json",
+      "kind": "fifa_targets",
+      "rows": 200,
+      "bytes": 65149,
+      "sha256": "c1ab757b79dae83dd874fbadde43a4e4823688c5a49478f40682955b1a1317e7"
+    },
+    {
+      "path": "fifa_targets-0003.json",
+      "kind": "fifa_targets",
+      "rows": 200,
+      "bytes": 65757,
+      "sha256": "3b82d6aa3da30529d99a43bce89af2c91e1aebe4aad895470adc08eb596b22f7"
+    },
+    {
+      "path": "fifa_targets-0004.json",
+      "kind": "fifa_targets",
+      "rows": 200,
+      "bytes": 65251,
+      "sha256": "aaea1f9109ae52ca5d623a3f0ba2b0e37c09c4178096b4a63685227a6be962e8"
+    },
+    {
+      "path": "fifa_targets-0005.json",
+      "kind": "fifa_targets",
+      "rows": 200,
+      "bytes": 65749,
+      "sha256": "3d300d660d223005df6971fdb55e547f035ca6466cf7b4ac084c52956b64634a"
+    },
+    {
+      "path": "fifa_targets-0006.json",
+      "kind": "fifa_targets",
+      "rows": 200,
+      "bytes": 65291,
+      "sha256": "165d582fa97535909d5751bff3ef774047224cdb55e21873ca01f09700416062"
+    },
+    {
+      "path": "fifa_targets-0007.json",
+      "kind": "fifa_targets",
+      "rows": 48,
+      "bytes": 15688,
+      "sha256": "5c20806a2ee01c824e58e5a09dc24ce3c8136880396e86cd6f55d1ac7f63de92"
+    }
+  ],
+  "sqlite": {
+    "path": "identity_review.sqlite",
+    "bytes": 4673536,
+    "sha256": "ffa1a909070a5fa49401a3f7a57139a9b9671c26fc4bf55166fba23336fc7514"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "releaseReady": false,
+  "canonicalCatalogModified": false,
+  "counts": {
+    "observations": 2085,
+    "fifaTargets": 1248,
+    "candidateLinks": 176,
+    "observationsByNamespace": {
+      "laliga": 587,
+      "spl-primary": 544,
+      "premier-league-api": 481,
+      "premier-league-sdp": 473
+    },
+    "reviewStatuses": {
+      "no-exact-fifa-match": 1906,
+      "exact-name-and-birth-date-review-required": 176,
+      "missing-birth-date": 3
+    },
+    "clubContextMediaLinks": 1016
+  },
+  "distinctFifaTargetsWithCandidateLinks": 109,
+  "foreignKeyIssues": [],
+  "integrityCheck": "ok",
+  "tests": {
+    "pythonRun": 42,
+    "pythonPassed": 41,
+    "pythonSkipped": 1,
+    "skipReason": "Disposable MySQL connection not configured"
+  },
+  "limitations": [
+    "All matches are pending review; no canonical merge performed",
+    "Source observations are not unique-person counts",
+    "Media candidates are not approved for identity, kit, time period or rights",
+    "English portrait cross-source mapping still pending"
+  ]
+}
