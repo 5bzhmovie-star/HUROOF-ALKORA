@@ -1,0 +1,7 @@
+<?php
+declare(strict_types=1);require_once __DIR__.'/SourceCatalog.php';header('X-Content-Type-Options: nosniff');header('Referrer-Policy: no-referrer');
+if(($_SERVER['REQUEST_METHOD']??'GET')!=='GET'){http_response_code(405);header('Allow: GET');exit;}
+function ha_arg(string $key,string $default=''):string{$v=$_GET[$key]??$default;if(!is_string($v)||strlen($v)>256)throw new InvalidArgumentException('Invalid parameter');return$v;}
+try{$c=new HuroofSourceCatalog(dirname(__DIR__,2));$action=ha_arg('action','leagues');if($action==='media'){$m=$c->media(ha_arg('id'));header('Content-Type: '.$m['type']);header('Cache-Control: public,max-age=31536000,immutable');header('ETag: "'.$m['sha256'].'"');echo$m['bytes'];exit;}$page=ha_arg('page','1');if(!preg_match('/^[0-9]+$/D',$page))throw new InvalidArgumentException('Invalid page');$data=match($action){'leagues'=>$c->leagues(),'clubs'=>$c->clubs(ha_arg('league')),'players'=>$c->players(ha_arg('q'),ha_arg('club'),ha_arg('league'),(int)$page),'player'=>$c->player(ha_arg('id')),default=>throw new InvalidArgumentException('Unknown action')};header('Content-Type: application/json; charset=utf-8');echo json_encode($data,JSON_THROW_ON_ERROR|JSON_UNESCAPED_UNICODE);}
+catch(InvalidArgumentException $e){http_response_code(400);header('Content-Type: application/json; charset=utf-8');echo'{"error":"طلب غير صالح"}';}
+catch(Throwable $e){http_response_code(503);header('Content-Type: application/json; charset=utf-8');echo'{"error":"ملفات المكتبة المحلية غير متاحة أو لم تجتز التحقق"}';}
