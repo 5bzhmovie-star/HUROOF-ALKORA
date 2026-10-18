@@ -389,8 +389,8 @@
       "logo": "2dd64a8d76c349d643f801c3ac4fb58e7d451ddd2bc0d72d1f831d8621a95c38",
       "players": 24,
       "file": "clubs/eng-4.json",
-      "bytes": 20876,
-      "sha256": "973862d5d49f965f96c3f01cf390fbf669eeaec6e8ed9124bac579105db169cb"
+      "bytes": 31808,
+      "sha256": "c596a0936582e4aebdc47e91bc4209fa802fe5cda6232438073ee24a3fe58e6c"
     },
     {
       "id": "eng-41",
@@ -673,6 +673,16 @@
       "path": "data/club_badges_supplement.index.json",
       "bytes": 21787,
       "sha256": "2837d5b1fe3030b47a9f58c069a4c594061711374cb10da4f79cd03cb7f677d3"
+    },
+    {
+      "path": "data/chelsea_profiles_2026_27.json",
+      "bytes": 85274,
+      "sha256": "146165ff6466b5de6549c052b74b231b35e18836140d22397f3bb79f4a19cbe1"
+    },
+    {
+      "path": "data/chelsea_profile_birth_evidence_2026_10_18.json",
+      "bytes": 13962,
+      "sha256": "e62251c29ad6a1264e80c8b3d3fcfe3c383823a4c1c9b9b91ed371706ebabd70"
     },
     {
       "path": "data/english_completion_sdp_personal_2026_27.json",

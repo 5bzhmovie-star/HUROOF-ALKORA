@@ -5,6 +5,18 @@ def norm(v):
  s=''.join(c for c in unicodedata.normalize('NFKD',str(v)).casefold() if not unicodedata.combining(c));return ' '.join(s.translate(str.maketrans('أإآٱى','ااااي')).replace('ـ','').split())
 def same_person(r,p,club):
  return str(p.get('plPersonId'))==r['sourcePersonId'] and str(club)==r['clubId'] and p['personalAsPublished'].get('dates',{}).get('birth')==r['dob'] and norm(p['nameAsPublished']) in {norm(n) for n in r['names']}
+def context_photo_candidate(r,photos,paths,births):
+ # A contextual presentation candidate only: never an identity merge or an approved question.
+ if r['namespace']!='premier-league-api' or r['clubId']!='4':return None
+ def key(value):return ''.join(c for c in norm(value) if c.isalnum())
+ names={key(n) for n in r['names']}
+ hits=[p for p in photos if p.get('kind')=='player' and p.get('teamId')=='club:chelsea' and p.get('declaredSeason')=='2026-2027' and key(p.get('name','')) in names]
+ if len(hits)!=1:return None
+ p=hits[0];birth=births.get(p.get('sourceIdentity'))
+ if not birth or not r.get('dob') or birth.get('dateOfBirth')!=r['dob'] or birth.get('source')!=p.get('profileSource') or not any(key(n) in names for n in birth.get('profileNames',[])):return None
+ a=paths.get(p.get('file'))
+ if not a or a['sha256']!=p.get('sha256') or not any(e.get('sourceIdentity')==p.get('sourceIdentity') and e.get('kind')=='player' for e in a.get('evidence',[])):return None
+ return {'sha256':a['sha256'],'status':'candidate-exact-name-birth-and-official-club-context','dateOfBirthCorroborated':True,'birthSourceSha256':birth.get('sourceSha256'),'approvedForQuestions':False,'sourceIdentity':p['sourceIdentity'],'source':p.get('profileSource') or p.get('source')}
 def build(base,out):
  base=Path(base).resolve();out=Path(out)
  if out.exists():raise ValueError('Use a new output directory')
@@ -21,6 +33,7 @@ def build(base,out):
   if extra.get('format')!='huroof-club-badges-v1':raise ValueError('Invalid badge supplement')
   assets=assets+extra['files']
   if len({a['sha256'] for a in assets})!=len(assets):raise ValueError('Duplicate supplemental media')
+ chelsea=read('chelsea_profiles_2026_27.json')['photos'];chelsea_births={x['sourceIdentity']:x for x in read('chelsea_profile_birth_evidence_2026_10_18.json')['profiles']}
  paths={a['path']:a for a in assets};refs={};details={};coaches={};sdpclub={};extra={}
  for c in read('english_completion_sdp_personal_2026_27.json')['clubs']:
   sdpclub[str(c['sourceClubId'])]=str(c['plSourceClubId'])
@@ -57,7 +70,9 @@ def build(base,out):
   if not re.fullmatch(r'[a-z0-9-]{3,80}',club_id):raise ValueError('Unsafe club identifier')
   logo=next((a['sha256'] for a in assets if ref.get('logoPrefix') and a['path'].startswith(ref['logoPrefix'])),None) or logos.get(ref['name']);players=[]
   for r in members:
-   p={'id':r['id'],'sourceIdentityKey':r['sourceIdentityKey'],'name':r['names'][0],'aliases':r['names'],'dateOfBirth':r['dob'],'source':r['source'],'sourceFile':r['inputFile'],'verification':'pending','approvedForQuestions':False,'isCanonicalIdentity':False,**details.get((ns,r['sourcePersonId'],cid),{})};media=r.get('mediaCandidates',[]);p['photo']=media[0]['sha256'] if media else None;p['photoStatus']='pending-identity-kit-period-and-rights' if p['photo'] else 'missing';pictures+=bool(p['photo']);p['fifaIdentityCandidates']=[v[0] for v in db.execute('SELECT target_id FROM candidates WHERE source_id=?',(r['id'],))];players.append(p);search.append({'id':p['id'],'club':club_id,'league':ref['league'],'name':p['name'],'nameAr':p.get('nameAr'),'search':norm(' '.join([*r['names'],p.get('nameAr') or '',ref['name'],ref.get('nameAr') or '',str(p.get('nationality') or ''),str(p.get('position') or '')]))})
+   p={'id':r['id'],'sourceIdentityKey':r['sourceIdentityKey'],'name':r['names'][0],'aliases':r['names'],'dateOfBirth':r['dob'],'source':r['source'],'sourceFile':r['inputFile'],'verification':'pending','approvedForQuestions':False,'isCanonicalIdentity':False,**details.get((ns,r['sourcePersonId'],cid),{})};media=r.get('mediaCandidates',[]);p['photo']=media[0]['sha256'] if media else None;candidate=context_photo_candidate(r,chelsea,paths,chelsea_births) if not p['photo'] else None
+   if candidate:p['photo']=candidate['sha256'];p['photoLinkEvidence']=candidate
+   p['photoStatus']='pending-identity-kit-period-and-rights' if p['photo'] else 'missing';pictures+=bool(p['photo']);p['fifaIdentityCandidates']=[v[0] for v in db.execute('SELECT target_id FROM candidates WHERE source_id=?',(r['id'],))];players.append(p);search.append({'id':p['id'],'club':club_id,'league':ref['league'],'name':p['name'],'nameAr':p.get('nameAr'),'search':norm(' '.join([*r['names'],p.get('nameAr') or '',ref['name'],ref.get('nameAr') or '',str(p.get('nationality') or ''),str(p.get('position') or '')]))})
   doc={'id':club_id,'league':ref['league'],'name':ref['name'],'nameAr':ref.get('nameAr'),'logo':logo,'source':ref['source'],'coaches':coaches.get((ns,cid),[]),'players':players,'verification':'pending','releaseReady':False}
   if ns=='spl-primary' and ref['name']=='Al Fateh':doc['coachReviewNote']='توجد أدلة من موقع النادي لتغيير المدرب؛ لا تعتمد ملاحظة هذا المصدر بوصفها المدرب الحالي.'
   name='clubs/'+club_id+'.json';raw=(json.dumps(doc,ensure_ascii=False,separators=(',',':'))+'\n').encode();(out/name).write_bytes(raw);clubs.append({'id':club_id,'league':ref['league'],'name':ref['name'],'nameAr':ref.get('nameAr'),'logo':logo,'players':len(players),'file':name,'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()})

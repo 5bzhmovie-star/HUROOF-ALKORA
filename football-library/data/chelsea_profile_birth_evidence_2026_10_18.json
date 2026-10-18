@@ -1,0 +1,366 @@
+{
+  "source": "https://www.chelseafc.com/en/teams/mens-profiles",
+  "releaseReady": false,
+  "profiles": [
+    {
+      "sourceIdentity": "chelsea:1OK5LMp8ZbIPiElyQomM0a",
+      "name": "Emiliano Martinez",
+      "source": "https://www.chelseafc.com/en/teams/profile/emiliano-martinez",
+      "checkedAt": "2026-10-18T13:36:21.421153+00:00",
+      "sourceSha256": "4ee21d20bace877ecc6398464f3bff3883941b8d55f4fddb56b643775ea3408a",
+      "dateOfBirth": "1992-09-02",
+      "profileNames": [
+        "Emiliano Martinez"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:7ySsVFA1B01qf4TCAbuDsH",
+      "name": "Teddy Sharman-Lowe",
+      "source": "https://www.chelseafc.com/en/teams/profile/teddy-sharman-lowe",
+      "checkedAt": "2026-10-18T13:36:21.421883+00:00",
+      "sourceSha256": "bd82a9ed345fcaf53e56d88c7ae5db4d46a15aac98590f211cd860035eb3cb24",
+      "dateOfBirth": "2003-03-30",
+      "profileNames": [
+        "Teddy Sharman-Lowe"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:7LdV15wzU6RHTuVa0qNJIq",
+      "name": "Mike  Penders",
+      "source": "https://www.chelseafc.com/en/teams/profile/mike-penders",
+      "checkedAt": "2026-10-18T13:36:21.422655+00:00",
+      "sourceSha256": "c504d4478d9c967c0626a9fe6be5b6943d46943343b522e6a5623bb21ff2695f",
+      "dateOfBirth": "2005-07-31",
+      "profileNames": [
+        "Mike Penders "
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:4H1GhgvG1ldTNe8pgOUpol",
+      "name": "Gaga Slonina",
+      "source": "https://www.chelseafc.com/en/teams/profile/gabriel-slonina",
+      "checkedAt": "2026-10-18T13:36:21.423215+00:00",
+      "sourceSha256": "2a7174b82a8b7c129976148c347a4325c171e0bd167afc12ae0f9bfe1a8e276d",
+      "dateOfBirth": "2004-05-15",
+      "profileNames": [
+        "Gaga Slonina"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:6KNpdPuAg0CfSK4LgSDkTF",
+      "name": "Marco Palestra",
+      "source": "https://www.chelseafc.com/en/teams/profile/marco-palestra",
+      "checkedAt": "2026-10-18T13:36:21.424338+00:00",
+      "sourceSha256": "d558bf330199364f5189244817b1723522c996546ad14e4d4c085138ab1c81b3",
+      "dateOfBirth": "2005-03-03",
+      "profileNames": [
+        "Marco Palestra"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:4CJuicRu1cGbhb22n7MNJh",
+      "name": "Wesley Fofana",
+      "source": "https://www.chelseafc.com/en/teams/profile/wesley-fofana",
+      "checkedAt": "2026-10-18T13:36:21.425981+00:00",
+      "sourceSha256": "b211ebf178d8fedc06e233bd0bfb53d6fa2e38a9d383e89f26de802c235c6661",
+      "dateOfBirth": "2000-12-17",
+      "profileNames": [
+        "Wesley Fofana"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:3VtrgPA5cspPwBv3C8rRR1",
+      "name": "Maxence  Lacroix",
+      "source": "https://www.chelseafc.com/en/teams/profile/maxence-lacroix",
+      "checkedAt": "2026-10-18T13:36:28.707282+00:00",
+      "sourceSha256": "f8553534a9acbeeddff60289ee22a96908f2480231acc1615f543cfb7c3f0db4",
+      "dateOfBirth": "2000-04-06",
+      "profileNames": [
+        "Maxence Lacroix "
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:5LOgdi9SSvd8dwRDyazmoZ",
+      "name": "Levi Colwill",
+      "source": "https://www.chelseafc.com/en/teams/profile/levi-colwill",
+      "checkedAt": "2026-10-18T13:36:28.898741+00:00",
+      "sourceSha256": "419fa86b47d1ab441452282e033e4f244eec106a8cd0791913abd7d28e5bd247",
+      "dateOfBirth": "2003-02-26",
+      "profileNames": [
+        "Levi Colwill"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:2Be2AsOE5UnUayhdzMlVnF",
+      "name": "Jorrel  Hato",
+      "source": "https://www.chelseafc.com/en/teams/profile/jorrel-hato",
+      "checkedAt": "2026-10-18T13:36:29.157099+00:00",
+      "sourceSha256": "0f7a80c4e006edb341c5adfd5f0427ab037522494dd62cc2651df2982459b0d4",
+      "dateOfBirth": "2006-03-07",
+      "profileNames": [
+        "Jorrel Hato "
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:4pu8Vnba43JYreI7ytlXGR",
+      "name": "Reece James",
+      "source": "https://www.chelseafc.com/en/teams/profile/reece-james",
+      "checkedAt": "2026-10-18T13:36:29.262882+00:00",
+      "sourceSha256": "db06875c48e7c6112fbd5aa928ea075b3b80355f0a97dd7f3967df62febed260",
+      "dateOfBirth": "1999-12-08",
+      "profileNames": [
+        "Reece James"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:4AJxNxFWWKTy1xzuPeHMUL",
+      "name": "Malo Gusto",
+      "source": "https://www.chelseafc.com/en/teams/profile/malo-gusto",
+      "checkedAt": "2026-10-18T13:36:29.277809+00:00",
+      "sourceSha256": "dc46a088bc3069cf0e7d7a2c180f68696212113ec750b7b0d6712c44c03024ca",
+      "dateOfBirth": "2003-05-19",
+      "profileNames": [
+        "Malo Gusto"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:42U4uaP5nEbLMEw8yVGTg5",
+      "name": "Pep  Chavarria",
+      "source": "https://www.chelseafc.com/en/teams/profile/pep-chavarria",
+      "checkedAt": "2026-10-18T13:36:29.402505+00:00",
+      "sourceSha256": "9683d0d6c2d55ca7798ca1d960eccd1ba894c401f58bd01f946cd490ce929ea7",
+      "dateOfBirth": "1998-04-10",
+      "profileNames": [
+        "Pep Chavarria"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:5rRjJlyKtF87uvdKfy48F",
+      "name": "Aaron Anselmino",
+      "source": "https://www.chelseafc.com/en/teams/profile/aaron-anselmino",
+      "checkedAt": "2026-10-18T13:36:36.568065+00:00",
+      "sourceSha256": "2d050214d5480eb6a70a7c68d495e1a01497a4e68d57cd616d311cba91016703",
+      "dateOfBirth": "2005-04-29",
+      "profileNames": [
+        "Aaron Anselmino"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:5QYkzwOGVPMISpU1HFtLUZ",
+      "name": "Josh Acheampong",
+      "source": "https://www.chelseafc.com/en/teams/profile/josh-acheampong",
+      "checkedAt": "2026-10-18T13:36:36.614778+00:00",
+      "sourceSha256": "714c982c5c5aeeed9ca3163f8161ace54f797fee295e54f658dbdd2e75bde1a9",
+      "dateOfBirth": "2006-05-05",
+      "profileNames": [
+        "Josh Acheampong"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:2o22ggUV27H6IdEc9DkphP",
+      "name": "Olutayo Subuloye",
+      "source": "https://www.chelseafc.com/en/teams/profile/olutayo-subuloye",
+      "checkedAt": "2026-10-18T13:36:36.639446+00:00",
+      "sourceSha256": "f38db4210746f77ec958ecd888b944e375157aee62d38213de0ede2d51248857",
+      "dateOfBirth": "2007-12-18",
+      "profileNames": [
+        "Olutayo Subuloye"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:7rFxlHAAiN3Btsl9kYkTv9",
+      "name": "Valentin Barco",
+      "source": "https://www.chelseafc.com/en/teams/profile/valentin-barco",
+      "checkedAt": "2026-10-18T13:36:36.821610+00:00",
+      "sourceSha256": "4dc296b055f63376fc0fad1f2ffc308edea5ab87efa11df63cf38c5fdde8589f",
+      "dateOfBirth": "2004-07-27",
+      "profileNames": [
+        "Valentin Barco"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:4XvGmHcQiikJbWnYow8hc1",
+      "name": "Jordan Henderson",
+      "source": "https://www.chelseafc.com/en/teams/profile/jordan-henderson",
+      "checkedAt": "2026-10-18T13:36:36.835399+00:00",
+      "sourceSha256": "8f2574b39cd2db9694f66620d929bef3713a49cb1a39bd8b9995f946791a24ab",
+      "dateOfBirth": "1990-06-17",
+      "profileNames": [
+        "Jordan Henderson"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:43oUZ5vRX4B6m61Pue0jWB",
+      "name": "Moises Caicedo",
+      "source": "https://www.chelseafc.com/en/teams/profile/moises-caicedo",
+      "checkedAt": "2026-10-18T13:36:37.106990+00:00",
+      "sourceSha256": "4a6b98c0299ae238f0229e9af8c85940c4891fec0775c263ebd6d7cb9bf6f5b0",
+      "dateOfBirth": "2001-11-02",
+      "profileNames": [
+        "Moises Caicedo"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:2vFcoxJCfiGGmajJZVNbPw",
+      "name": "Reggie Watson",
+      "source": "https://www.chelseafc.com/en/teams/profile/reggie-watson",
+      "checkedAt": "2026-10-18T13:36:44.586390+00:00",
+      "sourceSha256": "ed04ee920778cf7ea78b354e304a95b9d439bf24f5808b6a37450b8d509a78d9",
+      "dateOfBirth": "2010-01-26",
+      "profileNames": [
+        "Reggie Watson"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:57CxDlLZdBFdFuKn9GvHKl",
+      "name": "Mahdi Nicoll-Jazuli",
+      "source": "https://www.chelseafc.com/en/teams/profile/mahdi-nicoll-jazuli",
+      "checkedAt": "2026-10-18T13:36:44.675447+00:00",
+      "sourceSha256": "fc7dafba04607b18aa7510343159329daed5a309c5af80c52ed1310399b469e9",
+      "dateOfBirth": "2010-01-06",
+      "profileNames": [
+        "Mahdi Nicoll-Jazuli"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:2fd36y1tclXGYu6pIMjOIL",
+      "name": "Romeo Lavia",
+      "source": "https://www.chelseafc.com/en/teams/profile/romeo-lavia",
+      "checkedAt": "2026-10-18T13:36:44.719279+00:00",
+      "sourceSha256": "9bfdd7b97f6db24f912ec012d81e80604ccddefe6f2685fea96d29bb33909747",
+      "dateOfBirth": "2004-01-06",
+      "profileNames": [
+        "Romeo Lavia"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:2OCQIwCKdHMJNhImUsBRzw",
+      "name": "Pedro  Neto",
+      "source": "https://www.chelseafc.com/en/teams/profile/pedro-neto",
+      "checkedAt": "2026-10-18T13:36:44.786898+00:00",
+      "sourceSha256": "67bb645b523a687e483d9575ffbb60e254610266b7d12a80f7b42c9075818f3d",
+      "dateOfBirth": "2000-03-09",
+      "profileNames": [
+        "Pedro Neto"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:2FwzGE2WMOHAnR0puVMisc",
+      "name": "Joao Pedro",
+      "source": "https://www.chelseafc.com/en/teams/profile/joao-pedro",
+      "checkedAt": "2026-10-18T13:36:44.791720+00:00",
+      "sourceSha256": "9f839242dfeb4ca44aa4fba3676b86c12d68b7af4743eedc03164eae16d47e9e",
+      "dateOfBirth": "2001-09-26",
+      "profileNames": [
+        "Joao Pedro"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:2srYA1QS1OhCE45rzou1ZR",
+      "name": "Cole Palmer",
+      "source": "https://www.chelseafc.com/en/teams/profile/cole-palmer",
+      "checkedAt": "2026-10-18T13:36:44.870221+00:00",
+      "sourceSha256": "086af134b60f98d8dcd85c0c915beb54e29486262c17c2032df856ff63b3cefc",
+      "dateOfBirth": "2002-05-06",
+      "profileNames": [
+        "Cole Palmer "
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:5IobErY2OMIyoMUYzkJwmB",
+      "name": "Jamie Gittens",
+      "source": "https://www.chelseafc.com/en/teams/profile/jamie-gittens",
+      "checkedAt": "2026-10-18T13:36:52.568874+00:00",
+      "sourceSha256": "001f043458898afcd419fec4620cc5bcaa327e6080b766e17ff61c75fb4f4c5a",
+      "dateOfBirth": "2004-08-08",
+      "profileNames": [
+        "Jamie Gittens"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:GyDflUpNF9AiVs3Q51dd1",
+      "name": "Morgan Rogers",
+      "source": "https://www.chelseafc.com/en/teams/profile/morgan-rogers",
+      "checkedAt": "2026-10-18T13:36:52.871212+00:00",
+      "sourceSha256": "447647772c477ec7293ad750dca3cab9e060a576dc381dc288c04e11d23202b5",
+      "dateOfBirth": "2002-07-26",
+      "profileNames": [
+        "Morgan Rogers"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:6w59fFVlJ8GVz6fXjuSCZB",
+      "name": "Danny Welbeck",
+      "source": "https://www.chelseafc.com/en/teams/profile/danny-welbeck",
+      "checkedAt": "2026-10-18T13:36:52.988552+00:00",
+      "sourceSha256": "453b883af62fc8d2186446bbf819d9af6cedd30e0a3ae51c11579bbd9cb73e3a",
+      "dateOfBirth": "1990-11-26",
+      "profileNames": [
+        "Danny Welbeck"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:3kv3HIxly9AVfO313vMgRA",
+      "name": "Emmanuel  Emegha",
+      "source": "https://www.chelseafc.com/en/teams/profile/emmanuel-emegha",
+      "checkedAt": "2026-10-18T13:36:53.071043+00:00",
+      "sourceSha256": "ac41cc73e3c55a9ae1d40d3eb475bcbbbccb8d41a09ce2a3d2158190d4fde0c3",
+      "dateOfBirth": "2003-02-03",
+      "profileNames": [
+        "Emmanuel Emegha"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:13NDmLRUDNNy6Tjt13yRcG",
+      "name": "Geovany Quenda",
+      "source": "https://www.chelseafc.com/en/teams/profile/geovany-quenda",
+      "checkedAt": "2026-10-18T13:36:53.273955+00:00",
+      "sourceSha256": "201b6ef957bcab271f84d0ce8dd1840ae18d90e9d4117657acae20c04384e9bc",
+      "dateOfBirth": "2007-04-30",
+      "profileNames": [
+        "Geovany Quenda"
+      ],
+      "status": "published-structured-field"
+    },
+    {
+      "sourceIdentity": "chelsea:7pQf4EbJjYGXqcniuC0I0t",
+      "name": "Estevao  Willian",
+      "source": "https://www.chelseafc.com/en/teams/profile/estevao",
+      "checkedAt": "2026-10-18T13:36:53.384177+00:00",
+      "sourceSha256": "ee3c4049752bb09fbe756264b31a54aa901414a202853adbe10551d70f6787e1",
+      "dateOfBirth": "2007-04-24",
+      "profileNames": [
+        "Estevao Willian "
+      ],
+      "status": "published-structured-field"
+    }
+  ]
+}

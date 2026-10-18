@@ -5,16 +5,16 @@
   "counts": {
     "clubs": 58,
     "sourcePlayerCards": 1612,
-    "playerCardsWithContextPortrait": 1223,
+    "playerCardsWithContextPortrait": 1244,
     "clubsWithLogo": 58,
     "releaseReady": false
   },
-  "cardsMissingPortrait": 389,
+  "cardsMissingPortrait": 368,
   "clubsMissingLogo": 0,
   "coachSourceRecords": 58,
   "coachSourceRecordsWithPortrait": 42,
   "pythonReturnCode": 0,
-  "pythonSummary": "Ran57 tests;56 passed,1 skipped (MySQL connection not configured)",
+  "pythonSummary": "Ran59 tests;58 passed,1 skipped (MySQL connection not configured)",
   "phpLintReturnCodes": [
     0,
     0,
@@ -29,5 +29,16 @@
   "supplementalBadgeFiles": 15,
   "originalSvgPreserved": 15,
   "badgeBundleOnlyServingTest": "passed for all15crests",
-  "badgeVisualIdentityReview": "passed; rights remain pending"
+  "badgeVisualIdentityReview": "passed; rights remain pending",
+  "chelseaAdditionalContextLinks": {
+    "count": 21,
+    "requires": [
+      "exact full name",
+      "date of birth from official profile",
+      "Chelsea first-team context",
+      "matching saved asset SHA256"
+    ],
+    "approvedForQuestions": false,
+    "visualAndRightsReview": "pending"
+  }
 }
