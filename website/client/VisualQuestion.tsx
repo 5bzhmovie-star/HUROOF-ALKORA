@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import './VisualQuestion.css';
 
 export type VisualLineup = {
- type:'career'|'guess_club_nationalities'|'guess_nation_clubs';
- eventDate:string;competition:string;formation?:string;
+ type:'image'|'career'|'guess_club_nationalities'|'guess_nation_clubs';
+ image?:string;eventDate:string;competition:string;formation?:string;
  stations?:{clubLogo:string;from:number;to:number;loan:boolean}[];
  playerPhoto?:string;playerName?:string;
  players?:{slot:number;x:number;y:number;marker:string;photo?:string;name?:string;position?:string;nationality?:string;clubAtDate?:string;number?:number|null}[];
@@ -23,6 +23,7 @@ export function VisualQuestion({data,revealed,canControl,onAction,mode='auto',ed
  const [dragSlot,setDragSlot]=useState<number|null>(null);
  const [fullScreen,setFullScreen]=useState(false);
  const portraitY=(p:{x:number;y:number})=>clamp(p.y);
+ if(data.type==='image')return <section className={'visual-image-question '+(revealed?'is-revealed':'')} dir="rtl"><div className="visual-image-stage">{data.image?<img src={data.image} alt="صورة السؤال" loading="eager" decoding="async"/>:<div className="visual-image-missing">اختر صورة السؤال من المكتبة</div>}</div><div className="visual-image-caption">{revealed?'تم كشف الإجابة':'تأمل الصورة… ما الإجابة؟'}</div></section>;
  if(data.type==='career')return <section className="visual-career" dir="rtl">
   <div className="visual-description">المسيرة الاحترافية · {data.eventDate}</div>
   <div className="visual-career-row">{data.stations?.map((s,i)=><div className="visual-career-stop" key={i}>

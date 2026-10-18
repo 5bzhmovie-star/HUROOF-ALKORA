@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS challenges(id TEXT PRIMARY KEY,session_hash TEXT NOT 
 CREATE TABLE IF NOT EXISTS rates(key TEXT PRIMARY KEY,count INTEGER NOT NULL,reset_at INTEGER NOT NULL);
 CREATE INDEX IF NOT EXISTS idx_rates_reset ON rates(reset_at);
 CREATE TABLE IF NOT EXISTS tournaments(id TEXT PRIMARY KEY,name TEXT NOT NULL UNIQUE,active INTEGER NOT NULL DEFAULT 1,position INTEGER NOT NULL DEFAULT 0);
-CREATE TABLE IF NOT EXISTS questions(id TEXT PRIMARY KEY,tournament_id TEXT NOT NULL REFERENCES tournaments(id),letter TEXT NOT NULL,text TEXT NOT NULL UNIQUE,answer TEXT NOT NULL,difficulty TEXT NOT NULL CHECK(difficulty IN ('easy','medium','hard')),status TEXT NOT NULL CHECK(status IN ('published','hidden')),source TEXT NOT NULL,note TEXT NOT NULL DEFAULT '',created_at INTEGER NOT NULL,updated_at INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS questions(id TEXT PRIMARY KEY,tournament_id TEXT NOT NULL REFERENCES tournaments(id),letter TEXT NOT NULL,text TEXT NOT NULL,answer TEXT NOT NULL,difficulty TEXT NOT NULL CHECK(difficulty IN ('easy','medium','hard')),status TEXT NOT NULL CHECK(status IN ('published','hidden')),source TEXT NOT NULL,note TEXT NOT NULL DEFAULT '',created_at INTEGER NOT NULL,updated_at INTEGER NOT NULL,content_kind TEXT NOT NULL DEFAULT 'text');
 CREATE INDEX IF NOT EXISTS idx_questions_pool ON questions(tournament_id,status,letter,difficulty);
 CREATE TABLE IF NOT EXISTS rooms(id TEXT PRIMARY KEY,owner_id TEXT NOT NULL REFERENCES users(id),config TEXT NOT NULL,state TEXT NOT NULL,version INTEGER NOT NULL DEFAULT 1,status TEXT NOT NULL DEFAULT 'open',created_at INTEGER NOT NULL,updated_at INTEGER NOT NULL,expires_at INTEGER NOT NULL);
 CREATE INDEX IF NOT EXISTS idx_rooms_owner ON rooms(owner_id,status);
@@ -33,7 +33,7 @@ CREATE INDEX IF NOT EXISTS idx_mini_game_members_seen ON mini_game_members(room_
 CREATE TABLE IF NOT EXISTS mini_game_events(id INTEGER PRIMARY KEY AUTOINCREMENT,room_id TEXT NOT NULL REFERENCES mini_game_rooms(id) ON DELETE CASCADE,message TEXT NOT NULL,created_at INTEGER NOT NULL);
 CREATE INDEX IF NOT EXISTS idx_mini_game_events_room ON mini_game_events(room_id,id);
 
-CREATE TABLE IF NOT EXISTS visual_questions(question_id TEXT PRIMARY KEY REFERENCES questions(id) ON DELETE CASCADE,kind TEXT NOT NULL CHECK(kind IN ('career','guess_club_nationalities','guess_nation_clubs')),payload TEXT NOT NULL CHECK(json_valid(payload)),verified_at TEXT NOT NULL,created_at INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS visual_questions(question_id TEXT PRIMARY KEY REFERENCES questions(id) ON DELETE CASCADE,kind TEXT NOT NULL CHECK(kind IN ('image','career','guess_club_nationalities','guess_nation_clubs')),payload TEXT NOT NULL CHECK(json_valid(payload)),verified_at TEXT NOT NULL,created_at INTEGER NOT NULL);
 CREATE TABLE IF NOT EXISTS visual_assets(id TEXT PRIMARY KEY,content_type TEXT NOT NULL,relative_path TEXT NOT NULL UNIQUE,sha256 TEXT NOT NULL UNIQUE,license TEXT NOT NULL,source TEXT NOT NULL,created_at INTEGER NOT NULL);
 
 CREATE TABLE IF NOT EXISTS football_import_batches(id TEXT PRIMARY KEY,source TEXT NOT NULL,snapshot_date TEXT NOT NULL,sha256 TEXT NOT NULL,entities_added INTEGER NOT NULL,relations_added INTEGER NOT NULL,images_missing INTEGER NOT NULL,created_at INTEGER NOT NULL);

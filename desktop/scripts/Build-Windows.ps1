@@ -19,10 +19,9 @@ try {
         & pnpm install --frozen-lockfile
         if ($LASTEXITCODE -ne 0) { throw 'pnpm install failed' }
     }
-    # Download actual licensed atlas images into the archive, not placeholder icon URLs.
-    # This stops the release when any indexed player portrait or competition crest is missing.
-    & node scripts/build-atlas-media.mjs
-    if ($LASTEXITCODE -ne 0) { throw 'Atlas photo/crest bundle is incomplete. Release aborted.' }
+    # Bundle the actual repository catalog and image bytes; never fetch at startup.
+    & node scripts/build-source-library.mjs
+    if ($LASTEXITCODE -ne 0) { throw 'Offline source library packaging failed.' }
     & pnpm run build:selfhost
     if ($LASTEXITCODE -ne 0) { throw 'Self-hosted React build failed' }
     $testFiles = @(Get-ChildItem (Join-Path $site 'tests') -Filter '*.test.mjs' | ForEach-Object { $_.FullName })

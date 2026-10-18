@@ -1,131 +1,42 @@
 "use client";
-import React,{useEffect,useState} from 'react';
-import {api,Competition} from './api';
-import {VisualQuestion} from './VisualQuestion';
-import FootballLibrary from './FootballLibrary';
-import VisualMediaPicker from './VisualMediaPicker';
-import './VisualEditor.css';
-type Media={id:string;url:string;license:string;source:string;content_type:string};
-const initialSlots=[[50,84],[17,67],[39,67],[61,67],[83,67],[18,47],[50,47],[82,47],[18,26],[50,23],[82,26]];
-const empty=(slot:number)=>({slot,x:initialSlots[slot][0],y:initialSlots[slot][1],name:'',position:'',nationality:'',clubAtDate:'',photo:'',flag:'',clubLogo:'',number:null as number|null});
-const careerStop=()=>({club:'',clubLogo:'',from:2020,to:2021,loan:false});
-const types=[['career','خمن اللاعب من مسيرته'],['guess_club_nationalities','خمن النادي من جنسيات التشكيلة'],['guess_nation_clubs','خمن المنتخب من أندية لاعبيه']];
-export default function VisualEditor({tournaments,onSaved}:{tournaments:Competition[];onSaved:()=>void}){
- const [assets,setAssets]=useState<Media[]>([]);
- const [stage,setStage]=useState<'identity'|'contents'|'preview'>('identity');
- const [previewReveal,setPreviewReveal]=useState(false);
- const [playerQuery,setPlayerQuery]=useState('');
- const [playerMatches,setPlayerMatches]=useState<any[]>([]);
- const [playerInfo,setPlayerInfo]=useState<any>(null);
- useEffect(()=>{if(playerQuery.trim().length<2){setPlayerMatches([]);return}const timer=setTimeout(()=>{
- api<any[]>('/atlas/player-search?q='+encodeURIComponent(playerQuery)).then(setPlayerMatches).catch(()=>setPlayerMatches([]))
- },220);return()=>clearTimeout(timer)},[playerQuery]);
- const [kind,setKind]=useState('career');
- const [libraryOpen,setLibraryOpen]=useState(false);
- const [selectedLibrary,setSelectedLibrary]=useState<{id:string;name_ar:string;image_key:string|null}|null>(null);
- const [busy,setBusy]=useState(false);
- const [status,setStatus]=useState('');
- const [error,setError]=useState('');
- const [input,setInput]=useState({tournament_id:tournaments[0]?.id||'',letter:'م',text:'',answer:'',difficulty:'medium',status:'hidden',source:'',note:''});
- const [visual,setVisual]=useState<any>({type:'career',eventDate:'',verifiedAt:'',source:'',competition:'',playerPhoto:'',playerName:'',stations:[careerStop(),careerStop(),careerStop()],teamName:'',teamImage:'',formation:'4-3-3',coach:'',players:Array.from({length:11},(_,slot)=>empty(slot))});
- const update=(key:string,value:any)=>setVisual((s:any)=>({...s,[key]:value}));
- useEffect(()=>{api<Media[]>('/admin/visual-media').then(setAssets).catch(e=>setError(e.message));},[]);
- const mediaPicker=(value:string,changed:(value:string)=>void,label:string)=><VisualMediaPicker label={label} value={value||''} onChange={changed} assets={assets}/>;
- const updateEntry=(key:'stations'|'players',i:number,field:string,value:any)=>setVisual((prev:any)=>({...prev,[key]:prev[key].map((entry:any,j:number)=>j===i?{...entry,[field]:value}:entry)}));
- async function uploadMedia(file:File,license:string,source:string){
-  if(file.size>1_350_000)throw Error('الصورة أكبر من 1.35MB، ضغطها إلى WebP أو PNG.');
-  const buffer=new Uint8Array(await file.arrayBuffer());
-  let binary='';for(const byte of buffer)binary+=String.fromCharCode(byte);
-  const result=await api<Media>('/admin/visual-media-upload',{contentType:file.type,base64:btoa(binary),license,source});
-  setAssets(previous=>previous.some(x=>x.id===result.id)?previous:[...previous,result]);
+import React,{useEffect,useState} from 'react';import {api,Competition} from './api';import {VisualQuestion} from './VisualQuestion';import VisualMediaPicker,{MediaRecord} from './VisualMediaPicker';import PlayerLookup from './PlayerLookup';import './VisualEditor.css';
+export const visualTypes=[['image','سؤال بصورة'],['career','خمن اللاعب من مسيرته'],['guess_club_nationalities','خمن النادي من جنسيات لاعبيه'],['guess_nation_clubs','خمن المنتخب من أندية لاعبيه']];
+const today=()=>new Date().toISOString().slice(0,10);
+function slots(formation='4-3-3'){const rows=[1,...formation.split('-').map(Number)],result:any[]=[];rows.forEach((n,row)=>{for(let j=0;j<n;j++)result.push({slot:result.length,x:100*(j+1)/(n+1),y:87-row*(66/(rows.length-1)),name:'',position:row===0?'GK':'',nationality:'',clubAtDate:'',photo:'',flag:'',clubLogo:'',number:null});});return result;}
+const newVisual=()=>({type:'image',image:'',eventDate:today(),verifiedAt:today(),source:'',competition:'',playerPhoto:'',playerName:'',stations:Array.from({length:3},()=>({club:'',clubLogo:'',from:2020,to:2021,loan:false})),teamName:'',teamImage:'',formation:'4-3-3',coach:'',players:slots()});
+const letterOf=(name:string)=>name.trim().normalize('NFKC').replace(/[\u064B-\u065F\u0670ـ]/g,'').replace(/[أإآٱ]/g,'ا').replace(/^ال/,'')[0]||'ا';
+export default function VisualEditor({tournaments,onSaved,initial,onCancel}:{tournaments:Competition[];onSaved:()=>void;initial?:any;onCancel?:()=>void}){
+ const [input,setInput]=useState<any>(()=>initial?{...initial}:{tournament_id:tournaments[0]?.id||'',letter:'ا',text:'من اللاعب الظاهر في هذه الصورة؟',answer:'',difficulty:'medium',status:'hidden',source:'',note:''});
+ const [visual,setVisual]=useState<any>(()=>({...newVisual(),...(initial?.visual||{})}));const [kind,setKind]=useState(initial?.kind||initial?.visual?.type||'image');const [stage,setStage]=useState(0),[reveal,setReveal]=useState(false),[assets,setAssets]=useState<MediaRecord[]>([]),[busy,setBusy]=useState(false),[error,setError]=useState(''),[notice,setNotice]=useState('');
+ const [license,setLicense]=useState(''),[mediaSource,setMediaSource]=useState(''),[uploadTarget,setUploadTarget]=useState('image');
+ useEffect(()=>{api<MediaRecord[]>('/admin/visual-media').then(setAssets).catch(e=>setError(e.message));},[]);
+ const field=(key:string,value:any)=>setInput((s:any)=>({...s,[key]:value}));const update=(key:string,value:any)=>setVisual((s:any)=>({...s,[key]:value}));const entry=(key:string,index:number,patch:any)=>setVisual((s:any)=>({...s,[key]:s[key].map((p:any,i:number)=>i===index?{...p,...patch}:p)}));
+ const answer=(name:string)=>setInput((s:any)=>({...s,answer:name,letter:letterOf(name)}));
+ function choose(p:any,index?:number){setNotice('تم جلب البيانات المتوفرة من '+(p.currentClub||'المكتبة')+' · '+(p.season||'')+'؛ راجع البيانات المرتبطة بتاريخ السؤال.');if(!input.source&&p.source)field('source',p.source);
+ if(index!==undefined){entry('players',index,{name:p.nameAr,photo:p.photo||'',position:p.position||'',nationality:p.nationality||'',clubAtDate:p.currentClub||'',number:p.shirtNumber??null});return;}
+ answer(p.nameAr);setVisual((s:any)=>({...s,playerName:p.nameAr,playerPhoto:p.photo||'',image:kind==='image'?p.photo||s.image:s.image,stations:p.career?.length>=3?p.career.slice(0,8).map((r:any)=>({club:r.club,clubLogo:r.clubImage||'',from:Number(r.from?.slice(0,4))||2020,to:Number(r.to?.slice(0,4))||new Date().getFullYear(),loan:r.loan})):s.stations}));
  }
- const [license,setLicense]=useState(''),[mediaSource,setMediaSource]=useState(''),[file,setFile]=useState<File|null>(null);
- const save=async()=>{setBusy(true);setError('');setStatus('');try{
-  const result=await api<{id:string}>('/admin/visual-question',{...input,visual:{...visual,type:kind,source:input.source,playerName:input.answer}});
-  setStatus('حُفظ السؤال '+result.id+' — '+(input.status==='published'?'منشور':'مسودة مخفية'));onSaved();
- }catch(e:any){setError(e.message)}finally{setBusy(false)}};
- const picker=(key:string,label:string)=>mediaPicker(visual[key],value=>update(key,value),label);
- return <section className="panel visual-editor visual-editor-v2" dir="rtl"><header className="visual-editor-hero"><span>HUROOF STUDIO · VISUAL QUESTIONS</span><h2>استوديو صناعة الأسئلة المصوّرة</h2><p>اختر نوع التحدي، اربط البيانات الكروية، ثم عاين الملعب والكشف قبل النشر.</p></header>
- <nav className="visual-editor-tabs" aria-label="مراحل صناعة السؤال">
- {([['identity','١ · السؤال'],['contents','٢ · الصور والتشكيلة'],['preview','٣ · المعاينة والنشر']] as const).map(([id,label])=><button type="button" key={id} className={stage===id?'active':''} onClick={()=>setStage(id)}>{label}</button>)}
- </nav>
- <p className="hint">يُحفظ السؤال كمسودة افتراضيًا حتى تكتمل مصادره وصوره.</p>
- {stage==='identity'&&<div className="visual-editor-stage">
- <section className="panel visual-smart-search">
- <h3>اختيار اللاعب والتعبئة الذكية</h3>
- <p className="hint">اكتب الاسم بالعربي أو الإنجليزي ثم اختر اللاعب لتعبئة بياناته ومسيرته تلقائيًا.</p>
- <input value={playerQuery} onChange={e=>setPlayerQuery(e.target.value)} placeholder="مثال: محمد صلاح / Mohamed Salah / Salah" aria-label="البحث عن اللاعب"/>
- {playerMatches.length>0&&<div className="visual-smart-results">{playerMatches.map(player=><button type="button" key={player.id} onClick={async()=>{
- try{const d=await api<any>('/atlas/player-autofill?id='+encodeURIComponent(player.id));setPlayerInfo(d);setPlayerQuery(d.nameAr);setPlayerMatches([]);setInput(old=>({...old,answer:d.nameAr}));
- setVisual((old:any)=>({...old,playerName:d.nameAr,playerPhoto:d.photo?.startsWith('/api/visual-media/')?d.photo:old.playerPhoto,
- stations:d.career.length>=3?d.career.slice(0,8).map((x:any)=>({club:x.club,clubLogo:x.clubImage||'',from:Number((x.from||'').slice(0,4))||2020,to:Number((x.to||'').slice(0,4))||new Date().getFullYear(),loan:x.loan})):old.stations}));
- setStatus('تم اختيار اللاعب وربط البيانات المسجلة. الحقول الناقصة: '+(d.missing.join('، ')||'لا يوجد في المعلومات الأساسية'));
- }catch(e:any){setError(e.message)}
- }}>{player.image_key?.startsWith('/api/visual-media/')&&<img src={player.image_key} width={40} height={40}/>}<span>{player.name_ar}<small>{player.name_en}</small></span></button>)}</div>}
- {playerInfo&&<div className="visual-player-info">
- <h4>{playerInfo.nameAr} <small>{playerInfo.nameEn}</small></h4>
- <div className="visual-player-info-grid">{[['المركز',playerInfo.position],['النادي',playerInfo.currentClub],['الجنسية',playerInfo.nationality],['رقم القميص',playerInfo.shirtNumber],['القدم',playerInfo.preferredFoot],['الطول',playerInfo.heightCm],['العقد',playerInfo.contractUntil],['محطات المسيرة',playerInfo.career.length]].map(([label,val])=><div key={String(label)}><small>{label}</small><strong>{val??'غير مسجل'}</strong></div>)}</div>
- </div>}
- </section>
- <button type="button" onClick={()=>setLibraryOpen(v=>!v)}>{libraryOpen?'إخفاء المكتبة الكروية':'البحث عن لاعب أو فريق من المكتبة'}</button>
- {libraryOpen&&<FootballLibrary onSelect={entry=>{
-  setSelectedLibrary(entry);
-  if(entry.entity_type==='fixture'&&kind!=='career'){
-    api<any>('/admin/football-fixture-draft?id='+encodeURIComponent(entry.id)).then(draft=>{
-      setVisual((old:any)=>({...old,players:draft.players,competition:draft.fixture.name,eventDate:draft.players[0]?.date||old.eventDate}));
-      setStatus('استوردت أسماء 11 لاعبًا. يلزم استكمال المراكز والصور المرخصة والأندية بتاريخ المباراة قبل النشر.');
-    }).catch(e=>setError(e.message));
-  }else if(entry.entity_type==='player'&&kind==='career'){
-   setInput(old=>({...old,answer:entry.name_ar}));
-   setVisual((old:any)=>({...old,playerName:entry.name_ar,playerPhoto:entry.image_key?.startsWith('/api/visual-media/')?entry.image_key:old.playerPhoto}));
-   api<any>('/admin/football-career-draft?id='+encodeURIComponent(entry.id)).then(draft=>{
-     setVisual((old:any)=>({...old,stations:draft.stations,playerPhoto:draft.playerPhoto||old.playerPhoto}));
-     setStatus('تم جلب المسيرة المرتبطة بالمكتبة. أكمل الصور الناقصة: '+(draft.missing?.join('، ')||''));
-   }).catch(e=>setError('تعذّر استيراد المسيرة: '+e.message));
-  }else if(['club','national_team'].includes(entry.entity_type)&&kind!=='career'){
-   setVisual((old:any)=>({...old,teamName:entry.name_ar,teamImage:entry.image_key?.startsWith('/api/visual-media/')?entry.image_key:old.teamImage}));
-   setInput(old=>({...old,answer:entry.name_ar}));
-  }
- }}/>}
- {selectedLibrary&&<p role="status">تم اختيار {selectedLibrary.name_ar} من السجل المركزي. أكمل عناصر السؤال التي لم تُوثَّق بعد.</p>}
- <div className="settings-row"><label>النوع<select value={kind} onChange={e=>setKind(e.target.value)}>{types.map(([v,label])=><option value={v} key={v}>{label}</option>)}</select></label><label>البطولة<select value={input.tournament_id} onChange={e=>setInput(s=>({...s,tournament_id:e.target.value}))}>{tournaments.map(t=><option value={t.id} key={t.id}>{t.name}</option>)}</select></label><label>الحرف<input value={input.letter} maxLength={1} onChange={e=>setInput(s=>({...s,letter:e.target.value}))}/></label></div>
- <label>السؤال<input value={input.text} onChange={e=>setInput(s=>({...s,text:e.target.value}))}/></label>
- <label>الإجابة<input value={input.answer} onChange={e=>setInput(s=>({...s,answer:e.target.value}))}/></label>
- <div className="settings-row"><label>الصعوبة<select value={input.difficulty} onChange={e=>setInput(s=>({...s,difficulty:e.target.value}))}>{['easy','medium','hard'].map(v=><option key={v}>{v}</option>)}</select></label><label>الحالة<select value={input.status} onChange={e=>setInput(s=>({...s,status:e.target.value}))}><option value="hidden">مسودة مخفية</option><option value="published">منشور بعد التدقيق</option></select></label></div>
- <label>رابط المصدر التاريخي HTTPS<input dir="ltr" value={input.source} onChange={e=>setInput(s=>({...s,source:e.target.value}))}/></label>
- <div className="settings-row"><label>تاريخ الحدث<input type="date" value={visual.eventDate} onChange={e=>update('eventDate',e.target.value)}/></label><label>آخر تحقق<input type="date" value={visual.verifiedAt} onChange={e=>update('verifiedAt',e.target.value)}/></label><label>المسابقة<input value={visual.competition} onChange={e=>update('competition',e.target.value)}/></label></div>
- <button className="visual-next" type="button" onClick={()=>setStage('contents')}>التالي: الوسائط والتشكيلة ←</button></div>}
- {stage==='contents'&&<div className="visual-editor-stage">
- <fieldset className="panel"><legend>مكتبة الوسائط المحلية</legend>
- <div className="settings-row"><label>الصورة<input type="file" accept="image/png,image/jpeg,image/webp" onChange={e=>setFile(e.target.files?.[0]||null)}/></label><label>الترخيص / الإذن<input value={license} onChange={e=>setLicense(e.target.value)} placeholder="مثال: CC BY-SA 4.0"/></label><label>رابط مصدر الصورة<input dir="ltr" value={mediaSource} onChange={e=>setMediaSource(e.target.value)}/></label></div>
- <button type="button" disabled={!file||busy} onClick={async()=>{if(!file)return;setBusy(true);setError('');try{await uploadMedia(file,license,mediaSource);setStatus('تم رفع الصورة إلى المكتبة');}catch(e:any){setError(e.message)}finally{setBusy(false)}}}>رفع الصورة إلى المكتبة</button>
- <p className="hint">الحد 1.35 ميجابايت لكل صورة؛ SVG محظور حتى تتوفر آلية تعقيم موثوقة.</p></fieldset>
- {kind==='career'?<div><h3>محطات المسيرة (3–8)</h3>{picker('playerPhoto','صورة اللاعب بعد الكشف')}
- {visual.stations.map((entry:any,i:number)=><div className="settings-row" key={i}>
- <label>النادي {i+1}<input value={entry.club} onChange={e=>updateEntry('stations',i,'club',e.target.value)}/></label>
- {mediaPicker(entry.clubLogo,value=>updateEntry('stations',i,'clubLogo',value),'شعار النادي')}
- <label>من<input type="number" value={entry.from} onChange={e=>updateEntry('stations',i,'from',Number(e.target.value))}/></label>
- <label>إلى<input type="number" value={entry.to} onChange={e=>updateEntry('stations',i,'to',Number(e.target.value))}/></label>
- <label>إعارة<input type="checkbox" checked={entry.loan} onChange={e=>updateEntry('stations',i,'loan',e.target.checked)}/></label></div>)}
- <button type="button" disabled={visual.stations.length>=8} onClick={()=>update('stations',[...visual.stations,careerStop()])}>إضافة محطة</button>
- <button type="button" disabled={visual.stations.length<=3} onClick={()=>update('stations',visual.stations.slice(0,-1))}>حذف آخر محطة</button>
- </div>:<div><h3>التشكيلة الأساسية — 11 لاعبًا</h3><div className="settings-row"><label>الفريق الصحيح<input value={visual.teamName} onChange={e=>update('teamName',e.target.value)}/></label><label>الخطة<input value={visual.formation} onChange={e=>update('formation',e.target.value)}/></label><label>المدرب<input value={visual.coach} onChange={e=>update('coach',e.target.value)}/></label>{picker('teamImage','شعار/علم الإجابة')}</div>
- {visual.players.map((p:any,i:number)=><details className="panel" key={i}><summary>لاعب التشكيلة {i+1}: {p.name||'غير محدد'}</summary>
- <div className="settings-row">{['name','position','nationality','clubAtDate'].map(k=><label key={k}>{({name:'اسم اللاعب',position:'المركز',nationality:'الجنسية',clubAtDate:'النادي وقت المباراة'} as any)[k]}<input value={p[k]} onChange={e=>updateEntry('players',i,k,e.target.value)}/></label>)}
- <label>رقم القميص<input type="number" value={p.number??''} onChange={e=>updateEntry('players',i,'number',e.target.value===''?null:Number(e.target.value))}/></label>
- <label>موضع X %<input type="number" min={8} max={92} value={p.x} onChange={e=>updateEntry('players',i,'x',Number(e.target.value))}/></label>
- <label>موضع Y %<input type="number" min={8} max={92} value={p.y} onChange={e=>updateEntry('players',i,'y',Number(e.target.value))}/></label>
- {mediaPicker(p.photo,value=>updateEntry('players',i,'photo',value),'صورة اللاعب')}
- {mediaPicker(p.flag,value=>updateEntry('players',i,'flag',value),'علم الجنسية')}
- {mediaPicker(p.clubLogo,value=>updateEntry('players',i,'clubLogo',value),'شعار النادي بتاريخ المباراة')}
- </div></details>)}</div>}
- <button className="visual-next" type="button" onClick={()=>setStage('preview')}>التالي: المعاينة والنشر ←</button></div>}
- {stage==='preview'&&<div className="visual-editor-stage">
- <h3>معاينة السؤال قبل النشر</h3><p className="hint">الملعب طولي من مرمى أعلى إلى مرمى أسفل. يمكنك سحب البطاقات لتحديد المواقع. هذه معاينة خاصة بالإدارة.</p><div className="visual-editor-preview-actions"><button type="button" onClick={()=>setPreviewReveal(v=>!v)}>{previewReveal?'إخفاء الإجابة':'تجربة الكشف السينمائي'}</button><button type="button" onClick={()=>{setVisual((old:any)=>({...old,players:Array.from({length:11},(_,slot)=>({...old.players[slot],x:initialSlots[slot][0],y:initialSlots[slot][1]}))}));setPreviewReveal(false)}}>إعادة توزيع 4-3-3</button></div>
- <VisualQuestion data={{...visual,type:kind,players:visual.players.map((p:any)=>previewReveal?{...p,marker:kind==='guess_club_nationalities'?p.flag:p.clubLogo}:({...p,name:undefined,photo:undefined,marker:kind==='guess_club_nationalities'?p.flag:p.clubLogo}))} as any} revealed={previewReveal} canControl={false} editable={kind!=='career'} onMovePlayer={(slot,x,y)=>setVisual((state:any)=>({...state,players:state.players.map((p:any)=>p.slot===slot?{...p,x,y}:p)}))}/>
- <button type="button" className="visual-next" onClick={()=>setStage('identity')}>تعديل بيانات السؤال</button>
- {error&&<p role="alert" style={{color:'#fa9e9e'}}>{error}</p>}{status&&<p role="status">{status}</p>}
- <button type="button" disabled={busy} onClick={save}>{busy?'جارٍ حفظ السؤال…':'تحقق من المعلومات واحفظ السؤال'}</button>
- </div>}
- </section>;
+ const missing:string[]=[];if(input.text.trim().length<12)missing.push('نص السؤال (12 حرفًا على الأقل)');if(input.answer.trim().length<2)missing.push('الإجابة');if(!'ابتثجحخدذرزسشصضطظعغفقكلمنهوي'.includes(input.letter)||letterOf(input.answer)!==input.letter)missing.push('إجابة عربية تطابق الحرف');if(!input.source.startsWith('https://'))missing.push('مصدر السؤال');if(!visual.eventDate||!visual.verifiedAt)missing.push('التواريخ');
+ if(kind==='image'&&!visual.image)missing.push('صورة السؤال');if(kind==='career'){if(!visual.playerPhoto)missing.push('صورة الإجابة');visual.stations.forEach((s:any,i:number)=>{if(!s.club||!s.clubLogo||!s.from||!s.to||s.from>s.to)missing.push('محطة '+(i+1));});}
+ if(kind.startsWith('guess_')){if(!visual.teamImage||!visual.teamName)missing.push('اسم الفريق وشعاره');visual.players.forEach((p:any,i:number)=>{if(!p.name||!p.photo||!p.position||!p.nationality||!p.clubAtDate||!(kind==='guess_club_nationalities'?p.flag:p.clubLogo))missing.push('بطاقة اللاعب '+(i+1));});}
+ async function save(status:string){setBusy(true);setError('');try{await api('/admin/visual-question',{...input,status,visual:{...visual,type:kind,source:input.source,competition:tournaments.find(t=>t.id===input.tournament_id)?.name||'',playerName:input.answer}});onSaved();}catch(e:any){setError(e.message)}finally{setBusy(false)}}
+ async function upload(file?:File){if(!file)return;setBusy(true);setError('');try{if(!license.trim()||!mediaSource.startsWith('https://'))throw Error('اكتب مصدر الصورة وحقوق استخدامها قبل الرفع.');if(file.size>1350000)throw Error('الحد الأقصى للصورة 1.35 ميجابايت.');const bytes=new Uint8Array(await file.arrayBuffer());let bin='';for(const b of bytes)bin+=String.fromCharCode(b);const result=await api<any>('/admin/visual-media-upload',{contentType:file.type,base64:btoa(bin),license,source:mediaSource});setAssets(a=>[...a.filter(x=>x.id!==result.id),{...result,license,source:mediaSource,content_type:file.type}]);update(uploadTarget,result.url);setNotice('حُفظت الصورة وحددت في '+(uploadTarget==='image'?'صورة السؤال':'صورة الإجابة'));}catch(e:any){setError(e.message)}finally{setBusy(false)}}
+ const picker=(value:string,onChange:(s:string)=>void,label:string)=><VisualMediaPicker assets={assets} value={value||''} onChange={onChange} label={label}/>;
+ const preview={...visual,type:kind,playerName:reveal?input.answer:undefined,playerPhoto:reveal?visual.playerPhoto:undefined,teamName:reveal?visual.teamName:undefined,teamImage:reveal?visual.teamImage:undefined,players:visual.players.map((p:any)=>({...p,marker:kind==='guess_club_nationalities'?p.flag:p.clubLogo,...(!reveal?{name:undefined,photo:undefined}:{} )}))};
+ return <section className="visual-editor-v2" dir="rtl"><header className="visual-editor-hero"><span>حروف الكورة · استوديو الأسئلة</span><h2>{initial?'تعديل السؤال المصوّر':'اصنع تحديًا يستحق اللعب'}</h2><p>اربط الصورة بالمعلومة، جرّب العرض، ثم انشر السؤال في بنك الحروف.</p></header>
+ <nav className="visual-editor-tabs">{['١ · السؤال والنوع','٢ · الصور والمحتوى','٣ · المعاينة والنشر'].map((label,i)=><button key={label} type="button" className={stage===i?'active':''} onClick={()=>setStage(i)}>{label}</button>)}</nav>
+ {error&&<p className="studio-error" role="alert">{error}</p>}{notice&&<p className="studio-notice" role="status">{notice}</p>}
+ {stage===0&&<div className="visual-editor-stage"><div className="studio-type-grid">{visualTypes.map(([id,label])=><button type="button" key={id} aria-pressed={kind===id} className={kind===id?'active':''} onClick={()=>{setKind(id);setUploadTarget(id==='image'?'image':'playerPhoto')}}><strong>{label}</strong><small>{id==='image'?'صورة واحدة وسؤال تختاره':id==='career'?'شعارات الأندية على خط زمني':'أحد عشر لاعبًا على الملعب'}</small></button>)}</div>
+ {(kind==='image'||kind==='career')&&<PlayerLookup onSelect={choose}/>}
+ <label>نص السؤال<textarea aria-label="نص السؤال" value={input.text} maxLength={600} onChange={e=>field('text',e.target.value)} rows={3}/></label><div className="settings-row"><label>الإجابة<input value={input.answer} maxLength={180} onChange={e=>answer(e.target.value)}/></label><label>حرف الإجابة<input value={input.letter} maxLength={1} onChange={e=>field('letter',e.target.value)}/><small>يُحدد تلقائيًا مع تجاهل «الـ»</small></label></div>
+ <div className="settings-row"><label>البطولة<select value={input.tournament_id} onChange={e=>field('tournament_id',e.target.value)}>{tournaments.map(t=><option value={t.id} key={t.id}>{t.name}</option>)}</select></label><label>الصعوبة<select value={input.difficulty} onChange={e=>field('difficulty',e.target.value)}>{[['easy','سهل'],['medium','متوسط'],['hard','صعب']].map(([id,label])=><option key={id} value={id}>{label}</option>)}</select></label></div>
+ <label>مصدر المعلومة<input type="url" dir="ltr" value={input.source} onChange={e=>field('source',e.target.value)} placeholder="https://…"/></label><div className="settings-row"><label>التاريخ المرجعي للسؤال<input type="date" value={visual.eventDate} onChange={e=>update('eventDate',e.target.value)}/></label><label>تاريخ المراجعة<input type="date" value={visual.verifiedAt} onChange={e=>update('verifiedAt',e.target.value)}/></label></div><label>ملاحظة للمقدم<textarea aria-label="ملاحظة للمقدم" value={input.note} maxLength={800} onChange={e=>field('note',e.target.value)}/></label><button type="button" className="visual-next" onClick={()=>setStage(1)}>التالي: المحتوى والصور ←</button></div>}
+ {stage===1&&<div className="visual-editor-stage">
+ <details className="studio-upload" open={kind==='image'}><summary>رفع صورة جديدة · سحب وإفلات</summary><div className="settings-row"><label>حقوق الاستخدام<input value={license} onChange={e=>setLicense(e.target.value)} placeholder="مثال: صورة أملكها / CC BY 4.0"/></label><label>رابط مصدر الصورة<input dir="ltr" value={mediaSource} onChange={e=>setMediaSource(e.target.value)} placeholder="https://…"/></label><label>تحديد الصورة المرفوعة في<select value={uploadTarget} onChange={e=>setUploadTarget(e.target.value)}><option value="image">صورة السؤال</option><option value="playerPhoto">صورة إجابة المسيرة</option><option value="teamImage">شعار إجابة التشكيلة</option></select></label></div><label className="studio-drop" onDragOver={e=>e.preventDefault()} onDrop={e=>{e.preventDefault();if(!busy)void upload(e.dataTransfer.files[0])}}>اسحب الصورة هنا، أو اضغط لاختيارها<input type="file" accept="image/png,image/jpeg,image/webp" disabled={busy} onChange={e=>void upload(e.target.files?.[0])}/><small>PNG · JPG · WebP — حتى 1.35MB؛ تضاف أيضًا لمعرض الصور</small></label></details>
+ {kind==='image'&&picker(visual.image,v=>update('image',v),'صورة السؤال')}
+ {kind==='career'&&<>{picker(visual.playerPhoto,v=>update('playerPhoto',v),'صورة اللاعب عند كشف الإجابة')}<div className="studio-stations">{visual.stations.map((s:any,i:number)=><section className="panel" key={i}><h3>المحطة {i+1}</h3><PlayerLookup type="club" label="جلب النادي وشعاره" onSelect={c=>entry('stations',i,{club:c.name_ar,clubLogo:c.image_key||''})}/><label>اسم النادي<input value={s.club} onChange={e=>entry('stations',i,{club:e.target.value})}/></label><div className="settings-row"><label>من<input type="number" value={s.from} onChange={e=>entry('stations',i,{from:Number(e.target.value)})}/></label><label>إلى<input type="number" value={s.to} onChange={e=>entry('stations',i,{to:Number(e.target.value)})}/></label></div><label><input type="checkbox" checked={s.loan} onChange={e=>entry('stations',i,{loan:e.target.checked})}/> إعارة</label>{picker(s.clubLogo,v=>entry('stations',i,{clubLogo:v}),'شعار النادي')}<button type="button" disabled={visual.stations.length<=3} onClick={()=>update('stations',visual.stations.filter((_:any,j:number)=>i!==j))}>حذف المحطة</button></section>)}</div><button type="button" disabled={visual.stations.length>=8} onClick={()=>update('stations',[...visual.stations,{club:'',clubLogo:'',from:2020,to:2021,loan:false}])}>+ إضافة محطة</button></>}
+ {kind.startsWith('guess_')&&<><PlayerLookup type={kind==='guess_nation_clubs'?'national_team':'club'} label="جلب الفريق وشعاره" onSelect={c=>{update('teamName',c.name_ar);update('teamImage',c.image_key||'');answer(c.name_ar);if(!input.source)field('source',c.metadata?.source||'')}}/><label>اسم الفريق<input value={visual.teamName} onChange={e=>{update('teamName',e.target.value);answer(e.target.value)}}/></label>{picker(visual.teamImage,v=>update('teamImage',v),'شعار / علم الفريق عند الحل')}<label>الخطة<select value={visual.formation} onChange={e=>{const coords=slots(e.target.value);setVisual((s:any)=>({...s,formation:e.target.value,players:s.players.map((p:any,i:number)=>({...p,x:coords[i].x,y:coords[i].y}))}))}}>{['4-3-3','4-4-2','3-5-2','4-2-3-1'].map(f=><option key={f}>{f}</option>)}</select></label><div className="studio-lineup-workspace"><div className="studio-slots">{visual.players.map((p:any,i:number)=><details key={p.slot} className="panel"><summary><b>{i===0?'GK':i+1}</b> {p.name||'اختر لاعبًا'} <small>{p.photo?'صورة ✓':'بدون صورة'}</small></summary><PlayerLookup onSelect={d=>choose(d,i)}/>{[['name','الاسم'],['position','المركز'],['nationality','الجنسية'],['clubAtDate','النادي بتاريخ السؤال']].map(([key,label])=><label key={key}>{label}<input value={p[key]} onChange={e=>entry('players',i,{[key]:e.target.value})}/></label>)}<label>رقم القميص<input type="number" min={1} max={99} value={p.number??''} onChange={e=>entry('players',i,{number:e.target.value?Number(e.target.value):null})}/></label>{picker(p.photo,v=>entry('players',i,{photo:v}),'صورة اللاعب')}{picker(kind==='guess_club_nationalities'?p.flag:p.clubLogo,v=>entry('players',i,{[kind==='guess_club_nationalities'?'flag':'clubLogo']:v}),kind==='guess_club_nationalities'?'علم الجنسية':'شعار النادي')}</details>)}</div><div className="studio-live-pitch"><VisualQuestion data={preview} revealed={reveal} canControl={false} editable onMovePlayer={(slot,x,y)=>entry('players',slot,{x,y})}/></div></div></>}
+ <button type="button" className="visual-next" onClick={()=>setStage(2)}>التالي: المعاينة والنشر ←</button></div>}
+ {stage===2&&<div className="visual-editor-stage"><div className="studio-preview-heading"><span className="studio-letter">{input.letter}</span><div><small>{tournaments.find(t=>t.id===input.tournament_id)?.name}</small><h3>{input.text||'نص السؤال'}</h3></div></div><div className="visual-editor-preview-actions"><button type="button" onClick={()=>setReveal(v=>!v)}>{reveal?'عرض السؤال بدون الحل':'تجربة كشف الحل'}</button></div><VisualQuestion data={preview} revealed={reveal} canControl={false}/>{reveal&&<p className="studio-answer">الإجابة: {input.answer||'لم تحدد'}</p>}{missing.length>0?<div className="studio-missing"><strong>أكمل قبل النشر ({missing.length})</strong><p>{missing.join(' · ')}</p><small>تقدر تحفظه مسودة وتكمله لاحقًا.</small></div>:<p className="studio-notice">المحتوى مكتمل وجاهز للنشر. سيظهر عشوائيًا عند اختيار الحرف المناسب.</p>}</div>}
+ <footer className="studio-editor-footer"><button type="button" onClick={onCancel} disabled={busy}>رجوع للبنك</button><span>{input.id?'تعديل السؤال المحفوظ':'سؤال جديد'} · {missing.length?'ناقص '+missing.length+' عناصر':'جاهز للنشر'}</span><button type="button" disabled={busy} onClick={()=>void save('hidden')}>حفظ مسودة</button><button type="button" className="visual-next" disabled={busy||missing.length>0} onClick={()=>void save('published')}>{busy?'جارٍ الحفظ…':'حفظ ونشر السؤال'}</button></footer></section>;
 }

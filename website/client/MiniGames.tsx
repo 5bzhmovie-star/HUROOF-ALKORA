@@ -3,7 +3,7 @@ import React,{useEffect,useRef,useState} from 'react';
 import {ArrowLeft,ArrowRight,Bell,Check,Clock,Copy,Dices,Eye,EyeOff,Flag,Gauge,Link as LinkIcon,LockKeyhole,Maximize,Mic,MonitorPlay,RefreshCw,RotateCcw,Search,Shield,Trophy,Users,Volume2,VolumeX,Wifi,WifiOff,X} from 'lucide-react';
 import {Dialog,DialogContent,DialogDescription,DialogTitle} from '@/components/ui/dialog';
 import {RadioGroup,RadioGroupItem} from '@/components/ui/radio-group';
-import {api,ar,navigate,Session} from './api';
+import {inviteOrigin,api,ar,navigate,Session} from './api';
 import {miniGames as iconGames} from './minigames-data';
 import {Button,Choice,Identity,Link,Loading,Notice} from './ui';
 import {qrDataUrl} from './qr';
@@ -67,7 +67,7 @@ export function MiniRoomPage({id,role,session,onSession}:{id:string;role:Role;se
   // Normalize potentially absent buzzer data before rendering or comparing versions.
   const accept=(incoming:MiniRoom)=>{
     if(!incoming||!incoming.config||!incoming.round||typeof incoming.version!=='number')return;
-    const data:MiniRoom={...incoming,buzz:{open:false,winner:null,deadline:null,key:'',...(incoming.buzz||{}),winner:incoming.buzz?.winner??null}};
+    const data:MiniRoom={...incoming,buzz:{...incoming.buzz,open:incoming.buzz?.open??false,winner:incoming.buzz?.winner??null,deadline:incoming.buzz?.deadline??null,key:incoming.buzz?.key??''}};
     if(last.current&&data.version<last.current.version)return;
     if(last.current&&!last.current.buzz.winner&&data.buzz.winner)playSound('buzz');if(data.finished&&!last.current?.finished)playSound('win');clockOffset.current=data.serverTime-Date.now();last.current=data;setRoom(data);};
   useEffect(()=>{let live=true;(async()=>{try{const data=await api<MiniRoom>(`/mini-rooms/${id}?view=${role}`);if(live){accept(data);setEntered(true);setConnection(true);}}catch(e:any){if(role==='buzzer'&&[401,403].includes(e.status)){try{const preview=await api<MiniRoom>(`/mini-rooms/${id}?view=display`);if(live)accept(preview);}catch(x:any){if(live)setFatal(x.message);}}else if(live)setFatal(e.message);}finally{if(live)setLoading(false);}})();return()=>{live=false};},[id,role,session.user?.id]);

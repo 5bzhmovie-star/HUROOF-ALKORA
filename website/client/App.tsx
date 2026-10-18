@@ -49,7 +49,7 @@ export default function GameApp() {
     } }
     useEffect(() => { setPath(location.pathname); const onPop = () => setPath(location.pathname); window.addEventListener('popstate', onPop); setSound(localStorage.getItem('hk-sound') === 'on'); void load(); if ('serviceWorker' in navigator)
         navigator.serviceWorker.register('/sw.js').catch(() => { }); return () => window.removeEventListener('popstate', onPop); }, []);
-    useEffect(() => { const warm = () => { void loadCreate(); void loadRoom(); void loadMiniGames(); }; if ('requestIdleCallback' in window) { const idle = window.requestIdleCallback(warm, { timeout: 1200 }); return () => window.cancelIdleCallback(idle); } const timer = window.setTimeout(warm, 500); return () => window.clearTimeout(timer); }, []);
+    useEffect(() => { const warm = () => { void loadCreate(); void loadRoom(); void loadMiniGames(); }; if ('requestIdleCallback' in window) { const idle = window.requestIdleCallback(warm, { timeout: 1200 }); return () => window.cancelIdleCallback(idle); } const timer = globalThis.setTimeout(warm, 500); return () => globalThis.clearTimeout(timer); }, []);
     useEffect(() => { const dark = theme !== 'light'; document.documentElement.classList.toggle('dark', dark); document.documentElement.style.colorScheme = dark ? 'dark' : 'light'; }, [theme]);
     const match = path.match(/^\/room\/([A-Za-z0-9_-]{12})\/(host|display|buzzer)$/), miniRoom=path.match(/^\/mini-room\/([A-Za-z0-9_-]{12})\/(host|display|buzzer)$/),miniMatch=path.match(/^\/mini-games\/([a-z0-9-]+)$/), isDisplay = match?.[2] === 'display'||miniRoom?.[2]==='display', isBuzzer = match?.[2] === 'buzzer'||miniRoom?.[2]==='buzzer';
     let content;

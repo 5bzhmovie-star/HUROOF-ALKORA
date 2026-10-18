@@ -29,7 +29,7 @@ const labels:Record<string,string>={player:'لاعب',club:'نادي',national_t
 const mimeImage=(url:string|null)=>url?.startsWith('/api/visual-media/')?url:null;
 function Portrait({item,size=55}:{item:AtlasEntity;size?:number}){
  const Icon=CATEGORIES.find(x=>x.id===item.entity_type)?.icon||Globe2;
- const url=mimeImage(item.image_key)||((item.metadata?.externalImage?.url||'').startsWith('https://upload.wikimedia.org/')?item.metadata.externalImage.url:null);
+ const url=mimeImage(item.image_key)||((item.metadata?.externalImage?.url||'').startsWith('https://upload.wikimedia.org/')?item.metadata?.externalImage?.url||null:null);
  return <span className="atlas-crest" style={{width:size,height:size}}>{url?<img src={url} loading="lazy" alt={item.name_ar}/>:<Icon size={size*.46} aria-hidden="true"/>}</span>;
 }
 export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x:AtlasEntity)=>void;canReview?:boolean}){
@@ -90,10 +90,10 @@ export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x
      }}>حفظ شعارات البطولات محليًا</button></div>
    {coverage&&<section className="atlas-coverage"><h3>فحص جاهزية صور المكتبة</h3><p>الشعارات المحفوظة محليًا: <strong>{coverage.logosCached} / 11</strong> · صور اللاعبين: <strong>{coverage.playerPhotosCached} / {coverage.playersIndexed}</strong></p>
    <div className="atlas-coverage-grid">{coverage.competitions.map((c:any)=><div key={c.id} className={c.logoCached?'ok':'missing'}>{c.logoCached?'✓':'!'} {c.nameAr} <small>{c.logoCached?'شعار مخزن':'الصورة ناقصة'}</small></div>)}</div>
-   {!coverage.releaseReady&&<p role="status">هذه المكتبة لا تستوفي شروط قبول الإصدار النهائي بعد؛ النواقص هنا محسوبة من الملفات الموجودة فعلًا.</p>}
+   {!coverage.releaseReady&&<p role="status">الصور والأسماء المعروضة من السجلات المحلية. بعض البيانات والصور بانتظار المراجعة؛ عدد شعارات البطولات مستقل عن صور الأندية واللاعبين.</p>}
    </section>}
    <div className="atlas-dashboard">
-    {[{n:count('player'),text:'اللاعبون المسجلون',I:Users},{n:count('club'),text:'الأندية المسجلة',I:Shield},{n:count('national_team'),text:'المنتخبات',I:Flag},{n:stats?.media||0,text:'صور محلية مرخصة',I:ImageIcon},
+    {[{n:count('player'),text:'اللاعبون المسجلون',I:Users},{n:count('club'),text:'الأندية المسجلة',I:Shield},{n:count('national_team'),text:'المنتخبات',I:Flag},{n:stats?.media||0,text:'صور محلية محفوظة',I:ImageIcon},
        {n:stats?.relations||0,text:'العلاقات التاريخية',I:Layers},{n:reviewCount,text:'تحتاج مراجعة',I:AlertTriangle},{n:stats?.publishedVisual||0,text:'أسئلة بصرية منشورة',I:BookOpen},{n:11,text:'بطولات مستهدفة',I:Trophy}].map(o=><div className="atlas-metric" key={o.text}><o.I size={25} color="#c2f17c"/><div><div className="figure">{loading&&!stats?'—':o.n.toLocaleString('ar-SA')}</div><small>{o.text}</small></div></div>)}
    </div>
    <section className="atlas-collections"><h3>البطولات المعتمدة <span className="atlas-page-meta">11 مسابقة · التغطية الفعلية تعتمد على السجلات المستوردة والمعتمدة</span></h3>

@@ -1,18 +1,24 @@
 // Server-only visual question contract. No confidential answers in public projections.
 import { fail } from './security.mjs';
-const TYPES = new Set(['career','guess_club_nationalities','guess_nation_clubs']);
+const TYPES = new Set(['image','career','guess_club_nationalities','guess_nation_clubs']);
 const EXT = new Set(['image/png','image/webp','image/jpeg','image/svg+xml']);
 const pathOk = s => typeof s==='string' && /^\/api\/visual-media\/[a-zA-Z0-9_-]{8,64}$/.test(s);
 const secureAsset = (asset, label) => {
   if(!pathOk(asset)) fail(422,'وسائط ناقصة أو غير معتمدة: '+label);
   return asset;
 };
-export function validateVisualQuestion(item) {
+export function validateVisualQuestion(item,{draft=false}={}) {
   if(!item || !TYPES.has(item.type)) fail(422,'نوع السؤال البصري غير معتمد.');
+  if(JSON.stringify(item).length>180000)fail(422,'محتوى السؤال أكبر من الحد.');
+  if(draft){
+    for(const key of ['players','stations'])if(item[key]!==undefined&&(!Array.isArray(item[key])||item[key].length>(key==='players'?11:8)))fail(422,'راجع عناصر السؤال.');
+    return item;
+  }
   if(typeof item.source!=='string' || !/^https:\/\//.test(item.source) || !Number.isFinite(Date.parse(item.verifiedAt||'')))
     fail(422,'يتطلب السؤال مصدرًا موثقًا وتاريخ تحقق صحيحًا.');
   if(!/^\d{4}-\d{2}-\d{2}$/.test(item.eventDate||'')) fail(422,'أدخل تاريخ المباراة أو المسيرة المرجعي.');
   const image = (value,label) => secureAsset(value,label);
+  if(item.type==='image'){image(item.image,'صورة السؤال');return item;}
   if(item.type==='career') {
     if(!Array.isArray(item.stations)||item.stations.length<3||item.stations.length>8)
       fail(422,'المسيرة تتطلب 3 إلى 8 محطات موثقة.');
@@ -40,6 +46,7 @@ export function validateVisualQuestion(item) {
 }
 export function publicVisual(visual, revealAll=false, revealedSlots=[]) {
   if(!visual)return null;
+  if(visual.type==='image')return {type:'image',image:visual.image};
   const slots=new Set(revealedSlots);
   const shared={type:visual.type,eventDate:visual.eventDate,competition:visual.competition||'',formation:visual.formation||null};
   if(visual.type==='career')return {...shared,stations:visual.stations.map(s=>({clubLogo:s.clubLogo,from:s.from,to:s.to,loan:!!s.loan})),...(revealAll?{playerPhoto:visual.playerPhoto,playerName:visual.playerName}: {})};

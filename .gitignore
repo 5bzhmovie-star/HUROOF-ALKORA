@@ -1,0 +1,11 @@
+
+website/seed/source-library/
+desktop/dist/
+desktop/**/bin/
+desktop/**/obj/
+website/node_modules/
+website/dist/
+website/data/
+website/*.tsbuildinfo
+.superpowers/
+football-library/assets/bundles/.*.tar.*

@@ -3,7 +3,7 @@ export function latestRequest(){
  let generation=0;
  return {
  cancel(){generation++;},
- async run(load,onValue,onError=()=>{}){
+ async run(load,onValue,onError=(_error)=>{}){
  const current=++generation;
  try{const value=await load();if(current===generation)onValue(value);}
  catch(error){if(current===generation)onError(error);}

@@ -12,6 +12,31 @@ chmodSync(dbPath, 0o600);
 db.exec(`PRAGMA journal_mode=WAL; PRAGMA foreign_keys=ON; PRAGMA busy_timeout=5000;`);
 db.exec(readFileSync(resolve(root, 'server/schema.sql'), 'utf8'));
 function ensureLocalMigrations() {
+    if (!db.prepare("SELECT sql FROM sqlite_master WHERE name='visual_questions'").get().sql.includes("'image'")) {
+        db.exec(`BEGIN IMMEDIATE;
+        CREATE TABLE visual_questions_v2(question_id TEXT PRIMARY KEY REFERENCES questions(id) ON DELETE CASCADE,kind TEXT NOT NULL CHECK(kind IN ('image','career','guess_club_nationalities','guess_nation_clubs')),payload TEXT NOT NULL CHECK(json_valid(payload)),verified_at TEXT NOT NULL,created_at INTEGER NOT NULL);
+        INSERT INTO visual_questions_v2 SELECT * FROM visual_questions;
+        DROP TABLE visual_questions; ALTER TABLE visual_questions_v2 RENAME TO visual_questions;
+        COMMIT;`);
+    }
+
+
+    if (!db.prepare('PRAGMA table_info(questions)').all().some(c=>c.name==='content_kind')) {
+        const qsql=db.prepare("SELECT sql FROM sqlite_master WHERE name='questions'").get().sql;
+        const vsql=db.prepare("SELECT sql FROM sqlite_master WHERE name='visual_questions'").get().sql;
+        db.exec('BEGIN IMMEDIATE');
+        try {
+            db.exec(qsql.replace('CREATE TABLE questions','CREATE TABLE questions_v2').replace('text TEXT NOT NULL UNIQUE','text TEXT NOT NULL').replace(/\)$/,",content_kind TEXT NOT NULL DEFAULT 'text')"));
+            db.exec(`INSERT INTO questions_v2 SELECT q.*,CASE WHEN EXISTS(SELECT 1 FROM visual_questions v WHERE v.question_id=q.id) THEN 'visual' ELSE 'text' END FROM questions q;
+            CREATE TEMP TABLE visual_backup AS SELECT * FROM visual_questions;
+            DROP TABLE visual_questions; DROP TABLE questions;
+            ALTER TABLE questions_v2 RENAME TO questions;`);
+            db.exec(vsql);
+            db.exec(`INSERT INTO visual_questions SELECT * FROM visual_backup; DROP TABLE visual_backup;
+            CREATE INDEX idx_questions_pool ON questions(tournament_id,status,letter,difficulty); COMMIT;`);
+        }catch(error){db.exec('ROLLBACK');throw error;}
+    }
+    db.exec("CREATE UNIQUE INDEX IF NOT EXISTS idx_questions_text_unique ON questions(text) WHERE content_kind='text'");
     const columns = new Set(db.prepare('PRAGMA table_info(mini_game_rounds)').all().map(column => column.name));
     if (!columns.has('accepted')) db.exec("ALTER TABLE mini_game_rounds ADD COLUMN accepted TEXT NOT NULL DEFAULT '[]'");
     if (!columns.has('explanation')) db.exec("ALTER TABLE mini_game_rounds ADD COLUMN explanation TEXT NOT NULL DEFAULT ''");

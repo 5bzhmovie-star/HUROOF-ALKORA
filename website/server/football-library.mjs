@@ -39,7 +39,7 @@ export function searchEntities(filter={}){
  if(type){clauses.push('entity_type=?');args.push(type);}
  if(term){clauses.push('(name_ar LIKE ? OR name_en LIKE ? OR id LIKE ?)');args.push(...Array(3).fill('%'+term+'%'));}
  const where=clauses.length?'WHERE '+clauses.join(' AND '):'';
- return many('SELECT id,entity_type,name_ar,name_en,image_key,image_license,metadata FROM football_entities '+where+' ORDER BY name_ar LIMIT 100',...args)
+ return many('SELECT id,entity_type,name_ar,name_en,image_key,image_license,metadata FROM football_entities '+where+' ORDER BY name_ar LIMIT 5000',...args)
  .map(r=>({...r,metadata:JSON.parse(r.metadata||'{}')}));
 }
 export function getHistory(id){

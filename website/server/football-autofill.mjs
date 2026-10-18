@@ -17,6 +17,6 @@ export function playerAutofill(id){
  const clubs=links.filter(r=>['played_for','loaned_to'].includes(r.relation)).sort((a,b)=>String(a.from||'').localeCompare(String(b.from||'')));
  const known=Object.fromEntries(['position','shirtNumber','nationality','nationalities','dateOfBirth','heightCm','preferredFoot','contractUntil','marketValue','clubAtDate'].filter(k=>m[k]!=null).map(k=>[k,m[k]]));
  const lastClub=clubs.filter(r=>!r.to).sort((a,b)=>String(b.from).localeCompare(String(a.from)))[0];
- return {id:entity.id,nameAr:entity.name_ar,nameEn:entity.name_en,photo:entity.image_key||m.externalImage?.url||'',...known,
- currentClub:lastClub?.entity?.name_ar||null,career:clubs.map(r=>({club:r.entity.name_ar,clubImage:r.entity.image_key||'',from:r.from,to:r.to,loan:r.relation==='loaned_to',source:r.source})),missing:['position','shirtNumber','nationality'].filter(k=>known[k]==null),source:m.source||null};
+ return {id:entity.id,nameAr:entity.name_ar,nameEn:entity.name_en,photo:entity.image_key||m.externalImage?.url||'',...known,verification:m.verification||'pending',season:m.season||null,sourceClubId:m.sourceClubId||null,
+ currentClub:lastClub?.entity?.name_ar||m.clubAtDate||null,career:clubs.map(r=>({club:r.entity.name_ar,clubImage:r.entity.image_key||'',from:r.from,to:r.to,loan:r.relation==='loaned_to',source:r.source})),missing:['position','shirtNumber','nationality'].filter(k=>known[k]==null),source:m.source||null};
 }

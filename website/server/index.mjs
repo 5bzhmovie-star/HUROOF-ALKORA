@@ -16,6 +16,7 @@ import {atlasExplore,atlasDetail} from './football-viewer.mjs';
 import {playerSearch,playerAutofill} from './football-autofill.mjs';
 import {atlasCoverage} from './football-coverage.mjs';
 import {cacheImages} from './football-media-cache.mjs';
+import {installSourceLibrary} from './source-library.mjs';
 import {installBundledAtlasMedia} from './football-bundled-media.mjs';
 import { importCompetitionCatalog } from './football-competitions.mjs';
 import { addEntity } from './football-library.mjs';
@@ -40,6 +41,7 @@ export function createApplication(options = {}) {
     if (Boolean(config.turnstileSecret) !== Boolean(config.turnstileSite))
         throw new Error('Both Turnstile keys are required.');
     seedDatabase();
+    if(process.env.NODE_ENV==='desktop')console.log('Offline source library:',installSourceLibrary());
     // Preload the source-linked reference catalog in desktop builds. This only creates
     // pending-review records; it never publishes questions or claims licensed images.
     if (process.env.NODE_ENV === 'desktop' && !one("SELECT value FROM settings WHERE key='football_atlas_first_run_v1'")) {

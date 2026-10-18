@@ -3,6 +3,7 @@ import { fail, token } from './security.mjs';
 import { answerLetter, LETTERS } from './game.mjs';
 import { validName, broadcast } from './rooms.mjs';
 import { normalizeSupportUrl } from './support-url.mjs';
+import {visualBank,visualDetail} from './visual-bank.mjs';
 import { validateVisualQuestion } from './visual-questions.mjs';
 import {searchEntities,getHistory,libraryStats,addEntity,addRelation,fixtureDraft,careerDraft,reviewEntity} from './football-library.mjs';
 import {importOfficialStarter} from './football-starter.mjs';
@@ -18,17 +19,17 @@ import { randomUUID, createHash } from 'node:crypto';
 import { dataDir } from './database.mjs';
 const RESET_PHRASE = 'حذف جميع الأسئلة';
 function exportBasicQuestions() {
-  return many('SELECT tournament_id,letter,text,answer,difficulty,status,source,note FROM questions ORDER BY tournament_id,id');
+  return many('SELECT tournament_id,letter,text,answer,difficulty,status,source,note FROM questions WHERE NOT EXISTS (SELECT 1 FROM visual_questions v WHERE v.question_id=questions.id) ORDER BY tournament_id,id');
 }
 
 export function audit(actor, action, target = '') { run('INSERT INTO audit(actor,action,target,created_at) VALUES(?,?,?,?)', actor, action, String(target).slice(0, 180), Date.now()); }
 export function requireAdmin(admin, roles = ['owner', 'manager', 'questions']) { if (!admin || !admin.active)
     fail(401, 'سجّل دخول الإدارة أولًا.'); if (!roles.includes(admin.role))
     fail(403, 'ليست لديك صلاحية لهذا الإجراء.'); }
-function questionInput(body) { const q = { tournament_id: String(body.tournament_id || ''), text: String(body.text || '').trim(), answer: String(body.answer || '').trim(), letter: String(body.letter || '').trim(), difficulty: body.difficulty || 'medium', status: body.status || 'published', source: String(body.source || '').trim(), note: String(body.note || '').trim() }; if (q.text.length < 12 || q.text.length > 600 || q.answer.length < 2 || q.answer.length > 180 || q.note.length > 800 || /[\p{Cc}\p{Cf}]/u.test(q.text + q.answer) || !['easy', 'medium', 'hard'].includes(q.difficulty) || !['published', 'hidden'].includes(q.status))
+function questionInput(body, {draft=false}={}) { const q = { tournament_id: String(body.tournament_id || ''), text: String(body.text || '').trim(), answer: String(body.answer || '').trim(), letter: String(body.letter || '').trim(), difficulty: body.difficulty || 'medium', status: body.status || 'published', source: String(body.source || '').trim(), note: String(body.note || '').trim() }; if ((!draft && (q.text.length < 12 || q.answer.length < 2)) || q.text.length > 600 || q.answer.length > 180 || q.note.length > 800 || /[\p{Cc}\p{Cf}]/u.test(q.text + q.answer) || !['easy', 'medium', 'hard'].includes(q.difficulty) || !['published', 'hidden'].includes(q.status))
     fail(422, 'راجع نص السؤال والإجابة ومستوى الصعوبة.'); if (!one('SELECT id FROM tournaments WHERE id=?', q.tournament_id))
-    fail(422, 'اختر بطولة صحيحة.'); if (!LETTERS.includes(q.letter) || answerLetter(q.answer) !== q.letter)
-    fail(422, 'الحرف يجب أن يطابق أول حرف في الإجابة بعد تجاهل «الـ» وتوحيد الهمزة.'); try {
+    fail(422, 'اختر بطولة صحيحة.'); if (!LETTERS.includes(q.letter) || (q.answer && answerLetter(q.answer) !== q.letter))
+    fail(422, 'الحرف يجب أن يطابق أول حرف في الإجابة بعد تجاهل «الـ» وتوحيد الهمزة.'); if(draft&&!q.source)return q; try {
     const u = new URL(q.source);
     if (u.protocol !== 'https:' || u.username || u.password || q.source.length > 1000)
         throw 0;
@@ -36,13 +37,15 @@ function questionInput(body) { const q = { tournament_id: String(body.tournament
 catch {
     fail(422, 'أضف رابط مصدر صحيح يبدأ بـ https.');
 } return q; }
-function writeQuestion(q, id) { const now = Date.now(); run('INSERT INTO questions(id,tournament_id,letter,text,answer,difficulty,status,source,note,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET tournament_id=excluded.tournament_id,letter=excluded.letter,text=excluded.text,answer=excluded.answer,difficulty=excluded.difficulty,status=excluded.status,source=excluded.source,note=excluded.note,updated_at=excluded.updated_at', id, q.tournament_id, q.letter, q.text, q.answer, q.difficulty, q.status, q.source, q.note, now, now); }
+function writeQuestion(q, id, kind='text') { const now = Date.now(); run('INSERT INTO questions(id,tournament_id,letter,text,answer,difficulty,status,source,note,created_at,updated_at,content_kind) VALUES(?,?,?,?,?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET tournament_id=excluded.tournament_id,letter=excluded.letter,text=excluded.text,answer=excluded.answer,difficulty=excluded.difficulty,status=excluded.status,source=excluded.source,note=excluded.note,updated_at=excluded.updated_at,content_kind=excluded.content_kind', id, q.tournament_id, q.letter, q.text, q.answer, q.difficulty, q.status, q.source, q.note, now, now,kind); }
 export function adminGet(path, url, admin) {
     requireAdmin(admin);
     switch (path) {
+        case 'visual-bank': return visualBank(Object.fromEntries(url.searchParams));
+        case 'visual-detail': return visualDetail(String(url.searchParams.get('id')||''));
         case 'overview': return { questions: one('SELECT count(*) AS n FROM questions').n, published: one("SELECT count(*) AS n FROM questions WHERE status='published'").n, rooms: one("SELECT count(*) AS n FROM rooms WHERE status='open' AND expires_at>?", Date.now()).n, matches: one('SELECT count(*) AS n FROM matches').n, users: one('SELECT count(*) AS n FROM users').n, competitions: many("SELECT t.id,t.name,count(q.id) AS questions FROM tournaments t LEFT JOIN questions q ON q.tournament_id=t.id GROUP BY t.id ORDER BY t.position"), popular: many("SELECT t.name,count(*) AS rooms FROM rooms r,json_each(r.config,'$.tournaments') j JOIN tournaments t ON t.id=j.value GROUP BY t.id ORDER BY rooms DESC LIMIT 5"), role: admin.role };
         case 'questions': {
-            const terms = ['1=1'], p = [];
+            const terms = ["NOT EXISTS (SELECT 1 FROM visual_questions vx WHERE vx.question_id=q.id)"], p = [];
             for (const [key, col] of [['tournament', 'q.tournament_id'], ['letter', 'q.letter'], ['status', 'q.status'], ['difficulty', 'q.difficulty']]) {
                 const value = url.searchParams.get(key);
                 if (value) {
@@ -64,14 +67,14 @@ export function adminGet(path, url, admin) {
         case 'football-library-history': return getHistory(url.searchParams.get('id'));
         case 'football-fixture-draft': return fixtureDraft(url.searchParams.get('id'));
         case 'football-career-draft': return careerDraft(url.searchParams.get('id'));
-        case 'visual-media': return many('SELECT id,content_type,license,source,created_at FROM visual_assets ORDER BY created_at DESC LIMIT 500')
+        case 'visual-media': return many(`SELECT a.id,a.content_type,a.license,a.source,a.created_at,(SELECT name_ar FROM football_entities e WHERE e.image_key='/api/visual-media/'||a.id LIMIT 1) label FROM visual_assets a ORDER BY a.created_at DESC LIMIT 5000`)
             .map(item=>({...item,url:'/api/visual-media/'+item.id}));
         case 'visual-questions': return many('SELECT q.id,q.text,q.answer,q.letter,q.tournament_id,q.difficulty,q.status,v.kind,v.payload,v.verified_at FROM visual_questions v JOIN questions q ON q.id=v.question_id ORDER BY q.updated_at DESC LIMIT 500')
             .map(item=>({...item,visual:JSON.parse(item.payload),payload:undefined}));
         case 'tournaments': return many("SELECT t.*,count(q.id) AS questions FROM tournaments t LEFT JOIN questions q ON q.tournament_id=t.id GROUP BY t.id ORDER BY t.position,t.name");
         case 'questions-reset-info': {
             requireAdmin(admin,['owner']);
-            const count = one('SELECT count(*) n FROM questions').n;
+            const count = one('SELECT count(*) n FROM questions WHERE NOT EXISTS (SELECT 1 FROM visual_questions v WHERE v.question_id=questions.id)').n;
             return {count,phrase:RESET_PHRASE,miniCount:one('SELECT count(*) n FROM mini_game_rounds').n};
         }
         case 'export':
@@ -160,33 +163,39 @@ export function adminWrite(path, body, admin) {
             audit(admin.username,'visual.media-upload',result.id);
             return result;
         }
+        case 'visual-clone': {
+            const q=visualDetail(String(body.id||''));const id=token(18);
+            transaction(()=>{writeQuestion({...q,status:'hidden'},id,'visual');run('INSERT INTO visual_questions(question_id,kind,payload,verified_at,created_at) VALUES(?,?,?,?,?)',id,q.kind,JSON.stringify(q.visual),q.verified_at,Date.now());audit(admin.username,'visual.clone',id);});return {id};
+        }
         case 'visual-question': {
             requireAdmin(admin,['owner','manager','questions']);
-            const base=questionInput(body), visual=validateVisualQuestion(body.visual);
+            const draft=body.status==='hidden';
+            const base=questionInput(body,{draft}), visual=validateVisualQuestion(body.visual,{draft});
             const refs=new Set();
             const collect=(object)=>{
                 if(!object||typeof object!=='object')return;
                 for(const [key,val] of Object.entries(object)){
-                    if(['photo','flag','clubLogo','teamImage','playerPhoto'].includes(key)&&typeof val==='string')refs.add(val);
+                    if(['image','photo','flag','clubLogo','teamImage','playerPhoto'].includes(key)&&typeof val==='string')refs.add(val);
                     else if(Array.isArray(val))val.forEach(collect);
                     else if(val&&typeof val==='object')collect(val);
                 }
             };
             collect(visual);
-            for(const ref of refs)if(!referencedMediaExists(ref))fail(422,'الصورة غير موجودة في مكتبة الوسائط: '+ref);
+            for(const ref of refs)if(ref&&!referencedMediaExists(ref))fail(422,'الصورة غير موجودة في مكتبة الوسائط: '+ref);
             // Prevent publishing non-reviewed questions and reject mismatched type/answer.
             if(base.status==='published'&&(!visual.source||!visual.verifiedAt))fail(422,'التحقق التاريخي مطلوب للنشر.');
             const id=body.id?String(body.id):token(18);
             if(body.id&&!one('SELECT id FROM questions WHERE id=?',id))fail(404,'السؤال غير موجود.');
             transaction(()=>{
-                writeQuestion(base,id);
+                writeQuestion(base,id,'visual');
                 run('INSERT INTO visual_questions(question_id,kind,payload,verified_at,created_at) VALUES(?,?,?,?,?) ON CONFLICT(question_id) DO UPDATE SET kind=excluded.kind,payload=excluded.payload,verified_at=excluded.verified_at',
-                    id,visual.type,JSON.stringify(visual),visual.verifiedAt,Date.now());
+                    id,visual.type,JSON.stringify(visual),visual.verifiedAt||'',Date.now());
                 audit(admin.username,'visual.question-save',id);
             });
             return {id,kind:visual.type};
         }
         case 'question': {
+            if(body.id&&one('SELECT question_id FROM visual_questions WHERE question_id=?',String(body.id)))fail(422,'عدّل هذا السؤال من بنك الأسئلة المصوّرة.');
             const q = questionInput(body), id = body.id ? String(body.id) : token(18);
             if (body.id && !one('SELECT id FROM questions WHERE id=?', id))
                 fail(404, 'السؤال غير موجود.');
@@ -195,7 +204,7 @@ export function adminWrite(path, body, admin) {
         }
         case 'questions-reset': {
             requireAdmin(admin,['owner']);
-            const current = one('SELECT count(*) n FROM questions').n;
+            const current = one('SELECT count(*) n FROM questions WHERE NOT EXISTS (SELECT 1 FROM visual_questions v WHERE v.question_id=questions.id)').n;
             if (body.confirm !== RESET_PHRASE || !Number.isSafeInteger(body.expectedCount) || body.expectedCount !== current)
                 fail(409,'العدد تغيّر أو عبارة التأكيد غير صحيحة. حدّث الصفحة ثم أعد المحاولة.');
             if (!current) fail(409,'بنك الأسئلة فارغ بالفعل.');
@@ -223,7 +232,7 @@ export function adminWrite(path, body, admin) {
             } finally {if(fd!==undefined)closeSync(fd);}
             transaction(()=>{
                 run("INSERT INTO settings(key,value) VALUES('basic_questions_customized','true') ON CONFLICT(key) DO UPDATE SET value='true'");
-                run('DELETE FROM questions');
+                run('DELETE FROM questions WHERE NOT EXISTS (SELECT 1 FROM visual_questions v WHERE v.question_id=questions.id)');
                 audit(admin.username,'questions.reset',String(current));
             });
             return {ok:true,deleted:current,backupFile:filename,sha256:createHash('sha256').update(json).digest('hex'),remaining:one('SELECT count(*) n FROM questions').n};
