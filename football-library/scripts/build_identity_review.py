@@ -50,6 +50,29 @@ CREATE TABLE media_candidates(source_id TEXT NOT NULL REFERENCES observations(id
   if db.execute('PRAGMA foreign_key_check').fetchall() or db.execute('PRAGMA integrity_check').fetchone()[0]!='ok':raise ValueError('Database validation failed')
  finally:db.close()
 
+def link_english_media(rows,records,assets):
+ result=[dict(r,mediaCandidates=list(r.get('mediaCandidates',[]))) for r in rows];lookup=collections.defaultdict(list);indexed={a['path']:a for a in assets};audit=[]
+ for r in result:
+  if r['namespace']=='premier-league-api':lookup[str(r['sourcePersonId'])].append((r,str(r['clubId'])))
+  elif r['namespace']=='premier-league-sdp':
+   p=r.get('assertedOtherSourceId',{});c=r.get('assertedOtherClubId',{})
+   if p.get('namespace')=='premier-league-api' and c.get('namespace')=='premier-league-api' and p.get('id') and c.get('id'):lookup[str(p['id'])].append((r,str(c['id'])))
+ for e in records:
+  if e.get('kind')!='player':continue
+  a=indexed.get(e.get('file'));path=e.get('file','');valid=a and re.fullmatch(r'assets/pending_media/english_completion/[A-Za-z0-9_./-]+\.(?:png|jpe?g|webp)',path) and all(x not in ('','.','..') for x in path.split('/')) and a['sha256']==e.get('sha256') and a['bytes']==e.get('bytes') and any((x.get('imageSource') or x.get('source'))==e.get('imageSource') for x in a.get('evidence',[]))
+  if not valid:audit.append({'file':path,'status':'asset-evidence-mismatch'});continue
+  candidates=lookup.get(str(e.get('plPersonId')),[])
+  if not candidates:audit.append({'file':path,'status':'no-explicit-primary-source-identity'});continue
+  for r,club in candidates:
+   reason=None
+   if not e.get('expectedPlClubId') or str(e['expectedPlClubId'])!=club:reason='club-conflict-or-missing'
+   elif not birth(e.get('publishedBirthDate')) or birth(e['publishedBirthDate'])!=birth(r.get('dob')):reason='birth-date-conflict-or-missing'
+   elif normalize(e.get('nameAsPublished','')) not in {normalize(n) for n in r['names']}:reason='name-conflict'
+   if reason:audit.append({'file':path,'sourceId':r['id'],'status':reason});continue
+   if any(x['path']==path for x in r['mediaCandidates']):continue
+   r['mediaCandidates'].append({'path':path,'sha256':a['sha256'],'bytes':a['bytes'],'approvedForQuestions':False,'identityKitAndRights':'pending','linkBasis':'Explicit primary-source person ID, published name, birth date and primary-source club ID; asset URL and bytes match','linkEvidenceFile':e['evidenceFile'],'linkEvidenceSha256':e['evidenceSha256']});audit.append({'file':path,'sourceId':r['id'],'status':'candidate-linked-not-approved'})
+ return result,audit
+
 def collect(base):
  rows=[];inputs=[]
  def read(name):
