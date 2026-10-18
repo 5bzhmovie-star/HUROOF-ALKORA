@@ -169,8 +169,8 @@
       "logo": "ff52fd1f863b497a06a0f2d46cb15994651383a42866bf21e873d1ab817ccc28",
       "players": 30,
       "file": "clubs/esp-4.json",
-      "bytes": 23534,
-      "sha256": "2091e95f7abcb4c2f96a79e0ee79f9a180ce1d7dc42550e88ac2753c110c8f1f"
+      "bytes": 26271,
+      "sha256": "14450a9b0794ba535c6938eef795aff37d72b3f2b9ff349d741b403ab10fda49"
     },
     {
       "id": "esp-49",
@@ -683,6 +683,11 @@
       "path": "data/chelsea_profile_birth_evidence_2026_10_18.json",
       "bytes": 13962,
       "sha256": "e62251c29ad6a1264e80c8b3d3fcfe3c383823a4c1c9b9b91ed371706ebabd70"
+    },
+    {
+      "path": "data/barcelona_profile_evidence_2026_10_18.json",
+      "bytes": 6361,
+      "sha256": "6aa77a91e95c4af0c57363ab96e863b0dfaa2e6603c844a9908b9d7d00d63451"
     },
     {
       "path": "data/english_uefa_profile_evidence_2026_10_18.json",

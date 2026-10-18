@@ -1,7 +1,7 @@
 {
   "releaseReady": false,
   "computedFrom": "data/php_source_catalog_2026_10_18/clubs/*.json",
-  "checkedAt": "2026-10-18T13:52:55.642825+00:00",
+  "checkedAt": "2026-10-18T13:58:24.301429+00:00",
   "leagues": {
     "sau": {
       "clubs": 18,
@@ -23,8 +23,8 @@
     "esp": {
       "clubs": 20,
       "sourceCards": 587,
-      "portraitsLinked": 496,
-      "portraitsMissing": 91,
+      "portraitsLinked": 501,
+      "portraitsMissing": 86,
       "clubLogos": 20,
       "fieldsAvailable": {
         "dateOfBirth": 587,
@@ -1359,27 +1359,6 @@
       "dateOfBirth": "2002-01-08"
     },
     {
-      "id": "31c8f5fca47ef7f1c233bf2c4c349e5eee85ef577ee4ced9051fb00e734f120b",
-      "club": "esp-4",
-      "clubName": "FC Barcelona",
-      "name": "João Pedro Cavaco Cancelo",
-      "dateOfBirth": "1994-05-27"
-    },
-    {
-      "id": "a09ad476fd3f25a07eadc5fada3fcf37624d014535b494532b116bacb35f2a93",
-      "club": "esp-4",
-      "clubName": "FC Barcelona",
-      "name": "Roony Bardghji",
-      "dateOfBirth": "2005-11-15"
-    },
-    {
-      "id": "bf79b23b0a89cfc7a0baeef738a14b3b67efdf20c0584979569b3bca386f199a",
-      "club": "esp-4",
-      "clubName": "FC Barcelona",
-      "name": "Rodrigo Hernández Cascante",
-      "dateOfBirth": "1996-06-22"
-    },
-    {
       "id": "4c99bd5954560380c0e6125448b17af10b3e7264e1eb78e74f4b5996709fa8a9",
       "club": "esp-4",
       "clubName": "FC Barcelona",
@@ -1399,20 +1378,6 @@
       "clubName": "FC Barcelona",
       "name": "Jordi Pesquer",
       "dateOfBirth": "2009-01-26"
-    },
-    {
-      "id": "f51e580e9c9cf4679511ca6ab5adf4fed27f28e28289be2c9a0dcee0c45670a2",
-      "club": "esp-4",
-      "clubName": "FC Barcelona",
-      "name": "Dominik Livakovic",
-      "dateOfBirth": "1995-01-09"
-    },
-    {
-      "id": "4daaa5a3f7aba94a63f60d36b8201e69409781b59f813ded899a9954a8b05695",
-      "club": "esp-4",
-      "clubName": "FC Barcelona",
-      "name": "Gabriel Fernando de Jesus",
-      "dateOfBirth": "1997-04-03"
     },
     {
       "id": "52afce276f3af6579f9e8d1583f9041bf207d31f0e66f3a937865db620fed2df",

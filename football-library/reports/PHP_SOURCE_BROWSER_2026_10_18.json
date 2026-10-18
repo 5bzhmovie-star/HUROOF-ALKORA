@@ -5,16 +5,16 @@
   "counts": {
     "clubs": 58,
     "sourcePlayerCards": 1612,
-    "playerCardsWithContextPortrait": 1311,
+    "playerCardsWithContextPortrait": 1316,
     "clubsWithLogo": 58,
     "releaseReady": false
   },
-  "cardsMissingPortrait": 301,
+  "cardsMissingPortrait": 296,
   "clubsMissingLogo": 0,
   "coachSourceRecords": 58,
   "coachSourceRecordsWithPortrait": 42,
   "pythonReturnCode": 0,
-  "pythonSummary": "Ran63 tests;62 passed,1 skipped (MySQL connection not configured)",
+  "pythonSummary": "Ran64 tests;63 passed,1 skipped (MySQL connection not configured)",
   "phpLintReturnCodes": [
     0,
     0,
@@ -50,5 +50,13 @@
     "rightsAndKitReview": "pending",
     "localPortraitReadsAndChecksumsPassed": 67,
     "phpStatisticsDetailRenderPassed": true
+  },
+  "barcelonaAdditionalContextLinks": {
+    "count": 5,
+    "profilesFetched": 5,
+    "evidence": "exact published full-name profile slug, birth date, organization membership, source person ID and indexed asset hash",
+    "approvedForQuestions": false,
+    "independentVisualKitAndRightsReview": "pending",
+    "localPortraitReadsAndChecksumsPassed": 5
   }
 }

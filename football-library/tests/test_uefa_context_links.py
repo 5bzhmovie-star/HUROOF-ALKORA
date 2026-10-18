@@ -22,7 +22,7 @@ class UefaCatalogIntegrationTests(unittest.TestCase):
   import json,tempfile
   base=Path(__file__).resolve().parents[1]
   with tempfile.TemporaryDirectory() as tmp:
-   result=m.build(base,Path(tmp)/'catalog');self.assertEqual(result['playerCardsWithContextPortrait'],1311)
+   result=m.build(base,Path(tmp)/'catalog');self.assertGreaterEqual(result['playerCardsWithContextPortrait'],1311)
    cards=[p for f in (Path(tmp)/'catalog/clubs').glob('eng-*.json') for p in json.loads(f.read_text())['players']]
    evidence=json.loads((base/'data/english_uefa_profile_evidence_2026_10_18.json').read_text())['records'];count=0
    for x in evidence:

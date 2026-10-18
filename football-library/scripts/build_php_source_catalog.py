@@ -31,6 +31,17 @@ def uefa_context_candidate(r,evidence,paths):
  if p.get('sourceClubId')!=uc or u.get('sourceClubId')!=uc or p.get('clubNameAsPublished')!=club_name or p.get('season')!='2026-2027' or p.get('kind')!='player' or p.get('sourcePersonId')!=u.get('sourcePersonId'):return None
  if not a or a['sha256']!=p.get('sha256') or not any(e.get('sourcePersonId')==p['sourcePersonId'] and e.get('sourceClubId')==uc and e.get('kind')=='player' and e.get('sourceIdNamespace')=='uefa-person' and e.get('season')=='2026-2027' for e in a.get('evidence',[])):return None
  return {'sha256':a['sha256'],'status':'candidate-exact-name-birth-and-official-club-context','dateOfBirthCorroborated':True,'approvedForQuestions':False,'sourceIdentity':'uefa-person:'+p['sourcePersonId'],'source':birth['source'],'birthSourceSha256':birth['sourceSha256']}
+def barcelona_context_candidate(r,profiles,assets):
+ if r['namespace']!='laliga' or r['clubId']!='4' or not r.get('dob'):return None
+ hits=[]
+ for x in profiles:
+  b=x.get('profileEvidence',{});u=x.get('profileUrl','');slug=u.rstrip('/').split('/')[-1].replace('-',' ')
+  if x.get('kind')!='player' or x.get('sourceClubSlug')!='barcelona' or not u.startswith('https://www.fcbarcelona.com/en/football/first-team/players/'+x['sourcePersonId']+'/'):continue
+  if b.get('source')!=u or b.get('status')!='published-person-schema' or b.get('dateOfBirth')!=r['dob'] or b.get('memberOf',{}).get('name')!='FC Barcelona  Club':continue
+  if not any(norm(n)==norm(slug) for n in r['names']):continue
+  matches=[a for a in assets if any(e.get('kind')=='player' and e.get('sourceClubSlug')=='barcelona' and e.get('sourcePersonId')==x['sourcePersonId'] and e.get('sourcePage')==u for e in a.get('evidence',[]))]
+  if len(matches)==1:hits.append({'sha256':matches[0]['sha256'],'status':'candidate-official-full-name-url-birth-and-club-context','sourceIdentity':'barcelona-official:'+x['sourcePersonId'],'source':u,'birthSourceSha256':b['sourceSha256'],'dateOfBirthCorroborated':True,'approvedForQuestions':False})
+ return hits[0] if len(hits)==1 else None
 def build(base,out):
  base=Path(base).resolve();out=Path(out)
  if out.exists():raise ValueError('Use a new output directory')
@@ -48,6 +59,7 @@ def build(base,out):
   assets=assets+extra['files']
   if len({a['sha256'] for a in assets})!=len(assets):raise ValueError('Duplicate supplemental media')
  chelsea=read('chelsea_profiles_2026_27.json')['photos'];chelsea_births={x['sourceIdentity']:x for x in read('chelsea_profile_birth_evidence_2026_10_18.json')['profiles']}
+ barca_evidence=read('barcelona_profile_evidence_2026_10_18.json')['records'] if (base/'data/barcelona_profile_evidence_2026_10_18.json').exists() else []
  uefa_evidence=read('english_uefa_profile_evidence_2026_10_18.json')['records'] if (base/'data/english_uefa_profile_evidence_2026_10_18.json').exists() else []
  paths={a['path']:a for a in assets};refs={};details={};coaches={};sdpclub={};extra={}
  for c in read('english_completion_sdp_personal_2026_27.json')['clubs']:
@@ -87,6 +99,7 @@ def build(base,out):
   for r in members:
    p={'id':r['id'],'sourceIdentityKey':r['sourceIdentityKey'],'name':r['names'][0],'aliases':r['names'],'dateOfBirth':r['dob'],'source':r['source'],'sourceFile':r['inputFile'],'verification':'pending','approvedForQuestions':False,'isCanonicalIdentity':False,**details.get((ns,r['sourcePersonId'],cid),{})};media=r.get('mediaCandidates',[]);p['photo']=media[0]['sha256'] if media else None;candidate=context_photo_candidate(r,chelsea,paths,chelsea_births) if not p['photo'] else None
    if not p['photo'] and not candidate:candidate=uefa_context_candidate(r,uefa_evidence,paths)
+   if not p['photo'] and not candidate:candidate=barcelona_context_candidate(r,barca_evidence,assets)
    if candidate:
     p['photo']=candidate['sha256'];p['photoLinkEvidence']=candidate
     if candidate.get('sourceIdentity','').startswith('uefa-person:'):
