@@ -1,0 +1,703 @@
+{
+  "format": "huroof-php-source-catalog-v1",
+  "releaseReady": false,
+  "season": "2026-2027",
+  "canonicalCatalogModified": false,
+  "leagues": [
+    {
+      "id": "sau",
+      "nameAr": "الدوري السعودي للمحترفين"
+    },
+    {
+      "id": "esp",
+      "nameAr": "الدوري الإسباني"
+    },
+    {
+      "id": "eng",
+      "nameAr": "الدوري الإنجليزي الممتاز"
+    }
+  ],
+  "clubs": [
+    {
+      "id": "esp-11",
+      "league": "esp",
+      "name": "Levante UD",
+      "nameAr": null,
+      "logo": "25bec3f59fc89a17fe39dcef9eb67036b7c5becc89b375dc692f1579fca56dd1",
+      "players": 27,
+      "file": "clubs/esp-11.json",
+      "bytes": 20925,
+      "sha256": "b93de831265346c22875fded707fe0a25ebde9f206337c6ec209507d2bb1d780"
+    },
+    {
+      "id": "esp-12",
+      "league": "esp",
+      "name": "Málaga CF",
+      "nameAr": null,
+      "logo": "e61a0a6f15efa031cdc33f6cb93bd82622953a9ebf6ec060567dd845107d97f7",
+      "players": 30,
+      "file": "clubs/esp-12.json",
+      "bytes": 23657,
+      "sha256": "a24bac14e120c34df209b9c71c8509d7648bb35cf5fa7ed2a9e0ca2055ad2116"
+    },
+    {
+      "id": "esp-13",
+      "league": "esp",
+      "name": "CA Osasuna",
+      "nameAr": null,
+      "logo": "e6831aad5af0c23d5bae8456185b42d25cd76c37bd3da050aa93b2a7bcab9f15",
+      "players": 28,
+      "file": "clubs/esp-13.json",
+      "bytes": 21640,
+      "sha256": "4983e3f1ffa8a65823f9fb4224ec9fc57f48bb73621a690da9dc6c30bd25401f"
+    },
+    {
+      "id": "esp-14",
+      "league": "esp",
+      "name": "Rayo Vallecano",
+      "nameAr": null,
+      "logo": "36c45d2cf0fe782170a9431ff93001dac93e8ebb275a96939010a6c83ec160ff",
+      "players": 33,
+      "file": "clubs/esp-14.json",
+      "bytes": 25498,
+      "sha256": "8ae68ca4a39d3aa231d5e36a79ab427c5251ff70f0410a6de4aac0ffd36efd40"
+    },
+    {
+      "id": "esp-15",
+      "league": "esp",
+      "name": "Real Madrid",
+      "nameAr": null,
+      "logo": "50a6b5a013dc4d2675848e6978c6fc79339ba4fd0bdffc626673a92ecab597c9",
+      "players": 32,
+      "file": "clubs/esp-15.json",
+      "bytes": 25683,
+      "sha256": "67915bd4a9874cbefcb980746d82c3283bac3b3aa349db3bf162781543779c29"
+    },
+    {
+      "id": "esp-16",
+      "league": "esp",
+      "name": "Real Sociedad",
+      "nameAr": null,
+      "logo": "4b9250ce4403dbebd9c26500a81067824d1a0924f69a4fc7d6ab384de549a57a",
+      "players": 29,
+      "file": "clubs/esp-16.json",
+      "bytes": 23005,
+      "sha256": "33899415b3c6c1de54b0d7b9fe5cd266792f9443973d19507d1dd13b1a101d05"
+    },
+    {
+      "id": "esp-17",
+      "league": "esp",
+      "name": "Sevilla FC",
+      "nameAr": null,
+      "logo": "35cb221018557c069371631c1690184034fa82721685fd8e7a4c407a9d44c0f3",
+      "players": 31,
+      "file": "clubs/esp-17.json",
+      "bytes": 24378,
+      "sha256": "17a8506438428813267e5ce1f82dd31983809070d0646e59b532421f43a5a77b"
+    },
+    {
+      "id": "esp-18",
+      "league": "esp",
+      "name": "Valencia CF",
+      "nameAr": null,
+      "logo": "acc1bae0f5e251180fb6f22e8bd3819c9f9e5d34ed74b45d58575dbc9dc741e2",
+      "players": 33,
+      "file": "clubs/esp-18.json",
+      "bytes": 25541,
+      "sha256": "dc6100447eb2f35b4ce625312a9254bd7c75b89093c89510fdace0a93d4ef744"
+    },
+    {
+      "id": "esp-2",
+      "league": "esp",
+      "name": "Atlético de Madrid",
+      "nameAr": null,
+      "logo": "18c11d0a7dd5e0b7dee8761cfe12d753fabde2e45c00fd0b73a1941dec371052",
+      "players": 28,
+      "file": "clubs/esp-2.json",
+      "bytes": 22159,
+      "sha256": "9a37be7d303c104dc7bf5403683ce7d15bea3cb41e278aba6915b6c11a8ca776"
+    },
+    {
+      "id": "esp-20",
+      "league": "esp",
+      "name": "Villarreal CF",
+      "nameAr": null,
+      "logo": "689469b059b59c0021cad433bc2a0d8a07ad3ce46f67d08b794be9c2d762f265",
+      "players": 27,
+      "file": "clubs/esp-20.json",
+      "bytes": 21496,
+      "sha256": "cb4cf99e4370a367d72635c809a5ffd414b3387fb2d10a22a461f736ebedebd0"
+    },
+    {
+      "id": "esp-21",
+      "league": "esp",
+      "name": "Deportivo Alavés",
+      "nameAr": null,
+      "logo": "74a951f2959d421f23e2359304b9737e23a0f41e4cd8e1f702ac35139f19dcd6",
+      "players": 27,
+      "file": "clubs/esp-21.json",
+      "bytes": 21224,
+      "sha256": "f6c0f4ea121c1f14219dc161e1acc8b2766fcdf5e117a755c94b2c623b4aedb6"
+    },
+    {
+      "id": "esp-26",
+      "league": "esp",
+      "name": "RC Deportivo",
+      "nameAr": null,
+      "logo": "37b01a657b8cbb3c5143d1b44c908f3753c1c1257bf2a05e4370077b28eac087",
+      "players": 29,
+      "file": "clubs/esp-26.json",
+      "bytes": 22689,
+      "sha256": "ba68331ddbc00428d2b2dd9706280d8671be5b25a64d3deeaa7e4c5e184833a5"
+    },
+    {
+      "id": "esp-3",
+      "league": "esp",
+      "name": "Athletic Club",
+      "nameAr": null,
+      "logo": "53517022daddead0f5eb9bf4f55ce55116a877276e9374bbead3341ad6b3c27e",
+      "players": 28,
+      "file": "clubs/esp-3.json",
+      "bytes": 22163,
+      "sha256": "afe880f99014f9dd8a835087a2b0a19475832513573ca1a5dd21b9c8ea09547d"
+    },
+    {
+      "id": "esp-4",
+      "league": "esp",
+      "name": "FC Barcelona",
+      "nameAr": null,
+      "logo": "ff52fd1f863b497a06a0f2d46cb15994651383a42866bf21e873d1ab817ccc28",
+      "players": 30,
+      "file": "clubs/esp-4.json",
+      "bytes": 23534,
+      "sha256": "2091e95f7abcb4c2f96a79e0ee79f9a180ce1d7dc42550e88ac2753c110c8f1f"
+    },
+    {
+      "id": "esp-49",
+      "league": "esp",
+      "name": "R. Racing Club",
+      "nameAr": null,
+      "logo": "9c324e573dfc278ddb8beb0177d88b081446f385fe5738004fbb3e2548b64e3d",
+      "players": 28,
+      "file": "clubs/esp-49.json",
+      "bytes": 21464,
+      "sha256": "34cfc03bde3d9bd2d31c2d968cdd6aec54708cd8a8e0a7e3f7b16c38b8d7eca9"
+    },
+    {
+      "id": "esp-5",
+      "league": "esp",
+      "name": "Real Betis",
+      "nameAr": null,
+      "logo": "5c8e85b0ab41348e478b525f4f540379599bfd1b3c62fa60d620c307344ccec8",
+      "players": 28,
+      "file": "clubs/esp-5.json",
+      "bytes": 22248,
+      "sha256": "63d54b5207771636f8c910804e22e9717905ccc3563235472cc24e4e8e3ce2d5"
+    },
+    {
+      "id": "esp-6",
+      "league": "esp",
+      "name": "Celta",
+      "nameAr": null,
+      "logo": "c621d401461777b9fc93edfde458414404fc68727c81bb84f29cc34ad6809770",
+      "players": 28,
+      "file": "clubs/esp-6.json",
+      "bytes": 21453,
+      "sha256": "2d572aa5b41f8904024f252e14c056b5f3b68a744b7b85c7be4b7af137066371"
+    },
+    {
+      "id": "esp-7",
+      "league": "esp",
+      "name": "Elche CF",
+      "nameAr": null,
+      "logo": "c50d7c24df44012db54a4f3d5beb89ff8a7ce8ded507ebbcefaa25d6dcc494a0",
+      "players": 29,
+      "file": "clubs/esp-7.json",
+      "bytes": 22492,
+      "sha256": "26fb26a1c93fd3987c7c55fe290f8f70fa819c51599ef07ea60887d7beff3799"
+    },
+    {
+      "id": "esp-8",
+      "league": "esp",
+      "name": "RCD Espanyol de Barcelona",
+      "nameAr": null,
+      "logo": "71ee16c12a968be5e11500bc97f6c09349e41563798a95d184db78e97aaf0e58",
+      "players": 29,
+      "file": "clubs/esp-8.json",
+      "bytes": 22608,
+      "sha256": "af322a1246ef5da711ae757ff879172f36661edb6c60850cacc90ccb6f95bd00"
+    },
+    {
+      "id": "esp-9",
+      "league": "esp",
+      "name": "Getafe CF",
+      "nameAr": null,
+      "logo": "c109885524e87aae74ccb849e147a19a893e3d500d18ea1d57509585c56bb7b5",
+      "players": 33,
+      "file": "clubs/esp-9.json",
+      "bytes": 24594,
+      "sha256": "519651356b8067dc41d38d2a41aee208f083198332ef56f5ee4b150275bfdf7c"
+    },
+    {
+      "id": "eng-1",
+      "league": "eng",
+      "name": "Arsenal",
+      "nameAr": null,
+      "logo": "cb6bdc24bc77d8a2e8ac2a62862a791c910c192b605935ee172c66b5e88f6167",
+      "players": 22,
+      "file": "clubs/eng-1.json",
+      "bytes": 19224,
+      "sha256": "93b315f83a87435fd13368c311fc3b348997eae15865dfbee0da622d86d4e20f"
+    },
+    {
+      "id": "eng-10",
+      "league": "eng",
+      "name": "Liverpool",
+      "nameAr": null,
+      "logo": "8bf38393eebb6c8e2e2464c88aa567caf2c55f234798c5633ed89a1626b0badb",
+      "players": 25,
+      "file": "clubs/eng-10.json",
+      "bytes": 23279,
+      "sha256": "9bd35cea9a9dcc8a72aa104650382f2ae9481f7b458a9f2458b7efe67daad12a"
+    },
+    {
+      "id": "eng-11",
+      "league": "eng",
+      "name": "Manchester City",
+      "nameAr": null,
+      "logo": "6f561778b2a7e39c5f009cc5a0cc12103e31d57c90f7acbaf0716089f0595c13",
+      "players": 23,
+      "file": "clubs/eng-11.json",
+      "bytes": 21563,
+      "sha256": "db8750198f32414f2e273dde84b7cf1655fae88a2a3526f147a4e94ae8eda83f"
+    },
+    {
+      "id": "eng-12",
+      "league": "eng",
+      "name": "Manchester United",
+      "nameAr": null,
+      "logo": "47f127dbbf7d5fb9b22b28b0ef4e07247a2fdfc77e3c8d99683f456a0dc8174e",
+      "players": 23,
+      "file": "clubs/eng-12.json",
+      "bytes": 19917,
+      "sha256": "fef005f6c29b39396f8ccc2d91489326bc2d854c049b47e34b900e045cbb98c6"
+    },
+    {
+      "id": "eng-127",
+      "league": "eng",
+      "name": "Bournemouth",
+      "nameAr": null,
+      "logo": null,
+      "players": 20,
+      "file": "clubs/eng-127.json",
+      "bytes": 17480,
+      "sha256": "90b4ce65fbf622da771a831c04ae26899480b2a4e12c0ab44a99b7340100c33e"
+    },
+    {
+      "id": "eng-130",
+      "league": "eng",
+      "name": "Brentford",
+      "nameAr": null,
+      "logo": null,
+      "players": 21,
+      "file": "clubs/eng-130.json",
+      "bytes": 18410,
+      "sha256": "b6550d8c89350fd3bed6f0b001b411b2f1d5547eb288d9884ceebefc6ce9682d"
+    },
+    {
+      "id": "eng-131",
+      "league": "eng",
+      "name": "Brighton & Hove Albion",
+      "nameAr": null,
+      "logo": null,
+      "players": 23,
+      "file": "clubs/eng-131.json",
+      "bytes": 21253,
+      "sha256": "595c3d976f1573a1f1e998533effdadbeadc7c9475f710170137063a0af6bdd0"
+    },
+    {
+      "id": "eng-15",
+      "league": "eng",
+      "name": "Nottingham Forest",
+      "nameAr": null,
+      "logo": null,
+      "players": 22,
+      "file": "clubs/eng-15.json",
+      "bytes": 21187,
+      "sha256": "b0aee59e56806537dfda145e657c681f638db1855386e6cc22424bf1cd33311d"
+    },
+    {
+      "id": "eng-2",
+      "league": "eng",
+      "name": "Aston Villa",
+      "nameAr": null,
+      "logo": "408ed831671e595b7a0c488a40df9284d3c35cb7d79f57cb083cbaa9dbc25f90",
+      "players": 24,
+      "file": "clubs/eng-2.json",
+      "bytes": 20844,
+      "sha256": "5ce88954953e0e512d161dcdcef55ffee62ac5c32597153507aa8f0df6f29156"
+    },
+    {
+      "id": "eng-21",
+      "league": "eng",
+      "name": "Tottenham Hotspur",
+      "nameAr": null,
+      "logo": null,
+      "players": 26,
+      "file": "clubs/eng-21.json",
+      "bytes": 24877,
+      "sha256": "7aa3d1d051f375ed96a5b4f396ff89fea5bed773f1b3d83d401ce76122892791"
+    },
+    {
+      "id": "eng-23",
+      "league": "eng",
+      "name": "Newcastle United",
+      "nameAr": null,
+      "logo": null,
+      "players": 25,
+      "file": "clubs/eng-23.json",
+      "bytes": 21474,
+      "sha256": "99d9960998fbedb71ed3178a1ef34a887728bda53f818d53eae5d7825689c0b9"
+    },
+    {
+      "id": "eng-29",
+      "league": "eng",
+      "name": "Sunderland",
+      "nameAr": null,
+      "logo": null,
+      "players": 24,
+      "file": "clubs/eng-29.json",
+      "bytes": 22535,
+      "sha256": "2dd01d32c6e29b83d0b753a1f07f876f35f098217b42e5b8ec8976dcdad6e7f9"
+    },
+    {
+      "id": "eng-34",
+      "league": "eng",
+      "name": "Fulham",
+      "nameAr": null,
+      "logo": null,
+      "players": 22,
+      "file": "clubs/eng-34.json",
+      "bytes": 19142,
+      "sha256": "422d3ecbc3c146e87d745165fe6335ae317b8f233527099261e4e1492f5f9bf8"
+    },
+    {
+      "id": "eng-4",
+      "league": "eng",
+      "name": "Chelsea",
+      "nameAr": null,
+      "logo": null,
+      "players": 24,
+      "file": "clubs/eng-4.json",
+      "bytes": 20814,
+      "sha256": "d9f7b11eebf1d911052b6f9d7a66a81184b142f707a763bc56320f5982a5899b"
+    },
+    {
+      "id": "eng-41",
+      "league": "eng",
+      "name": "Hull City",
+      "nameAr": null,
+      "logo": null,
+      "players": 31,
+      "file": "clubs/eng-41.json",
+      "bytes": 26537,
+      "sha256": "bebfd1ca6bb8a161b9bf13f6b1cc811a675e7f264d5a02042c31e267a12fd378"
+    },
+    {
+      "id": "eng-5",
+      "league": "eng",
+      "name": "Coventry City",
+      "nameAr": null,
+      "logo": null,
+      "players": 27,
+      "file": "clubs/eng-5.json",
+      "bytes": 25258,
+      "sha256": "1e1121b125b7b41146f63a5de8fc1950f1d3306e57a77fd6335f1c5834656770"
+    },
+    {
+      "id": "eng-6",
+      "league": "eng",
+      "name": "Crystal Palace",
+      "nameAr": null,
+      "logo": null,
+      "players": 25,
+      "file": "clubs/eng-6.json",
+      "bytes": 23652,
+      "sha256": "202d35a85d222882fd81d483765c9f667a20babb05b7434f56802b89ae91576f"
+    },
+    {
+      "id": "eng-7",
+      "league": "eng",
+      "name": "Everton",
+      "nameAr": null,
+      "logo": null,
+      "players": 19,
+      "file": "clubs/eng-7.json",
+      "bytes": 18081,
+      "sha256": "981f5173b5bc9b8ac8981dab12daaf281f2c488b79793bf935393aa0a227e9dd"
+    },
+    {
+      "id": "eng-8",
+      "league": "eng",
+      "name": "Ipswich Town",
+      "nameAr": null,
+      "logo": null,
+      "players": 30,
+      "file": "clubs/eng-8.json",
+      "bytes": 27570,
+      "sha256": "972a3160181f87ee8b4e8aecb110c3ebc9ffbfe9bf975e8323aa677340598615"
+    },
+    {
+      "id": "eng-9",
+      "league": "eng",
+      "name": "Leeds United",
+      "nameAr": null,
+      "logo": null,
+      "players": 25,
+      "file": "clubs/eng-9.json",
+      "bytes": 21481,
+      "sha256": "bfed9f4f62295bdf2bb7ac23760c07f1b680475306db444e589da2a81204070a"
+    },
+    {
+      "id": "sau-02f22b11aa604566a1858f96addb669c",
+      "league": "sau",
+      "name": "Al Fateh",
+      "nameAr": "الفتح",
+      "logo": "7e42efb1bee806d71c846a12d5c9e30a744a754ea18d6aea98ff406d1cbda4bd",
+      "players": 30,
+      "file": "clubs/sau-02f22b11aa604566a1858f96addb669c.json",
+      "bytes": 22937,
+      "sha256": "fa07aeae34fc27f291b9119b858463935d1d99b80563b911d93cdf83de8a8f8e"
+    },
+    {
+      "id": "sau-1a2a221d20d34ffa8f41246ce61f2079",
+      "league": "sau",
+      "name": "Diriyah Club",
+      "nameAr": "الدرعية",
+      "logo": "3a0087d8179ab4d41d12cfca1c9c555ceb516946a578215fd4b9178e773e0810",
+      "players": 28,
+      "file": "clubs/sau-1a2a221d20d34ffa8f41246ce61f2079.json",
+      "bytes": 21083,
+      "sha256": "db97098d87780fb15c9467a63c423a12d2cc68e3bfe357dcb7f2301f4e009aed"
+    },
+    {
+      "id": "sau-2ba5364e60854fb8a7ca60903875e1ff",
+      "league": "sau",
+      "name": "Al Riyadh",
+      "nameAr": "الرياض",
+      "logo": "23c3c575eb806bb957a6685c438a24fcadf8a3ecc7b46a0e0e8e959d3d623973",
+      "players": 28,
+      "file": "clubs/sau-2ba5364e60854fb8a7ca60903875e1ff.json",
+      "bytes": 20959,
+      "sha256": "1e28aa74b696f143ef67c663c0145389bcf71d96ae68b2bf6db5f8d409966457"
+    },
+    {
+      "id": "sau-504ab03d43954464917361ed38f5cad2",
+      "league": "sau",
+      "name": "Al Fayha",
+      "nameAr": "الفيحاء",
+      "logo": "cf5a2f0987c7c519041343165012f4ac3aee750e11f93a585c9450c1f1b4b513",
+      "players": 31,
+      "file": "clubs/sau-504ab03d43954464917361ed38f5cad2.json",
+      "bytes": 23360,
+      "sha256": "423d62979600d90d94bd391fecc5430b580d51dadd36cf3eda722aed4fe70776"
+    },
+    {
+      "id": "sau-5c55f144687d497da1249c312392bb47",
+      "league": "sau",
+      "name": "Al Ittihad",
+      "nameAr": "الاتحاد",
+      "logo": "7f7e23383b54ac97938bd7dc7ac27a34704ac81d0300c9b08b786a17cd243081",
+      "players": 30,
+      "file": "clubs/sau-5c55f144687d497da1249c312392bb47.json",
+      "bytes": 22565,
+      "sha256": "65b0afd3154c0208379d1c288d51f3d0f3507e53747a68667aa59c6c4ba48326"
+    },
+    {
+      "id": "sau-6bb24501d8c04b7e8cbd05fe89d8910f",
+      "league": "sau",
+      "name": "Al Khaleej",
+      "nameAr": "الخليج",
+      "logo": "47416223eb2653ed1e7969b412dafceda268dada8f5fc899c0f380fa041783f6",
+      "players": 32,
+      "file": "clubs/sau-6bb24501d8c04b7e8cbd05fe89d8910f.json",
+      "bytes": 24012,
+      "sha256": "f80baa3c0ff89196bb9cd14064a23351101d2a38c3a1c64878b0e2775788e2c6"
+    },
+    {
+      "id": "sau-8169ad25b0754c44a49375717b3f9fb2",
+      "league": "sau",
+      "name": "Al Shabab",
+      "nameAr": "الشباب",
+      "logo": "17dbb49c449d8d1e8918094f8e0e18e6bde2640180411ad54799f0509eb34940",
+      "players": 31,
+      "file": "clubs/sau-8169ad25b0754c44a49375717b3f9fb2.json",
+      "bytes": 23444,
+      "sha256": "6ae006a6526accf4a36c9fe5e0e1eef10870a7a00f41ccb2fa33092b4f9b93f5"
+    },
+    {
+      "id": "sau-874890145b9d43d59ec3f646e8bd4fee",
+      "league": "sau",
+      "name": "Al Faisaly",
+      "nameAr": "الفيصلي",
+      "logo": "8f0b6fbe55d4862650b9ac0aba8dc1aac0dc1cb519790ce4293ee90b0966f39a",
+      "players": 29,
+      "file": "clubs/sau-874890145b9d43d59ec3f646e8bd4fee.json",
+      "bytes": 21697,
+      "sha256": "c707981fb4a6b88554090aeeb02d65723cbca0a84e984a28fd8782478f40a796"
+    },
+    {
+      "id": "sau-8a2bfb4eeaad41e9a84107e0a9c75744",
+      "league": "sau",
+      "name": "Al Hazem",
+      "nameAr": "الحزم",
+      "logo": "18923ff58596e51d616fd22163643ef56ceee57d65894b51cf8469355659e7b2",
+      "players": 32,
+      "file": "clubs/sau-8a2bfb4eeaad41e9a84107e0a9c75744.json",
+      "bytes": 24354,
+      "sha256": "8164bc67696b7f3be161fe8ddcd4ea65b8aa403ea6332ab691a062b90bbf91b4"
+    },
+    {
+      "id": "sau-8f7c588e0292459f98d90969682dc2ae",
+      "league": "sau",
+      "name": "Al Kholood",
+      "nameAr": "الخلود",
+      "logo": "22ab083538d1f162da35923032cbe8231b7633f8ec03e7b0c287b82698395b84",
+      "players": 25,
+      "file": "clubs/sau-8f7c588e0292459f98d90969682dc2ae.json",
+      "bytes": 19084,
+      "sha256": "29a87c95a52b891c4ab0a91e132ccca2f12f08c8524347eb291f602136505ce8"
+    },
+    {
+      "id": "sau-94263b19841944c38cb20892b176c862",
+      "league": "sau",
+      "name": "Al Nassr",
+      "nameAr": "النصر",
+      "logo": "fda5b6216a5cc00685365b5105dd208c98a8fdc137f238c8de424a5c900758f0",
+      "players": 31,
+      "file": "clubs/sau-94263b19841944c38cb20892b176c862.json",
+      "bytes": 23253,
+      "sha256": "b34822f3cfe92e591f85da81e78f0942843261e856d8530d1be36a1f2f77b8e6"
+    },
+    {
+      "id": "sau-aaac358d37704691aadcfd92ebd53c7b",
+      "league": "sau",
+      "name": "NEOM",
+      "nameAr": "نيوم",
+      "logo": "555b67d562ae8c29a7abf2930549cb813426e37302906ed1de4c03108bd1fe0c",
+      "players": 26,
+      "file": "clubs/sau-aaac358d37704691aadcfd92ebd53c7b.json",
+      "bytes": 19605,
+      "sha256": "943f4448e92e21ab2aa873bd6d274e4a5cf256d4cd32db31d08251487dd64c3b"
+    },
+    {
+      "id": "sau-ab988d0ad28b419b96ab3cf2c49e0f6f",
+      "league": "sau",
+      "name": "Al Ettifaq",
+      "nameAr": "الاتفاق",
+      "logo": "6004adc994d2df6d4e4adfe9987c9dd927ee180374926af4bebd1324271717bc",
+      "players": 30,
+      "file": "clubs/sau-ab988d0ad28b419b96ab3cf2c49e0f6f.json",
+      "bytes": 22360,
+      "sha256": "30f792499cb22a8814ab83719dfcef46b6f167ebb73e5ab6db218f0828345d6b"
+    },
+    {
+      "id": "sau-ae14a651fb584440979f8c4d02b89428",
+      "league": "sau",
+      "name": "Al Hilal",
+      "nameAr": "الهلال",
+      "logo": "35be4b8c009bcaf58b487175efea35680a3c4e1491fb47faca8a25cd53059152",
+      "players": 35,
+      "file": "clubs/sau-ae14a651fb584440979f8c4d02b89428.json",
+      "bytes": 26233,
+      "sha256": "dc1e2832cbd185794bd189fa70c6f11b6023c5dfa5a876a15dd7e216fd157726"
+    },
+    {
+      "id": "sau-b950674ec2cf4184a0dea482414ac915",
+      "league": "sau",
+      "name": "Abha",
+      "nameAr": "أبها",
+      "logo": "b5f6bf6af67133f4ff83ef784a5a1be4fc4bcd0e4205ebdcaea14c8a293e64d3",
+      "players": 31,
+      "file": "clubs/sau-b950674ec2cf4184a0dea482414ac915.json",
+      "bytes": 23328,
+      "sha256": "c7b9cba0c5fbc8ab4ec0b258476f41a54671311e8eb3d13bb6cadb5126a39e80"
+    },
+    {
+      "id": "sau-d234b1ebf80e481a888ce64cab2dcd89",
+      "league": "sau",
+      "name": "Al Taawoun",
+      "nameAr": "التعاون",
+      "logo": "099f611a0afc9bc2e68b7acedd874977fc4cb01b3618c8e74ceba5a5ec883db8",
+      "players": 30,
+      "file": "clubs/sau-d234b1ebf80e481a888ce64cab2dcd89.json",
+      "bytes": 22882,
+      "sha256": "7229aacb067a2f799f364d05977c4a68e0b5a2174877ff29fd12f3ef169a2a48"
+    },
+    {
+      "id": "sau-dd29e62730be4d848e1be4c244fbfe5f",
+      "league": "sau",
+      "name": "Al Qadsiah",
+      "nameAr": "القادسية",
+      "logo": "4ed547f633e9579cc6fad7577b7e4db8176676ade7de6d0b88be25f4337a8f85",
+      "players": 30,
+      "file": "clubs/sau-dd29e62730be4d848e1be4c244fbfe5f.json",
+      "bytes": 22652,
+      "sha256": "87918ab54f5e1427b7815558c28fa515d618aa759a31223ca558153b039edbb2"
+    },
+    {
+      "id": "sau-efdd3327b51d4fbd95b83d784301d411",
+      "league": "sau",
+      "name": "Al Ahli",
+      "nameAr": "الأهلي",
+      "logo": "fc304b842856e3dcf01d785ee55875a68ed996c7c9f0cf818895afb54a8a2184",
+      "players": 35,
+      "file": "clubs/sau-efdd3327b51d4fbd95b83d784301d411.json",
+      "bytes": 26193,
+      "sha256": "9c31399a74ae09a8a94251d9b0ca351386f5932ff2da962c7a61d3bd15aef1a9"
+    }
+  ],
+  "search": {
+    "path": "search.json",
+    "bytes": 371910,
+    "sha256": "710316d0712cdd52779a64a4514f9c685769d01094d97e853eff030917d21f19"
+  },
+  "sourceIdentityManifestSha256": "62e50ade26f6e83926d80d271682bcb2d908a716e98f6c1f189ef5d2bf78baf1",
+  "sourceInputs": [
+    {
+      "path": "data/media_files.index.json",
+      "bytes": 1650443,
+      "sha256": "68837a08b576d9c3ee1751d7fd0c1150e5c724253c51bbc8e4baed404467cb97"
+    },
+    {
+      "path": "data/english_completion_sdp_personal_2026_27.json",
+      "bytes": 514347,
+      "sha256": "21ff43e55f660a30af902e4be0e714a53e17b54c916677a952979a27a8b9b976"
+    },
+    {
+      "path": "data/laliga_senior_squads_2026_27.json",
+      "bytes": 2592113,
+      "sha256": "7c2f5a0106afdd439700de1b82755ce8c683890591902f121cf8521d8f5f7745"
+    },
+    {
+      "path": "data/spl_squad_candidates_2026_27.json",
+      "bytes": 1057295,
+      "sha256": "5207446773fa07da27dff9487ed1b605178c171d2166301d3d0ea40e7572c4da"
+    },
+    {
+      "path": "data/pl_api_first_team_candidates_2026_27.json",
+      "bytes": 1612709,
+      "sha256": "7046e0315a82bde89a32b9517d750865dafa3fc6e6e16da0804a89c1c8bf2c1a"
+    },
+    {
+      "path": "data/laliga_head_coaches_2026_27.json",
+      "bytes": 23190,
+      "sha256": "f20d26042ccd3c7af70c1c0ccc4fc64744c372d78f686971f12db7a239260f6a"
+    },
+    {
+      "path": "data/english_headcoach_completion_2026_27.json",
+      "bytes": 81361,
+      "sha256": "b1376c8a856b842745a13bff7c133de17c4d6c782df714147ea4a8a0e06f13a4"
+    }
+  ]
+}
