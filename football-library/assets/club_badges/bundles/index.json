@@ -1,0 +1,105 @@
+{
+  "format": "huroof-media-bundles-v1",
+  "releaseReady": false,
+  "fileCount": 15,
+  "totalBytes": 2619219,
+  "parts": [
+    {
+      "path": "media-0001.tar",
+      "bytes": 2631680,
+      "sha256": "7ca76b1ce86ed7cef959df490b21fc2ac36f12a390a50e571e2b646eba36537c",
+      "files": [
+        {
+          "path": "assets/pending_media/english_badges/130/logo.png",
+          "offset": 512,
+          "bytes": 204791,
+          "sha256": "558e087de50235fb5dbf1781b513820ec0889dd306cef4514ee05cd00e75f1e0"
+        },
+        {
+          "path": "assets/pending_media/english_badges/131/logo.png",
+          "offset": 205824,
+          "bytes": 134597,
+          "sha256": "4ec25bb3b21ab6c6b679e0d9eb9c7da8f26e80f6ece2d98ecd7d1552cd593d2c"
+        },
+        {
+          "path": "assets/pending_media/english_badges/15/logo.png",
+          "offset": 340992,
+          "bytes": 55931,
+          "sha256": "6b900852e7ead7ff65837cbc6cfe940ac7483b0d696ddf2a947a7a751310fdfc"
+        },
+        {
+          "path": "assets/pending_media/english_badges/21/logo.png",
+          "offset": 397824,
+          "bytes": 119384,
+          "sha256": "a9c7500574b31f26c58c32f266ef7d4e3541095b0ab6535be38e1606b2e4773f"
+        },
+        {
+          "path": "assets/pending_media/english_badges/23/logo.png",
+          "offset": 518144,
+          "bytes": 195195,
+          "sha256": "87b40f9b3c71582f0ff48f718e1c14e6b69d56279164470246498738bcf3d44e"
+        },
+        {
+          "path": "assets/pending_media/english_badges/29/logo.png",
+          "offset": 714240,
+          "bytes": 211284,
+          "sha256": "3d52544503250cb5871d48641c2d0c52bd29fb58d0ad846bb44074cccc94f0a2"
+        },
+        {
+          "path": "assets/pending_media/english_badges/34/logo.png",
+          "offset": 926208,
+          "bytes": 99511,
+          "sha256": "5f72d4fc47abddd2efa1d3a4ee8920e71a8f827594e0ae27ce61c91e6fbf54a5"
+        },
+        {
+          "path": "assets/pending_media/english_badges/4/logo.png",
+          "offset": 1026560,
+          "bytes": 166685,
+          "sha256": "2dd64a8d76c349d643f801c3ac4fb58e7d451ddd2bc0d72d1f831d8621a95c38"
+        },
+        {
+          "path": "assets/pending_media/english_badges/41/logo.png",
+          "offset": 1193984,
+          "bytes": 180192,
+          "sha256": "f5eeca905c85a518f955ff4e1f075fe0c64971dc9405d048536c9110e608f0bf"
+        },
+        {
+          "path": "assets/pending_media/english_badges/6/logo.png",
+          "offset": 1374720,
+          "bytes": 174356,
+          "sha256": "cbf1037bec0b12fa0a88faeff6f88a4e9f53196bc10418ada8adcf6ff2c114b7"
+        },
+        {
+          "path": "assets/pending_media/english_badges/7/logo.png",
+          "offset": 1549824,
+          "bytes": 194942,
+          "sha256": "b7dffe68631cadc61cfb6060d72b5a993052b9901bcd648c4f238ae02b4bbea8"
+        },
+        {
+          "path": "assets/pending_media/english_badges/8/logo.png",
+          "offset": 1745408,
+          "bytes": 122000,
+          "sha256": "466fd82d7137348834e3a604ae4ce55c700150c99a37e274ea3e9c0ddb4aaa5e"
+        },
+        {
+          "path": "assets/pending_media/english_badges/9/logo.png",
+          "offset": 1868288,
+          "bytes": 136106,
+          "sha256": "20b669a5dc624971db9cfb26643497d2d4badcb44e7cede16182070cbf60e991"
+        },
+        {
+          "path": "assets/pending_media/english_badges/127/logo.png",
+          "offset": 2004992,
+          "bytes": 174689,
+          "sha256": "929221e82c0e49ab25c376e3c1e9e5177a44e9f0ae33e8b8214ae0b1e9f26c9b"
+        },
+        {
+          "path": "assets/pending_media/english_badges/5/logo.png",
+          "offset": 2180608,
+          "bytes": 449556,
+          "sha256": "2b373b147823f9a0cdf1936b573f0ffb9f2cf3a098587b640a54c579a63025e8"
+        }
+      ]
+    }
+  ]
+}

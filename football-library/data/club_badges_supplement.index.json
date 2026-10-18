@@ -1,0 +1,525 @@
+{
+  "format": "huroof-club-badges-v1",
+  "releaseReady": false,
+  "proof": {
+    "directorySource": "https://www.premierleague.com/en/clubs",
+    "clubListScriptSource": "https://www.premierleague.com/resources/v1.54.15/scripts/club-listings.js",
+    "clubListScriptSha256": "e61481f18486d3f98eb5dd2c1cda708bdf4efa647a64aa0ff50023865f8772ec",
+    "badgeRendererScriptSource": "https://www.premierleague.com/resources/v1.54.15/scripts/bundle-es.min.js",
+    "badgeRendererScriptSha256": "860c0496db1a48b2ad20ba7cbdefd2e776e5fe970d2bb1cb6f7e0ac700784633",
+    "mappingEvidence": "Club listing passes published SDP team.id into the badge renderer; renderer uses the published badge base plus team.id.svg. PL primary and SDP namespaces remain separate."
+  },
+  "files": [
+    {
+      "path": "assets/pending_media/english_badges/130/logo.png",
+      "sha256": "558e087de50235fb5dbf1781b513820ec0889dd306cef4514ee05cd00e75f1e0",
+      "bytes": 204791,
+      "format": "PNG",
+      "width": 1024,
+      "height": 1037,
+      "originalSvg": "assets/club_badges/originals/eng-130.svg",
+      "originalSvgSha256": "f785147e395b80f9f63f1d8015a70cc39978c208745a585fa5c8dd23aed68045",
+      "evidence": [
+        {
+          "source": "https://resources.premierleague.com/premierleague25/badges/94.svg",
+          "sourcePage": "https://www.premierleague.com/en/clubs",
+          "sourceNamespace": "premier-league-sdp-badge",
+          "sourceClubId": "94",
+          "plSourceClubId": "130",
+          "kind": "club-logo",
+          "nameAsPublished": "Brentford",
+          "badgeTeamNameAsPublished": "Brentford",
+          "processing": "Original SVG preserved; rasterized with CairoSVG at1024px width, keeping aspect ratio; no redraw or AI",
+          "rightsStatus": "pending-review"
+        }
+      ],
+      "approvedForQuestions": false,
+      "rightsStatus": "pending-review",
+      "visualReview": {
+        "clubIdentity": true,
+        "professionalCrest": true,
+        "aspectRatioPreserved": true,
+        "reviewer": "Codex manual review of15-badge contact sheet",
+        "checkedAt": "2026-10-18",
+        "rightsReviewed": false
+      }
+    },
+    {
+      "path": "assets/pending_media/english_badges/131/logo.png",
+      "sha256": "4ec25bb3b21ab6c6b679e0d9eb9c7da8f26e80f6ece2d98ecd7d1552cd593d2c",
+      "bytes": 134597,
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "originalSvg": "assets/club_badges/originals/eng-131.svg",
+      "originalSvgSha256": "4a101c7a33dd2b68d7eeb874e2d3a8a44a1b32a63fe9c3a592d8868dc434f53b",
+      "evidence": [
+        {
+          "source": "https://resources.premierleague.com/premierleague25/badges/36.svg",
+          "sourcePage": "https://www.premierleague.com/en/clubs",
+          "sourceNamespace": "premier-league-sdp-badge",
+          "sourceClubId": "36",
+          "plSourceClubId": "131",
+          "kind": "club-logo",
+          "nameAsPublished": "Brighton & Hove Albion",
+          "badgeTeamNameAsPublished": "Brighton and Hove Albion",
+          "processing": "Original SVG preserved; rasterized with CairoSVG at1024px width, keeping aspect ratio; no redraw or AI",
+          "rightsStatus": "pending-review"
+        }
+      ],
+      "approvedForQuestions": false,
+      "rightsStatus": "pending-review",
+      "visualReview": {
+        "clubIdentity": true,
+        "professionalCrest": true,
+        "aspectRatioPreserved": true,
+        "reviewer": "Codex manual review of15-badge contact sheet",
+        "checkedAt": "2026-10-18",
+        "rightsReviewed": false
+      }
+    },
+    {
+      "path": "assets/pending_media/english_badges/15/logo.png",
+      "sha256": "6b900852e7ead7ff65837cbc6cfe940ac7483b0d696ddf2a947a7a751310fdfc",
+      "bytes": 55931,
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "originalSvg": "assets/club_badges/originals/eng-15.svg",
+      "originalSvgSha256": "e41816f33ffd022687ce517d9dd42040e13b54b96d813754ae6376fe0b190e8c",
+      "evidence": [
+        {
+          "source": "https://resources.premierleague.com/premierleague25/badges/17.svg",
+          "sourcePage": "https://www.premierleague.com/en/clubs",
+          "sourceNamespace": "premier-league-sdp-badge",
+          "sourceClubId": "17",
+          "plSourceClubId": "15",
+          "kind": "club-logo",
+          "nameAsPublished": "Nottingham Forest",
+          "badgeTeamNameAsPublished": "Nottingham Forest",
+          "processing": "Original SVG preserved; rasterized with CairoSVG at1024px width, keeping aspect ratio; no redraw or AI",
+          "rightsStatus": "pending-review"
+        }
+      ],
+      "approvedForQuestions": false,
+      "rightsStatus": "pending-review",
+      "visualReview": {
+        "clubIdentity": true,
+        "professionalCrest": true,
+        "aspectRatioPreserved": true,
+        "reviewer": "Codex manual review of15-badge contact sheet",
+        "checkedAt": "2026-10-18",
+        "rightsReviewed": false
+      }
+    },
+    {
+      "path": "assets/pending_media/english_badges/21/logo.png",
+      "sha256": "a9c7500574b31f26c58c32f266ef7d4e3541095b0ab6535be38e1606b2e4773f",
+      "bytes": 119384,
+      "format": "PNG",
+      "width": 1024,
+      "height": 2539,
+      "originalSvg": "assets/club_badges/originals/eng-21.svg",
+      "originalSvgSha256": "c8a0623aeba5feffbcb56cb9d7603c949e00546095cee7a72d8042623673cb54",
+      "evidence": [
+        {
+          "source": "https://resources.premierleague.com/premierleague25/badges/6.svg",
+          "sourcePage": "https://www.premierleague.com/en/clubs",
+          "sourceNamespace": "premier-league-sdp-badge",
+          "sourceClubId": "6",
+          "plSourceClubId": "21",
+          "kind": "club-logo",
+          "nameAsPublished": "Tottenham Hotspur",
+          "badgeTeamNameAsPublished": "Tottenham Hotspur",
+          "processing": "Original SVG preserved; rasterized with CairoSVG at1024px width, keeping aspect ratio; no redraw or AI",
+          "rightsStatus": "pending-review"
+        }
+      ],
+      "approvedForQuestions": false,
+      "rightsStatus": "pending-review",
+      "visualReview": {
+        "clubIdentity": true,
+        "professionalCrest": true,
+        "aspectRatioPreserved": true,
+        "reviewer": "Codex manual review of15-badge contact sheet",
+        "checkedAt": "2026-10-18",
+        "rightsReviewed": false
+      }
+    },
+    {
+      "path": "assets/pending_media/english_badges/23/logo.png",
+      "sha256": "87b40f9b3c71582f0ff48f718e1c14e6b69d56279164470246498738bcf3d44e",
+      "bytes": 195195,
+      "format": "PNG",
+      "width": 1024,
+      "height": 1030,
+      "originalSvg": "assets/club_badges/originals/eng-23.svg",
+      "originalSvgSha256": "e3f2b9ebc9aade4d599ac4ad30ddaa2a3d1a942f4185472562685a4e659fa9e0",
+      "evidence": [
+        {
+          "source": "https://resources.premierleague.com/premierleague25/badges/4.svg",
+          "sourcePage": "https://www.premierleague.com/en/clubs",
+          "sourceNamespace": "premier-league-sdp-badge",
+          "sourceClubId": "4",
+          "plSourceClubId": "23",
+          "kind": "club-logo",
+          "nameAsPublished": "Newcastle United",
+          "badgeTeamNameAsPublished": "Newcastle United",
+          "processing": "Original SVG preserved; rasterized with CairoSVG at1024px width, keeping aspect ratio; no redraw or AI",
+          "rightsStatus": "pending-review"
+        }
+      ],
+      "approvedForQuestions": false,
+      "rightsStatus": "pending-review",
+      "visualReview": {
+        "clubIdentity": true,
+        "professionalCrest": true,
+        "aspectRatioPreserved": true,
+        "reviewer": "Codex manual review of15-badge contact sheet",
+        "checkedAt": "2026-10-18",
+        "rightsReviewed": false
+      }
+    },
+    {
+      "path": "assets/pending_media/english_badges/29/logo.png",
+      "sha256": "3d52544503250cb5871d48641c2d0c52bd29fb58d0ad846bb44074cccc94f0a2",
+      "bytes": 211284,
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "originalSvg": "assets/club_badges/originals/eng-29.svg",
+      "originalSvgSha256": "1ed05c0fb1391f1dfcfe60440b17d1bd18f1b7c75d25dd72035946448b918992",
+      "evidence": [
+        {
+          "source": "https://resources.premierleague.com/premierleague25/badges/56.svg",
+          "sourcePage": "https://www.premierleague.com/en/clubs",
+          "sourceNamespace": "premier-league-sdp-badge",
+          "sourceClubId": "56",
+          "plSourceClubId": "29",
+          "kind": "club-logo",
+          "nameAsPublished": "Sunderland",
+          "badgeTeamNameAsPublished": "Sunderland",
+          "processing": "Original SVG preserved; rasterized with CairoSVG at1024px width, keeping aspect ratio; no redraw or AI",
+          "rightsStatus": "pending-review"
+        }
+      ],
+      "approvedForQuestions": false,
+      "rightsStatus": "pending-review",
+      "visualReview": {
+        "clubIdentity": true,
+        "professionalCrest": true,
+        "aspectRatioPreserved": true,
+        "reviewer": "Codex manual review of15-badge contact sheet",
+        "checkedAt": "2026-10-18",
+        "rightsReviewed": false
+      }
+    },
+    {
+      "path": "assets/pending_media/english_badges/34/logo.png",
+      "sha256": "5f72d4fc47abddd2efa1d3a4ee8920e71a8f827594e0ae27ce61c91e6fbf54a5",
+      "bytes": 99511,
+      "format": "PNG",
+      "width": 1024,
+      "height": 1366,
+      "originalSvg": "assets/club_badges/originals/eng-34.svg",
+      "originalSvgSha256": "8686cfca58f1bd2243bc55bc96a5886d2850188efe83df1835003595aed75956",
+      "evidence": [
+        {
+          "source": "https://resources.premierleague.com/premierleague25/badges/54.svg",
+          "sourcePage": "https://www.premierleague.com/en/clubs",
+          "sourceNamespace": "premier-league-sdp-badge",
+          "sourceClubId": "54",
+          "plSourceClubId": "34",
+          "kind": "club-logo",
+          "nameAsPublished": "Fulham",
+          "badgeTeamNameAsPublished": "Fulham",
+          "processing": "Original SVG preserved; rasterized with CairoSVG at1024px width, keeping aspect ratio; no redraw or AI",
+          "rightsStatus": "pending-review"
+        }
+      ],
+      "approvedForQuestions": false,
+      "rightsStatus": "pending-review",
+      "visualReview": {
+        "clubIdentity": true,
+        "professionalCrest": true,
+        "aspectRatioPreserved": true,
+        "reviewer": "Codex manual review of15-badge contact sheet",
+        "checkedAt": "2026-10-18",
+        "rightsReviewed": false
+      }
+    },
+    {
+      "path": "assets/pending_media/english_badges/4/logo.png",
+      "sha256": "2dd64a8d76c349d643f801c3ac4fb58e7d451ddd2bc0d72d1f831d8621a95c38",
+      "bytes": 166685,
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "originalSvg": "assets/club_badges/originals/eng-4.svg",
+      "originalSvgSha256": "df2d05a2a2b7a83396dc408ef5b8afa1c61a70d92134a01d4ed366073a50c9f5",
+      "evidence": [
+        {
+          "source": "https://resources.premierleague.com/premierleague25/badges/8.svg",
+          "sourcePage": "https://www.premierleague.com/en/clubs",
+          "sourceNamespace": "premier-league-sdp-badge",
+          "sourceClubId": "8",
+          "plSourceClubId": "4",
+          "kind": "club-logo",
+          "nameAsPublished": "Chelsea",
+          "badgeTeamNameAsPublished": "Chelsea",
+          "processing": "Original SVG preserved; rasterized with CairoSVG at1024px width, keeping aspect ratio; no redraw or AI",
+          "rightsStatus": "pending-review"
+        }
+      ],
+      "approvedForQuestions": false,
+      "rightsStatus": "pending-review",
+      "visualReview": {
+        "clubIdentity": true,
+        "professionalCrest": true,
+        "aspectRatioPreserved": true,
+        "reviewer": "Codex manual review of15-badge contact sheet",
+        "checkedAt": "2026-10-18",
+        "rightsReviewed": false
+      }
+    },
+    {
+      "path": "assets/pending_media/english_badges/41/logo.png",
+      "sha256": "f5eeca905c85a518f955ff4e1f075fe0c64971dc9405d048536c9110e608f0bf",
+      "bytes": 180192,
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "originalSvg": "assets/club_badges/originals/eng-41.svg",
+      "originalSvgSha256": "eedc6ee0f255653ad2e9e5cfdbafae3fcae93fe7108438478f830f6904cf5668",
+      "evidence": [
+        {
+          "source": "https://resources.premierleague.com/premierleague25/badges/88.svg",
+          "sourcePage": "https://www.premierleague.com/en/clubs",
+          "sourceNamespace": "premier-league-sdp-badge",
+          "sourceClubId": "88",
+          "plSourceClubId": "41",
+          "kind": "club-logo",
+          "nameAsPublished": "Hull City",
+          "badgeTeamNameAsPublished": "Hull City",
+          "processing": "Original SVG preserved; rasterized with CairoSVG at1024px width, keeping aspect ratio; no redraw or AI",
+          "rightsStatus": "pending-review"
+        }
+      ],
+      "approvedForQuestions": false,
+      "rightsStatus": "pending-review",
+      "visualReview": {
+        "clubIdentity": true,
+        "professionalCrest": true,
+        "aspectRatioPreserved": true,
+        "reviewer": "Codex manual review of15-badge contact sheet",
+        "checkedAt": "2026-10-18",
+        "rightsReviewed": false
+      }
+    },
+    {
+      "path": "assets/pending_media/english_badges/6/logo.png",
+      "sha256": "cbf1037bec0b12fa0a88faeff6f88a4e9f53196bc10418ada8adcf6ff2c114b7",
+      "bytes": 174356,
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "originalSvg": "assets/club_badges/originals/eng-6.svg",
+      "originalSvgSha256": "e40fc09ca61fa76545c4bd0c99acc6fc7d3f7339ca1d5344a76dc68cb803be7f",
+      "evidence": [
+        {
+          "source": "https://resources.premierleague.com/premierleague25/badges/31.svg",
+          "sourcePage": "https://www.premierleague.com/en/clubs",
+          "sourceNamespace": "premier-league-sdp-badge",
+          "sourceClubId": "31",
+          "plSourceClubId": "6",
+          "kind": "club-logo",
+          "nameAsPublished": "Crystal Palace",
+          "badgeTeamNameAsPublished": "Crystal Palace",
+          "processing": "Original SVG preserved; rasterized with CairoSVG at1024px width, keeping aspect ratio; no redraw or AI",
+          "rightsStatus": "pending-review"
+        }
+      ],
+      "approvedForQuestions": false,
+      "rightsStatus": "pending-review",
+      "visualReview": {
+        "clubIdentity": true,
+        "professionalCrest": true,
+        "aspectRatioPreserved": true,
+        "reviewer": "Codex manual review of15-badge contact sheet",
+        "checkedAt": "2026-10-18",
+        "rightsReviewed": false
+      }
+    },
+    {
+      "path": "assets/pending_media/english_badges/7/logo.png",
+      "sha256": "b7dffe68631cadc61cfb6060d72b5a993052b9901bcd648c4f238ae02b4bbea8",
+      "bytes": 194942,
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "originalSvg": "assets/club_badges/originals/eng-7.svg",
+      "originalSvgSha256": "40a0fb8285317d6b3f3a34e9a6d9b0f2a5eb3226993e65a500748c4e9483decc",
+      "evidence": [
+        {
+          "source": "https://resources.premierleague.com/premierleague25/badges/11.svg",
+          "sourcePage": "https://www.premierleague.com/en/clubs",
+          "sourceNamespace": "premier-league-sdp-badge",
+          "sourceClubId": "11",
+          "plSourceClubId": "7",
+          "kind": "club-logo",
+          "nameAsPublished": "Everton",
+          "badgeTeamNameAsPublished": "Everton",
+          "processing": "Original SVG preserved; rasterized with CairoSVG at1024px width, keeping aspect ratio; no redraw or AI",
+          "rightsStatus": "pending-review"
+        }
+      ],
+      "approvedForQuestions": false,
+      "rightsStatus": "pending-review",
+      "visualReview": {
+        "clubIdentity": true,
+        "professionalCrest": true,
+        "aspectRatioPreserved": true,
+        "reviewer": "Codex manual review of15-badge contact sheet",
+        "checkedAt": "2026-10-18",
+        "rightsReviewed": false
+      }
+    },
+    {
+      "path": "assets/pending_media/english_badges/8/logo.png",
+      "sha256": "466fd82d7137348834e3a604ae4ce55c700150c99a37e274ea3e9c0ddb4aaa5e",
+      "bytes": 122000,
+      "format": "PNG",
+      "width": 1024,
+      "height": 1285,
+      "originalSvg": "assets/club_badges/originals/eng-8.svg",
+      "originalSvgSha256": "ad9bea65d13a4311d0f9a4e4a60e8ec9769ddd360968386e9fda2c03ae8b608a",
+      "evidence": [
+        {
+          "source": "https://resources.premierleague.com/premierleague25/badges/40.svg",
+          "sourcePage": "https://www.premierleague.com/en/clubs",
+          "sourceNamespace": "premier-league-sdp-badge",
+          "sourceClubId": "40",
+          "plSourceClubId": "8",
+          "kind": "club-logo",
+          "nameAsPublished": "Ipswich Town",
+          "badgeTeamNameAsPublished": "Ipswich Town",
+          "processing": "Original SVG preserved; rasterized with CairoSVG at1024px width, keeping aspect ratio; no redraw or AI",
+          "rightsStatus": "pending-review"
+        }
+      ],
+      "approvedForQuestions": false,
+      "rightsStatus": "pending-review",
+      "visualReview": {
+        "clubIdentity": true,
+        "professionalCrest": true,
+        "aspectRatioPreserved": true,
+        "reviewer": "Codex manual review of15-badge contact sheet",
+        "checkedAt": "2026-10-18",
+        "rightsReviewed": false
+      }
+    },
+    {
+      "path": "assets/pending_media/english_badges/9/logo.png",
+      "sha256": "20b669a5dc624971db9cfb26643497d2d4badcb44e7cede16182070cbf60e991",
+      "bytes": 136106,
+      "format": "PNG",
+      "width": 1024,
+      "height": 1241,
+      "originalSvg": "assets/club_badges/originals/eng-9.svg",
+      "originalSvgSha256": "55cf765eb2bd722f35a5fa5714a55f90912222d96dc9ef0c24ab7fbb33fa7c0c",
+      "evidence": [
+        {
+          "source": "https://resources.premierleague.com/premierleague25/badges/2.svg",
+          "sourcePage": "https://www.premierleague.com/en/clubs",
+          "sourceNamespace": "premier-league-sdp-badge",
+          "sourceClubId": "2",
+          "plSourceClubId": "9",
+          "kind": "club-logo",
+          "nameAsPublished": "Leeds United",
+          "badgeTeamNameAsPublished": "Leeds United",
+          "processing": "Original SVG preserved; rasterized with CairoSVG at1024px width, keeping aspect ratio; no redraw or AI",
+          "rightsStatus": "pending-review"
+        }
+      ],
+      "approvedForQuestions": false,
+      "rightsStatus": "pending-review",
+      "visualReview": {
+        "clubIdentity": true,
+        "professionalCrest": true,
+        "aspectRatioPreserved": true,
+        "reviewer": "Codex manual review of15-badge contact sheet",
+        "checkedAt": "2026-10-18",
+        "rightsReviewed": false
+      }
+    },
+    {
+      "path": "assets/pending_media/english_badges/127/logo.png",
+      "sha256": "929221e82c0e49ab25c376e3c1e9e5177a44e9f0ae33e8b8214ae0b1e9f26c9b",
+      "bytes": 174689,
+      "format": "PNG",
+      "width": 1024,
+      "height": 1346,
+      "originalSvg": "assets/club_badges/originals/eng-127.svg",
+      "originalSvgSha256": "3815981d1993309836ba0ef09cad8bda57becd61530e6449ffad14ca08c89d43",
+      "evidence": [
+        {
+          "source": "https://resources.premierleague.com/premierleague25/badges/91.svg",
+          "sourcePage": "https://www.premierleague.com/en/clubs",
+          "sourceNamespace": "premier-league-sdp-badge",
+          "sourceClubId": "91",
+          "plSourceClubId": "127",
+          "kind": "club-logo",
+          "nameAsPublished": "Bournemouth",
+          "badgeTeamNameAsPublished": "Bournemouth",
+          "processing": "Original SVG preserved; standard SVG1.1 DTD declaration omitted before rasterization, embedded PNG/JPEG validated; external resources forbidden. CairoSVG1024px width preserves proportions; no redraw or AI.",
+          "rightsStatus": "pending-review"
+        }
+      ],
+      "approvedForQuestions": false,
+      "rightsStatus": "pending-review",
+      "visualReview": {
+        "clubIdentity": true,
+        "professionalCrest": true,
+        "aspectRatioPreserved": true,
+        "reviewer": "Codex manual review of15-badge contact sheet",
+        "checkedAt": "2026-10-18",
+        "rightsReviewed": false
+      }
+    },
+    {
+      "path": "assets/pending_media/english_badges/5/logo.png",
+      "sha256": "2b373b147823f9a0cdf1936b573f0ffb9f2cf3a098587b640a54c579a63025e8",
+      "bytes": 449556,
+      "format": "PNG",
+      "width": 1024,
+      "height": 1328,
+      "originalSvg": "assets/club_badges/originals/eng-5.svg",
+      "originalSvgSha256": "24a0fdc400f20bb7a2c3b67742b4c72e81b67b24602a69b10b18a10edc03a733",
+      "evidence": [
+        {
+          "source": "https://resources.premierleague.com/premierleague25/badges/9.svg",
+          "sourcePage": "https://www.premierleague.com/en/clubs",
+          "sourceNamespace": "premier-league-sdp-badge",
+          "sourceClubId": "9",
+          "plSourceClubId": "5",
+          "kind": "club-logo",
+          "nameAsPublished": "Coventry City",
+          "badgeTeamNameAsPublished": "Coventry City",
+          "processing": "Original SVG preserved; standard SVG1.1 DTD declaration omitted before rasterization, embedded PNG/JPEG validated; external resources forbidden. CairoSVG1024px width preserves proportions; no redraw or AI.",
+          "rightsStatus": "pending-review"
+        }
+      ],
+      "approvedForQuestions": false,
+      "rightsStatus": "pending-review",
+      "visualReview": {
+        "clubIdentity": true,
+        "professionalCrest": true,
+        "aspectRatioPreserved": true,
+        "reviewer": "Codex manual review of15-badge contact sheet",
+        "checkedAt": "2026-10-18",
+        "rightsReviewed": false
+      }
+    }
+  ],
+  "failures": []
+}
