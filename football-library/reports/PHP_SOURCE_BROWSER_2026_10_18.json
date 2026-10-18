@@ -1,0 +1,29 @@
+{
+  "releaseReady": false,
+  "canonicalCatalogModified": false,
+  "deployedToHosting": false,
+  "counts": {
+    "clubs": 58,
+    "sourcePlayerCards": 1612,
+    "playerCardsWithContextPortrait": 1223,
+    "clubsWithLogo": 43,
+    "releaseReady": false
+  },
+  "cardsMissingPortrait": 389,
+  "clubsMissingLogo": 15,
+  "coachSourceRecords": 58,
+  "coachSourceRecordsWithPortrait": 42,
+  "pythonReturnCode": 0,
+  "pythonSummary": "----------------------------------------------------------------------\nRan 54 tests in 0.817s\n\nOK (skipped=1)\n",
+  "phpLintReturnCodes": [
+    0,
+    0,
+    0
+  ],
+  "limitations": [
+    "Source cards are not canonical person identities",
+    "All data and photos remain pending review",
+    "Detailed careers, transfers, honors and complete statistics remain incomplete",
+    "No live deployment or navigation change in existing game"
+  ]
+}
