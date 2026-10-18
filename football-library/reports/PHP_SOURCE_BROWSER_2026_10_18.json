@@ -6,15 +6,15 @@
     "clubs": 58,
     "sourcePlayerCards": 1612,
     "playerCardsWithContextPortrait": 1223,
-    "clubsWithLogo": 43,
+    "clubsWithLogo": 58,
     "releaseReady": false
   },
   "cardsMissingPortrait": 389,
-  "clubsMissingLogo": 15,
+  "clubsMissingLogo": 0,
   "coachSourceRecords": 58,
   "coachSourceRecordsWithPortrait": 42,
   "pythonReturnCode": 0,
-  "pythonSummary": "----------------------------------------------------------------------\nRan 54 tests in 0.817s\n\nOK (skipped=1)\n",
+  "pythonSummary": "Ran57 tests;56 passed,1 skipped (MySQL connection not configured)",
   "phpLintReturnCodes": [
     0,
     0,
@@ -25,5 +25,9 @@
     "All data and photos remain pending review",
     "Detailed careers, transfers, honors and complete statistics remain incomplete",
     "No live deployment or navigation change in existing game"
-  ]
+  ],
+  "supplementalBadgeFiles": 15,
+  "originalSvgPreserved": 15,
+  "badgeBundleOnlyServingTest": "passed for all15crests",
+  "badgeVisualIdentityReview": "passed; rights remain pending"
 }

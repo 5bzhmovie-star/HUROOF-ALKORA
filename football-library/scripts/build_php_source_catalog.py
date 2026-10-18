@@ -15,7 +15,13 @@ def build(base,out):
  if hashlib.sha256(raw).hexdigest()!=m['sqlite']['sha256']:raise ValueError('Identity database checksum mismatch')
  for evidence in m['inputs']:
   if hashlib.sha256((base/evidence['path']).read_bytes()).hexdigest()!=evidence['sha256']:raise ValueError('Source snapshot changed; rebuild identity evidence first')
- db=sqlite3.connect((review/'identity_review.sqlite').as_uri()+'?mode=ro',uri=True);rows=[json.loads(r[0]) for r in db.execute("SELECT payload FROM observations WHERE namespace IN ('laliga','spl-primary','premier-league-api') ORDER BY namespace,source_person_id")];by={(r['namespace'],r['sourcePersonId'],r['clubId']):r for r in rows};assets=read('media_files.index.json')['files'];paths={a['path']:a for a in assets};refs={};details={};coaches={};sdpclub={};extra={}
+ db=sqlite3.connect((review/'identity_review.sqlite').as_uri()+'?mode=ro',uri=True);rows=[json.loads(r[0]) for r in db.execute("SELECT payload FROM observations WHERE namespace IN ('laliga','spl-primary','premier-league-api') ORDER BY namespace,source_person_id")];by={(r['namespace'],r['sourcePersonId'],r['clubId']):r for r in rows};assets=read('media_files.index.json')['files']
+ if (base/'data/club_badges_supplement.index.json').exists():
+  extra=read('club_badges_supplement.index.json')
+  if extra.get('format')!='huroof-club-badges-v1':raise ValueError('Invalid badge supplement')
+  assets=assets+extra['files']
+  if len({a['sha256'] for a in assets})!=len(assets):raise ValueError('Duplicate supplemental media')
+ paths={a['path']:a for a in assets};refs={};details={};coaches={};sdpclub={};extra={}
  for c in read('english_completion_sdp_personal_2026_27.json')['clubs']:
   sdpclub[str(c['sourceClubId'])]=str(c['plSourceClubId'])
   for p in c['players']:extra[str(p.get('plPersonId'))]=(p,str(c['plSourceClubId']),c['source'])

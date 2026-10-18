@@ -287,44 +287,44 @@
       "league": "eng",
       "name": "Bournemouth",
       "nameAr": null,
-      "logo": null,
+      "logo": "929221e82c0e49ab25c376e3c1e9e5177a44e9f0ae33e8b8214ae0b1e9f26c9b",
       "players": 20,
       "file": "clubs/eng-127.json",
-      "bytes": 17480,
-      "sha256": "90b4ce65fbf622da771a831c04ae26899480b2a4e12c0ab44a99b7340100c33e"
+      "bytes": 17542,
+      "sha256": "b7bc0b7f486238aeeec5bce0ef61a28f60a946608389a70a56820786b32a0d42"
     },
     {
       "id": "eng-130",
       "league": "eng",
       "name": "Brentford",
       "nameAr": null,
-      "logo": null,
+      "logo": "558e087de50235fb5dbf1781b513820ec0889dd306cef4514ee05cd00e75f1e0",
       "players": 21,
       "file": "clubs/eng-130.json",
-      "bytes": 18410,
-      "sha256": "b6550d8c89350fd3bed6f0b001b411b2f1d5547eb288d9884ceebefc6ce9682d"
+      "bytes": 18472,
+      "sha256": "3ee2ad37edf798eb97b6d4111f846657a29f55a851136641e25383bdd3754038"
     },
     {
       "id": "eng-131",
       "league": "eng",
       "name": "Brighton & Hove Albion",
       "nameAr": null,
-      "logo": null,
+      "logo": "4ec25bb3b21ab6c6b679e0d9eb9c7da8f26e80f6ece2d98ecd7d1552cd593d2c",
       "players": 23,
       "file": "clubs/eng-131.json",
-      "bytes": 21253,
-      "sha256": "595c3d976f1573a1f1e998533effdadbeadc7c9475f710170137063a0af6bdd0"
+      "bytes": 21315,
+      "sha256": "38bb3a9259baf746dd4bf183454b4ae1f58cec1bc4acdca85084f36c524c4d3b"
     },
     {
       "id": "eng-15",
       "league": "eng",
       "name": "Nottingham Forest",
       "nameAr": null,
-      "logo": null,
+      "logo": "6b900852e7ead7ff65837cbc6cfe940ac7483b0d696ddf2a947a7a751310fdfc",
       "players": 22,
       "file": "clubs/eng-15.json",
-      "bytes": 21187,
-      "sha256": "b0aee59e56806537dfda145e657c681f638db1855386e6cc22424bf1cd33311d"
+      "bytes": 21249,
+      "sha256": "c2d8462f835a66af9fa7df21db033427bee8b3e6762c8f02e70f4812b08ce63e"
     },
     {
       "id": "eng-2",
@@ -342,121 +342,121 @@
       "league": "eng",
       "name": "Tottenham Hotspur",
       "nameAr": null,
-      "logo": null,
+      "logo": "a9c7500574b31f26c58c32f266ef7d4e3541095b0ab6535be38e1606b2e4773f",
       "players": 26,
       "file": "clubs/eng-21.json",
-      "bytes": 24877,
-      "sha256": "7aa3d1d051f375ed96a5b4f396ff89fea5bed773f1b3d83d401ce76122892791"
+      "bytes": 24939,
+      "sha256": "053b5aea47dc709fada053d82646c5914f7bcc0c3874e525dc97ec1ffa94e03d"
     },
     {
       "id": "eng-23",
       "league": "eng",
       "name": "Newcastle United",
       "nameAr": null,
-      "logo": null,
+      "logo": "87b40f9b3c71582f0ff48f718e1c14e6b69d56279164470246498738bcf3d44e",
       "players": 25,
       "file": "clubs/eng-23.json",
-      "bytes": 21474,
-      "sha256": "99d9960998fbedb71ed3178a1ef34a887728bda53f818d53eae5d7825689c0b9"
+      "bytes": 21536,
+      "sha256": "e8ce33e6f38fd4623c5f8cb3404b7ae252cbd58af511295ef6d2acf0f805016a"
     },
     {
       "id": "eng-29",
       "league": "eng",
       "name": "Sunderland",
       "nameAr": null,
-      "logo": null,
+      "logo": "3d52544503250cb5871d48641c2d0c52bd29fb58d0ad846bb44074cccc94f0a2",
       "players": 24,
       "file": "clubs/eng-29.json",
-      "bytes": 22535,
-      "sha256": "2dd01d32c6e29b83d0b753a1f07f876f35f098217b42e5b8ec8976dcdad6e7f9"
+      "bytes": 22597,
+      "sha256": "c0fa6cecdd3888e5ed3bae1a7e76f5d07a2d034a74518e12125a0223d3b97c3e"
     },
     {
       "id": "eng-34",
       "league": "eng",
       "name": "Fulham",
       "nameAr": null,
-      "logo": null,
+      "logo": "5f72d4fc47abddd2efa1d3a4ee8920e71a8f827594e0ae27ce61c91e6fbf54a5",
       "players": 22,
       "file": "clubs/eng-34.json",
-      "bytes": 19142,
-      "sha256": "422d3ecbc3c146e87d745165fe6335ae317b8f233527099261e4e1492f5f9bf8"
+      "bytes": 19204,
+      "sha256": "999f5860fa83d85a55c2825d7a261a30ae9a9ee3b952a0efa961ddfd7f76453b"
     },
     {
       "id": "eng-4",
       "league": "eng",
       "name": "Chelsea",
       "nameAr": null,
-      "logo": null,
+      "logo": "2dd64a8d76c349d643f801c3ac4fb58e7d451ddd2bc0d72d1f831d8621a95c38",
       "players": 24,
       "file": "clubs/eng-4.json",
-      "bytes": 20814,
-      "sha256": "d9f7b11eebf1d911052b6f9d7a66a81184b142f707a763bc56320f5982a5899b"
+      "bytes": 20876,
+      "sha256": "973862d5d49f965f96c3f01cf390fbf669eeaec6e8ed9124bac579105db169cb"
     },
     {
       "id": "eng-41",
       "league": "eng",
       "name": "Hull City",
       "nameAr": null,
-      "logo": null,
+      "logo": "f5eeca905c85a518f955ff4e1f075fe0c64971dc9405d048536c9110e608f0bf",
       "players": 31,
       "file": "clubs/eng-41.json",
-      "bytes": 26537,
-      "sha256": "bebfd1ca6bb8a161b9bf13f6b1cc811a675e7f264d5a02042c31e267a12fd378"
+      "bytes": 26599,
+      "sha256": "090df9b11fcc9182cf510c95ca08a159e1d416dc827021cd79fb4b01d6b4e846"
     },
     {
       "id": "eng-5",
       "league": "eng",
       "name": "Coventry City",
       "nameAr": null,
-      "logo": null,
+      "logo": "2b373b147823f9a0cdf1936b573f0ffb9f2cf3a098587b640a54c579a63025e8",
       "players": 27,
       "file": "clubs/eng-5.json",
-      "bytes": 25258,
-      "sha256": "1e1121b125b7b41146f63a5de8fc1950f1d3306e57a77fd6335f1c5834656770"
+      "bytes": 25320,
+      "sha256": "fb6663a482400b701a5fa595415fe7c0ded517359e7fae8ee719ad050c06ccd4"
     },
     {
       "id": "eng-6",
       "league": "eng",
       "name": "Crystal Palace",
       "nameAr": null,
-      "logo": null,
+      "logo": "cbf1037bec0b12fa0a88faeff6f88a4e9f53196bc10418ada8adcf6ff2c114b7",
       "players": 25,
       "file": "clubs/eng-6.json",
-      "bytes": 23652,
-      "sha256": "202d35a85d222882fd81d483765c9f667a20babb05b7434f56802b89ae91576f"
+      "bytes": 23714,
+      "sha256": "d5ca6648c6845a5d1d4fda9f5c04675751ce13a30e9f1fd5e327ca7ecc2e7778"
     },
     {
       "id": "eng-7",
       "league": "eng",
       "name": "Everton",
       "nameAr": null,
-      "logo": null,
+      "logo": "b7dffe68631cadc61cfb6060d72b5a993052b9901bcd648c4f238ae02b4bbea8",
       "players": 19,
       "file": "clubs/eng-7.json",
-      "bytes": 18081,
-      "sha256": "981f5173b5bc9b8ac8981dab12daaf281f2c488b79793bf935393aa0a227e9dd"
+      "bytes": 18143,
+      "sha256": "89d70bd5d8b7c7bbf2a01b23552ef2567df37557cbac3b2b1b89b56855fec142"
     },
     {
       "id": "eng-8",
       "league": "eng",
       "name": "Ipswich Town",
       "nameAr": null,
-      "logo": null,
+      "logo": "466fd82d7137348834e3a604ae4ce55c700150c99a37e274ea3e9c0ddb4aaa5e",
       "players": 30,
       "file": "clubs/eng-8.json",
-      "bytes": 27570,
-      "sha256": "972a3160181f87ee8b4e8aecb110c3ebc9ffbfe9bf975e8323aa677340598615"
+      "bytes": 27632,
+      "sha256": "31ac06a38953e646e92265d9f22f1ce3c6a779663016bb34cb9765230372dbe8"
     },
     {
       "id": "eng-9",
       "league": "eng",
       "name": "Leeds United",
       "nameAr": null,
-      "logo": null,
+      "logo": "20b669a5dc624971db9cfb26643497d2d4badcb44e7cede16182070cbf60e991",
       "players": 25,
       "file": "clubs/eng-9.json",
-      "bytes": 21481,
-      "sha256": "bfed9f4f62295bdf2bb7ac23760c07f1b680475306db444e589da2a81204070a"
+      "bytes": 21543,
+      "sha256": "4a86d6b11089f7856a15d79d04d0478ce829972896a597757fcd4951729760f6"
     },
     {
       "id": "sau-02f22b11aa604566a1858f96addb669c",
@@ -668,6 +668,11 @@
       "path": "data/media_files.index.json",
       "bytes": 1650443,
       "sha256": "68837a08b576d9c3ee1751d7fd0c1150e5c724253c51bbc8e4baed404467cb97"
+    },
+    {
+      "path": "data/club_badges_supplement.index.json",
+      "bytes": 21787,
+      "sha256": "2837d5b1fe3030b47a9f58c069a4c594061711374cb10da4f79cd03cb7f677d3"
     },
     {
       "path": "data/english_completion_sdp_personal_2026_27.json",
