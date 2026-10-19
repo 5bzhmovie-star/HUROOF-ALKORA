@@ -407,7 +407,7 @@ internal sealed class GameWindow : Form
     }
 
     private static void ShowAbout() => MessageBox.Show(
-        "حروف الكورة | Windows Edition v2.2.0\n\n" +
+        "حروف الكورة | Windows Edition v2.3.0\n\n" +
         "محلي: لعبة وخادم داخل جهازك دون صلاحيات المسؤول.\n" +
         "خادم جماعي: اتصال مباشر بخادم حروف الكورة مستقل يحدده المستخدم.\n" +
         "شبكة LAN: غرف مباشرة لأجهزة الشبكة نفسها.\n\n" +

@@ -1,3 +1,4 @@
+import LibraryEntityEditor from './LibraryEntityEditor';
 "use client";
 import React,{useCallback,useEffect,useMemo,useState} from 'react';
 import {api} from './api';
@@ -11,7 +12,7 @@ const CATEGORIES:{id:string;title:string;icon:React.ComponentType<any>}[]=[
 {id:'',title:'الكل',icon:Layers},{id:'player',title:'اللاعبون',icon:UserRound},{id:'club',title:'الأندية',icon:Shield},
 {id:'national_team',title:'المنتخبات',icon:Flag},{id:'competition',title:'البطولات',icon:Trophy},
 {id:'season',title:'المواسم',icon:CalendarDays},{id:'fixture',title:'المباريات',icon:CalendarDays},
-{id:'coach',title:'المدربون',icon:Users},{id:'stadium',title:'الملاعب',icon:MapPin},{id:'country',title:'الدول',icon:Globe2}];
+{id:'coach',title:'المدربون',icon:Users},{id:'stadium',title:'الملاعب',icon:MapPin},{id:'country',title:'الدول',icon:Globe2},{id:'flag',title:'الأعلام',icon:Flag}];
 const LEAGUES=[
 {key:'es-la-liga',name:'الدوري الإسباني',region:'إسبانيا',country:'🇪🇸'},
 {key:'en-premier-league',name:'الدوري الإنجليزي',region:'إنجلترا',country:'🏴'},
@@ -37,7 +38,7 @@ export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x
  const [filter,setFilter]=useState(''),[search,setSearch]=useState(''),[debounced,setDebounced]=useState('');
  const [selected,setSelected]=useState<AtlasEntity|null>(null),[timeline,setTimeline]=useState<Timeline[]>([]);
  const [loading,setLoading]=useState(true),[working,setWorking]=useState(false),[message,setMessage]=useState(''),[error,setError]=useState(''),[reviewSource,setReviewSource]=useState('');
- const [form,setForm]=useState({type:'player',externalKey:'',nameAr:'',nameEn:'',source:'',verifiedAt:new Date().toISOString().slice(0,10),verification:'pending'});
+ const [editing,setEditing]=useState<any>(null);
  const [league,setLeague]=useState('');
  const [offset,setOffset]=useState(0);
  const [overview,setOverview]=useState<any[]>([]);
@@ -78,9 +79,9 @@ export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x
       <p>اللاعبون والأندية والمنتخبات والتاريخ الكروي في مكان واحد. سجل مستقل لكل هوية، ومصادر ومراجعات تحفظ تاريخ كل معلومة.</p>
       <div className="atlas-page-meta">بيانات جهازك · آخر مراجعة لكل سجل ظاهرة في تفاصيله · عرض 100 نتيجة كحد أقصى لكل بحث</div>
     </div>
-    <div className="atlas-actions"><button className="atlas-btn" type="button" disabled={working} onClick={async()=>{if(!window.confirm('البحث عن صور أول 12 سجلًا ناقصًا في ويكيميديا؟ قد تستغرق العملية قليلًا.'))return;setWorking(true);setError('');try{const result=await api<{found:number;checked:number}>('/admin/football-images-enrich',{limit:12});setMessage('فُحص '+result.checked+' سجلًا وعُثر على '+result.found+' صورة مطابقة محتملة.');await reload();}catch(e:any){setError(e.message)}finally{setWorking(false)}}}><ImageIcon size={16}/> جلب صور من الإنترنت</button><button className="atlas-btn" type="button" disabled={working} onClick={()=>{if(window.confirm("إضافة البطولات الإحدى عشرة إلى المكتبة كسجلات أولية قابلة للتدقيق؟"))void mutate("football-import-competitions",{},"أُضيف كتالوج البطولات الرسمي. يحتاج كل موسم وفرق وصور إلى مراجعة منفصلة.")}}><Trophy size={16}/> استيراد البطولات الـ11</button><button className="atlas-btn" type="button" onClick={()=>void reload()}><RefreshCw size={16}/> تحديث العرض</button>
+    <div className="atlas-actions"><button className="atlas-btn main" type="button" onClick={()=>setEditing({entity_type:filter||'player'})}><Plus size={17}/> إضافة عنصر للمكتبة</button></div><details><summary>أدوات الاستيراد وجلب الصور</summary><div className="atlas-actions"><button className="atlas-btn" type="button" disabled={working} onClick={async()=>{if(!window.confirm('البحث عن صور أول 12 سجلًا ناقصًا في ويكيميديا؟ قد تستغرق العملية قليلًا.'))return;setWorking(true);setError('');try{const result=await api<{found:number;checked:number}>('/admin/football-images-enrich',{limit:12});setMessage('فُحص '+result.checked+' سجلًا وعُثر على '+result.found+' صورة مطابقة محتملة.');await reload();}catch(e:any){setError(e.message)}finally{setWorking(false)}}}><ImageIcon size={16}/> جلب صور من الإنترنت</button><button className="atlas-btn" type="button" disabled={working} onClick={()=>{if(window.confirm("إضافة البطولات الإحدى عشرة إلى المكتبة كسجلات أولية قابلة للتدقيق؟"))void mutate("football-import-competitions",{},"أُضيف كتالوج البطولات الرسمي. يحتاج كل موسم وفرق وصور إلى مراجعة منفصلة.")}}><Trophy size={16}/> استيراد البطولات الـ11</button><button className="atlas-btn" type="button" onClick={()=>void reload()}><RefreshCw size={16}/> تحديث العرض</button>
      <button className="atlas-btn main" type="button" disabled={working} onClick={()=>{if(window.confirm('استيراد هويات أولية موثّقة المصدر من نهائيَي 2022 ومسيرة محمد صلاح؟ لا تُنشر أسئلة أو صور تلقائيًا.'))void mutate('football-import-starter',{},'تم استيراد السجلات المرجعية. راجع المصادر والصور قبل النشر.')}}><CloudDownload size={16}/> استيراد البيانات المرجعية</button>
-    </div>
+    </div></details>
    </header>
    <div className="atlas-notice" style={{display:'flex',alignItems:'center',justifyContent:'space-between',gap:10,flexWrap:'wrap'}}>
      <span>تحميل الشعارات تلقائيًا إلى المكتبة المحلية (حتى 11 بطولة في كل دفعة). الصور غير المتاحة تُسجل لإعادة المحاولة.</span>
@@ -88,10 +89,10 @@ export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x
        setWorking(true);setError('');try{const r=await api<any>('/admin/football-image-cache-batch',{type:'competition',limit:11});
        setMessage('تم حفظ '+r.cached+' من '+r.total+' صورة متاحة محليًا.');await reload()}catch(e:any){setError(e.message)}finally{setWorking(false)}
      }}>حفظ شعارات البطولات محليًا</button></div>
-   {coverage&&<section className="atlas-coverage"><h3>فحص جاهزية صور المكتبة</h3><p>الشعارات المحفوظة محليًا: <strong>{coverage.logosCached} / 11</strong> · صور اللاعبين: <strong>{coverage.playerPhotosCached} / {coverage.playersIndexed}</strong></p>
+   {coverage&&<details className="atlas-coverage"><summary>فحص جاهزية صور المكتبة</summary><p>الشعارات المحفوظة محليًا: <strong>{coverage.logosCached} / 11</strong> · صور اللاعبين: <strong>{coverage.playerPhotosCached} / {coverage.playersIndexed}</strong></p>
    <div className="atlas-coverage-grid">{coverage.competitions.map((c:any)=><div key={c.id} className={c.logoCached?'ok':'missing'}>{c.logoCached?'✓':'!'} {c.nameAr} <small>{c.logoCached?'شعار مخزن':'الصورة ناقصة'}</small></div>)}</div>
    {!coverage.releaseReady&&<p role="status">الصور والأسماء المعروضة من السجلات المحلية. بعض البيانات والصور بانتظار المراجعة؛ عدد شعارات البطولات مستقل عن صور الأندية واللاعبين.</p>}
-   </section>}
+   </details>}
    <div className="atlas-dashboard">
     {[{n:count('player'),text:'اللاعبون المسجلون',I:Users},{n:count('club'),text:'الأندية المسجلة',I:Shield},{n:count('national_team'),text:'المنتخبات',I:Flag},{n:stats?.media||0,text:'صور محلية محفوظة',I:ImageIcon},
        {n:stats?.relations||0,text:'العلاقات التاريخية',I:Layers},{n:reviewCount,text:'تحتاج مراجعة',I:AlertTriangle},{n:stats?.publishedVisual||0,text:'أسئلة بصرية منشورة',I:BookOpen},{n:11,text:'بطولات مستهدفة',I:Trophy}].map(o=><div className="atlas-metric" key={o.text}><o.I size={25} color="#c2f17c"/><div><div className="figure">{loading&&!stats?'—':o.n.toLocaleString('ar-SA')}</div><small>{o.text}</small></div></div>)}
@@ -111,7 +112,7 @@ export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x
     </div>
     <div className="atlas-split"><div>
       <div className="atlas-results">{pageItems.map(item=><button key={item.id} type="button" className={'atlas-entity-card '+(selected?.id===item.id?'active':'')} onClick={()=>void inspect(item)}>
-         <Portrait item={item}/><span><strong>{item.name_ar}</strong><small>{item.name_en}</small><small>{labels[item.entity_type]||item.entity_type} · {item.metadata?.verification==='reviewed'?'تمت مراجعة الهوية':'بانتظار مراجعة الهوية'}</small></span><ChevronLeft size={17} color="#b7d0bb"/></button>)}
+         <Portrait item={item}/><span><strong>{item.name_ar}</strong><small>{item.name_en}</small><small>{labels[item.entity_type]||item.entity_type} · {item.metadata?.verification==='user'?'إضافة شخصية · جاهزة للاستخدام':item.metadata?.verification==='reviewed'?'تمت مراجعة الهوية':'بيانات المكتبة'}</small></span><ChevronLeft size={17} color="#b7d0bb"/></button>)}
        {!loading&&items.length===0&&<div className="atlas-empty"><Database size={30}/><h4>لا توجد سجلات مطابقة</h4><p>جرّب بحثًا مختلفًا، أو استورد بيانات موثّقة المصدر لإضافتها إلى المكتبة.</p></div>}
        {loading&&items.length===0&&<div className="atlas-empty">جارٍ تحميل السجلات…</div>}
       </div>
@@ -122,8 +123,8 @@ export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x
       </div>}
     </div>
     <aside className="atlas-detail">
-     {selected?<><div className="atlas-detail-top"><Portrait item={selected} size={76}/><div><h4>{selected.name_ar}</h4><small>{selected.name_en}</small><div><span className="atlas-status">{selected.metadata?.verification==='reviewed'?'الهوية مدققة':'بانتظار المراجعة'}</span></div></div></div>
-       <p>التصنيف: {labels[selected.entity_type]||selected.entity_type}</p>
+     {selected?<><div className="atlas-detail-top"><Portrait item={selected} size={76}/><div><h4>{selected.name_ar}</h4><small>{selected.name_en}</small><div><span className="atlas-status">{selected.metadata?.verification==='user'?'إضافة شخصية':selected.metadata?.verification==='reviewed'?'الهوية مدققة':'بيانات المكتبة'}</span></div></div></div>
+       <button type="button" className="atlas-btn main" onClick={()=>setEditing(selected)}>تعديل البيانات والصورة</button><p>التصنيف: {labels[selected.entity_type]||selected.entity_type}</p>
        <p>آخر تاريخ تحقق: {selected.metadata?.verifiedAt||'غير محدد'}</p>
        <p>الصورة: {mimeImage(selected.image_key)?'محفوظة محليًا':selected.metadata?.externalImage?'معاينة من ويكيميديا (غير مضمنة في EXE)':'لم يُعثر على صورة معتمدة'}</p>
        {selected.image_license&&<p>الترخيص المسجل: {selected.image_license}</p>}{selected.metadata?.externalImage&&<p>صورة من <a href={selected.metadata.externalImage.source} target="_blank" rel="noopener noreferrer">ويكيميديا كومنز</a> · الرخصة: {selected.metadata.externalImage.license} · المصور: {selected.metadata.externalImage.artist||'غير مذكور'}</p>}
@@ -131,7 +132,7 @@ export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x
        {!mimeImage(selected.image_key)&&<button type="button" disabled={working} className="atlas-btn" onClick={async()=>{setWorking(true);setError('');try{const result=await api<{status:string}>('/admin/football-image-discover',{id:selected.id});setMessage(result.status==='candidate'?'عُثر على صورة مع مصدرها ورخصتها.':'لم تُطابق خدمة الصور هوية هذا السجل بشكل موثوق: '+result.status);await reload();}catch(e:any){setError(e.message)}finally{setWorking(false)}}}><ImageIcon size={15}/> جلب صورة مطابقة من الإنترنت</button>}
        <h4 style={{fontSize:16,marginTop:25}}>السجل التاريخي</h4>
        <div className="atlas-timeline">{timeline.length?timeline.map(h=><div className="atlas-timeline-item" key={h.id}><strong>{labels[h.relation_type]||h.relation_type}: {h.from_name===selected.name_ar?h.to_name:h.from_name}</strong><small>{h.starts_at||'غير مؤرخ'} – {h.ends_at||'مستمر / غير محدد'}</small><a href={h.source} rel="noopener noreferrer" target="_blank" className="atlas-page-meta">عرض الإثبات <ArrowUpLeft size={12}/></a></div>):<p className="atlas-page-meta">لا توجد علاقات مؤرخة في هذا السجل حتى الآن.</p>}</div>
-       {canReview&&selected.metadata?.verification!=='reviewed'&&<div className="atlas-review"><label>إثبات مراجعة مستقل<input type="url" dir="ltr" placeholder="https://…" value={reviewSource} onChange={e=>setReviewSource(e.target.value)}/></label><button type="button" className="atlas-btn" disabled={working||!reviewSource.startsWith('https://')} onClick={()=>void mutate('football-entity-review',{id:selected.id,evidenceUrl:reviewSource},'تم اعتماد مراجعة الهوية. لا يشمل ذلك الموافقة على حقوق الصور.')}>اعتماد الهوية</button></div>}
+       {canReview&&selected.metadata?.verification!=='reviewed'&&selected.metadata?.verification!=='user'&&<div className="atlas-review"><label>إثبات مراجعة مستقل<input type="url" dir="ltr" placeholder="https://…" value={reviewSource} onChange={e=>setReviewSource(e.target.value)}/></label><button type="button" className="atlas-btn" disabled={working||!reviewSource.startsWith('https://')} onClick={()=>void mutate('football-entity-review',{id:selected.id,evidenceUrl:reviewSource},'تم اعتماد مراجعة الهوية. لا يشمل ذلك الموافقة على حقوق الصور.')}>اعتماد الهوية</button></div>}
        <button type="button" className="atlas-btn" style={{marginTop:14}} onClick={()=>{setSelected(null);setTimeline([])}}><X size={14}/> إغلاق التفاصيل</button>
      </>:<div className="atlas-empty" style={{padding:16}}><BookOpen size={30}/><h4>بطاقة المعلومات</h4><p>اختر لاعبًا أو ناديًا أو منتخبًا لعرض بياناته ومصادره وسجله التاريخي في هذا المكان.</p></div>}
     </aside></div>
@@ -154,14 +155,7 @@ export default function FootballLibrary({onSelect,canReview=false}:{onSelect?:(x
     </div>
     {preview&&<p className="atlas-notice">المعاينة: {preview.result.entities} كيانًا، {preview.result.relations} علاقة، صور ناقصة: {preview.result.missingImages}</p>}
    </details>
-   <details className="atlas-create"><summary><Plus size={15} style={{display:'inline'}}/> إضافة كيان جديد إلى المكتبة</summary>
-    <p className="atlas-page-meta">السجلات الجديدة لا تُعد موثقة تلقائيًا، ولا تُنشأ صور من أسماء العناصر.</p>
-    <div className="atlas-create-grid">
-     <label>التصنيف<select value={form.type} onChange={e=>setForm(f=>({...f,type:e.target.value}))}>{CATEGORIES.filter(c=>c.id).map(c=><option key={c.id} value={c.id}>{c.title}</option>)}</select></label>
-     {([['externalKey','المعرف المرجعي'],['nameAr','الاسم العربي'],['nameEn','الاسم الإنجليزي'],['source','رابط المصدر الرسمي HTTPS']] as const).map(([key,title])=><label key={key}>{title}<input value={form[key]} dir={key==='nameAr'?'rtl':'ltr'} onChange={e=>setForm(f=>({...f,[key]:e.target.value}))}/></label>)}
-     <label>تاريخ التحقق<input type="date" value={form.verifiedAt} onChange={e=>setForm(f=>({...f,verifiedAt:e.target.value}))}/></label>
-    </div><button type="button" className="atlas-btn main" disabled={working} onClick={()=>void mutate('football-entity-create',form,'تمت إضافة الكيان في وضع انتظار المراجعة')}>حفظ السجل</button>
-   </details>
+   {editing&&<LibraryEntityEditor initial={editing} onClose={()=>setEditing(null)} onSaved={record=>{setEditing(null);setSelected(record);setMessage('حُفظت البيانات والصورة، وأصبحت متاحة في التعبئة التلقائية.');void reload()}}/>}
    {message&&<p className="atlas-notice" role="status"><CheckCircle2 size={17} style={{display:'inline'}}/> {message}</p>}
    {error&&<p className="atlas-notice" role="alert" style={{color:'#ffb9b9',borderColor:'#b66666'}}><AlertTriangle size={17} style={{display:'inline'}}/> {error}</p>}
  </div>;

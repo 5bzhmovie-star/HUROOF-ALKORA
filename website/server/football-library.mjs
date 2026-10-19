@@ -37,7 +37,7 @@ export function searchEntities(filter={}){
  const type=TYPES.has(filter.type)?filter.type:null;
  const clauses=[],args=[];
  if(type){clauses.push('entity_type=?');args.push(type);}
- if(term){clauses.push('(name_ar LIKE ? OR name_en LIKE ? OR id LIKE ?)');args.push(...Array(3).fill('%'+term+'%'));}
+ if(term){clauses.push("(name_ar LIKE ? OR name_en LIKE ? OR id LIKE ? OR EXISTS (SELECT 1 FROM json_each(football_entities.metadata,'$.aliases') WHERE CAST(value AS TEXT) LIKE ?))");args.push(...Array(4).fill('%'+term+'%'));}
  const where=clauses.length?'WHERE '+clauses.join(' AND '):'';
  return many('SELECT id,entity_type,name_ar,name_en,image_key,image_license,metadata FROM football_entities '+where+' ORDER BY name_ar LIMIT 5000',...args)
  .map(r=>({...r,metadata:JSON.parse(r.metadata||'{}')}));
@@ -49,7 +49,7 @@ export function getHistory(id){
 }
 export function libraryStats(){
  const counts=many('SELECT entity_type type,count(*) total FROM football_entities GROUP BY entity_type');
- const review=one("SELECT count(*) pending FROM football_entities WHERE json_extract(metadata,'$.verification') != 'reviewed' OR json_extract(metadata,'$.verification') IS NULL");
+ const review=one("SELECT count(*) pending FROM football_entities WHERE json_extract(metadata,'$.verification') NOT IN ('reviewed','user') OR json_extract(metadata,'$.verification') IS NULL");
  const assets=one('SELECT count(*) total FROM visual_assets');
  const published=one("SELECT count(*) total FROM visual_questions v JOIN questions q ON q.id=v.question_id WHERE q.status='published'");
  return {entities:counts,pendingReview:review.pending,media:assets.total,publishedVisual:published.total,

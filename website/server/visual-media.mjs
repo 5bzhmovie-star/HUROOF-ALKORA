@@ -17,18 +17,20 @@ export function saveMedia(body) {
  if(!encoded||encoded.length>1900000||!/^[A-Za-z0-9+/]*={0,2}$/.test(encoded))fail(413,'الصورة أكبر من الحد أو تنسيقها غير صحيح.');
  const bytes=Buffer.from(encoded,'base64');
  if(bytes.length<30||bytes.length>1_350_000||!sniff(bytes,contentType))fail(422,'محتوى الصورة لا يطابق تنسيقها.');
- const license=String(body.license||'').trim(),source=String(body.source||'').trim();
- if(!license||license.length>160||!/^https:\/\//.test(source)||source.length>1200)fail(422,'وثّق ترخيص الصورة ورابط مصدرها HTTPS.');
+ const personal=body.origin==='computer';
+ const license=String(body.license||(personal?'صورة أضافها المستخدم من جهازه':'')).trim(),source=String(body.source||(personal?'local-upload':'')).trim();
+ if(!license||license.length>160||(!/^https:\/\//.test(source)&&!(personal&&source==='local-upload'))||source.length>1200)fail(422,'وثّق ترخيص الصورة ورابط مصدرها HTTPS.');
  const hash=createHash('sha256').update(bytes).digest('hex');
  const existing=one('SELECT id FROM visual_assets WHERE sha256=?',hash);
- if(existing)return {url:'/api/visual-media/'+existing.id,id:existing.id,duplicate:true};
+ if(existing){if(body.fileName)run('INSERT OR IGNORE INTO visual_asset_labels VALUES(?,?)',existing.id,String(body.fileName).slice(0,180));return {url:'/api/visual-media/'+existing.id,id:existing.id,duplicate:true,label:String(body.fileName||''),content_type:contentType,license,source};}
  const id=randomBytes(18).toString('base64url');
  const file=id+mimeMap[contentType];
  mkdirSync(directory,{recursive:true,mode:0o700});
  writeFileSync(resolve(directory,file),bytes,{flag:'wx',mode:0o600});
  run('INSERT INTO visual_assets(id,content_type,relative_path,sha256,license,source,created_at) VALUES(?,?,?,?,?,?,?)',
  id,contentType,file,hash,license,source,Date.now());
- return {url:'/api/visual-media/'+id,id,duplicate:false};
+ if(body.fileName)run('INSERT OR IGNORE INTO visual_asset_labels VALUES(?,?)',id,String(body.fileName).slice(0,180));
+ return {url:'/api/visual-media/'+id,id,duplicate:false,label:String(body.fileName||''),content_type:contentType,license,source};
 }
 export function getMedia(id) {
  if(!/^[A-Za-z0-9_-]{8,64}$/.test(id))fail(404,'الوسيط غير موجود.');

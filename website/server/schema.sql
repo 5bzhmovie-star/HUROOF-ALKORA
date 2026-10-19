@@ -45,3 +45,5 @@ CREATE TABLE IF NOT EXISTS football_context_media(id TEXT PRIMARY KEY,entity_id 
 CREATE INDEX IF NOT EXISTS idx_football_context_media_lookup ON football_context_media(entity_id,team_id,role,starts_at,ends_at);
 CREATE TABLE IF NOT EXISTS football_fact_records(id TEXT PRIMARY KEY,entity_id TEXT NOT NULL REFERENCES football_entities(id),kind TEXT NOT NULL,context_id TEXT,season TEXT,as_of TEXT NOT NULL,payload TEXT NOT NULL CHECK(json_valid(payload)),source TEXT NOT NULL,status TEXT NOT NULL CHECK(status IN ('pending','reviewed','unavailable','conflicting')),verified_at TEXT NOT NULL);
 CREATE INDEX IF NOT EXISTS idx_football_facts_entity_kind ON football_fact_records(entity_id,kind,season,as_of);
+
+CREATE TABLE IF NOT EXISTS visual_asset_labels(asset_id TEXT PRIMARY KEY REFERENCES visual_assets(id) ON DELETE CASCADE,label TEXT NOT NULL);

@@ -1,3 +1,4 @@
+import{saveLibraryEntity}from'./football-library-edit.mjs';
 import {lineupsForTeam,lineupDraft,saveLineup} from './football-lineups.mjs';
 import { one, many, run, transaction } from './database.mjs';
 import { fail, token } from './security.mjs';
@@ -27,10 +28,10 @@ export function audit(actor, action, target = '') { run('INSERT INTO audit(actor
 export function requireAdmin(admin, roles = ['owner', 'manager', 'questions']) { if (!admin || !admin.active)
     fail(401, 'سجّل دخول الإدارة أولًا.'); if (!roles.includes(admin.role))
     fail(403, 'ليست لديك صلاحية لهذا الإجراء.'); }
-function questionInput(body, {draft=false}={}) { const q = { tournament_id: String(body.tournament_id || ''), text: String(body.text || '').trim(), answer: String(body.answer || '').trim(), letter: String(body.letter || '').trim(), difficulty: body.difficulty || 'medium', status: body.status || 'published', source: String(body.source || '').trim(), note: String(body.note || '').trim() }; if ((!draft && (q.text.length < 12 || q.answer.length < 2)) || q.text.length > 600 || q.answer.length > 180 || q.note.length > 800 || /[\p{Cc}\p{Cf}]/u.test(q.text + q.answer) || !['easy', 'medium', 'hard'].includes(q.difficulty) || !['published', 'hidden'].includes(q.status))
+function questionInput(body, {draft=false,personal=false}={}) { const q = { tournament_id: String(body.tournament_id || ''), text: String(body.text || '').trim(), answer: String(body.answer || '').trim(), letter: String(body.letter || '').trim(), difficulty: body.difficulty || 'medium', status: body.status || 'published', source: String(body.source || '').trim(), note: String(body.note || '').trim() }; if ((!draft && (q.text.length < 12 || q.answer.length < 2)) || q.text.length > 600 || q.answer.length > 180 || q.note.length > 800 || /[\p{Cc}\p{Cf}]/u.test(q.text + q.answer) || !['easy', 'medium', 'hard'].includes(q.difficulty) || !['published', 'hidden'].includes(q.status))
     fail(422, 'راجع نص السؤال والإجابة ومستوى الصعوبة.'); if (!one('SELECT id FROM tournaments WHERE id=?', q.tournament_id))
     fail(422, 'اختر بطولة صحيحة.'); if (!LETTERS.includes(q.letter) || (q.answer && answerLetter(q.answer) !== q.letter))
-    fail(422, 'الحرف يجب أن يطابق أول حرف في الإجابة بعد تجاهل «الـ» وتوحيد الهمزة.'); if(draft&&!q.source)return q; try {
+    fail(422, 'الحرف يجب أن يطابق أول حرف في الإجابة بعد تجاهل «الـ» وتوحيد الهمزة.'); if((draft||personal)&&!q.source)return q; try {
     const u = new URL(q.source);
     if (u.protocol !== 'https:' || u.username || u.password || q.source.length > 1000)
         throw 0;
@@ -70,7 +71,7 @@ export function adminGet(path, url, admin) {
         case 'football-library-history': return getHistory(url.searchParams.get('id'));
         case 'football-fixture-draft': return fixtureDraft(url.searchParams.get('id'));
         case 'football-career-draft': return careerDraft(url.searchParams.get('id'));
-        case 'visual-media': return many(`SELECT a.id,a.content_type,a.license,a.source,a.created_at,(SELECT name_ar FROM football_entities e WHERE e.image_key='/api/visual-media/'||a.id LIMIT 1) label FROM visual_assets a ORDER BY a.created_at DESC LIMIT 5000`)
+        case 'visual-media': return many(`SELECT a.id,a.content_type,a.license,a.source,a.created_at,coalesce((SELECT name_ar FROM football_entities e WHERE e.image_key='/api/visual-media/'||a.id LIMIT 1),(SELECT label FROM visual_asset_labels l WHERE l.asset_id=a.id),'') label FROM visual_assets a ORDER BY a.created_at DESC LIMIT 5000`)
             .map(item=>({...item,url:'/api/visual-media/'+item.id}));
         case 'visual-questions': return many('SELECT q.id,q.text,q.answer,q.letter,q.tournament_id,q.difficulty,q.status,v.kind,v.payload,v.verified_at FROM visual_questions v JOIN questions q ON q.id=v.question_id ORDER BY q.updated_at DESC LIMIT 500')
             .map(item=>({...item,visual:JSON.parse(item.payload),payload:undefined}));
@@ -109,6 +110,7 @@ export function adminGet(path, url, admin) {
 export function adminWrite(path, body, admin) {
     requireAdmin(admin);
     switch (path) {
+        case 'football-entity-save': {const result=saveLibraryEntity(body);audit(admin.username,'football.entity-save',result.id);return result;}
         case 'football-lineup-save': {const result=saveLineup(body);audit(admin.username,'football.lineup-save',result.id);return result;}
         case 'football-image-cache': {
             requireAdmin(admin,['owner','manager']);return cacheCandidateImage(String(body.id||''));
@@ -174,7 +176,7 @@ export function adminWrite(path, body, admin) {
         case 'visual-question': {
             requireAdmin(admin,['owner','manager','questions']);
             const draft=body.status==='hidden';
-            const base=questionInput(body,{draft}), visual=validateVisualQuestion(body.visual,{draft});
+            const base=questionInput(body,{draft,personal:body.visual?.origin==='user'}), visual=validateVisualQuestion(body.visual,{draft});
             if(!draft){const correct=visual.type==='odd_one_out'?visual.cards[visual.answerIndex]?.name:visual.type==='missing_player'?visual.players.find(p=>p.slot===visual.missingSlot)?.name:null;if(correct&&correct.trim()!==base.answer)fail(422,'الإجابة يجب أن تطابق اسم اللاعب المختار.');}
 
             const refs=new Set();
@@ -189,7 +191,7 @@ export function adminWrite(path, body, admin) {
             collect(visual);
             for(const ref of refs)if(ref&&!referencedMediaExists(ref))fail(422,'الصورة غير موجودة في مكتبة الوسائط: '+ref);
             // Prevent publishing non-reviewed questions and reject mismatched type/answer.
-            if(base.status==='published'&&(!visual.source||!visual.verifiedAt))fail(422,'التحقق التاريخي مطلوب للنشر.');
+            if(base.status==='published'&&visual.origin!=='user'&&(!visual.source||!visual.verifiedAt))fail(422,'التحقق التاريخي مطلوب للنشر.');
             const id=body.id?String(body.id):token(18);
             if(body.id&&!one('SELECT id FROM questions WHERE id=?',id))fail(404,'السؤال غير موجود.');
             transaction(()=>{

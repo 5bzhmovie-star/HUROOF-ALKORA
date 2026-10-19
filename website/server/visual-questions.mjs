@@ -14,7 +14,7 @@ export function validateVisualQuestion(item,{draft=false}={}) {
     for(const key of ['players','stations','cards'])if(item[key]!==undefined&&(!Array.isArray(item[key])||item[key].length>(key==='players'?11:key==='cards'?4:8)))fail(422,'راجع عناصر السؤال.');
     return item;
   }
-  if(typeof item.source!=='string' || !/^https:\/\//.test(item.source) || !Number.isFinite(Date.parse(item.verifiedAt||'')))
+  if((item.origin!=='user'&&(typeof item.source!=='string'||!/^https:\/\//.test(item.source))) || (item.source&&!/^https:\/\//.test(item.source)) || !Number.isFinite(Date.parse(item.verifiedAt||'')))
     fail(422,'يتطلب السؤال مصدرًا موثقًا وتاريخ تحقق صحيحًا.');
   if(!/^\d{4}-\d{2}-\d{2}$/.test(item.eventDate||'')) fail(422,'أدخل تاريخ المباراة أو المسيرة المرجعي.');
   const coords = p => {if(![p.x,p.y].every(n=>Number.isFinite(n)&&n>=0&&n<=100))fail(422,'موقع اللاعب خارج الملعب.');};

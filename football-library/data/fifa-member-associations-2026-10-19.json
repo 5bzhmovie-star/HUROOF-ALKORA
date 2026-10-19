@@ -1,0 +1,1695 @@
+{
+  "source": "https://inside.fifa.com/associations",
+  "arabicSource": "https://inside.fifa.com/ar/associations",
+  "retrievedAt": "2026-10-19",
+  "members": [
+    {
+      "fifaCode": "AFG",
+      "nameEn": "Afghanistan",
+      "confederation": "AFC",
+      "isoCode": "af",
+      "source": "https://inside.fifa.com/associations/AFG",
+      "nameAr": "أفغانستان"
+    },
+    {
+      "fifaCode": "ALB",
+      "nameEn": "Albania",
+      "confederation": "UEFA",
+      "isoCode": "al",
+      "source": "https://inside.fifa.com/associations/ALB",
+      "nameAr": "ألبانيا"
+    },
+    {
+      "fifaCode": "ALG",
+      "nameEn": "Algeria",
+      "confederation": "CAF",
+      "isoCode": "dz",
+      "source": "https://inside.fifa.com/associations/ALG",
+      "nameAr": "الجزائر"
+    },
+    {
+      "fifaCode": "ASA",
+      "nameEn": "American Samoa",
+      "confederation": "OFC",
+      "isoCode": "as",
+      "source": "https://inside.fifa.com/associations/ASA",
+      "nameAr": "ساموا الأمريكية"
+    },
+    {
+      "fifaCode": "AND",
+      "nameEn": "Andorra",
+      "confederation": "UEFA",
+      "isoCode": "ad",
+      "source": "https://inside.fifa.com/associations/AND",
+      "nameAr": "أندورا"
+    },
+    {
+      "fifaCode": "ANG",
+      "nameEn": "Angola",
+      "confederation": "CAF",
+      "isoCode": "ao",
+      "source": "https://inside.fifa.com/associations/ANG",
+      "nameAr": "أنغولا"
+    },
+    {
+      "fifaCode": "AIA",
+      "nameEn": "Anguilla",
+      "confederation": "CONCACAF",
+      "isoCode": "ai",
+      "source": "https://inside.fifa.com/associations/AIA",
+      "nameAr": "أنعويلا"
+    },
+    {
+      "fifaCode": "ATG",
+      "nameEn": "Antigua and Barbuda",
+      "confederation": "CONCACAF",
+      "source": "https://inside.fifa.com/associations/ATG",
+      "isoCode": "ag",
+      "nameAr": "أنتيغوا وبربودا"
+    },
+    {
+      "fifaCode": "ARG",
+      "nameEn": "Argentina",
+      "confederation": "CONMEBOL",
+      "isoCode": "ar",
+      "source": "https://inside.fifa.com/associations/ARG",
+      "nameAr": "الأرجنتين"
+    },
+    {
+      "fifaCode": "ARM",
+      "nameEn": "Armenia",
+      "confederation": "UEFA",
+      "isoCode": "am",
+      "source": "https://inside.fifa.com/associations/ARM",
+      "nameAr": "أرمينيا"
+    },
+    {
+      "fifaCode": "ARU",
+      "nameEn": "Aruba",
+      "confederation": "CONCACAF",
+      "isoCode": "aw",
+      "source": "https://inside.fifa.com/associations/ARU",
+      "nameAr": "أروبا"
+    },
+    {
+      "fifaCode": "AUS",
+      "nameEn": "Australia",
+      "confederation": "AFC",
+      "isoCode": "au",
+      "source": "https://inside.fifa.com/associations/AUS",
+      "nameAr": "أستراليا"
+    },
+    {
+      "fifaCode": "AUT",
+      "nameEn": "Austria",
+      "confederation": "UEFA",
+      "isoCode": "at",
+      "source": "https://inside.fifa.com/associations/AUT",
+      "nameAr": "النمسا"
+    },
+    {
+      "fifaCode": "AZE",
+      "nameEn": "Azerbaijan",
+      "confederation": "UEFA",
+      "isoCode": "az",
+      "source": "https://inside.fifa.com/associations/AZE",
+      "nameAr": "أذربيجان"
+    },
+    {
+      "fifaCode": "BAH",
+      "nameEn": "Bahamas",
+      "confederation": "CONCACAF",
+      "isoCode": "bs",
+      "source": "https://inside.fifa.com/associations/BAH",
+      "nameAr": "جزر الباهاما"
+    },
+    {
+      "fifaCode": "BHR",
+      "nameEn": "Bahrain",
+      "confederation": "AFC",
+      "isoCode": "bh",
+      "source": "https://inside.fifa.com/associations/BHR",
+      "nameAr": "البحرين"
+    },
+    {
+      "fifaCode": "BAN",
+      "nameEn": "Bangladesh",
+      "confederation": "AFC",
+      "isoCode": "bd",
+      "source": "https://inside.fifa.com/associations/BAN",
+      "nameAr": "بنغلاديش"
+    },
+    {
+      "fifaCode": "BRB",
+      "nameEn": "Barbados",
+      "confederation": "CONCACAF",
+      "isoCode": "bb",
+      "source": "https://inside.fifa.com/associations/BRB",
+      "nameAr": "باربادوس"
+    },
+    {
+      "fifaCode": "BLR",
+      "nameEn": "Belarus",
+      "confederation": "UEFA",
+      "isoCode": "by",
+      "source": "https://inside.fifa.com/associations/BLR",
+      "nameAr": "بيلاروسيا "
+    },
+    {
+      "fifaCode": "BEL",
+      "nameEn": "Belgium",
+      "confederation": "UEFA",
+      "isoCode": "be",
+      "source": "https://inside.fifa.com/associations/BEL",
+      "nameAr": "بلجيكا"
+    },
+    {
+      "fifaCode": "BLZ",
+      "nameEn": "Belize",
+      "confederation": "CONCACAF",
+      "isoCode": "bz",
+      "source": "https://inside.fifa.com/associations/BLZ",
+      "nameAr": "بيليز"
+    },
+    {
+      "fifaCode": "BEN",
+      "nameEn": "Benin",
+      "confederation": "CAF",
+      "isoCode": "bj",
+      "source": "https://inside.fifa.com/associations/BEN",
+      "nameAr": "بنين"
+    },
+    {
+      "fifaCode": "BER",
+      "nameEn": "Bermuda",
+      "confederation": "CONCACAF",
+      "isoCode": "bm",
+      "source": "https://inside.fifa.com/associations/BER",
+      "nameAr": "برمودا"
+    },
+    {
+      "fifaCode": "BHU",
+      "nameEn": "Bhutan",
+      "confederation": "AFC",
+      "isoCode": "bt",
+      "source": "https://inside.fifa.com/associations/BHU",
+      "nameAr": "بوتان"
+    },
+    {
+      "fifaCode": "BOL",
+      "nameEn": "Bolivia",
+      "confederation": "CONMEBOL",
+      "isoCode": "bo",
+      "source": "https://inside.fifa.com/associations/BOL",
+      "nameAr": "بوليفيا"
+    },
+    {
+      "fifaCode": "BIH",
+      "nameEn": "Bosnia and Herzegovina",
+      "confederation": "UEFA",
+      "isoCode": "ba",
+      "source": "https://inside.fifa.com/associations/BIH",
+      "nameAr": "البوسنة والهرسك"
+    },
+    {
+      "fifaCode": "BOT",
+      "nameEn": "Botswana",
+      "confederation": "CAF",
+      "isoCode": "bw",
+      "source": "https://inside.fifa.com/associations/BOT",
+      "nameAr": "بتسوانا"
+    },
+    {
+      "fifaCode": "BRA",
+      "nameEn": "Brazil",
+      "confederation": "CONMEBOL",
+      "isoCode": "br",
+      "source": "https://inside.fifa.com/associations/BRA",
+      "nameAr": "البرازيل"
+    },
+    {
+      "fifaCode": "VGB",
+      "nameEn": "British Virgin Islands",
+      "confederation": "CONCACAF",
+      "isoCode": "vg",
+      "source": "https://inside.fifa.com/associations/VGB",
+      "nameAr": "جزر العذراء البريطانية "
+    },
+    {
+      "fifaCode": "BRU",
+      "nameEn": "Brunei Darussalam",
+      "confederation": "AFC",
+      "source": "https://inside.fifa.com/associations/BRU",
+      "isoCode": "bn",
+      "nameAr": "بروناي دار السلام"
+    },
+    {
+      "fifaCode": "BUL",
+      "nameEn": "Bulgaria",
+      "confederation": "UEFA",
+      "isoCode": "bg",
+      "source": "https://inside.fifa.com/associations/BUL",
+      "nameAr": "بلغاريا"
+    },
+    {
+      "fifaCode": "BFA",
+      "nameEn": "Burkina Faso",
+      "confederation": "CAF",
+      "isoCode": "bf",
+      "source": "https://inside.fifa.com/associations/BFA",
+      "nameAr": "بوركينا فاسو"
+    },
+    {
+      "fifaCode": "BDI",
+      "nameEn": "Burundi",
+      "confederation": "CAF",
+      "isoCode": "bi",
+      "source": "https://inside.fifa.com/associations/BDI",
+      "nameAr": "بوروندي"
+    },
+    {
+      "fifaCode": "CPV",
+      "nameEn": "Cabo Verde",
+      "confederation": "CAF",
+      "isoCode": "cv",
+      "source": "https://inside.fifa.com/associations/CPV",
+      "nameAr": "جزر الرأس الأخضر"
+    },
+    {
+      "fifaCode": "CAM",
+      "nameEn": "Cambodia",
+      "confederation": "AFC",
+      "isoCode": "kh",
+      "source": "https://inside.fifa.com/associations/CAM",
+      "nameAr": "كمبوديا"
+    },
+    {
+      "fifaCode": "CMR",
+      "nameEn": "Cameroon",
+      "confederation": "CAF",
+      "isoCode": "cm",
+      "source": "https://inside.fifa.com/associations/CMR",
+      "nameAr": "الكاميرون"
+    },
+    {
+      "fifaCode": "CAN",
+      "nameEn": "Canada",
+      "confederation": "CONCACAF",
+      "isoCode": "ca",
+      "source": "https://inside.fifa.com/associations/CAN",
+      "nameAr": "كندا"
+    },
+    {
+      "fifaCode": "CAY",
+      "nameEn": "Cayman Islands",
+      "confederation": "CONCACAF",
+      "isoCode": "ky",
+      "source": "https://inside.fifa.com/associations/CAY",
+      "nameAr": "جزر الكايمن"
+    },
+    {
+      "fifaCode": "CTA",
+      "nameEn": "Central African Republic",
+      "confederation": "CAF",
+      "isoCode": "cf",
+      "source": "https://inside.fifa.com/associations/CTA",
+      "nameAr": "جمهورية أفريقيا الوسطى"
+    },
+    {
+      "fifaCode": "CHA",
+      "nameEn": "Chad",
+      "confederation": "CAF",
+      "isoCode": "td",
+      "source": "https://inside.fifa.com/associations/CHA",
+      "nameAr": "تشاد"
+    },
+    {
+      "fifaCode": "CHI",
+      "nameEn": "Chile",
+      "confederation": "CONMEBOL",
+      "isoCode": "cl",
+      "source": "https://inside.fifa.com/associations/CHI",
+      "nameAr": "تشيلي"
+    },
+    {
+      "fifaCode": "CHN",
+      "nameEn": "China PR",
+      "confederation": "AFC",
+      "source": "https://inside.fifa.com/associations/CHN",
+      "isoCode": "cn",
+      "nameAr": "الصين"
+    },
+    {
+      "fifaCode": "TPE",
+      "nameEn": "Chinese Taipei",
+      "confederation": "AFC",
+      "source": "https://inside.fifa.com/associations/TPE",
+      "isoCode": "tw",
+      "nameAr": "تايباي الصينية"
+    },
+    {
+      "fifaCode": "COL",
+      "nameEn": "Colombia",
+      "confederation": "CONMEBOL",
+      "isoCode": "co",
+      "source": "https://inside.fifa.com/associations/COL",
+      "nameAr": "كولومبيا"
+    },
+    {
+      "fifaCode": "COM",
+      "nameEn": "Comoros",
+      "confederation": "CAF",
+      "isoCode": "km",
+      "source": "https://inside.fifa.com/associations/COM",
+      "nameAr": "جزر القمر"
+    },
+    {
+      "fifaCode": "CGO",
+      "nameEn": "Congo",
+      "confederation": "CAF",
+      "source": "https://inside.fifa.com/associations/CGO",
+      "isoCode": "cg",
+      "nameAr": "الكونغو"
+    },
+    {
+      "fifaCode": "COD",
+      "nameEn": "Congo DR",
+      "confederation": "CAF",
+      "isoCode": "cd",
+      "source": "https://inside.fifa.com/associations/COD",
+      "nameAr": "جمهورية الكونغو الديمقراطية"
+    },
+    {
+      "fifaCode": "COK",
+      "nameEn": "Cook Islands",
+      "confederation": "OFC",
+      "isoCode": "ck",
+      "source": "https://inside.fifa.com/associations/COK",
+      "nameAr": "جزر كوك "
+    },
+    {
+      "fifaCode": "CRC",
+      "nameEn": "Costa Rica",
+      "confederation": "CONCACAF",
+      "isoCode": "cr",
+      "source": "https://inside.fifa.com/associations/CRC",
+      "nameAr": "كوستاريكا"
+    },
+    {
+      "fifaCode": "CIV",
+      "nameEn": "Côte d'Ivoire",
+      "confederation": "CAF",
+      "isoCode": "ci",
+      "source": "https://inside.fifa.com/associations/CIV",
+      "nameAr": "كوت ديفوار"
+    },
+    {
+      "fifaCode": "CRO",
+      "nameEn": "Croatia",
+      "confederation": "UEFA",
+      "isoCode": "hr",
+      "source": "https://inside.fifa.com/associations/CRO",
+      "nameAr": "كرواتيا"
+    },
+    {
+      "fifaCode": "CUB",
+      "nameEn": "Cuba",
+      "confederation": "CONCACAF",
+      "isoCode": "cu",
+      "source": "https://inside.fifa.com/associations/CUB",
+      "nameAr": "كوبا"
+    },
+    {
+      "fifaCode": "CUW",
+      "nameEn": "Curaçao",
+      "confederation": "CONCACAF",
+      "isoCode": "cw",
+      "source": "https://inside.fifa.com/associations/CUW",
+      "nameAr": "كوراساو"
+    },
+    {
+      "fifaCode": "CYP",
+      "nameEn": "Cyprus",
+      "confederation": "UEFA",
+      "isoCode": "cy",
+      "source": "https://inside.fifa.com/associations/CYP",
+      "nameAr": "قبرص"
+    },
+    {
+      "fifaCode": "CZE",
+      "nameEn": "Czechia",
+      "confederation": "UEFA",
+      "isoCode": "cz",
+      "source": "https://inside.fifa.com/associations/CZE",
+      "nameAr": "تشيكيا"
+    },
+    {
+      "fifaCode": "DEN",
+      "nameEn": "Denmark",
+      "confederation": "UEFA",
+      "isoCode": "dk",
+      "source": "https://inside.fifa.com/associations/DEN",
+      "nameAr": "الدنمارك"
+    },
+    {
+      "fifaCode": "DJI",
+      "nameEn": "Djibouti",
+      "confederation": "CAF",
+      "isoCode": "dj",
+      "source": "https://inside.fifa.com/associations/DJI",
+      "nameAr": "جيبوتي"
+    },
+    {
+      "fifaCode": "DMA",
+      "nameEn": "Dominica",
+      "confederation": "CONCACAF",
+      "isoCode": "dm",
+      "source": "https://inside.fifa.com/associations/DMA",
+      "nameAr": "دومينيكا"
+    },
+    {
+      "fifaCode": "DOM",
+      "nameEn": "Dominican Republic",
+      "confederation": "CONCACAF",
+      "isoCode": "do",
+      "source": "https://inside.fifa.com/associations/DOM",
+      "nameAr": "جمهورية الدومينيكان"
+    },
+    {
+      "fifaCode": "PRK",
+      "nameEn": "DPR Korea",
+      "confederation": "AFC",
+      "source": "https://inside.fifa.com/associations/PRK",
+      "isoCode": "kp",
+      "nameAr": "جمهورية كوريا الديمقراطية الشعبية"
+    },
+    {
+      "fifaCode": "ECU",
+      "nameEn": "Ecuador",
+      "confederation": "CONMEBOL",
+      "isoCode": "ec",
+      "source": "https://inside.fifa.com/associations/ECU",
+      "nameAr": "الإكوادور"
+    },
+    {
+      "fifaCode": "EGY",
+      "nameEn": "Egypt",
+      "confederation": "CAF",
+      "isoCode": "eg",
+      "source": "https://inside.fifa.com/associations/EGY",
+      "nameAr": "مصر"
+    },
+    {
+      "fifaCode": "SLV",
+      "nameEn": "El Salvador",
+      "confederation": "CONCACAF",
+      "isoCode": "sv",
+      "source": "https://inside.fifa.com/associations/SLV",
+      "nameAr": "السلفادور"
+    },
+    {
+      "fifaCode": "ENG",
+      "nameEn": "England",
+      "confederation": "UEFA",
+      "isoCode": "gb-eng",
+      "source": "https://inside.fifa.com/associations/ENG",
+      "nameAr": "إنجلترا"
+    },
+    {
+      "fifaCode": "EQG",
+      "nameEn": "Equatorial Guinea",
+      "confederation": "CAF",
+      "isoCode": "gq",
+      "source": "https://inside.fifa.com/associations/EQG",
+      "nameAr": "غينيا الاستوائية"
+    },
+    {
+      "fifaCode": "ERI",
+      "nameEn": "Eritrea",
+      "confederation": "CAF",
+      "isoCode": "er",
+      "source": "https://inside.fifa.com/associations/ERI",
+      "nameAr": "إريتريا"
+    },
+    {
+      "fifaCode": "EST",
+      "nameEn": "Estonia",
+      "confederation": "UEFA",
+      "isoCode": "ee",
+      "source": "https://inside.fifa.com/associations/EST",
+      "nameAr": "إستونيا"
+    },
+    {
+      "fifaCode": "SWZ",
+      "nameEn": "Eswatini",
+      "confederation": "CAF",
+      "isoCode": "sz",
+      "source": "https://inside.fifa.com/associations/SWZ",
+      "nameAr": "إسواتيني"
+    },
+    {
+      "fifaCode": "ETH",
+      "nameEn": "Ethiopia",
+      "confederation": "CAF",
+      "isoCode": "et",
+      "source": "https://inside.fifa.com/associations/ETH",
+      "nameAr": "إثيوبيا"
+    },
+    {
+      "fifaCode": "FRO",
+      "nameEn": "Faroe Islands",
+      "confederation": "UEFA",
+      "isoCode": "fo",
+      "source": "https://inside.fifa.com/associations/FRO",
+      "nameAr": "جزر فارو"
+    },
+    {
+      "fifaCode": "FIJ",
+      "nameEn": "Fiji",
+      "confederation": "OFC",
+      "isoCode": "fj",
+      "source": "https://inside.fifa.com/associations/FIJ",
+      "nameAr": "فيجي"
+    },
+    {
+      "fifaCode": "FIN",
+      "nameEn": "Finland",
+      "confederation": "UEFA",
+      "isoCode": "fi",
+      "source": "https://inside.fifa.com/associations/FIN",
+      "nameAr": "فنلندا"
+    },
+    {
+      "fifaCode": "FRA",
+      "nameEn": "France",
+      "confederation": "UEFA",
+      "isoCode": "fr",
+      "source": "https://inside.fifa.com/associations/FRA",
+      "nameAr": "فرنسا"
+    },
+    {
+      "fifaCode": "GAB",
+      "nameEn": "Gabon",
+      "confederation": "CAF",
+      "isoCode": "ga",
+      "source": "https://inside.fifa.com/associations/GAB",
+      "nameAr": "الغابون"
+    },
+    {
+      "fifaCode": "GEO",
+      "nameEn": "Georgia",
+      "confederation": "UEFA",
+      "isoCode": "ge",
+      "source": "https://inside.fifa.com/associations/GEO",
+      "nameAr": "جورجيا"
+    },
+    {
+      "fifaCode": "GER",
+      "nameEn": "Germany",
+      "confederation": "UEFA",
+      "isoCode": "de",
+      "source": "https://inside.fifa.com/associations/GER",
+      "nameAr": "ألمانيا"
+    },
+    {
+      "fifaCode": "GHA",
+      "nameEn": "Ghana",
+      "confederation": "CAF",
+      "isoCode": "gh",
+      "source": "https://inside.fifa.com/associations/GHA",
+      "nameAr": "غانا"
+    },
+    {
+      "fifaCode": "GIB",
+      "nameEn": "Gibraltar",
+      "confederation": "UEFA",
+      "isoCode": "gi",
+      "source": "https://inside.fifa.com/associations/GIB",
+      "nameAr": "جبل طارق"
+    },
+    {
+      "fifaCode": "GRE",
+      "nameEn": "Greece",
+      "confederation": "UEFA",
+      "isoCode": "gr",
+      "source": "https://inside.fifa.com/associations/GRE",
+      "nameAr": "اليونان"
+    },
+    {
+      "fifaCode": "GRN",
+      "nameEn": "Grenada",
+      "confederation": "CONCACAF",
+      "isoCode": "gd",
+      "source": "https://inside.fifa.com/associations/GRN",
+      "nameAr": "غرناطة"
+    },
+    {
+      "fifaCode": "GUM",
+      "nameEn": "Guam",
+      "confederation": "AFC",
+      "isoCode": "gu",
+      "source": "https://inside.fifa.com/associations/GUM",
+      "nameAr": "غوام"
+    },
+    {
+      "fifaCode": "GUA",
+      "nameEn": "Guatemala",
+      "confederation": "CONCACAF",
+      "isoCode": "gt",
+      "source": "https://inside.fifa.com/associations/GUA",
+      "nameAr": "غواتيمالا"
+    },
+    {
+      "fifaCode": "GUI",
+      "nameEn": "Guinea",
+      "confederation": "CAF",
+      "isoCode": "gn",
+      "source": "https://inside.fifa.com/associations/GUI",
+      "nameAr": "غينيا"
+    },
+    {
+      "fifaCode": "GNB",
+      "nameEn": "Guinea-Bissau",
+      "confederation": "CAF",
+      "isoCode": "gw",
+      "source": "https://inside.fifa.com/associations/GNB",
+      "nameAr": "غينيا-بيساو"
+    },
+    {
+      "fifaCode": "GUY",
+      "nameEn": "Guyana",
+      "confederation": "CONCACAF",
+      "isoCode": "gy",
+      "source": "https://inside.fifa.com/associations/GUY",
+      "nameAr": "غويانا"
+    },
+    {
+      "fifaCode": "HAI",
+      "nameEn": "Haiti",
+      "confederation": "CONCACAF",
+      "isoCode": "ht",
+      "source": "https://inside.fifa.com/associations/HAI",
+      "nameAr": "هاييتي"
+    },
+    {
+      "fifaCode": "HON",
+      "nameEn": "Honduras",
+      "confederation": "CONCACAF",
+      "isoCode": "hn",
+      "source": "https://inside.fifa.com/associations/HON",
+      "nameAr": "هندوراس"
+    },
+    {
+      "fifaCode": "HKG",
+      "nameEn": "Hong Kong, China",
+      "confederation": "AFC",
+      "source": "https://inside.fifa.com/associations/HKG",
+      "isoCode": "hk",
+      "nameAr": "هونغ كونغ، الصين"
+    },
+    {
+      "fifaCode": "HUN",
+      "nameEn": "Hungary",
+      "confederation": "UEFA",
+      "isoCode": "hu",
+      "source": "https://inside.fifa.com/associations/HUN",
+      "nameAr": "المجر"
+    },
+    {
+      "fifaCode": "ISL",
+      "nameEn": "Iceland",
+      "confederation": "UEFA",
+      "isoCode": "is",
+      "source": "https://inside.fifa.com/associations/ISL",
+      "nameAr": "أيسلندا"
+    },
+    {
+      "fifaCode": "IND",
+      "nameEn": "India",
+      "confederation": "AFC",
+      "isoCode": "in",
+      "source": "https://inside.fifa.com/associations/IND",
+      "nameAr": "الهند"
+    },
+    {
+      "fifaCode": "IDN",
+      "nameEn": "Indonesia",
+      "confederation": "AFC",
+      "isoCode": "id",
+      "source": "https://inside.fifa.com/associations/IDN",
+      "nameAr": "إندونيسيا"
+    },
+    {
+      "fifaCode": "IRN",
+      "nameEn": "IR Iran",
+      "confederation": "AFC",
+      "isoCode": "ir",
+      "source": "https://inside.fifa.com/associations/IRN",
+      "nameAr": "جمهورية إيران الإسلامية"
+    },
+    {
+      "fifaCode": "IRQ",
+      "nameEn": "Iraq",
+      "confederation": "AFC",
+      "isoCode": "iq",
+      "source": "https://inside.fifa.com/associations/IRQ",
+      "nameAr": "العراق"
+    },
+    {
+      "fifaCode": "ISR",
+      "nameEn": "Israel",
+      "confederation": "UEFA",
+      "isoCode": "il",
+      "source": "https://inside.fifa.com/associations/ISR",
+      "nameAr": "إسرائيل"
+    },
+    {
+      "fifaCode": "ITA",
+      "nameEn": "Italy",
+      "confederation": "UEFA",
+      "isoCode": "it",
+      "source": "https://inside.fifa.com/associations/ITA",
+      "nameAr": "إيطاليا"
+    },
+    {
+      "fifaCode": "JAM",
+      "nameEn": "Jamaica",
+      "confederation": "CONCACAF",
+      "isoCode": "jm",
+      "source": "https://inside.fifa.com/associations/JAM",
+      "nameAr": "جامايكا"
+    },
+    {
+      "fifaCode": "JPN",
+      "nameEn": "Japan",
+      "confederation": "AFC",
+      "isoCode": "jp",
+      "source": "https://inside.fifa.com/associations/JPN",
+      "nameAr": "اليابان"
+    },
+    {
+      "fifaCode": "JOR",
+      "nameEn": "Jordan",
+      "confederation": "AFC",
+      "isoCode": "jo",
+      "source": "https://inside.fifa.com/associations/JOR",
+      "nameAr": "الأردن"
+    },
+    {
+      "fifaCode": "KAZ",
+      "nameEn": "Kazakhstan",
+      "confederation": "UEFA",
+      "isoCode": "kz",
+      "source": "https://inside.fifa.com/associations/KAZ",
+      "nameAr": "كازاخستان"
+    },
+    {
+      "fifaCode": "KEN",
+      "nameEn": "Kenya",
+      "confederation": "CAF",
+      "isoCode": "ke",
+      "source": "https://inside.fifa.com/associations/KEN",
+      "nameAr": "كينيا"
+    },
+    {
+      "fifaCode": "KOR",
+      "nameEn": "Korea Republic",
+      "confederation": "AFC",
+      "isoCode": "kr",
+      "source": "https://inside.fifa.com/associations/KOR",
+      "nameAr": "جمهورية كوريا"
+    },
+    {
+      "fifaCode": "KOS",
+      "nameEn": "Kosovo",
+      "confederation": "UEFA",
+      "isoCode": "xk",
+      "source": "https://inside.fifa.com/associations/KOS",
+      "nameAr": "كوسوفو"
+    },
+    {
+      "fifaCode": "KUW",
+      "nameEn": "Kuwait",
+      "confederation": "AFC",
+      "isoCode": "kw",
+      "source": "https://inside.fifa.com/associations/KUW",
+      "nameAr": "الكويت"
+    },
+    {
+      "fifaCode": "KGZ",
+      "nameEn": "Kyrgyz Republic",
+      "confederation": "AFC",
+      "source": "https://inside.fifa.com/associations/KGZ",
+      "isoCode": "kg",
+      "nameAr": "قيرغيزستان"
+    },
+    {
+      "fifaCode": "LAO",
+      "nameEn": "Laos",
+      "confederation": "AFC",
+      "isoCode": "la",
+      "source": "https://inside.fifa.com/associations/LAO",
+      "nameAr": "لاوس"
+    },
+    {
+      "fifaCode": "LVA",
+      "nameEn": "Latvia",
+      "confederation": "UEFA",
+      "isoCode": "lv",
+      "source": "https://inside.fifa.com/associations/LVA",
+      "nameAr": "لاتفيا"
+    },
+    {
+      "fifaCode": "LBN",
+      "nameEn": "Lebanon",
+      "confederation": "AFC",
+      "isoCode": "lb",
+      "source": "https://inside.fifa.com/associations/LBN",
+      "nameAr": "لبنان"
+    },
+    {
+      "fifaCode": "LES",
+      "nameEn": "Lesotho",
+      "confederation": "CAF",
+      "isoCode": "ls",
+      "source": "https://inside.fifa.com/associations/LES",
+      "nameAr": "ليسوتو"
+    },
+    {
+      "fifaCode": "LBR",
+      "nameEn": "Liberia",
+      "confederation": "CAF",
+      "isoCode": "lr",
+      "source": "https://inside.fifa.com/associations/LBR",
+      "nameAr": "ليبيريا"
+    },
+    {
+      "fifaCode": "LBY",
+      "nameEn": "Libya",
+      "confederation": "CAF",
+      "isoCode": "ly",
+      "source": "https://inside.fifa.com/associations/LBY",
+      "nameAr": "ليبيا"
+    },
+    {
+      "fifaCode": "LIE",
+      "nameEn": "Liechtenstein",
+      "confederation": "UEFA",
+      "isoCode": "li",
+      "source": "https://inside.fifa.com/associations/LIE",
+      "nameAr": "ليختنشتاين"
+    },
+    {
+      "fifaCode": "LTU",
+      "nameEn": "Lithuania",
+      "confederation": "UEFA",
+      "isoCode": "lt",
+      "source": "https://inside.fifa.com/associations/LTU",
+      "nameAr": "لتوانيا"
+    },
+    {
+      "fifaCode": "LUX",
+      "nameEn": "Luxembourg",
+      "confederation": "UEFA",
+      "isoCode": "lu",
+      "source": "https://inside.fifa.com/associations/LUX",
+      "nameAr": "لوكسمبورج"
+    },
+    {
+      "fifaCode": "MAC",
+      "nameEn": "Macau, China",
+      "confederation": "AFC",
+      "source": "https://inside.fifa.com/associations/MAC",
+      "isoCode": "mo",
+      "nameAr": "ماكاو، الصين"
+    },
+    {
+      "fifaCode": "MAD",
+      "nameEn": "Madagascar",
+      "confederation": "CAF",
+      "isoCode": "mg",
+      "source": "https://inside.fifa.com/associations/MAD",
+      "nameAr": "مدغشقر"
+    },
+    {
+      "fifaCode": "MWI",
+      "nameEn": "Malawi",
+      "confederation": "CAF",
+      "isoCode": "mw",
+      "source": "https://inside.fifa.com/associations/MWI",
+      "nameAr": "مالاوي"
+    },
+    {
+      "fifaCode": "MAS",
+      "nameEn": "Malaysia",
+      "confederation": "AFC",
+      "isoCode": "my",
+      "source": "https://inside.fifa.com/associations/MAS",
+      "nameAr": "ماليزيا"
+    },
+    {
+      "fifaCode": "MDV",
+      "nameEn": "Maldives",
+      "confederation": "AFC",
+      "isoCode": "mv",
+      "source": "https://inside.fifa.com/associations/MDV",
+      "nameAr": "المالديف"
+    },
+    {
+      "fifaCode": "MLI",
+      "nameEn": "Mali",
+      "confederation": "CAF",
+      "isoCode": "ml",
+      "source": "https://inside.fifa.com/associations/MLI",
+      "nameAr": "مالي"
+    },
+    {
+      "fifaCode": "MLT",
+      "nameEn": "Malta",
+      "confederation": "UEFA",
+      "isoCode": "mt",
+      "source": "https://inside.fifa.com/associations/MLT",
+      "nameAr": "مالطا"
+    },
+    {
+      "fifaCode": "MTN",
+      "nameEn": "Mauritania",
+      "confederation": "CAF",
+      "isoCode": "mr",
+      "source": "https://inside.fifa.com/associations/MTN",
+      "nameAr": "موريتانيا"
+    },
+    {
+      "fifaCode": "MRI",
+      "nameEn": "Mauritius",
+      "confederation": "CAF",
+      "isoCode": "mu",
+      "source": "https://inside.fifa.com/associations/MRI",
+      "nameAr": "موريشيوس"
+    },
+    {
+      "fifaCode": "MEX",
+      "nameEn": "Mexico",
+      "confederation": "CONCACAF",
+      "isoCode": "mx",
+      "source": "https://inside.fifa.com/associations/MEX",
+      "nameAr": "المكسيك"
+    },
+    {
+      "fifaCode": "MDA",
+      "nameEn": "Moldova",
+      "confederation": "UEFA",
+      "isoCode": "md",
+      "source": "https://inside.fifa.com/associations/MDA",
+      "nameAr": "مولدوفا"
+    },
+    {
+      "fifaCode": "MNG",
+      "nameEn": "Mongolia",
+      "confederation": "AFC",
+      "isoCode": "mn",
+      "source": "https://inside.fifa.com/associations/MNG",
+      "nameAr": "منغوليا"
+    },
+    {
+      "fifaCode": "MNE",
+      "nameEn": "Montenegro",
+      "confederation": "UEFA",
+      "isoCode": "me",
+      "source": "https://inside.fifa.com/associations/MNE",
+      "nameAr": "الجبل الأسود"
+    },
+    {
+      "fifaCode": "MSR",
+      "nameEn": "Montserrat",
+      "confederation": "CONCACAF",
+      "isoCode": "ms",
+      "source": "https://inside.fifa.com/associations/MSR",
+      "nameAr": "مونتسيرات "
+    },
+    {
+      "fifaCode": "MAR",
+      "nameEn": "Morocco",
+      "confederation": "CAF",
+      "isoCode": "ma",
+      "source": "https://inside.fifa.com/associations/MAR",
+      "nameAr": "المغرب"
+    },
+    {
+      "fifaCode": "MOZ",
+      "nameEn": "Mozambique",
+      "confederation": "CAF",
+      "isoCode": "mz",
+      "source": "https://inside.fifa.com/associations/MOZ",
+      "nameAr": "موزامبيق"
+    },
+    {
+      "fifaCode": "MYA",
+      "nameEn": "Myanmar",
+      "confederation": "AFC",
+      "source": "https://inside.fifa.com/associations/MYA",
+      "isoCode": "mm",
+      "nameAr": "ميانمار"
+    },
+    {
+      "fifaCode": "NAM",
+      "nameEn": "Namibia",
+      "confederation": "CAF",
+      "isoCode": "na",
+      "source": "https://inside.fifa.com/associations/NAM",
+      "nameAr": "ناميبيا"
+    },
+    {
+      "fifaCode": "NEP",
+      "nameEn": "Nepal",
+      "confederation": "AFC",
+      "isoCode": "np",
+      "source": "https://inside.fifa.com/associations/NEP",
+      "nameAr": "نيبال"
+    },
+    {
+      "fifaCode": "NED",
+      "nameEn": "Netherlands",
+      "confederation": "UEFA",
+      "isoCode": "nl",
+      "source": "https://inside.fifa.com/associations/NED",
+      "nameAr": "هولندا"
+    },
+    {
+      "fifaCode": "NCL",
+      "nameEn": "New Caledonia",
+      "confederation": "OFC",
+      "isoCode": "nc",
+      "source": "https://inside.fifa.com/associations/NCL",
+      "nameAr": "كاليدونيا الجديدة"
+    },
+    {
+      "fifaCode": "NZL",
+      "nameEn": "New Zealand",
+      "confederation": "OFC",
+      "isoCode": "nz",
+      "source": "https://inside.fifa.com/associations/NZL",
+      "nameAr": "نيوزيلندا"
+    },
+    {
+      "fifaCode": "NCA",
+      "nameEn": "Nicaragua",
+      "confederation": "CONCACAF",
+      "isoCode": "ni",
+      "source": "https://inside.fifa.com/associations/NCA",
+      "nameAr": "نيكاراجوا"
+    },
+    {
+      "fifaCode": "NIG",
+      "nameEn": "Niger",
+      "confederation": "CAF",
+      "isoCode": "ne",
+      "source": "https://inside.fifa.com/associations/NIG",
+      "nameAr": "النيجر"
+    },
+    {
+      "fifaCode": "NGA",
+      "nameEn": "Nigeria",
+      "confederation": "CAF",
+      "isoCode": "ng",
+      "source": "https://inside.fifa.com/associations/NGA",
+      "nameAr": "نيجيريا"
+    },
+    {
+      "fifaCode": "MKD",
+      "nameEn": "North Macedonia",
+      "confederation": "UEFA",
+      "isoCode": "mk",
+      "source": "https://inside.fifa.com/associations/MKD",
+      "nameAr": "مقدونيا الشمالية"
+    },
+    {
+      "fifaCode": "NIR",
+      "nameEn": "Northern Ireland",
+      "confederation": "UEFA",
+      "isoCode": "gb-nir",
+      "source": "https://inside.fifa.com/associations/NIR",
+      "nameAr": "أيرلندا الشمالية"
+    },
+    {
+      "fifaCode": "NOR",
+      "nameEn": "Norway",
+      "confederation": "UEFA",
+      "isoCode": "no",
+      "source": "https://inside.fifa.com/associations/NOR",
+      "nameAr": "النرويج"
+    },
+    {
+      "fifaCode": "OMA",
+      "nameEn": "Oman",
+      "confederation": "AFC",
+      "isoCode": "om",
+      "source": "https://inside.fifa.com/associations/OMA",
+      "nameAr": "عمان"
+    },
+    {
+      "fifaCode": "PAK",
+      "nameEn": "Pakistan",
+      "confederation": "AFC",
+      "isoCode": "pk",
+      "source": "https://inside.fifa.com/associations/PAK",
+      "nameAr": "باكستان"
+    },
+    {
+      "fifaCode": "PLE",
+      "nameEn": "Palestine",
+      "confederation": "AFC",
+      "source": "https://inside.fifa.com/associations/PLE",
+      "isoCode": "ps",
+      "nameAr": "فلسطين"
+    },
+    {
+      "fifaCode": "PAN",
+      "nameEn": "Panama",
+      "confederation": "CONCACAF",
+      "isoCode": "pa",
+      "source": "https://inside.fifa.com/associations/PAN",
+      "nameAr": "بنما"
+    },
+    {
+      "fifaCode": "PNG",
+      "nameEn": "Papua New Guinea",
+      "confederation": "OFC",
+      "isoCode": "pg",
+      "source": "https://inside.fifa.com/associations/PNG",
+      "nameAr": "بابوا غينيا الجديدة"
+    },
+    {
+      "fifaCode": "PAR",
+      "nameEn": "Paraguay",
+      "confederation": "CONMEBOL",
+      "isoCode": "py",
+      "source": "https://inside.fifa.com/associations/PAR",
+      "nameAr": "باراغواي"
+    },
+    {
+      "fifaCode": "PER",
+      "nameEn": "Peru",
+      "confederation": "CONMEBOL",
+      "isoCode": "pe",
+      "source": "https://inside.fifa.com/associations/PER",
+      "nameAr": "بيرو"
+    },
+    {
+      "fifaCode": "PHI",
+      "nameEn": "Philippines",
+      "confederation": "AFC",
+      "isoCode": "ph",
+      "source": "https://inside.fifa.com/associations/PHI",
+      "nameAr": "الفلبين"
+    },
+    {
+      "fifaCode": "POL",
+      "nameEn": "Poland",
+      "confederation": "UEFA",
+      "isoCode": "pl",
+      "source": "https://inside.fifa.com/associations/POL",
+      "nameAr": "بولندا"
+    },
+    {
+      "fifaCode": "POR",
+      "nameEn": "Portugal",
+      "confederation": "UEFA",
+      "isoCode": "pt",
+      "source": "https://inside.fifa.com/associations/POR",
+      "nameAr": "البرتغال"
+    },
+    {
+      "fifaCode": "PUR",
+      "nameEn": "Puerto Rico",
+      "confederation": "CONCACAF",
+      "isoCode": "pr",
+      "source": "https://inside.fifa.com/associations/PUR",
+      "nameAr": "بورتوريكو"
+    },
+    {
+      "fifaCode": "QAT",
+      "nameEn": "Qatar",
+      "confederation": "AFC",
+      "isoCode": "qa",
+      "source": "https://inside.fifa.com/associations/QAT",
+      "nameAr": "قطر"
+    },
+    {
+      "fifaCode": "IRL",
+      "nameEn": "Republic of Ireland",
+      "confederation": "UEFA",
+      "source": "https://inside.fifa.com/associations/IRL",
+      "isoCode": "ie",
+      "nameAr": "جمهورية أيرلندا"
+    },
+    {
+      "fifaCode": "ROU",
+      "nameEn": "Romania",
+      "confederation": "UEFA",
+      "isoCode": "ro",
+      "source": "https://inside.fifa.com/associations/ROU",
+      "nameAr": "رومانيا"
+    },
+    {
+      "fifaCode": "RUS",
+      "nameEn": "Russia",
+      "confederation": "UEFA",
+      "isoCode": "ru",
+      "source": "https://inside.fifa.com/associations/RUS",
+      "nameAr": "روسيا"
+    },
+    {
+      "fifaCode": "RWA",
+      "nameEn": "Rwanda",
+      "confederation": "CAF",
+      "isoCode": "rw",
+      "source": "https://inside.fifa.com/associations/RWA",
+      "nameAr": "رواندا"
+    },
+    {
+      "fifaCode": "SAM",
+      "nameEn": "Samoa",
+      "confederation": "OFC",
+      "isoCode": "ws",
+      "source": "https://inside.fifa.com/associations/SAM",
+      "nameAr": "ساموا"
+    },
+    {
+      "fifaCode": "SMR",
+      "nameEn": "San Marino",
+      "confederation": "UEFA",
+      "isoCode": "sm",
+      "source": "https://inside.fifa.com/associations/SMR",
+      "nameAr": "سان مارينو"
+    },
+    {
+      "fifaCode": "STP",
+      "nameEn": "São Tomé and Príncipe",
+      "confederation": "CAF",
+      "source": "https://inside.fifa.com/associations/STP",
+      "isoCode": "st",
+      "nameAr": "سان تومي وبرينسيبي"
+    },
+    {
+      "fifaCode": "KSA",
+      "nameEn": "Saudi Arabia",
+      "confederation": "AFC",
+      "isoCode": "sa",
+      "source": "https://inside.fifa.com/associations/KSA",
+      "nameAr": "السعودية"
+    },
+    {
+      "fifaCode": "SCO",
+      "nameEn": "Scotland",
+      "confederation": "UEFA",
+      "isoCode": "gb-sct",
+      "source": "https://inside.fifa.com/associations/SCO",
+      "nameAr": "أسكتلندا"
+    },
+    {
+      "fifaCode": "SEN",
+      "nameEn": "Senegal",
+      "confederation": "CAF",
+      "isoCode": "sn",
+      "source": "https://inside.fifa.com/associations/SEN",
+      "nameAr": "السنغال"
+    },
+    {
+      "fifaCode": "SRB",
+      "nameEn": "Serbia",
+      "confederation": "UEFA",
+      "isoCode": "rs",
+      "source": "https://inside.fifa.com/associations/SRB",
+      "nameAr": "صربيا"
+    },
+    {
+      "fifaCode": "SEY",
+      "nameEn": "Seychelles",
+      "confederation": "CAF",
+      "isoCode": "sc",
+      "source": "https://inside.fifa.com/associations/SEY",
+      "nameAr": "جزر سيشيل"
+    },
+    {
+      "fifaCode": "SLE",
+      "nameEn": "Sierra Leone",
+      "confederation": "CAF",
+      "isoCode": "sl",
+      "source": "https://inside.fifa.com/associations/SLE",
+      "nameAr": "سيراليون"
+    },
+    {
+      "fifaCode": "SGP",
+      "nameEn": "Singapore",
+      "confederation": "AFC",
+      "isoCode": "sg",
+      "source": "https://inside.fifa.com/associations/SGP",
+      "nameAr": "سنغافورة"
+    },
+    {
+      "fifaCode": "SVK",
+      "nameEn": "Slovakia",
+      "confederation": "UEFA",
+      "isoCode": "sk",
+      "source": "https://inside.fifa.com/associations/SVK",
+      "nameAr": "سلوفاكيا"
+    },
+    {
+      "fifaCode": "SVN",
+      "nameEn": "Slovenia",
+      "confederation": "UEFA",
+      "isoCode": "si",
+      "source": "https://inside.fifa.com/associations/SVN",
+      "nameAr": "سلوفنيا"
+    },
+    {
+      "fifaCode": "SOL",
+      "nameEn": "Solomon Islands",
+      "confederation": "OFC",
+      "isoCode": "sb",
+      "source": "https://inside.fifa.com/associations/SOL",
+      "nameAr": "جزر سليمان"
+    },
+    {
+      "fifaCode": "SOM",
+      "nameEn": "Somalia",
+      "confederation": "CAF",
+      "isoCode": "so",
+      "source": "https://inside.fifa.com/associations/SOM",
+      "nameAr": "الصومال"
+    },
+    {
+      "fifaCode": "RSA",
+      "nameEn": "South Africa",
+      "confederation": "CAF",
+      "isoCode": "za",
+      "source": "https://inside.fifa.com/associations/RSA",
+      "nameAr": "جنوب أفريقيا"
+    },
+    {
+      "fifaCode": "SSD",
+      "nameEn": "South Sudan",
+      "confederation": "CAF",
+      "isoCode": "ss",
+      "source": "https://inside.fifa.com/associations/SSD",
+      "nameAr": "جنوب السودان"
+    },
+    {
+      "fifaCode": "ESP",
+      "nameEn": "Spain",
+      "confederation": "UEFA",
+      "isoCode": "es",
+      "source": "https://inside.fifa.com/associations/ESP",
+      "nameAr": "إسبانيا"
+    },
+    {
+      "fifaCode": "SRI",
+      "nameEn": "Sri Lanka",
+      "confederation": "AFC",
+      "isoCode": "lk",
+      "source": "https://inside.fifa.com/associations/SRI",
+      "nameAr": "سريلانكا"
+    },
+    {
+      "fifaCode": "SKN",
+      "nameEn": "St Kitts and Nevis",
+      "confederation": "CONCACAF",
+      "source": "https://inside.fifa.com/associations/SKN",
+      "isoCode": "kn",
+      "nameAr": "سانت كيتس ونيفس "
+    },
+    {
+      "fifaCode": "LCA",
+      "nameEn": "St Lucia",
+      "confederation": "CONCACAF",
+      "isoCode": "lc",
+      "source": "https://inside.fifa.com/associations/LCA",
+      "nameAr": "سانت لوسيا "
+    },
+    {
+      "fifaCode": "VIN",
+      "nameEn": "St Vincent and the Grenadines",
+      "confederation": "CONCACAF",
+      "source": "https://inside.fifa.com/associations/VIN",
+      "isoCode": "vc",
+      "nameAr": "سانت فنسنت وجرنادين "
+    },
+    {
+      "fifaCode": "SDN",
+      "nameEn": "Sudan",
+      "confederation": "CAF",
+      "isoCode": "sd",
+      "source": "https://inside.fifa.com/associations/SDN",
+      "nameAr": "السودان"
+    },
+    {
+      "fifaCode": "SUR",
+      "nameEn": "Suriname",
+      "confederation": "CONCACAF",
+      "isoCode": "sr",
+      "source": "https://inside.fifa.com/associations/SUR",
+      "nameAr": "سورينام"
+    },
+    {
+      "fifaCode": "SWE",
+      "nameEn": "Sweden",
+      "confederation": "UEFA",
+      "isoCode": "se",
+      "source": "https://inside.fifa.com/associations/SWE",
+      "nameAr": "السويد"
+    },
+    {
+      "fifaCode": "SUI",
+      "nameEn": "Switzerland",
+      "confederation": "UEFA",
+      "isoCode": "ch",
+      "source": "https://inside.fifa.com/associations/SUI",
+      "nameAr": "سويسرا"
+    },
+    {
+      "fifaCode": "SYR",
+      "nameEn": "Syria",
+      "confederation": "AFC",
+      "isoCode": "sy",
+      "source": "https://inside.fifa.com/associations/SYR",
+      "nameAr": "سوريا"
+    },
+    {
+      "fifaCode": "TAH",
+      "nameEn": "Tahiti",
+      "confederation": "OFC",
+      "source": "https://inside.fifa.com/associations/TAH",
+      "isoCode": "pf",
+      "nameAr": "تاهيتي"
+    },
+    {
+      "fifaCode": "TJK",
+      "nameEn": "Tajikistan",
+      "confederation": "AFC",
+      "isoCode": "tj",
+      "source": "https://inside.fifa.com/associations/TJK",
+      "nameAr": "طاجيكستان"
+    },
+    {
+      "fifaCode": "TAN",
+      "nameEn": "Tanzania",
+      "confederation": "CAF",
+      "isoCode": "tz",
+      "source": "https://inside.fifa.com/associations/TAN",
+      "nameAr": "تنزانيا"
+    },
+    {
+      "fifaCode": "THA",
+      "nameEn": "Thailand",
+      "confederation": "AFC",
+      "isoCode": "th",
+      "source": "https://inside.fifa.com/associations/THA",
+      "nameAr": "تايلندا"
+    },
+    {
+      "fifaCode": "GAM",
+      "nameEn": "The Gambia",
+      "confederation": "CAF",
+      "source": "https://inside.fifa.com/associations/GAM",
+      "isoCode": "gm",
+      "nameAr": "غامبيا"
+    },
+    {
+      "fifaCode": "TLS",
+      "nameEn": "Timor-Leste",
+      "confederation": "AFC",
+      "isoCode": "tl",
+      "source": "https://inside.fifa.com/associations/TLS",
+      "nameAr": "تيمور الشرقية"
+    },
+    {
+      "fifaCode": "TOG",
+      "nameEn": "Togo",
+      "confederation": "CAF",
+      "isoCode": "tg",
+      "source": "https://inside.fifa.com/associations/TOG",
+      "nameAr": "توغو"
+    },
+    {
+      "fifaCode": "TGA",
+      "nameEn": "Tonga",
+      "confederation": "OFC",
+      "isoCode": "to",
+      "source": "https://inside.fifa.com/associations/TGA",
+      "nameAr": "تونجا"
+    },
+    {
+      "fifaCode": "TRI",
+      "nameEn": "Trinidad and Tobago",
+      "confederation": "CONCACAF",
+      "source": "https://inside.fifa.com/associations/TRI",
+      "isoCode": "tt",
+      "nameAr": "ترينيداد وتوباجو"
+    },
+    {
+      "fifaCode": "TUN",
+      "nameEn": "Tunisia",
+      "confederation": "CAF",
+      "isoCode": "tn",
+      "source": "https://inside.fifa.com/associations/TUN",
+      "nameAr": "تونس"
+    },
+    {
+      "fifaCode": "TUR",
+      "nameEn": "Türkiye",
+      "confederation": "UEFA",
+      "isoCode": "tr",
+      "source": "https://inside.fifa.com/associations/TUR",
+      "nameAr": "تركيا"
+    },
+    {
+      "fifaCode": "TKM",
+      "nameEn": "Turkmenistan",
+      "confederation": "AFC",
+      "isoCode": "tm",
+      "source": "https://inside.fifa.com/associations/TKM",
+      "nameAr": "تركمانستان"
+    },
+    {
+      "fifaCode": "TCA",
+      "nameEn": "Turks and Caicos Islands",
+      "confederation": "CONCACAF",
+      "source": "https://inside.fifa.com/associations/TCA",
+      "isoCode": "tc",
+      "nameAr": "جزر الترك وكايكوس "
+    },
+    {
+      "fifaCode": "UGA",
+      "nameEn": "Uganda",
+      "confederation": "CAF",
+      "isoCode": "ug",
+      "source": "https://inside.fifa.com/associations/UGA",
+      "nameAr": "أوغندا"
+    },
+    {
+      "fifaCode": "UKR",
+      "nameEn": "Ukraine",
+      "confederation": "UEFA",
+      "isoCode": "ua",
+      "source": "https://inside.fifa.com/associations/UKR",
+      "nameAr": "أوكرانيا"
+    },
+    {
+      "fifaCode": "UAE",
+      "nameEn": "United Arab Emirates",
+      "confederation": "AFC",
+      "isoCode": "ae",
+      "source": "https://inside.fifa.com/associations/UAE",
+      "nameAr": "الإمارات العربية المتحدة"
+    },
+    {
+      "fifaCode": "URU",
+      "nameEn": "Uruguay",
+      "confederation": "CONMEBOL",
+      "isoCode": "uy",
+      "source": "https://inside.fifa.com/associations/URU",
+      "nameAr": "أوروغواي"
+    },
+    {
+      "fifaCode": "VIR",
+      "nameEn": "US Virgin Islands",
+      "confederation": "CONCACAF",
+      "isoCode": "vi",
+      "source": "https://inside.fifa.com/associations/VIR",
+      "nameAr": "الجزر العذراء الأمريكية "
+    },
+    {
+      "fifaCode": "USA",
+      "nameEn": "USA",
+      "confederation": "CONCACAF",
+      "isoCode": "us",
+      "source": "https://inside.fifa.com/associations/USA",
+      "nameAr": "الولايات المتحدة الأمريكية"
+    },
+    {
+      "fifaCode": "UZB",
+      "nameEn": "Uzbekistan",
+      "confederation": "AFC",
+      "isoCode": "uz",
+      "source": "https://inside.fifa.com/associations/UZB",
+      "nameAr": "أوزبكستان"
+    },
+    {
+      "fifaCode": "VAN",
+      "nameEn": "Vanuatu",
+      "confederation": "OFC",
+      "isoCode": "vu",
+      "source": "https://inside.fifa.com/associations/VAN",
+      "nameAr": "فانواتو"
+    },
+    {
+      "fifaCode": "VEN",
+      "nameEn": "Venezuela",
+      "confederation": "CONMEBOL",
+      "isoCode": "ve",
+      "source": "https://inside.fifa.com/associations/VEN",
+      "nameAr": "فنزويلا"
+    },
+    {
+      "fifaCode": "VIE",
+      "nameEn": "Vietnam",
+      "confederation": "AFC",
+      "isoCode": "vn",
+      "source": "https://inside.fifa.com/associations/VIE",
+      "nameAr": "فييتنام"
+    },
+    {
+      "fifaCode": "WAL",
+      "nameEn": "Wales",
+      "confederation": "UEFA",
+      "isoCode": "gb-wls",
+      "source": "https://inside.fifa.com/associations/WAL",
+      "nameAr": "ويلز"
+    },
+    {
+      "fifaCode": "YEM",
+      "nameEn": "Yemen",
+      "confederation": "AFC",
+      "isoCode": "ye",
+      "source": "https://inside.fifa.com/associations/YEM",
+      "nameAr": "اليمن"
+    },
+    {
+      "fifaCode": "ZAM",
+      "nameEn": "Zambia",
+      "confederation": "CAF",
+      "isoCode": "zm",
+      "source": "https://inside.fifa.com/associations/ZAM",
+      "nameAr": "زامبيا"
+    },
+    {
+      "fifaCode": "ZIM",
+      "nameEn": "Zimbabwe",
+      "confederation": "CAF",
+      "isoCode": "zw",
+      "source": "https://inside.fifa.com/associations/ZIM",
+      "nameAr": "زيمبابوي"
+    }
+  ]
+}

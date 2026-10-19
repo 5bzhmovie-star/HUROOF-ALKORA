@@ -18,6 +18,7 @@ export function VisualQuestion({data,revealed,canControl,onAction,mode='auto',ed
  onAction?:(action:string,details?:Record<string,unknown>)=>void;
  editable?:boolean;onMovePlayer?:(slot:number,x:number,y:number)=>void
 }) {
+ const [portraitErrors,setPortraitErrors]=useState<Set<string>>(()=>new Set());
  const [inspected,setInspected]=useState<number|null>(null);
  const [reduceMotion,setReduceMotion]=useState(false);
  const [dragSlot,setDragSlot]=useState<number|null>(null);
@@ -55,9 +56,9 @@ export function VisualQuestion({data,revealed,canControl,onAction,mode='auto',ed
         setDragSlot(null)}}
       onPointerCancel={()=>setDragSlot(null)}
       disabled={!editable&&!shown&&(!canControl||isMissing)} aria-label={shown?p.name:'لاعب مخفي'}>
-      <span className="visual-flip" style={{transitionDelay:reduceMotion?'0ms':(mode==='auto'?p.slot*110:0)+'ms'}}>
+      <span className="visual-flip" style={{'--reveal-delay':reduceMotion?'0ms':(mode==='auto'?p.slot*110:0)+'ms'} as React.CSSProperties}>
        <span className="visual-front">{isMissing?<b className="visual-missing-mark">؟</b>:p.marker?<img src={p.marker} alt="دليل السؤال"/>:<b>؟</b>}</span>
-       {shown&&<span className="visual-back"><img src={p.photo} alt={p.name}/></span>}
+       {shown&&<span className="visual-back">{p.photo&&!portraitErrors.has(p.photo)?<img src={p.photo} alt={p.name} onError={()=>setPortraitErrors(s=>new Set([...s,p.photo!]))}/>:<span className="visual-portrait-missing" title="لا توجد صورة محفوظة لهذا اللاعب"><b>{p.name?.split(/\s+/).slice(0,2).map(w=>w[0]).join('')}</b><small>بدون صورة</small></span>}</span>}
       </span>
       {shown&&<span className="visual-player-name">{p.name}</span>}
     </button>

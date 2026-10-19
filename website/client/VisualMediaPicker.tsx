@@ -1,19 +1,17 @@
 "use client";
-import React,{useMemo,useState} from 'react';
+import React,{useEffect,useMemo,useRef,useState}from'react';import{api}from'./api';import{uploadLocalImage}from'./local-image';
 export type MediaRecord={id:string;url:string;license:string;source:string;content_type:string;label?:string};
-export default function VisualMediaPicker({label,value,onChange,assets}:{label:string;value:string;onChange:(v:string)=>void;assets:MediaRecord[]}){
- const [open,setOpen]=useState(false),[search,setSearch]=useState('');
- const filtered=useMemo(()=>assets.filter(a=>((a.label||'')+' '+a.license+' '+a.source+' '+a.id).toLowerCase().includes(search.toLowerCase())).slice(0,120),[assets,search]);
- const selected=assets.find(a=>a.url===value);
- return <div className="visual-media-picker">
- <div className="visual-media-heading"><strong>{label}</strong><button type="button" onClick={()=>setOpen(v=>!v)}>{open?'إغلاق المكتبة':'اختيار من الصور'}</button></div>
- {value&&<figure><img src={value} alt="الصورة المحددة" width={70} height={70} loading="lazy"/><figcaption>{selected?.license||'صورة محفوظة في المكتبة'}</figcaption></figure>}
- {open&&<div className="visual-media-gallery" role="group" aria-label={label}>
- <input value={search} onChange={e=>setSearch(e.target.value)} placeholder="بحث باسم اللاعب أو الترخيص أو المصدر" aria-label="بحث الصور"/>
- <div className="visual-media-cards">{filtered.map(a=><button type="button" key={a.id} className={value===a.url?'active':''} onClick={()=>{onChange(a.url);setOpen(false)}} title={a.source}>
- <img src={a.url} alt={a.license} loading="lazy" width={88} height={88}/>
- <small>{a.label||a.license}</small></button>)}</div>
- {filtered.length===0&&<p>لا توجد صور مطابقة. ارفع الصورة بترخيص ومصدر موثّق أولًا.</p>}
- </div>}
+export default function VisualMediaPicker({label,value,onChange,assets=[]}:{label:string;value:string;onChange:(v:string)=>void;assets?:MediaRecord[]}){
+ const generation=useRef(0),mounted=useRef(true);useEffect(()=>{mounted.current=true;return()=>{mounted.current=false;generation.current++}},[]);useEffect(()=>{generation.current++},[value]);
+ const[open,setOpen]=useState(false),[search,setSearch]=useState(''),[local,setLocal]=useState<MediaRecord[]>([]),[busy,setBusy]=useState(false),[error,setError]=useState('');
+ useEffect(()=>{if(!open)return;let live=true;api<MediaRecord[]>('/admin/visual-media').then(v=>{if(live)setLocal(v)}).catch(e=>{if(live)setError(e.message)});return()=>{live=false}},[open]);
+ const all=useMemo(()=>[...new Map([...assets,...local].map(a=>[a.id,a])).values()],[assets,local]);
+ const filtered=useMemo(()=>all.filter(a=>((a.label||'')+' '+a.license+' '+a.source).toLowerCase().includes(search.toLowerCase())).slice(0,120),[all,search]);
+ async function upload(file?:File){if(!file||busy)return;const ticket=++generation.current;setBusy(true);setError('');try{const result=await uploadLocalImage(file);if(!mounted.current||ticket!==generation.current)return;setLocal(a=>[...a.filter(x=>x.id!==result.id),result]);onChange(result.url)}catch(e:any){if(mounted.current&&ticket===generation.current)setError(e.message)}finally{if(mounted.current)setBusy(false)}}
+ return <div className="visual-media-picker" onDragOver={e=>e.preventDefault()} onDrop={e=>{e.preventDefault();void upload(e.dataTransfer.files[0])}} onPaste={e=>{const file=e.clipboardData.files[0];if(file){e.preventDefault();void upload(file)}}}>
+ <div className="visual-media-heading"><strong>{label}</strong><div className="image-picker-actions"><label className="local-image-button">{busy?'جارٍ تجهيز الصورة…':'رفع من الكمبيوتر'}<input type="file" accept="image/*" disabled={busy} aria-label={'رفع '+label+' من الكمبيوتر'} onChange={e=>{void upload(e.target.files?.[0]);e.target.value=''}}/></label><button type="button" disabled={busy} onClick={()=>setOpen(v=>!v)}>{open?'إغلاق الصور':'الصور المحفوظة'}</button>{value&&<button type="button" disabled={busy} onClick={()=>onChange('')}>إزالة</button>}</div></div>
+ {value&&<figure><img src={value} alt={label+' المحددة'} width={76} height={76} loading="lazy"/><figcaption>{all.find(a=>a.url===value)?.label||(value.startsWith('/api/visual-media/')?'صورة محفوظة على جهازك':'صورة خارجية — ارفع نسخة لحفظها دون إنترنت')}</figcaption></figure>}
+ {error&&<p className="studio-error" role="alert">{error}</p>}{busy&&<p role="status">تُجهّز الصورة وتحفظ محليًا…</p>}
+ {open&&<div className="visual-media-gallery" role="group" aria-label={label}><input value={search} onChange={e=>setSearch(e.target.value)} placeholder="ابحث باسم الصورة أو العنصر…" aria-label="بحث الصور"/><div className="visual-media-cards">{filtered.map(a=><button type="button" key={a.id} disabled={busy} className={value===a.url?'active':''} onClick={()=>{onChange(a.url);setOpen(false)}}><img src={a.url} alt={a.label||'صورة محفوظة'} loading="lazy" width={88} height={88}/><small>{a.label||'صورة محفوظة'}</small></button>)}</div>{filtered.length===0&&<p>لا توجد صور مطابقة. ارفع صورتك من الكمبيوتر أو اسحبها هنا.</p>}</div>}
  </div>;
 }
