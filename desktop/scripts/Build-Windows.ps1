@@ -22,6 +22,8 @@ try {
     # Bundle the actual repository catalog and image bytes; never fetch at startup.
     & node scripts/build-source-library.mjs
     if ($LASTEXITCODE -ne 0) { throw 'Offline source library packaging failed.' }
+    & node scripts/build-flag-library.mjs
+    if ($LASTEXITCODE -ne 0) { throw 'Offline flags packaging failed.' }
     & pnpm run build:selfhost
     if ($LASTEXITCODE -ne 0) { throw 'Self-hosted React build failed' }
     $testFiles = @(Get-ChildItem (Join-Path $site 'tests') -Filter '*.test.mjs' | ForEach-Object { $_.FullName })

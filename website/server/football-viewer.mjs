@@ -6,7 +6,7 @@ function map(r){return {...r,metadata:JSON.parse(r.metadata||'{}')}}
 export function atlasExplore({type='',q='',page=1}={}){
  const t=types.has(type)?type:'',term=String(q).slice(0,100).trim(),p=Math.max(1,Math.min(1000,Number(page)||1)),where=[],args=[];
  if(t){where.push('entity_type=?');args.push(t)}
- if(term){where.push('(name_ar LIKE ? OR name_en LIKE ?)');args.push('%'+term+'%','%'+term+'%')}
+ if(term){where.push("(name_ar LIKE ? OR name_en LIKE ? OR EXISTS (SELECT 1 FROM json_each(football_entities.metadata,'$.aliases') WHERE CAST(value AS TEXT) LIKE ?))");args.push('%'+term+'%','%'+term+'%','%'+term+'%')}
  const sql=where.length?' WHERE '+where.join(' AND '):'';
  const count=one('SELECT count(*) n FROM football_entities'+sql,...args).n;
  const items=many('SELECT * FROM football_entities'+sql+' ORDER BY name_ar LIMIT 24 OFFSET ?',...args,(p-1)*24).map(map);

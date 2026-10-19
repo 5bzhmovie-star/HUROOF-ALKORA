@@ -1,3 +1,4 @@
+import {lineupsForTeam,lineupDraft,saveLineup} from './football-lineups.mjs';
 import { one, many, run, transaction } from './database.mjs';
 import { fail, token } from './security.mjs';
 import { answerLetter, LETTERS } from './game.mjs';
@@ -61,6 +62,8 @@ export function adminGet(path, url, admin) {
             const where = terms.join(' AND '), page = Math.max(1, Math.min(10000, Number(url.searchParams.get('page')) || 1));
             return { items: many(`SELECT q.*,t.name AS tournament FROM questions q JOIN tournaments t ON t.id=q.tournament_id WHERE ${where} ORDER BY q.updated_at DESC,q.id LIMIT 25 OFFSET ?`, ...p, (page - 1) * 25), total: one(`SELECT count(*) AS n FROM questions q WHERE ${where}`, ...p).n, page };
         }
+        case 'football-lineups': return lineupsForTeam(url.searchParams.get('team'));
+        case 'football-lineup-draft': return lineupDraft(url.searchParams.get('id'));
         case 'football-library': return searchEntities({search:url.searchParams.get('search'),type:url.searchParams.get('type')});
         case 'football-library-stats': return libraryStats();
         case 'football-import-history': {requireAdmin(admin,['owner']);return importHistory();}
@@ -106,6 +109,7 @@ export function adminGet(path, url, admin) {
 export function adminWrite(path, body, admin) {
     requireAdmin(admin);
     switch (path) {
+        case 'football-lineup-save': {const result=saveLineup(body);audit(admin.username,'football.lineup-save',result.id);return result;}
         case 'football-image-cache': {
             requireAdmin(admin,['owner','manager']);return cacheCandidateImage(String(body.id||''));
         }
@@ -171,6 +175,8 @@ export function adminWrite(path, body, admin) {
             requireAdmin(admin,['owner','manager','questions']);
             const draft=body.status==='hidden';
             const base=questionInput(body,{draft}), visual=validateVisualQuestion(body.visual,{draft});
+            if(!draft){const correct=visual.type==='odd_one_out'?visual.cards[visual.answerIndex]?.name:visual.type==='missing_player'?visual.players.find(p=>p.slot===visual.missingSlot)?.name:null;if(correct&&correct.trim()!==base.answer)fail(422,'الإجابة يجب أن تطابق اسم اللاعب المختار.');}
+
             const refs=new Set();
             const collect=(object)=>{
                 if(!object||typeof object!=='object')return;

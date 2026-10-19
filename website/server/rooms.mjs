@@ -17,12 +17,12 @@ export function validName(value) { const n = String(value || '').normalize('NFKC
 export function roomConfig(body) { const config = { teams: [{ name: validName(body.teams?.[0]?.name), color: String(body.teams?.[0]?.color || '') }, { name: validName(body.teams?.[1]?.name), color: String(body.teams?.[1]?.color || '') }], size: Number(body.size), rounds: body.rounds === undefined ? 2 : body.rounds, mode: body.mode, seconds: Number(body.seconds), tournaments: [...new Set(Array.isArray(body.tournaments) ? body.tournaments : [])], difficulty: body.difficulty || 'all', autoReopen: body.autoReopen === true,
   visual: {
     percent:Number(body.visual?.percent??0),
-    types:Array.isArray(body.visual?.types)?[...new Set(body.visual.types)]:['image','career','guess_club_nationalities','guess_nation_clubs'],
+    types:Array.isArray(body.visual?.types)?[...new Set(body.visual.types)]:['image','career','coach_career','common_link','odd_one_out','missing_player','guess_club_nationalities','guess_nation_clubs'],
     revealMode:body.visual?.revealMode || 'auto',
     animation:body.visual?.animation!==false
   }
  }; if (![0,25,50,75,100].includes(config.visual.percent) ||
-     !config.visual.types.every(t=>['image','career','guess_club_nationalities','guess_nation_clubs'].includes(t)) ||
+     !config.visual.types.every(t=>['image','career','coach_career','common_link','odd_one_out','missing_player','guess_club_nationalities','guess_nation_clubs'].includes(t)) ||
      (config.visual.percent>0 && config.visual.types.length===0) ||
      !['auto','all','manual'].includes(config.visual.revealMode))
     fail(422,'راجع إعدادات الأسئلة المصورة.'); if (![4, 5, 6, 7].includes(config.size) || ![2,3,4,5,6].includes(config.rounds) || !['human', 'auto'].includes(config.mode) || ![5, 10, 15, 20].includes(config.seconds) || !['all', 'easy', 'medium', 'hard'].includes(config.difficulty))
@@ -168,7 +168,7 @@ export function act(id, user, body) {
             }
             case 'visual-reveal-slot': {
                 if(!s.current?.visual || s.revealed || !s.visualReveal)fail(409,'لا يوجد سؤال تشكيلات متاح للكشف.');
-                if(s.current.visual.type === 'career')fail(422,'هذا النوع لا يحتوي على تشكيلات.');
+                if(!['guess_club_nationalities','guess_nation_clubs'].includes(s.current.visual.type))fail(422,'هذا النوع لا يحتوي على تشكيلات.');
                 const slot = Number(body.slot);
                 if(!Number.isInteger(slot)||slot<0||slot>10)fail(422,'اختر لاعبًا من التشكيلة.');
                 s.visualReveal.slots = [...new Set([...s.visualReveal.slots,slot])].sort((a,b)=>a-b);

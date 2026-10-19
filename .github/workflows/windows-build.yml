@@ -1,7 +1,7 @@
 name: Windows portable build
 on:
   push:
-    branches: [development/windows-visual-studio-v2, development/source-import, development/native-v1.3, development/questions-reset-v2.0.0, development/visual-questions-v1.4, development/football-library-v1.5, development/library-redesign-v1.5.1, development/atlas-catalog-v1.6, development/atlas-online-images-v1.6.1, development/visual-editor-portrait-pitch-v1.6.2, development/football-atlas-viewer-v1.7, development/atlas-media-autofill-v1.7.1, development/atlas-completeness-gate-v1.8]
+    branches: [development/visual-lineups-v2.1, development/windows-visual-studio-v2, development/source-import, development/native-v1.3, development/questions-reset-v2.1.0, development/visual-questions-v1.4, development/football-library-v1.5, development/library-redesign-v1.5.1, development/atlas-catalog-v1.6, development/atlas-online-images-v1.6.1, development/visual-editor-portrait-pitch-v1.6.2, development/football-atlas-viewer-v1.7, development/atlas-media-autofill-v1.7.1, development/atlas-completeness-gate-v1.8]
     paths:
       - 'website/**'
       - 'football-library/**'
@@ -32,6 +32,6 @@ jobs:
         with:
           name: Huroof-AlKora-Windows-x64
           path: |
-            desktop/dist/Huroof-AlKora-Windows-v2.0.0-x64.zip
-            desktop/dist/Huroof-AlKora-Windows-v2.0.0-x64.zip.sha256.txt
+            desktop/dist/Huroof-AlKora-Windows-v2.1.0-x64.zip
+            desktop/dist/Huroof-AlKora-Windows-v2.1.0-x64.zip.sha256.txt
           if-no-files-found: error

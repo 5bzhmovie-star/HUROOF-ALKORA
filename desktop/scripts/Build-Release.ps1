@@ -5,13 +5,13 @@ $ErrorActionPreference = 'Stop'
 $desktop = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $dist = Join-Path $desktop 'dist'
 $folder = Join-Path $dist 'windows-x64'
-$archive = Join-Path $dist 'Huroof-AlKora-Windows-v2.0.0-x64.zip'
+$archive = Join-Path $dist 'Huroof-AlKora-Windows-v2.1.0-x64.zip'
 if (!$SkipBuild) {
     & (Join-Path $PSScriptRoot 'Build-Windows.ps1')
     if ($LASTEXITCODE -ne 0) { throw 'Build-Windows.ps1 failed.' }
 }
 foreach ($required in @('HuroofAlKora.exe','game\runtime\node.exe','game\dist\client\index.html',
-                       'game\server\index.mjs','game\seed\questions.json','game\seed\source-library\manifest.json')) {
+                       'game\server\index.mjs','game\seed\questions.json','game\seed\source-library\manifest.json', 'game\seed\flag-library\manifest.json')) {
     $path = Join-Path $folder $required
     if (!(Test-Path $path)) { throw "Incomplete release: $required is missing" }
 }

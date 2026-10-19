@@ -12,9 +12,9 @@ chmodSync(dbPath, 0o600);
 db.exec(`PRAGMA journal_mode=WAL; PRAGMA foreign_keys=ON; PRAGMA busy_timeout=5000;`);
 db.exec(readFileSync(resolve(root, 'server/schema.sql'), 'utf8'));
 function ensureLocalMigrations() {
-    if (!db.prepare("SELECT sql FROM sqlite_master WHERE name='visual_questions'").get().sql.includes("'image'")) {
+    if (!db.prepare("SELECT sql FROM sqlite_master WHERE name='visual_questions'").get().sql.includes("'missing_player'")) {
         db.exec(`BEGIN IMMEDIATE;
-        CREATE TABLE visual_questions_v2(question_id TEXT PRIMARY KEY REFERENCES questions(id) ON DELETE CASCADE,kind TEXT NOT NULL CHECK(kind IN ('image','career','guess_club_nationalities','guess_nation_clubs')),payload TEXT NOT NULL CHECK(json_valid(payload)),verified_at TEXT NOT NULL,created_at INTEGER NOT NULL);
+        CREATE TABLE visual_questions_v2(question_id TEXT PRIMARY KEY REFERENCES questions(id) ON DELETE CASCADE,kind TEXT NOT NULL CHECK(kind IN ('image','career','coach_career','common_link','odd_one_out','missing_player','guess_club_nationalities','guess_nation_clubs')),payload TEXT NOT NULL CHECK(json_valid(payload)),verified_at TEXT NOT NULL,created_at INTEGER NOT NULL);
         INSERT INTO visual_questions_v2 SELECT * FROM visual_questions;
         DROP TABLE visual_questions; ALTER TABLE visual_questions_v2 RENAME TO visual_questions;
         COMMIT;`);

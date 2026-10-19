@@ -1,0 +1,4 @@
+import {many,one} from './database.mjs';
+const normalize=s=>String(s||'').normalize('NFKD').toLowerCase().replace(/[\u064B-\u065F\u0670ـ]/g,'').replace(/[أإآ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').replace(/[^\p{L}\p{N}]/gu,'');
+export function flagFor(nationality){const key=normalize(nationality);if(!key)return null;for(const row of many("SELECT * FROM football_entities WHERE entity_type='flag' AND image_key LIKE '/api/visual-media/%' ORDER BY CASE WHEN id LIKE 'flag:iso:%' THEN 0 ELSE 1 END")){const m=JSON.parse(row.metadata||'{}');if([row.name_ar,row.name_en,m.isoCode,...(m.aliases||[])].some(n=>normalize(n)===key))return {id:row.id,name:row.name_ar,url:row.image_key};}return null;}
+export function localClubLogo(id){return id?one("SELECT image_key FROM football_entities WHERE id=? AND entity_type IN ('club','national_team')",id)?.image_key||'':'';}

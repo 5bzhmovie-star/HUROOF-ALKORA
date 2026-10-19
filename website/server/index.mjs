@@ -1,3 +1,4 @@
+import {installLineupSeeds} from './football-lineups.mjs';
 import http from 'node:http';
 import { readFileSync, existsSync, statSync } from 'node:fs';
 import { resolve, sep, extname } from 'node:path';
@@ -41,7 +42,8 @@ export function createApplication(options = {}) {
     if (Boolean(config.turnstileSecret) !== Boolean(config.turnstileSite))
         throw new Error('Both Turnstile keys are required.');
     seedDatabase();
-    if(process.env.NODE_ENV==='desktop')console.log('Offline source library:',installSourceLibrary());
+    installLineupSeeds();
+    if(process.env.NODE_ENV==='desktop'){console.log('Offline source library:',installSourceLibrary());console.log('Offline flags:',installSourceLibrary(resolve(root,'seed/flag-library')));}
     // Preload the source-linked reference catalog in desktop builds. This only creates
     // pending-review records; it never publishes questions or claims licensed images.
     if (process.env.NODE_ENV === 'desktop' && !one("SELECT value FROM settings WHERE key='football_atlas_first_run_v1'")) {
@@ -182,7 +184,7 @@ export function createApplication(options = {}) {
                     return json(res, { ok: true });
                 }
                 if (method === 'GET' && path === '/api/atlas/coverage')return json(res,atlasCoverage());
-                if (method === 'GET' && path === '/api/atlas/player-search')return json(res,playerSearch(url.searchParams.get('q')||''));
+                if (method === 'GET' && path === '/api/atlas/player-search')return json(res,playerSearch(url.searchParams.get('q')||'',url.searchParams.get('type')||'player'));
                 if (method === 'GET' && path === '/api/atlas/player-autofill')return json(res,playerAutofill(String(url.searchParams.get('id')||'')));
                 if (method === 'GET' && path === '/api/atlas/explore')return json(res,atlasExplore({type:url.searchParams.get('type')||'',q:url.searchParams.get('q')||'',page:url.searchParams.get('page')||1}));
                 if (method === 'GET' && path === '/api/atlas/detail')return json(res,atlasDetail(String(url.searchParams.get('id')||''),{teamId:url.searchParams.get('teamId')||null,at:url.searchParams.get('at')||new Date().toISOString().slice(0,10)}));

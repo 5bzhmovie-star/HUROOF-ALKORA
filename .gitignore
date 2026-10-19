@@ -9,3 +9,5 @@ website/data/
 website/*.tsbuildinfo
 .superpowers/
 football-library/assets/bundles/.*.tar.*
+
+website/seed/flag-library/
