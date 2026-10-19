@@ -23,11 +23,6 @@ internal sealed class GameWindow : Form
     // No dependency on any hosted website. Remote play targets only a server the user configures.
     private readonly WebView2 browser;
     private readonly SplashView splash;
-    private readonly Panel toolbar;
-    private readonly Button localButton;
-    private readonly Button onlineButton;
-    private readonly Button lanButton;
-    private readonly Button adminButton;
     private readonly SemaphoreSlim initializeGate = new(1, 1);
     private Process? backend;
     private string localUrl = "";
@@ -39,86 +34,59 @@ internal sealed class GameWindow : Form
     private bool webviewReady;
     private bool shuttingDown;
     private bool fullScreen;
-    private FormBorderStyle savedBorder;
+    private readonly LaunchTransition launch = new();
+    private readonly System.Windows.Forms.Timer revealTimer;
+    private ulong navigationId;
     private FormWindowState savedWindowState;
     private Rectangle savedBounds;
 
     public GameWindow()
     {
-        Text = "حروف الكورة | HUROOF ALKORA";
+        Text = "حروف الكورة";
         StartPosition = FormStartPosition.CenterScreen;
-        MinimumSize = new Size(850, 560);
+        MinimumSize = new Size(640, 480);
         Size = new Size(1350, 855);
         BackColor = Color.FromArgb(16, 32, 31);
+        FormBorderStyle = FormBorderStyle.None;
+        // Set the final display bounds before the first paint; no window/title-bar flash.
+        var screen = Screen.FromPoint(Cursor.Position);
+        var area = screen.WorkingArea;
+        var width = Math.Min(1350, Math.Max(640, area.Width - 64));
+        var height = Math.Min(855, Math.Max(480, area.Height - 64));
+        savedBounds = new Rectangle(area.Left+(area.Width-width)/2,area.Top+(area.Height-height)/2,width,height);
+        savedWindowState = FormWindowState.Normal;
+        StartPosition = FormStartPosition.Manual;
+        Bounds = screen.Bounds; fullScreen = true;
         KeyPreview = true;
         try { Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath); } catch { /* optional icon */ }
 
         browser = new WebView2 { Dock = DockStyle.Fill, DefaultBackgroundColor = Color.FromArgb(16, 32, 31) };
-        toolbar = new Panel { Dock = DockStyle.Top, Height = 53, BackColor = Color.FromArgb(16, 32, 31) };
-        var brandIcon = new PictureBox { Location = new Point(15, 7), Size = new Size(38, 38), SizeMode = PictureBoxSizeMode.Zoom, BackColor = Color.Transparent };
-        using (var brandResource = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("HuroofAlKora.Assets.HuroofAlKora-master.png"))
-        {
-            if (brandResource != null) { using var img = Image.FromStream(brandResource); brandIcon.Image = new Bitmap(img); }
-        }
-        var bottomBorder = new Panel { Dock = DockStyle.Bottom, Height = 1, BackColor = Color.FromArgb(43, 69, 64) };
-        var caption = new Label { Text = "حروف الكورة  ·  WINDOWS EDITION", AutoSize = false,
-            TextAlign = ContentAlignment.MiddleLeft, ForeColor = Color.FromArgb(237, 243, 234),
-            Font = new Font("Segoe UI", 10f, FontStyle.Bold), Location = new Point(62, 5), Size = new Size(260, 40) };
-        onlineButton = ToolbarButton("خادم جماعي", new Point(338, 9));
-        localButton = ToolbarButton("محلي سريع", new Point(454, 9));
-        lanButton = ToolbarButton("شبكة LAN", new Point(570, 9));
-        adminButton = ToolbarButton("لوحة الإدارة", new Point(686, 9));
-        onlineButton.Click += async (_, _) => await SetModeAsync(true);
-        localButton.Click += async (_, _) => await SetModeAsync(false);
-        lanButton.Click += async (_, _) => await SetLanModeAsync();
-        adminButton.Click += async (_, _) => await OpenAdminAsync();
-        var hint = new Label { Text = "F11  ملء الشاشة   ·   F5  تحديث   ·   F1  معلومات",
-            Anchor = AnchorStyles.Top | AnchorStyles.Right, ForeColor = Color.FromArgb(175, 193, 181),
-            Font = new Font("Segoe UI", 8.5f), TextAlign = ContentAlignment.MiddleRight,
-            Location = new Point(1010, 9), Size = new Size(320, 29) };
-        toolbar.Resize += (_, _) => hint.Left = Math.Max(815, toolbar.Width - hint.Width - 20);
-        toolbar.Controls.AddRange(new Control[] { brandIcon, caption, onlineButton, localButton, lanButton, adminButton, hint, bottomBorder });
 
         splash = new SplashView();
         splash.RetryRequested += async (_, _) => await InitializeModeAsync();
         splash.OnlineRequested += async (_, _) => await SetModeAsync(true);
         splash.LocalRequested += async (_, _) => await SetModeAsync(false);
         Controls.Add(browser);
-        Controls.Add(toolbar);
         Controls.Add(splash);
         splash.BringToFront();
-        RefreshModeButtons();
+        revealTimer = new System.Windows.Forms.Timer { Interval = 32 };
+        revealTimer.Tick += (_, _) => {
+            if (shuttingDown || IsDisposed) { revealTimer.Stop(); return; }
+            if (launch.TryComplete(DateTimeOffset.UtcNow)) {
+                revealTimer.Stop(); splash.Hide(); browser.Focus();
+            } else if (launch.HasTimedOut(DateTimeOffset.UtcNow)) {
+                revealTimer.Stop(); launch.Fail(navigationId);
+                splash.UpdateStatus("تأخر تجهيز اللعبة. أعد المحاولة.", error: true);
+            }
+        };
         Shown += async (_, _) => await InitializeModeAsync();
-        FormClosed += (_, _) => { shuttingDown = true; StopBackend(); };
+        FormClosed += (_, _) => { shuttingDown = true; revealTimer.Stop(); revealTimer.Dispose(); StopBackend(); };
         KeyDown += (_, e) => {
             if (e.KeyCode == Keys.F11 || (e.Alt && e.KeyCode == Keys.Enter)) { ToggleFullScreen(); e.Handled = true; }
             else if (e.KeyCode == Keys.Escape && fullScreen) { ToggleFullScreen(); e.Handled = true; }
             else if (e.KeyCode == Keys.F5 || (e.Control && e.KeyCode == Keys.R)) { Reload(); e.Handled = true; }
             else if (e.KeyCode == Keys.F1) { ShowAbout(); e.Handled = true; }
         };
-    }
-
-    private static Button ToolbarButton(string title, Point location)
-    {
-        var button = new Button { Text = title, Location = location, Size = new Size(108, 34),
-            BackColor = Color.FromArgb(35, 66, 58), ForeColor = Color.FromArgb(237, 243, 234),
-            FlatStyle = FlatStyle.Flat, Cursor = Cursors.Hand, Font = new Font("Segoe UI", 9f, FontStyle.Bold) };
-        button.FlatAppearance.BorderSize = 1;
-        button.FlatAppearance.BorderColor = Color.FromArgb(43, 69, 64);
-        button.FlatAppearance.MouseOverBackColor = Color.FromArgb(43, 82, 67);
-        return button;
-    }
-
-    private void RefreshModeButtons()
-    {
-        var lime = Color.FromArgb(194,241,124); var ink = Color.FromArgb(22,51,41);
-        var inactive = Color.FromArgb(35,66,58); var normal = Color.FromArgb(237,243,234);
-        localButton.BackColor = !onlineMode && !lanMode ? lime : inactive;
-        localButton.ForeColor = !onlineMode && !lanMode ? ink : normal;
-        onlineButton.BackColor = onlineMode ? lime : inactive;
-        onlineButton.ForeColor = onlineMode ? ink : normal;
-        lanButton.BackColor = lanMode && !onlineMode ? lime : inactive;
-        lanButton.ForeColor = lanMode && !onlineMode ? ink : normal;
     }
 
     private static int FreeLoopbackPort()
@@ -224,7 +192,6 @@ internal sealed class GameWindow : Form
             "تفعيل الشبكة المحلية", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
         if(result != DialogResult.Yes) return;
         lanIp = ip; lanMode = true; onlineMode = false; StopBackend();
-        RefreshModeButtons();
         await InitializeModeAsync();
     }
 
@@ -269,7 +236,6 @@ internal sealed class GameWindow : Form
             if(!onlineMode && !lanMode && browser.CoreWebView2 is not null && !splash.Visible) return;
             onlineMode=false;lanMode=false;lanIp=null;StopBackend();
         }
-        RefreshModeButtons();
         await InitializeModeAsync();
     }
 
@@ -338,7 +304,7 @@ internal sealed class GameWindow : Form
         core.Settings.IsZoomControlEnabled = false;
         core.Settings.AreBrowserAcceleratorKeysEnabled = false;
         core.Settings.AreHostObjectsAllowed = false; // no arbitrary COM/native APIs exposed to site code
-        core.Settings.IsWebMessageEnabled = true; // restricted to three non-privileged UI shortcuts
+        core.Settings.IsWebMessageEnabled = true; // allowlisted window UI commands only
         core.PermissionRequested += (_, args) => { args.State = CoreWebView2PermissionState.Deny; };
         core.DownloadStarting += (_, args) => {
             // The native app never downloads silently. Admin export requires an explicit Save dialog.
@@ -354,41 +320,68 @@ internal sealed class GameWindow : Form
             else args.Cancel = true;
         };
         core.WebMessageReceived += (_, args) => {
-            if (!AllowedInGame(args.Source)) return;
+            if (shuttingDown || IsDisposed || !AllowedInGame(args.Source)) return;
             string action;
             try { action = args.TryGetWebMessageAsString(); } catch { return; }
-            if (action == "fullscreen") BeginInvoke((MethodInvoker)ToggleFullScreen);
-            else if (action == "reload") BeginInvoke((MethodInvoker)Reload);
-            else if (action == "escape" && fullScreen) BeginInvoke((MethodInvoker)ToggleFullScreen);
+            if (action.StartsWith("{",StringComparison.Ordinal)) {
+                try {
+                    using var message = JsonDocument.Parse(action);
+                    if (message.RootElement.GetProperty("action").GetString() == "ready"
+                        && ulong.TryParse(message.RootElement.GetProperty("navigation").GetString(),out var id)) launch.AppReady(id);
+                } catch (Exception ex) when (ex is JsonException or InvalidOperationException or KeyNotFoundException) { }
+                return;
+            }
+            switch(action) {
+                case "fullscreen": BeginInvoke((MethodInvoker)ToggleFullScreen); break;
+                case "reload": BeginInvoke((MethodInvoker)Reload); break;
+                case "escape" when fullScreen: BeginInvoke((MethodInvoker)ToggleFullScreen); break;
+                case "move" when !fullScreen: BeginInvoke((MethodInvoker)MoveWindow); break;
+                case "minimize": BeginInvoke((MethodInvoker)(() => WindowState = FormWindowState.Minimized)); break;
+                case "close": BeginInvoke((MethodInvoker)Close); break;
+                case "about": BeginInvoke((MethodInvoker)ShowAbout); break;
+                case "admin": BeginInvoke((MethodInvoker)(async () => await OpenAdminAsync())); break;
+                case "lan": BeginInvoke((MethodInvoker)(async () => await SetLanModeAsync())); break;
+                case "local": BeginInvoke((MethodInvoker)(async () => await SetModeAsync(false))); break;
+                case "online": BeginInvoke((MethodInvoker)(async () => await SetModeAsync(true))); break;
+            }
         };
-        await core.AddScriptToExecuteOnDocumentCreatedAsync(@"
-            document.addEventListener('keydown', function(event) {
-              let action = '';
-              if (event.key === 'F11' || (event.altKey && event.key === 'Enter')) action = 'fullscreen';
-              if (event.key === 'Escape') action = 'escape';
-              if (event.key === 'F5' || (event.ctrlKey && event.key.toLowerCase() === 'r')) action = 'reload';
-              if (action) { event.preventDefault(); window.chrome.webview.postMessage(action); }
-            }, true);
-        ");
+        using (var script = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("HuroofAlKora.DesktopPage.js")
+            ?? throw new InvalidOperationException("ملف واجهة المشغل غير موجود."))
+        using (var reader = new StreamReader(script))
+            await core.AddScriptToExecuteOnDocumentCreatedAsync(await reader.ReadToEndAsync());
         core.NavigationStarting += (_, args) => {
             // A redirect must not open an arbitrary site or native shell operation.
-            if (!AllowedInGame(args.Uri)) args.Cancel = true;
+            if (!AllowedInGame(args.Uri)) { args.Cancel = true; return; }
+            navigationId = args.NavigationId;
+            launch.Begin(navigationId, DateTimeOffset.UtcNow);
+            splash.Show(); splash.BringToFront();
+            splash.UpdateStatus("جارٍ تجهيز الملعب…", working: true);
+            revealTimer.Start();
         };
         core.NewWindowRequested += (_, args) => {
             args.Handled = true;
             if (args.IsUserInitiated) OpenOutside(args.Uri); // user gesture only, HTTPS only
         };
         core.NavigationCompleted += async (_, args) => {
-            if (shuttingDown || IsDisposed) return;
+            if (shuttingDown || IsDisposed || args.NavigationId != navigationId) return;
             if (args.IsSuccess) {
-                // Only the invitation link is public; the host UI stays on loopback for admin safety.
+                launch.DocumentLoaded(args.NavigationId);
                 var shareOrigin = lanMode && !onlineMode && lanIp != null
                     ? $"http://{lanIp}:{new Uri(localUrl).Port}" : "";
-                await core.ExecuteScriptAsync("window.__HK_LAN_SHARE_ORIGIN = "
-                    + JsonSerializer.Serialize(shareOrigin) + ";");
-                splash.Hide();
-                browser.Focus();
-            } else splash.UpdateStatus("تعذّر عرض اللعبة. تحقق من الاتصال، ثم حاول مرة أخرى.", error: true);
+                try {
+                    await core.ExecuteScriptAsync("window.__HK_LAN_SHARE_ORIGIN = "
+                        + JsonSerializer.Serialize(shareOrigin) + "; window.__hkDesktopReady?.("
+                        + JsonSerializer.Serialize(args.NavigationId.ToString(System.Globalization.CultureInfo.InvariantCulture)) + ");");
+                } catch (Exception ex) when (ex is InvalidOperationException or System.Runtime.InteropServices.COMException) {
+                    if (!shuttingDown && !IsDisposed && args.NavigationId == navigationId) {
+                        revealTimer.Stop(); launch.Fail(args.NavigationId);
+                        splash.UpdateStatus("تعذّر تجهيز عرض اللعبة. أعد المحاولة.", error: true);
+                    }
+                }
+            } else {
+                revealTimer.Stop(); launch.Fail(args.NavigationId);
+                splash.UpdateStatus("تعذّر عرض اللعبة. تحقق من الاتصال، ثم حاول مرة أخرى.", error: true);
+            }
         };
         webviewReady = true;
     }
@@ -414,7 +407,7 @@ internal sealed class GameWindow : Form
     }
 
     private static void ShowAbout() => MessageBox.Show(
-        "حروف الكورة | Windows Edition v2.1.0\n\n" +
+        "حروف الكورة | Windows Edition v2.2.0\n\n" +
         "محلي: لعبة وخادم داخل جهازك دون صلاحيات المسؤول.\n" +
         "خادم جماعي: اتصال مباشر بخادم حروف الكورة مستقل يحدده المستخدم.\n" +
         "شبكة LAN: غرف مباشرة لأجهزة الشبكة نفسها.\n\n" +
@@ -426,13 +419,23 @@ internal sealed class GameWindow : Form
     private void ToggleFullScreen()
     {
         if (!fullScreen) {
-            savedBorder = FormBorderStyle; savedWindowState = WindowState; savedBounds = Bounds;
+            savedWindowState = WindowState; savedBounds = Bounds;
             WindowState = FormWindowState.Normal; FormBorderStyle = FormBorderStyle.None;
-            Bounds = Screen.FromControl(this).Bounds; toolbar.Hide(); fullScreen = true;
+            Bounds = Screen.FromControl(this).Bounds; fullScreen = true;
         } else {
-            FormBorderStyle = savedBorder; Bounds = savedBounds; WindowState = savedWindowState;
-            toolbar.Show(); fullScreen = false;
+            FormBorderStyle = FormBorderStyle.None; Bounds = savedBounds; WindowState = savedWindowState;
+            fullScreen = false;
         }
+    }
+
+    [System.Runtime.InteropServices.DllImport("user32.dll")]
+    private static extern bool ReleaseCapture();
+    [System.Runtime.InteropServices.DllImport("user32.dll")]
+    private static extern IntPtr SendMessage(IntPtr handle, uint message, IntPtr wParam, IntPtr lParam);
+    private void MoveWindow()
+    {
+        if (fullScreen || shuttingDown || IsDisposed) return;
+        ReleaseCapture(); SendMessage(Handle, 0x00A1, new IntPtr(2), IntPtr.Zero);
     }
 
     private void StopBackend()

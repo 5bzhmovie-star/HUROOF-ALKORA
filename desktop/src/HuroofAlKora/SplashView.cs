@@ -1,162 +1,118 @@
-using System;
-using System.Drawing;
 using System.Drawing.Drawing2D;
-using System.IO;
+using System.Drawing.Text;
 using System.Reflection;
-using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace HuroofAlKora;
 
-/// <summary>Native, offline-first launch experience. No remote pictures, fonts or scripts.</summary>
+/// <summary>Native cover: drawn before WebView starts, with the same Goal mark and Arabic type as the game.</summary>
 internal sealed class SplashView : UserControl
 {
     private readonly System.Windows.Forms.Timer pulse;
-    private readonly Button retry;
-    private readonly Button online;
-    private readonly Button local;
-    private readonly PictureBox emblem;
+    private readonly Button retry, online, local, close;
     private readonly Label statusLabel;
+    private readonly PictureBox emblem;
+    private readonly PrivateFontCollection fonts = new();
+    private readonly List<IntPtr> fontBuffers = new();
     private int frame;
     private bool failed;
+    private readonly Color lime = Color.FromArgb(194,241,124);
     public event EventHandler? RetryRequested;
     public event EventHandler? OnlineRequested;
     public event EventHandler? LocalRequested;
 
     public SplashView()
     {
-        Dock = DockStyle.Fill;
-        BackColor = Color.FromArgb(16, 32, 31);
-        DoubleBuffered = true;
-        ResizeRedraw = true;
-        Font = new Font("Segoe UI", 10f);
-        emblem = new PictureBox { SizeMode = PictureBoxSizeMode.Zoom, BackColor = Color.Transparent, Size = new Size(138, 138) };
-        using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("HuroofAlKora.Assets.HuroofAlKora-master.png"))
-            if (stream != null) { using var loaded = Image.FromStream(stream); emblem.Image = new Bitmap(loaded); }
-        statusLabel = new Label
+        Dock=DockStyle.Fill; BackColor=Color.FromArgb(16,32,31);
+        DoubleBuffered=true; ResizeRedraw=true;
+        foreach(var name in new[]{"Regular","Bold"})
         {
-            Text = "نجهّز الملعب لك...", ForeColor = Color.FromArgb(175, 193, 181),
-            BackColor = Color.Transparent, AutoSize = false, TextAlign = ContentAlignment.MiddleCenter,
-            Font = new Font("Segoe UI", 11f), Height = 72
-        };
-        local = MakeButton("اللعب المحلي السريع", Color.FromArgb(194, 241, 124));
-        online = MakeButton("الاتصال بخادم مستقل", Color.FromArgb(35, 66, 58));
-        retry = MakeButton("إعادة المحاولة", Color.FromArgb(194, 241, 124));
-        retry.Visible = false;
-        local.Click += (_, _) => LocalRequested?.Invoke(this, EventArgs.Empty);
-        online.Click += (_, _) => OnlineRequested?.Invoke(this, EventArgs.Empty);
-        retry.Click += (_, _) => RetryRequested?.Invoke(this, EventArgs.Empty);
-        Controls.Add(emblem);
-        Controls.Add(statusLabel);
-        Controls.Add(local);
-        Controls.Add(online);
-        Controls.Add(retry);
-        Resize += (_, _) => Reflow();
-        pulse = new System.Windows.Forms.Timer { Interval = 32 };
-        pulse.Tick += (_, _) => { frame++; Invalidate(new Rectangle(0, Math.Max(0, Height / 2 - 240), Width, Math.Min(510, Height))); };
-        pulse.Start();
-        Reflow();
+            using var input=Assembly.GetExecutingAssembly().GetManifestResourceStream($"HuroofAlKora.Assets.Arabic-{name}.ttf");
+            if(input==null)continue;
+            using var memory=new MemoryStream(); input.CopyTo(memory);var bytes=memory.ToArray();
+            var buffer=Marshal.AllocCoTaskMem(bytes.Length);Marshal.Copy(bytes,0,buffer,bytes.Length);
+            fonts.AddMemoryFont(buffer,bytes.Length);fontBuffers.Add(buffer);
+        }
+        Font=new Font("Segoe UI",10f);
+        emblem=new PictureBox{SizeMode=PictureBoxSizeMode.Zoom,BackColor=Color.Transparent,Size=new Size(128,128)};
+        using(var stream=Assembly.GetExecutingAssembly().GetManifestResourceStream("HuroofAlKora.Assets.HuroofAlKora-master.png"))
+            if(stream!=null){using var image=Image.FromStream(stream);emblem.Image=new Bitmap(image);}
+        statusLabel=new Label{Text="نجهّز الملعب لك…",ForeColor=Color.FromArgb(175,193,181),BackColor=Color.Transparent,
+            AutoSize=false,TextAlign=ContentAlignment.MiddleCenter,RightToLeft=RightToLeft.Yes,Height=76,Font=new Font("Segoe UI",11f)};
+        local=MakeButton("اللعب المحلي",false);online=MakeButton("خادم جماعي",false);retry=MakeButton("إعادة المحاولة",true);
+        close=MakeButton("×",false);close.Size=new Size(44,38);close.AccessibleName="إغلاق اللعبة";
+        close.Click+=(_,_)=>FindForm()?.Close();
+        local.Click+=(_,_)=>LocalRequested?.Invoke(this,EventArgs.Empty);
+        online.Click+=(_,_)=>OnlineRequested?.Invoke(this,EventArgs.Empty);
+        retry.Click+=(_,_)=>RetryRequested?.Invoke(this,EventArgs.Empty);
+        Controls.AddRange(new Control[]{emblem,statusLabel,local,online,retry,close});
+        local.Visible=online.Visible=retry.Visible=false;
+        pulse=new System.Windows.Forms.Timer{Interval=32};
+        pulse.Tick+=(_,_)=>{frame++;Invalidate();};
+        VisibleChanged+=(_,_)=>{pulse.Enabled=Visible&&!failed;};
+        Resize+=(_,_)=>Reflow();pulse.Start();Reflow();
     }
-
-    private static Button MakeButton(string text, Color color)
+    private Button MakeButton(string text,bool primary)
     {
-        var button = new Button {
-            Text = text, Size = new Size(218, 47), FlatStyle = FlatStyle.Flat,
-            BackColor = color, ForeColor = color == Color.FromArgb(194, 241, 124) ? Color.FromArgb(22, 51, 41) : Color.FromArgb(237, 243, 234), Cursor = Cursors.Hand,
-            Font = new Font("Segoe UI", 10f, FontStyle.Bold), TabStop = true
-        };
-        button.FlatAppearance.BorderSize = 1;
-        button.FlatAppearance.BorderColor = color == Color.FromArgb(194, 241, 124) ? Color.FromArgb(194, 241, 124) : Color.FromArgb(43, 69, 64);
-        button.FlatAppearance.MouseOverBackColor = color == Color.FromArgb(194, 241, 124) ? Color.FromArgb(206, 250, 150) : Color.FromArgb(43, 82, 67);
-        return button;
+        var b=new Button{Text=text,Size=new Size(174,44),FlatStyle=FlatStyle.Flat,Cursor=Cursors.Hand,
+            BackColor=primary?lime:Color.FromArgb(27,51,44),ForeColor=primary?Color.FromArgb(22,51,41):Color.FromArgb(237,243,234),
+            Font=new Font("Segoe UI",10,FontStyle.Bold)};
+        b.FlatAppearance.BorderSize=0;return b;
     }
-
+    private float ContentTop => Math.Max(28,Height/2f-188);
     private void Reflow()
     {
-        var center = Width / 2;
-        var top = Math.Max(35, Height / 2 - 215);
-        emblem.Location = new Point(center - 69, top - 8);
-        statusLabel.Location = new Point(Math.Max(10, center - 340), top + 252);
-        statusLabel.Width = Math.Min(680, Math.Max(250, Width - 20));
-        local.Location = new Point(center - 223, top + 338);
-        online.Location = new Point(center + 5, top + 338);
-        retry.Location = new Point(center - 109, top + 338);
-        if (failed) {
-            local.Location = new Point(center - 336, top + 338);
-            retry.Location = new Point(center - 109, top + 338);
-            online.Location = new Point(center + 118, top + 338);
-        }
-        if (Width < 750) {
-            local.Location = new Point(center - 104, top + 300);
-            online.Location = new Point(center - 104, top + 352);
-            if (failed) retry.Location = new Point(center - 104, top + 404);
-        }
-        Invalidate();
+        var center=Width/2;var top=(int)ContentTop;
+        emblem.Location=new Point(center-64,top);
+        statusLabel.SetBounds(Math.Max(20,center-350),top+281,Math.Min(700,Math.Max(100,Width-40)),76);
+        retry.Location=new Point(center-87,top+378);local.Location=new Point(center-270,top+378);online.Location=new Point(center+96,top+378);
+        close.Location=new Point(Math.Max(8,Width-60),16);Invalidate();
     }
-
-    public void UpdateStatus(string message, bool error = false, bool working = false)
+    public void UpdateStatus(string message,bool error=false,bool working=false)
     {
-        statusLabel.Text = message;
-        statusLabel.ForeColor = error ? Color.FromArgb(255, 182, 176) : Color.FromArgb(168, 190, 205);
-        failed = error;
-        retry.Visible = error;
-        local.Visible = !working;
-        online.Visible = !working;
-        Reflow();
+        statusLabel.Text=message;failed=error;
+        statusLabel.ForeColor=error?Color.FromArgb(255,182,176):Color.FromArgb(175,193,181);
+        retry.Visible=local.Visible=online.Visible=error;
+        pulse.Enabled=Visible&&!error;Reflow();
     }
-
     protected override void OnPaint(PaintEventArgs e)
     {
-        base.OnPaint(e);
-        var g = e.Graphics;
-        g.SmoothingMode = SmoothingMode.AntiAlias;
-        using (var brush = new LinearGradientBrush(ClientRectangle, Color.FromArgb(16, 32, 31), Color.FromArgb(20, 45, 42), 24))
-            g.FillRectangle(brush, ClientRectangle);
-        using (var glow = new SolidBrush(Color.FromArgb(22, 103, 156, 95)))
-            g.FillEllipse(glow, Width / 2 - 320, Height / 2 - 310, 640, 640);
-        using (var glow2 = new SolidBrush(Color.FromArgb(16, 194, 241, 124)))
-            g.FillEllipse(glow2, Width / 2 - 230, Height / 2 - 280, 460, 460);
-        using (var field = new Pen(Color.FromArgb(30, 175, 193, 181), 1.5f))
+        base.OnPaint(e);if(Width<1||Height<1)return;
+        var g=e.Graphics;g.SmoothingMode=SmoothingMode.AntiAlias;g.TextRenderingHint=TextRenderingHint.AntiAliasGridFit;
+        using(var bg=new LinearGradientBrush(ClientRectangle,Color.FromArgb(12,25,24),Color.FromArgb(20,44,37),65))g.FillRectangle(bg,ClientRectangle);
+        var center=new PointF(Width/2f,Height/2f);
+        using(var shape=new GraphicsPath())
         {
-            var cx = Width / 2;
-            var cy = Height / 2;
-            g.DrawEllipse(field, cx - 290, cy - 300, 580, 580);
-            g.DrawEllipse(field, cx - 185, cy - 200, 370, 370);
+            shape.AddEllipse(center.X-390,center.Y-390,780,780);
+            using var glow=new PathGradientBrush(shape){CenterColor=Color.FromArgb(26,194,241,124),SurroundColors=new[]{Color.FromArgb(0,194,241,124)}};
+            g.FillPath(glow,shape);
         }
-        var y = Math.Max(35, Height / 2 - 215) + 132;
-        using var titleFont = new Font("Segoe UI", 31, FontStyle.Bold, GraphicsUnit.Point);
-        using var subtitleFont = new Font("Segoe UI", 11, FontStyle.Regular, GraphicsUnit.Point);
-        using var footerFont = new Font("Segoe UI", 9, FontStyle.Regular, GraphicsUnit.Point);
-        using var titleBrush = new SolidBrush(Color.FromArgb(237, 243, 234));
-        using var mutedBrush = new SolidBrush(Color.FromArgb(175, 193, 181));
-        using var limeBrush = new SolidBrush(Color.FromArgb(194, 241, 124));
-        using var taglineFont = new Font("Segoe UI", 15, FontStyle.Bold, GraphicsUnit.Point);
-        var centered = new StringFormat { Alignment = StringAlignment.Center, LineAlignment = StringAlignment.Center, FormatFlags = StringFormatFlags.DirectionRightToLeft };
-        g.DrawString("حروف الكورة", titleFont, titleBrush, new RectangleF(0, y, Width, 69), centered);
-        centered.FormatFlags = 0;
-        g.DrawString("جاوب. وصّل. واكسب التحدّي.", taglineFont, limeBrush, new RectangleF(0, y + 70, Width, 42), centered);
-        g.DrawString("HUROOF ALKORA  •  WINDOWS EDITION", subtitleFont, mutedBrush, new RectangleF(0, y + 112, Width, 32), centered);
-        if (!failed)
+        using(var field=new Pen(Color.FromArgb(13,194,241,124),1))
         {
-            int lineW = Math.Min(290, Width - 80);
-            int lineX = (Width - lineW) / 2;
-            int lineY = y + 182;
-            using var track = new SolidBrush(Color.FromArgb(35, 66, 58));
-            using var progress = new SolidBrush(Color.FromArgb(194, 241, 124));
-            g.FillRectangle(track, lineX, lineY, lineW, 4);
-            int offset = (frame * 4) % (lineW + 90) - 90;
-            var x1 = Math.Max(0, offset);
-            var x2 = Math.Min(lineW, offset + 90);
-            if (x2 > x1) g.FillRectangle(progress, lineX + x1, lineY, x2 - x1, 4);
+            g.DrawEllipse(field,center.X-310,center.Y-310,620,620);
+            g.DrawEllipse(field,center.X-185,center.Y-185,370,370);
+            g.DrawLine(field,center.X-500,center.Y+220,center.X+500,center.Y+220);
         }
-        g.DrawString("لعبة مستقلة  •  بدون صلاحيات مسؤول  •  محرك سريع على جهازك", footerFont, mutedBrush,
-            new RectangleF(10, Height - 66, Math.Max(50, Width - 20), 40), centered);
+        var family=fonts.Families.FirstOrDefault()??Font.FontFamily;
+        using var title=new Font(family,48,FontStyle.Bold,GraphicsUnit.Pixel);
+        using var subtitle=new Font(family,17,FontStyle.Regular,GraphicsUnit.Pixel);
+        using var white=new SolidBrush(Color.FromArgb(237,243,234));using var accent=new SolidBrush(lime);
+        using var muted=new SolidBrush(Color.FromArgb(125,153,138));
+        using var centered=new StringFormat{Alignment=StringAlignment.Center,LineAlignment=StringAlignment.Center,FormatFlags=StringFormatFlags.DirectionRightToLeft};
+        g.DrawString("حروف",title,white,new RectangleF(0,ContentTop+125,Width,70),centered);
+        g.DrawString("الكورة",title,accent,new RectangleF(0,ContentTop+184,Width,76),centered);
+        if(!failed)
+        {
+            var trackW=Math.Min(240,Width-80);var x=(Width-trackW)/2;var y=(int)ContentTop+365;
+            using var track=new SolidBrush(Color.FromArgb(38,65,52));g.FillRectangle(track,x,y,trackW,3);
+            var offset=frame*4%(trackW+80)-80;var from=Math.Max(0,offset);var to=Math.Min(trackW,offset+80);
+            if(to>from)g.FillRectangle(accent,x+from,y,to-from,3);
+        }
+        g.DrawString("الملعب ينتظرك",subtitle,muted,new RectangleF(0,Height-72,Width,36),centered);
     }
-
     protected override void Dispose(bool disposing)
     {
-        if (disposing) {
-            pulse.Stop(); pulse.Dispose(); emblem.Image?.Dispose();
-        }
+        if(disposing){pulse.Stop();pulse.Dispose();emblem.Image?.Dispose();fonts.Dispose();foreach(var buffer in fontBuffers)Marshal.FreeCoTaskMem(buffer);}
         base.Dispose(disposing);
     }
 }

@@ -19,6 +19,8 @@ try {
         & pnpm install --frozen-lockfile
         if ($LASTEXITCODE -ne 0) { throw 'pnpm install failed' }
     }
+    & node ../desktop/scripts/generate-brand-assets.mjs
+    if ($LASTEXITCODE -ne 0) { throw 'Brand asset generation failed.' }
     # Bundle the actual repository catalog and image bytes; never fetch at startup.
     & node scripts/build-source-library.mjs
     if ($LASTEXITCODE -ne 0) { throw 'Offline source library packaging failed.' }
@@ -33,8 +35,8 @@ try {
 $index = Join-Path $site 'dist\client\index.html'
 if (!(Test-Path $index)) { throw "Compiled frontend missing: $index" }
 New-Item -ItemType Directory -Force -Path $output | Out-Null
-& (Join-Path $PSScriptRoot 'Generate-BrandAssets.ps1')
-if ($LASTEXITCODE -ne 0) { throw 'Brand asset generation failed' }
+& dotnet run --project (Join-Path $desktop 'tests\HuroofAlKora.LaunchTests.csproj') --configuration Release
+if ($LASTEXITCODE -ne 0) { throw 'Native launch state tests failed.' }
 & dotnet publish $project --configuration Release --runtime win-x64 --self-contained true `
     -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true `
     -p:DebugType=None -p:DebugSymbols=false --output $output

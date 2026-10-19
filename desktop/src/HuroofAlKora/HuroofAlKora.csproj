@@ -9,16 +9,22 @@
     <AssemblyName>HuroofAlKora</AssemblyName>
     <RootNamespace>HuroofAlKora</RootNamespace>
     <ApplicationIcon>Assets\HuroofAlKora.ico</ApplicationIcon>
-    <Version>2.1.0</Version>
-    <AssemblyVersion>2.1.0.0</AssemblyVersion>
-    <FileVersion>2.1.0.0</FileVersion>
-    <Product>Huroof AlKora | حروف الكورة</Product>
+    <Version>2.2.0</Version>
+    <AssemblyVersion>2.2.0.0</AssemblyVersion>
+    <FileVersion>2.2.0.0</FileVersion>
+    <Product>حروف الكورة</Product>
     <Company>Yazn Abdulaziz</Company>
     <Description>Huroof AlKora - Secure desktop edition with native launch experience.</Description>
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="Assets\HuroofAlKora-master.png" />
+    <EmbeddedResource Include="Assets\Arabic-*.ttf" />
+    <EmbeddedResource Include="DesktopPage.js" />
+    <None Include="Assets\OFL-Cairo.txt" CopyToOutputDirectory="PreserveNewest" TargetPath="licenses\Cairo-OFL.txt" />
     <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.4258.31" />
   </ItemGroup>
+  <Target Name="RemoveUnusedWebViewWpf" BeforeTargets="ResolveAssemblyReferences">
+    <ItemGroup><Reference Remove="@(Reference)" Condition="'%(Reference.Filename)' == 'Microsoft.Web.WebView2.Wpf'" /></ItemGroup>
+  </Target>
 </Project>
